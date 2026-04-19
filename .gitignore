@@ -47,5 +47,4 @@ next-env.d.ts
 
 # Generated/temporary subsidy data
 data/raw/
-data/normalized/
 public/data/
