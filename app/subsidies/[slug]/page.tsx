@@ -6,9 +6,16 @@ import type { Metadata } from "next"
 import type { NormalizedSubsidy, SubsidyIndexItem } from "../../../lib/types"
 import { SITE_NAME, absoluteUrl } from "../../../lib/site"
 
-export function generateStaticParams() {
+export const dynamicParams = false
+
+export function generateStaticParams(): { slug: string }[] {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-index.json"
+    )
     const index: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
     return index.map((s) => ({ slug: s.slug }))
   } catch {
@@ -36,7 +43,9 @@ function buildDescription(subsidy: NormalizedSubsidy) {
     subsidy.overview,
     subsidy.upperLimit ? `補助上限額は${subsidy.upperLimit}` : null,
     subsidy.subsidizedRate ? `補助率は${subsidy.subsidizedRate}` : null,
-    subsidy.purposes.length > 0 ? `対象用途は${subsidy.purposes.join("・")}` : null,
+    subsidy.purposes.length > 0
+      ? `対象用途は${subsidy.purposes.join("・")}`
+      : null,
   ].filter(Boolean)
 
   return parts.join("。").slice(0, 140)
@@ -95,9 +104,25 @@ const Page: FC<Props> = async ({ params }) => {
 
   if (!subsidy) {
     return (
-      <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center", padding: "4rem 0" }}>
-        <p style={{ color: "#888", marginBottom: "1rem" }}>補助金が見つかりませんでした</p>
-        <Link href="/subsidies" style={{ color: "#7ec8e3", textDecoration: "none", fontSize: ".875rem" }}>
+      <div
+        style={{
+          maxWidth: "800px",
+          margin: "0 auto",
+          textAlign: "center",
+          padding: "4rem 0",
+        }}
+      >
+        <p style={{ color: "#888", marginBottom: "1rem" }}>
+          補助金が見つかりませんでした
+        </p>
+        <Link
+          href="/subsidies"
+          style={{
+            color: "#7ec8e3",
+            textDecoration: "none",
+            fontSize: ".875rem",
+          }}
+        >
           ← 補助金一覧に戻る
         </Link>
       </div>
@@ -173,7 +198,14 @@ const Page: FC<Props> = async ({ params }) => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <Link href="/subsidies" style={{ color: "#7ec8e3", textDecoration: "none", fontSize: ".875rem" }}>
+        <Link
+          href="/subsidies"
+          style={{
+            color: "#7ec8e3",
+            textDecoration: "none",
+            fontSize: ".875rem",
+          }}
+        >
           ← 補助金一覧
         </Link>
       </div>
@@ -187,7 +219,14 @@ const Page: FC<Props> = async ({ params }) => {
           marginBottom: "1.5rem",
         }}
       >
-        <div style={{ display: "flex", gap: ".75rem", marginBottom: "1rem", flexWrap: "wrap" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: ".75rem",
+            marginBottom: "1rem",
+            flexWrap: "wrap",
+          }}
+        >
           <span
             style={{
               backgroundColor: st.color + "22",
@@ -212,7 +251,9 @@ const Page: FC<Props> = async ({ params }) => {
             {regionLabel[subsidy.region] ?? subsidy.region}
           </span>
           {subsidy.prefectures.length > 0 && subsidy.region !== "national" && (
-            <span style={{ color: "#888", fontSize: ".8rem", alignSelf: "center" }}>
+            <span
+              style={{ color: "#888", fontSize: ".8rem", alignSelf: "center" }}
+            >
               {subsidy.prefectures.join("、")}
             </span>
           )}
@@ -246,7 +287,9 @@ const Page: FC<Props> = async ({ params }) => {
         )}
 
         {subsidy.overview && (
-          <p style={{ color: "#ccc", fontSize: ".9rem", lineHeight: 1.7 }}>{subsidy.overview}</p>
+          <p style={{ color: "#ccc", fontSize: ".9rem", lineHeight: 1.7 }}>
+            {subsidy.overview}
+          </p>
         )}
       </div>
 
@@ -264,7 +307,10 @@ const Page: FC<Props> = async ({ params }) => {
             {infoRows
               .filter((r) => r.value)
               .map((row) => (
-                <tr key={row.label} style={{ borderBottom: "1px solid #2a3a5a" }}>
+                <tr
+                  key={row.label}
+                  style={{ borderBottom: "1px solid #2a3a5a" }}
+                >
                   <td
                     style={{
                       padding: ".75rem 1rem",
@@ -277,7 +323,13 @@ const Page: FC<Props> = async ({ params }) => {
                   >
                     {row.label}
                   </td>
-                  <td style={{ padding: ".75rem 1rem", color: "#e0e0ff", fontSize: ".9rem" }}>
+                  <td
+                    style={{
+                      padding: ".75rem 1rem",
+                      color: "#e0e0ff",
+                      fontSize: ".9rem",
+                    }}
+                  >
                     {row.value}
                   </td>
                 </tr>
@@ -288,7 +340,11 @@ const Page: FC<Props> = async ({ params }) => {
 
       {subsidy.purposes.length > 0 && (
         <div style={{ marginBottom: "1.5rem" }}>
-          <h2 style={{ color: "#888", fontSize: ".8rem", marginBottom: ".5rem" }}>対象用途</h2>
+          <h2
+            style={{ color: "#888", fontSize: ".8rem", marginBottom: ".5rem" }}
+          >
+            対象用途
+          </h2>
           <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
             {subsidy.purposes.map((p) => (
               <span
@@ -310,7 +366,11 @@ const Page: FC<Props> = async ({ params }) => {
 
       {subsidy.industries.length > 0 && (
         <div style={{ marginBottom: "1.5rem" }}>
-          <h2 style={{ color: "#888", fontSize: ".8rem", marginBottom: ".5rem" }}>対象業種</h2>
+          <h2
+            style={{ color: "#888", fontSize: ".8rem", marginBottom: ".5rem" }}
+          >
+            対象業種
+          </h2>
           <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
             {subsidy.industries.map((ind) => (
               <span
@@ -340,8 +400,14 @@ const Page: FC<Props> = async ({ params }) => {
             marginBottom: "1.5rem",
           }}
         >
-          <h2 style={{ color: "#888", fontSize: ".8rem", marginBottom: ".75rem" }}>詳細</h2>
-          <p style={{ color: "#ccc", fontSize: ".875rem", lineHeight: 1.7 }}>{subsidy.detail}</p>
+          <h2
+            style={{ color: "#888", fontSize: ".8rem", marginBottom: ".75rem" }}
+          >
+            詳細
+          </h2>
+          <p style={{ color: "#ccc", fontSize: ".875rem", lineHeight: 1.7 }}>
+            {subsidy.detail}
+          </p>
         </div>
       )}
 
@@ -368,7 +434,14 @@ const Page: FC<Props> = async ({ params }) => {
       )}
 
       <div style={{ textAlign: "center" }}>
-        <Link href="/diagnosis" style={{ color: "#7ec8e3", textDecoration: "none", fontSize: ".875rem" }}>
+        <Link
+          href="/diagnosis"
+          style={{
+            color: "#7ec8e3",
+            textDecoration: "none",
+            fontSize: ".875rem",
+          }}
+        >
           この補助金との適合度を診断する →
         </Link>
       </div>
