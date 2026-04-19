@@ -3,7 +3,7 @@ import path from "path"
 import type { MetadataRoute } from "next"
 import type { SubsidyIndexItem } from "../lib/types"
 
-const DEFAULT_SITE_URL = "https://example.com"
+const DEFAULT_SITE_URL = "https://r-subsidy.reload.co.jp"
 export const dynamic = "force-static"
 
 function getSiteUrl() {

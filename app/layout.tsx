@@ -1,9 +1,13 @@
 import "./reset.css"
 import Link from "next/link"
+import type { Metadata } from "next"
 
-export const metadata = {
+const SITE_URL = "https://r-subsidy.reload.co.jp"
+
+export const metadata: Metadata = {
   title: "補助金ポータル | 中小企業・個人事業主向け",
   description: "中小企業・個人事業主向けに、自社属性から補助金を検索・マッチングできる静的ポータルサイト",
+  metadataBase: new URL(SITE_URL),
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
