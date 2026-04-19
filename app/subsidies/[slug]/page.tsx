@@ -6,8 +6,6 @@ import type { Metadata } from "next"
 import type { NormalizedSubsidy, SubsidyIndexItem } from "../../../lib/types"
 import { SITE_NAME, absoluteUrl } from "../../../lib/site"
 
-export const dynamicParams = false
-
 export function generateStaticParams(): { slug: string }[] {
   try {
     const file = path.join(
