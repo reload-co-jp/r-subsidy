@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import type { JGrantsDetailResponse } from '../lib/types'
 
-const BASE_URL = 'https://jgrants-portal.go.jp/subsidy/v2/subsidies'
+const BASE_URL = 'https://api.jgrants-portal.go.jp/exp/v2/public/subsidies/id'
 const RAW_DIR = path.join(process.cwd(), 'data', 'raw')
 const DETAIL_DIR = path.join(RAW_DIR, 'jgrants-details')
 const ERRORS_FILE = path.join(RAW_DIR, 'fetch-errors.json')

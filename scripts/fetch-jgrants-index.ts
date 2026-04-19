@@ -2,12 +2,33 @@ import fs from 'fs'
 import path from 'path'
 import type { JGrantsListItem, JGrantsListResponse } from '../lib/types'
 
-const BASE_URL = 'https://jgrants-portal.go.jp/subsidy/v1/subsidies'
-const LIMIT = 100
+const BASE_URL = 'https://api.jgrants-portal.go.jp/exp/v1/public/subsidies'
 const OUTPUT_DIR = path.join(process.cwd(), 'data', 'raw')
+const DEFAULT_KEYWORDS = ['補助', '助成', '支援']
+const SORT = 'created_date'
+const ORDER = 'DESC'
+const ACCEPTANCE = '0'
 
-async function fetchPage(offset: number): Promise<JGrantsListResponse> {
-  const url = `${BASE_URL}?limit=${LIMIT}&offset=${offset}`
+function extractItems(response: JGrantsListResponse): JGrantsListItem[] {
+  return Array.isArray(response.result) ? response.result : response.result.subsidies
+}
+
+function extractCount(response: JGrantsListResponse, fallbackCount: number): number {
+  if (Array.isArray(response.result)) {
+    return response.metadata?.resultset?.count ?? response.metadata?.resultset?.total_count ?? fallbackCount
+  }
+
+  return response.result.metadata.count ?? response.result.metadata.total_count
+}
+
+async function fetchByKeyword(keyword: string): Promise<JGrantsListResponse> {
+  const params = new URLSearchParams({
+    keyword,
+    sort: SORT,
+    order: ORDER,
+    acceptance: ACCEPTANCE,
+  })
+  const url = `${BASE_URL}?${params.toString()}`
   const res = await fetch(url, {
     headers: { 'Content-Type': 'application/json' },
   })
@@ -16,32 +37,29 @@ async function fetchPage(offset: number): Promise<JGrantsListResponse> {
 }
 
 async function fetchAllIds(): Promise<string[]> {
-  const ids: string[] = []
-  let offset = 0
+  const ids = new Set<string>()
+  const itemMap = new Map<string, JGrantsListItem>()
+  const keywords = process.env.JGRANTS_KEYWORDS?.split(',').map((v) => v.trim()).filter(Boolean) ?? DEFAULT_KEYWORDS
 
   console.log('Fetching JGrants subsidy index...')
+  console.log(`Keywords: ${keywords.join(', ')}`)
 
-  const first = await fetchPage(0)
-  const total = first.result.metadata.total_count
-  console.log(`Total subsidies: ${total}`)
+  for (const keyword of keywords) {
+    const response = await fetchByKeyword(keyword)
+    const items = extractItems(response)
+    const count = extractCount(response, items.length)
+    console.log(`  "${keyword}" => ${count} items`)
 
-  const items: JGrantsListItem[] = [...first.result.subsidies]
-  offset += first.result.subsidies.length
-
-  while (offset < total) {
-    try {
-      const page = await fetchPage(offset)
-      items.push(...page.result.subsidies)
-      offset += page.result.subsidies.length
-      process.stdout.write(`\r  Fetched ${offset}/${total}`)
-      await new Promise((r) => setTimeout(r, 200))
-    } catch (err) {
-      console.error(`\nError at offset ${offset}:`, err)
-      break
+    for (const item of items) {
+      ids.add(item.id)
+      itemMap.set(item.id, item)
     }
+
+    await new Promise((r) => setTimeout(r, 200))
   }
 
-  console.log(`\nFetched ${items.length} items`)
+  const items = [...itemMap.values()]
+  console.log(`Merged unique items: ${items.length}`)
 
   fs.mkdirSync(OUTPUT_DIR, { recursive: true })
   fs.writeFileSync(
@@ -49,8 +67,7 @@ async function fetchAllIds(): Promise<string[]> {
     JSON.stringify({ fetchedAt: new Date().toISOString(), items }, null, 2)
   )
 
-  ids.push(...items.map((i) => i.id))
-  return ids
+  return [...ids]
 }
 
 fetchAllIds()

@@ -44,3 +44,10 @@ lib-cov
 out/
 
 next-env.d.ts
+
+# Generated/temporary subsidy data
+data/raw/
+data/normalized/
+data/generated/
+!data/generated/.gitkeep
+public/data/

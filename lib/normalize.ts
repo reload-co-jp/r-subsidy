@@ -106,25 +106,68 @@ export function normalizeIndustries(industryTypes: string[] | undefined): string
   return industryTypes.map((t) => t.trim()).filter(Boolean)
 }
 
+function splitDelimitedText(value: string | undefined): string[] {
+  if (!value) return []
+  return value
+    .split(/[\/／,、]/)
+    .map((part) => part.trim())
+    .filter(Boolean)
+}
+
+function normalizeJGrantsPrefectures(detail: JGrantsDetail): string[] {
+  const legacyPrefectures = detail.target?.prefecture ?? []
+  if (legacyPrefectures.length > 0) return legacyPrefectures
+
+  const workflowAreas = detail.workflow?.flatMap((item) => splitDelimitedText(item.target_area_search)) ?? []
+  const directAreas = splitDelimitedText(detail.target_area_search)
+  const merged = [...workflowAreas, ...directAreas]
+  const unique = [...new Set(merged)]
+
+  if (
+    unique.length === 0 &&
+    (detail.target_area_detail?.includes('全国') ||
+      detail.workflow?.some((item) => item.target_area_detail?.includes('全国')))
+  ) {
+    return []
+  }
+
+  return unique
+}
+
+function normalizeJGrantsWorkflow(detail: JGrantsDetail): string | null {
+  return detail.acceptance_period_list?.[0]?.workflow ?? detail.institution_name ?? null
+}
+
+function normalizeJGrantsReferenceUrl(detail: JGrantsDetail): string | null {
+  return detail.subsidy_detail?.reference_url ?? detail.front_subsidy_detail_page_url ?? null
+}
+
 export function toSlug(id: string): string {
   return id.replace(/[^a-zA-Z0-9-_]/g, '-').toLowerCase()
 }
 
 export function normalizeJGrantsDetail(detail: JGrantsDetail): NormalizedSubsidy {
-  const prefectures = detail.target?.prefecture ?? []
+  const prefectures = normalizeJGrantsPrefectures(detail)
   const region = normalizeRegion(prefectures)
 
   const period = detail.acceptance_period_list?.[0]
-  const startDate = formatDate(parseJGrantsDate(period?.start_date ?? detail.subsidy_detail?.reference_url))
-  const endDate = formatDate(parseJGrantsDate(period?.end_date))
+  const workflow = detail.workflow?.[0]
+  const startDate = formatDate(
+    parseJGrantsDate(
+      period?.start_date ?? workflow?.acceptance_start_datetime ?? detail.acceptance_start_datetime
+    )
+  )
+  const endDate = formatDate(
+    parseJGrantsDate(period?.end_date ?? workflow?.acceptance_end_datetime ?? detail.acceptance_end_datetime)
+  )
 
   const status = normalizeStatus(detail.acceptance_status, startDate, endDate)
 
-  const overview = detail.subsidy_detail?.overview ?? detail.subtitle ?? ''
-  const fullText = `${detail.title} ${overview} ${detail.subsidy_detail?.detail ?? ''}`
+  const overview = detail.subsidy_detail?.overview ?? detail.subsidy_catch_phrase ?? detail.subtitle ?? ''
+  const fullText = `${detail.title} ${overview} ${detail.subsidy_detail?.detail ?? detail.detail ?? ''} ${detail.use_purpose ?? ''}`
   const purposes = extractPurposes(fullText)
 
-  const empStr = detail.target?.target_number_of_employees
+  const empStr = detail.target?.target_number_of_employees ?? detail.target_number_of_employees
   const { min: employeeMin, max: employeeMax } = normalizeEmployeeCount(empStr)
 
   return {
@@ -132,22 +175,30 @@ export function normalizeJGrantsDetail(detail: JGrantsDetail): NormalizedSubsidy
     slug: toSlug(detail.id),
     title: detail.title,
     overview,
-    detail: detail.subsidy_detail?.detail ?? '',
+    detail: detail.subsidy_detail?.detail ?? detail.detail ?? '',
     region,
     prefectures,
-    industries: normalizeIndustries(detail.target?.industry_type),
+    industries: normalizeIndustries(detail.target?.industry_type ?? splitDelimitedText(detail.industry)),
     employeeMin,
     employeeMax,
     purposes,
     status,
-    workflow: period?.workflow ?? null,
-    subsidizedRate: detail.subsidy_detail?.subsidized_rate ?? null,
-    upperLimit: detail.subsidy_detail?.upper_limit ?? null,
-    lowerLimit: detail.subsidy_detail?.lower_limit ?? null,
-    startDate: formatDate(parseJGrantsDate(period?.start_date)),
-    endDate: formatDate(parseJGrantsDate(period?.end_date)),
+    workflow: normalizeJGrantsWorkflow(detail),
+    subsidizedRate: detail.subsidy_detail?.subsidized_rate ?? detail.subsidy_rate ?? null,
+    upperLimit:
+      detail.subsidy_detail?.upper_limit ??
+      (typeof detail.subsidy_max_limit === 'number'
+        ? `${detail.subsidy_max_limit.toLocaleString('ja-JP')}円`
+        : null),
+    lowerLimit:
+      detail.subsidy_detail?.lower_limit ??
+      (typeof detail.subsidy_min_limit === 'number'
+        ? `${detail.subsidy_min_limit.toLocaleString('ja-JP')}円`
+        : null),
+    startDate,
+    endDate,
     source: 'jgrants',
-    referenceUrl: detail.subsidy_detail?.reference_url ?? null,
+    referenceUrl: normalizeJGrantsReferenceUrl(detail),
     updatedAt: detail.updated_date ?? new Date().toISOString(),
   }
 }

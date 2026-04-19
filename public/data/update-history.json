@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-04-19T15:33:51.340Z",
-  "totalCount": 13,
+  "lastUpdated": "2026-04-19T18:30:00.314Z",
+  "totalCount": 2872,
   "sources": {
-    "jgrants": 0,
-    "national": 10,
-    "tokyo": 3,
+    "jgrants": 2872,
+    "national": 0,
+    "tokyo": 0,
     "manual": 0
   }
 }

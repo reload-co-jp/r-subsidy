@@ -3,9 +3,6 @@ import path from 'path'
 import type { NormalizedSubsidy } from '../lib/types'
 
 const NORMALIZED_FILE = path.join(process.cwd(), 'data', 'normalized', 'jgrants-normalized.json')
-const TOKYO_FILE = path.join(process.cwd(), 'data', 'source', 'tokyo-subsidies.json')
-const NATIONAL_FILE = path.join(process.cwd(), 'data', 'source', 'national-subsidies.json')
-const OVERRIDES_FILE = path.join(process.cwd(), 'data', 'source', 'manual-overrides.json')
 const OUT_DIR = path.join(process.cwd(), 'data', 'normalized')
 
 async function main() {
@@ -14,34 +11,7 @@ async function main() {
   const jgrants: NormalizedSubsidy[] = fs.existsSync(NORMALIZED_FILE)
     ? JSON.parse(fs.readFileSync(NORMALIZED_FILE, 'utf-8')).subsidies
     : []
-
-  const tokyo: NormalizedSubsidy[] = fs.existsSync(TOKYO_FILE)
-    ? JSON.parse(fs.readFileSync(TOKYO_FILE, 'utf-8'))
-    : []
-
-  const national: NormalizedSubsidy[] = fs.existsSync(NATIONAL_FILE)
-    ? JSON.parse(fs.readFileSync(NATIONAL_FILE, 'utf-8'))
-    : []
-
-  const overrides: Partial<NormalizedSubsidy>[] = fs.existsSync(OVERRIDES_FILE)
-    ? JSON.parse(fs.readFileSync(OVERRIDES_FILE, 'utf-8'))
-    : []
-
-  // Deduplicate: jgrants IDs take priority
-  const jgrantsIds = new Set(jgrants.map((s) => s.id))
-  const tokyoFiltered = tokyo.filter((s) => !jgrantsIds.has(s.id))
-  const nationalFiltered = national.filter((s) => !jgrantsIds.has(s.id))
-
-  let merged: NormalizedSubsidy[] = [...jgrants, ...nationalFiltered, ...tokyoFiltered]
-
-  // Apply manual overrides
-  for (const override of overrides) {
-    if (!override.id) continue
-    const idx = merged.findIndex((s) => s.id === override.id)
-    if (idx >= 0) {
-      merged[idx] = { ...merged[idx], ...override } as NormalizedSubsidy
-    }
-  }
+  const merged: NormalizedSubsidy[] = [...jgrants]
 
   fs.writeFileSync(
     path.join(OUT_DIR, 'merged.json'),
@@ -50,9 +20,9 @@ async function main() {
         mergedAt: new Date().toISOString(),
         counts: {
           jgrants: jgrants.length,
-          national: nationalFiltered.length,
-          tokyo: tokyoFiltered.length,
-          overrides: overrides.length,
+          national: 0,
+          tokyo: 0,
+          overrides: 0,
           total: merged.length,
         },
         subsidies: merged,
@@ -62,9 +32,7 @@ async function main() {
     )
   )
 
-  console.log(
-    `Merged: ${jgrants.length} JGrants + ${nationalFiltered.length} National + ${tokyoFiltered.length} Tokyo = ${merged.length} total`
-  )
+  console.log(`Merged: ${jgrants.length} JGrants = ${merged.length} total`)
 }
 
 main().catch((err) => {

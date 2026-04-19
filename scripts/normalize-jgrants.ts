@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import type { JGrantsDetailResponse, NormalizedSubsidyWithRaw } from '../lib/types'
+import type { JGrantsDetailResponse, NormalizedSubsidy } from '../lib/types'
 import { normalizeJGrantsDetail } from '../lib/normalize'
 
 const DETAIL_DIR = path.join(process.cwd(), 'data', 'raw', 'jgrants-details')
@@ -17,7 +17,7 @@ async function main() {
   const files = fs.readdirSync(DETAIL_DIR).filter((f) => f.endsWith('.json'))
   console.log(`Normalizing ${files.length} subsidies...`)
 
-  const results: NormalizedSubsidyWithRaw[] = []
+  const results: NormalizedSubsidy[] = []
   let warnings = 0
 
   for (const file of files) {
@@ -25,8 +25,12 @@ async function main() {
       const raw = JSON.parse(
         fs.readFileSync(path.join(DETAIL_DIR, file), 'utf-8')
       ) as JGrantsDetailResponse
-      const normalized = normalizeJGrantsDetail(raw.result)
-      results.push({ ...normalized, raw: raw.result })
+      const detail = Array.isArray(raw.result) ? raw.result[0] : raw.result
+      if (!detail) {
+        throw new Error('empty result')
+      }
+      const normalized = normalizeJGrantsDetail(detail)
+      results.push(normalized)
     } catch (err) {
       console.warn(`  Warning: ${file} - ${err}`)
       warnings++
