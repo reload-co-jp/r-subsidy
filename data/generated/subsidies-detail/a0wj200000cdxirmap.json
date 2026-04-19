@@ -1,0 +1,41 @@
+{
+  "id": "a0WJ200000CDXIrMAP",
+  "slug": "a0wj200000cdxirmap",
+  "title": "令和7年度補正 重要市場の商流維持・拡大緊急対策事業",
+  "overview": "重要市場事業",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-family: sans-serif;\">　</span><span style=\"font-size: 12.8px;\">農林水産物・食品の更なる輸出拡大に向けては、輸出に取り組む事業者の支援等を行う必要があります。このため、本事業では、重要市場の商流の維持・拡大に向けて日本産品の競争力強化を図ることで、日本産農林水産物・食品の輸出拡大を目指します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■根拠法・法令</strong></p><p><span style=\"font-size: 12.8px;\">　・補助金等に係る予算の執行の適正化に関する法律</span></p><p><span style=\"font-size: 12.8px;\">　・補助金等に係る予算の執行の適正化に関する法律施行令</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">　１．重要市場における農林水産物・食品の輸出拡大を図る取組であること</span></p><p><span style=\"font-size: 12.8px;\">　２．取り組む国・地域において、直近２年以上の輸出実績があること</span></p><p><span style=\"font-size: 12.8px;\">　３．認定品目団体の会員による取組又は当該会員と連携した取組であること</span></p><p><span style=\"font-size: 12.8px;\"> ※そのほかの要件は、公募要領2.1～2.3をご確認ください</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p style=\"text-align: justify;\"><span style=\"font-size: 12.8px;\">　全国、海外</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">　重要市場事業事務局</span></p><p><span style=\"font-size: 12.8px;\">　電話：050-5536-4680</span></p><p><span style=\"font-size: 12.8px;\">　受付：平日 10:00–12:00 / 13:00–16:00</span></p><p><span style=\"font-size: 12.8px;\">　メール：yushutsu-kakudai01@mail.gnavi.co.jp</span></p><p><span style=\"font-size: 12.8px;\">　※お問い合わせへの回答は、内容により2～3営業日を要する場合がございます。あらかじめご了承ください。</span></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国",
+    "海外"
+  ],
+  "industries": [
+    "漁業",
+    "製造業",
+    "サービス業（他に分類されないもの）",
+    "農業",
+    "林業",
+    "卸売業",
+    "小売業",
+    "宿泊業",
+    "飲食サービス業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "販路拡大",
+    "研究開発",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "令和7年度補正 重要市場の商流維持・拡大緊急対策事業（重要市場の商流の維持・拡大への支援）",
+  "subsidizedRate": "定額、1/2以内",
+  "upperLimit": "10,000,000円",
+  "lowerLimit": null,
+  "startDate": "2026-02-09",
+  "endDate": "2026-02-27",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXIrMAP",
+  "updatedAt": "2026-04-19T18:29:28.037Z"
+}

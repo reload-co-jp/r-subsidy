@@ -1,0 +1,42 @@
+{
+  "id": "a0WJ200000CDY2TMAX",
+  "slug": "a0wj200000cdy2tmax",
+  "title": "既存住宅流通活性化緊急促進事業",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 13px;\">この補助金は、住宅価格が高騰する大都市圏、リフォーム設計、インスペクション及び補修費用等の支援を行うことで遊休住宅等の流通を緊急的かつ強力に促し、もって、若年・子育て世帯等にとってアフォーダブルな住宅の供給を促進することを目的とする。 </span></p><p><br></p><p><strong style=\"font-size: 13px; color: rgb(0, 106, 186);\">■申請対象事業者</strong></p><p><span style=\"font-size: 13px; color: rgb(24, 24, 24);\">宅地建物取引業者（国土交通省または都道府県知事から免許を受けた事業者であること）</span></p><p><br></p><p><strong style=\"font-size: 13px; color: rgb(0, 106, 186);\">■対象住宅</strong></p><p><span style=\"font-size: 13px; color: rgb(24, 24, 24);\">空き家または所有者の高齢化や相続等により今後遊休化することが見込まれる「戸建住宅」又は「共同住宅」</span></p><p><br></p><p><strong style=\"font-size: 13px; color: rgb(0, 106, 186);\">■対象区域</strong></p><p><span style=\"color: rgb(24, 24, 24); font-size: 10pt;\"> </span><span style=\"color: rgb(24, 24, 24);\">首都圏、近畿圏、中部圏、札幌都市圏、仙台都市圏、広島都市圏、福岡都市圏及びその周辺において、住宅需要が高く一定以上の住宅地地価の上昇がみられる地域（詳細は交付申請等マニュアル参照）</span></p><p><br></p><p><strong style=\"color: rgb(0, 106, 186);\">■補助対象・補助額（５万円～最大２３万円）</strong></p><p><span style=\"color: rgb(24, 24, 24);\">①既存住宅状況調査（必須） ： 補助額５万円／戸（補助金交付先：住宅所有者）</span></p><p><span style=\"color: rgb(24, 24, 24);\">②リフォーム設計・提案　　 ： 補助額３万円／戸（補助金交付先：宅建業者）</span></p><p><span style=\"color: rgb(24, 24, 24);\">③補修工事※ 　　　　　　　： 補助額５万円／箇所、かつ上限１５万円／戸</span></p><p><span style=\"color: rgb(24, 24, 24);\"> 　　　　　　　　　　　　　　　　　　　　　　　（補助金交付先：住宅所有者）</span></p><p><span style=\"color: rgb(24, 24, 24);\">※既存住宅状況調査により判明した補修が必要な以下の箇所が対象</span></p><p><span style=\"color: rgb(24, 24, 24);\"> ａ．構造耐力上主要な部分等</span></p><p><span style=\"color: rgb(24, 24, 24);\"> ｂ．台所、便所、洗面及び浴室等（ａ．の修繕のために撤去等を要するものに限る）</span></p><p><br></p><p><strong style=\"color: rgb(0, 106, 186);\">■受付期間</strong></p><p><span style=\"color: rgb(24, 24, 24);\">交付申請：令和８年３月２３日（月）～ 令和８年１１月３０日（月）１７時</span></p><p><span style=\"color: rgb(24, 24, 24);\">完了実績： 交付決定日以降 ～ 令和８年１２月２５日（金）１７時</span></p><p><span style=\"color: rgb(24, 24, 24);\">　※期限前に予算が上限に達した場合は受付を終了します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"color: rgb(0, 0, 0);\">既存住宅流通活性化緊急促進事業実施支援室（下記URL参照）</span></p><p><span style=\"color: rgb(0, 0, 0);\">メールアドレス：</span><a href=\"mailto:kizon_hojyo@sumaimachi-center-rengoukai.or.jp\" target=\"_blank\" style=\"color: rgb(0, 0, 0); font-size: 14.4px;\"><strong>kizon_hojyo@sumaimachi-center-rengoukai.or.jp</strong></a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL　</strong><span style=\"color: rgb(0, 0, 0);\">※事業の詳細、交付申請等マニュアル・様式類は以下よりご確認ください。</span></p><p><a href=\"https://www.sumaimachi-center-rengoukai.or.jp/kizon_hojyo/\" target=\"_blank\" style=\"color: rgb(0, 0, 0);\"><strong>https://www.sumaimachi-center-rengoukai.or.jp/kizon_hojyo/</strong></a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "北海道",
+    "宮城県",
+    "茨城県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "愛知県",
+    "滋賀県",
+    "京都府",
+    "大阪府",
+    "兵庫県",
+    "広島県",
+    "福岡県",
+    "佐賀県"
+  ],
+  "industries": [
+    "不動産業",
+    "物品賃貸業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [],
+  "status": "open",
+  "workflow": "既存住宅流通活性化緊急促進事業",
+  "subsidizedRate": "定額",
+  "upperLimit": "158,000,000円",
+  "lowerLimit": null,
+  "startDate": "2026-03-23",
+  "endDate": "2026-12-25",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY2TMAX",
+  "updatedAt": "2026-04-19T18:29:28.388Z"
+}

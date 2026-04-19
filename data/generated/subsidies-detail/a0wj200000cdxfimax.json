@@ -1,0 +1,30 @@
+{
+  "id": "a0WJ200000CDXfIMAX",
+  "slug": "a0wj200000cdxfimax",
+  "title": "四日市市海外人材確保支援事業補助金",
+  "overview": "製造業のグローバル展開を後押し！外国人留学生のインターン受入と海外現地人材の育成をサポート",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■目的・概要</strong></p><p><span style=\"font-size: 16px;\">外国人留学生のインターンシップの受入れ及び海外現地人材の育成に取り組む中小企業者を支援するための補助金です。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■応募資格</strong></p><p><span style=\"font-size: 16px;\">主たる事業所（国内における従業員総数の2分の1以上の従業員が常時勤務している事業所）を市内に有し、1年以上事業を営む中小企業者のうち、製造業を営むもの。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■地理条件</strong></p><p><span style=\"font-size: 16px;\">主たる事業所が三重県四日市市内にあること。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■備考</strong></p><p><span style=\"font-size: 16px;\">1事業者につき1年度あたり50万円が上限ですが、予算の範囲内で補助金額が減額される可能性があります。また、補助対象経費は、補助対象事業者又は補助対象事業者の海外現地子会社等の事業者が負担するものに限られます。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■問合せ先</strong></p><p><span style=\"font-size: 16px;\">四日市市 商工農水部 工業振興課 工業政策係 電話番号：059-354-8194</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■参照URL</strong></p><p><a href=\"https://www.city.yokkaichi.lg.jp/www/contents/1001000001353/index.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.city.yokkaichi.lg.jp/www/contents/1001000001353/index.html</a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "三重県"
+  ],
+  "industries": [
+    "製造業"
+  ],
+  "employeeMin": null,
+  "employeeMax": 300,
+  "purposes": [
+    "人材育成",
+    "販路拡大"
+  ],
+  "status": "closed",
+  "workflow": "四日市市海外人材確保支援事業補助金",
+  "subsidizedRate": "インターンシップ実習生の交通費及び宿泊費、海外現地人材の渡航費、および日本国内での研修に参加する場合の参加費については2分の1以内。インターンシップ実習生の指導のために配置した人員の人件費は定額（1日あたり5千円）です。",
+  "upperLimit": "500,000円",
+  "lowerLimit": null,
+  "startDate": "2025-03-31",
+  "endDate": "2026-03-31",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXfIMAX",
+  "updatedAt": "2026-04-19T18:29:28.175Z"
+}

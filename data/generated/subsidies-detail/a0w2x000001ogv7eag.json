@@ -1,0 +1,33 @@
+{
+  "id": "a0W2x000001OGv7EAG",
+  "slug": "a0w2x000001ogv7eag",
+  "title": "【神戸市】令和３年度中小製造業投資促進等助成（①設備投資・新増設）",
+  "overview": "操業基盤の強化に向けた設備投資をサポートします",
+  "detail": "<p><b style=\"color: rgb(0, 111, 173);\">■目的・概要</b></p><p>市内中小製造業の操業基盤の強化を図るため、技術力や生産性の向上、受注拡大、研究開発機能の強化などに向けた設備投資等を行う事業者に対し、予算の範囲内で助成金を交付します。</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■応募資格</b></p><p>神戸市内の主たる事業所（本社、生産工場、研究開発拠点）において1年以上前から継続して製造業を営む中小企業者又はこれら事業者で構成される団体（事業協同組合等）。</p><p><span style=\"background-color: rgb(255, 255, 255); font-size: 14px;\">ただし、「サプライチェーン強靭化のための海外生産拠点の神戸市内への移転に必要な設備・建物」の取得について申請する場合は、市内に主たる事業所を持たない中小製造業者又はこれら事業者で構成される団体も対象とします。</span></p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■地理条件</b></p><p>都市計画法に基づく用途地域が「工業専用地域」「工業地域」「準工業地域」のいずれかに該当する地域　等</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■備考</b></p><p>詳細は公募要領をご参照ください。</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■問合せ先</b></p><p>神戸市経済観光局工業課　電話：(078)984-0340</p><p>〒651-0087</p><p>神戸市中央区御幸通6-1-12（三宮ビル東館4階）</p><p>（お問い合わせは土・日・祝日を除く9:00～12:00、13:00～17:00）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■参照URL</b></p><p><a href=\"https://www.city.kobe.lg.jp/a93457/business/sangyoshinko/shokogyo/venture/monodukuri/toshisokushin/03tosisokushinjosei.html\" target=\"_blank\">令和３年度　中小製造業投資促進等助成（神戸市HP）</a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "兵庫県"
+  ],
+  "industries": [
+    "製造業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "販路拡大",
+    "研究開発",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "【神戸市】中小製造業投資促進等助成",
+  "subsidizedRate": "最大1/2（申請区分により異なります。詳細は公募要領をご参照ください）",
+  "upperLimit": "30,000,000円",
+  "lowerLimit": null,
+  "startDate": "2021-04-07",
+  "endDate": "2021-05-14",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000001OGv7EAG",
+  "updatedAt": "2026-04-19T18:29:12.080Z"
+}

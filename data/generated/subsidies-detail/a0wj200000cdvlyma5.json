@@ -1,0 +1,28 @@
+{
+  "id": "a0WJ200000CDVLYMA5",
+  "slug": "a0wj200000cdvlyma5",
+  "title": "災害時看護体制整備事業（災害支援ナース所属先医療機関等に対する協力金の交付）",
+  "overview": "",
+  "detail": "<p>大規模自然災害の発生時や新興感染症の発生・まん延時に、災害支援ナースを医療機関等の現場に速やかに派遣し、適切な看護業務を行えるよう、災害医療体制を整備することを目的とする。</p><p><br></p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [],
+  "status": "closed",
+  "workflow": "災害時看護体制整備事業",
+  "subsidizedRate": "（１）災害支援ナース養成研修の受講・修了 20,000円／日 （２）災害活動訓練への参加 2,500円／時間 （３）被災地域への派遣 20,000円／日",
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2025-08-31",
+  "endDate": "2026-03-31",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVLYMA5",
+  "updatedAt": "2026-04-19T18:29:27.111Z"
+}

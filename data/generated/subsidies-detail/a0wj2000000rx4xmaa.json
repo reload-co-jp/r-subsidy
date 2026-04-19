@@ -1,0 +1,31 @@
+{
+  "id": "a0WJ2000000rx4xMAA",
+  "slug": "a0wj2000000rx4xmaa",
+  "title": "令和6年度居宅介護支援事業所事務職員雇用支援補助金",
+  "overview": "居宅介護支援事業所の事務職員雇用に必要な人件費の一部を補助します",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">　</strong>東京都内の居宅介護支援事業所に対して、新規又は既に雇用をしている事務職員の雇用経費を補助することで、介護支援専門員の専門性を十分発揮できる環境の整備を行い、介護報酬の増収に伴う処遇改善を推進することを目的とする。</p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255); color: rgb(0, 111, 173);\">■補助金申請方法マニュアル：</strong><a href=\"https://tokyo-jimusyokuinkoyousienn.jp/\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); color: rgb(0, 111, 173);\"><strong>https://tokyo-jimusyokuinkoyousienn.jp/</strong></a></p><p><br></p><p><br></p><p><span style=\"background-color: rgb(255, 255, 255);\">　</span><strong style=\"background-color: rgb(255, 255, 255); color: rgb(1, 95, 189);\">Jグランツマニュアル：</strong><a href=\"https://www.jgrants-portal.go.jp/request-flow\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); color: rgb(1, 95, 189);\"><strong>https://www.jgrants-portal.go.jp/request-flow</strong></a></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">﻿■問合せ先</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">　コールセンター</strong><span style=\"color: rgb(0, 0, 0); font-size: 18px;\">　</span><strong style=\"color: rgb(0, 0, 0); font-size: 18px;\"><em><u>０３-</u></em><u>６６３０</u></strong><strong style=\"color: rgb(0, 0, 0); font-size: 18px; background-color: rgb(255, 255, 255);\"><u>-</u></strong><strong style=\"color: rgb(0, 0, 0); font-size: 18px;\"><u>６９３７</u></strong><strong style=\"font-size: 18px;\"><u>（平日 午前９時から午後６時まで）</u></strong></p><p><strong style=\"font-size: 16px;\">【開設期間】令和６年１０月１日（火）から令和７年３月２８日（金）</strong></p><p>土曜日、日曜日、祝日及び年末年始（令和６年12月28日から令和７年１月５日まで）は除く</p><p>受託事業者：株式会社SBC</p><p><strong style=\"color: rgb(0, 111, 173);\">　</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">■Q＆A　制度概要：</strong><span style=\"color: rgb(2, 18, 28);\">東京都ホームページ</span></p><p>https://www.fukushi.metro.tokyo.lg.jp/kourei/hoken/kaigo_lib/care/jimusyokuinkoyousienn.html</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "人材育成",
+    "創業"
+  ],
+  "status": "closed",
+  "workflow": "居宅介護支援事業所事務職員雇用支援",
+  "subsidizedRate": "3/4",
+  "upperLimit": "2,500,000円",
+  "lowerLimit": null,
+  "startDate": "2024-09-30",
+  "endDate": "2025-03-28",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ2000000rx4xMAA",
+  "updatedAt": "2026-04-19T18:29:23.266Z"
+}

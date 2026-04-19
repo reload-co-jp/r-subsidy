@@ -1,0 +1,31 @@
+{
+  "id": "a0W5h00000MnjFSEAZ",
+  "slug": "a0w5h00000mnjfseaz",
+  "title": "令和5年度チャレンジ農業支援事業費助成金(第4回公募 )",
+  "overview": "チャレンジ農業支援センターでは農業者の稼ぐ力を応援します！！",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>原則としてチャレンジ農業支援センターの専門家派遣を受けた農業者等の農業経営の多角化・改善に向けた新たな取り組み(<span style=\"color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);\">都内農産物の販売促進、販路開拓、商品開発等)</span>に必要な経費を助成します。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>東京都内で農業を営む農業者等</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><strong>東京都農林水産振興財団　チャレンジ農業支援センター</strong></p><p>〒190-0013 東京都立川市富士見町3-8-1</p><p>Tel：042-524-3191</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.tokyo-aff.or.jp/site/challenge/34181.html\" target=\"_blank\">チャレンジ農業支援センター（助成金申し込み） - チャレンジ農業支援センター - 東京都農林水産振興財団ホームページ (tokyo-aff.or.jp)</a></p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "販路拡大",
+    "研究開発"
+  ],
+  "status": "closed",
+  "workflow": "チャレンジ農業支援事業費助成金",
+  "subsidizedRate": "2/3",
+  "upperLimit": "3,333,000円",
+  "lowerLimit": null,
+  "startDate": "2023-10-31",
+  "endDate": "2023-12-06",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000MnjFSEAZ",
+  "updatedAt": "2026-04-19T18:29:20.961Z"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "a0WJ200000CCRDCMA5",
+  "slug": "a0wj200000ccrdcma5",
+  "title": "令和６年度補正「再生可能エネルギー導入拡大・分散型エネルギーリソース導入支援等事業費補助金（DRリソース導入のための家庭用蓄電システム導入支援事業）」",
+  "overview": "R6補家庭用",
+  "detail": "<p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-family: sans-serif;\">■目的・概要</strong></p><p><span style=\"font-size: 11pt; font-family: sans-serif;\">　本事業は、</span><span style=\"font-family: sans-serif;\">電力需給の状況に合わせて電力需要の最適化（DR：ディマンドリスポンス）に活用可能な</span><span style=\"font-family: sans-serif; font-size: 11pt;\">家庭用蓄電システムの国内での導入を図る事業（以下「間接補助事業」という。）を実施する者（以下「間接補助事業者」という。）に対して、間接補助事業に要する経費の一部を補助する事業（以下「補助事業」という。）の実施に要する経費を補助することにより、再生可能エネルギーの更なる導入拡大や電力需給の安定化を促すことを目的とします。</span></p><p><strong style=\"color: rgb(0, 111, 173); font-family: sans-serif;\">■応募資格等各種条件</strong></p><p><span style=\"font-family: sans-serif;\">公募要領をご確認ください。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-family: sans-serif;\">■問合せ先</strong></p><p><span style=\"font-family: sans-serif;\">経済産業省　資源エネルギー庁</span></p><p><span style=\"font-family: sans-serif;\">省エネルギー・新エネルギー部</span></p><p><span style=\"font-family: sans-serif;\">新エネルギーシステム課　</span><span style=\"font-family: sans-serif; font-size: 11pt;\">中山、内藤、大場、杉崎、越渡</span><span style=\"font-family: sans-serif;\"> bzl-eneshisuka-system@meti.go.jp　</span></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "電気・ガス・熱供給・水道業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "省エネ",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "再生可能エネルギー導入拡大・系統用蓄電池等電力貯蔵システム導入支援事業費補助金",
+  "subsidizedRate": "定額（10/10）",
+  "upperLimit": "6,680,000,000円",
+  "lowerLimit": null,
+  "startDate": "2025-01-10",
+  "endDate": "2025-01-30",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CCRDCMA5",
+  "updatedAt": "2026-04-19T18:29:23.896Z"
+}

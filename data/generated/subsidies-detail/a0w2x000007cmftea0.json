@@ -1,0 +1,32 @@
+{
+  "id": "a0W2x000007CmFTEA0",
+  "slug": "a0w2x000007cmftea0",
+  "title": "令和４年度第２次補正「モバイル決済モデル統一規格・海外連携事業費補助金（統一ＱＲコード決済の相互運用に係るシステム構築事業）」",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>本事業では、日本のＱＲコード決済の統一規格（ＪＰＱＲ）と東南アジアのＱＲコード決済の統一規格との相互運用を行うために必要となる電文スイッチングや精算を行うためのシステムを構築する際に要する経費の一部を補助することにより、将来的に相互運用を実現させることで、国内外でのＱＲコード決済の利便性を高め、キャッシュレス決済の推進を後押しするとともに、インバウンド、アウトバウンド消費額の増大に寄与することを目的としています。</p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255); color: rgb(0, 111, 173);\">■応募資格</strong></p><p>公募要領をご確認ください。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>〒100-8901 東京都千代田区霞が関1-3-1</p><p>経済産業省 商務・サービスグループキャッシュレス推進室</p><p>担当：中田、箕輪</p><p>電話：03-3501-1252</p><p>E-MAIL：bzl-cashlesspayment_member@meti.go.jp</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "情報通信業",
+    "金融業",
+    "保険業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "販路拡大",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "令和４年度第２次補正「モバイル決済モデル統一規格・海外連携事業費補助金（統一ＱＲコード決済の相互運用に係るシステム構築事業）」",
+  "subsidizedRate": "最大2/3",
+  "upperLimit": "73,000,000円",
+  "lowerLimit": null,
+  "startDate": "2023-03-31",
+  "endDate": "2023-05-08",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007CmFTEA0",
+  "updatedAt": "2026-04-19T18:29:18.823Z"
+}

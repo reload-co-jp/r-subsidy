@@ -1,0 +1,34 @@
+{
+  "id": "a0WJ200000CDXoGMAX",
+  "slug": "a0wj200000cdxogmax",
+  "title": "令和７年度地方の若手人材発掘育成支援事業費補助金「AKATSUKI プロジェクト」に係る補助事業者",
+  "overview": "令和７年度　地方の若手人材発掘育成支援事業費補助金 「AKATSUKI プロジェクト」に係る補助金事業申請者へ対し、地域独自のIT・起業家人材等発掘・育成プログラムの立ち上げ等に係る費用のうち、補助金交付の対象として事務局が認めた経費について予算の範囲内で交付します。",
+  "detail": "<p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 16px;\">本事業は、優れたアイデア、技術を持つ若い人材（以下クリエータという）を発掘・育成するために、産業界や学会等において活躍する者をプロジェクトマネージャー（以下、「PM」という）等に委嘱し、若い人材の自主性を尊重しつつ、PM等による伴走的な人材育成を実施する各地域のプログラムを支援します。本事業を通じて、首都圏を中心に実績のある類似の人材発掘・育成プログラムを全国各地においても広く展開し、各地域において当該プログラムを実施することで、地域における若手人材の自立的・継続的な育成活動の面的拡大を目指すことを目的とします。</span></p><p><br></p><p><span style=\"font-size: 16px;\">補助対象となる者は、本事業の目的を達成するため、公募要領「４．補助対象事業」に定める要件を満たした事業について取り組み、事業終了後も同地において当該取り組みを自らの事業として自立、継続の意思がある民間事業者等（企業、一般社団法人、一般財団法人、特定非営利法人等）であり、法人格を有する者とします。また、当該事業の期間中及び事業の終了後５年間、事務局の求めに応じて、指定の方法で事業の活動状況・成果等を報告可能な主体であることを要件とします。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 16px;\">民間事業者等（企業、一般社団法人、一般財団法人、特定非営利法人等）であり、法人格を有する者のうち、公募要領に定める要件を満たす者</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 16px;\">AKATSUKIプロジェクト事務局</span></p><p><span style=\"font-size: 16px;\">mail:</span><a href=\"mailto:akatsuki_pjt2026@mitouteki.jp\" target=\"_blank\" style=\"font-size: 16px;\">akatsuki_pjt2026@mitouteki.jp</a><span style=\"font-size: 16px;\">（受付時間　9:00-18:00 土日、祝日は除く）</span></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "学術研究",
+    "専門・技術サービス業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "研究開発",
+    "創業",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "未踏的な地方の若手人材発掘育成支援事業費補助金",
+  "subsidizedRate": "事業費のうち、［人件費、委託・外注費、その他経費：2／3］、［開発支援費：10／10］",
+  "upperLimit": "30,000,000円",
+  "lowerLimit": null,
+  "startDate": "2026-03-11",
+  "endDate": "2026-03-23",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXoGMAX",
+  "updatedAt": "2026-04-19T18:29:28.250Z"
+}

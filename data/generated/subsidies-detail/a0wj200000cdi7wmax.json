@@ -1,0 +1,27 @@
+{
+  "id": "a0WJ200000CDI7WMAX",
+  "slug": "a0wj200000cdi7wmax",
+  "title": "令和７年度原子力産業基盤強化事業補助金",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12px;\">この補助金は、原子力関連機器・サービスの安全性や信頼性向上に資する取組に要する経費の一部を補助する事業の実施に要する経費を補助することにより、原子力の安全性・信頼性を支えている原子力産業基盤 の維持・強化を図ることを目的とします。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12px;\">bzl-genseika-gijyutsu@meti.go.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.enecho.meti.go.jp/appli/public_offer/2024/0210_02.html\" target=\"_blank\" style=\"font-size: 10.5pt; font-family: Arial, sans-serif;\">https://www.enecho.meti.go.jp/appli/public_offer/2024/0210_02.html</a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "公務（他に分類されるものを除く）"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [],
+  "status": "closed",
+  "workflow": "原子力産業基盤強化事業",
+  "subsidizedRate": null,
+  "upperLimit": "1,774,000,000円",
+  "lowerLimit": null,
+  "startDate": "2025-02-10",
+  "endDate": "2025-03-03",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDI7WMAX",
+  "updatedAt": "2026-04-19T18:29:24.153Z"
+}

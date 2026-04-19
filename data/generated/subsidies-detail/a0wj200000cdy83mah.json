@@ -1,0 +1,33 @@
+{
+  "id": "a0WJ200000CDY83MAH",
+  "slug": "a0wj200000cdy83mah",
+  "title": "2026年度「大学発スタートアップにおける経営人材確保支援事業(MPM)」の公募",
+  "overview": "",
+  "detail": "<p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、2026年度「大学発スタートアップにおける経営人材確保支援事業(MPM)」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/CA2_100517.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/CA2_100517.html</a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "学術研究",
+    "専門・技術サービス業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "人材育成",
+    "研究開発",
+    "創業",
+    "省エネ"
+  ],
+  "status": "open",
+  "workflow": "P23007_研究開発型スタートアップの起業・経営人材確保等支援事業",
+  "subsidizedRate": null,
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-04-01",
+  "endDate": "2026-04-30",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY83MAH",
+  "updatedAt": "2026-04-19T18:29:28.460Z"
+}

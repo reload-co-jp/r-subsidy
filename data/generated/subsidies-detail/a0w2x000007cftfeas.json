@@ -1,0 +1,30 @@
+{
+  "id": "a0W2x000007CftFEAS",
+  "slug": "a0w2x000007cftfeas",
+  "title": "EMPの普及促進に係る補助金",
+  "overview": "",
+  "detail": "<p><b style=\"color: rgb(0, 111, 173);\">■目的・概要</b></p><p>（ここに目的・概要を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■根拠法令</b></p><p>（ここに補助金に紐づく根拠法令を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■応募資格</b></p><p>（ここに補助対象者・応募資格を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■地理条件</b></p><p>（ここに必要な地理条件を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■備考</b></p><p>（ここに備考を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■問合せ先</b></p><p>（ここに問合せ先を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■参照URL</b></p><p>（ここに参照URLを入力して下さい。URLをリンク化したい場合は、リンクの埋め込みを行ってください。）</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "金融業",
+    "保険業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "販路拡大"
+  ],
+  "status": "closed",
+  "workflow": "EMPの普及促進に係る補助金",
+  "subsidizedRate": null,
+  "upperLimit": "45,000,000円",
+  "lowerLimit": null,
+  "startDate": "2024-03-31",
+  "endDate": "2025-05-31",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007CftFEAS",
+  "updatedAt": "2026-04-19T18:29:18.083Z"
+}

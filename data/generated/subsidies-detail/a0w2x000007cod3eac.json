@@ -1,0 +1,34 @@
+{
+  "id": "a0W2x000007Cod3EAC",
+  "slug": "a0w2x000007cod3eac",
+  "title": "令和６年度観光資源の保全等に係る「クラウドファンディングを活用した資金調達支援」補助金",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>観光資源として活用されている施設や技術等を有する観光関連事業者を支援することで、都内の観光資源を保全し魅力発信を図る。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>以下のいずれかに該当する観光関連事業者であること。</p><p>ア　宿泊事業者</p><p>イ　旅行事業者</p><p>ウ　飲食事業者</p><p>エ　小売事業者</p><p>オ　その他旅行者向けのサービス開発・提供や商品開発・製造・販売等を行っている者</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p>都内において営業を行っていること</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■備考</strong></p><p>参照URLをご確認ください。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>東京都産業労働局観光部受入環境課</p><p>03-5320-4802</p><p>問合せ時間　９：００～１７：００　（※１２：００～１３：００を除く）</p><p>土日祝日、年末年始を除く</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/hozen/hozen2/index.html</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "サービス業（他に分類されないもの）",
+    "卸売業",
+    "小売業",
+    "宿泊業",
+    "飲食サービス業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "研究開発",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "観光資源の保全等に係る「クラウドファンディングを活用した資金調達支援」補助金",
+  "subsidizedRate": "2/3",
+  "upperLimit": "1,000,000円",
+  "lowerLimit": null,
+  "startDate": "2024-04-01",
+  "endDate": "2025-01-31",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0W2x000007Cod3EAC",
+  "updatedAt": "2026-04-19T18:29:18.901Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "a0WJ200000CDXORMA5",
+  "slug": "a0wj200000cdxorma5",
+  "title": "地上基幹放送ネットワーク整備等事業（令和７年度補正予算及び令和８年度当初予算）",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>本事業は、災害時に放送停波による情報遮断等を回避し、被災情報や避難情報など国民の生命・財産の確保に不可欠な情報を確実に提供することを目的とするものです。</p><p>総務省では、予備送信所設備等、災害対策補完送信所等、緊急地震速報設備等の整備を行う地方公共団体、民間テレビ・ラジオ放送事業者等に対して、その整備費用の一部補助を行います。</p><p>対象設備等の詳細は交付要綱、実施マニュアル（「参照ＵＲＬ」に掲載）をご確認ください。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>地方公共団体</p><p>地上基幹放送事業者　等</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 14px;\">総務省情報流通行政局放送施設整備促進課（０３－５２５３－５９４９）</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.soumu.go.jp/menu_seisaku/ictseisaku/housou_suishin/hosonet_kyojinka01.html\" target=\"_blank\">総務省｜放送政策の推進｜放送ネットワーク整備支援事業（地上基幹放送ネットワーク整備等事業）</a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "情報通信業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資"
+  ],
+  "status": "open",
+  "workflow": "放送ネットワーク整備支援事業費補助金（地上基幹放送ネットワーク整備事業）",
+  "subsidizedRate": "1/2、1/3、2/3、3/4",
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-01-30",
+  "endDate": "2027-03-31",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXORMA5",
+  "updatedAt": "2026-04-19T18:29:28.126Z"
+}

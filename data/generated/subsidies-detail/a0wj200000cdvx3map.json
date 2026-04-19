@@ -1,0 +1,35 @@
+{
+  "id": "a0WJ200000CDVX3MAP",
+  "slug": "a0wj200000cdvx3map",
+  "title": "令和７年度　観光産業の活性化促進事業補助金",
+  "overview": "観光産業の活性化を促進するため、観光関連業界団体等が行う生産性向上・新サービス開発、情報発信等の取組を支援します。",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>本事業は、観光産業の活性化を促進するため、観光関連業界団体等が行う生産性向上・新サービス開発、情報発信等の取組を支援することを目的とします。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>観光関連業界団体</p><p>都内に営業施設を有する観光関連事業者のグループ</p><p>（グループは２者以上から成り、中小企業の観光関連事業者が２分の１以上を占めていることを要します。）</p><p>※詳細は「募集要綱」をご参照ください。</p><p><span style=\"color: rgb(250, 32, 13);\">※</span><strong style=\"color: rgb(250, 32, 13);\">「補助対象情報」の「補助対象者/応募資格 - 従業員数」及び「業種」については、「募集要項」をご参照ください。</strong></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p>東京都内</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■備考</strong></p><p>URL (https://www.sangyo-rodo.metro.tokyo.lg.jp/tourism/kakusyu/gyoukai/index.html) も合わせご確認ください。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>東京都 産業労働局 観光部 受入環境課</p><p>事業調整担当</p><p>電話：０３－５３２０－４８０２（課代表）</p><p>問合せ時間　９：００～１７：３０　（※１２：００～１３：００を除く）</p><p>土日祝日、年末年始を除く</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "サービス業（他に分類されないもの）",
+    "分類不能の産業",
+    "宿泊業",
+    "飲食サービス業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "研究開発",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "令和７年度　観光産業の活性化促進事業",
+  "subsidizedRate": "2/3（4者未満の観光事業者グループは1/2）",
+  "upperLimit": "25,000,000円",
+  "lowerLimit": null,
+  "startDate": "2025-03-31",
+  "endDate": "2025-12-26",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVX3MAP",
+  "updatedAt": "2026-04-19T18:29:27.199Z"
+}

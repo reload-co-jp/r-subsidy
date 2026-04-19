@@ -1,0 +1,32 @@
+{
+  "id": "a0WJ200000CDXJfMAP",
+  "slug": "a0wj200000cdxjfmap",
+  "title": "「ディープテック・スタートアップ支援事業等の更なる効果的な運用に向けた調査・分析」の公募",
+  "overview": "",
+  "detail": "<p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、「ディープテック・スタートアップ支援事業等の更なる効果的な運用に向けた調査・分析」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/CA2_100513.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/CA2_100513.html</a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "学術研究",
+    "専門・技術サービス業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "研究開発",
+    "創業",
+    "省エネ"
+  ],
+  "status": "closed",
+  "workflow": "P23019_ディープテック・スタートアップ支援基金／ディープテック・スタートアップ支援事業",
+  "subsidizedRate": null,
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-02-12",
+  "endDate": "2026-03-13",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDXJfMAP",
+  "updatedAt": "2026-04-19T18:29:28.052Z"
+}

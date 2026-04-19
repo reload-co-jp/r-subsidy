@@ -1,0 +1,30 @@
+{
+  "id": "a0WJ2000000qyI9MAI",
+  "slug": "a0wj2000000qyi9mai",
+  "title": "5Gによる製造工場のDX・GX推進事業",
+  "overview": "工場変革のための通信インフラや設備機器の導入等を支援します!",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>本事業は、「ローカル５Ｇ」を導入してＤＸを図り、さらに、その通信環境を製造業の重要課題であるＧＸに向けた取り組みに繋げる中小企業者等に対して所要経費の一部を助成し、その先駆的な成果を他の中小企業に向けて情報発信することで、新たなテクノロジーの活用による都内ものづくり中小企業のＤＸとＧＸを実現する取り組みを促進することを目的としています。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); background-color: rgb(255, 255, 255);\">■申請受付期間</strong></p><p>令和6年7月1日～令和6年9月30日</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請要件</strong></p><p><span style=\"background-color: rgb(255, 255, 255);\">募集要項に記載された（1）～（3）の全ての申請資格に該当すること</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>公益財団法人 東京都中小企業振興公社 事業戦略部 経営戦略課</p><p>TEL：03-5822-7232（平日：9：00～17：00）</p><p>E-mail：senryaku@tokyo-kosha.or.jp</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "製造業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "5Gによる製造工場のDX・GX推進事業",
+  "subsidizedRate": "4/5以内",
+  "upperLimit": "200,000,000円",
+  "lowerLimit": null,
+  "startDate": "2024-07-01",
+  "endDate": "2024-10-18",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ2000000qyI9MAI",
+  "updatedAt": "2026-04-19T18:29:23.162Z"
+}

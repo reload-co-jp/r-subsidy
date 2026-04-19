@@ -1,0 +1,31 @@
+{
+  "id": "a0WJ200000CDIxpMAH",
+  "slug": "a0wj200000cdixpmah",
+  "title": "令和７年度東京都オンライン医療相談・診療等環境整備補助事業",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>かかりつけ医等によるオンライン医療相談、オンライン受診勧奨及びオンライン診療を推進するため、医療機関が実施する環境整備を支援することを目的としています</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助対象事業者</strong></p><p>都内に所在する病院又は診療所（歯科診療所は除く。）であって、東京都知事が適当と認める者となります。</p><p>ただし、国、地方独立行政法人、特定地方独立行政法人、独立行政法人、特定独立行政法人及び国立大学法人が開設する医療機関、保険医療機関ではない医療機関及び本補助金の交付を受けたことがある医療機関は対象となりません。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>東京都保健医療局医療政策部医療政策課医療改革推進担当</p><p>TEL：03-5320-4448（直通）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/onlineshinryo/r7kankyoseibi</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "東京都オンライン医療相談・診療等環境整備補助事業",
+  "subsidizedRate": "1/2",
+  "upperLimit": "400,000円",
+  "lowerLimit": null,
+  "startDate": "2025-04-01",
+  "endDate": "2025-10-24",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDIxpMAH",
+  "updatedAt": "2026-04-19T18:29:24.258Z"
+}

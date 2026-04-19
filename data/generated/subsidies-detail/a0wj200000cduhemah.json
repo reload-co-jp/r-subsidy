@@ -1,0 +1,32 @@
+{
+  "id": "a0WJ200000CDUheMAH",
+  "slug": "a0wj200000cduhemah",
+  "title": "令和７年度訪問系介護サービス事業所に対する防犯機器等導入支援補助金",
+  "overview": "※※交付申請受付は終了しております※※",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要　</strong></p><p class=\"ql-indent-1\">介護サービス利用者の居宅を訪問し、排せつ及び食事等の介護並びに調理、洗濯及び掃除等の家事等を提供する者及び介護支援専門員に対するハラスメント対策として、セキュリティ確保に必要な防犯機器の初度整備に係る経費に対し、補助します。</p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p class=\"ql-indent-1\">都内に所在する別表に定める事業所とする。ただし、国又は地方公共団体が設置する事業所（地方自治法（昭和２２年法律第６７号）第２４４条の２第３項の規定により指定管理者が管理するものを含む。）は除く。</p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p class=\"ql-indent-1\">東京都介護現場カスタマーハラスメント対策強化事業補助金事務局</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "訪問系介護サービス事業所に対する防犯機器等導入支援補助金",
+  "subsidizedRate": "1/2",
+  "upperLimit": "100,000円",
+  "lowerLimit": null,
+  "startDate": "2025-07-15",
+  "endDate": "2026-03-31",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDUheMAH",
+  "updatedAt": "2026-04-19T18:29:26.936Z"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "a0WJ200000CDThnMAH",
+  "slug": "a0wj200000cdthnmah",
+  "title": "住宅事業者への感震ブレーカー購入費補助金",
+  "overview": "",
+  "detail": "<p><span style=\"color: rgb(0, 111, 173);\">■目的・概要</span></p><p>東京都は、首都直下地震等による人的・物的被害を軽減するため、出火防止対策を進めています。その取組の１つとして、東京都内に新築木造住宅を施工する際に、感震ブレーカーを設置する住宅事業者に対し、当該機器の購入費用の補助を行います。</p><p><br></p><p><span style=\"color: rgb(0, 111, 173);\">■補助対象者</span></p><p>建築主として、都内に木造住宅を新築する事業者</p><p> </p><p><span style=\"color: rgb(0, 111, 173);\">■補助対象経費</span></p><p>補助対象となる経費は、次の①及び②を満たすものとします。</p><p>なお、本補助金以外に、都、国又は区市町村から交付される補助金等を重複して受給することはできません。</p><p><br></p><p>① 令和７年度中に着⼯し、令和９年３⽉末までにしゅん⼯を予定する新築の⽊造住宅に設置する分電盤タイプの感震ブレーカー内蔵型の機器の購⼊に要する経費の合計額（消費税及び地⽅消費税相当分を含む。）なお、設置費⽤は対象外です。</p><p><br></p><p>② 上記①の機器は、「⼀般社団法⼈⽇本配線システム⼯業会の感震機能付住宅⽤分電盤（JWDS007付２）」の規定に定める構造及び機能を有するもの。 </p><p> </p><p><span style=\"color: rgb(0, 111, 173);\">■備考</span></p><p>・応募申請には、GビズIDが必要です。</p><p>・申請の手引きをよくお読みの上、申請を行ってください。</p><p> </p><p><span style=\"color: rgb(0, 111, 173);\">■問合せ先</span></p><p>東京都「住宅事業者への感震ブレーカー設置促進事業事務局」</p><p>専用メールアドレス：<span style=\"font-size: 13.6px; color: rgb(34, 34, 34);\">bousai（at）tentosento.com （at）を@に変えて送信して下さい。</span></p><p>電話番号：<span style=\"font-size: 13.6px; color: rgb(34, 34, 34);\">050-1725-9007</span></p><p>受付時間 ：9時30分～17時30分　※月曜日～金曜日（祝祭日及び年末年始を除く）　</p><p><br></p><p><span style=\"color: rgb(0, 111, 173);\">■参照URL</span></p><p>東京都防災ホームページ</p><p><a href=\"https://www.bousai.metro.tokyo.lg.jp/1028034/1030547/index.html\" target=\"_blank\">https://www.bousai.metro.tokyo.lg.jp/1028034/1030547/index.html</a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "建設業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "住宅事業者への感震ブレーカー購入費補助金",
+  "subsidizedRate": "1/2",
+  "upperLimit": "30,000円",
+  "lowerLimit": null,
+  "startDate": "2025-07-31",
+  "endDate": "2026-03-31",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDThnMAH",
+  "updatedAt": "2026-04-19T18:29:26.714Z"
+}

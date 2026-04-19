@@ -1,0 +1,33 @@
+{
+  "id": "a0WJ200000CDNECMA5",
+  "slug": "a0wj200000cdnecma5",
+  "title": "【令和７年度】自治体によるSS承継等に向けた取組支援事業",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>この補助金は、地域における新たな燃料供給体制の構築の推進、燃料の安定供給体制の確保を図ることを目的として、ＳＳ過疎地等の自治体等が行う燃料供給に関する計画の策定や自治体が策定した燃料供給に関する計画に基づく設備整備・設備撤去等に要する経費の一部を補助するものです。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>①燃料供給に関する計画策定事業</p><p>　ＳＳ過疎地等の自治体</p><p>②燃料供給に関する計画に基づく設備整備等事業</p><p><span style=\"color: rgb(68, 68, 68);\">　ＳＳ過疎地等の自治体</span></p><p>　ＳＳ過疎地等の自治体の計画により整備等の対象となっている給油所を運営又は所有する揮発油販売業者である中小企業者等</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p>ＳＳ過疎地等</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■備考</strong></p><p>詳細は公募要領を参照ください。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>全国石油商業組合連合会　環境・安全対策グループ</p><p>東京都千代田区永田町２－１７－１４</p><p>０３－３５９３－５８３５</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>http://www.zensekiren.or.jp</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "公務（他に分類されるものを除く）",
+    "卸売業",
+    "小売業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "事業承継",
+    "デジタル化"
+  ],
+  "status": "closed",
+  "workflow": "自治体によるＳＳ承継等に向けた取組支援事業",
+  "subsidizedRate": "最大４分の３",
+  "upperLimit": "75,000,000円",
+  "lowerLimit": null,
+  "startDate": "2025-04-17",
+  "endDate": "2025-09-30",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDNECMA5",
+  "updatedAt": "2026-04-19T18:29:25.081Z"
+}
