@@ -1,0 +1,20 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#16213E"/>
+  <rect x="60" y="60" width="1080" height="510" rx="32" fill="#1E2D4A" stroke="#2A3A5A" stroke-width="2"/>
+  <circle cx="170" cy="152" r="14" fill="#3B82F6"/>
+  <circle cx="214" cy="152" r="14" fill="#7EC8E3"/>
+  <circle cx="258" cy="152" r="14" fill="#22C55E"/>
+  <text x="120" y="250" fill="#E0E0FF" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="68" font-weight="700">
+    補助金ポータル
+  </text>
+  <text x="120" y="332" fill="#AAB4D6" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="32">
+    中小企業・個人事業主向けの補助金検索・診断サイト
+  </text>
+  <text x="120" y="404" fill="#7EC8E3" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="28">
+    国・東京都の補助金を比較して、あなたの事業に合う制度を探せます
+  </text>
+  <rect x="120" y="458" width="260" height="64" rx="16" fill="#3B82F6"/>
+  <text x="170" y="500" fill="white" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="28" font-weight="700">
+    r-subsidy.reload.co.jp
+  </text>
+</svg>

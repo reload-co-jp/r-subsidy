@@ -2,7 +2,9 @@ import { FC } from "react"
 import Link from "next/link"
 import fs from "fs"
 import path from "path"
+import type { Metadata } from "next"
 import type { NormalizedSubsidy, SubsidyIndexItem } from "../../../lib/types"
+import { SITE_NAME, absoluteUrl } from "../../../lib/site"
 
 export function generateStaticParams() {
   try {
@@ -26,6 +28,49 @@ function getSubsidy(slug: string): NormalizedSubsidy | null {
     return JSON.parse(fs.readFileSync(file, "utf-8"))
   } catch {
     return null
+  }
+}
+
+function buildDescription(subsidy: NormalizedSubsidy) {
+  const parts = [
+    subsidy.overview,
+    subsidy.upperLimit ? `補助上限額は${subsidy.upperLimit}` : null,
+    subsidy.subsidizedRate ? `補助率は${subsidy.subsidizedRate}` : null,
+    subsidy.purposes.length > 0 ? `対象用途は${subsidy.purposes.join("・")}` : null,
+  ].filter(Boolean)
+
+  return parts.join("。").slice(0, 140)
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params
+  const subsidy = getSubsidy(slug)
+
+  if (!subsidy) {
+    return {
+      title: `補助金が見つかりません | ${SITE_NAME}`,
+      robots: {
+        index: false,
+        follow: false,
+      },
+    }
+  }
+
+  const description = buildDescription(subsidy)
+  const pageUrl = absoluteUrl(`/subsidies/${subsidy.slug}/`)
+
+  return {
+    title: `${subsidy.title} | ${SITE_NAME}`,
+    description,
+    alternates: {
+      canonical: pageUrl,
+    },
+    openGraph: {
+      title: `${subsidy.title} | ${SITE_NAME}`,
+      description,
+      url: pageUrl,
+      type: "article",
+    },
   }
 }
 
@@ -60,6 +105,40 @@ const Page: FC<Props> = async ({ params }) => {
   }
 
   const st = statusLabel[subsidy.status] ?? statusLabel.unknown
+  const pageUrl = absoluteUrl(`/subsidies/${subsidy.slug}/`)
+  const description = buildDescription(subsidy)
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: subsidy.title,
+    url: pageUrl,
+    inLanguage: "ja",
+    description,
+    dateModified: subsidy.updatedAt,
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "ホーム",
+          item: absoluteUrl("/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "補助金一覧",
+          item: absoluteUrl("/subsidies/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: subsidy.title,
+          item: pageUrl,
+        },
+      ],
+    },
+  }
 
   const infoRows: { label: string; value: string | null }[] = [
     { label: "対象地域", value: regionLabel[subsidy.region] ?? subsidy.region },
@@ -89,6 +168,10 @@ const Page: FC<Props> = async ({ params }) => {
 
   return (
     <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <div style={{ marginBottom: "1.5rem" }}>
         <Link href="/subsidies" style={{ color: "#7ec8e3", textDecoration: "none", fontSize: ".875rem" }}>
           ← 補助金一覧

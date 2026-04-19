@@ -2,12 +2,11 @@ import fs from "fs"
 import path from "path"
 import type { MetadataRoute } from "next"
 import type { SubsidyIndexItem } from "../lib/types"
-
-const DEFAULT_SITE_URL = "https://r-subsidy.reload.co.jp"
+import { SITE_URL } from "../lib/site"
 export const dynamic = "force-static"
 
 function getSiteUrl() {
-  const siteUrl = process.env.SITE_URL ?? process.env.NEXT_PUBLIC_SITE_URL ?? DEFAULT_SITE_URL
+  const siteUrl = process.env.SITE_URL ?? process.env.NEXT_PUBLIC_SITE_URL ?? SITE_URL
   return siteUrl.endsWith("/") ? siteUrl.slice(0, -1) : siteUrl
 }
 

@@ -2,7 +2,9 @@ import { FC } from "react"
 import Link from "next/link"
 import fs from "fs"
 import path from "path"
+import type { Metadata } from "next"
 import type { UpdateHistory } from "../lib/types"
+import { SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
 
 function getUpdateHistory(): UpdateHistory | null {
   try {
@@ -13,11 +15,33 @@ function getUpdateHistory(): UpdateHistory | null {
   }
 }
 
+export const metadata: Metadata = {
+  title: `${SITE_NAME} | 中小企業・個人事業主向け`,
+  description:
+    "中小企業・個人事業主向けに、国と東京都の補助金を検索し、事業内容に合う制度を診断できる補助金ポータルです。",
+  alternates: {
+    canonical: absoluteUrl("/"),
+  },
+}
+
 const Page: FC = () => {
   const history = getUpdateHistory()
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    inLanguage: "ja",
+    description:
+      "中小企業・個人事業主向けに、国と東京都の補助金を検索し、事業内容に合う制度を診断できる補助金ポータルです。",
+  }
 
   return (
     <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <section style={{ textAlign: "center", padding: "4rem 0 3rem" }}>
         <h1
           style={{
@@ -53,6 +77,22 @@ const Page: FC = () => {
         >
           診断をはじめる
         </Link>
+      </section>
+
+      <section style={{ marginBottom: "3rem" }}>
+        <h2 style={{ color: "#ccc", fontSize: "1.1rem", marginBottom: "1rem" }}>
+          補助金ポータルでできること
+        </h2>
+        <div style={{ color: "#aaa", fontSize: ".95rem", lineHeight: 1.9 }}>
+          <p style={{ marginBottom: ".8rem" }}>
+            補助金ポータルは、中小企業や個人事業主が使える補助金を探しやすくするためのサイトです。
+            国の補助金だけでなく、東京都の制度もまとめて確認できます。
+          </p>
+          <p>
+            補助金一覧ページでは制度を比較でき、診断ページでは所在地・業種・従業員数・用途から、
+            自社に合いやすい補助金を絞り込めます。
+          </p>
+        </div>
       </section>
 
       <section
