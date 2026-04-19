@@ -15,6 +15,13 @@ export const metadata: Metadata = {
   },
   applicationName: SITE_NAME,
   category: "business",
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   keywords: [
     "補助金",
     "助成金",
