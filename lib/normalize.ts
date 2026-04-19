@@ -109,7 +109,7 @@ export function normalizeIndustries(industryTypes: string[] | undefined): string
 function splitDelimitedText(value: string | undefined): string[] {
   if (!value) return []
   return value
-    .split(/[\/／,、]/)
+    .split(/[/／,、]/)
     .map((part) => part.trim())
     .filter(Boolean)
 }
