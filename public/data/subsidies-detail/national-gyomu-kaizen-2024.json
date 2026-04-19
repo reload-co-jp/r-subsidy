@@ -1,0 +1,26 @@
+{
+  "id": "national-gyomu-kaizen-2024",
+  "slug": "national-gyomu-kaizen-2024",
+  "title": "業務改善助成金",
+  "overview": "生産性向上のための設備投資等を行うとともに、事業場内最低賃金を一定額以上引き上げた場合、その設備投資等にかかった費用の一部を助成する制度です。",
+  "detail": "生産性向上に資する設備投資（機械設備の導入、コンサルティングの実施、人材育成・教育訓練など）が対象。30円コース・45円コース・60円コース・90円コースの4コースがあり、引上げ額に応じて助成上限額・助成率が変わります。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "人材育成"
+  ],
+  "status": "open",
+  "workflow": "各都道府県労働局",
+  "subsidizedRate": "4/5以内（小規模事業者等は9/10以内）",
+  "upperLimit": "600万円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

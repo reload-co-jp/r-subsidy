@@ -1,0 +1,30 @@
+{
+  "id": "national-hojo-kanko-2024",
+  "slug": "national-hojo-kanko-2024",
+  "title": "観光庁 訪日外国人旅行者受入環境整備事業費補助金",
+  "overview": "訪日外国人旅行者の受入環境の整備を図るため、宿泊施設・観光施設における多言語対応や無料公衆無線LAN環境の整備等に要する経費を補助します。",
+  "detail": "多言語化、バリアフリー化、キャッシュレス対応、Wi-Fi環境整備などの訪日外国人受入環境整備が対象経費。宿泊施設・観光施設・旅行業者等が対象。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [
+    "宿泊業",
+    "飲食業",
+    "サービス業"
+  ],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "status": "upcoming",
+  "workflow": "観光庁",
+  "subsidizedRate": "1/2以内",
+  "upperLimit": "1,000万円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://www.mlit.go.jp/kankocho/",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

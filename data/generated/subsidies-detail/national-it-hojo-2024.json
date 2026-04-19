@@ -1,0 +1,26 @@
+{
+  "id": "national-it-hojo-2024",
+  "slug": "national-it-hojo-2024",
+  "title": "IT導入補助金",
+  "overview": "中小企業・小規模事業者等が自社の課題やニーズに合ったITツールを導入する経費の一部を補助することで、業務効率化・売上アップをサポートします。",
+  "detail": "通常枠（A・B類型）はソフトウェア購入費・クラウド利用料・導入関連費が対象。デジタル化基盤導入類型はソフトウェア・ハードウェアが対象。セキュリティ対策推進枠はサイバーセキュリティお助け隊サービス利用料が対象。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "デジタル化",
+    "設備投資"
+  ],
+  "status": "open",
+  "workflow": "サービス等生産性向上IT導入支援事業事務局",
+  "subsidizedRate": "1/2以内（デジタル化基盤導入類型は3/4以内）",
+  "upperLimit": "450万円",
+  "lowerLimit": "5万円",
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://it-hojo.jp/",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

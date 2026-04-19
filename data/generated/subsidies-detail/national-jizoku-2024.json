@@ -1,0 +1,25 @@
+{
+  "id": "national-jizoku-2024",
+  "slug": "national-jizoku-2024",
+  "title": "小規模事業者持続化補助金",
+  "overview": "小規模事業者が販路開拓・生産性向上に取り組む費用の一部を補助します。商工会・商工会議所の支援のもと経営計画を作成し、販路開拓等に取り組む費用を補助。",
+  "detail": "広報費、ウェブサイト関連費、展示会等出展費、旅費、開発費、資料購入費、雑役務費、借料、設備処分費、委託・外注費が補助対象経費。従業員5人以下（一部業種は20人以下）の小規模事業者が対象。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": 20,
+  "purposes": [
+    "販路拡大"
+  ],
+  "status": "open",
+  "workflow": "商工会・商工会議所",
+  "subsidizedRate": "2/3以内",
+  "upperLimit": "200万円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://s23.jizokukahojokin.info/",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

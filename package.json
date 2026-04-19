@@ -9,7 +9,15 @@
     "build": "next build",
     "start": "next start",
     "format": "prettier --write .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prebuild": "tsx scripts/merge-local-subsidies.ts && tsx scripts/build-subsidy-json.ts",
+    "subsidies:update": "tsx scripts/update-subsidies.ts",
+    "subsidies:fetch-index": "tsx scripts/fetch-jgrants-index.ts",
+    "subsidies:fetch-details": "tsx scripts/fetch-jgrants-details.ts",
+    "subsidies:normalize": "tsx scripts/normalize-jgrants.ts",
+    "subsidies:merge": "tsx scripts/merge-local-subsidies.ts",
+    "subsidies:build": "tsx scripts/build-subsidy-json.ts",
+    "subsidies:validate": "tsx scripts/validate-json.ts"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +40,7 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "prettier": "^3.8.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.58.1"
+    "typescript-eslint": "^8.58.1",
+    "tsx": "^4.19.2"
   }
 }

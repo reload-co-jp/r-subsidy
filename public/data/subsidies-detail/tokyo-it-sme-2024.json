@@ -1,0 +1,28 @@
+{
+  "id": "tokyo-it-sme-2024",
+  "slug": "tokyo-it-sme-2024",
+  "title": "東京都中小企業デジタル化支援事業",
+  "overview": "都内中小企業のデジタル化・DX推進を支援するため、ITツール導入やシステム構築にかかる費用の一部を補助します。",
+  "detail": "クラウドサービス、業務システム、ECサイト構築、セキュリティ対策などのデジタル化に必要な経費が対象。",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": 300,
+  "purposes": [
+    "デジタル化",
+    "設備投資"
+  ],
+  "status": "open",
+  "workflow": "東京都産業労働局",
+  "subsidizedRate": "1/2以内",
+  "upperLimit": "150万円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "tokyo",
+  "referenceUrl": "https://www.tokyo-kosha.or.jp/",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

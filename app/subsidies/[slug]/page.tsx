@@ -1,0 +1,296 @@
+import { FC } from "react"
+import Link from "next/link"
+import fs from "fs"
+import path from "path"
+import type { NormalizedSubsidy, SubsidyIndexItem } from "../../../lib/types"
+
+export function generateStaticParams() {
+  try {
+    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const index: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
+    return index.map((s) => ({ slug: s.slug }))
+  } catch {
+    return []
+  }
+}
+
+function getSubsidy(slug: string): NormalizedSubsidy | null {
+  try {
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-detail",
+      `${slug}.json`
+    )
+    return JSON.parse(fs.readFileSync(file, "utf-8"))
+  } catch {
+    return null
+  }
+}
+
+const statusLabel: Record<string, { label: string; color: string }> = {
+  open: { label: "受付中", color: "#22c55e" },
+  upcoming: { label: "公募前", color: "#f59e0b" },
+  closed: { label: "終了", color: "#6b7280" },
+  unknown: { label: "要確認", color: "#94a3b8" },
+}
+
+const regionLabel: Record<string, string> = {
+  national: "全国",
+  tokyo: "東京都",
+  prefecture: "都道府県",
+}
+
+type Props = { params: Promise<{ slug: string }> }
+
+const Page: FC<Props> = async ({ params }) => {
+  const { slug } = await params
+  const subsidy = getSubsidy(slug)
+
+  if (!subsidy) {
+    return (
+      <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center", padding: "4rem 0" }}>
+        <p style={{ color: "#888", marginBottom: "1rem" }}>補助金が見つかりませんでした</p>
+        <Link href="/subsidies" style={{ color: "#7ec8e3", textDecoration: "none", fontSize: ".875rem" }}>
+          ← 補助金一覧に戻る
+        </Link>
+      </div>
+    )
+  }
+
+  const st = statusLabel[subsidy.status] ?? statusLabel.unknown
+
+  const infoRows: { label: string; value: string | null }[] = [
+    { label: "対象地域", value: regionLabel[subsidy.region] ?? subsidy.region },
+    { label: "補助率", value: subsidy.subsidizedRate },
+    { label: "補助上限額", value: subsidy.upperLimit },
+    { label: "補助下限額", value: subsidy.lowerLimit },
+    { label: "受付開始", value: subsidy.startDate },
+    { label: "受付終了", value: subsidy.endDate },
+    {
+      label: "従業員数",
+      value:
+        subsidy.employeeMin !== null || subsidy.employeeMax !== null
+          ? `${subsidy.employeeMin ?? "—"}〜${subsidy.employeeMax ?? "—"}人`
+          : null,
+    },
+    { label: "申請窓口", value: subsidy.workflow },
+    {
+      label: "出典",
+      value:
+        subsidy.source === "jgrants"
+          ? "Jグランツ"
+          : subsidy.source === "tokyo"
+            ? "東京都"
+            : "手動登録",
+    },
+  ]
+
+  return (
+    <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+      <div style={{ marginBottom: "1.5rem" }}>
+        <Link href="/subsidies" style={{ color: "#7ec8e3", textDecoration: "none", fontSize: ".875rem" }}>
+          ← 補助金一覧
+        </Link>
+      </div>
+
+      <div
+        style={{
+          backgroundColor: "#1e2d4a",
+          borderRadius: "10px",
+          padding: "1.5rem",
+          border: "1px solid #2a3a5a",
+          marginBottom: "1.5rem",
+        }}
+      >
+        <div style={{ display: "flex", gap: ".75rem", marginBottom: "1rem", flexWrap: "wrap" }}>
+          <span
+            style={{
+              backgroundColor: st.color + "22",
+              color: st.color,
+              border: `1px solid ${st.color}44`,
+              borderRadius: "4px",
+              padding: ".2rem .6rem",
+              fontSize: ".8rem",
+            }}
+          >
+            {st.label}
+          </span>
+          <span
+            style={{
+              backgroundColor: "#2a3a5a",
+              color: "#94a3b8",
+              borderRadius: "4px",
+              padding: ".2rem .6rem",
+              fontSize: ".8rem",
+            }}
+          >
+            {regionLabel[subsidy.region] ?? subsidy.region}
+          </span>
+          {subsidy.prefectures.length > 0 && subsidy.region !== "national" && (
+            <span style={{ color: "#888", fontSize: ".8rem", alignSelf: "center" }}>
+              {subsidy.prefectures.join("、")}
+            </span>
+          )}
+        </div>
+
+        <h1
+          style={{
+            color: "#e0e0ff",
+            fontSize: "1.3rem",
+            fontWeight: "bold",
+            marginBottom: "1rem",
+          }}
+        >
+          {subsidy.title}
+        </h1>
+
+        {subsidy.workflow && (
+          <div
+            style={{
+              backgroundColor: "#3b82f622",
+              border: "1px solid #3b82f644",
+              borderRadius: "6px",
+              padding: ".75rem 1rem",
+              marginBottom: "1rem",
+              color: "#93c5fd",
+              fontSize: ".875rem",
+            }}
+          >
+            <strong>申請窓口：</strong> {subsidy.workflow}
+          </div>
+        )}
+
+        {subsidy.overview && (
+          <p style={{ color: "#ccc", fontSize: ".9rem", lineHeight: 1.7 }}>{subsidy.overview}</p>
+        )}
+      </div>
+
+      <div
+        style={{
+          backgroundColor: "#1e2d4a",
+          borderRadius: "10px",
+          border: "1px solid #2a3a5a",
+          marginBottom: "1.5rem",
+          overflow: "hidden",
+        }}
+      >
+        <table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <tbody>
+            {infoRows
+              .filter((r) => r.value)
+              .map((row) => (
+                <tr key={row.label} style={{ borderBottom: "1px solid #2a3a5a" }}>
+                  <td
+                    style={{
+                      padding: ".75rem 1rem",
+                      color: "#888",
+                      fontSize: ".8rem",
+                      width: "140px",
+                      whiteSpace: "nowrap",
+                      verticalAlign: "top",
+                    }}
+                  >
+                    {row.label}
+                  </td>
+                  <td style={{ padding: ".75rem 1rem", color: "#e0e0ff", fontSize: ".9rem" }}>
+                    {row.value}
+                  </td>
+                </tr>
+              ))}
+          </tbody>
+        </table>
+      </div>
+
+      {subsidy.purposes.length > 0 && (
+        <div style={{ marginBottom: "1.5rem" }}>
+          <h2 style={{ color: "#888", fontSize: ".8rem", marginBottom: ".5rem" }}>対象用途</h2>
+          <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
+            {subsidy.purposes.map((p) => (
+              <span
+                key={p}
+                style={{
+                  backgroundColor: "#1a1a3e",
+                  color: "#7ec8e3",
+                  borderRadius: "4px",
+                  padding: ".25rem .6rem",
+                  fontSize: ".8rem",
+                }}
+              >
+                {p}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {subsidy.industries.length > 0 && (
+        <div style={{ marginBottom: "1.5rem" }}>
+          <h2 style={{ color: "#888", fontSize: ".8rem", marginBottom: ".5rem" }}>対象業種</h2>
+          <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
+            {subsidy.industries.map((ind) => (
+              <span
+                key={ind}
+                style={{
+                  backgroundColor: "#2a2a4a",
+                  color: "#ccc",
+                  borderRadius: "4px",
+                  padding: ".25rem .6rem",
+                  fontSize: ".8rem",
+                }}
+              >
+                {ind}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {subsidy.detail && (
+        <div
+          style={{
+            backgroundColor: "#1e2d4a",
+            borderRadius: "10px",
+            padding: "1.25rem",
+            border: "1px solid #2a3a5a",
+            marginBottom: "1.5rem",
+          }}
+        >
+          <h2 style={{ color: "#888", fontSize: ".8rem", marginBottom: ".75rem" }}>詳細</h2>
+          <p style={{ color: "#ccc", fontSize: ".875rem", lineHeight: 1.7 }}>{subsidy.detail}</p>
+        </div>
+      )}
+
+      {subsidy.referenceUrl && (
+        <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+          <a
+            href={subsidy.referenceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-block",
+              backgroundColor: "#3b82f6",
+              color: "#fff",
+              padding: ".75rem 2rem",
+              borderRadius: "8px",
+              textDecoration: "none",
+              fontWeight: "bold",
+              fontSize: ".9rem",
+            }}
+          >
+            公式ページを見る →
+          </a>
+        </div>
+      )}
+
+      <div style={{ textAlign: "center" }}>
+        <Link href="/diagnosis" style={{ color: "#7ec8e3", textDecoration: "none", fontSize: ".875rem" }}>
+          この補助金との適合度を診断する →
+        </Link>
+      </div>
+    </div>
+  )
+}
+
+export default Page

@@ -1,0 +1,25 @@
+{
+  "id": "national-seicho-toushi-2024",
+  "slug": "national-seicho-toushi-2024",
+  "title": "中小企業成長投資補助金",
+  "overview": "中小企業が実施する大規模な投資（設備投資・建物投資）を支援することで、中小企業の成長・発展および地域経済の活性化を促進します。",
+  "detail": "機械装置・工具費、建物費、システム構築費等が対象。投資額1億円以上の大規模投資が対象。常時使用する従業員300人以下の中小企業が申請可能。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": 300,
+  "purposes": [
+    "設備投資"
+  ],
+  "status": "open",
+  "workflow": "中小企業庁",
+  "subsidizedRate": "1/3以内",
+  "upperLimit": "50億円",
+  "lowerLimit": "3,000万円",
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://www.chusho.meti.go.jp/",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

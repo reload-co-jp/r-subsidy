@@ -1,0 +1,198 @@
+[
+  {
+    "id": "national-monozukuri-2024",
+    "slug": "national-monozukuri-2024",
+    "title": "ものづくり・商業・サービス生産性向上促進補助金（ものづくり補助金）",
+    "region": "national",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "1,250万円",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "national-it-hojo-2024",
+    "slug": "national-it-hojo-2024",
+    "title": "IT導入補助金",
+    "region": "national",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "デジタル化",
+      "設備投資"
+    ],
+    "upperLimit": "450万円",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "national-jizoku-2024",
+    "slug": "national-jizoku-2024",
+    "title": "小規模事業者持続化補助金",
+    "region": "national",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "販路拡大"
+    ],
+    "upperLimit": "200万円",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "national-jigyou-saikouchiku-2024",
+    "slug": "national-jigyou-saikouchiku-2024",
+    "title": "事業再構築補助金",
+    "region": "national",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "販路拡大"
+    ],
+    "upperLimit": "7,000万円",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "national-career-up-2024",
+    "slug": "national-career-up-2024",
+    "title": "キャリアアップ助成金",
+    "region": "national",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": "80万円（正社員化1人あたり）",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "national-jinzai-kaihatsu-2024",
+    "slug": "national-jinzai-kaihatsu-2024",
+    "title": "人材開発支援助成金",
+    "region": "national",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": "50万円（1人あたり）",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "national-gyomu-kaizen-2024",
+    "slug": "national-gyomu-kaizen-2024",
+    "title": "業務改善助成金",
+    "region": "national",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "人材育成"
+    ],
+    "upperLimit": "600万円",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "national-hojo-kanko-2024",
+    "slug": "national-hojo-kanko-2024",
+    "title": "観光庁 訪日外国人旅行者受入環境整備事業費補助金",
+    "region": "national",
+    "status": "upcoming",
+    "industries": [
+      "宿泊業",
+      "飲食業",
+      "サービス業"
+    ],
+    "purposes": [
+      "設備投資",
+      "デジタル化"
+    ],
+    "upperLimit": "1,000万円",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "national-seicho-toushi-2024",
+    "slug": "national-seicho-toushi-2024",
+    "title": "中小企業成長投資補助金",
+    "region": "national",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": "50億円",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "national-jigyo-shokei-2024",
+    "slug": "national-jigyo-shokei-2024",
+    "title": "事業承継・引継ぎ補助金",
+    "region": "national",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "事業承継",
+      "設備投資"
+    ],
+    "upperLimit": "800万円",
+    "source": "manual",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "tokyo-startup-2024",
+    "slug": "tokyo-startup-2024",
+    "title": "東京都創業助成事業",
+    "region": "tokyo",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "創業"
+    ],
+    "upperLimit": "400万円",
+    "source": "tokyo",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "tokyo-it-sme-2024",
+    "slug": "tokyo-it-sme-2024",
+    "title": "東京都中小企業デジタル化支援事業",
+    "region": "tokyo",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "デジタル化",
+      "設備投資"
+    ],
+    "upperLimit": "150万円",
+    "source": "tokyo",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  },
+  {
+    "id": "tokyo-energy-2024",
+    "slug": "tokyo-energy-2024",
+    "title": "東京都中小企業省エネ設備導入補助金",
+    "region": "tokyo",
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "省エネ",
+      "設備投資"
+    ],
+    "upperLimit": "300万円",
+    "source": "tokyo",
+    "updatedAt": "2024-04-01T00:00:00.000Z"
+  }
+]

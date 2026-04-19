@@ -1,0 +1,25 @@
+{
+  "id": "national-jinzai-kaihatsu-2024",
+  "slug": "national-jinzai-kaihatsu-2024",
+  "title": "人材開発支援助成金",
+  "overview": "労働者の職業生活設計の全期間を通じて段階的かつ体系的な職業能力開発を効果的に促進するため、労働者に対して職業訓練を計画的に実施する事業主等を助成する制度です。",
+  "detail": "人材育成支援コース、教育訓練休暇等付与コース、技能実習コース、特別育成訓練コース、建設労働者認定訓練コース、建設労働者技能実習コース、障害者職業能力開発コースの各コースで助成。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "人材育成"
+  ],
+  "status": "open",
+  "workflow": "各都道府県労働局・ハローワーク",
+  "subsidizedRate": "1/2以内（中小企業は2/3以内）",
+  "upperLimit": "50万円（1人あたり）",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

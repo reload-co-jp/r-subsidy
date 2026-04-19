@@ -1,0 +1,25 @@
+{
+  "id": "national-career-up-2024",
+  "slug": "national-career-up-2024",
+  "title": "キャリアアップ助成金",
+  "overview": "有期雇用労働者、短時間労働者、派遣労働者といった、いわゆる非正規雇用の労働者の企業内でのキャリアアップを促進するための取組を実施した事業主に対して助成する制度です。",
+  "detail": "正社員化コース、障害者正社員化コース、賃金規定等改定コース、賃金規定等共通化コース、賞与・退職金制度導入コース、社会保険適用時処遇改善コース、短時間正社員コースの各コースで助成。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "人材育成"
+  ],
+  "status": "open",
+  "workflow": "各都道府県労働局・ハローワーク",
+  "subsidizedRate": null,
+  "upperLimit": "80万円（正社員化1人あたり）",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tokyo-energy-2024",
+  "slug": "tokyo-energy-2024",
+  "title": "東京都中小企業省エネ設備導入補助金",
+  "overview": "都内中小企業が省エネ設備・再生可能エネルギー設備を導入する際の費用の一部を補助します。",
+  "detail": "LED照明、高効率空調設備、太陽光発電システムなど省エネ効果の高い設備が対象。",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": 300,
+  "purposes": [
+    "省エネ",
+    "設備投資"
+  ],
+  "status": "open",
+  "workflow": "東京都環境局",
+  "subsidizedRate": "1/3以内",
+  "upperLimit": "300万円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "tokyo",
+  "referenceUrl": "https://www.kankyo.metro.tokyo.lg.jp/",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

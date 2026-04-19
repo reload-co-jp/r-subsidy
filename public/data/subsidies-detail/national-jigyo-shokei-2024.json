@@ -1,0 +1,26 @@
+{
+  "id": "national-jigyo-shokei-2024",
+  "slug": "national-jigyo-shokei-2024",
+  "title": "事業承継・引継ぎ補助金",
+  "overview": "事業承継やM&Aを契機として経営革新等に取り組む中小企業等の費用を補助することで、事業承継・引継ぎ後の新たな取組等を支援します。",
+  "detail": "経営革新事業（設備投資、販路開拓、IT化等）とM&A支援業者への支払手数料（M&Aに伴う専門家費用等）が補助対象。事業承継を行った中小企業・個人事業主が対象。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "事業承継",
+    "設備投資"
+  ],
+  "status": "open",
+  "workflow": "中小企業庁（事業承継・引継ぎ補助金事務局）",
+  "subsidizedRate": "2/3以内",
+  "upperLimit": "800万円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://jigyo-shokei.go.jp/",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

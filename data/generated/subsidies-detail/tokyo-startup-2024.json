@@ -1,0 +1,27 @@
+{
+  "id": "tokyo-startup-2024",
+  "slug": "tokyo-startup-2024",
+  "title": "東京都創業助成事業",
+  "overview": "東京都内で創業を予定または創業5年以内の中小企業・個人事業主に対し、創業初期に必要な経費の一部を助成します。",
+  "detail": "賃借料、広告費、器具備品購入費、従業員人件費などが対象経費となります。",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "創業"
+  ],
+  "status": "open",
+  "workflow": "東京都産業労働局",
+  "subsidizedRate": "2/3以内",
+  "upperLimit": "400万円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "tokyo",
+  "referenceUrl": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/sogyo.html",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}

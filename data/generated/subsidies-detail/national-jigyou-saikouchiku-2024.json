@@ -1,0 +1,27 @@
+{
+  "id": "national-jigyou-saikouchiku-2024",
+  "slug": "national-jigyou-saikouchiku-2024",
+  "title": "事業再構築補助金",
+  "overview": "新市場進出、事業転換、業種転換、業態転換、又は事業再編という思い切った事業再構築に意欲を持つ中小企業等の挑戦を支援します。",
+  "detail": "建物費、機械装置・システム構築費、技術導入費、専門家経費、運搬費、クラウドサービス利用費、外注費、知的財産権等関連経費、広告宣伝・販売促進費、研修費が対象。新分野展開、事業転換、業種転換、業態転換、事業再編のいずれかの類型で申請。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "研究開発",
+    "販路拡大"
+  ],
+  "status": "open",
+  "workflow": "中小企業庁（中小企業等事業再構築促進事業事務局）",
+  "subsidizedRate": "1/2以内（中小企業）、1/3以内（中堅企業）",
+  "upperLimit": "7,000万円",
+  "lowerLimit": "100万円",
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://jigyou-saikouchiku.go.jp/",
+  "updatedAt": "2024-04-01T00:00:00.000Z"
+}
