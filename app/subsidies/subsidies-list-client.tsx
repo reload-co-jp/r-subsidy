@@ -43,15 +43,19 @@ export default function SubsidiesListClient({
   subsidies: SubsidyIndexItem[]
 }) {
   const [query, setQuery] = useState("")
+  const [statusFilter, setStatusFilter] = useState<"all" | SubsidyIndexItem["status"]>("open")
 
   const filtered = useMemo(() => {
     const normalizedQuery = normalizeText(query)
-    if (!normalizedQuery) return subsidies
+    return subsidies.filter((subsidy) => {
+      const matchesQuery = !normalizedQuery
+        ? true
+        : buildSearchIndex(subsidy).includes(normalizedQuery)
+      const matchesStatus = statusFilter === "all" ? true : subsidy.status === statusFilter
 
-    return subsidies.filter((subsidy) =>
-      buildSearchIndex(subsidy).includes(normalizedQuery)
-    )
-  }, [query, subsidies])
+      return matchesQuery && matchesStatus
+    })
+  }, [query, statusFilter, subsidies])
 
   if (subsidies.length === 0) {
     return (
@@ -120,6 +124,44 @@ export default function SubsidiesListClient({
             outline: "none",
           }}
         />
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: ".5rem",
+            marginTop: ".85rem",
+          }}
+        >
+          {[
+            { value: "all", label: "すべて", color: "#5f766d" },
+            { value: "open", label: "受付中", color: "#22c55e" },
+            { value: "upcoming", label: "公募前", color: "#f59e0b" },
+            { value: "closed", label: "終了", color: "#6b7280" },
+            { value: "unknown", label: "要確認", color: "#94a3b8" },
+          ].map((option) => {
+            const selected = statusFilter === option.value
+            return (
+              <button
+                key={option.value}
+                type="button"
+                onClick={() =>
+                  setStatusFilter(option.value as "all" | SubsidyIndexItem["status"])
+                }
+                style={{
+                  borderRadius: "999px",
+                  border: `1px solid ${selected ? option.color : "var(--border-soft)"}`,
+                  backgroundColor: selected ? `${option.color}22` : "var(--bg-surface-alt)",
+                  color: selected ? option.color : "var(--text-base)",
+                  padding: ".45rem .8rem",
+                  fontSize: ".8rem",
+                  cursor: "pointer",
+                }}
+              >
+                {option.label}
+              </button>
+            )
+          })}
+        </div>
         <p
           style={{
             color: "var(--text-muted)",
@@ -127,7 +169,9 @@ export default function SubsidiesListClient({
             marginTop: ".65rem",
           }}
         >
-          {query ? `${filtered.length}件ヒット` : `${subsidies.length}件を表示中`}
+          {query || statusFilter !== "all"
+            ? `${filtered.length}件ヒット`
+            : `${subsidies.length}件を表示中`}
         </p>
       </section>
 
@@ -144,7 +188,7 @@ export default function SubsidiesListClient({
         >
           <p style={{ marginBottom: ".5rem" }}>該当する補助金が見つかりませんでした</p>
           <p style={{ fontSize: ".85rem" }}>
-            キーワードを変えて、制度名や用途、地域名で試してください。
+            キーワードや受付状態を変えて、制度名や用途、地域名で試してください。
           </p>
         </div>
       ) : (
