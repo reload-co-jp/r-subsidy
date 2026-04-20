@@ -112,13 +112,13 @@ const Page: FC<Props> = async ({ params }) => {
           padding: "4rem 0",
         }}
       >
-        <p style={{ color: "#888", marginBottom: "1rem" }}>
+        <p style={{ color: "var(--text-muted)", marginBottom: "1rem" }}>
           補助金が見つかりませんでした
         </p>
         <Link
           href="/subsidies"
           style={{
-            color: "#7ec8e3",
+            color: "#38b48b",
             textDecoration: "none",
             fontSize: ".875rem",
           }}
@@ -201,7 +201,7 @@ const Page: FC<Props> = async ({ params }) => {
         <Link
           href="/subsidies"
           style={{
-            color: "#7ec8e3",
+            color: "#38b48b",
             textDecoration: "none",
             fontSize: ".875rem",
           }}
@@ -212,10 +212,10 @@ const Page: FC<Props> = async ({ params }) => {
 
       <div
         style={{
-          backgroundColor: "#1e2d4a",
+          backgroundColor: "var(--bg-surface)",
           borderRadius: "10px",
           padding: "1.5rem",
-          border: "1px solid #2a3a5a",
+          border: "1px solid var(--border-soft)",
           marginBottom: "1.5rem",
         }}
       >
@@ -241,7 +241,7 @@ const Page: FC<Props> = async ({ params }) => {
           </span>
           <span
             style={{
-              backgroundColor: "#2a3a5a",
+              backgroundColor: "var(--bg-surface-alt)",
               color: "#94a3b8",
               borderRadius: "4px",
               padding: ".2rem .6rem",
@@ -252,7 +252,7 @@ const Page: FC<Props> = async ({ params }) => {
           </span>
           {subsidy.prefectures.length > 0 && subsidy.region !== "national" && (
             <span
-              style={{ color: "#888", fontSize: ".8rem", alignSelf: "center" }}
+              style={{ color: "var(--text-muted)", fontSize: ".8rem", alignSelf: "center" }}
             >
               {subsidy.prefectures.join("、")}
             </span>
@@ -261,7 +261,7 @@ const Page: FC<Props> = async ({ params }) => {
 
         <h1
           style={{
-            color: "#e0e0ff",
+            color: "var(--text-strong)",
             fontSize: "1.3rem",
             fontWeight: "bold",
             marginBottom: "1rem",
@@ -273,12 +273,12 @@ const Page: FC<Props> = async ({ params }) => {
         {subsidy.workflow && (
           <div
             style={{
-              backgroundColor: "#3b82f622",
-              border: "1px solid #3b82f644",
+              backgroundColor: "#38b48b22",
+              border: "1px solid #38b48b44",
               borderRadius: "6px",
               padding: ".75rem 1rem",
               marginBottom: "1rem",
-              color: "#93c5fd",
+              color: "#38b48b",
               fontSize: ".875rem",
             }}
           >
@@ -287,7 +287,7 @@ const Page: FC<Props> = async ({ params }) => {
         )}
 
         {subsidy.overview && (
-          <p style={{ color: "#ccc", fontSize: ".9rem", lineHeight: 1.7 }}>
+          <p style={{ color: "var(--text-base)", fontSize: ".9rem", lineHeight: 1.7 }}>
             {subsidy.overview}
           </p>
         )}
@@ -295,9 +295,9 @@ const Page: FC<Props> = async ({ params }) => {
 
       <div
         style={{
-          backgroundColor: "#1e2d4a",
+          backgroundColor: "var(--bg-surface)",
           borderRadius: "10px",
-          border: "1px solid #2a3a5a",
+          border: "1px solid var(--border-soft)",
           marginBottom: "1.5rem",
           overflow: "hidden",
         }}
@@ -314,7 +314,7 @@ const Page: FC<Props> = async ({ params }) => {
                   <td
                     style={{
                       padding: ".75rem 1rem",
-                      color: "#888",
+                      color: "var(--text-muted)",
                       fontSize: ".8rem",
                       width: "140px",
                       whiteSpace: "nowrap",
@@ -326,7 +326,7 @@ const Page: FC<Props> = async ({ params }) => {
                   <td
                     style={{
                       padding: ".75rem 1rem",
-                      color: "#e0e0ff",
+                      color: "var(--text-strong)",
                       fontSize: ".9rem",
                     }}
                   >
@@ -341,7 +341,7 @@ const Page: FC<Props> = async ({ params }) => {
       {subsidy.purposes.length > 0 && (
         <div style={{ marginBottom: "1.5rem" }}>
           <h2
-            style={{ color: "#888", fontSize: ".8rem", marginBottom: ".5rem" }}
+            style={{ color: "var(--text-muted)", fontSize: ".8rem", marginBottom: ".5rem" }}
           >
             対象用途
           </h2>
@@ -350,8 +350,8 @@ const Page: FC<Props> = async ({ params }) => {
               <span
                 key={p}
                 style={{
-                  backgroundColor: "#1a1a3e",
-                  color: "#7ec8e3",
+                  backgroundColor: "var(--bg-tag)",
+                  color: "#38b48b",
                   borderRadius: "4px",
                   padding: ".25rem .6rem",
                   fontSize: ".8rem",
@@ -367,7 +367,7 @@ const Page: FC<Props> = async ({ params }) => {
       {subsidy.industries.length > 0 && (
         <div style={{ marginBottom: "1.5rem" }}>
           <h2
-            style={{ color: "#888", fontSize: ".8rem", marginBottom: ".5rem" }}
+            style={{ color: "var(--text-muted)", fontSize: ".8rem", marginBottom: ".5rem" }}
           >
             対象業種
           </h2>
@@ -376,8 +376,8 @@ const Page: FC<Props> = async ({ params }) => {
               <span
                 key={ind}
                 style={{
-                  backgroundColor: "#2a2a4a",
-                  color: "#ccc",
+                  backgroundColor: "var(--bg-surface-alt)",
+                  color: "var(--text-base)",
                   borderRadius: "4px",
                   padding: ".25rem .6rem",
                   fontSize: ".8rem",
@@ -393,19 +393,19 @@ const Page: FC<Props> = async ({ params }) => {
       {subsidy.detail && (
         <div
           style={{
-            backgroundColor: "#1e2d4a",
+            backgroundColor: "var(--bg-surface)",
             borderRadius: "10px",
             padding: "1.25rem",
-            border: "1px solid #2a3a5a",
+            border: "1px solid var(--border-soft)",
             marginBottom: "1.5rem",
           }}
         >
           <h2
-            style={{ color: "#888", fontSize: ".8rem", marginBottom: ".75rem" }}
+            style={{ color: "var(--text-muted)", fontSize: ".8rem", marginBottom: ".75rem" }}
           >
             詳細
           </h2>
-          <p style={{ color: "#ccc", fontSize: ".875rem", lineHeight: 1.7 }}>
+          <p style={{ color: "var(--text-base)", fontSize: ".875rem", lineHeight: 1.7 }}>
             {subsidy.detail}
           </p>
         </div>
@@ -419,7 +419,7 @@ const Page: FC<Props> = async ({ params }) => {
             rel="noopener noreferrer"
             style={{
               display: "inline-block",
-              backgroundColor: "#3b82f6",
+              backgroundColor: "#38b48b",
               color: "#fff",
               padding: ".75rem 2rem",
               borderRadius: "8px",
@@ -437,7 +437,7 @@ const Page: FC<Props> = async ({ params }) => {
         <Link
           href="/diagnosis"
           style={{
-            color: "#7ec8e3",
+            color: "#38b48b",
             textDecoration: "none",
             fontSize: ".875rem",
           }}

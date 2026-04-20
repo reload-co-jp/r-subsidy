@@ -57,15 +57,15 @@ const Page: FC = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <h1 style={{ color: "#e0e0ff", fontSize: "1.4rem", marginBottom: ".5rem" }}>
+        <h1 style={{ color: "var(--text-strong)", fontSize: "1.4rem", marginBottom: ".5rem" }}>
           補助金一覧
         </h1>
-        <p style={{ color: "#888", fontSize: ".875rem" }}>
+        <p style={{ color: "var(--text-muted)", fontSize: ".875rem" }}>
           {subsidies.length > 0 ? `${subsidies.length}件の補助金` : "データが未取得です。pnpm subsidies:update を実行してください。"}
         </p>
       </div>
 
-      <section style={{ marginBottom: "1.5rem", color: "#aaa", fontSize: ".92rem", lineHeight: 1.8 }}>
+      <section style={{ marginBottom: "1.5rem", color: "var(--text-base)", fontSize: ".92rem", lineHeight: 1.8 }}>
         <p style={{ marginBottom: ".7rem" }}>
           中小企業・個人事業主向けの補助金を一覧で確認できるページです。設備投資、デジタル化、人材育成、販路拡大など、
           目的別に制度の概要を比較できます。
@@ -78,11 +78,11 @@ const Page: FC = () => {
       {subsidies.length === 0 ? (
         <div
           style={{
-            backgroundColor: "#1e2d4a",
+            backgroundColor: "var(--bg-surface)",
             borderRadius: "8px",
             padding: "3rem",
             textAlign: "center",
-            color: "#888",
+            color: "var(--text-muted)",
           }}
         >
           <p style={{ marginBottom: "1rem" }}>補助金データがありません</p>
@@ -92,7 +92,7 @@ const Page: FC = () => {
               padding: ".5rem 1rem",
               borderRadius: "4px",
               fontSize: ".875rem",
-              color: "#7ec8e3",
+              color: "#38b48b",
             }}
           >
             pnpm subsidies:update
@@ -110,10 +110,10 @@ const Page: FC = () => {
               >
                 <div
                   style={{
-                    backgroundColor: "#1e2d4a",
+                    backgroundColor: "var(--bg-surface)",
                     borderRadius: "8px",
                     padding: "1.25rem",
-                    border: "1px solid #2a3a5a",
+                    border: "1px solid var(--border-soft)",
                     transition: "border-color .15s",
                     cursor: "pointer",
                   }}
@@ -142,7 +142,7 @@ const Page: FC = () => {
                     </span>
                     <span
                       style={{
-                        backgroundColor: "#2a3a5a",
+                        backgroundColor: "var(--bg-surface-alt)",
                         color: "#94a3b8",
                         borderRadius: "4px",
                         padding: ".15rem .5rem",
@@ -155,7 +155,7 @@ const Page: FC = () => {
                     </span>
                     <h2
                       style={{
-                        color: "#e0e0ff",
+                        color: "var(--text-strong)",
                         fontSize: ".95rem",
                         fontWeight: "bold",
                         margin: 0,
@@ -178,8 +178,8 @@ const Page: FC = () => {
                       <span
                         key={p}
                         style={{
-                          backgroundColor: "#1a1a3e",
-                          color: "#7ec8e3",
+                          backgroundColor: "var(--bg-tag)",
+                          color: "#38b48b",
                           borderRadius: "4px",
                           padding: ".1rem .4rem",
                           fontSize: ".75rem",

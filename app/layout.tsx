@@ -72,12 +72,13 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body>
         <header
           style={{
-            backgroundColor: "#1a1a2e",
-            boxShadow: "0 2px 8px rgba(0,0,0,0.4)",
+            backgroundColor: "var(--bg-header)",
+            boxShadow: "0 2px 10px rgba(34,50,45,0.08)",
             padding: "0 1.5rem",
             position: "sticky",
             top: 0,
             zIndex: 100,
+            borderBottom: "1px solid var(--border-soft)",
           }}
         >
           <nav
@@ -91,7 +92,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <Link
               href="/"
               style={{
-                color: "#7ec8e3",
+                color: "#38b48b",
                 textDecoration: "none",
                 fontWeight: "bold",
                 fontSize: "1rem",
@@ -110,7 +111,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         </header>
         <main
           style={{
-            background: "#16213e",
+            background: "linear-gradient(180deg, #f7fffb 0%, #f1faf6 100%)",
             minHeight: "calc(100dvh - 56px - 48px)",
             padding: "2rem 1.5rem",
           }}
@@ -119,11 +120,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         </main>
         <footer
           style={{
-            backgroundColor: "#1a1a2e",
-            borderTop: "1px solid #2a2a4a",
+            backgroundColor: "var(--bg-header)",
+            borderTop: "1px solid var(--border-soft)",
             fontSize: ".75rem",
             padding: "1rem 1.5rem",
-            color: "#888",
+            color: "var(--text-muted)",
             textAlign: "center",
           }}
         >
@@ -135,7 +136,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
 }
 
 const navLinkStyle: React.CSSProperties = {
-  color: "#ccc",
+  color: "var(--text-base)",
   textDecoration: "none",
   fontSize: ".875rem",
 }

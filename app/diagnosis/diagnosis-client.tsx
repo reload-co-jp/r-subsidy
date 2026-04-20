@@ -28,7 +28,7 @@ const PURPOSES = [
 
 const TIER_CONFIG: Record<Tier, { label: string; color: string; bg: string }> = {
   strong: { label: "強くおすすめ", color: "#22c55e", bg: "#22c55e22" },
-  match: { label: "条件一致", color: "#3b82f6", bg: "#3b82f622" },
+  match: { label: "条件一致", color: "#38b48b", bg: "#38b48b22" },
   check: { label: "要確認", color: "#94a3b8", bg: "#94a3b822" },
 }
 
@@ -76,13 +76,13 @@ export default function DiagnosisClient() {
     return (
       <div style={{ maxWidth: "800px", margin: "0 auto" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.5rem" }}>
-          <h1 style={{ color: "#e0e0ff", fontSize: "1.3rem" }}>補助金診断結果</h1>
+          <h1 style={{ color: "var(--text-strong)", fontSize: "1.3rem" }}>補助金診断結果</h1>
           <button
             onClick={() => setStep("form")}
             style={{
               background: "none",
               border: "1px solid #2a3a5a",
-              color: "#7ec8e3",
+              color: "#38b48b",
               padding: ".4rem .8rem",
               borderRadius: "6px",
               cursor: "pointer",
@@ -94,7 +94,7 @@ export default function DiagnosisClient() {
         </div>
 
         {results.length === 0 ? (
-          <div style={{ color: "#888", textAlign: "center", padding: "3rem" }}>
+          <div style={{ color: "var(--text-muted)", textAlign: "center", padding: "3rem" }}>
             データが未取得です。pnpm subsidies:update を実行してください。
           </div>
         ) : (
@@ -133,7 +133,7 @@ export default function DiagnosisClient() {
                     <Link key={r.subsidy.id} href={`/subsidies/${r.subsidy.slug}`} style={{ textDecoration: "none" }}>
                       <div
                         style={{
-                          backgroundColor: "#1e2d4a",
+                          backgroundColor: "var(--bg-surface)",
                           borderRadius: "8px",
                           padding: "1rem 1.25rem",
                           border: `1px solid ${tc.color}33`,
@@ -144,10 +144,10 @@ export default function DiagnosisClient() {
                         }}
                       >
                         <div style={{ flex: 1, minWidth: 0 }}>
-                          <div style={{ color: "#e0e0ff", fontSize: ".9rem", fontWeight: "bold", marginBottom: ".25rem" }}>
+                          <div style={{ color: "var(--text-strong)", fontSize: ".9rem", fontWeight: "bold", marginBottom: ".25rem" }}>
                             {r.subsidy.title}
                           </div>
-                          <div style={{ color: "#888", fontSize: ".75rem" }}>
+                          <div style={{ color: "var(--text-muted)", fontSize: ".75rem" }}>
                             {r.subsidy.upperLimit && `上限 ${r.subsidy.upperLimit} ／ `}
                             {r.subsidy.purposes.slice(0, 3).join("・")}
                           </div>
@@ -156,7 +156,7 @@ export default function DiagnosisClient() {
                           <div style={{ color: tc.color, fontSize: "1.2rem", fontWeight: "bold" }}>
                             {r.score}
                           </div>
-                          <div style={{ color: "#666", fontSize: ".7rem" }}>スコア</div>
+                          <div style={{ color: "var(--text-soft)", fontSize: ".7rem" }}>スコア</div>
                         </div>
                       </div>
                     </Link>
@@ -173,12 +173,12 @@ export default function DiagnosisClient() {
   return (
     <div style={{ maxWidth: "760px", margin: "0 auto" }}>
       <section style={{ marginBottom: "2rem" }}>
-        <h1 style={{ color: "#e0e0ff", fontSize: "1.5rem", marginBottom: ".75rem" }}>補助金診断</h1>
-        <p style={{ color: "#888", fontSize: ".95rem", lineHeight: 1.7, marginBottom: ".75rem" }}>
+        <h1 style={{ color: "var(--text-strong)", fontSize: "1.5rem", marginBottom: ".75rem" }}>補助金診断</h1>
+        <p style={{ color: "var(--text-base)", fontSize: ".95rem", lineHeight: 1.7, marginBottom: ".75rem" }}>
           法人・個人事業主向けに、所在地、業種、従業員数、用途から対象になりやすい補助金を診断できます。
           中小企業向けの国の補助金や東京都の支援制度をまとめて比較できます。
         </p>
-        <p style={{ color: "#888", fontSize: ".875rem", lineHeight: 1.7 }}>
+        <p style={{ color: "var(--text-muted)", fontSize: ".875rem", lineHeight: 1.7 }}>
           入力内容はブラウザ内で処理され、診断結果から各補助金の詳細ページへそのまま移動できます。
         </p>
       </section>
@@ -210,9 +210,9 @@ export default function DiagnosisClient() {
                   flex: 1,
                   padding: ".6rem",
                   borderRadius: "6px",
-                  border: `1px solid ${businessType === t ? "#3b82f6" : "#2a3a5a"}`,
-                  backgroundColor: businessType === t ? "#3b82f622" : "#1e2d4a",
-                  color: businessType === t ? "#7ec8e3" : "#888",
+                  border: `1px solid ${businessType === t ? "#38b48b" : "#2a3a5a"}`,
+                  backgroundColor: businessType === t ? "#38b48b22" : "var(--bg-surface)",
+                  color: businessType === t ? "#38b48b" : "var(--text-muted)",
                   cursor: "pointer",
                   fontSize: ".875rem",
                 }}
@@ -254,9 +254,9 @@ export default function DiagnosisClient() {
             max={300}
             value={employeeCount}
             onChange={(e) => setEmployeeCount(Number(e.target.value))}
-            style={{ width: "100%", accentColor: "#3b82f6" }}
+            style={{ width: "100%", accentColor: "#38b48b" }}
           />
-          <div style={{ display: "flex", justifyContent: "space-between", color: "#666", fontSize: ".75rem" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", color: "var(--text-soft)", fontSize: ".75rem" }}>
             <span>1人</span>
             <span>300人</span>
           </div>
@@ -273,9 +273,9 @@ export default function DiagnosisClient() {
                   style={{
                     padding: ".5rem .75rem",
                     borderRadius: "6px",
-                    border: `1px solid ${selected ? "#3b82f6" : "#2a3a5a"}`,
-                    backgroundColor: selected ? "#3b82f622" : "#1e2d4a",
-                    color: selected ? "#7ec8e3" : "#888",
+                    border: `1px solid ${selected ? "#38b48b" : "#2a3a5a"}`,
+                    backgroundColor: selected ? "#38b48b22" : "var(--bg-surface)",
+                    color: selected ? "#38b48b" : "var(--text-muted)",
                     cursor: "pointer",
                     fontSize: ".8rem",
                     textAlign: "left",
@@ -292,7 +292,7 @@ export default function DiagnosisClient() {
           onClick={handleSubmit}
           disabled={loading}
           style={{
-            backgroundColor: loading ? "#1e4080" : "#3b82f6",
+            backgroundColor: loading ? "#2b8a6a" : "#38b48b",
             color: "#fff",
             padding: ".875rem",
             borderRadius: "8px",
@@ -313,7 +313,7 @@ export default function DiagnosisClient() {
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div>
-      <label style={{ color: "#ccc", fontSize: ".875rem", display: "block", marginBottom: ".5rem" }}>
+      <label style={{ color: "var(--text-base)", fontSize: ".875rem", display: "block", marginBottom: ".5rem" }}>
         {label}
       </label>
       {children}
@@ -323,9 +323,9 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
 
 const selectStyle: React.CSSProperties = {
   width: "100%",
-  backgroundColor: "#1e2d4a",
-  border: "1px solid #2a3a5a",
-  color: "#e0e0ff",
+  backgroundColor: "var(--bg-surface)",
+  border: "1px solid var(--border-soft)",
+  color: "var(--text-strong)",
   borderRadius: "6px",
   padding: ".75rem .9rem",
   fontSize: ".875rem",

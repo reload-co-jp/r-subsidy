@@ -5,7 +5,18 @@
 }
 
 :root {
-  background: #333;
-  color: #f0f0f0;
-  color-scheme: dark;
+  background: #f4fbf8;
+  color: #22322d;
+  color-scheme: light;
+  --bg-page: #f4fbf8;
+  --bg-header: #f7fffb;
+  --bg-surface: #ffffff;
+  --bg-surface-alt: #edf7f2;
+  --bg-tag: #e7f5ef;
+  --border-soft: #cfe5dc;
+  --border-strong: #b7d7cb;
+  --text-strong: #22322d;
+  --text-base: #314640;
+  --text-muted: #5f766d;
+  --text-soft: #7a8d87;
 }

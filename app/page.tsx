@@ -47,7 +47,7 @@ const Page: FC = () => {
           style={{
             fontSize: "2rem",
             fontWeight: "bold",
-            color: "#e0e0ff",
+            color: "var(--text-strong)",
             marginBottom: "1rem",
             lineHeight: 1.3,
           }}
@@ -56,7 +56,7 @@ const Page: FC = () => {
           <br />
           かんたん診断
         </h1>
-        <p style={{ color: "#aaa", fontSize: "1rem", marginBottom: "2.5rem", lineHeight: 1.7 }}>
+        <p style={{ color: "var(--text-muted)", fontSize: "1rem", marginBottom: "2.5rem", lineHeight: 1.7 }}>
           事業形態・業種・従業員数などを入力するだけで、
           <br />
           国・東京都の補助金をスコアリングして最適なものをご提案します。
@@ -65,14 +65,14 @@ const Page: FC = () => {
           href="/diagnosis"
           style={{
             display: "inline-block",
-            backgroundColor: "#3b82f6",
+            backgroundColor: "#38b48b",
             color: "#fff",
             padding: "0.875rem 2.5rem",
             borderRadius: "8px",
             textDecoration: "none",
             fontWeight: "bold",
             fontSize: "1.05rem",
-            boxShadow: "0 4px 14px rgba(59,130,246,0.4)",
+            boxShadow: "0 4px 14px rgba(56,180,139,0.4)",
           }}
         >
           診断をはじめる
@@ -80,10 +80,10 @@ const Page: FC = () => {
       </section>
 
       <section style={{ marginBottom: "3rem" }}>
-        <h2 style={{ color: "#ccc", fontSize: "1.1rem", marginBottom: "1rem" }}>
+        <h2 style={{ color: "var(--text-strong)", fontSize: "1.1rem", marginBottom: "1rem" }}>
           補助金ポータルでできること
         </h2>
-        <div style={{ color: "#aaa", fontSize: ".95rem", lineHeight: 1.9 }}>
+        <div style={{ color: "var(--text-base)", fontSize: ".95rem", lineHeight: 1.9 }}>
           <p style={{ marginBottom: ".8rem" }}>
             補助金ポータルは、中小企業や個人事業主が使える補助金を探しやすくするためのサイトです。
             国の補助金だけでなく、東京都の制度もまとめて確認できます。
@@ -118,17 +118,17 @@ const Page: FC = () => {
           <div
             key={stat.label}
             style={{
-              backgroundColor: "#1e2d4a",
+              backgroundColor: "var(--bg-surface)",
               borderRadius: "8px",
               padding: "1.25rem",
               textAlign: "center",
-              border: "1px solid #2a3a5a",
+              border: "1px solid var(--border-soft)",
             }}
           >
-            <div style={{ color: "#7ec8e3", fontSize: "1.5rem", fontWeight: "bold" }}>
+            <div style={{ color: "#38b48b", fontSize: "1.5rem", fontWeight: "bold" }}>
               {stat.value}
             </div>
-            <div style={{ color: "#888", fontSize: ".8rem", marginTop: ".25rem" }}>
+            <div style={{ color: "var(--text-muted)", fontSize: ".8rem", marginTop: ".25rem" }}>
               {stat.label}
             </div>
           </div>
@@ -136,7 +136,7 @@ const Page: FC = () => {
       </section>
 
       <section style={{ marginBottom: "3rem" }}>
-        <h2 style={{ color: "#ccc", fontSize: "1.1rem", marginBottom: "1rem" }}>使い方</h2>
+        <h2 style={{ color: "var(--text-strong)", fontSize: "1.1rem", marginBottom: "1rem" }}>使い方</h2>
         <div
           style={{
             display: "grid",
@@ -152,15 +152,15 @@ const Page: FC = () => {
             <div
               key={item.step}
               style={{
-                backgroundColor: "#1e2d4a",
+                backgroundColor: "var(--bg-surface)",
                 borderRadius: "8px",
                 padding: "1.25rem",
-                border: "1px solid #2a3a5a",
+                border: "1px solid var(--border-soft)",
               }}
             >
               <div
                 style={{
-                  backgroundColor: "#3b82f6",
+                  backgroundColor: "#38b48b",
                   color: "#fff",
                   width: "28px",
                   height: "28px",
@@ -175,10 +175,10 @@ const Page: FC = () => {
               >
                 {item.step}
               </div>
-              <div style={{ color: "#e0e0ff", fontWeight: "bold", marginBottom: ".25rem" }}>
+              <div style={{ color: "var(--text-strong)", fontWeight: "bold", marginBottom: ".25rem" }}>
                 {item.title}
               </div>
-              <div style={{ color: "#888", fontSize: ".8rem" }}>{item.desc}</div>
+              <div style={{ color: "var(--text-muted)", fontSize: ".8rem" }}>{item.desc}</div>
             </div>
           ))}
         </div>
@@ -188,7 +188,7 @@ const Page: FC = () => {
         <Link
           href="/subsidies"
           style={{
-            color: "#7ec8e3",
+            color: "#38b48b",
             textDecoration: "none",
             fontSize: ".9rem",
           }}
