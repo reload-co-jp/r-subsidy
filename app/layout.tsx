@@ -99,7 +99,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 letterSpacing: "0.02em",
               }}
             >
-              補助金ポータル
+              RSubsidy 補助金サーチ
             </Link>
             <Link href="/subsidies" style={navLinkStyle}>
               補助金一覧
@@ -128,7 +128,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             textAlign: "center",
           }}
         >
-          <p>&copy; 補助金ポータル — JグランツAPI連携</p>
+          <p>&copy; RSubsidy 補助金サーチ — JグランツAPI連携</p>
         </footer>
       </body>
     </html>

@@ -1,4 +1,4 @@
-export const SITE_NAME = "補助金ポータル"
+export const SITE_NAME = "RSubsidy 補助金サーチ"
 export const SITE_URL = "https://r-subsidy.reload.co.jp"
 export const DEFAULT_OG_IMAGE = "/ogp.svg"
 
