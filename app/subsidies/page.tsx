@@ -1,10 +1,10 @@
 import { FC } from "react"
-import Link from "next/link"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import type { SubsidyIndexItem } from "../../lib/types"
 import { SITE_NAME, absoluteUrl } from "../../lib/site"
+import SubsidiesListClient from "./subsidies-list-client"
 
 function getSubsidies(): SubsidyIndexItem[] {
   try {
@@ -22,19 +22,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: absoluteUrl("/subsidies/"),
   },
-}
-
-const statusLabel: Record<string, { label: string; color: string }> = {
-  open: { label: "受付中", color: "#22c55e" },
-  upcoming: { label: "公募前", color: "#f59e0b" },
-  closed: { label: "終了", color: "#6b7280" },
-  unknown: { label: "要確認", color: "#94a3b8" },
-}
-
-const regionLabel: Record<string, string> = {
-  national: "全国",
-  tokyo: "東京都",
-  prefecture: "都道府県",
 }
 
 const Page: FC = () => {
@@ -75,138 +62,7 @@ const Page: FC = () => {
         </p>
       </section>
 
-      {subsidies.length === 0 ? (
-        <div
-          style={{
-            backgroundColor: "var(--bg-surface)",
-            borderRadius: "8px",
-            padding: "3rem",
-            textAlign: "center",
-            color: "var(--text-muted)",
-          }}
-        >
-          <p style={{ marginBottom: "1rem" }}>補助金データがありません</p>
-          <code
-            style={{
-              backgroundColor: "#0d1117",
-              padding: ".5rem 1rem",
-              borderRadius: "4px",
-              fontSize: ".875rem",
-              color: "#38b48b",
-            }}
-          >
-            pnpm subsidies:update
-          </code>
-        </div>
-      ) : (
-        <div style={{ display: "grid", gap: ".75rem" }}>
-          {subsidies.map((s) => {
-            const st = statusLabel[s.status] ?? statusLabel.unknown
-            return (
-              <Link
-                key={s.id}
-                href={`/subsidies/${s.slug}`}
-                style={{ textDecoration: "none" }}
-              >
-                <div
-                  style={{
-                    backgroundColor: "var(--bg-surface)",
-                    borderRadius: "8px",
-                    padding: "1.25rem",
-                    border: "1px solid var(--border-soft)",
-                    transition: "border-color .15s",
-                    cursor: "pointer",
-                  }}
-                >
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "flex-start",
-                      gap: ".75rem",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    <span
-                      style={{
-                        backgroundColor: st.color + "22",
-                        color: st.color,
-                        border: `1px solid ${st.color}44`,
-                        borderRadius: "4px",
-                        padding: ".15rem .5rem",
-                        fontSize: ".75rem",
-                        whiteSpace: "nowrap",
-                        flexShrink: 0,
-                      }}
-                    >
-                      {st.label}
-                    </span>
-                    <span
-                      style={{
-                        backgroundColor: "var(--bg-surface-alt)",
-                        color: "#94a3b8",
-                        borderRadius: "4px",
-                        padding: ".15rem .5rem",
-                        fontSize: ".75rem",
-                        whiteSpace: "nowrap",
-                        flexShrink: 0,
-                      }}
-                    >
-                      {regionLabel[s.region] ?? s.region}
-                    </span>
-                    <h2
-                      style={{
-                        color: "var(--text-strong)",
-                        fontSize: ".95rem",
-                        fontWeight: "bold",
-                        margin: 0,
-                        flex: 1,
-                        minWidth: "200px",
-                      }}
-                    >
-                      {s.title}
-                    </h2>
-                  </div>
-                  <div
-                    style={{
-                      marginTop: ".75rem",
-                      display: "flex",
-                      gap: ".5rem",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    {s.purposes.slice(0, 4).map((p) => (
-                      <span
-                        key={p}
-                        style={{
-                          backgroundColor: "var(--bg-tag)",
-                          color: "#38b48b",
-                          borderRadius: "4px",
-                          padding: ".1rem .4rem",
-                          fontSize: ".75rem",
-                        }}
-                      >
-                        {p}
-                      </span>
-                    ))}
-                    {s.upperLimit && (
-                      <span
-                        style={{
-                          marginLeft: "auto",
-                          color: "#f59e0b",
-                          fontSize: ".8rem",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        上限 {s.upperLimit}
-                      </span>
-                    )}
-                  </div>
-                </div>
-              </Link>
-            )
-          })}
-        </div>
-      )}
+      <SubsidiesListClient subsidies={subsidies} />
     </div>
   )
 }
