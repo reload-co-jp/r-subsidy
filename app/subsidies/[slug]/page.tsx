@@ -51,6 +51,15 @@ function buildDescription(subsidy: NormalizedSubsidy) {
   return parts.join("。").slice(0, 140)
 }
 
+function sanitizeDetailHtml(html: string) {
+  return html
+    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
+    .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, "")
+    .replace(/<(iframe|object|embed|link|meta|form|input|button)\b[^>]*>/gi, "")
+    .replace(/\son\w+=(?:"[^"]*"|'[^']*'|[^\s>]+)/gi, "")
+    .replace(/\s(href|src)=["']\s*javascript:[^"']*["']/gi, "")
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const subsidy = getSubsidy(slug)
@@ -405,9 +414,10 @@ const Page: FC<Props> = async ({ params }) => {
           >
             詳細
           </h2>
-          <p style={{ color: "var(--text-base)", fontSize: ".875rem", lineHeight: 1.7 }}>
-            {subsidy.detail}
-          </p>
+          <div
+            className="rich-html"
+            dangerouslySetInnerHTML={{ __html: sanitizeDetailHtml(subsidy.detail) }}
+          />
         </div>
       )}
 

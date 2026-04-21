@@ -20,3 +20,31 @@
   --text-muted: #5f766d;
   --text-soft: #7a8d87;
 }
+
+.rich-html {
+  color: var(--text-base);
+  font-size: .875rem;
+  line-height: 1.8;
+}
+
+.rich-html p,
+.rich-html ul,
+.rich-html ol {
+  margin-bottom: .85rem;
+}
+
+.rich-html ul,
+.rich-html ol {
+  padding-left: 1.25rem;
+}
+
+.rich-html a {
+  color: #38b48b;
+  text-decoration: underline;
+  text-underline-offset: .15em;
+}
+
+.rich-html strong,
+.rich-html b {
+  color: var(--text-strong);
+}
