@@ -59,7 +59,8 @@ export default function DiagnosisClient() {
       const subsidies: NormalizedSubsidy[] = await res.json()
 
       const profile: UserProfile = { businessType, prefecture, industry, employeeCount, purposes }
-      const scored = scoreAndSort(subsidies, profile)
+      const activeSubsidies = subsidies.filter((subsidy) => subsidy.status !== "closed")
+      const scored = scoreAndSort(activeSubsidies, profile)
       setResults(scored)
       setStep("result")
     } catch (e) {
