@@ -3,7 +3,7 @@ import Link from "next/link"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
-import type { UpdateHistory } from "../lib/types"
+import type { NormalizedSubsidy, UpdateHistory } from "../lib/types"
 import { SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
 
 function getUpdateHistory(): UpdateHistory | null {
@@ -13,6 +13,26 @@ function getUpdateHistory(): UpdateHistory | null {
   } catch {
     return null
   }
+}
+
+function getLatestSubsidies(): NormalizedSubsidy[] {
+  try {
+    const file = path.join(process.cwd(), "data", "generated", "subsidies-master.json")
+    const subsidies: NormalizedSubsidy[] = JSON.parse(fs.readFileSync(file, "utf-8"))
+
+    return subsidies
+      .filter((subsidy) => subsidy.status !== "closed")
+      .sort((a, b) => getSortTime(b) - getSortTime(a))
+      .slice(0, 5)
+  } catch {
+    return []
+  }
+}
+
+function getSortTime(subsidy: NormalizedSubsidy) {
+  const date = subsidy.startDate ?? subsidy.updatedAt
+  const time = new Date(date).getTime()
+  return Number.isNaN(time) ? 0 : time
 }
 
 export const metadata: Metadata = {
@@ -26,6 +46,7 @@ export const metadata: Metadata = {
 
 const Page: FC = () => {
   const history = getUpdateHistory()
+  const latestSubsidies = getLatestSubsidies()
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -94,6 +115,114 @@ const Page: FC = () => {
           </p>
         </div>
       </section>
+
+      {latestSubsidies.length > 0 && (
+        <section style={{ marginBottom: "3rem" }}>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "baseline",
+              gap: "1rem",
+              marginBottom: "1rem",
+            }}
+          >
+            <h2 style={{ color: "var(--text-strong)", fontSize: "1.1rem" }}>
+              最新の補助金
+            </h2>
+            <Link
+              href="/subsidies"
+              style={{
+                color: "#38b48b",
+                textDecoration: "none",
+                fontSize: ".85rem",
+                whiteSpace: "nowrap",
+              }}
+            >
+              一覧で探す →
+            </Link>
+          </div>
+          <div style={{ display: "grid", gap: ".75rem" }}>
+            {latestSubsidies.map((subsidy) => (
+              <Link
+                key={subsidy.id}
+                href={`/subsidies/${subsidy.slug}`}
+                style={{ textDecoration: "none" }}
+              >
+                <article
+                  style={{
+                    backgroundColor: "var(--bg-surface)",
+                    border: "1px solid var(--border-soft)",
+                    borderRadius: "10px",
+                    padding: "1rem 1.15rem",
+                  }}
+                >
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: ".5rem",
+                      flexWrap: "wrap",
+                      alignItems: "center",
+                      marginBottom: ".55rem",
+                    }}
+                  >
+                    <span
+                      style={{
+                        backgroundColor: "#22c55e22",
+                        color: "#22c55e",
+                        border: "1px solid #22c55e44",
+                        borderRadius: "999px",
+                        padding: ".1rem .55rem",
+                        fontSize: ".72rem",
+                      }}
+                    >
+                      {subsidy.status === "upcoming" ? "公募前" : "受付中"}
+                    </span>
+                    {subsidy.startDate && (
+                      <span style={{ color: "var(--text-muted)", fontSize: ".78rem" }}>
+                        受付開始 {subsidy.startDate}
+                      </span>
+                    )}
+                    {subsidy.upperLimit && (
+                      <span style={{ color: "#f59e0b", fontSize: ".78rem", marginLeft: "auto" }}>
+                        上限 {subsidy.upperLimit}
+                      </span>
+                    )}
+                  </div>
+                  <h3
+                    style={{
+                      color: "var(--text-strong)",
+                      fontSize: ".95rem",
+                      lineHeight: 1.5,
+                      marginBottom: ".5rem",
+                    }}
+                  >
+                    {subsidy.title}
+                  </h3>
+                  {subsidy.purposes.length > 0 && (
+                    <div style={{ display: "flex", gap: ".4rem", flexWrap: "wrap" }}>
+                      {subsidy.purposes.slice(0, 3).map((purpose) => (
+                        <span
+                          key={purpose}
+                          style={{
+                            backgroundColor: "var(--bg-tag)",
+                            color: "#38b48b",
+                            borderRadius: "4px",
+                            padding: ".08rem .4rem",
+                            fontSize: ".72rem",
+                          }}
+                        >
+                          {purpose}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section
         style={{
