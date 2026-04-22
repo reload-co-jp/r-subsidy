@@ -3,7 +3,10 @@
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
+import { PREFECTURES, isPrefecture, matchesPrefecture } from "../../lib/prefectures"
 import type { SubsidyIndexItem } from "../../lib/types"
+
+const SITE_NAME = "RSubsidy 補助金サーチ"
 
 const statusLabel: Record<string, { label: string; color: string }> = {
   open: { label: "受付中", color: "#22c55e" },
@@ -16,30 +19,6 @@ const regionLabel: Record<string, string> = {
   national: "全国",
   tokyo: "東京都",
   prefecture: "都道府県",
-}
-
-const PREFECTURES = [
-  "北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県",
-  "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県",
-  "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県",
-  "岐阜県", "静岡県", "愛知県", "三重県", "滋賀県", "京都府", "大阪府", "兵庫県",
-  "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県",
-  "徳島県", "香川県", "愛媛県", "高知県", "福岡県", "佐賀県", "長崎県",
-  "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県",
-]
-
-const AREA_PREFECTURES: Record<string, string[]> = {
-  "北海道地方": ["北海道"],
-  "東北地方": ["青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県"],
-  "関東・甲信越地方": [
-    "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県",
-    "新潟県", "山梨県", "長野県",
-  ],
-  "東海・北陸地方": ["富山県", "石川県", "福井県", "岐阜県", "静岡県", "愛知県", "三重県"],
-  "近畿地方": ["滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県"],
-  "中国地方": ["鳥取県", "島根県", "岡山県", "広島県", "山口県"],
-  "四国地方": ["徳島県", "香川県", "愛媛県", "高知県"],
-  "九州・沖縄地方": ["福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県"],
 }
 
 function normalizeText(value: string) {
@@ -65,8 +44,12 @@ function buildSearchIndex(subsidy: SubsidyIndexItem) {
 
 export default function SubsidiesListClient({
   subsidies,
+  initialPrefecture = "all",
+  showPrefectureFilter = true,
 }: {
   subsidies: SubsidyIndexItem[]
+  initialPrefecture?: string
+  showPrefectureFilter?: boolean
 }) {
   const router = useRouter()
   const pathname = usePathname()
@@ -76,8 +59,9 @@ export default function SubsidiesListClient({
     parseStatusFilter(searchParams.get("status"))
   )
   const [prefectureFilter, setPrefectureFilter] = useState(() =>
-    parsePrefectureFilter(searchParams.get("prefecture"))
+    parsePrefectureFilter(searchParams.get("prefecture") ?? initialPrefecture)
   )
+  const filterTitle = buildFilterTitle(query, statusFilter, prefectureFilter)
 
   useEffect(() => {
     const params = new URLSearchParams(searchParams.toString())
@@ -94,7 +78,7 @@ export default function SubsidiesListClient({
       params.delete("status")
     }
 
-    if (prefectureFilter !== "all") {
+    if (prefectureFilter !== initialPrefecture && prefectureFilter !== "all") {
       params.set("prefecture", prefectureFilter)
     } else {
       params.delete("prefecture")
@@ -106,7 +90,11 @@ export default function SubsidiesListClient({
     if (nextUrl !== currentUrl) {
       router.replace(nextUrl, { scroll: false })
     }
-  }, [pathname, prefectureFilter, query, router, searchParams, statusFilter])
+  }, [initialPrefecture, pathname, prefectureFilter, query, router, searchParams, statusFilter])
+
+  useEffect(() => {
+    document.title = `${filterTitle} | ${SITE_NAME}`
+  }, [filterTitle])
 
   const filtered = useMemo(() => {
     const normalizedQuery = normalizeText(query)
@@ -115,10 +103,10 @@ export default function SubsidiesListClient({
         ? true
         : buildSearchIndex(subsidy).includes(normalizedQuery)
       const matchesStatus = statusFilter === "all" ? true : subsidy.status === statusFilter
-      const matchesPrefecture =
-        prefectureFilter === "all" ? true : matchesPrefectureFilter(subsidy, prefectureFilter)
+      const matchesSelectedPrefecture =
+        prefectureFilter === "all" ? true : matchesPrefecture(subsidy, prefectureFilter)
 
-      return matchesQuery && matchesStatus && matchesPrefecture
+      return matchesQuery && matchesStatus && matchesSelectedPrefecture
     })
   }, [query, prefectureFilter, statusFilter, subsidies])
 
@@ -151,6 +139,20 @@ export default function SubsidiesListClient({
 
   return (
     <div>
+      <div style={{ marginBottom: "1rem" }}>
+        <h2
+          style={{
+            color: "var(--text-strong)",
+            fontSize: "1.15rem",
+            marginBottom: ".35rem",
+          }}
+        >
+          {filterTitle}
+        </h2>
+        <p style={{ color: "var(--text-muted)", fontSize: ".85rem" }}>
+          条件を変更すると、この見出しとURLも更新されます。
+        </p>
+      </div>
       <section
         style={{
           backgroundColor: "var(--bg-surface)",
@@ -189,41 +191,43 @@ export default function SubsidiesListClient({
             outline: "none",
           }}
         />
-        <div style={{ marginTop: ".85rem" }}>
-          <label
-            htmlFor="prefecture-filter"
-            style={{
-              display: "block",
-              color: "var(--text-base)",
-              fontSize: ".8rem",
-              marginBottom: ".4rem",
-              fontWeight: "bold",
-            }}
-          >
-            都道府県で絞り込み
-          </label>
-          <select
-            id="prefecture-filter"
-            value={prefectureFilter}
-            onChange={(e) => setPrefectureFilter(e.target.value)}
-            style={{
-              width: "100%",
-              border: "1px solid var(--border-strong)",
-              backgroundColor: "#fff",
-              color: "var(--text-strong)",
-              borderRadius: "8px",
-              padding: ".72rem .9rem",
-              fontSize: ".9rem",
-            }}
-          >
-            <option value="all">すべての地域</option>
-            {PREFECTURES.map((prefecture) => (
-              <option key={prefecture} value={prefecture}>
-                {prefecture}
-              </option>
-            ))}
-          </select>
-        </div>
+        {showPrefectureFilter && (
+          <div style={{ marginTop: ".85rem" }}>
+            <label
+              htmlFor="prefecture-filter"
+              style={{
+                display: "block",
+                color: "var(--text-base)",
+                fontSize: ".8rem",
+                marginBottom: ".4rem",
+                fontWeight: "bold",
+              }}
+            >
+              都道府県で絞り込み
+            </label>
+            <select
+              id="prefecture-filter"
+              value={prefectureFilter}
+              onChange={(e) => setPrefectureFilter(e.target.value)}
+              style={{
+                width: "100%",
+                border: "1px solid var(--border-strong)",
+                backgroundColor: "#fff",
+                color: "var(--text-strong)",
+                borderRadius: "8px",
+                padding: ".72rem .9rem",
+                fontSize: ".9rem",
+              }}
+            >
+              <option value="all">すべての地域</option>
+              {PREFECTURES.map((prefecture) => (
+                <option key={prefecture} value={prefecture}>
+                  {prefecture}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
         <div
           style={{
             display: "flex",
@@ -404,13 +408,6 @@ export default function SubsidiesListClient({
   )
 }
 
-function matchesPrefectureFilter(subsidy: SubsidyIndexItem, prefecture: string) {
-  if (subsidy.region === "national" || subsidy.prefectures.includes("全国")) return true
-  if (subsidy.prefectures.includes(prefecture)) return true
-
-  return subsidy.prefectures.some((area) => AREA_PREFECTURES[area]?.includes(prefecture))
-}
-
 function parseStatusFilter(value: string | null): "all" | SubsidyIndexItem["status"] {
   if (value === "all" || value === "open" || value === "upcoming" || value === "closed" || value === "unknown") {
     return value
@@ -420,9 +417,29 @@ function parseStatusFilter(value: string | null): "all" | SubsidyIndexItem["stat
 }
 
 function parsePrefectureFilter(value: string | null) {
-  if (value && PREFECTURES.includes(value)) {
+  if (value && isPrefecture(value)) {
     return value
   }
 
   return "all"
+}
+
+function buildFilterTitle(
+  query: string,
+  statusFilter: "all" | SubsidyIndexItem["status"],
+  prefectureFilter: string
+) {
+  const area = prefectureFilter === "all" ? "" : prefectureFilter
+  const status = statusFilter === "all" ? "" : statusLabel[statusFilter].label
+  const prefix =
+    area && status
+      ? `${area}で${status}の`
+      : area
+        ? `${area}の`
+        : status
+          ? `${status}の`
+          : ""
+  const baseTitle = `${prefix}補助金一覧`
+
+  return query ? `${baseTitle}（「${query}」の検索結果）` : baseTitle
 }

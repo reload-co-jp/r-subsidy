@@ -1,6 +1,7 @@
 import fs from "fs"
 import path from "path"
 import type { MetadataRoute } from "next"
+import { PREFECTURES } from "../lib/prefectures"
 import type { SubsidyIndexItem } from "../lib/types"
 import { SITE_URL } from "../lib/site"
 export const dynamic = "force-static"
@@ -29,6 +30,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/diagnosis/`, changeFrequency: "monthly", priority: 0.8 },
   ]
 
+  const prefectureRoutes: MetadataRoute.Sitemap = PREFECTURES.map((prefecture) => ({
+    url: `${siteUrl}/subsidies/prefecture/${encodeURIComponent(prefecture)}/`,
+    changeFrequency: "daily",
+    priority: 0.85,
+  }))
+
   const subsidyRoutes: MetadataRoute.Sitemap = subsidies.map((subsidy) => ({
     url: `${siteUrl}/subsidies/${subsidy.slug}/`,
     lastModified: subsidy.updatedAt,
@@ -36,5 +43,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticRoutes, ...subsidyRoutes]
+  return [...staticRoutes, ...prefectureRoutes, ...subsidyRoutes]
 }
