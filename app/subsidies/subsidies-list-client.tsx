@@ -17,6 +17,30 @@ const regionLabel: Record<string, string> = {
   prefecture: "都道府県",
 }
 
+const PREFECTURES = [
+  "北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県",
+  "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県",
+  "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県",
+  "岐阜県", "静岡県", "愛知県", "三重県", "滋賀県", "京都府", "大阪府", "兵庫県",
+  "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県",
+  "徳島県", "香川県", "愛媛県", "高知県", "福岡県", "佐賀県", "長崎県",
+  "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県",
+]
+
+const AREA_PREFECTURES: Record<string, string[]> = {
+  "北海道地方": ["北海道"],
+  "東北地方": ["青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県"],
+  "関東・甲信越地方": [
+    "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "東京都", "神奈川県",
+    "新潟県", "山梨県", "長野県",
+  ],
+  "東海・北陸地方": ["富山県", "石川県", "福井県", "岐阜県", "静岡県", "愛知県", "三重県"],
+  "近畿地方": ["滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県"],
+  "中国地方": ["鳥取県", "島根県", "岡山県", "広島県", "山口県"],
+  "四国地方": ["徳島県", "香川県", "愛媛県", "高知県"],
+  "九州・沖縄地方": ["福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県"],
+}
+
 function normalizeText(value: string) {
   return value.toLowerCase().replace(/\s+/g, "")
 }
@@ -30,6 +54,7 @@ function buildSearchIndex(subsidy: SubsidyIndexItem) {
       subsidy.title,
       region,
       st.label,
+      ...subsidy.prefectures,
       ...subsidy.purposes,
       ...subsidy.industries,
       subsidy.upperLimit ?? "",
@@ -44,6 +69,7 @@ export default function SubsidiesListClient({
 }) {
   const [query, setQuery] = useState("")
   const [statusFilter, setStatusFilter] = useState<"all" | SubsidyIndexItem["status"]>("open")
+  const [prefectureFilter, setPrefectureFilter] = useState("all")
 
   const filtered = useMemo(() => {
     const normalizedQuery = normalizeText(query)
@@ -52,10 +78,12 @@ export default function SubsidiesListClient({
         ? true
         : buildSearchIndex(subsidy).includes(normalizedQuery)
       const matchesStatus = statusFilter === "all" ? true : subsidy.status === statusFilter
+      const matchesPrefecture =
+        prefectureFilter === "all" ? true : matchesPrefectureFilter(subsidy, prefectureFilter)
 
-      return matchesQuery && matchesStatus
+      return matchesQuery && matchesStatus && matchesPrefecture
     })
-  }, [query, statusFilter, subsidies])
+  }, [query, prefectureFilter, statusFilter, subsidies])
 
   if (subsidies.length === 0) {
     return (
@@ -124,6 +152,41 @@ export default function SubsidiesListClient({
             outline: "none",
           }}
         />
+        <div style={{ marginTop: ".85rem" }}>
+          <label
+            htmlFor="prefecture-filter"
+            style={{
+              display: "block",
+              color: "var(--text-base)",
+              fontSize: ".8rem",
+              marginBottom: ".4rem",
+              fontWeight: "bold",
+            }}
+          >
+            都道府県で絞り込み
+          </label>
+          <select
+            id="prefecture-filter"
+            value={prefectureFilter}
+            onChange={(e) => setPrefectureFilter(e.target.value)}
+            style={{
+              width: "100%",
+              border: "1px solid var(--border-strong)",
+              backgroundColor: "#fff",
+              color: "var(--text-strong)",
+              borderRadius: "8px",
+              padding: ".72rem .9rem",
+              fontSize: ".9rem",
+            }}
+          >
+            <option value="all">すべての地域</option>
+            {PREFECTURES.map((prefecture) => (
+              <option key={prefecture} value={prefecture}>
+                {prefecture}
+              </option>
+            ))}
+          </select>
+        </div>
         <div
           style={{
             display: "flex",
@@ -169,7 +232,7 @@ export default function SubsidiesListClient({
             marginTop: ".65rem",
           }}
         >
-          {query || statusFilter !== "all"
+          {query || statusFilter !== "all" || prefectureFilter !== "all"
             ? `${filtered.length}件ヒット`
             : `${subsidies.length}件を表示中`}
         </p>
@@ -188,7 +251,7 @@ export default function SubsidiesListClient({
         >
           <p style={{ marginBottom: ".5rem" }}>該当する補助金が見つかりませんでした</p>
           <p style={{ fontSize: ".85rem" }}>
-            キーワードや受付状態を変えて、制度名や用途、地域名で試してください。
+            キーワード、受付状態、都道府県を変えて試してください。
           </p>
         </div>
       ) : (
@@ -302,4 +365,11 @@ export default function SubsidiesListClient({
       )}
     </div>
   )
+}
+
+function matchesPrefectureFilter(subsidy: SubsidyIndexItem, prefecture: string) {
+  if (subsidy.region === "national" || subsidy.prefectures.includes("全国")) return true
+  if (subsidy.prefectures.includes(prefecture)) return true
+
+  return subsidy.prefectures.some((area) => AREA_PREFECTURES[area]?.includes(prefecture))
 }

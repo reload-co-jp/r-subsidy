@@ -42,6 +42,7 @@ async function main() {
     slug: s.slug,
     title: s.title,
     region: s.region,
+    prefectures: s.prefectures,
     status: s.status,
     industries: s.industries,
     purposes: s.purposes,

@@ -176,6 +176,7 @@ export type SubsidyIndexItem = {
   slug: string
   title: string
   region: Region
+  prefectures: string[]
   status: Status
   industries: string[]
   purposes: string[]
