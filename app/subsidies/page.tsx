@@ -1,4 +1,5 @@
 import { FC } from "react"
+import { Suspense } from "react"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
@@ -62,7 +63,9 @@ const Page: FC = () => {
         </p>
       </section>
 
-      <SubsidiesListClient subsidies={subsidies} />
+      <Suspense fallback={null}>
+        <SubsidiesListClient subsidies={subsidies} />
+      </Suspense>
     </div>
   )
 }

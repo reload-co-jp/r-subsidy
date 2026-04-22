@@ -1,7 +1,8 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
+import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import type { SubsidyIndexItem } from "../../lib/types"
 
 const statusLabel: Record<string, { label: string; color: string }> = {
@@ -67,9 +68,45 @@ export default function SubsidiesListClient({
 }: {
   subsidies: SubsidyIndexItem[]
 }) {
-  const [query, setQuery] = useState("")
-  const [statusFilter, setStatusFilter] = useState<"all" | SubsidyIndexItem["status"]>("open")
-  const [prefectureFilter, setPrefectureFilter] = useState("all")
+  const router = useRouter()
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+  const [query, setQuery] = useState(() => searchParams.get("q") ?? "")
+  const [statusFilter, setStatusFilter] = useState<"all" | SubsidyIndexItem["status"]>(() =>
+    parseStatusFilter(searchParams.get("status"))
+  )
+  const [prefectureFilter, setPrefectureFilter] = useState(() =>
+    parsePrefectureFilter(searchParams.get("prefecture"))
+  )
+
+  useEffect(() => {
+    const params = new URLSearchParams(searchParams.toString())
+
+    if (query) {
+      params.set("q", query)
+    } else {
+      params.delete("q")
+    }
+
+    if (statusFilter !== "open") {
+      params.set("status", statusFilter)
+    } else {
+      params.delete("status")
+    }
+
+    if (prefectureFilter !== "all") {
+      params.set("prefecture", prefectureFilter)
+    } else {
+      params.delete("prefecture")
+    }
+
+    const nextUrl = params.toString() ? `${pathname}?${params.toString()}` : pathname
+    const currentUrl = searchParams.toString() ? `${pathname}?${searchParams.toString()}` : pathname
+
+    if (nextUrl !== currentUrl) {
+      router.replace(nextUrl, { scroll: false })
+    }
+  }, [pathname, prefectureFilter, query, router, searchParams, statusFilter])
 
   const filtered = useMemo(() => {
     const normalizedQuery = normalizeText(query)
@@ -372,4 +409,20 @@ function matchesPrefectureFilter(subsidy: SubsidyIndexItem, prefecture: string) 
   if (subsidy.prefectures.includes(prefecture)) return true
 
   return subsidy.prefectures.some((area) => AREA_PREFECTURES[area]?.includes(prefecture))
+}
+
+function parseStatusFilter(value: string | null): "all" | SubsidyIndexItem["status"] {
+  if (value === "all" || value === "open" || value === "upcoming" || value === "closed" || value === "unknown") {
+    return value
+  }
+
+  return "open"
+}
+
+function parsePrefectureFilter(value: string | null) {
+  if (value && PREFECTURES.includes(value)) {
+    return value
+  }
+
+  return "all"
 }
