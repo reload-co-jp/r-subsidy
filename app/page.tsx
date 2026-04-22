@@ -3,7 +3,7 @@ import Link from "next/link"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
-import type { NormalizedSubsidy, UpdateHistory } from "../lib/types"
+import type { NormalizedSubsidy, SubsidyIndexItem, UpdateHistory } from "../lib/types"
 import { SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
 
 function getUpdateHistory(): UpdateHistory | null {
@@ -29,6 +29,30 @@ function getLatestSubsidies(): NormalizedSubsidy[] {
   }
 }
 
+function getSubsidyStats() {
+  try {
+    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const subsidies: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
+
+    return subsidies.reduce(
+      (stats, subsidy) => {
+        stats.total += 1
+        stats[subsidy.status] += 1
+        return stats
+      },
+      {
+        total: 0,
+        open: 0,
+        upcoming: 0,
+        closed: 0,
+        unknown: 0,
+      }
+    )
+  } catch {
+    return null
+  }
+}
+
 function getSortTime(subsidy: NormalizedSubsidy) {
   const date = subsidy.startDate ?? subsidy.updatedAt
   const time = new Date(date).getTime()
@@ -46,6 +70,7 @@ export const metadata: Metadata = {
 
 const Page: FC = () => {
   const history = getUpdateHistory()
+  const stats = getSubsidyStats()
   const latestSubsidies = getLatestSubsidies()
   const structuredData = {
     "@context": "https://schema.org",
@@ -233,10 +258,11 @@ const Page: FC = () => {
         }}
       >
         {[
-          { label: "登録補助金数", value: history ? `${history.totalCount}件` : "—" },
+          { label: "登録補助金数", value: stats ? `${stats.total}件` : "—" },
+          { label: "受付中", value: stats ? `${stats.open}件` : "—" },
+          { label: "公募前", value: stats ? `${stats.upcoming}件` : "—" },
+          { label: "終了", value: stats ? `${stats.closed}件` : "—" },
           { label: "JグランツAPI連携", value: history ? `${history.sources.jgrants}件` : "—" },
-          { label: "国の補助金", value: history ? `${history.sources.national ?? 0}件` : "—" },
-          { label: "東京都独自補助金", value: history ? `${history.sources.tokyo}件` : "—" },
           {
             label: "最終更新",
             value: history
@@ -262,55 +288,6 @@ const Page: FC = () => {
             </div>
           </div>
         ))}
-      </section>
-
-      <section style={{ marginBottom: "3rem" }}>
-        <h2 style={{ color: "var(--text-strong)", fontSize: "1.1rem", marginBottom: "1rem" }}>使い方</h2>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-            gap: "1rem",
-          }}
-        >
-          {[
-            { step: "1", title: "事業情報を入力", desc: "業種・所在地・従業員数・用途を選択" },
-            { step: "2", title: "AIスコアリング", desc: "条件に合う補助金を自動でスコアリング" },
-            { step: "3", title: "結果を確認", desc: "おすすめ順に補助金を一覧表示" },
-          ].map((item) => (
-            <div
-              key={item.step}
-              style={{
-                backgroundColor: "var(--bg-surface)",
-                borderRadius: "8px",
-                padding: "1.25rem",
-                border: "1px solid var(--border-soft)",
-              }}
-            >
-              <div
-                style={{
-                  backgroundColor: "#38b48b",
-                  color: "#fff",
-                  width: "28px",
-                  height: "28px",
-                  borderRadius: "50%",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  fontSize: ".85rem",
-                  fontWeight: "bold",
-                  marginBottom: ".75rem",
-                }}
-              >
-                {item.step}
-              </div>
-              <div style={{ color: "var(--text-strong)", fontWeight: "bold", marginBottom: ".25rem" }}>
-                {item.title}
-              </div>
-              <div style={{ color: "var(--text-muted)", fontSize: ".8rem" }}>{item.desc}</div>
-            </div>
-          ))}
-        </div>
       </section>
 
       <section style={{ textAlign: "center", paddingBottom: "2rem" }}>
