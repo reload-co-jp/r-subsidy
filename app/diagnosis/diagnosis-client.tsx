@@ -2,35 +2,97 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import type { NormalizedSubsidy, UserProfile, ScoringResult, Tier } from "../../lib/types"
+import type {
+  NormalizedSubsidy,
+  UserProfile,
+  ScoringResult,
+  Tier,
+} from "../../lib/types"
 import { scoreAndSort } from "../../lib/scoring"
 
 const PREFECTURES = [
-  "東京都", "北海道", "青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県",
-  "茨城県", "栃木県", "群馬県", "埼玉県", "千葉県", "神奈川県",
-  "新潟県", "富山県", "石川県", "福井県", "山梨県", "長野県",
-  "岐阜県", "静岡県", "愛知県", "三重県", "滋賀県", "京都府", "大阪府", "兵庫県",
-  "奈良県", "和歌山県", "鳥取県", "島根県", "岡山県", "広島県", "山口県",
-  "徳島県", "香川県", "愛媛県", "高知県",
-  "福岡県", "佐賀県", "長崎県", "熊本県", "大分県", "宮崎県", "鹿児島県", "沖縄県",
+  "東京都",
+  "北海道",
+  "青森県",
+  "岩手県",
+  "宮城県",
+  "秋田県",
+  "山形県",
+  "福島県",
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県",
+  "千葉県",
+  "神奈川県",
+  "新潟県",
+  "富山県",
+  "石川県",
+  "福井県",
+  "山梨県",
+  "長野県",
+  "岐阜県",
+  "静岡県",
+  "愛知県",
+  "三重県",
+  "滋賀県",
+  "京都府",
+  "大阪府",
+  "兵庫県",
+  "奈良県",
+  "和歌山県",
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "山口県",
+  "徳島県",
+  "香川県",
+  "愛媛県",
+  "高知県",
+  "福岡県",
+  "佐賀県",
+  "長崎県",
+  "熊本県",
+  "大分県",
+  "宮崎県",
+  "鹿児島県",
+  "沖縄県",
 ]
 
 const INDUSTRIES = [
-  "製造業", "建設業", "小売業", "卸売業", "飲食業", "宿泊業",
-  "情報通信業", "サービス業", "医療・福祉", "農業・林業・漁業",
-  "不動産業", "教育・学習支援業", "その他",
+  "製造業",
+  "建設業",
+  "小売業",
+  "卸売業",
+  "飲食業",
+  "宿泊業",
+  "情報通信業",
+  "サービス業",
+  "医療・福祉",
+  "農業・林業・漁業",
+  "不動産業",
+  "教育・学習支援業",
+  "その他",
 ]
 
 const PURPOSES = [
-  "設備投資", "人材育成", "販路拡大", "研究開発",
-  "事業承継", "創業", "省エネ", "デジタル化",
+  "設備投資",
+  "人材育成",
+  "販路拡大",
+  "研究開発",
+  "事業承継",
+  "創業",
+  "省エネ",
+  "デジタル化",
 ]
 
-const TIER_CONFIG: Record<Tier, { label: string; color: string; bg: string }> = {
-  strong: { label: "強くおすすめ", color: "#22c55e", bg: "#22c55e22" },
-  match: { label: "条件一致", color: "#38b48b", bg: "#38b48b22" },
-  check: { label: "要確認", color: "#94a3b8", bg: "#94a3b822" },
-}
+const TIER_CONFIG: Record<Tier, { label: string; color: string; bg: string }> =
+  {
+    strong: { label: "強くおすすめ", color: "#22c55e", bg: "#22c55e22" },
+    match: { label: "条件一致", color: "#38b48b", bg: "#38b48b22" },
+    check: { label: "要確認", color: "#94a3b8", bg: "#94a3b822" },
+  }
 
 const STORAGE_KEY = "diagnosis-profile"
 
@@ -42,7 +104,8 @@ export default function DiagnosisClient() {
   const [error, setError] = useState<string | null>(null)
   const [results, setResults] = useState<ScoringResult[]>([])
 
-  const [businessType, setBusinessType] = useState<UserProfile["businessType"]>("corporation")
+  const [businessType, setBusinessType] =
+    useState<UserProfile["businessType"]>("corporation")
   const [prefecture, setPrefecture] = useState("東京都")
   const [industry, setIndustry] = useState("製造業")
   const [employeeCount, setEmployeeCount] = useState(20)
@@ -58,17 +121,32 @@ export default function DiagnosisClient() {
       if (p.industry) setIndustry(p.industry)
       if (p.employeeCount != null) setEmployeeCount(p.employeeCount)
       if (Array.isArray(p.purposes)) setPurposes(p.purposes)
-    } catch {}
+    } catch (e: unknown) {
+      console.error("Failed to load profile", e)
+    }
   }, [])
 
   useEffect(() => {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({ businessType, prefecture, industry, employeeCount, purposes }))
-    } catch {}
+      localStorage.setItem(
+        STORAGE_KEY,
+        JSON.stringify({
+          businessType,
+          prefecture,
+          industry,
+          employeeCount,
+          purposes,
+        })
+      )
+    } catch (e: unknown) {
+      console.error("Failed to save profile", e)
+    }
   }, [businessType, prefecture, industry, employeeCount, purposes])
 
   const togglePurpose = (p: string) => {
-    setPurposes((prev) => (prev.includes(p) ? prev.filter((x) => x !== p) : [...prev, p]))
+    setPurposes((prev) =>
+      prev.includes(p) ? prev.filter((x) => x !== p) : [...prev, p]
+    )
   }
 
   const handleSubmit = async () => {
@@ -79,8 +157,16 @@ export default function DiagnosisClient() {
       if (!res.ok) throw new Error("データを取得できませんでした")
       const subsidies: NormalizedSubsidy[] = await res.json()
 
-      const profile: UserProfile = { businessType, prefecture, industry, employeeCount, purposes }
-      const activeSubsidies = subsidies.filter((subsidy) => subsidy.status !== "closed")
+      const profile: UserProfile = {
+        businessType,
+        prefecture,
+        industry,
+        employeeCount,
+        purposes,
+      }
+      const activeSubsidies = subsidies.filter(
+        (subsidy) => subsidy.status !== "closed"
+      )
       const scored = scoreAndSort(activeSubsidies, profile)
       setResults(scored)
       setStep("result")
@@ -92,13 +178,26 @@ export default function DiagnosisClient() {
   }
 
   if (step === "result") {
-    const grouped: Record<Tier, ScoringResult[]> = { strong: [], match: [], check: [] }
+    const grouped: Record<Tier, ScoringResult[]> = {
+      strong: [],
+      match: [],
+      check: [],
+    }
     for (const r of results) grouped[r.tier].push(r)
 
     return (
       <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.5rem" }}>
-          <h1 style={{ color: "var(--text-strong)", fontSize: "1.3rem" }}>補助金診断結果</h1>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            marginBottom: "1.5rem",
+          }}
+        >
+          <h1 style={{ color: "var(--text-strong)", fontSize: "1.3rem" }}>
+            補助金診断結果
+          </h1>
           <button
             onClick={() => setStep("form")}
             style={{
@@ -116,7 +215,13 @@ export default function DiagnosisClient() {
         </div>
 
         {results.length === 0 ? (
-          <div style={{ color: "var(--text-muted)", textAlign: "center", padding: "3rem" }}>
+          <div
+            style={{
+              color: "var(--text-muted)",
+              textAlign: "center",
+              padding: "3rem",
+            }}
+          >
             データが未取得です。pnpm subsidies:update を実行してください。
           </div>
         ) : (
@@ -152,7 +257,11 @@ export default function DiagnosisClient() {
                 </h2>
                 <div style={{ display: "grid", gap: ".6rem" }}>
                   {grouped[tier].map((r) => (
-                    <Link key={r.subsidy.id} href={`/subsidies/${r.subsidy.slug}`} style={{ textDecoration: "none" }}>
+                    <Link
+                      key={r.subsidy.id}
+                      href={`/subsidies/${r.subsidy.slug}`}
+                      style={{ textDecoration: "none" }}
+                    >
                       <div
                         style={{
                           backgroundColor: "var(--bg-surface)",
@@ -166,19 +275,46 @@ export default function DiagnosisClient() {
                         }}
                       >
                         <div style={{ flex: 1, minWidth: 0 }}>
-                          <div style={{ color: "var(--text-strong)", fontSize: ".9rem", fontWeight: "bold", marginBottom: ".25rem" }}>
+                          <div
+                            style={{
+                              color: "var(--text-strong)",
+                              fontSize: ".9rem",
+                              fontWeight: "bold",
+                              marginBottom: ".25rem",
+                            }}
+                          >
                             {r.subsidy.title}
                           </div>
-                          <div style={{ color: "var(--text-muted)", fontSize: ".75rem" }}>
-                            {r.subsidy.upperLimit && r.subsidy.upperLimit !== "0円" && `上限 ${r.subsidy.upperLimit} ／ `}
+                          <div
+                            style={{
+                              color: "var(--text-muted)",
+                              fontSize: ".75rem",
+                            }}
+                          >
+                            {r.subsidy.upperLimit &&
+                              r.subsidy.upperLimit !== "0円" &&
+                              `上限 ${r.subsidy.upperLimit} ／ `}
                             {r.subsidy.purposes.slice(0, 3).join("・")}
                           </div>
                         </div>
                         <div style={{ textAlign: "right", flexShrink: 0 }}>
-                          <div style={{ color: tc.color, fontSize: "1.2rem", fontWeight: "bold" }}>
+                          <div
+                            style={{
+                              color: tc.color,
+                              fontSize: "1.2rem",
+                              fontWeight: "bold",
+                            }}
+                          >
                             {r.score}
                           </div>
-                          <div style={{ color: "var(--text-soft)", fontSize: ".7rem" }}>スコア</div>
+                          <div
+                            style={{
+                              color: "var(--text-soft)",
+                              fontSize: ".7rem",
+                            }}
+                          >
+                            スコア
+                          </div>
                         </div>
                       </div>
                     </Link>
@@ -195,12 +331,33 @@ export default function DiagnosisClient() {
   return (
     <div style={{ maxWidth: "760px", margin: "0 auto" }}>
       <section style={{ marginBottom: "2rem" }}>
-        <h1 style={{ color: "var(--text-strong)", fontSize: "1.5rem", marginBottom: ".75rem" }}>補助金診断</h1>
-        <p style={{ color: "var(--text-base)", fontSize: ".95rem", lineHeight: 1.7, marginBottom: ".75rem" }}>
+        <h1
+          style={{
+            color: "var(--text-strong)",
+            fontSize: "1.5rem",
+            marginBottom: ".75rem",
+          }}
+        >
+          補助金診断
+        </h1>
+        <p
+          style={{
+            color: "var(--text-base)",
+            fontSize: ".95rem",
+            lineHeight: 1.7,
+            marginBottom: ".75rem",
+          }}
+        >
           法人・個人事業主向けに、所在地、業種、従業員数、用途から対象になりやすい補助金を診断できます。
           中小企業向けの国の補助金や東京都の支援制度をまとめて比較できます。
         </p>
-        <p style={{ color: "var(--text-muted)", fontSize: ".875rem", lineHeight: 1.7 }}>
+        <p
+          style={{
+            color: "var(--text-muted)",
+            fontSize: ".875rem",
+            lineHeight: 1.7,
+          }}
+        >
           入力内容はブラウザ内で処理され、診断結果から各補助金の詳細ページへそのまま移動できます。
         </p>
       </section>
@@ -232,8 +389,9 @@ export default function DiagnosisClient() {
                   flex: 1,
                   padding: ".6rem",
                   borderRadius: "6px",
-                  border: `1px solid ${businessType === t ? "#38b48b" : "#2a3a5a"}`,
-                  backgroundColor: businessType === t ? "#38b48b22" : "var(--bg-surface)",
+                  border: `1px solid ${businessType === t ? "#38b48b" : "var(--border-soft)"}`,
+                  backgroundColor:
+                    businessType === t ? "#38b48b22" : "var(--bg-surface)",
                   color: businessType === t ? "#38b48b" : "var(--text-muted)",
                   cursor: "pointer",
                   fontSize: ".875rem",
@@ -252,7 +410,9 @@ export default function DiagnosisClient() {
             style={selectStyle}
           >
             {PREFECTURES.map((p) => (
-              <option key={p} value={p}>{p}</option>
+              <option key={p} value={p}>
+                {p}
+              </option>
             ))}
           </select>
         </Field>
@@ -264,7 +424,9 @@ export default function DiagnosisClient() {
             style={selectStyle}
           >
             {INDUSTRIES.map((ind) => (
-              <option key={ind} value={ind}>{ind}</option>
+              <option key={ind} value={ind}>
+                {ind}
+              </option>
             ))}
           </select>
         </Field>
@@ -276,16 +438,32 @@ export default function DiagnosisClient() {
             max={300}
             value={employeeCount}
             onChange={(e) => setEmployeeCount(Number(e.target.value))}
-            style={{ width: "100%", accentColor: "#38b48b" }}
+            style={{
+              width: "100%",
+              accentColor: "#38b48b",
+            }}
           />
-          <div style={{ display: "flex", justifyContent: "space-between", color: "var(--text-soft)", fontSize: ".75rem" }}>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              color: "var(--text-soft)",
+              fontSize: ".75rem",
+            }}
+          >
             <span>1人</span>
             <span>300人</span>
           </div>
         </Field>
 
         <Field label="用途（複数選択可）">
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: ".5rem" }}>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: ".5rem",
+            }}
+          >
             {PURPOSES.map((p) => {
               const selected = purposes.includes(p)
               return (
@@ -295,15 +473,18 @@ export default function DiagnosisClient() {
                   style={{
                     padding: ".5rem .75rem",
                     borderRadius: "6px",
-                    border: `1px solid ${selected ? "#38b48b" : "#2a3a5a"}`,
-                    backgroundColor: selected ? "#38b48b22" : "var(--bg-surface)",
+                    border: `1px solid ${selected ? "#38b48b" : "var(--border-soft)"}`,
+                    backgroundColor: selected
+                      ? "#38b48b22"
+                      : "var(--bg-surface)",
                     color: selected ? "#38b48b" : "var(--text-muted)",
                     cursor: "pointer",
                     fontSize: ".8rem",
                     textAlign: "left",
                   }}
                 >
-                  {selected ? "✓ " : ""}{p}
+                  {selected ? "✓ " : ""}
+                  {p}
                 </button>
               )
             })}
@@ -332,10 +513,23 @@ export default function DiagnosisClient() {
   )
 }
 
-function Field({ label, children }: { label: string; children: React.ReactNode }) {
+function Field({
+  label,
+  children,
+}: {
+  label: string
+  children: React.ReactNode
+}) {
   return (
     <div>
-      <label style={{ color: "var(--text-base)", fontSize: ".875rem", display: "block", marginBottom: ".5rem" }}>
+      <label
+        style={{
+          color: "var(--text-base)",
+          fontSize: ".875rem",
+          display: "block",
+          marginBottom: ".5rem",
+        }}
+      >
         {label}
       </label>
       {children}

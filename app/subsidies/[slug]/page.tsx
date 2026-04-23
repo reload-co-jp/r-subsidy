@@ -180,10 +180,13 @@ const Page: FC<Props> = async ({ params }) => {
       value:
         subsidy.region === "prefecture" && subsidy.prefectures.length > 0
           ? `都道府県（${subsidy.prefectures.join("、")}）`
-          : regionLabel[subsidy.region] ?? subsidy.region,
+          : (regionLabel[subsidy.region] ?? subsidy.region),
     },
     { label: "補助率", value: subsidy.subsidizedRate },
-    { label: "補助上限額", value: subsidy.upperLimit === "0円" ? "情報なし" : subsidy.upperLimit },
+    {
+      label: "補助上限額",
+      value: subsidy.upperLimit === "0円" ? "情報なし" : subsidy.upperLimit,
+    },
     { label: "補助下限額", value: subsidy.lowerLimit },
     { label: "受付開始", value: subsidy.startDate },
     { label: "受付終了", value: subsidy.endDate },
@@ -267,7 +270,11 @@ const Page: FC<Props> = async ({ params }) => {
           </span>
           {subsidy.prefectures.length > 0 && subsidy.region !== "national" && (
             <span
-              style={{ color: "var(--text-muted)", fontSize: ".8rem", alignSelf: "center" }}
+              style={{
+                color: "var(--text-muted)",
+                fontSize: ".8rem",
+                alignSelf: "center",
+              }}
             >
               {subsidy.prefectures.join("、")}
             </span>
@@ -302,7 +309,13 @@ const Page: FC<Props> = async ({ params }) => {
         )}
 
         {subsidy.overview && (
-          <p style={{ color: "var(--text-base)", fontSize: ".9rem", lineHeight: 1.7 }}>
+          <p
+            style={{
+              color: "var(--text-base)",
+              fontSize: ".9rem",
+              lineHeight: 1.7,
+            }}
+          >
             {subsidy.overview}
           </p>
         )}
@@ -324,7 +337,7 @@ const Page: FC<Props> = async ({ params }) => {
               .map((row) => (
                 <tr
                   key={row.label}
-                  style={{ borderBottom: "1px solid #2a3a5a" }}
+                  style={{ borderBottom: "1px solid var(--border-soft)" }}
                 >
                   <td
                     style={{
@@ -356,7 +369,11 @@ const Page: FC<Props> = async ({ params }) => {
       {subsidy.purposes.length > 0 && (
         <div style={{ marginBottom: "1.5rem" }}>
           <h2
-            style={{ color: "var(--text-muted)", fontSize: ".8rem", marginBottom: ".5rem" }}
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".8rem",
+              marginBottom: ".5rem",
+            }}
           >
             対象用途
           </h2>
@@ -382,7 +399,11 @@ const Page: FC<Props> = async ({ params }) => {
       {subsidy.industries.length > 0 && (
         <div style={{ marginBottom: "1.5rem" }}>
           <h2
-            style={{ color: "var(--text-muted)", fontSize: ".8rem", marginBottom: ".5rem" }}
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".8rem",
+              marginBottom: ".5rem",
+            }}
           >
             対象業種
           </h2>
@@ -416,13 +437,19 @@ const Page: FC<Props> = async ({ params }) => {
           }}
         >
           <h2
-            style={{ color: "var(--text-muted)", fontSize: ".8rem", marginBottom: ".75rem" }}
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".8rem",
+              marginBottom: ".75rem",
+            }}
           >
             詳細
           </h2>
           <div
             className="rich-html"
-            dangerouslySetInnerHTML={{ __html: sanitizeDetailHtml(subsidy.detail) }}
+            dangerouslySetInnerHTML={{
+              __html: sanitizeDetailHtml(subsidy.detail),
+            }}
           />
         </div>
       )}
