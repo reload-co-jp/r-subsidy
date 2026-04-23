@@ -443,9 +443,14 @@ const Page: FC = () => {
         <Link
           href="/subsidies"
           style={{
-            color: "#38b48b",
+            display: "inline-block",
+            backgroundColor: "#38b48b",
+            color: "#fff",
             textDecoration: "none",
-            fontSize: ".9rem",
+            fontSize: "1rem",
+            fontWeight: "bold",
+            padding: ".75rem 2rem",
+            borderRadius: "8px",
           }}
         >
           すべての補助金一覧を見る →
