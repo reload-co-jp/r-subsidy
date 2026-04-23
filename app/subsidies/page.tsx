@@ -3,6 +3,8 @@ import { Suspense } from "react"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
+import Link from "next/link"
+import { PREFECTURES } from "../../lib/prefectures"
 import type { SubsidyIndexItem } from "../../lib/types"
 import { SITE_NAME, absoluteUrl } from "../../lib/site"
 import SubsidiesListClient from "./subsidies-list-client"
@@ -19,7 +21,7 @@ function getSubsidies(): SubsidyIndexItem[] {
 export const metadata: Metadata = {
   title: `補助金一覧 | ${SITE_NAME}`,
   description:
-    "国と東京都の補助金一覧を掲載しています。対象地域、用途、補助上限額などを確認しながら制度を比較できます。",
+    "Jグランツ掲載の補助金一覧を掲載しています。都道府県、受付状態、用途、補助上限額などを確認しながら制度を比較できます。",
   alternates: {
     canonical: absoluteUrl("/subsidies/"),
   },
@@ -34,7 +36,7 @@ const Page: FC = () => {
     url: absoluteUrl("/subsidies/"),
     inLanguage: "ja",
     description:
-      "国と東京都の補助金一覧を掲載しています。対象地域、用途、補助上限額などを確認しながら制度を比較できます。",
+      "Jグランツ掲載の補助金一覧を掲載しています。都道府県、受付状態、用途、補助上限額などを確認しながら制度を比較できます。",
     numberOfItems: subsidies.length,
   }
 
@@ -61,6 +63,39 @@ const Page: FC = () => {
         <p>
           気になる制度は詳細ページで対象条件や補助率、上限額、申請窓口を確認できます。
         </p>
+      </section>
+
+      <section
+        style={{
+          backgroundColor: "var(--bg-surface)",
+          border: "1px solid var(--border-soft)",
+          borderRadius: "10px",
+          padding: "1rem",
+          marginBottom: "1.5rem",
+        }}
+      >
+        <h2 style={{ color: "var(--text-strong)", fontSize: "1rem", marginBottom: ".8rem" }}>
+          都道府県別の補助金一覧
+        </h2>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: ".45rem" }}>
+          {PREFECTURES.map((prefecture) => (
+            <Link
+              key={prefecture}
+              href={`/subsidies/prefecture/${encodeURIComponent(prefecture)}`}
+              style={{
+                backgroundColor: "var(--bg-surface-alt)",
+                border: "1px solid var(--border-soft)",
+                borderRadius: "999px",
+                color: "var(--text-base)",
+                fontSize: ".8rem",
+                padding: ".36rem .62rem",
+                textDecoration: "none",
+              }}
+            >
+              {prefecture}
+            </Link>
+          ))}
+        </div>
       </section>
 
       <Suspense fallback={null}>

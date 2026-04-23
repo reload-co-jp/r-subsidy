@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: `${SITE_NAME} | 中小企業・個人事業主向け`,
     template: `%s | ${SITE_NAME}`,
   },
-  description: "中小企業・個人事業主向けに、国と東京都の補助金情報を検索・比較・診断できる補助金ポータルサイトです。",
+  description: "中小企業・個人事業主向けに、Jグランツ掲載の補助金情報を都道府県・受付状態・目的から検索、比較、診断できる補助金ポータルサイトです。",
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: absoluteUrl("/"),
@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     "助成金",
     "中小企業",
     "個人事業主",
+    "都道府県",
     "東京都",
     "Jグランツ",
     "補助金診断",
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: SITE_NAME,
     title: `${SITE_NAME} | 中小企業・個人事業主向け`,
-    description: "国と東京都の補助金情報を検索・比較・診断できる補助金ポータルサイトです。",
+    description: "Jグランツ掲載の補助金情報を都道府県・受付状態・目的から検索、比較、診断できる補助金ポータルサイトです。",
     images: [
       {
         url: absoluteUrl(DEFAULT_OG_IMAGE),
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} | 中小企業・個人事業主向け`,
-    description: "国と東京都の補助金情報を検索・比較・診断できる補助金ポータルサイトです。",
+    description: "Jグランツ掲載の補助金情報を都道府県・受付状態・目的から検索、比較、診断できる補助金ポータルサイトです。",
     images: [absoluteUrl(DEFAULT_OG_IMAGE)],
   },
   robots: {

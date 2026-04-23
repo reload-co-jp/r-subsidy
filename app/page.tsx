@@ -3,6 +3,7 @@ import Link from "next/link"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
+import { PREFECTURES } from "../lib/prefectures"
 import type { NormalizedSubsidy, SubsidyIndexItem, UpdateHistory } from "../lib/types"
 import { SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
 
@@ -62,7 +63,7 @@ function getSortTime(subsidy: NormalizedSubsidy) {
 export const metadata: Metadata = {
   title: `${SITE_NAME} | 中小企業・個人事業主向け`,
   description:
-    "中小企業・個人事業主向けに、国と東京都の補助金を検索し、事業内容に合う制度を診断できる補助金ポータルです。",
+    "中小企業・個人事業主向けに、Jグランツ掲載の補助金を都道府県・受付状態・目的から検索し、事業内容に合う制度を診断できる補助金ポータルです。",
   alternates: {
     canonical: absoluteUrl("/"),
   },
@@ -79,7 +80,23 @@ const Page: FC = () => {
     url: SITE_URL,
     inLanguage: "ja",
     description:
-      "中小企業・個人事業主向けに、国と東京都の補助金を検索し、事業内容に合う制度を診断できる補助金ポータルです。",
+      "中小企業・個人事業主向けに、Jグランツ掲載の補助金を都道府県・受付状態・目的から検索し、事業内容に合う制度を診断できる補助金ポータルです。",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE_URL}/subsidies/?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  }
+  const latestItemList = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "最新の補助金",
+    itemListElement: latestSubsidies.map((subsidy, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: absoluteUrl(`/subsidies/${subsidy.slug}/`),
+      name: subsidy.title,
+    })),
   }
 
   return (
@@ -88,6 +105,12 @@ const Page: FC = () => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+      {latestSubsidies.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(latestItemList) }}
+        />
+      )}
       <section style={{ textAlign: "center", padding: "4rem 0 3rem" }}>
         <h1
           style={{
@@ -105,7 +128,7 @@ const Page: FC = () => {
         <p style={{ color: "var(--text-muted)", fontSize: "1rem", marginBottom: "2.5rem", lineHeight: 1.7 }}>
           事業形態・業種・従業員数などを入力するだけで、
           <br />
-          国・東京都の補助金をスコアリングして最適なものをご提案します。
+          Jグランツ掲載の補助金をスコアリングして最適なものをご提案します。
         </p>
         <Link
           href="/diagnosis"
@@ -132,12 +155,64 @@ const Page: FC = () => {
         <div style={{ color: "var(--text-base)", fontSize: ".95rem", lineHeight: 1.9 }}>
           <p style={{ marginBottom: ".8rem" }}>
             補助金ポータルは、中小企業や個人事業主が使える補助金を探しやすくするためのサイトです。
-            国の補助金だけでなく、東京都の制度もまとめて確認できます。
+            Jグランツ掲載の制度を、都道府県・受付状態・目的からまとめて確認できます。
           </p>
           <p>
             補助金一覧ページでは制度を比較でき、診断ページでは所在地・業種・従業員数・用途から、
             自社に合いやすい補助金を絞り込めます。
           </p>
+        </div>
+      </section>
+
+      <section style={{ marginBottom: "3rem" }}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+            gap: "1rem",
+            marginBottom: "1rem",
+          }}
+        >
+          <h2 style={{ color: "var(--text-strong)", fontSize: "1.1rem" }}>
+            都道府県から補助金を探す
+          </h2>
+          <Link
+            href="/subsidies"
+            style={{
+              color: "#38b48b",
+              textDecoration: "none",
+              fontSize: ".85rem",
+              whiteSpace: "nowrap",
+            }}
+          >
+            条件検索へ →
+          </Link>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: ".5rem",
+          }}
+        >
+          {PREFECTURES.slice(0, 14).map((prefecture) => (
+            <Link
+              key={prefecture}
+              href={`/subsidies/prefecture/${encodeURIComponent(prefecture)}`}
+              style={{
+                backgroundColor: "var(--bg-surface)",
+                border: "1px solid var(--border-soft)",
+                borderRadius: "999px",
+                color: "var(--text-base)",
+                fontSize: ".82rem",
+                padding: ".42rem .72rem",
+                textDecoration: "none",
+              }}
+            >
+              {prefecture}
+            </Link>
+          ))}
         </div>
       </section>
 
