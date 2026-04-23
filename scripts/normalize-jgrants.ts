@@ -5,6 +5,21 @@ import { normalizeJGrantsDetail } from '../lib/normalize'
 
 const DETAIL_DIR = path.join(process.cwd(), 'data', 'raw', 'jgrants-details')
 const OUT_DIR = path.join(process.cwd(), 'data', 'normalized')
+const OUT_FILE = path.join(OUT_DIR, 'jgrants-normalized.json')
+
+function readPreviousSubsidies() {
+  try {
+    if (!fs.existsSync(OUT_FILE)) return new Map<string, NormalizedSubsidy>()
+
+    const previous = JSON.parse(fs.readFileSync(OUT_FILE, 'utf-8')) as {
+      subsidies?: NormalizedSubsidy[]
+    }
+
+    return new Map((previous.subsidies ?? []).map((subsidy) => [subsidy.id, subsidy]))
+  } catch {
+    return new Map<string, NormalizedSubsidy>()
+  }
+}
 
 async function main() {
   if (!fs.existsSync(DETAIL_DIR)) {
@@ -17,6 +32,7 @@ async function main() {
   const files = fs.readdirSync(DETAIL_DIR).filter((f) => f.endsWith('.json'))
   console.log(`Normalizing ${files.length} subsidies...`)
 
+  const previousSubsidies = readPreviousSubsidies()
   const results: NormalizedSubsidy[] = []
   let warnings = 0
 
@@ -30,6 +46,10 @@ async function main() {
         throw new Error('empty result')
       }
       const normalized = normalizeJGrantsDetail(detail)
+      const previous = previousSubsidies.get(normalized.id)
+      if (!detail.updated_date && previous?.updatedAt) {
+        normalized.updatedAt = previous.updatedAt
+      }
       results.push(normalized)
     } catch (err) {
       console.warn(`  Warning: ${file} - ${err}`)
@@ -38,7 +58,7 @@ async function main() {
   }
 
   fs.writeFileSync(
-    path.join(OUT_DIR, 'jgrants-normalized.json'),
+    OUT_FILE,
     JSON.stringify(
       {
         normalizedAt: new Date().toISOString(),

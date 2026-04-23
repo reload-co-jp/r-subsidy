@@ -4,10 +4,8 @@
   "title": "働き方改革推進支援助成金（団体推進コース）",
   "overview": "働き方改革推進支援助成金は、生産性を向上させ、労働時間の削減や年次有給休暇の促進に向けた環境整備に取り組む中小企業事業主の皆様を支援します。",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>働き方改革推進支援助成金（団体推進コース）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>中小企業事業主</p><p>※詳細についてはHP掲載のリーフレットや交付要綱ご確認ください。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>厚生労働省労働基準局労働条件政策課新たな働き方推進係</p><p>03-5253-1111（代表）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000200273.html\" target=\"_blank\">働き方改革推進支援助成金（団体推進コース）｜厚生労働省</a></p>",
-  "region": "prefecture",
-  "prefectures": [
-    "全国"
-  ],
+  "region": "national",
+  "prefectures": [],
   "industries": [
     "漁業",
     "建設業",

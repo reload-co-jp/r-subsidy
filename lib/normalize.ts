@@ -1,6 +1,21 @@
 import type { JGrantsDetail, NormalizedSubsidy, Region, Status } from './types'
+import { PREFECTURES } from './prefectures'
 
 const TOKYO_PREFECTURES = ['東京都', '東京']
+
+const CITY_PREFECTURE_HINTS: Record<string, string> = {
+  北九州市: '福岡県',
+  福岡市: '福岡県',
+  京都市: '京都府',
+  いわき市: '福島県',
+  佐賀市: '佐賀県',
+  岡崎市: '愛知県',
+  四日市市: '三重県',
+  山口市: '山口県',
+  東京都内: '東京都',
+  都内: '東京都',
+  東京港: '東京都',
+}
 
 const PURPOSE_KEYWORDS: Record<string, string[]> = {
   設備投資: ['設備', '機械', '装置', '導入', '購入', 'IT', 'デジタル', 'DX'],
@@ -25,6 +40,7 @@ export function extractPurposes(text: string): string[] {
 
 export function normalizeRegion(prefectures: string[]): Region {
   if (!prefectures || prefectures.length === 0) return 'national'
+  if (prefectures.includes('全国')) return 'national'
   if (prefectures.length >= 47) return 'national'
   if (prefectures.some((p) => TOKYO_PREFECTURES.includes(p))) {
     return prefectures.length === 1 ? 'tokyo' : 'prefecture'
@@ -114,24 +130,51 @@ function splitDelimitedText(value: string | undefined): string[] {
     .filter(Boolean)
 }
 
+function extractPrefectureHints(text: string): string[] {
+  const found = PREFECTURES.filter((prefecture) => text.includes(prefecture))
+
+  for (const [city, prefecture] of Object.entries(CITY_PREFECTURE_HINTS)) {
+    if (text.includes(city)) {
+      found.push(prefecture)
+    }
+  }
+
+  return [...new Set(found)]
+}
+
+function normalizeAreaTokens(areas: string[]): string[] {
+  const normalized = areas.flatMap((area) => {
+    const trimmed = area.trim()
+    if (!trimmed || trimmed === '全国') return []
+    if (PREFECTURES.includes(trimmed)) return [trimmed]
+
+    return extractPrefectureHints(trimmed)
+  })
+
+  return [...new Set(normalized)]
+}
+
 function normalizeJGrantsPrefectures(detail: JGrantsDetail): string[] {
   const legacyPrefectures = detail.target?.prefecture ?? []
-  if (legacyPrefectures.length > 0) return legacyPrefectures
+  if (legacyPrefectures.length > 0) return normalizeAreaTokens(legacyPrefectures)
 
   const workflowAreas = detail.workflow?.flatMap((item) => splitDelimitedText(item.target_area_search)) ?? []
   const directAreas = splitDelimitedText(detail.target_area_search)
-  const merged = [...workflowAreas, ...directAreas]
-  const unique = [...new Set(merged)]
+  const explicitAreas = normalizeAreaTokens([...workflowAreas, ...directAreas])
+  if (explicitAreas.length > 0) return explicitAreas
 
-  if (
-    unique.length === 0 &&
-    (detail.target_area_detail?.includes('全国') ||
-      detail.workflow?.some((item) => item.target_area_detail?.includes('全国')))
-  ) {
-    return []
-  }
+  const detailText = [
+    detail.title,
+    detail.institution_name,
+    detail.target_area_detail,
+    detail.workflow?.map((item) => item.target_area_detail).join(' '),
+  ]
+    .filter(Boolean)
+    .join(' ')
+  const hintedAreas = extractPrefectureHints(detailText)
+  if (hintedAreas.length > 0) return hintedAreas
 
-  return unique
+  return []
 }
 
 function normalizeJGrantsWorkflow(detail: JGrantsDetail): string | null {

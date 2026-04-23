@@ -4,10 +4,8 @@
   "title": "民放ラジオ難聴解消支援事業（令和７年度公募）",
   "overview": "難聴対策のための中継局整備費用の一部を補助",
   "detail": "<p><b style=\"color: rgb(0, 111, 173);\">■目的・概要</b></p><p>　本事業は、国民生活に密着した情報や災害時における生命・財産の確保に必要な情報の提供を確保するため、必要最小の空中線電力の中継局整備によりラジオの難聴を解消することを目的とするものです。</p><p>総務省では、ラジオの難聴解消のための中継局整備を行うラジオ放送事業者等に対し、その整備費用の一部補助を行います。</p><p>対象設備等の詳細は交付要綱、執行マニュアル（「参照URL」に掲載）をご確認ください。</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■根拠法令</b></p><p><span style=\"font-size: 14px;\">電波法第１０３条の２第４項第１２号の３</span></p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■応募資格</b></p><p><span style=\"font-size: 14px; background-color: rgb(255, 255, 255);\">地方公共団体、 民間ラジオ放送事業者　等</span></p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■補助対象</b></p><p><span style=\"color: rgb(62, 62, 60); background-color: rgb(255, 255, 255);\">難聴対策としての中継局整備</span></p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■問合せ先</b></p><p><span style=\"color: rgb(62, 62, 60); background-color: rgb(255, 255, 255);\">総務省情報流通行政局地上放送課（０３－５２５３－５９４９）</span></p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■参照URL</b></p><p>https://www.soumu.go.jp/menu_seisaku/ictseisaku/housou_suishin/hosonet_kyojinka02.html</p>",
-  "region": "prefecture",
-  "prefectures": [
-    "全国"
-  ],
+  "region": "national",
+  "prefectures": [],
   "industries": [
     "情報通信業"
   ],
