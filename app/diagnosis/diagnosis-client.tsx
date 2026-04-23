@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 import type { NormalizedSubsidy, UserProfile, ScoringResult, Tier } from "../../lib/types"
 import { scoreAndSort } from "../../lib/scoring"
@@ -32,6 +32,8 @@ const TIER_CONFIG: Record<Tier, { label: string; color: string; bg: string }> = 
   check: { label: "要確認", color: "#94a3b8", bg: "#94a3b822" },
 }
 
+const STORAGE_KEY = "diagnosis-profile"
+
 type Step = "form" | "result"
 
 export default function DiagnosisClient() {
@@ -45,6 +47,25 @@ export default function DiagnosisClient() {
   const [industry, setIndustry] = useState("製造業")
   const [employeeCount, setEmployeeCount] = useState(20)
   const [purposes, setPurposes] = useState<string[]>([])
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY)
+      if (!saved) return
+      const p = JSON.parse(saved)
+      if (p.businessType) setBusinessType(p.businessType)
+      if (p.prefecture) setPrefecture(p.prefecture)
+      if (p.industry) setIndustry(p.industry)
+      if (p.employeeCount != null) setEmployeeCount(p.employeeCount)
+      if (Array.isArray(p.purposes)) setPurposes(p.purposes)
+    } catch {}
+  }, [])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ businessType, prefecture, industry, employeeCount, purposes }))
+    } catch {}
+  }, [businessType, prefecture, industry, employeeCount, purposes])
 
   const togglePurpose = (p: string) => {
     setPurposes((prev) => (prev.includes(p) ? prev.filter((x) => x !== p) : [...prev, p]))
