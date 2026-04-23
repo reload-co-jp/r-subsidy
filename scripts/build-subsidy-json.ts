@@ -18,7 +18,38 @@ function ensureDirs() {
 }
 
 function writeJson(filePath: string, data: unknown) {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2))
+  fs.writeFileSync(filePath, stringifyJson(data))
+}
+
+function stringifyJson(data: unknown) {
+  return JSON.stringify(data, null, 2)
+}
+
+function writeJsonIfChanged(filePath: string, data: unknown) {
+  const next = stringifyJson(data)
+  const current = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf-8') : null
+
+  if (current === next) return false
+
+  fs.writeFileSync(filePath, next)
+  return true
+}
+
+function readPreviousHistory(): UpdateHistory | null {
+  for (const file of [
+    path.join(OUT_DIR, 'update-history.json'),
+    path.join(PUBLIC_DIR, 'update-history.json'),
+  ]) {
+    try {
+      if (fs.existsSync(file)) {
+        return JSON.parse(fs.readFileSync(file, 'utf-8'))
+      }
+    } catch {
+      // Ignore broken history and regenerate below.
+    }
+  }
+
+  return null
 }
 
 async function main() {
@@ -51,23 +82,29 @@ async function main() {
     updatedAt: s.updatedAt,
   }))
 
-  writeJson(path.join(OUT_DIR, 'subsidies-index.json'), index)
+  let dataChanged = false
+
+  dataChanged = writeJsonIfChanged(path.join(OUT_DIR, 'subsidies-index.json'), index) || dataChanged
   writeJson(path.join(PUBLIC_DIR, 'subsidies-index.json'), index)
 
   // subsidies-master.json (full data for client-side scoring)
-  writeJson(path.join(OUT_DIR, 'subsidies-master.json'), subsidies)
+  dataChanged = writeJsonIfChanged(path.join(OUT_DIR, 'subsidies-master.json'), subsidies) || dataChanged
   writeJson(path.join(PUBLIC_DIR, 'subsidies-master.json'), subsidies)
 
   // subsidies-detail/{slug}.json
   for (const subsidy of subsidies) {
     const detailData = subsidy
-    writeJson(path.join(OUT_DIR, 'subsidies-detail', `${subsidy.slug}.json`), detailData)
+    dataChanged =
+      writeJsonIfChanged(path.join(OUT_DIR, 'subsidies-detail', `${subsidy.slug}.json`), detailData) ||
+      dataChanged
     writeJson(path.join(PUBLIC_DIR, 'subsidies-detail', `${subsidy.slug}.json`), detailData)
   }
 
   // update-history.json
+  const previousHistory = readPreviousHistory()
   const history: UpdateHistory = {
-    lastUpdated: new Date().toISOString(),
+    lastUpdated:
+      dataChanged || !previousHistory ? new Date().toISOString() : previousHistory.lastUpdated,
     totalCount: subsidies.length,
     sources: {
       jgrants: counts.jgrants,
@@ -76,8 +113,8 @@ async function main() {
       manual: 0,
     },
   }
-  writeJson(path.join(OUT_DIR, 'update-history.json'), history)
-  writeJson(path.join(PUBLIC_DIR, 'update-history.json'), history)
+  writeJsonIfChanged(path.join(OUT_DIR, 'update-history.json'), history)
+  writeJsonIfChanged(path.join(PUBLIC_DIR, 'update-history.json'), history)
 
   console.log(`Built:`)
   console.log(`  subsidies-index.json (${index.length} items)`)
