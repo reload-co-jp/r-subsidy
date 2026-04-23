@@ -11,6 +11,7 @@ import type {
 } from "../lib/types"
 import { SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
 import { formatDate, formatAmount } from "../lib/format"
+import PurposeTagLink from "../components/elements/purpose-tag-link"
 
 function getUpdateHistory(): UpdateHistory | null {
   try {
@@ -378,18 +379,7 @@ const Page: FC = () => {
                       }}
                     >
                       {subsidy.purposes.slice(0, 3).map((purpose) => (
-                        <span
-                          key={purpose}
-                          style={{
-                            backgroundColor: "var(--bg-tag)",
-                            color: "#38b48b",
-                            borderRadius: "4px",
-                            padding: ".08rem .4rem",
-                            fontSize: ".72rem",
-                          }}
-                        >
-                          {purpose}
-                        </span>
+                        <PurposeTagLink key={purpose} purpose={purpose} />
                       ))}
                     </div>
                   )}

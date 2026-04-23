@@ -6,6 +6,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { PREFECTURES, isPrefecture, matchesPrefecture } from "../../lib/prefectures"
 import type { SubsidyIndexItem } from "../../lib/types"
 import { formatAmount } from "../../lib/format"
+import PurposeTagLink from "../../components/elements/purpose-tag-link"
 
 const SITE_NAME = "RSubsidy 補助金サーチ"
 
@@ -438,18 +439,7 @@ export default function SubsidiesListClient({
                     }}
                   >
                     {s.purposes.slice(0, 4).map((p) => (
-                      <span
-                        key={p}
-                        style={{
-                          backgroundColor: "var(--bg-tag)",
-                          color: "#38b48b",
-                          borderRadius: "4px",
-                          padding: ".1rem .4rem",
-                          fontSize: ".75rem",
-                        }}
-                      >
-                        {p}
-                      </span>
+                      <PurposeTagLink key={p} purpose={p} />
                     ))}
                     {s.upperLimit && s.upperLimit !== "0円" && (
                       <span
