@@ -104,7 +104,11 @@ export default function SubsidiesListClient({
         : buildSearchIndex(subsidy).includes(normalizedQuery)
       const matchesStatus = statusFilter === "all" ? true : subsidy.status === statusFilter
       const matchesSelectedPrefecture =
-        prefectureFilter === "all" ? true : matchesPrefecture(subsidy, prefectureFilter)
+        prefectureFilter === "all"
+          ? true
+          : prefectureFilter === "national"
+            ? subsidy.region === "national" || subsidy.prefectures.includes("全国")
+            : matchesPrefecture(subsidy, prefectureFilter)
 
       return matchesQuery && matchesStatus && matchesSelectedPrefecture
     })
@@ -220,6 +224,7 @@ export default function SubsidiesListClient({
               }}
             >
               <option value="all">すべての地域</option>
+              <option value="national">国の補助金（全国対象）</option>
               {PREFECTURES.map((prefecture) => (
                 <option key={prefecture} value={prefecture}>
                   {prefecture}
@@ -417,10 +422,8 @@ function parseStatusFilter(value: string | null): "all" | SubsidyIndexItem["stat
 }
 
 function parsePrefectureFilter(value: string | null) {
-  if (value && isPrefecture(value)) {
-    return value
-  }
-
+  if (value === "national") return "national"
+  if (value && isPrefecture(value)) return value
   return "all"
 }
 
@@ -429,7 +432,8 @@ function buildFilterTitle(
   statusFilter: "all" | SubsidyIndexItem["status"],
   prefectureFilter: string
 ) {
-  const area = prefectureFilter === "all" ? "" : prefectureFilter
+  const area =
+    prefectureFilter === "all" ? "" : prefectureFilter === "national" ? "国の補助金" : prefectureFilter
   const status = statusFilter === "all" ? "" : statusLabel[statusFilter].label
   const prefix =
     area && status

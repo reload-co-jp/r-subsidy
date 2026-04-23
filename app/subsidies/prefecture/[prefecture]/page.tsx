@@ -44,7 +44,12 @@ function getOpenPrefectureSubsidies(subsidies: SubsidyIndexItem[], prefecture: s
 }
 
 function getPrefectureSubsidies(subsidies: SubsidyIndexItem[], prefecture: string) {
-  return subsidies.filter((subsidy) => matchesPrefecture(subsidy, prefecture))
+  return subsidies.filter(
+    (subsidy) =>
+      subsidy.region !== "national" &&
+      !subsidy.prefectures.includes("全国") &&
+      matchesPrefecture(subsidy, prefecture)
+  )
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -158,8 +163,8 @@ export default async function Page({ params }: Props) {
           {title}
         </h1>
         <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8 }}>
-          {openSubsidies.length}件の受付中の補助金を掲載しています。全国対象の制度も含めて、{prefecture}
-          の事業者が確認しやすい形でまとめています。
+          {openSubsidies.length}件の受付中の補助金を掲載しています。{prefecture}
+          を対象とした制度をまとめています。
         </p>
       </div>
 
