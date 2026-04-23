@@ -16,6 +16,12 @@ export const metadata: Metadata = {
     url: absoluteUrl("/diagnosis/"),
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `補助金診断 | ${SITE_NAME}`,
+    description:
+      "所在地・業種・従業員数・用途から、中小企業・個人事業主向けの補助金を診断できます。",
+  },
 }
 
 export default function DiagnosisPage() {

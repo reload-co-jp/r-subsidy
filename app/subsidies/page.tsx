@@ -18,27 +18,50 @@ function getSubsidies(): SubsidyIndexItem[] {
   }
 }
 
+const PAGE_TITLE = `補助金一覧 | ${SITE_NAME}`
+const PAGE_DESCRIPTION =
+  "中小企業・個人事業主向けの補助金をJグランツから一覧で掲載。都道府県・受付状態・用途・補助上限額で絞り込み、制度を比較できます。"
+const PAGE_URL = absoluteUrl("/subsidies/")
+
 export const metadata: Metadata = {
-  title: `補助金一覧 | ${SITE_NAME}`,
-  description:
-    "Jグランツ掲載の補助金一覧を掲載しています。都道府県、受付状態、用途、補助上限額などを確認しながら制度を比較できます。",
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
   alternates: {
-    canonical: absoluteUrl("/subsidies/"),
+    canonical: PAGE_URL,
+  },
+  openGraph: {
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    url: PAGE_URL,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
   },
 }
 
 const Page: FC = () => {
   const subsidies = getSubsidies()
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    name: "補助金一覧",
-    url: absoluteUrl("/subsidies/"),
-    inLanguage: "ja",
-    description:
-      "Jグランツ掲載の補助金一覧を掲載しています。都道府県、受付状態、用途、補助上限額などを確認しながら制度を比較できます。",
-    numberOfItems: subsidies.length,
-  }
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "補助金一覧",
+      url: PAGE_URL,
+      inLanguage: "ja",
+      description: PAGE_DESCRIPTION,
+      numberOfItems: subsidies.length,
+      breadcrumb: {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
+          { "@type": "ListItem", position: 2, name: "補助金一覧", item: PAGE_URL },
+        ],
+      },
+    },
+  ]
 
   return (
     <div style={{ maxWidth: "900px", margin: "0 auto" }}>

@@ -24,14 +24,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = getSiteUrl()
   const subsidies = getSubsidies()
 
+  const latestUpdatedAt = subsidies.reduce((latest, s) =>
+    s.updatedAt > latest ? s.updatedAt : latest, ""
+  )
+  const today = new Date().toISOString()
+
   const staticRoutes: MetadataRoute.Sitemap = [
-    { url: `${siteUrl}/`, changeFrequency: "weekly", priority: 1 },
-    { url: `${siteUrl}/subsidies/`, changeFrequency: "daily", priority: 0.9 },
-    { url: `${siteUrl}/diagnosis/`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/`, lastModified: latestUpdatedAt || today, changeFrequency: "weekly", priority: 1 },
+    { url: `${siteUrl}/subsidies/`, lastModified: latestUpdatedAt || today, changeFrequency: "daily", priority: 0.9 },
+    { url: `${siteUrl}/diagnosis/`, lastModified: today, changeFrequency: "monthly", priority: 0.8 },
   ]
 
   const prefectureRoutes: MetadataRoute.Sitemap = PREFECTURES.map((prefecture) => ({
     url: `${siteUrl}/subsidies/prefecture/${encodeURIComponent(prefecture)}/`,
+    lastModified: latestUpdatedAt || today,
     changeFrequency: "daily",
     priority: 0.85,
   }))

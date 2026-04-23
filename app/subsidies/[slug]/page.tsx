@@ -89,6 +89,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       url: pageUrl,
       type: "article",
+      modifiedTime: subsidy.updatedAt,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${subsidy.title} | ${SITE_NAME}`,
+      description,
     },
   }
 }
