@@ -149,7 +149,7 @@ export default function DiagnosisClient() {
                             {r.subsidy.title}
                           </div>
                           <div style={{ color: "var(--text-muted)", fontSize: ".75rem" }}>
-                            {r.subsidy.upperLimit && `上限 ${r.subsidy.upperLimit} ／ `}
+                            {r.subsidy.upperLimit && r.subsidy.upperLimit !== "0円" && `上限 ${r.subsidy.upperLimit} ／ `}
                             {r.subsidy.purposes.slice(0, 3).join("・")}
                           </div>
                         </div>

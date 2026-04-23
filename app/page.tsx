@@ -330,7 +330,7 @@ const Page: FC = () => {
                         受付開始 {subsidy.startDate}
                       </span>
                     )}
-                    {subsidy.upperLimit && (
+                    {subsidy.upperLimit && subsidy.upperLimit !== "0円" && (
                       <span
                         style={{
                           color: "#f59e0b",

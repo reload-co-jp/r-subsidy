@@ -175,9 +175,15 @@ const Page: FC<Props> = async ({ params }) => {
   }
 
   const infoRows: { label: string; value: string | null }[] = [
-    { label: "対象地域", value: regionLabel[subsidy.region] ?? subsidy.region },
+    {
+      label: "対象地域",
+      value:
+        subsidy.region === "prefecture" && subsidy.prefectures.length > 0
+          ? `都道府県（${subsidy.prefectures.join("、")}）`
+          : regionLabel[subsidy.region] ?? subsidy.region,
+    },
     { label: "補助率", value: subsidy.subsidizedRate },
-    { label: "補助上限額", value: subsidy.upperLimit },
+    { label: "補助上限額", value: subsidy.upperLimit === "0円" ? "情報なし" : subsidy.upperLimit },
     { label: "補助下限額", value: subsidy.lowerLimit },
     { label: "受付開始", value: subsidy.startDate },
     { label: "受付終了", value: subsidy.endDate },

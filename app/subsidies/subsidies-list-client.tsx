@@ -390,7 +390,7 @@ export default function SubsidiesListClient({
                         {p}
                       </span>
                     ))}
-                    {s.upperLimit && (
+                    {s.upperLimit && s.upperLimit !== "0円" && (
                       <span
                         style={{
                           marginLeft: "auto",
