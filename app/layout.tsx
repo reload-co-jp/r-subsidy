@@ -1,7 +1,11 @@
 import "./reset.css"
 import Link from "next/link"
+import Script from "next/script"
 import type { Metadata } from "next"
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
+
+const GA_MEASUREMENT_ID = "G-LECQC20MLT"
+const isProduction = process.env.NODE_ENV === "production"
 
 export const metadata: Metadata = {
   title: {
@@ -71,6 +75,22 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="ja">
       <body>
+        {isProduction && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_MEASUREMENT_ID}');
+              `}
+            </Script>
+          </>
+        )}
         <header
           style={{
             backgroundColor: "var(--bg-header)",
