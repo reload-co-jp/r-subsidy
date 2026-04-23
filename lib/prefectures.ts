@@ -51,8 +51,8 @@ export const PREFECTURES = [
 ]
 
 export const AREA_PREFECTURES: Record<string, string[]> = {
-  "北海道地方": ["北海道"],
-  "東北地方": ["青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県"],
+  北海道地方: ["北海道"],
+  東北地方: ["青森県", "岩手県", "宮城県", "秋田県", "山形県", "福島県"],
   "関東・甲信越地方": [
     "茨城県",
     "栃木県",
@@ -74,9 +74,9 @@ export const AREA_PREFECTURES: Record<string, string[]> = {
     "愛知県",
     "三重県",
   ],
-  "近畿地方": ["滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県"],
-  "中国地方": ["鳥取県", "島根県", "岡山県", "広島県", "山口県"],
-  "四国地方": ["徳島県", "香川県", "愛媛県", "高知県"],
+  近畿地方: ["滋賀県", "京都府", "大阪府", "兵庫県", "奈良県", "和歌山県"],
+  中国地方: ["鳥取県", "島根県", "岡山県", "広島県", "山口県"],
+  四国地方: ["徳島県", "香川県", "愛媛県", "高知県"],
   "九州・沖縄地方": [
     "福岡県",
     "佐賀県",
@@ -93,9 +93,35 @@ export function isPrefecture(value: string) {
   return PREFECTURES.includes(value)
 }
 
-export function matchesPrefecture(subsidy: SubsidyIndexItem, prefecture: string) {
-  if (subsidy.region === "national" || subsidy.prefectures.includes("全国")) return true
+export function matchesPrefecture(
+  subsidy: SubsidyIndexItem,
+  prefecture: string
+) {
+  if (subsidy.region === "national" || subsidy.prefectures.includes("全国"))
+    return true
   if (subsidy.prefectures.includes(prefecture)) return true
 
-  return subsidy.prefectures.some((area) => AREA_PREFECTURES[area]?.includes(prefecture))
+  return subsidy.prefectures.some((area) =>
+    AREA_PREFECTURES[area]?.includes(prefecture)
+  )
 }
+
+export const POPULAR_PREFECTURES = [
+  "北海道",
+  "宮城県",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "新潟県",
+  "静岡県",
+  "愛知県",
+  "京都府",
+  "大阪府",
+  "兵庫県",
+  "広島県",
+  "福岡県",
+  "熊本県",
+  "鹿児島県",
+  "沖縄県",
+]

@@ -3,13 +3,22 @@ import Link from "next/link"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
-import { PREFECTURES } from "../lib/prefectures"
-import type { NormalizedSubsidy, SubsidyIndexItem, UpdateHistory } from "../lib/types"
+import { POPULAR_PREFECTURES } from "../lib/prefectures"
+import type {
+  NormalizedSubsidy,
+  SubsidyIndexItem,
+  UpdateHistory,
+} from "../lib/types"
 import { SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
 
 function getUpdateHistory(): UpdateHistory | null {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "update-history.json")
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "update-history.json"
+    )
     return JSON.parse(fs.readFileSync(file, "utf-8"))
   } catch {
     return null
@@ -18,8 +27,15 @@ function getUpdateHistory(): UpdateHistory | null {
 
 function getLatestSubsidies(): NormalizedSubsidy[] {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "subsidies-master.json")
-    const subsidies: NormalizedSubsidy[] = JSON.parse(fs.readFileSync(file, "utf-8"))
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-master.json"
+    )
+    const subsidies: NormalizedSubsidy[] = JSON.parse(
+      fs.readFileSync(file, "utf-8")
+    )
 
     return subsidies
       .filter((subsidy) => subsidy.status !== "closed")
@@ -32,8 +48,15 @@ function getLatestSubsidies(): NormalizedSubsidy[] {
 
 function getSubsidyStats() {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
-    const subsidies: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-index.json"
+    )
+    const subsidies: SubsidyIndexItem[] = JSON.parse(
+      fs.readFileSync(file, "utf-8")
+    )
 
     return subsidies.reduce(
       (stats, subsidy) => {
@@ -125,7 +148,14 @@ const Page: FC = () => {
           <br />
           かんたん診断
         </h1>
-        <p style={{ color: "var(--text-muted)", fontSize: "1rem", marginBottom: "2.5rem", lineHeight: 1.7 }}>
+        <p
+          style={{
+            color: "var(--text-muted)",
+            fontSize: "1rem",
+            marginBottom: "2.5rem",
+            lineHeight: 1.7,
+          }}
+        >
           事業形態・業種・従業員数などを入力するだけで、
           <br />
           Jグランツ掲載の補助金をスコアリングして最適なものをご提案します。
@@ -149,10 +179,22 @@ const Page: FC = () => {
       </section>
 
       <section style={{ marginBottom: "3rem" }}>
-        <h2 style={{ color: "var(--text-strong)", fontSize: "1.1rem", marginBottom: "1rem" }}>
+        <h2
+          style={{
+            color: "var(--text-strong)",
+            fontSize: "1.1rem",
+            marginBottom: "1rem",
+          }}
+        >
           補助金ポータルでできること
         </h2>
-        <div style={{ color: "var(--text-base)", fontSize: ".95rem", lineHeight: 1.9 }}>
+        <div
+          style={{
+            color: "var(--text-base)",
+            fontSize: ".95rem",
+            lineHeight: 1.9,
+          }}
+        >
           <p style={{ marginBottom: ".8rem" }}>
             補助金ポータルは、中小企業や個人事業主が使える補助金を探しやすくするためのサイトです。
             Jグランツ掲載の制度を、都道府県・受付状態・目的からまとめて確認できます。
@@ -196,7 +238,7 @@ const Page: FC = () => {
             gap: ".5rem",
           }}
         >
-          {PREFECTURES.slice(0, 14).map((prefecture) => (
+          {POPULAR_PREFECTURES.map((prefecture) => (
             <Link
               key={prefecture}
               href={`/subsidies/prefecture/${encodeURIComponent(prefecture)}`}
@@ -279,12 +321,23 @@ const Page: FC = () => {
                       {subsidy.status === "upcoming" ? "公募前" : "受付中"}
                     </span>
                     {subsidy.startDate && (
-                      <span style={{ color: "var(--text-muted)", fontSize: ".78rem" }}>
+                      <span
+                        style={{
+                          color: "var(--text-muted)",
+                          fontSize: ".78rem",
+                        }}
+                      >
                         受付開始 {subsidy.startDate}
                       </span>
                     )}
                     {subsidy.upperLimit && (
-                      <span style={{ color: "#f59e0b", fontSize: ".78rem", marginLeft: "auto" }}>
+                      <span
+                        style={{
+                          color: "#f59e0b",
+                          fontSize: ".78rem",
+                          marginLeft: "auto",
+                        }}
+                      >
                         上限 {subsidy.upperLimit}
                       </span>
                     )}
@@ -300,7 +353,13 @@ const Page: FC = () => {
                     {subsidy.title}
                   </h3>
                   {subsidy.purposes.length > 0 && (
-                    <div style={{ display: "flex", gap: ".4rem", flexWrap: "wrap" }}>
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: ".4rem",
+                        flexWrap: "wrap",
+                      }}
+                    >
                       {subsidy.purposes.slice(0, 3).map((purpose) => (
                         <span
                           key={purpose}
@@ -337,7 +396,10 @@ const Page: FC = () => {
           { label: "受付中", value: stats ? `${stats.open}件` : "—" },
           { label: "公募前", value: stats ? `${stats.upcoming}件` : "—" },
           { label: "終了", value: stats ? `${stats.closed}件` : "—" },
-          { label: "JグランツAPI連携", value: history ? `${history.sources.jgrants}件` : "—" },
+          {
+            label: "JグランツAPI連携",
+            value: history ? `${history.sources.jgrants}件` : "—",
+          },
           {
             label: "最終更新",
             value: history
@@ -355,10 +417,22 @@ const Page: FC = () => {
               border: "1px solid var(--border-soft)",
             }}
           >
-            <div style={{ color: "#38b48b", fontSize: "1.5rem", fontWeight: "bold" }}>
+            <div
+              style={{
+                color: "#38b48b",
+                fontSize: "1.5rem",
+                fontWeight: "bold",
+              }}
+            >
               {stat.value}
             </div>
-            <div style={{ color: "var(--text-muted)", fontSize: ".8rem", marginTop: ".25rem" }}>
+            <div
+              style={{
+                color: "var(--text-muted)",
+                fontSize: ".8rem",
+                marginTop: ".25rem",
+              }}
+            >
               {stat.label}
             </div>
           </div>
