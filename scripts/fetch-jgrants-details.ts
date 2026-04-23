@@ -32,6 +32,12 @@ async function fetchWithRetry(id: string, retries = 3): Promise<JGrantsDetailRes
   return null
 }
 
+function isClosed(item: { acceptance_end_datetime?: string }): boolean {
+  if (!item.acceptance_end_datetime) return false
+  const end = new Date(item.acceptance_end_datetime)
+  return !isNaN(end.getTime()) && end < new Date()
+}
+
 async function main() {
   const indexFile = path.join(RAW_DIR, 'jgrants-index.json')
   if (!fs.existsSync(indexFile)) {
@@ -40,34 +46,42 @@ async function main() {
   }
 
   const { items } = JSON.parse(fs.readFileSync(indexFile, 'utf-8')) as {
-    items: { id: string }[]
+    items: { id: string; acceptance_end_datetime?: string }[]
   }
-  const ids = items.map((i) => i.id)
 
   fs.mkdirSync(DETAIL_DIR, { recursive: true })
+
+  let skippedClosed = 0
+  const targets = items.filter((item) => {
+    const outFile = path.join(DETAIL_DIR, `${item.id}.json`)
+    if (fs.existsSync(outFile)) return false
+    if (isClosed(item)) {
+      skippedClosed++
+      return false
+    }
+    return true
+  })
+
+  console.log(`Total: ${items.length}, Fetch: ${targets.length}, Skipped (closed): ${skippedClosed}, Skipped (cached): ${items.length - targets.length - skippedClosed}`)
 
   const errors: { id: string; error: string }[] = []
   let done = 0
 
-  for (let i = 0; i < ids.length; i += CONCURRENCY) {
-    const batch = ids.slice(i, i + CONCURRENCY)
+  for (let i = 0; i < targets.length; i += CONCURRENCY) {
+    const batch = targets.slice(i, i + CONCURRENCY)
     await Promise.all(
-      batch.map(async (id) => {
-        const outFile = path.join(DETAIL_DIR, `${id}.json`)
-        if (fs.existsSync(outFile)) {
-          done++
-          return
-        }
-        const detail = await fetchWithRetry(id)
+      batch.map(async (item) => {
+        const outFile = path.join(DETAIL_DIR, `${item.id}.json`)
+        const detail = await fetchWithRetry(item.id)
         if (detail) {
           fs.writeFileSync(outFile, JSON.stringify(detail, null, 2))
         } else {
-          errors.push({ id, error: 'fetch failed' })
+          errors.push({ id: item.id, error: 'fetch failed' })
         }
         done++
       })
     )
-    process.stdout.write(`\r  ${done}/${ids.length}`)
+    process.stdout.write(`\r  ${done}/${targets.length}`)
     await new Promise((r) => setTimeout(r, DELAY_MS))
   }
 
