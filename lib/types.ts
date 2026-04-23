@@ -182,6 +182,7 @@ export type SubsidyIndexItem = {
   purposes: string[]
   upperLimit: string | null
   source: Source
+  startDate: string | null
   updatedAt: string
 }
 

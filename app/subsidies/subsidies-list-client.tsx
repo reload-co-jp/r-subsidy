@@ -112,6 +112,12 @@ export default function SubsidiesListClient({
 
       return matchesQuery && matchesStatus && matchesSelectedPrefecture
     })
+    .toSorted((a, b) => {
+      if (a.startDate === b.startDate) return 0
+      if (!a.startDate) return 1
+      if (!b.startDate) return -1
+      return b.startDate.localeCompare(a.startDate)
+    })
   }, [query, prefectureFilter, statusFilter, subsidies])
 
   if (subsidies.length === 0) {
