@@ -5,7 +5,7 @@ import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { PREFECTURES, isPrefecture, matchesPrefecture } from "../../lib/prefectures"
 import type { SubsidyIndexItem } from "../../lib/types"
-import { formatAmount } from "../../lib/format"
+import { formatAmount, parseAmount } from "../../lib/format"
 import PurposeTagLink from "../../components/elements/purpose-tag-link"
 
 const SITE_NAME = "RSubsidy 補助金サーチ"
@@ -64,6 +64,7 @@ export default function SubsidiesListClient({
     parsePrefectureFilter(searchParams.get("prefecture") ?? initialPrefecture)
   )
   const [purposeFilter, setPurposeFilter] = useState(() => searchParams.get("purpose") ?? "all")
+  const [amountFilter, setAmountFilter] = useState(() => searchParams.get("amount") ?? "all")
   const filterTitle = buildFilterTitle(query, statusFilter, prefectureFilter, purposeFilter)
 
   useEffect(() => {
@@ -93,13 +94,19 @@ export default function SubsidiesListClient({
       params.delete("purpose")
     }
 
+    if (amountFilter !== "all") {
+      params.set("amount", amountFilter)
+    } else {
+      params.delete("amount")
+    }
+
     const nextUrl = params.toString() ? `${pathname}?${params.toString()}` : pathname
     const currentUrl = searchParams.toString() ? `${pathname}?${searchParams.toString()}` : pathname
 
     if (nextUrl !== currentUrl) {
       router.replace(nextUrl, { scroll: false })
     }
-  }, [initialPrefecture, pathname, prefectureFilter, purposeFilter, query, router, searchParams, statusFilter])
+  }, [amountFilter, initialPrefecture, pathname, prefectureFilter, purposeFilter, query, router, searchParams, statusFilter])
 
   useEffect(() => {
     document.title = `${filterTitle} | ${SITE_NAME}`
@@ -120,7 +127,19 @@ export default function SubsidiesListClient({
             : matchesPrefecture(subsidy, prefectureFilter)
 
       const matchesPurpose = purposeFilter === "all" ? true : subsidy.purposes.includes(purposeFilter)
-      return matchesQuery && matchesStatus && matchesSelectedPrefecture && matchesPurpose
+      const matchesAmount = (() => {
+        if (amountFilter === "all") return true
+        const n = parseAmount(subsidy.upperLimit)
+        if (amountFilter === "unknown") return n === null
+        if (n === null) return false
+        if (amountFilter === "under100") return n < 1_000_000
+        if (amountFilter === "100to1000") return n >= 1_000_000 && n < 10_000_000
+        if (amountFilter === "1000to1oku") return n >= 10_000_000 && n < 100_000_000
+        if (amountFilter === "1okuto10oku") return n >= 100_000_000 && n < 1_000_000_000
+        if (amountFilter === "over10oku") return n >= 1_000_000_000
+        return true
+      })()
+      return matchesQuery && matchesStatus && matchesSelectedPrefecture && matchesPurpose && matchesAmount
     })
     .toSorted((a, b) => {
       if (a.startDate === b.startDate) return 0
@@ -128,7 +147,7 @@ export default function SubsidiesListClient({
       if (!b.startDate) return -1
       return b.startDate.localeCompare(a.startDate)
     })
-  }, [query, prefectureFilter, purposeFilter, statusFilter, subsidies])
+  }, [amountFilter, query, prefectureFilter, purposeFilter, statusFilter, subsidies])
 
   if (subsidies.length === 0) {
     return (
@@ -317,6 +336,44 @@ export default function SubsidiesListClient({
             )
           })}
         </div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: ".5rem",
+            marginTop: ".85rem",
+          }}
+        >
+          {[
+            { value: "all", label: "すべての金額" },
+            { value: "under100", label: "〜100万円" },
+            { value: "100to1000", label: "100万〜1,000万円" },
+            { value: "1000to1oku", label: "1,000万〜1億円" },
+            { value: "1okuto10oku", label: "1億〜10億円" },
+            { value: "over10oku", label: "10億円以上" },
+            { value: "unknown", label: "金額情報なし" },
+          ].map((option) => {
+            const selected = amountFilter === option.value
+            return (
+              <button
+                key={option.value}
+                type="button"
+                onClick={() => setAmountFilter(option.value)}
+                style={{
+                  borderRadius: "999px",
+                  border: `1px solid ${selected ? "#6366f1" : "var(--border-soft)"}`,
+                  backgroundColor: selected ? "#6366f122" : "var(--bg-surface-alt)",
+                  color: selected ? "#6366f1" : "var(--text-base)",
+                  padding: ".45rem .8rem",
+                  fontSize: ".8rem",
+                  cursor: "pointer",
+                }}
+              >
+                {option.label}
+              </button>
+            )
+          })}
+        </div>
         <p
           style={{
             color: "var(--text-muted)",
@@ -324,7 +381,7 @@ export default function SubsidiesListClient({
             marginTop: ".65rem",
           }}
         >
-          {query || statusFilter !== "all" || prefectureFilter !== "all" || purposeFilter !== "all"
+          {query || statusFilter !== "all" || prefectureFilter !== "all" || purposeFilter !== "all" || amountFilter !== "all"
             ? `${filtered.length}件ヒット`
             : `${subsidies.length}件を表示中`}
         </p>

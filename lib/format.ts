@@ -5,6 +5,14 @@ export function formatDate(date: string | null): string | null {
   return `${m[1]}年${m[2]}月${m[3]}日`
 }
 
+export function parseAmount(value: string | null): number | null {
+  if (!value || value === "0円") return null
+  const m = value.match(/^([\d,]+)円$/)
+  if (!m) return null
+  const n = parseInt(m[1].replace(/,/g, ""), 10)
+  return isNaN(n) ? null : n
+}
+
 export function formatAmount(value: string | null): string | null {
   if (!value) return null
   const m = value.match(/^([\d,]+)円$/)
