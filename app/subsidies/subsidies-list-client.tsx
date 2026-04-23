@@ -5,6 +5,7 @@ import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { PREFECTURES, isPrefecture, matchesPrefecture } from "../../lib/prefectures"
 import type { SubsidyIndexItem } from "../../lib/types"
+import { formatAmount } from "../../lib/format"
 
 const SITE_NAME = "RSubsidy 補助金サーチ"
 
@@ -374,6 +375,22 @@ export default function SubsidiesListClient({
                       {s.title}
                     </h2>
                   </div>
+                  {s.overview && (
+                    <p
+                      style={{
+                        color: "var(--text-muted)",
+                        fontSize: ".8rem",
+                        marginTop: ".5rem",
+                        lineHeight: 1.6,
+                        overflow: "hidden",
+                        display: "-webkit-box",
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: "vertical",
+                      }}
+                    >
+                      {s.overview}
+                    </p>
+                  )}
                   <div
                     style={{
                       marginTop: ".75rem",
@@ -405,7 +422,7 @@ export default function SubsidiesListClient({
                           whiteSpace: "nowrap",
                         }}
                       >
-                        上限 {s.upperLimit}
+                        上限 {formatAmount(s.upperLimit)}
                       </span>
                     )}
                   </div>

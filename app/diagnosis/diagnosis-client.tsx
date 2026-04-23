@@ -9,6 +9,7 @@ import type {
   Tier,
 } from "../../lib/types"
 import { scoreAndSort } from "../../lib/scoring"
+import { formatAmount } from "../../lib/format"
 
 const PREFECTURES = [
   "東京都",
@@ -293,7 +294,7 @@ export default function DiagnosisClient() {
                           >
                             {r.subsidy.upperLimit &&
                               r.subsidy.upperLimit !== "0円" &&
-                              `上限 ${r.subsidy.upperLimit} ／ `}
+                              `上限 ${formatAmount(r.subsidy.upperLimit)} ／ `}
                             {r.subsidy.purposes.slice(0, 3).join("・")}
                           </div>
                         </div>

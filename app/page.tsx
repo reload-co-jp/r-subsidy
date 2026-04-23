@@ -10,6 +10,7 @@ import type {
   UpdateHistory,
 } from "../lib/types"
 import { SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
+import { formatDate, formatAmount } from "../lib/format"
 
 function getUpdateHistory(): UpdateHistory | null {
   try {
@@ -327,7 +328,7 @@ const Page: FC = () => {
                           fontSize: ".78rem",
                         }}
                       >
-                        受付開始 {subsidy.startDate}
+                        受付開始 {formatDate(subsidy.startDate)}
                       </span>
                     )}
                     {subsidy.upperLimit && subsidy.upperLimit !== "0円" && (
@@ -338,7 +339,7 @@ const Page: FC = () => {
                           marginLeft: "auto",
                         }}
                       >
-                        上限 {subsidy.upperLimit}
+                        上限 {formatAmount(subsidy.upperLimit)}
                       </span>
                     )}
                   </div>
@@ -352,6 +353,22 @@ const Page: FC = () => {
                   >
                     {subsidy.title}
                   </h3>
+                  {subsidy.overview && (
+                    <p
+                      style={{
+                        color: "var(--text-muted)",
+                        fontSize: ".78rem",
+                        lineHeight: 1.6,
+                        marginBottom: ".5rem",
+                        overflow: "hidden",
+                        display: "-webkit-box",
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: "vertical",
+                      }}
+                    >
+                      {subsidy.overview}
+                    </p>
+                  )}
                   {subsidy.purposes.length > 0 && (
                     <div
                       style={{

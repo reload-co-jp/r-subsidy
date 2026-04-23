@@ -121,9 +121,11 @@ export type NormalizedSubsidy = {
   region: Region
   prefectures: string[]
   industries: string[]
+  targetNumberOfEmployees: string | null
   employeeMin: number | null
   employeeMax: number | null
   purposes: string[]
+  usePurpose: string | null
   status: Status
   workflow: string | null
   subsidizedRate: string | null
@@ -175,6 +177,7 @@ export type SubsidyIndexItem = {
   id: string
   slug: string
   title: string
+  overview: string
   region: Region
   prefectures: string[]
   status: Status

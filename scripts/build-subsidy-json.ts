@@ -72,6 +72,7 @@ async function main() {
     id: s.id,
     slug: s.slug,
     title: s.title,
+    overview: s.overview,
     region: s.region,
     prefectures: s.prefectures,
     status: s.status,

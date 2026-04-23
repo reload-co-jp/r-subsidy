@@ -207,7 +207,8 @@ export function normalizeJGrantsDetail(detail: JGrantsDetail): NormalizedSubsidy
   const status = normalizeStatus(detail.acceptance_status, startDate, endDate)
 
   const overview = detail.subsidy_detail?.overview ?? detail.subsidy_catch_phrase ?? detail.subtitle ?? ''
-  const fullText = `${detail.title} ${overview} ${detail.subsidy_detail?.detail ?? detail.detail ?? ''} ${detail.use_purpose ?? ''}`
+  const usePurpose = detail.use_purpose ?? null
+  const fullText = `${detail.title} ${overview} ${detail.subsidy_detail?.detail ?? detail.detail ?? ''} ${usePurpose ?? ''}`
   const purposes = extractPurposes(fullText)
 
   const empStr = detail.target?.target_number_of_employees ?? detail.target_number_of_employees
@@ -222,9 +223,11 @@ export function normalizeJGrantsDetail(detail: JGrantsDetail): NormalizedSubsidy
     region,
     prefectures,
     industries: normalizeIndustries(detail.target?.industry_type ?? splitDelimitedText(detail.industry)),
+    targetNumberOfEmployees: empStr ?? null,
     employeeMin,
     employeeMax,
     purposes,
+    usePurpose,
     status,
     workflow: normalizeJGrantsWorkflow(detail),
     subsidizedRate: detail.subsidy_detail?.subsidized_rate ?? detail.subsidy_rate ?? null,

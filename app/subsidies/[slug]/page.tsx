@@ -5,6 +5,7 @@ import path from "path"
 import type { Metadata } from "next"
 import type { NormalizedSubsidy, SubsidyIndexItem } from "../../../lib/types"
 import { SITE_NAME, absoluteUrl } from "../../../lib/site"
+import { formatDate, formatAmount } from "../../../lib/format"
 
 export const dynamicParams = false
 
@@ -185,18 +186,20 @@ const Page: FC<Props> = async ({ params }) => {
     { label: "補助率", value: subsidy.subsidizedRate },
     {
       label: "補助上限額",
-      value: subsidy.upperLimit === "0円" ? "情報なし" : subsidy.upperLimit,
+      value: subsidy.upperLimit === "0円" ? "情報なし" : formatAmount(subsidy.upperLimit),
     },
-    { label: "補助下限額", value: subsidy.lowerLimit },
-    { label: "受付開始", value: subsidy.startDate },
-    { label: "受付終了", value: subsidy.endDate },
+    { label: "補助下限額", value: formatAmount(subsidy.lowerLimit) },
+    { label: "受付開始", value: formatDate(subsidy.startDate) },
+    { label: "受付終了", value: formatDate(subsidy.endDate) },
     {
-      label: "従業員数",
+      label: "対象従業員数",
       value:
-        subsidy.employeeMin !== null || subsidy.employeeMax !== null
+        subsidy.targetNumberOfEmployees ??
+        (subsidy.employeeMin !== null || subsidy.employeeMax !== null
           ? `${subsidy.employeeMin ?? "—"}〜${subsidy.employeeMax ?? "—"}人`
-          : null,
+          : null),
     },
+    { label: "利用目的", value: subsidy.usePurpose },
     { label: "申請窓口", value: subsidy.workflow },
     {
       label: "出典",
