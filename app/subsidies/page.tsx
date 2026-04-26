@@ -7,6 +7,7 @@ import Link from "next/link"
 import { PREFECTURES } from "../../lib/prefectures"
 import type { SubsidyIndexItem } from "../../lib/types"
 import { SITE_NAME, absoluteUrl } from "../../lib/site"
+import { Breadcrumb } from "../../components/elements/breadcrumb"
 import SubsidiesListClient from "./subsidies-list-client"
 
 function getSubsidies(): SubsidyIndexItem[] {
@@ -68,6 +69,12 @@ const Page: FC = () => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <Breadcrumb
+        items={[
+          { label: "ホーム", href: "/" },
+          { label: "補助金一覧" },
+        ]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
         <h1 style={{ color: "var(--text-strong)", fontSize: "1.4rem", marginBottom: ".5rem" }}>

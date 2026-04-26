@@ -1,5 +1,6 @@
 import { FC } from "react"
 import Link from "next/link"
+import { Breadcrumb } from "../../../components/elements/breadcrumb"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
@@ -234,35 +235,13 @@ const Page: FC<Props> = async ({ params }) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <nav
-        aria-label="パンくずリスト"
-        style={{
-          display: "flex",
-          gap: ".4rem",
-          alignItems: "center",
-          flexWrap: "wrap",
-          fontSize: ".8rem",
-          color: "var(--text-muted)",
-          marginBottom: "1.25rem",
-        }}
-      >
-        <Link href="/" style={{ color: "#38b48b", textDecoration: "none" }}>ホーム</Link>
-        <span>›</span>
-        <Link href="/subsidies" style={{ color: "#38b48b", textDecoration: "none" }}>補助金一覧</Link>
-        <span>›</span>
-        <span
-          style={{
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-            whiteSpace: "nowrap",
-            maxWidth: "280px",
-            color: "var(--text-base)",
-          }}
-          title={subsidy.title}
-        >
-          {subsidy.title}
-        </span>
-      </nav>
+      <Breadcrumb
+        items={[
+          { label: "ホーム", href: "/" },
+          { label: "補助金一覧", href: "/subsidies" },
+          { label: subsidy.title },
+        ]}
+      />
 
       <div
         style={{

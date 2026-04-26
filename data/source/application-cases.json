@@ -1,0 +1,122 @@
+[
+  {
+    "id": "case-001",
+    "subsidyName": "IT導入補助金",
+    "industry": "小売業",
+    "companyType": "小規模事業者",
+    "region": "全国",
+    "challenge": "手作業による棚卸・在庫管理に時間がかかり、人件費・ミスが課題だった。",
+    "solution": "販売管理ネットワークシステムを全店舗に導入し、在庫情報をリアルタイム共有。",
+    "result": "棚卸時間を約50%削減。在庫の可視化により機会損失も軽減した。",
+    "sourceLabel": "中小企業庁 ITツール活用事例",
+    "sourceUrl": "https://it-shien.smrj.go.jp/applicant/example/"
+  },
+  {
+    "id": "case-002",
+    "subsidyName": "IT導入補助金",
+    "industry": "飲食業",
+    "companyType": "小規模事業者",
+    "region": "全国",
+    "challenge": "手書きの注文・会計処理でミスが多く、接客時間も圧迫されていた。",
+    "solution": "セルフレジと急速冷凍機を組み合わせたITシステムを導入。",
+    "result": "会計ミスが約90%減少、客単価が約20%向上、食材ロスが約40%削減。",
+    "sourceLabel": "中小企業庁 ITツール活用事例",
+    "sourceUrl": "https://it-shien.smrj.go.jp/applicant/example/"
+  },
+  {
+    "id": "case-003",
+    "subsidyName": "IT導入補助金",
+    "industry": "サービス業",
+    "companyType": "中小企業",
+    "region": "全国",
+    "challenge": "経理・バックオフィス業務が属人化しており、テレワーク移行が困難だった。",
+    "solution": "クラウド会計ソフトを導入し、仕訳・決算処理をクラウド化。",
+    "result": "バックオフィス業務が効率化され、リモートワーク比率が大幅に上昇。",
+    "sourceLabel": "中小企業庁 ITツール活用事例",
+    "sourceUrl": "https://it-shien.smrj.go.jp/applicant/example/"
+  },
+  {
+    "id": "case-004",
+    "subsidyName": "IT導入補助金",
+    "industry": "卸売業",
+    "companyType": "中小企業",
+    "region": "全国",
+    "challenge": "国内販売のみで売上が頭打ちとなり、新たな顧客層の開拓が急務だった。",
+    "solution": "越境ECサイト構築ツールを導入し、海外向けオンライン販売を開始。",
+    "result": "アジア圏を中心に新規海外顧客を獲得。海外売上が新たな収益柱に。",
+    "sourceLabel": "中小企業庁 ITツール活用事例",
+    "sourceUrl": "https://it-shien.smrj.go.jp/applicant/example/"
+  },
+  {
+    "id": "case-005",
+    "subsidyName": "ものづくり・商業・サービス生産性向上促進補助金",
+    "industry": "食品製造業",
+    "companyType": "中小企業",
+    "region": "長崎県",
+    "challenge": "瓶詰・火入れ（殺菌）工程が手作業で、品質のばらつきと生産効率の低さが課題だった。",
+    "solution": "瓶詰・火入れ工程を全自動化する設備を導入。外気に触れる前に充填できる環境を整備。",
+    "result": "高品質な日本酒の安定製造を実現。生産効率の向上と品質均一化に成功。",
+    "sourceLabel": "中小企業庁 事例から学ぶ「ものづくり補助金」",
+    "sourceUrl": "https://mirasapo-plus.go.jp/hint/20583/"
+  },
+  {
+    "id": "case-006",
+    "subsidyName": "ものづくり・商業・サービス生産性向上促進補助金",
+    "industry": "金属加工業",
+    "companyType": "中小企業",
+    "region": "福島県",
+    "challenge": "設備ごとに稼働状況を個別管理しており、生産計画の立案に時間と工数がかかっていた。",
+    "solution": "ICT・IoT環境を整備し、全設備の負荷状況を一元管理するシステムを導入。",
+    "result": "設備の稼働状況をリアルタイムで把握でき、融通性の高い生産計画の立案が可能に。",
+    "sourceLabel": "中小企業庁 事例から学ぶ「ものづくり補助金」",
+    "sourceUrl": "https://mirasapo-plus.go.jp/hint/20583/"
+  },
+  {
+    "id": "case-007",
+    "subsidyName": "ものづくり・商業・サービス生産性向上促進補助金",
+    "industry": "金属加工業",
+    "companyType": "中小企業",
+    "region": "京都府",
+    "challenge": "受注生産のみでは競争激化に対応できず、自社提案型への転換が経営課題だった。",
+    "solution": "「請負型」から「提案型」ビジネスモデルへの転換に向けた生産設備を開発・導入。",
+    "result": "自社設計・提案能力を獲得。新たな顧客層の開拓と収益構造の改善を実現。",
+    "sourceLabel": "中小企業庁 事例から学ぶ「ものづくり補助金」",
+    "sourceUrl": "https://mirasapo-plus.go.jp/hint/20583/"
+  },
+  {
+    "id": "case-008",
+    "subsidyName": "小規模事業者持続化補助金",
+    "industry": "飲食業",
+    "companyType": "小規模事業者",
+    "region": "静岡県",
+    "challenge": "シニア層の来店が減少。2階座敷席が使いにくく、高齢顧客の取り込みができていなかった。",
+    "solution": "「高齢者対応のテーブルと椅子の導入による新たな需要掘り起こし」として、座敷席に畳用テーブルと椅子を設置。",
+    "result": "シニア層の来店増加に成功。寺社仏閣が多い立地の強みを活かした集客を実現。",
+    "sourceLabel": "中小企業庁 補助金の申請事例・小規模事業者持続化補助金",
+    "sourceUrl": "https://mirasapo-plus.go.jp/hint/7304/"
+  },
+  {
+    "id": "case-009",
+    "subsidyName": "小規模事業者持続化補助金",
+    "industry": "小売業",
+    "companyType": "小規模事業者",
+    "region": "全国",
+    "challenge": "実店舗のみの販売で商圏が限定され、売上拡大に限界を感じていた。",
+    "solution": "ECサイトを構築してオンライン販売を開始。商品撮影・サイト制作も補助金で実施。",
+    "result": "全国からの注文獲得に成功。実店舗とECの相乗効果で売上が向上。",
+    "sourceLabel": "中小企業庁 事例から学ぶ「持続化補助金」",
+    "sourceUrl": "https://mirasapo-plus.go.jp/hint/20509/"
+  },
+  {
+    "id": "case-010",
+    "subsidyName": "小規模事業者持続化補助金",
+    "industry": "医療・福祉",
+    "companyType": "小規模事業者",
+    "region": "全国",
+    "challenge": "通所介護事業者として地域への認知度が低く、利用者獲得が課題だった。",
+    "solution": "ホームページとチラシを制作し広報活動を強化。トレーニング機器も導入してサービスを拡充。",
+    "result": "問い合わせ数が増加し、新規利用者の獲得につながった。",
+    "sourceLabel": "中小企業庁 事例から学ぶ「持続化補助金」",
+    "sourceUrl": "https://mirasapo-plus.go.jp/hint/20509/"
+  }
+]

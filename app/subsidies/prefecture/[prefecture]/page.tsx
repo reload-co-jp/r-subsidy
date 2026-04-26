@@ -6,6 +6,7 @@ import { notFound } from "next/navigation"
 import { PREFECTURES, isPrefecture, matchesPrefecture } from "../../../../lib/prefectures"
 import { SITE_NAME, absoluteUrl } from "../../../../lib/site"
 import type { SubsidyIndexItem } from "../../../../lib/types"
+import { Breadcrumb } from "../../../../components/elements/breadcrumb"
 import SubsidiesListClient from "../../subsidies-list-client"
 
 export const dynamicParams = false
@@ -154,6 +155,13 @@ export default async function Page({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <Breadcrumb
+        items={[
+          { label: "ホーム", href: "/" },
+          { label: "補助金一覧", href: "/subsidies" },
+          { label: title },
+        ]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
         <p style={{ color: "#38b48b", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
