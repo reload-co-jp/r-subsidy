@@ -42,12 +42,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }))
 
-  const subsidyRoutes: MetadataRoute.Sitemap = subsidies.map((subsidy) => ({
-    url: `${siteUrl}/subsidies/${subsidy.slug}/`,
-    lastModified: subsidy.updatedAt,
-    changeFrequency: "weekly",
-    priority: 0.7,
-  }))
+  const subsidyRoutes: MetadataRoute.Sitemap = subsidies
+    .filter((s) => s.status !== "closed")
+    .map((subsidy) => ({
+      url: `${siteUrl}/subsidies/${subsidy.slug}/`,
+      lastModified: subsidy.updatedAt,
+      changeFrequency: "weekly",
+      priority: subsidy.status === "open" ? 0.75 : 0.65,
+    }))
 
   return [...staticRoutes, ...prefectureRoutes, ...subsidyRoutes]
 }

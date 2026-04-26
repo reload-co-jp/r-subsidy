@@ -4,7 +4,7 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import type { NormalizedSubsidy, SubsidyIndexItem } from "../../../lib/types"
-import { SITE_NAME, absoluteUrl } from "../../../lib/site"
+import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl } from "../../../lib/site"
 import { formatDate, formatAmount } from "../../../lib/format"
 
 export const dynamicParams = false
@@ -49,7 +49,11 @@ function buildDescription(subsidy: NormalizedSubsidy) {
       : null,
   ].filter(Boolean)
 
-  return parts.join("。").slice(0, 140)
+  const full = parts.join("。")
+  if (full.length <= 140) return full
+  const truncated = full.slice(0, 140)
+  const lastPeriod = truncated.lastIndexOf("。")
+  return lastPeriod > 0 ? truncated.slice(0, lastPeriod + 1) : truncated
 }
 
 function sanitizeDetailHtml(html: string) {
@@ -78,23 +82,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = buildDescription(subsidy)
   const pageUrl = absoluteUrl(`/subsidies/${subsidy.slug}/`)
 
+  const ogImage = { url: absoluteUrl(DEFAULT_OG_IMAGE), width: 1200, height: 630, alt: subsidy.title }
+
   return {
     title: `${subsidy.title} | ${SITE_NAME}`,
     description,
     alternates: {
       canonical: pageUrl,
     },
+    ...(subsidy.status === "closed" ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title: `${subsidy.title} | ${SITE_NAME}`,
       description,
       url: pageUrl,
       type: "article",
       modifiedTime: subsidy.updatedAt,
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: `${subsidy.title} | ${SITE_NAME}`,
       description,
+      images: [ogImage.url],
     },
   }
 }
@@ -155,6 +164,7 @@ const Page: FC<Props> = async ({ params }) => {
     url: pageUrl,
     inLanguage: "ja",
     description,
+    datePublished: subsidy.startDate ?? subsidy.updatedAt,
     dateModified: subsidy.updatedAt,
     breadcrumb: {
       "@type": "BreadcrumbList",
@@ -224,18 +234,35 @@ const Page: FC<Props> = async ({ params }) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <div style={{ marginBottom: "1.5rem" }}>
-        <Link
-          href="/subsidies"
+      <nav
+        aria-label="パンくずリスト"
+        style={{
+          display: "flex",
+          gap: ".4rem",
+          alignItems: "center",
+          flexWrap: "wrap",
+          fontSize: ".8rem",
+          color: "var(--text-muted)",
+          marginBottom: "1.25rem",
+        }}
+      >
+        <Link href="/" style={{ color: "#38b48b", textDecoration: "none" }}>ホーム</Link>
+        <span>›</span>
+        <Link href="/subsidies" style={{ color: "#38b48b", textDecoration: "none" }}>補助金一覧</Link>
+        <span>›</span>
+        <span
           style={{
-            color: "#38b48b",
-            textDecoration: "none",
-            fontSize: ".875rem",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            whiteSpace: "nowrap",
+            maxWidth: "280px",
+            color: "var(--text-base)",
           }}
+          title={subsidy.title}
         >
-          ← 補助金一覧
-        </Link>
-      </div>
+          {subsidy.title}
+        </span>
+      </nav>
 
       <div
         style={{

@@ -4,6 +4,14 @@ import Script from "next/script"
 import type { Metadata } from "next"
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "株式会社リロード",
+  url: "https://reload.co.jp",
+  logo: absoluteUrl("/favicon.svg"),
+}
+
 const GA_MEASUREMENT_ID = "G-LECQC20MLT"
 const isProduction = process.env.NODE_ENV === "production"
 
@@ -75,6 +83,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="ja">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
         {isProduction && (
           <>
             <Script
