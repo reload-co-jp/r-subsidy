@@ -1,5 +1,6 @@
 import { FC } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
@@ -136,48 +137,82 @@ const Page: FC = () => {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(latestItemList) }}
         />
       )}
-      <section style={{ textAlign: "center", padding: "4rem 0 3rem" }}>
-        <h1
+      <section
+        style={{
+          position: "relative",
+          borderRadius: "16px",
+          overflow: "hidden",
+          marginBottom: "3rem",
+        }}
+      >
+        <Image
+          src="/images/hero.jpg"
+          alt="補助金ポータル"
+          width={900}
+          height={400}
+          priority
           style={{
-            fontSize: "2rem",
-            fontWeight: "bold",
-            color: "var(--text-strong)",
-            marginBottom: "1rem",
-            lineHeight: 1.3,
+            width: "100%",
+            height: "auto",
+            display: "block",
+            objectFit: "cover",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.25) 100%)",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "flex-start",
+            padding: "2.5rem 3rem",
           }}
         >
-          あなたの事業に合った補助金を
-          <br />
-          かんたん診断
-        </h1>
-        <p
-          style={{
-            color: "var(--text-muted)",
-            fontSize: "1rem",
-            marginBottom: "2.5rem",
-            lineHeight: 1.7,
-          }}
-        >
-          事業形態・業種・従業員数などを入力するだけで、
-          <br />
-          Jグランツ掲載の補助金をスコアリングして最適なものをご提案します。
-        </p>
-        <Link
-          href="/diagnosis"
-          style={{
-            display: "inline-block",
-            backgroundColor: "#38b48b",
-            color: "#fff",
-            padding: "0.875rem 2.5rem",
-            borderRadius: "8px",
-            textDecoration: "none",
-            fontWeight: "bold",
-            fontSize: "1.05rem",
-            boxShadow: "0 4px 14px rgba(56,180,139,0.4)",
-          }}
-        >
-          診断をはじめる
-        </Link>
+          <h1
+            style={{
+              fontSize: "clamp(1.4rem, 3vw, 2rem)",
+              fontWeight: "bold",
+              color: "#fff",
+              marginBottom: "1rem",
+              lineHeight: 1.4,
+            }}
+          >
+            あなたの事業に合った補助金を
+            <br />
+            かんたん診断
+          </h1>
+          <p
+            style={{
+              color: "rgba(255,255,255,0.85)",
+              fontSize: "clamp(0.85rem, 1.5vw, 1rem)",
+              marginBottom: "2rem",
+              lineHeight: 1.7,
+            }}
+          >
+            事業形態・業種・従業員数などを入力するだけで、
+            <br />
+            Jグランツ掲載の補助金をスコアリングして最適なものをご提案します。
+          </p>
+          <Link
+            href="/diagnosis"
+            style={{
+              display: "inline-block",
+              backgroundColor: "#38b48b",
+              color: "#fff",
+              padding: "0.875rem 2.5rem",
+              borderRadius: "8px",
+              textDecoration: "none",
+              fontWeight: "bold",
+              fontSize: "1.05rem",
+              boxShadow: "0 4px 14px rgba(56,180,139,0.4)",
+            }}
+          >
+            診断をはじめる
+          </Link>
+        </div>
       </section>
 
       <section style={{ marginBottom: "3rem" }}>
