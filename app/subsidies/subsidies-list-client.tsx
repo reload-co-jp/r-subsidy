@@ -48,10 +48,12 @@ export default function SubsidiesListClient({
   subsidies,
   initialPrefecture = "all",
   showPrefectureFilter = true,
+  availablePurposes = ["設備投資", "デジタル化", "研究開発", "販路拡大", "人材育成", "省エネ", "創業", "事業承継"],
 }: {
   subsidies: SubsidyIndexItem[]
   initialPrefecture?: string
   showPrefectureFilter?: boolean
+  availablePurposes?: string[]
 }) {
   const router = useRouter()
   const pathname = usePathname()
@@ -314,7 +316,7 @@ export default function SubsidiesListClient({
             marginTop: ".85rem",
           }}
         >
-          {["all", "設備投資", "デジタル化", "研究開発", "販路拡大", "人材育成", "省エネ", "創業", "事業承継"].map((p) => {
+          {["all", ...availablePurposes].map((p) => {
             const selected = purposeFilter === p
             return (
               <button

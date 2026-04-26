@@ -218,6 +218,7 @@ export default async function Page({ params }: Props) {
           subsidies={prefectureSubsidies}
           initialPrefecture={prefecture}
           showPrefectureFilter={false}
+          availablePurposes={[...new Set(prefectureSubsidies.flatMap((s) => s.purposes))].sort()}
         />
       </Suspense>
     </div>

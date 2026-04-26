@@ -129,7 +129,10 @@ const Page: FC = () => {
       </section>
 
       <Suspense fallback={null}>
-        <SubsidiesListClient subsidies={subsidies} />
+        <SubsidiesListClient
+          subsidies={subsidies}
+          availablePurposes={[...new Set(subsidies.flatMap((s) => s.purposes))].sort()}
+        />
       </Suspense>
     </div>
   )

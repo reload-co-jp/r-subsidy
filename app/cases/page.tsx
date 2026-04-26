@@ -1,10 +1,11 @@
-import { FC } from "react"
+import { FC, Suspense } from "react"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
 import { SITE_NAME, absoluteUrl } from "../../lib/site"
 import { Breadcrumb } from "../../components/elements/breadcrumb"
+import CasesListClient from "./cases-list-client"
 
 type ApplicationCase = {
   id: string
@@ -99,144 +100,12 @@ const Page: FC = () => {
         </p>
       </div>
 
-      <div style={{ display: "grid", gap: "1rem" }}>
-        {cases.map((c) => (
-          <article
-            key={c.id}
-            style={{
-              backgroundColor: "var(--bg-surface)",
-              border: "1px solid var(--border-soft)",
-              borderRadius: "10px",
-              padding: "1.25rem 1.5rem",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                gap: ".5rem",
-                flexWrap: "wrap",
-                marginBottom: ".75rem",
-              }}
-            >
-              <span
-                style={{
-                  backgroundColor: "#38b48b22",
-                  color: "#38b48b",
-                  border: "1px solid #38b48b44",
-                  borderRadius: "4px",
-                  padding: ".2rem .6rem",
-                  fontSize: ".75rem",
-                  fontWeight: "bold",
-                }}
-              >
-                {c.subsidyName}
-              </span>
-              <span
-                style={{
-                  backgroundColor: "var(--bg-surface-alt)",
-                  color: "var(--text-muted)",
-                  borderRadius: "4px",
-                  padding: ".2rem .6rem",
-                  fontSize: ".75rem",
-                }}
-              >
-                {c.industry}
-              </span>
-              <span
-                style={{
-                  backgroundColor: "var(--bg-surface-alt)",
-                  color: "var(--text-muted)",
-                  borderRadius: "4px",
-                  padding: ".2rem .6rem",
-                  fontSize: ".75rem",
-                }}
-              >
-                {c.companyType}
-              </span>
-              {c.region !== "全国" && (
-                <span
-                  style={{
-                    backgroundColor: "var(--bg-surface-alt)",
-                    color: "var(--text-muted)",
-                    borderRadius: "4px",
-                    padding: ".2rem .6rem",
-                    fontSize: ".75rem",
-                  }}
-                >
-                  {c.region}
-                </span>
-              )}
-            </div>
-
-            <dl style={{ display: "grid", gap: ".65rem" }}>
-              <div style={{ display: "grid", gridTemplateColumns: "5rem 1fr", gap: ".5rem" }}>
-                <dt
-                  style={{
-                    color: "var(--text-muted)",
-                    fontSize: ".78rem",
-                    paddingTop: ".1rem",
-                  }}
-                >
-                  課題
-                </dt>
-                <dd style={{ color: "var(--text-base)", fontSize: ".875rem", lineHeight: 1.7 }}>
-                  {c.challenge}
-                </dd>
-              </div>
-              <div style={{ display: "grid", gridTemplateColumns: "5rem 1fr", gap: ".5rem" }}>
-                <dt
-                  style={{
-                    color: "var(--text-muted)",
-                    fontSize: ".78rem",
-                    paddingTop: ".1rem",
-                  }}
-                >
-                  取り組み
-                </dt>
-                <dd style={{ color: "var(--text-base)", fontSize: ".875rem", lineHeight: 1.7 }}>
-                  {c.solution}
-                </dd>
-              </div>
-              <div style={{ display: "grid", gridTemplateColumns: "5rem 1fr", gap: ".5rem" }}>
-                <dt
-                  style={{
-                    color: "var(--text-muted)",
-                    fontSize: ".78rem",
-                    paddingTop: ".1rem",
-                  }}
-                >
-                  効果
-                </dt>
-                <dd
-                  style={{
-                    color: "var(--text-strong)",
-                    fontSize: ".875rem",
-                    lineHeight: 1.7,
-                    fontWeight: "500",
-                  }}
-                >
-                  {c.result}
-                </dd>
-              </div>
-            </dl>
-
-            <div style={{ marginTop: ".85rem", borderTop: "1px solid var(--border-soft)", paddingTop: ".65rem" }}>
-              <a
-                href={c.sourceUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  color: "var(--text-muted)",
-                  fontSize: ".75rem",
-                  textDecoration: "none",
-                }}
-              >
-                出典: {c.sourceLabel} ↗
-              </a>
-            </div>
-          </article>
-        ))}
-      </div>
+      <Suspense fallback={null}>
+        <CasesListClient
+          cases={cases}
+          subsidyNames={[...new Set(cases.map((c) => c.subsidyName))].sort()}
+        />
+      </Suspense>
 
       <div
         style={{
