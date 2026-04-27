@@ -140,9 +140,12 @@ const Page: FC = () => {
       <section
         style={{
           position: "relative",
-          borderRadius: "16px",
           overflow: "hidden",
           marginBottom: "3rem",
+          marginTop: "-2rem",
+          width: "100vw",
+          marginLeft: "calc(50% - 50vw)",
+          marginRight: "calc(50% - 50vw)",
         }}
       >
         <Image
@@ -153,7 +156,8 @@ const Page: FC = () => {
           priority
           style={{
             width: "100%",
-            height: "auto",
+            height: "min(56vw, 520px)",
+            minHeight: "320px",
             display: "block",
             objectFit: "cover",
           }}
