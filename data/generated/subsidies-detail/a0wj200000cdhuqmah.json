@@ -11,11 +11,13 @@
     "卸売業",
     "小売業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "省エネ"
   ],
+  "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "離島への石油製品の安定・効率的な供給体制の構築支援事業",
   "subsidizedRate": "定額補助",

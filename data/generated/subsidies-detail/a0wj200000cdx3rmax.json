@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "令和８年度「地域の中堅・中核企業支援事業（地域の人事部支援事業）」補助事業事務局公募",
   "subsidizedRate": "定額補助（10/10）",

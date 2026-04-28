@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -16,6 +17,7 @@
     "創業",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "需要家主導による太陽光発電導入促進補助金",
   "subsidizedRate": "１／４以内（地域新電力特例の場合は１／３以内）",

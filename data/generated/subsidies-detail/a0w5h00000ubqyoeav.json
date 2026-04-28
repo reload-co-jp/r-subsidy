@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "再生可能エネルギー電源制御装置技術開発等事業費補助金",
   "subsidizedRate": "２／３",

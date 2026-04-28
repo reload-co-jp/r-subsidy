@@ -39,6 +39,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -46,6 +47,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "中小企業等エネルギー利用最適化推進事業費",
   "subsidizedRate": "定額(１０／１０)",

@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "事業承継",
     "創業"
   ],
+  "usePurpose": "雇用・職場環境を改善したい / 教育・子育て・少子化支援がほしい",
   "status": "closed",
   "workflow": "Ｒ６パパママ",
   "subsidizedRate": null,

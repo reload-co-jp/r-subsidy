@@ -7,11 +7,13 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "商業・サービス競争力強化連携支援事業（新連携支援事業）",
   "subsidizedRate": "IoT、AI、ブロックチェーン等先端技術活用型：2/3、一般型：1/2",

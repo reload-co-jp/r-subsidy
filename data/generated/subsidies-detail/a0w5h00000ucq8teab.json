@@ -12,9 +12,11 @@
     "農業",
     "林業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "新東京都GAP推進事業（認証取得・維持に必要な施設等の補助）",
   "subsidizedRate": "1/2以内",

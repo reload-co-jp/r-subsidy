@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -49,6 +50,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "産官学連携による自律型資源循環システム強靱化促進事業",
   "subsidizedRate": "募集要領を参照",

@@ -10,6 +10,7 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "令和５年度「デジタル等クリエイター人材創出事業（映像・ゲーム等人材創出支援）費補助金」",
   "subsidizedRate": "定額補助（１０／１０）",

@@ -9,6 +9,7 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -18,6 +19,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "中小企業産業技術・環境・産業標準政策推進事業費補助金（地域大学のインキュベーション・産学融合拠点の整備）",
   "subsidizedRate": "公募要領のとおり",

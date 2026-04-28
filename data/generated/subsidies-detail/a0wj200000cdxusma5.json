@@ -37,6 +37,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "事業を引き継ぎたい",
   "status": "closed",
   "workflow": "中小企業生産性革命推進事業_事業承継・M&A事業補助金(14次公募)",
   "subsidizedRate": "2/3 以内",

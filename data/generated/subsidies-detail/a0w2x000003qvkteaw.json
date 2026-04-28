@@ -12,6 +12,7 @@
     "農業",
     "林業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "人材育成",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "林業労働力総合対策事業",
   "subsidizedRate": "1/2以内",

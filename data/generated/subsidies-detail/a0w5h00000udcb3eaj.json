@@ -28,12 +28,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / 教育・子育て・少子化支援がほしい",
   "status": "closed",
   "workflow": "自動運転の実装に向けた社会受容性向上支援事業",
   "subsidizedRate": "令和７年度自動運転の実装に向けた社会受容性向上支援事業補助金交付要綱を参照とする",

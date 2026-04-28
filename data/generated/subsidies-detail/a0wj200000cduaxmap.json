@@ -13,6 +13,7 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -20,6 +21,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / 安全・防災対策支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和7年度 スマート保安実証支援事業費補助金（技術実証支援）",
   "subsidizedRate": "2/3（又は1/2）",

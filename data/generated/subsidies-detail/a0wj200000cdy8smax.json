@@ -20,12 +20,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "台東区商店街空き店舗活用支援",
   "subsidizedRate": "開店に必要な改修工事費の１／２",

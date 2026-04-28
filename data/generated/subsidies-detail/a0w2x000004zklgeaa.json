@@ -42,6 +42,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -50,6 +51,7 @@
     "研究開発",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "令和4年度先進的防災技術実用化助成金",
   "subsidizedRate": "助成対象経費の2/3以内及び1/2以内",

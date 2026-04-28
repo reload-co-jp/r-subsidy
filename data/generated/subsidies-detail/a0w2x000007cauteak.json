@@ -10,11 +10,13 @@
     "情報通信業",
     "サービス業（他に分類されないもの）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "事業環境変化対応型支援事業費補助金（相談窓口設置運営事業）",
   "subsidizedRate": "定額",

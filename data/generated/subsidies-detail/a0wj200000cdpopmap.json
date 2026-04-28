@@ -12,6 +12,7 @@
     "農業",
     "林業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和6年度補正予算　産地連携推進緊急対策事業",
   "subsidizedRate": "補助率は2分の1以内。上限は1件あたり2億円、下限は100万円。ただし、産地を支援する取組を行う場合は1件当たり3億円まで。",

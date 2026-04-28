@@ -36,12 +36,14 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,
   "purposes": [
     "設備投資",
     "人材育成"
   ],
+  "usePurpose": "雇用・職場環境を改善したい",
   "status": "upcoming",
   "workflow": "佐賀市職場の熱中症対策支援補助金",
   "subsidizedRate": "補助対象経費の2分の1以内",

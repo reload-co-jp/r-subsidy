@@ -39,12 +39,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "先進的省エネルギー投資促進支援事業費",
   "subsidizedRate": "10/10",

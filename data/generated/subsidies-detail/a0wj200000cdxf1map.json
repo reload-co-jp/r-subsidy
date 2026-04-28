@@ -12,9 +12,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "資金繰りを改善したい",
   "status": "open",
   "workflow": "福岡市　介護施設等物価高騰対策支援金",
   "subsidizedRate": null,

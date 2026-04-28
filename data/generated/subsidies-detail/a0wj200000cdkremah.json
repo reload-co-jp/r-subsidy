@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -49,6 +50,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "令和６年度補正　再生・細胞医療・遺伝子治療製造設備支援事業費補助金",
   "subsidizedRate": "公募要領をご参照ください",

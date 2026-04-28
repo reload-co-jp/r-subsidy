@@ -9,12 +9,14 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "令和６年度補正 「再生可能エネルギー導入拡大・分散型エネルギーリソース 導入支援等事業費補助金」 DRリソース導入のための業務産業用蓄電システム等導入支援事業 ディマンドリスポンスの拡大に向けたIoT化推進事業",
   "subsidizedRate": "1/2以内",

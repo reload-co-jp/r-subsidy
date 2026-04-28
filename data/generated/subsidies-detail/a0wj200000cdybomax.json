@@ -33,6 +33,7 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -41,6 +42,7 @@
     "創業",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "open",
   "workflow": "北九州市環境未来ビジネス創出助成金",
   "subsidizedRate": "市内中小企業者が中心となって研究等を行う場合は対象経費の２／３以内、それ以外は対象経費の１／２以内",

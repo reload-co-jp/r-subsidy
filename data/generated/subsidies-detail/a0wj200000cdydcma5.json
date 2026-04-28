@@ -10,12 +10,14 @@
     "農業",
     "林業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "販路拡大"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい",
   "status": "open",
   "workflow": "中山間地域所得確保対策",
   "subsidizedRate": "定額助成",

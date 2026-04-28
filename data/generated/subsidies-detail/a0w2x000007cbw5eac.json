@@ -10,6 +10,7 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "多様な人材の活躍による企業価値向上促進事業（出向起業補助金）",
   "subsidizedRate": "定額",

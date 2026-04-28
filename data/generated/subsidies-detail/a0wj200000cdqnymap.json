@@ -9,6 +9,7 @@
   "industries": [
     "サービス業（他に分類されないもの）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "蓄電池等の製品の持続可能性向上に向けた基盤整備・実証事業費補助金",
   "subsidizedRate": "定額",

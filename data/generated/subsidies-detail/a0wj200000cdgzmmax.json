@@ -9,11 +9,13 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "省エネ"
   ],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "令和６年度補正予算「石油製品販売業環境保全対策事業費補助金（ＳＳネットワーク維持・強化支援事業のうち災害時給油所地下タンク製品備蓄促進支援事業に係るもの）」",
   "subsidizedRate": "定額",

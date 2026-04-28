@@ -88,6 +88,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -95,6 +96,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "【令和７年度】先進的な資源循環投資促進事業（第２回公募）",
   "subsidizedRate": "中小企業基本法で定める中小企業1／2、大企業等1／3、（詳細は公募要領に記載。）",

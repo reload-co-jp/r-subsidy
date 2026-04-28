@@ -7,6 +7,7 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "低炭素技術を輸出するための人材育成支援事業費補助金",
   "subsidizedRate": "２／３、定額",

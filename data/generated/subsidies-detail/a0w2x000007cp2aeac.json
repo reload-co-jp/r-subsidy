@@ -12,11 +12,13 @@
     "運輸業",
     "郵便業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "令和４年度岡山県コンテナ貨物集荷促進事業費補助金",
   "subsidizedRate": "補助金交付要綱を参照",

@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "令和6年度補正「グローバルサウスとの連携強化に資する共創型技術人材交流事業費補助金（日印先端企業（半導体やAI）等交流による雇用促進事業）」",
   "subsidizedRate": "補助率：定額",

@@ -9,6 +9,7 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -16,6 +17,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "脱炭素電源地域貢献型投資促進事業費補助金",
   "subsidizedRate": "定額補助（１０／１０）とし、２，１００億円（うち業務管理費４０億円以内）を上限とします。",

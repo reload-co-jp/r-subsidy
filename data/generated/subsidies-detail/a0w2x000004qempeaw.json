@@ -12,9 +12,11 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "令和３年度東京都グリーンボンド等促進体制整備支援事業補助金",
   "subsidizedRate": "補助対象と認められる経費の合計額の２／１０ ※千円未満の端数は切り捨て",

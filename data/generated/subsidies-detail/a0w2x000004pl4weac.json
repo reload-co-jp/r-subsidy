@@ -32,12 +32,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "共同・協業販路開拓支援補助金",
   "subsidizedRate": "定額または2/3",

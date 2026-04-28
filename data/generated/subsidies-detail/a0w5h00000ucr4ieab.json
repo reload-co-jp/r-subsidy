@@ -9,11 +9,13 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "省エネ"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "非化石エネルギー等導入促進対策費補助金（次世代燃料生産・利用技術開発事業費のうち、合成燃料（e-fuel）等導入促進事業）",
   "subsidizedRate": "公募要領等参照",

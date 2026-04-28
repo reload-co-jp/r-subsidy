@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "新潟市 地域脱炭素移行・再エネ推進重点対策加速化事業補助金",
   "subsidizedRate": "太陽光発電設備自家消費型：5万円/kW（上限1千万円）、 LED（調光機能付き）：対象経費の1/2（上限100万円）",

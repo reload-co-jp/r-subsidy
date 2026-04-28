@@ -14,6 +14,7 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -22,6 +23,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "第1回公募",
   "subsidizedRate": "１／２",

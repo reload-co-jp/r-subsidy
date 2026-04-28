@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "人材育成"
   ],
+  "usePurpose": "新たな事業を行いたい / 教育・子育て・少子化支援がほしい",
   "status": "closed",
   "workflow": "探究的学習関連サービス等利活用促進事業費補助金",
   "subsidizedRate": "定額",

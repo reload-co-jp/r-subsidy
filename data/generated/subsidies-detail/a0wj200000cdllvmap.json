@@ -36,9 +36,11 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
   "purposes": [],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "岡山県小規模事業者事業継続力強化補助金",
   "subsidizedRate": "2/3以内",

@@ -11,6 +11,7 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -20,6 +21,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "【愛知県】2026年度 新あいち創造研究開発補助金",
   "subsidizedRate": "大企業：原則１/３以内 、中堅企業及び市町村：原則１/２以内 、中小企業：２/３以内",

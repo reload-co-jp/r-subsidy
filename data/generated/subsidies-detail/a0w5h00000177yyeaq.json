@@ -13,6 +13,7 @@
     "金融業",
     "保険業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -21,6 +22,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "デジタル証券（セキュリティトークン）市場拡大促進事業",
   "subsidizedRate": "1/2",

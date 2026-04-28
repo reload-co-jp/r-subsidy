@@ -23,6 +23,7 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -31,6 +32,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "「産学公の森」推進事業",
   "subsidizedRate": "提案事業の実施に必要な補助対象経費の1/2以内",

@@ -12,6 +12,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "在宅訪問実施薬局における防犯機器等導入支援事業",
   "subsidizedRate": "1/2",

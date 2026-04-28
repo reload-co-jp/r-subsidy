@@ -42,12 +42,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "みやぎUIJターン起業支援補助金",
   "subsidizedRate": "2分の1以内",

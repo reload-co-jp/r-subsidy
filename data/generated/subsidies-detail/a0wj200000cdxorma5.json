@@ -9,11 +9,13 @@
   "industries": [
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい",
   "status": "open",
   "workflow": "放送ネットワーク整備支援事業費補助金（地上基幹放送ネットワーク整備事業）",
   "subsidizedRate": "1/2、1/3、2/3、3/4",

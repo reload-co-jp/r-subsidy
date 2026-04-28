@@ -18,6 +18,7 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -26,6 +27,7 @@
     "創業",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "LED照明等節電促進助成金",
   "subsidizedRate": "助成対象経費の1/2以内（詳細については募集要項を参照）",

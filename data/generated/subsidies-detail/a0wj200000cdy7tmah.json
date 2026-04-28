@@ -13,9 +13,11 @@
     "採石業",
     "砂利採取業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "open",
   "workflow": "休廃止鉱山鉱害防止等工事費補助金",
   "subsidizedRate": "補助対象経費の３／４",

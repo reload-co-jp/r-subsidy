@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "省エネルギー投資促進支援事業費補助金【産業ヒートポンプ】",
   "subsidizedRate": "定額",

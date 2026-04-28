@@ -7,6 +7,7 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -14,6 +15,7 @@
     "人材育成",
     "省エネ"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "原子力発電の制度整備のための国際協力事業費補助金",
   "subsidizedRate": "定額もしくは１／２",

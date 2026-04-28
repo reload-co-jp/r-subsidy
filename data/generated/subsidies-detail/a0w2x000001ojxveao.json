@@ -11,12 +11,14 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "【神戸市】神戸挑戦企業等支援補助金",
   "subsidizedRate": "最大1/2（補助上限金額は申請枠ごとに異なります。詳細は公募要領をご確認ください）",

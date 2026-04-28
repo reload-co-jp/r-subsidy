@@ -29,6 +29,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -37,6 +38,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / 研究開発・実証事業を行いたい / 人材育成を行いたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "三重県新型コロナ克服生産性向上・業態転換支援補助金",
   "subsidizedRate": "1/2",

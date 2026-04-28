@@ -13,9 +13,11 @@
     "農業",
     "林業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "木育活動支援事業",
   "subsidizedRate": null,

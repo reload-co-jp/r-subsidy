@@ -15,12 +15,14 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "小牧市中小企業知的財産権取得事業費補助金",
   "subsidizedRate": null,

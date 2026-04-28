@@ -35,12 +35,14 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
   "purposes": [
     "設備投資",
     "販路拡大"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい",
   "status": "closed",
   "workflow": "令和2年度 被災小規模事業者再建事業_持続化補助金令和2年7月豪雨型",
   "subsidizedRate": "2/3又は定額",

@@ -10,6 +10,7 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / 雇用・職場環境を改善したい",
   "status": "closed",
   "workflow": "ライフステージを支えるサービス導入実証等事業費（家事支援サービス福利厚生導入実証事業）",
   "subsidizedRate": "定額",

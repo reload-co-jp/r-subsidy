@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "災害時の強靱性向上に資する天然ガス利用設備導入支援事業費補助金",
   "subsidizedRate": "１／２、１／３（補助額上限、補助率の詳細は交付規程を参照ください）",

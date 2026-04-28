@@ -49,11 +49,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": "安全・防災対策支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "open",
   "workflow": "危機管理対策促進事業_事業完了後の各種申請",
   "subsidizedRate": null,

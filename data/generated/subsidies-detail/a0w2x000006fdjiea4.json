@@ -41,12 +41,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "令和４年度市場開拓助成事業",
   "subsidizedRate": "助成対象と認められる経費の1/2以内（千円未満切捨て）",

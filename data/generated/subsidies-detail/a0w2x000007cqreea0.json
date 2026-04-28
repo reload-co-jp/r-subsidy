@@ -12,11 +12,13 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "100名以下",
   "employeeMin": null,
   "employeeMax": 100,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "教育・子育て・少子化支援がほしい",
   "status": "closed",
   "workflow": "南魚沼市子育て応援店舗等改装工事補助金",
   "subsidizedRate": "補助対象経費の50パーセント（千円未満切捨て）",

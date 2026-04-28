@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -49,6 +50,7 @@
     "創業",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "脱炭素成長型経済構造移行推進対策費補助金",
   "subsidizedRate": "公募要領を参照",

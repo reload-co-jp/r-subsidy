@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "ものづくり補助金",
   "subsidizedRate": "1/2 もしくは 2/3",

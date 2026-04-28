@@ -42,9 +42,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "新分野進出・事業転換支援事業費補助金",
   "subsidizedRate": "２／３",

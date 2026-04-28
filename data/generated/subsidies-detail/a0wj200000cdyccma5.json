@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -48,6 +49,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "open",
   "workflow": "ぐんまDX技術革新補助金・ぐんま技術革新チャレンジ補助金",
   "subsidizedRate": "１/２（ただし、小規模事業者は４/５）",

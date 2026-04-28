@@ -12,12 +12,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "東京都臨床調査個人票電子化等推進事業補助金",
   "subsidizedRate": "助金の額は、別表に定める基準額と対象経費の実支出額から、寄付金その他の収 入額を控除した額を比較して少ない方の額を補助基本額とし、補助基本額に別表に定める 補助率を乗じて得た額とする。",

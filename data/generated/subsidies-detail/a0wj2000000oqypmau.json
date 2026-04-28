@@ -13,6 +13,7 @@
     "卸売業",
     "小売業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -20,6 +21,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "先進的SS事業モデル構築等支援事業",
   "subsidizedRate": "10分の10（定額補助）",

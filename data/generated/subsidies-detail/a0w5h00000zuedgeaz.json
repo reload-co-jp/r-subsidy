@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -16,6 +17,7 @@
     "創業",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "導入支援事業費補助金",
   "subsidizedRate": "1/3以内。新規技術開発蓄電システム又は電動車の駆動用に使用された蓄電池モジュールを２次利用し組み込まれた蓄電システムである場合及び電力系統側への定格出力が1,000kW以上である場合は1/2以内。※詳細は公募要領をご確認ください。",

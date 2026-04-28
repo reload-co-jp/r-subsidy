@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -47,6 +48,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "受動喫煙防止対策助成金",
   "subsidizedRate": "３分の２（主たる業種の産業分類が飲食店以外は２分の１）",

@@ -9,6 +9,7 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "ものづくり等高度連携・事業再構築促進補助金",
   "subsidizedRate": "定額",

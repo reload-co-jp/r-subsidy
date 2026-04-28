@@ -41,12 +41,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 資金繰りを改善したい",
   "status": "open",
   "workflow": "特許調査費用助成事業",
   "subsidizedRate": "1/2",

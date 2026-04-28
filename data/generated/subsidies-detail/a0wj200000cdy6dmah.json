@@ -13,6 +13,7 @@
     "製造業",
     "サービス業（他に分類されないもの）"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -20,6 +21,7 @@
     "事業承継",
     "創業"
   ],
+  "usePurpose": "事業を引き継ぎたい",
   "status": "open",
   "workflow": "【長野県茅野市】特定創業者等支援奨励金",
   "subsidizedRate": "定額支給（要件を満たした場合、一律10万円）",

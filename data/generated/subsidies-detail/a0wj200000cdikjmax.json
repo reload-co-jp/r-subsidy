@@ -11,12 +11,14 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "産学融合拠点創出事業",
   "subsidizedRate": "定額補助",

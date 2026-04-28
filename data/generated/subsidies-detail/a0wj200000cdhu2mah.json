@@ -10,12 +10,14 @@
     "電気・ガス・熱供給・水道業",
     "サービス業（他に分類されないもの）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "離島のガソリン流通コスト対策事業費",
   "subsidizedRate": "定額補助",

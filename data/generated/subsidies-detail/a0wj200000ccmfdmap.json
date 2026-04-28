@@ -10,6 +10,7 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 教育・子育て・少子化支援がほしい",
   "status": "closed",
   "workflow": "地域未来人材育成支援民間サービス等利活用促進事業",
   "subsidizedRate": "定額",

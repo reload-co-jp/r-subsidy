@@ -12,6 +12,7 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "多様な体験型観光推進事業補助金",
   "subsidizedRate": "補助対象経費の３分の２",

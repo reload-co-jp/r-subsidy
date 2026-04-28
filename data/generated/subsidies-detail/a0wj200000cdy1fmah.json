@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "【長野県茅野市】新商品開発事業補助金",
   "subsidizedRate": "補助対象経費の2分の1以内（1,000円未満の端数は切り捨て）",

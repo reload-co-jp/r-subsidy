@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "令和７年度 排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業（事業Ⅱ（化学・紙パルプ・セメント等））",
   "subsidizedRate": "公募要領をご参照ください",

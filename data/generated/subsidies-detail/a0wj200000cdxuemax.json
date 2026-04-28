@@ -41,12 +41,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "open",
   "workflow": "小樽市省エネルギー診断補助金",
   "subsidizedRate": "全額（10/10）※省エネ診断機関に支払った診断料全額（消費税等を除く）が対象です",

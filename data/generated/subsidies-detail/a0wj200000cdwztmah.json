@@ -10,6 +10,7 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "P18016_ムーンショット型研究開発事業",
   "subsidizedRate": null,

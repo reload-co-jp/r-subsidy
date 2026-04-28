@@ -38,6 +38,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
   "purposes": [
@@ -49,6 +50,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "令和元年度補正予算 小規模事業者持続化補助金事業＜一般型＞",
   "subsidizedRate": "2/3（賃金引上げ枠の赤字事業者は3/4）※上段の補助金上限額は通常枠での上限額となります。",

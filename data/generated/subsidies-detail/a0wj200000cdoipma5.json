@@ -39,11 +39,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "雇用・職場環境を改善したい",
   "status": "closed",
   "workflow": "働き方改革推進支援助成金",
   "subsidizedRate": "助成金上限額、対象経費の合計額または総事業費から収入額を控除した額のいずれか低い方の額",

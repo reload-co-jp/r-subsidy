@@ -42,9 +42,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "資金繰りを改善したい",
   "status": "closed",
   "workflow": "知立市信用保証料補助金",
   "subsidizedRate": "借入金額から繰上償還した額を減じた額が500万円以下の場合、支払った補助対象保証料の60％。借入金額から繰上償還した額を減じた額が500万円を超える場合、支払った補助対象保証料の40％。ただし、20万円を限度とし、100円未満を切捨てた額とします。",

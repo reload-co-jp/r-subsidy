@@ -49,6 +49,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -58,6 +59,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 事業を引き継ぎたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "躍進的な事業推進のための設備投資支援事業",
   "subsidizedRate": "事業区分に応じて助成対象経費の1/2、2/3、3/4以内のいずれか（詳細については募集要項を参照）",

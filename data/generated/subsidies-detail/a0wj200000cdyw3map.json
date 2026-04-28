@@ -11,12 +11,14 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "創業"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "open",
   "workflow": "岡崎ものづくり支援補助金",
   "subsidizedRate": "補助対象経費の1/2以内（予算の範囲内であれば、補助限度額に達するまで何回でも申請可能です）",

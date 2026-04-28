@@ -12,12 +12,14 @@
     "運輸業",
     "郵便業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "燃料電池バス燃料費支援事業",
   "subsidizedRate": "交付要綱参照",

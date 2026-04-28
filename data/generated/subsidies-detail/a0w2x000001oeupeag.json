@@ -7,12 +7,14 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "深地層の研究施設を使用した試験研究成果に基づく当該施設の理解促進事業費補助金",
   "subsidizedRate": "10/10",

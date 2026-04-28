@@ -9,11 +9,13 @@
   "industries": [
     "建設業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和６年度サステナブル建築物等先導事業（省CO2先導型）LCCM戸建住宅部門",
   "subsidizedRate": null,

@@ -18,6 +18,7 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -25,6 +26,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "【福井県】電気自動車用充電インフラ整備促進事業補助金",
   "subsidizedRate": "1/2（国の補助金確定額または相当額に対して） ※ただし、国補助金と合わせて総事業費の最大3/4を超えない範囲とする",

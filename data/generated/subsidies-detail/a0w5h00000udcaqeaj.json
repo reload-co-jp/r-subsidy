@@ -25,6 +25,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -34,6 +35,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 事業を引き継ぎたい",
   "status": "closed",
   "workflow": "令和６年度 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
   "subsidizedRate": null,

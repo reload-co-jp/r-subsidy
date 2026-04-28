@@ -12,11 +12,13 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "人材育成を行いたい / まちづくり・地域振興支援がほしい / 教育・子育て・少子化支援がほしい / スポーツ・文化支援がほしい",
   "status": "closed",
   "workflow": "子供の未来を育む「体験活動」推進区市町村支援事業（「遊び」特別推進枠）",
   "subsidizedRate": "10/10（※条件によって異なるため、詳細は補助要綱をご確認ください。）",

@@ -14,12 +14,14 @@
     "採石業",
     "砂利採取業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / まちづくり・地域振興支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "地熱発電理解促進事業費補助金",
   "subsidizedRate": "10/10（補助上限額はテーマによって異なります。備考の記載をご確認ください。）",

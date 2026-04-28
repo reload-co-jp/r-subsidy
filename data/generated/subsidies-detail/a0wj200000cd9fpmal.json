@@ -13,6 +13,7 @@
     "製造業",
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -21,6 +22,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "中小企業人材確保のための奨学金返還支援事業登録企業募集要項",
   "subsidizedRate": null,

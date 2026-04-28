@@ -42,9 +42,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "中小企業知的財産支援事業費補助金",
   "subsidizedRate": "A（中小企業支援発展型事業）：補助対象経費の１／２以内（５百万円が上限）　　　　　　B（中小企業支援定着型事業）：定額（１千万円が上限）",

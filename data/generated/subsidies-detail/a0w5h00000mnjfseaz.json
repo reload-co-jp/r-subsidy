@@ -12,12 +12,14 @@
     "農業",
     "林業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "チャレンジ農業支援事業費助成金",
   "subsidizedRate": "2/3",

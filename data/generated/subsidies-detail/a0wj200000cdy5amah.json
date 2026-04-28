@@ -9,12 +9,14 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "令和８年度生活維持役務等効率化促進事業費補助金",
   "subsidizedRate": "定額（10/10）",

@@ -40,11 +40,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい / 資金繰りを改善したい",
   "status": "closed",
   "workflow": "小牧市創業支援利子補給補助金",
   "subsidizedRate": null,

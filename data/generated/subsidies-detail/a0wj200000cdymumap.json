@@ -18,6 +18,7 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -25,6 +26,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 資金繰りを改善したい",
   "status": "open",
   "workflow": "IP360（令和７年度補正コンテンツ産業成長投資支援事業費補助金）",
   "subsidizedRate": "対象経費の2分の1",

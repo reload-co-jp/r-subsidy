@@ -12,11 +12,13 @@
     "サービス業（他に分類されないもの）",
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "フィンテックイノベーション支援事業",
   "subsidizedRate": "10/10（定額補助）※千円未満の端数は切り捨て。また、補助額上限は支援対象フィンテック企業１社あたりの上限",

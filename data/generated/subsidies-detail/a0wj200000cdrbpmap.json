@@ -15,6 +15,7 @@
     "不動産業",
     "物品賃貸業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -23,6 +24,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "資金繰りを改善したい / 雇用・職場環境を改善したい / 安全・防災対策支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "東京都既存非住宅省エネ改修促進事業",
   "subsidizedRate": "交付要綱または募集要領をご確認ください。",

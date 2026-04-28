@@ -40,11 +40,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "open",
   "workflow": "中小企業の外国人従業員に対する研修等支援助成金",
   "subsidizedRate": "10/10",

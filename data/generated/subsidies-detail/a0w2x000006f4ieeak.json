@@ -42,12 +42,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "いしかわ中小企業チャレンジ支援ファンド",
   "subsidizedRate": "助成対象経費の2／3以内（小規模企業者は3/4）",

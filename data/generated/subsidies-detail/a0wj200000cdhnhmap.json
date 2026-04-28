@@ -16,6 +16,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -25,6 +26,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 人材育成を行いたい",
   "status": "closed",
   "workflow": "令和6年度「グローバルサウスとの連携強化に資する共創型技術人材交流事業費補助金（アフリカ市場活力取り込み支援事業）」",
   "subsidizedRate": null,

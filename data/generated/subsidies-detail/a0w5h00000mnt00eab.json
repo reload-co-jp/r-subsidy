@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和５年度既存賃貸集合住宅用小型省エネルギー型給湯器導入促進事業費補助金",
   "subsidizedRate": "定額（10/10）",

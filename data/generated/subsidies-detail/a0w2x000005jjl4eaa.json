@@ -38,9 +38,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "地域経済産業活性化対策補助金",
   "subsidizedRate": "定額補助（１０／１０）",

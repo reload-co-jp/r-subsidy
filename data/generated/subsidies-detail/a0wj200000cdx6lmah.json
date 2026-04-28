@@ -9,6 +9,7 @@
   "industries": [
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -16,6 +17,7 @@
     "事業承継",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "ケーブルテレビネットワークの耐災害性強化事業",
   "subsidizedRate": null,

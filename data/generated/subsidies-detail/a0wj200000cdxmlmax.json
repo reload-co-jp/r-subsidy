@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "【秋田県】再エネ導入促進事業補助金（物価高騰対策臨時交付金）",
   "subsidizedRate": null,

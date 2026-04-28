@@ -87,6 +87,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -94,6 +95,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "業務改善助成金",
   "subsidizedRate": "3/4,4/5",

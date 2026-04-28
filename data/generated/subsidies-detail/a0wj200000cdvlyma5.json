@@ -12,9 +12,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい",
   "status": "closed",
   "workflow": "災害時看護体制整備事業",
   "subsidizedRate": "（１）災害支援ナース養成研修の受講・修了 20,000円／日 （２）災害活動訓練への参加 2,500円／時間 （３）被災地域への派遣 20,000円／日",

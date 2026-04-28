@@ -86,11 +86,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "デジタル化"
   ],
+  "usePurpose": "資金繰りを改善したい / 安全・防災対策支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和７年度地域経済政策推進事業費補助金補助金（地域の伝統・魅力等発信支援事業）",
   "subsidizedRate": null,

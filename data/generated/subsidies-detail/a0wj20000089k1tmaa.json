@@ -12,6 +12,7 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "100名以下",
   "employeeMin": null,
   "employeeMax": 100,
   "purposes": [
@@ -19,6 +20,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "宿伯施設テレワーク活用促進事業",
   "subsidizedRate": "補助対象経費の２／３（千円未満切り捨て）",

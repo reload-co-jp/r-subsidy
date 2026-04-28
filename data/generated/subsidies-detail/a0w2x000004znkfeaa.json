@@ -12,6 +12,7 @@
     "不動産業",
     "物品賃貸業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和４年度　自動車事故対策費補助金（先進安全自動車（ＡＳＶ）の導入に対する支援）",
   "subsidizedRate": "１/２、１/３",

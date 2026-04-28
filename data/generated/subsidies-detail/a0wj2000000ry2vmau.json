@@ -42,11 +42,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "高齢者向け新ビジネス創出支援事業",
   "subsidizedRate": "助成対象経費の２／３以内",

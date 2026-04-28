@@ -13,12 +13,14 @@
     "金融業",
     "保険業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "フィンテック産業における協業基盤整備支援事業",
   "subsidizedRate": "1/2",

@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "事業承継"
   ],
+  "usePurpose": "事業を引き継ぎたい",
   "status": "closed",
   "workflow": "事業承継・引継ぎ補助事業(事業承継トライアル)",
   "subsidizedRate": "2/3以内",

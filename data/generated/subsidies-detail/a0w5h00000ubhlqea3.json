@@ -13,6 +13,7 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -20,6 +21,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "モビリティＤＸ促進のための無人自動運転開発・実証支援補助金",
   "subsidizedRate": "定額",

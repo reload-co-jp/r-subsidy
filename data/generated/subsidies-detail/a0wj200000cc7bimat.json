@@ -30,6 +30,7 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -37,6 +38,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / 研究開発・実証事業を行いたい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "持続可能な物流効率化実証事業費補助金",
   "subsidizedRate": "定額",

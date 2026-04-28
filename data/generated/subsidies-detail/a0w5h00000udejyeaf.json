@@ -9,11 +9,13 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "蓄電池等の製品の持続可能性向上に向けた基盤整備・実証事業費補助金",
   "subsidizedRate": "公募要領を参照とする",

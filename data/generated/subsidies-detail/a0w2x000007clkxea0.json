@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -49,6 +50,7 @@
     "創業",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "堺市ものづくり新事業チャレンジ支援補助金",
   "subsidizedRate": "1/2以内",

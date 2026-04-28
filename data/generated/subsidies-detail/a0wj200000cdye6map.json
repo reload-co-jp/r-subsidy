@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "生産力強化に向けた稲作経営モデル確立支援事業",
   "subsidizedRate": "定額",

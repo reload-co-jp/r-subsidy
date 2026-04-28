@@ -13,6 +13,7 @@
     "卸売業",
     "小売業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -22,6 +23,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "コールドチェーンを支える冷凍冷蔵機器の脱フロン・脱炭素化推進事業",
   "subsidizedRate": "原則1/3以下",

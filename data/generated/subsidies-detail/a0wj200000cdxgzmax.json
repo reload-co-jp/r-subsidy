@@ -10,6 +10,7 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -18,7 +19,8 @@
     "省エネ",
     "デジタル化"
   ],
-  "status": "open",
+  "usePurpose": "研究開発・実証事業を行いたい",
+  "status": "closed",
   "workflow": "ポスト５Ｇ情報通信システム基盤強化研究開発事業",
   "subsidizedRate": null,
   "upperLimit": "0円",

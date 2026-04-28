@@ -43,6 +43,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
   "purposes": [
@@ -50,6 +51,7 @@
     "販路拡大",
     "デジタル化"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい",
   "status": "closed",
   "workflow": "全国商工会連合会_小規模事業者持続化補助金＜一般型＞",
   "subsidizedRate": "2/3、定額（一定の要件を満たす事業者のみ対象）",

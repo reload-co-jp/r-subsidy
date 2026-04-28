@@ -9,6 +9,7 @@
   "industries": [
     "サービス業（他に分類されないもの）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -16,6 +17,7 @@
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "フェムテック等サポートサービス実証事業費補助金",
   "subsidizedRate": "定額",

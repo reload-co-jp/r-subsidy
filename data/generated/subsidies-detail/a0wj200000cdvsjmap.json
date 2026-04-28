@@ -12,6 +12,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "【神奈川県】令和７年度介護ロボット・ICT導入支援事業費補助",
   "subsidizedRate": "補助金上限額と対象経費の実支出額の５分の４を比較して少ない方の額",

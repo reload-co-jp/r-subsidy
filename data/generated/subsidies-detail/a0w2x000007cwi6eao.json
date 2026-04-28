@@ -9,12 +9,14 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "令和4年度高等教育機関における共同講座創造支援事業費補助金",
   "subsidizedRate": "定額",

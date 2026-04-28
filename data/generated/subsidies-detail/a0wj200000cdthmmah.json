@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -49,6 +50,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "資金繰りを改善したい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "オフィスビル等のエネルギー効率化による経営安定事業",
   "subsidizedRate": "助成対象経費の２/３以内（千円未満切り捨て）",

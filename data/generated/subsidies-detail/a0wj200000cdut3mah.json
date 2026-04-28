@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和7年度予算の三次公募_二酸化炭素排出抑制対策事業費等補助金（民間企業等による再エネの導入及び地域共生加速化事業）ストレージパリティの達成に向けた太陽光発電設備等の価格低減促進事業",
   "subsidizedRate": "公募要領を参照のこと。",

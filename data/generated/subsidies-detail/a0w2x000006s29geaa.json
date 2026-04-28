@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "無人自動運転等のCASE対応に向けた実証・支援事業（健全な製品エコシステム構築・ルール形成促進事業）",
   "subsidizedRate": "公募要領を参照",

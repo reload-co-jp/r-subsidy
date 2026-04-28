@@ -7,12 +7,14 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": null,
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "令和３年度石油製品販売業環境保全対策事業費補助金（災害時に備えた地域におけるエネルギー供給拠点の整備事業のうち住民拠点サービスステーション整備事業等に係るもの）（単年度分）",
   "subsidizedRate": "定額(10/10)",

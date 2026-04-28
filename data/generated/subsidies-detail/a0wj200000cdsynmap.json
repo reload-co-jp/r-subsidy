@@ -12,9 +12,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "東京都医療施設浸水対策計画策定支援事業",
   "subsidizedRate": "交付要綱等を参照とする",

@@ -9,12 +9,14 @@
   "industries": [
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "安全・防災対策支援がほしい / 設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "情報通信拠点機能強化支援事業",
   "subsidizedRate": "事業費の３分の１",

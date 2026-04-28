@@ -12,11 +12,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "open",
   "workflow": "NBC災害・テロ対策設備整備費補助事業",
   "subsidizedRate": "交付要綱等を参照とする",

@@ -10,12 +10,14 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "open",
   "workflow": "P11013_二国間クレジット制度（JCM）等を活用した低炭素技術普及促進事業",
   "subsidizedRate": null,

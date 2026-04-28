@@ -17,12 +17,14 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "自立・帰還支援雇用創出企業立地補助金",
   "subsidizedRate": "詳細は公募要領をご確認ください。",

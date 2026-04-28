@@ -11,6 +11,7 @@
     "不動産業",
     "物品賃貸業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "平成6年度革新的ロボット研究開発等基盤構築事業に係る間接補助事業者公募（ロボットフレンドリーな環境構築支援事業）",
   "subsidizedRate": "補助率 2/3、施設分野の大企業は1/2",

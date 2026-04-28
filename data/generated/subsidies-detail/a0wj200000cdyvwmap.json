@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -48,6 +49,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "四日市市中小企業働きやすい職場づくり支援事業費補助金",
   "subsidizedRate": "補助対象経費の2分の1以内（1,000円未満切り捨て）",

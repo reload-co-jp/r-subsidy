@@ -42,6 +42,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -50,6 +51,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / 研究開発・実証事業を行いたい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "AI等先端技術を活用した受入環境高度化支援事業",
   "subsidizedRate": "補助対象経費の1/2以内",

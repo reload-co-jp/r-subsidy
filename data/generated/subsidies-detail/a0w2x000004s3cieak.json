@@ -12,9 +12,11 @@
     "採石業",
     "砂利採取業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "地熱発電の資源量調査事業費助成金交付事業",
   "subsidizedRate": "公募案内・実施細則を参照ください",

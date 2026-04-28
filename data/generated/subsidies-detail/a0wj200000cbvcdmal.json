@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "再生可能エネルギー導入拡大・分散型エネルギーリソース導入支援等事業費補助金（電力データ活用支援等事業）",
   "subsidizedRate": "定額（10/10）",

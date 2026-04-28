@@ -40,9 +40,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和８年度温暖化対策促進事業費補助金（トランジション・ファイナンス推進事業）",
   "subsidizedRate": "定額",

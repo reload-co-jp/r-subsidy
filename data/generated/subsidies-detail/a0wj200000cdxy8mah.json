@@ -20,6 +20,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -27,6 +28,7 @@
     "研究開発",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "橿原市起業等スタートアップ補助金",
   "subsidizedRate": "2分の1（1,000円未満の端数は切り捨て）",

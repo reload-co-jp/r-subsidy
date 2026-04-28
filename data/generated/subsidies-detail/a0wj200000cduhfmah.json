@@ -12,6 +12,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "訪問介護員補助者同行支援補助金",
   "subsidizedRate": "3/4",

@@ -7,11 +7,13 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": null,
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "省エネ"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "石油ガス流通合理化対策事業費補助金（石油ガスの流通合理化及び取引の適正化等に関する支援事業費のうち販売事業者指導支援事業に係るもの）",
   "subsidizedRate": "3/4",

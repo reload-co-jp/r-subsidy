@@ -12,6 +12,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "東京都地域医療連携システムデジタル環境整備推進事業",
   "subsidizedRate": "3/4もしくは1/2※詳細は備考欄に記載",

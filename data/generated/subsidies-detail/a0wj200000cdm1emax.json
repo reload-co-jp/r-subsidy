@@ -42,6 +42,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -51,6 +52,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "事業化可能性調査事業",
   "subsidizedRate": "10/10",

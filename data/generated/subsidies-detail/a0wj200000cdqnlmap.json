@@ -42,11 +42,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "令和7年度テレワーク定着強化奨励金",
   "subsidizedRate": null,

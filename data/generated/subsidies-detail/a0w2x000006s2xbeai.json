@@ -28,12 +28,14 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "令和4年度　展示会等のイベント産業高度化推進事業費補助金",
   "subsidizedRate": "1/2",

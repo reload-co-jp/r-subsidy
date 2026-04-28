@@ -12,6 +12,7 @@
     "製造業",
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -21,6 +22,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "京都市企業立地促進制度",
   "subsidizedRate": "家屋及び償却資産（土地を除く）に課税される固定資産税・都市計画税相当額の100％～150%",

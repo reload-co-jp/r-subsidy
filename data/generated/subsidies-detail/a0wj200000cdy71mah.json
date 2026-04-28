@@ -12,12 +12,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "病院診療情報デジタル推進事業",
   "subsidizedRate": "3/4",

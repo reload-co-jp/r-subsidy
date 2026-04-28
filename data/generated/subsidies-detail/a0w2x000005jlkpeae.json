@@ -10,12 +10,14 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "大企業人材等新規事業創造支援事業費補助金（中小企業新事業創出促進対策事業）",
   "subsidizedRate": "定額（10／10）",

@@ -12,6 +12,7 @@
     "製造業",
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -19,6 +20,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "open",
   "workflow": "【長野県茅野市】新技術・新製品研究開発事業補助金（工業・デジタル技術関連産業）",
   "subsidizedRate": "2分の1以内 （※一般型で開発に至らなかった場合は5分の1以内 ）",

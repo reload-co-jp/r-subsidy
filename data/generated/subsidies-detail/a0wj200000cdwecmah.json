@@ -17,11 +17,13 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "食品産業プラスチック資源循環対策事業",
   "subsidizedRate": "定額となります。",

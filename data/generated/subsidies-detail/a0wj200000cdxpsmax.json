@@ -9,11 +9,13 @@
   "industries": [
     "公務（他に分類されるものを除く）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "創業"
   ],
+  "usePurpose": "まちづくり・地域振興支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "open",
   "workflow": "生物多様性保全推進交付金 （生物多様性保全推進支援事業）",
   "subsidizedRate": "1/2、定額（事業メニューにより異なります。詳細は公募要領をご確認ください。）",

@@ -10,11 +10,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "雇用・職場環境を改善したい",
   "status": "closed",
   "workflow": "自動車事故対策費補助金（社会復帰促進事業）",
   "subsidizedRate": "10/10",

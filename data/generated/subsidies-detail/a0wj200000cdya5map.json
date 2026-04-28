@@ -12,11 +12,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": "資金繰りを改善したい / 安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "神奈川県介護事業所等及び介護施設等に対するサービス継続支援金事業",
   "subsidizedRate": "10/10",

@@ -25,6 +25,7 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
   "purposes": [
@@ -34,6 +35,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "令和元年度補正予算 小規模事業者持続化補助金事業＜一般型＞",
   "subsidizedRate": "２/３補助",

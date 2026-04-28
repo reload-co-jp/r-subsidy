@@ -27,6 +27,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -34,6 +35,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "【福井県】令和7年度 Ｖ２Ｈ充放電設備設置支援事業補助金",
   "subsidizedRate": "定額（対象設備の購入費用に対し一律10万円）",

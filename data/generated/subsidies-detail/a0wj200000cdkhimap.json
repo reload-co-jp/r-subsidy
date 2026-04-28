@@ -25,12 +25,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "販路拡大"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 事業を引き継ぎたい / 人材育成を行いたい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "西粟倉村　地域おこし協力隊事業補助",
   "subsidizedRate": null,

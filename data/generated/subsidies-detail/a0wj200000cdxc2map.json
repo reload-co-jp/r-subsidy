@@ -9,11 +9,13 @@
   "industries": [
     "公務（他に分類されるものを除く）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "原子力産業基盤強化事業",
   "subsidizedRate": null,

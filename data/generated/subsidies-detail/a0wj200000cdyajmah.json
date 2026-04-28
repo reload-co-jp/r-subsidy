@@ -13,6 +13,7 @@
     "金融業",
     "保険業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -20,6 +21,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "ステーブルコイン社会実装促進事業",
   "subsidizedRate": "2/3",

@@ -33,6 +33,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,
   "purposes": [
@@ -41,6 +42,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和4年度ものづくり高度連携・事業再構築促進補助金",
   "subsidizedRate": "補助額の上限は、連携体全体の額となります。中小企業者等1/2以内、小規模企業者・小規模事業者2/3以内",

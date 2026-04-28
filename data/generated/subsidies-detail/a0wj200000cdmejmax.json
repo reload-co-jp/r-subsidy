@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "令和７年度国際ルール形成・市場創造型標準化推進事業費補助金",
   "subsidizedRate": "2/3以内",

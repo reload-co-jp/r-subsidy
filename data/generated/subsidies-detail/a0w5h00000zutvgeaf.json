@@ -14,6 +14,7 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -22,6 +23,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "人材育成を行いたい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "洋上風力発電人材育成事業費補助金（事務局公募）",
   "subsidizedRate": "定額",

@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -47,6 +48,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "二酸化炭素排出抑制対策事業費等補助金 （工場・事業場における先導的な脱炭素化取組推進事業（SHIFT事業）） 省CO2型設備更新支援C（中小企業事業）",
   "subsidizedRate": "1/2またはCO2削減量に応じた額　※詳細は公募要領を確認ください",

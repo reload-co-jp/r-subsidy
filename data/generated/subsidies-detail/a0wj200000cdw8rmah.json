@@ -42,6 +42,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -49,6 +50,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "知立市カーボンニュートラル推進事業者支援補助金",
   "subsidizedRate": "FCV：1台につき20万円、EVまたはPHV：1台につき5万円",

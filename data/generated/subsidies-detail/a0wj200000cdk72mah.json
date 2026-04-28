@@ -41,11 +41,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "人材育成を行いたい / 雇用・職場環境を改善したい",
   "status": "closed",
   "workflow": "職場内障害者サポーター事業",
   "subsidizedRate": null,

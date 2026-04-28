@@ -12,6 +12,7 @@
     "サービス業（他に分類されないもの）",
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "フィンテックイノベーション支援事業",
   "subsidizedRate": "1/2",

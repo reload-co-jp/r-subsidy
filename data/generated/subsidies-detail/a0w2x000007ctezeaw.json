@@ -41,12 +41,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / スポーツ・文化支援がほしい",
   "status": "closed",
   "workflow": "令和４年度障害者向け製品等の販路開拓支援事業",
   "subsidizedRate": "助成対象と認められる経費の2/3以内",

@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
   "purposes": [
@@ -47,6 +48,7 @@
     "販路拡大",
     "デジタル化"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい",
   "status": "closed",
   "workflow": "小規模事業者持続化補助金＜災害支援枠＞",
   "subsidizedRate": "２／３、定額（一定の要件を満たす事業者のみ対象）",

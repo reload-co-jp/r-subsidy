@@ -42,12 +42,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "飲食事業者向け経営基盤強化支援事業（受動喫煙防止対策支援）助成金",
   "subsidizedRate": "2／3以内または9／10以内",

@@ -14,6 +14,7 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -21,6 +22,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "【福岡市】事業所生ごみ処理機（堆肥化）導入支援補助金",
   "subsidizedRate": "購入・設置費の1/2",

@@ -38,6 +38,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -47,6 +48,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "深谷市起業家支援事業補助金",
   "subsidizedRate": "対象経費の２分の１（千円未満切捨）",

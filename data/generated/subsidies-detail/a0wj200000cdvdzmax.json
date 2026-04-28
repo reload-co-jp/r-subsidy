@@ -41,12 +41,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "中小企業のサプライチェーンにおける脱炭素化促進支援事業",
   "subsidizedRate": "2/3以内",

@@ -9,12 +9,14 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "令和７年度補正 「再生可能エネルギー導入拡大・分散型エネルギーリソース導入支援等事業費補助金」ディマンドリスポンスの拡大に向けたIoT化推進事業",
   "subsidizedRate": "1/2以内",

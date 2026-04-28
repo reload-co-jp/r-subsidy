@@ -49,12 +49,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 事業を引き継ぎたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "設備投資関連事業完了後申請",
   "subsidizedRate": "ー（上記補助金上限額は、助成事業当時の上限額を指します）",

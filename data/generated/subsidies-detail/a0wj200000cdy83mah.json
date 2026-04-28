@@ -10,6 +10,7 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -18,6 +19,7 @@
     "創業",
     "省エネ"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "open",
   "workflow": "P23007_研究開発型スタートアップの起業・経営人材確保等支援事業",
   "subsidizedRate": null,

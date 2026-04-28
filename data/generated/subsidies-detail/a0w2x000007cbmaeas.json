@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "令和4年度補正_系統用蓄電システム・水電解装置導入支援事業",
   "subsidizedRate": "1/2以内、1/3以内、2/3以内",

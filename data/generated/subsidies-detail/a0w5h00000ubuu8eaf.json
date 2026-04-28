@@ -12,9 +12,11 @@
     "農業",
     "林業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "資金繰りを改善したい",
   "status": "closed",
   "workflow": "主伐材搬出補助",
   "subsidizedRate": "経費の7/10以内",

@@ -9,12 +9,14 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": null,
   "subsidizedRate": "定額",

@@ -38,6 +38,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -45,6 +46,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "事業を引き継ぎたい / 人材育成を行いたい / 雇用・職場環境を改善したい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "令和3年度「地域新成長産業創出促進事業費補助金(戦略的ツール活用型若者人材移転支援事業)」",
   "subsidizedRate": "1/2",

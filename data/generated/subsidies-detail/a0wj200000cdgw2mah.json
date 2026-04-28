@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -16,6 +17,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和7年度ＬＰガス関連補助金",
   "subsidizedRate": "10/10",

@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "研究開発",
     "創業"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "地域戦略人材確保等実証事業（補助事業者）",
   "subsidizedRate": "1/3、1/2、2/3",

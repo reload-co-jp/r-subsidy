@@ -9,11 +9,13 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "国際ルール形成・市場創造型標準化推進事業費（標準化戦略活動促進補助金事業）",
   "subsidizedRate": "公募要領を参照とする",

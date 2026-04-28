@@ -9,12 +9,14 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "石油製品販売業構造改善対策事業費補助金（離島・SS過疎地等における石油製品の流通合理化支援事業のうち過疎地等における石油製品の流通体制整備事業に係るもの）",
   "subsidizedRate": "定額（10/10）",

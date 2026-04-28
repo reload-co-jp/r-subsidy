@@ -9,12 +9,14 @@
   "industries": [
     "漁業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "創業"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "ＡＬＰＳ処理水関連の輸入規制を踏まえた水産物の輸出先多角化緊急支援事業",
   "subsidizedRate": "定額　間接補助先への補助内容の詳細は公募要領をご確認ください。",

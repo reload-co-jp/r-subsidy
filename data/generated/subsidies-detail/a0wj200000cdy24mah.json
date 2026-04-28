@@ -14,11 +14,13 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "100名以下",
   "employeeMin": null,
   "employeeMax": 100,
   "purposes": [
     "販路拡大"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / まちづくり・地域振興支援がほしい",
   "status": "open",
   "workflow": "【長野県茅野市】消費喚起イベント事業補助金",
   "subsidizedRate": "補助対象経費の2分の1以内",

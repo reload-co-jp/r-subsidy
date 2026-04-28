@@ -10,6 +10,7 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -18,6 +19,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "令和６年度「洋上風力発電人材育成事業費補助金」",
   "subsidizedRate": "補助対象経費の合計額の２／３以内",

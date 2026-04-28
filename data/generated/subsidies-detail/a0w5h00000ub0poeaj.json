@@ -9,12 +9,14 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "安全・防災対策支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "石油製品販売業環境保全対策事業費補助金（ＳＳ等の地域配送拠点における災害対応能力強化事業）",
   "subsidizedRate": "定額（10/10）",

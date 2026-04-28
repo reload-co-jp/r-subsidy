@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -48,6 +49,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "賃上げに向けた経営体制強化支援補助金",
   "subsidizedRate": "1/2以内",

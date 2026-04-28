@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / 安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "安全・安心な東京の実現に向けた製品開発支援事業",
   "subsidizedRate": "助成対象経費の2/3以内及び1/2以内",

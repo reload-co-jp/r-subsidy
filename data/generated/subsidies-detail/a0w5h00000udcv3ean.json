@@ -9,12 +9,14 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
   "subsidizedRate": "定額",

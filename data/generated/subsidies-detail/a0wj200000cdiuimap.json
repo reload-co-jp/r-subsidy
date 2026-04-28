@@ -9,12 +9,14 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "ロシア・中央アジア地域等情報収集・提供等事業",
   "subsidizedRate": "定額補助（１０／１０）",

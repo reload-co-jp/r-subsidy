@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "中小企業経営支援等対策費補助金（若者人材確保プロジェクトの実証）",
   "subsidizedRate": "1/2",

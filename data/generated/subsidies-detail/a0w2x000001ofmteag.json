@@ -7,6 +7,7 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -14,6 +15,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "水力発電の導入加速化補助金",
   "subsidizedRate": "定額",

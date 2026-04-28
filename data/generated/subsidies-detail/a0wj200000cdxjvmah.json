@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -51,6 +52,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 人材育成を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "【北九州市】\t 物価高騰に立ち向かう中小企業等に対する生産性向上支援助成金",
   "subsidizedRate": "2分の1以内",

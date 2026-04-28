@@ -9,6 +9,7 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -16,6 +17,7 @@
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / 人材育成を行いたい",
   "status": "closed",
   "workflow": "技術協力活用型・新興国市場開拓事業（研修・専門家派遣事業）費補助金",
   "subsidizedRate": "1/3,1/2,2/3,定額",

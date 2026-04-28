@@ -7,12 +7,14 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": null,
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "研究開発"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "ものづくり・商業・サービス高度連携促進補助金",
   "subsidizedRate": "定額",

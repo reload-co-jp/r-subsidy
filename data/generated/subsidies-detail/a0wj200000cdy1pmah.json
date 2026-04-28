@@ -21,6 +21,7 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -29,6 +30,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "open",
   "workflow": "【長野県茅野市】中小企業の人材育成等に対する補助金",
   "subsidizedRate": null,

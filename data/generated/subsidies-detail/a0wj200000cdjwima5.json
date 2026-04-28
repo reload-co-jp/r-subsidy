@@ -10,9 +10,11 @@
     "農業",
     "林業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "申請練習用制度【補助金の支払いはありません】",
   "subsidizedRate": "10%",

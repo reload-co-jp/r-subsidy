@@ -10,12 +10,14 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "深地層の研究施設を使用した試験研究成果に基づく当該施設の理解促進事業費補助金",
   "subsidizedRate": "10/10",

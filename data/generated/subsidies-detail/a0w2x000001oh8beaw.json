@@ -7,12 +7,14 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": null,
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "クリーンエネルギー自動車導入促進補助金",
   "subsidizedRate": null,

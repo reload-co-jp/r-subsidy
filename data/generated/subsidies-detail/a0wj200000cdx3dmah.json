@@ -11,6 +11,7 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "地域デジタル人材育成・確保推進事業費（企業データに基づく実践的なケーススタディ教育プログラム事業）補助金",
   "subsidizedRate": "4/5以内",

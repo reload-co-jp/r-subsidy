@@ -28,6 +28,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -36,6 +37,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 雇用・職場環境を改善したい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / 教育・子育て・少子化支援がほしい / スポーツ・文化支援がほしい",
   "status": "closed",
   "workflow": "地域デジタル基盤活用推進事業",
   "subsidizedRate": "１／２",

@@ -42,6 +42,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -49,6 +50,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "雇用・職場環境を改善したい",
   "status": "closed",
   "workflow": "育児・介護テレ",
   "subsidizedRate": "助成率：3分の2（常時雇用する労働者数2人以上29人以下）・2分の1（常時雇用する労働者数30人以上300人以下）",

@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -49,6 +50,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "今治市技術開発・販路開拓事業費補助金",
   "subsidizedRate": "補助対象費の3分の2",

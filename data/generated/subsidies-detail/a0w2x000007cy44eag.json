@@ -11,6 +11,7 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -20,6 +21,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "未踏的な地方の若手人材発掘育成支援事業費補助金(I-697)",
   "subsidizedRate": "10/10",

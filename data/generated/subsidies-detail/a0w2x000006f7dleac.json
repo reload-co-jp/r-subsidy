@@ -9,12 +9,14 @@
   "industries": [
     "公務（他に分類されるものを除く）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "エネルギー構造高度化・転換理解促進事業費補助金",
   "subsidizedRate": null,

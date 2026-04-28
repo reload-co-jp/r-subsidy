@@ -11,6 +11,7 @@
     "運輸業",
     "郵便業"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -18,6 +19,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "安全・防災対策支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "自動車事故対策費事業（自動車運送事業の安全総合対策事業（事故防止対策支援推進事業））",
   "subsidizedRate": "1/2",

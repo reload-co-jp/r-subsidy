@@ -26,6 +26,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -33,6 +34,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "やまぐち産業イノベーション加速化補助金",
   "subsidizedRate": "２／３以内",

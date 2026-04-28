@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 事業を引き継ぎたい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和4年度国立公園等資源整備事業費補助金",
   "subsidizedRate": "２分の１又は３分の２以内",

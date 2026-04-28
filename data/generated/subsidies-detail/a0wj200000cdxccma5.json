@@ -9,11 +9,13 @@
   "industries": [
     "公務（他に分類されるものを除く）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "次世代革新炉の開発・建設に向けた技術開発・サプライチェーン構築支援事業",
   "subsidizedRate": null,

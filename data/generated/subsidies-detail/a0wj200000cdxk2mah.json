@@ -15,11 +15,13 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "農業生産におけるプラスチック排出抑制対策事業のうちプラスチック代替資材導入推進事業",
   "subsidizedRate": "定額",

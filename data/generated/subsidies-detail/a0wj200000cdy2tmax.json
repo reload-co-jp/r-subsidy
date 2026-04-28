@@ -26,9 +26,11 @@
     "不動産業",
     "物品賃貸業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "既存住宅流通活性化緊急促進事業",
   "subsidizedRate": "定額",

@@ -9,9 +9,11 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい / 資金繰りを改善したい",
   "status": "closed",
   "workflow": "石油製品販売業環境保全対策事業費補助金（ＳＳネットワーク維持・強化支援事業）",
   "subsidizedRate": "定額（10/10）",

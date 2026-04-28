@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / 災害（自然災害、感染症等）支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "水力発電導入加速化事業費（水力発電の既存設備の増出力又は増電力量の可能性調査及び更新等事業（既存設備有効活用支援事業））",
   "subsidizedRate": "公募要領を参照",

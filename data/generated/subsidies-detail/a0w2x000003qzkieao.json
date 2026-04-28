@@ -38,11 +38,13 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "雇用・職場環境を改善したい",
   "status": "closed",
   "workflow": "岡山県プロフェッショナル人材確保支援事業",
   "subsidizedRate": "1/2",

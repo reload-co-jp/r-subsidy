@@ -20,9 +20,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / まちづくり・地域振興支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "森・川・海ごみ削減実践活動支援事業補助金",
   "subsidizedRate": "対象経費の金額を上限10万円まで補助",

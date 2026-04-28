@@ -42,6 +42,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -49,6 +50,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "open",
   "workflow": "古賀市中小企業等向け太陽光発電設備導入補助金",
   "subsidizedRate": "中小企業が使用する設備を市内施工業者が施工する場合：発電出力1kWあたり6万円",

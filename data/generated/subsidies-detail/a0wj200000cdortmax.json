@@ -41,11 +41,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "雇用・職場環境を改善したい",
   "status": "open",
   "workflow": "東京都中小企業障害者雇用スタート支援奨励事業",
   "subsidizedRate": null,

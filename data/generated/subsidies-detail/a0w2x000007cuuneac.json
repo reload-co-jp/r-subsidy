@@ -10,6 +10,7 @@
     "卸売業",
     "小売業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和４年度補正予算　石油製品販売業構造改善対策事業費補助金（ＳＳの事業再構築･経営力強化事業のうち設備導入等支援事業に係るもの）",
   "subsidizedRate": null,

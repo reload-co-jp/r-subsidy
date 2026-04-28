@@ -39,12 +39,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "ものづくり補助金",
   "subsidizedRate": "中小企業者　1/2，小規模企業者・小規模事業者　2/3（特別枠BC類型の場合　3/4）",

@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,
   "purposes": [
     "人材育成",
     "創業"
   ],
+  "usePurpose": "雇用・職場環境を改善したい",
   "status": "closed",
   "workflow": "岡山県プロフェッショナル人材確保支援事業",
   "subsidizedRate": "２分の１以内",

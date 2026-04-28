@@ -52,11 +52,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "中小企業等知的財産支援地域連携促進事業費補助金（中小企業等知的財産支援事業）",
   "subsidizedRate": "A（地域中小企業支援拡充型事業）：補助対象経費の１／２以内（１千万円が上限）　　　　　　B（地域中小企業支援構築型事業）：定額（５百万円が上限）",

@@ -12,11 +12,13 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "乗降用リフト装置付バス利用支援補助金",
   "subsidizedRate": "１台当たりの通常のバスの貸切バス料金と乗降用リフト装置付バスの貸切バス料金の差額代金（１千円未満の端数は切り捨て）又は５０，０００円のいずれか低い額",

@@ -9,12 +9,14 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "電気利用効率化促進対策事業費補助金",
   "subsidizedRate": null,

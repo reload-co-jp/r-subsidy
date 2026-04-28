@@ -9,9 +9,11 @@
   "industries": [
     "公務（他に分類されるものを除く）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "原子力産業基盤強化事業",
   "subsidizedRate": null,

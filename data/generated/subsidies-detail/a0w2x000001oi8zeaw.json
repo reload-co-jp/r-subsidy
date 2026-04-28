@@ -9,11 +9,13 @@
     "愛知県"
   ],
   "industries": [],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "【愛知県】２０２２年度「新あいち創造研究開発補助金」",
   "subsidizedRate": "中小企業 ２/３以内、大企業 １/２以内",

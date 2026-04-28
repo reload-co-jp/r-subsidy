@@ -21,6 +21,7 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -28,6 +29,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "介護現場のニーズに対応した製品開発支援事業",
   "subsidizedRate": "助成対象と認められる経費の2/3以内",

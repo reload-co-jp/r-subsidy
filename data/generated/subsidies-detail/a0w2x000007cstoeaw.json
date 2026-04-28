@@ -11,11 +11,13 @@
   "industries": [
     "漁業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "open",
   "workflow": "農林水産物認証取得支援事業（水産認証取得支援事業）補助金",
   "subsidizedRate": "2/3以内",

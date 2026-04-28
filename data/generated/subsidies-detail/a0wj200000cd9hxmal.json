@@ -9,12 +9,14 @@
   "industries": [
     "公務（他に分類されるものを除く）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "鉱物資源安定供給確保事業費補助金（南海トラフ巨大地震旧鉱物採掘区域防災対策事業）",
   "subsidizedRate": "9/10",

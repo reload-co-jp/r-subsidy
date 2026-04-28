@@ -7,11 +7,13 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": null,
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "省エネ"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "エネルギー構造高度化・転換理解促進事業費補助金",
   "subsidizedRate": null,

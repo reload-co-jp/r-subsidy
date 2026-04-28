@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "研究開発",
     "創業"
   ],
+  "usePurpose": "雇用・職場環境を改善したい",
   "status": "open",
   "workflow": "【飯塚市】外国人材受入環境整備事業費補助金",
   "subsidizedRate": "2/3以内",

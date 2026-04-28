@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -48,6 +49,7 @@
     "販路拡大",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "創業助成事業",
   "subsidizedRate": "2/3以内",

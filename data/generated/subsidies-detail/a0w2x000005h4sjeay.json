@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 教育・子育て・少子化支援がほしい",
   "status": "closed",
   "workflow": "学びと社会の連携促進事業（先端的教育用ソフトウェア導入実証事業）費補助金",
   "subsidizedRate": "定額",

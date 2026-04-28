@@ -11,6 +11,7 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "【春日井市】工場新増設事業助成金",
   "subsidizedRate": "固定資産（建物）に係る評価額の10％以内（市外からの本社機能移転を伴う場合は12％以内）",

@@ -15,6 +15,7 @@
     "卸売業",
     "小売業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -23,6 +24,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "岡崎市工場等（倉庫等）建設奨励金",
   "subsidizedRate": "新工場等に係る事業所税資産割相当額、および固定資産税相当額を交付",

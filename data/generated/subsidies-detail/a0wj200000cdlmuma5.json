@@ -25,6 +25,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -32,6 +33,7 @@
     "研究開発",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "令和７年度新製品・新技術開発助成事業",
   "subsidizedRate": "助成対象と認められる経費の1/2以内（千円未満は切り捨て）※賃金引上げ計画を策定し、実施した場合は3/4以内（小規模企業者は4/5以内）​",

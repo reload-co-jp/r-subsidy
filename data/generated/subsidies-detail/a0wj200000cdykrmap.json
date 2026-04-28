@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "小牧市中小企業人材育成研修費補助金",
   "subsidizedRate": "補助対象経費の1/2",

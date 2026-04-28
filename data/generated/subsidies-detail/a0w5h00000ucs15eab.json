@@ -12,6 +12,7 @@
     "製造業",
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -19,6 +20,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "県内産業価値づくり支援事業",
   "subsidizedRate": "２/３～４/５",

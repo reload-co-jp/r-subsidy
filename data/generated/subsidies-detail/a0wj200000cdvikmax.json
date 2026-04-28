@@ -12,12 +12,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "東京都入退院時連携強化事業",
   "subsidizedRate": "1/2または3/4",

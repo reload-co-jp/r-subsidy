@@ -9,11 +9,13 @@
     "大分県"
   ],
   "industries": [],
+  "targetNumberOfEmployees": null,
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "医工連携医療関連機器等事業化補助事業",
   "subsidizedRate": "２／３以内",

@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "人材育成",
     "創業"
   ],
+  "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "令和５年度ALPS処理水関連の輸入規制強化を踏まえた水産業の特定国・地域依存を分散するための緊急支援事業（国内加工体制の強化対策事業）",
   "subsidizedRate": "定額（１０／１０）",

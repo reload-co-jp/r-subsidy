@@ -10,12 +10,14 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "IP360（令和７年度補正コンテンツ産業成長投資支援事業費補助金）",
   "subsidizedRate": "対象経費の2分の1",

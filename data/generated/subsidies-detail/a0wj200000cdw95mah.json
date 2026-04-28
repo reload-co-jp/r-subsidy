@@ -14,11 +14,13 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい / 資金繰りを改善したい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "知立市中心市街地出店事業者支援補助金",
   "subsidizedRate": "補助対象経費の3分の2に相当する額（当該経費に含まれる消費税及び地方消費税の額を除く。）ただし、改装費100万円 ・家賃10万円/月を上限",

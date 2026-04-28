@@ -36,11 +36,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "【三重県鈴鹿市】創業促進補助金",
   "subsidizedRate": "2分の1（1,000円未満切捨て）",

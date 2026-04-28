@@ -9,6 +9,7 @@
   "industries": [
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -16,6 +17,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "令和７年度エネルギー使用合理化技術開発等事業費補助金（サプライチェーンデータ連携基盤の構築に向けた実証・普及事業）",
   "subsidizedRate": "公募要領を参照とする",

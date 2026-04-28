@@ -42,11 +42,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "教育・子育て・少子化支援がほしい",
   "status": "closed",
   "workflow": "働く女性のライフ・キャリア応援事業自主セミナー助成金",
   "subsidizedRate": null,

@@ -11,12 +11,14 @@
     "教育",
     "学習支援業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "リスキリングを通じたキャリアアップ支援事業費補助金",
   "subsidizedRate": "1/2・7/10・定額等（※補助金上限額・補助率についての詳細は公募要領をご覧ください）",

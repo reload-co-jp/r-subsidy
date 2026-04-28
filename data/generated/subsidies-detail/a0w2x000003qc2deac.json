@@ -11,6 +11,7 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -18,6 +19,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "【神戸市】中小製造業投資促進等助成",
   "subsidizedRate": "1/3以内",

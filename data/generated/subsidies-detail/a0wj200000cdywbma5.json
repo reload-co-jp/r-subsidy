@@ -11,6 +11,7 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -20,6 +21,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / 設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "岡崎市高度先端産業立地奨励金（県連携）",
   "subsidizedRate": "固定資産取得費用の8％～15％分（※土地の固定資産取得費用は除く）",

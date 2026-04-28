@@ -25,6 +25,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -32,6 +33,7 @@
     "研究開発",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "新製品・新技術開発助成事業",
   "subsidizedRate": "助成対象と認められる経費の１/２以内",

@@ -12,6 +12,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -20,6 +21,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "open",
   "workflow": "東京都医療ＤＸ人材育成支援事業",
   "subsidizedRate": "10分の10",

@@ -88,12 +88,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和３年度補正サービス等生産性向上ＩＴ導入支援事業",
   "subsidizedRate": "公募要領をご確認ください。",

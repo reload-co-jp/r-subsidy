@@ -13,6 +13,7 @@
     "卸売業",
     "小売業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -21,6 +22,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "令和７年度補正　米粉商品開発等支援対策事業",
   "subsidizedRate": "1/2(商品の市販段階における原材料費の支援は、大企業の場合1/3)",

@@ -9,6 +9,7 @@
   "industries": [
     "サービス業（他に分類されないもの）"
   ],
+  "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
   "purposes": [
@@ -18,6 +19,7 @@
     "事業承継",
     "創業"
   ],
+  "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "令和元年度補正予算小規模事業者持続化補助金「ビジネスコミュニティ型補助金（商工会議所地区分）」",
   "subsidizedRate": "定額",

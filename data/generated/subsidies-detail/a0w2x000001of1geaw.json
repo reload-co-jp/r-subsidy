@@ -7,12 +7,14 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": null,
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "潤滑油の品質確保事業等への支援事業費補助金",
   "subsidizedRate": "2/3以内",

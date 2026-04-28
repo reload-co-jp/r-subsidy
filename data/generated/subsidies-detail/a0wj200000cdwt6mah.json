@@ -9,12 +9,14 @@
   "industries": [
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "創業"
   ],
+  "usePurpose": "資金繰りを改善したい",
   "status": "closed",
   "workflow": "情報バリアフリー通信・放送役務提供・開発推進助成金",
   "subsidizedRate": "対象経費に対して、新規事業は3分の2又は2,000万円のいずれか低い額、継続事業は2分の1又は1,500万円のいずれか低い額に相当する額を上限とします。",

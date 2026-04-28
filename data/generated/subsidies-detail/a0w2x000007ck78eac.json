@@ -10,6 +10,7 @@
     "卸売業",
     "小売業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和４年度当初予算　石油製品販売業環境保全対策事業費補助金（災害時に備えた地域におけるエネルギー供給拠点の整備事業のうち災害対応能力強化事業等に係るもの）（国庫債務負担行為分）",
   "subsidizedRate": null,

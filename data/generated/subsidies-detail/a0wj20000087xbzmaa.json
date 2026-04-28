@@ -21,11 +21,13 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "令和６年度女性活躍のためのフェムテック開発支援・普及促進事業",
   "subsidizedRate": "助成対象と認められる経費の2/3以内",

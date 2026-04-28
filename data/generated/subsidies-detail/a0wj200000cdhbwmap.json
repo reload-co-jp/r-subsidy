@@ -42,9 +42,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "輸送補助金",
   "subsidizedRate": "定額又は3/4以内",

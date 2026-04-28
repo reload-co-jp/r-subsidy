@@ -14,9 +14,11 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "資金繰りを改善したい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "【福岡市】食品廃棄物資源化費用補助金",
   "subsidizedRate": "食品廃棄物1kgあたり4円（定額補助）",

@@ -40,9 +40,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "令和3年度「地域経済産業活性化対策費補助金(地域の伝統・魅力等発信支援事業)」",
   "subsidizedRate": "12市町村を対象とする事業：10／10(10,000千円まで)　福島県を対象とする事業：2／3(30,000千円まで)",

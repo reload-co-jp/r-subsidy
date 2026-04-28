@@ -12,6 +12,7 @@
     "サービス業（他に分類されないもの）",
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -20,6 +21,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "省エネ型VOC排出削減設備導入促進事業",
   "subsidizedRate": "補助対象経費の2/3（上限2,000万円/台）",

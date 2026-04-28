@@ -16,11 +16,13 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい / まちづくり・地域振興支援がほしい",
   "status": "open",
   "workflow": "【長野県茅野市】中小企業振興補助金（商業関係）",
   "subsidizedRate": null,

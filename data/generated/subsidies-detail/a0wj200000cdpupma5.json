@@ -21,12 +21,14 @@
     "卸売業",
     "小売業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "共同輸配送や帰り荷確保等のためのデータ連携促進支援事業費補助金",
   "subsidizedRate": "補助率は2分の1。補助上限額は4千万円（税別）。算出された額に1,000円未満の端数が生じた場合には、これを切り捨てるものする。",

@@ -40,9 +40,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "令和７年度地域経済政策推進事業費補助金（被災１２市町村における地域のつながり支援事業）（間接補助事業者公募）",
   "subsidizedRate": "定額",

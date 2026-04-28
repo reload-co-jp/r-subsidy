@@ -20,9 +20,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "新たな事業を行いたい / まちづくり・地域振興支援がほしい",
   "status": "open",
   "workflow": "台東区商店街空き店舗活用支援",
   "subsidizedRate": "家賃（敷金、礼金は除く）の１／２",

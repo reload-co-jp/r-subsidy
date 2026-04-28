@@ -39,6 +39,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -46,6 +47,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "工場・事業場における先導的な脱炭素化取組推進事業［SHIFT事業］",
   "subsidizedRate": "4分の3",

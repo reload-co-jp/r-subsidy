@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -16,6 +17,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "令和７年度都市ガス分野の災害対応・レジリエンス強化にかかる支援事業費補助金",
   "subsidizedRate": "【バルブ開閉器】２／３、【ガバナ遠隔監視システム】１／２（補助額上限、補助率の詳細は公募説明会資料を参照ください）",

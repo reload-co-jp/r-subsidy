@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和６年度補正中小水力発電自治体主導型案件創出調査支援事業費",
   "subsidizedRate": "定額",

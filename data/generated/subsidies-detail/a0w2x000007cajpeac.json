@@ -11,6 +11,7 @@
     "運輸業",
     "郵便業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和５年度「AI・IoT等を活用した更なる輸送効率化推進事業費補助金」",
   "subsidizedRate": "定額",

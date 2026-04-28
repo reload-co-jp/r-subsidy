@@ -9,12 +9,14 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "洋上風力案件形成事業費補助金",
   "subsidizedRate": "補助金上限額：①25,000,000円（準備区域等に整理されていない区域を対象に定額補助）、②10,000,000円（準備区域を対象に1/2補助）",

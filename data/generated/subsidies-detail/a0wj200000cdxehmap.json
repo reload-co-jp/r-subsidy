@@ -38,6 +38,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
   "purposes": [
@@ -46,6 +47,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "open",
   "workflow": "小規模事業者持続化補助金＜創業型＞",
   "subsidizedRate": "２／３",

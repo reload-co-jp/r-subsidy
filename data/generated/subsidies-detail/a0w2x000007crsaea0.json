@@ -12,9 +12,11 @@
     "金融業",
     "保険業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "資金繰りを改善したい",
   "status": "open",
   "workflow": "東京都環境保全資金融資保証債務履行補助金",
   "subsidizedRate": "10分の9",

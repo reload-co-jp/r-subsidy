@@ -10,12 +10,14 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい",
   "status": "open",
   "workflow": "P24012_フロンティア領域の探索・重点支援のためのＧＸイノベーション・エコシステム構築事業推進に係る検討",
   "subsidizedRate": null,

@@ -12,11 +12,13 @@
     "運輸業",
     "郵便業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "省エネ"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "令和７年度東京港物流効率化等事業補助金",
   "subsidizedRate": null,

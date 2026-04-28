@@ -41,11 +41,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい",
   "status": "closed",
   "workflow": "感染症対策サポート助成事業",
   "subsidizedRate": "５分の４または３分の２",

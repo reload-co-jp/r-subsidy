@@ -40,11 +40,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / まちづくり・地域振興支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "環境配慮行動普及促進事業費補助金及び二酸化炭素排出抑制対策事業費等補助金",
   "subsidizedRate": "公募要領を参照",

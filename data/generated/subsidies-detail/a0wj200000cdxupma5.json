@@ -12,9 +12,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "東京都配偶者暴力被害者等セーフティネット強化支援交付金",
   "subsidizedRate": "10/10",

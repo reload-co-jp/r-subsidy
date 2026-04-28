@@ -9,12 +9,14 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "資金繰りを改善したい",
   "status": "closed",
   "workflow": "令和６年度補正「再生可能エネルギー導入拡大・分散型エネルギーリソース導入支援等事業費補助金（広域的な需給調整に資する大規模系統整備に係る調査等支援）」",
   "subsidizedRate": "1/3以内",

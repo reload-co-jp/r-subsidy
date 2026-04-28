@@ -39,11 +39,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": "資金繰りを改善したい",
   "status": "open",
   "workflow": "岡崎市中小企業事業資金保証料補助金",
   "subsidizedRate": "マル岡通常・マル岡経営改善は当該融資に係る保証料の45%、マル岡災害は保証料の90%、振・振小は保証料の35%",

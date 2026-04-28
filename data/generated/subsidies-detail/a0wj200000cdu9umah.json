@@ -32,6 +32,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -40,6 +41,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "令和７年度TOKYO戦略的イノベーション促進事業",
   "subsidizedRate": "助成対象と認められる経費の2/3以内（申請下限額：１,５００万円）",

@@ -25,6 +25,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -32,6 +33,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "安全・防災対策支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "upcoming",
   "workflow": "企業等における省エネ・再エネ活用設備導入補助金",
   "subsidizedRate": null,

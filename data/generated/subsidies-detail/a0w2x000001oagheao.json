@@ -10,12 +10,14 @@
     "運輸業",
     "郵便業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "創業"
   ],
+  "usePurpose": "人材育成を行いたい / 雇用・職場環境を改善したい",
   "status": "closed",
   "workflow": "船員計画雇用促進事業補助金（令和３年度第２回)",
   "subsidizedRate": null,

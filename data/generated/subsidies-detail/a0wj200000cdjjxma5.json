@@ -9,6 +9,7 @@
   "industries": [
     "漁業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "販路拡大",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和６年度「ALPS処理水関連の輸入規制強化を踏まえた水産業の特定国・地域依存を分散するための緊急支援事業（国内加工体制の強化対策事業）」",
   "subsidizedRate": "定額　間接補助先への補助内容の詳細は公募要領をご確認ください。",

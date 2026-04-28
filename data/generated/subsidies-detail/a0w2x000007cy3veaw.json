@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -48,6 +49,7 @@
     "研究開発",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / エコ・SDGs活動支援がほしい / 教育・子育て・少子化支援がほしい",
   "status": "closed",
   "workflow": "地域・企業共生型ビジネス導入・創業促進事業補助金（執行団体）",
   "subsidizedRate": "定額",

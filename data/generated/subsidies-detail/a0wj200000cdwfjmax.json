@@ -17,6 +17,7 @@
     "採石業",
     "砂利採取業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -25,6 +26,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "【山口県】企業立地優遇制度",
   "subsidizedRate": "固定資産投資額：補助率5～20％（最大50億円）、新規雇用従業者 ：  正社員（最大160万円）/正社員以外（最大30万円）",

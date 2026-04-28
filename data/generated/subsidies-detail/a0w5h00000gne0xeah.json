@@ -40,12 +40,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "創業"
   ],
+  "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "ALPS処理水関連の輸入規制強化を踏まえた水産業の特定国・地域依存を分散するための緊急支援事業（新規需要開拓等事業）",
   "subsidizedRate": "定額補助（１０／１０）",

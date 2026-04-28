@@ -41,12 +41,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "設備投資",
     "創業"
   ],
+  "usePurpose": "資金繰りを改善したい",
   "status": "open",
   "workflow": "岡崎市創業資金保証料補助金",
   "subsidizedRate": "当該融資に係る保証料の45％の額",

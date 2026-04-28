@@ -7,11 +7,13 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "民放ラジオ難聴解消支援事業",
   "subsidizedRate": "地理的・地形的難聴、外国波混信　２／３ 、都市型難聴　１／２",

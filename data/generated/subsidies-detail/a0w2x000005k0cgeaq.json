@@ -9,12 +9,14 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい / 人材育成を行いたい / 安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "潤滑油の品質確保事業等への支援事業費補助金",
   "subsidizedRate": "2/3以内",

@@ -14,6 +14,7 @@
     "金融業",
     "保険業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -22,6 +23,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和７年度ハイブリッド及び天然ガストラック・バス導入支援事業（ハイブリッド連節バス導入支援事業を除く）",
   "subsidizedRate": "補助対象となるハイブリッド及び天然ガス自動車と同クラスの標準的燃費基準自動車との価格の差額の２分の1",

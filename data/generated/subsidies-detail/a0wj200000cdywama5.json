@@ -11,6 +11,7 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "岡崎市消費者向け製品製造工場等建設奨励金",
   "subsidizedRate": "固定資産取得費用の10％～40％分",

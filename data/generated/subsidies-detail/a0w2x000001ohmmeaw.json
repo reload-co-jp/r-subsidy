@@ -7,11 +7,13 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "地上基幹放送等に関する耐災害性強化支援事業",
   "subsidizedRate": "地方公共団体等　１／２、地上基幹放送事業者等　１／３",

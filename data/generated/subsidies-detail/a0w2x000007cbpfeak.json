@@ -10,6 +10,7 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -19,6 +20,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 人材育成を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和4年度産学連携推進事業費補助金（地域の中核大学等のインキュベーション・産学融合拠点の整備）",
   "subsidizedRate": "公募要領を参照とする",

@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "令和７年度補正 GXサプライチェーン構築支援事業（事業Ⅱ：ペロブスカイト太陽電池）",
   "subsidizedRate": "公募要領をご参照ください",

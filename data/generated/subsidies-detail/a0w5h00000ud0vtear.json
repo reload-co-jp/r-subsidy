@@ -11,9 +11,11 @@
   "industries": [
     "公務（他に分類されるものを除く）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "令和5年度自転車安全利用促進事業に対する区市町村補助金",
   "subsidizedRate": "２分の１以内 ただし、千円未満の端数が生じた場合には、これを切り捨てるものとする。",

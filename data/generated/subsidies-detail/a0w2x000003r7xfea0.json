@@ -17,6 +17,7 @@
     "金融業",
     "保険業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -24,6 +25,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": "新たな事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和４年度二酸化炭素排出抑制対策事業費等補助金（環境配慮型先進トラック・バス導入加速事業）",
   "subsidizedRate": "ホームページ（http://ataj.or.jp/efv-f_truckbus/）をご参照ください。",

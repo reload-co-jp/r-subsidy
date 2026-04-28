@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "脱炭素成長型経済構造移行推進対策費補助金 （産官学連携による自律型資源循環システム強靱化促進事業）",
   "subsidizedRate": "公募要領をご確認ください",

@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "令和4年度 蓄電池等の分散型エネルギーリソースを活用した次世代技術構築実証事業費補助金（ダイナミックプライシングによる電動車の充電シフト実証事業）",
   "subsidizedRate": "1/2以内、定額のいずれか",

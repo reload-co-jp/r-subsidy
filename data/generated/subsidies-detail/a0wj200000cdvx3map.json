@@ -14,6 +14,7 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -22,6 +23,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和７年度　観光産業の活性化促進事業",
   "subsidizedRate": "2/3（4者未満の観光事業者グループは1/2）",

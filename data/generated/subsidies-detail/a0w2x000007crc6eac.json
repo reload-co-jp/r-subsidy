@@ -9,11 +9,13 @@
   "industries": [
     "サービス業（他に分類されないもの）"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "創業"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい / まちづくり・地域振興支援がほしい / スポーツ・文化支援がほしい",
   "status": "closed",
   "workflow": "令和５年度「地域経済政策推進事業費補助金（芸術家の中期滞在制作支援事業）」",
   "subsidizedRate": "定額",

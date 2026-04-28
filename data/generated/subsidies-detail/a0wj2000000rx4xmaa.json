@@ -12,12 +12,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "創業"
   ],
+  "usePurpose": "教育・子育て・少子化支援がほしい",
   "status": "closed",
   "workflow": "居宅介護支援事業所事務職員雇用支援",
   "subsidizedRate": "3/4",

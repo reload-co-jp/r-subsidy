@@ -22,6 +22,7 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -31,6 +32,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / 人材育成を行いたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "アフリカ向け日本企業ビジネス展開緊急促進事業",
   "subsidizedRate": "10/10",

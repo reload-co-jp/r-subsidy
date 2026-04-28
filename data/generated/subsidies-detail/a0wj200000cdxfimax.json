@@ -11,12 +11,14 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "人材育成",
     "販路拡大"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "四日市市海外人材確保支援事業補助金",
   "subsidizedRate": "インターンシップ実習生の交通費及び宿泊費、海外現地人材の渡航費、および日本国内での研修に参加する場合の参加費については2分の1以内。インターンシップ実習生の指導のために配置した人員の人件費は定額（1日あたり5千円）です。",

@@ -10,6 +10,7 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "令和7年度補正予算 コンテンツ産業成長投資支援事業費補助金（海外展開支援・開発プラットフォーム構築支援）",
   "subsidizedRate": "定額補助（１０／１０）",

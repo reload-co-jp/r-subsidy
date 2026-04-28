@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和４年度補正「地域新成長産業創出促進事業費補助金（地域DX促進環境整備事業（業種等特化型DX促進事業））地域デジタルイノベーション実証型」",
   "subsidizedRate": "中小企業者：補助対象経費の2/3以内、非中小企業者：補助対象経費の1/2以内",

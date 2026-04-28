@@ -17,12 +17,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / 人材育成を行いたい / 安全・防災対策支援がほしい / 教育・子育て・少子化支援がほしい / スポーツ・文化支援がほしい",
   "status": "closed",
   "workflow": "東京都在住外国人支援事業助成",
   "subsidizedRate": "助成対象事業費の２分の１以内",

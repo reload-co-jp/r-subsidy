@@ -62,6 +62,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
@@ -69,6 +70,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "人材育成を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "働き方改革推進支援助成金",
   "subsidizedRate": "3/4（一定の条件を満たした場合は4/5）",

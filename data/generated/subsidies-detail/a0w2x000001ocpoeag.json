@@ -7,6 +7,7 @@
   "region": "national",
   "prefectures": [],
   "industries": [],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -15,6 +16,7 @@
     "研究開発",
     "省エネ"
   ],
+  "usePurpose": null,
   "status": "closed",
   "workflow": "産油国石油精製技術等対策事業費補助金",
   "subsidizedRate": "定額(※事業内容に応じて事業者負担あり)",

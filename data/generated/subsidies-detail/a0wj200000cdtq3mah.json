@@ -18,12 +18,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "人材育成"
   ],
+  "usePurpose": "新たな事業を行いたい / 資金繰りを改善したい / 雇用・職場環境を改善したい / 安全・防災対策支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "建築物の構造木質化の拡大促進事業",
   "subsidizedRate": "交付要綱または募集要領をご確認ください。",

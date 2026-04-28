@@ -10,12 +10,14 @@
     "運輸業",
     "郵便業"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "被害者保護増進等事業費補助金",
   "subsidizedRate": "補助対象検査の実施に要する経費の1/2です。",

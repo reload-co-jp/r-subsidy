@@ -9,11 +9,13 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "石油製品販売業構造改善対策事業費補助金（地域における新たな燃料供給体制構築支援事業のうち先進的技術開発等支援事業に係るもの）",
   "subsidizedRate": "定額（10/10）",

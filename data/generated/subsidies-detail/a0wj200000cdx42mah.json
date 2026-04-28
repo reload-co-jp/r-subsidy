@@ -9,6 +9,7 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "脱炭素成長型経済構造移行推進対策費補助金（ゼロエミッション船等の建造促進事業）",
   "subsidizedRate": "大企業： 1/3以内、 中小企業等： 1/2以内",

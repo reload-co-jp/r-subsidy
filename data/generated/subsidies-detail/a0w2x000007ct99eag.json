@@ -9,11 +9,13 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "石油製品販売業構造改善対策事業費補助金（ＳＳの事業再構築・経営力強化事業）",
   "subsidizedRate": "定額（10/10）",

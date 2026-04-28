@@ -13,9 +13,11 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "まちづくり・地域振興支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "サステナブルトラベラーの獲得に向けた観光促進補助金事業",
   "subsidizedRate": "3分の1以内",

@@ -16,12 +16,14 @@
     "金融業",
     "保険業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "重要経済安保情報保護活用民間企業等情報保全施設導入支援事業（第２回公募）",
   "subsidizedRate": "補助金上限額と補助対象経費（独法：定額、中小企業：2/3、大企業：1/2）のうち小さい額",

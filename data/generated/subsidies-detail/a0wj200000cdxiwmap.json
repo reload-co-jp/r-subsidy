@@ -23,12 +23,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "901名以上",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "研究開発"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "令和７年度補正グローバルサウス未来志向型共創等事業（ウクライナ復興支援に向けた欧州企業連携・中東欧諸国等連携強化）",
   "subsidizedRate": "定額",

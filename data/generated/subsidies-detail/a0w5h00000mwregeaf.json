@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "雇用・職場環境を改善したい / 安全・防災対策支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "スマート保安導入支援事業費補助金（ 計画策定支援",
   "subsidizedRate": "3分の2（中小企業） 補助上限　2,000万円/2分の1（中小企業以外）補助上限　3,000万円",

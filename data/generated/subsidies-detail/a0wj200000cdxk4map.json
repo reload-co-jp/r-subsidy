@@ -12,6 +12,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -20,6 +21,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 事業を引き継ぎたい",
   "status": "open",
   "workflow": "いわき市診療所開設・承継支援補助金",
   "subsidizedRate": "補助対象経費の２／３以内。上限額は、分娩できる施設を有する産婦人科・産科又は小児科の場合、3,000万円。左記以外の診療科の場合、2,000万円。",

@@ -12,11 +12,13 @@
     "学術研究",
     "専門・技術サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "創業"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "令和６年度SDGs債の発行に係る補助金",
   "subsidizedRate": "補助対象と認められる経費の合計額の８／１０（ただし、補助事業の対象となるソーシャルボンドが個人向けに発行される場合は、１０／１０） ※千円未満の端数は切り捨て",

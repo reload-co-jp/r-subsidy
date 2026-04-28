@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "創業",
     "省エネ"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "地域共創・セクター横断型カーボンニュートラル技術開発・実証事業",
   "subsidizedRate": "定額",

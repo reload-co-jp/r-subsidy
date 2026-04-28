@@ -11,11 +11,13 @@
   "industries": [
     "分類不能の産業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "東京都広域団体認定訓練助成金",
   "subsidizedRate": null,

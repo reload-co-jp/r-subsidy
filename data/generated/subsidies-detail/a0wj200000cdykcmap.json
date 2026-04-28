@@ -32,12 +32,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "小牧市中心市街地空き店舗活性化支援補助金",
   "subsidizedRate": null,

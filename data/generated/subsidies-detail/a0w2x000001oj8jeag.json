@@ -39,11 +39,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "展示会等のイベント産業高度化推進事業費補助金",
   "subsidizedRate": "交付要綱参照",

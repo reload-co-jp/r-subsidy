@@ -10,6 +10,7 @@
     "農業",
     "林業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -17,6 +18,7 @@
     "人材育成",
     "研究開発"
   ],
+  "usePurpose": "研究開発・実証事業を行いたい / 人材育成を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "農業生産におけるプラスチック排出抑制対策事業",
   "subsidizedRate": "公募要領をご確認ください。",

@@ -10,12 +10,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和４年度自動車事故対策費補助金（短期入院協力事業）",
   "subsidizedRate": "定額、3/4、1/2、1/4",

@@ -10,12 +10,14 @@
     "運輸業",
     "郵便業"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "設備投資",
     "人材育成"
   ],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "被害者保護増進等事業費補助金",
   "subsidizedRate": "1/2（1/3）※（） 内は貸切バス事業者のうち中小企業以外の場合となります。",

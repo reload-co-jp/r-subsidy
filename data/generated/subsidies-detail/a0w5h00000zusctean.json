@@ -9,6 +9,7 @@
   "industries": [
     "電気・ガス・熱供給・水道業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -16,6 +17,7 @@
     "創業",
     "省エネ"
   ],
+  "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "導入支援事業費補助金",
   "subsidizedRate": "自治体連携型の場合は2/3以内。自治体連携型以外の場合は1/2以内。ただし、蓄電池の設置に係る経費については1/2又は1/ 3以内。※詳細は公募要領をご確認ください。",

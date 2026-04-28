@@ -41,6 +41,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -49,6 +50,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "堺市中小企業デジタル化促進補助金",
   "subsidizedRate": "(1)販路開拓に繋がる補助事業：3/4以内、(2)業務プロセスの効率化や生産性向上に繋がる補助事業 ：1/2以内",

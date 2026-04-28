@@ -42,9 +42,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [],
+  "usePurpose": "資金繰りを改善したい",
   "status": "closed",
   "workflow": "宮城県中小企業等特別高圧電気料金支援事業補助金",
   "subsidizedRate": "使用量に応じた定額単価による支援",

@@ -1,0 +1,31 @@
+{
+  "id": "a0WJ200000CDY4SMAX",
+  "slug": "a0wj200000cdy4smax",
+  "title": "「競争的な水素サプライチェーン構築に向けた技術開発事業」の公募",
+  "overview": "",
+  "detail": "<p><span style=\"font-size: 16px;\">■更新情報</span></p><p><span style=\"font-size: 16px;\">2026年4月28日：【期間延長】「研究開発項目Ⅲ（委託／補助）」および「研究開発項目Ⅳ（委託）」について、提案書類の提出期限を2026年5月8日正午まで延長しました。</span></p><p><span style=\"font-size: 16px;\">なお、「研究開発項目Ⅰ（委託／補助）」は受付を終了しております。画面上に「申請する」ボタンが表示されますが、申請いただいても受付できず棄却となりますので、ご注意ください。</span></p><p><br></p><p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、「競争的な水素サプライチェーン構築に向けた技術開発事業」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/SE2_100001_00130.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/SE2_100001_00130.html</a></p>",
+  "region": "national",
+  "prefectures": [],
+  "industries": [
+    "学術研究",
+    "専門・技術サービス業"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "研究開発",
+    "省エネ"
+  ],
+  "usePurpose": "研究開発・実証事業を行いたい",
+  "status": "open",
+  "workflow": "P23004_競争的な水素サプライチェーン構築に向けた技術開発事業",
+  "subsidizedRate": null,
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-03-30",
+  "endDate": "2026-05-08",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY4SMAX",
+  "updatedAt": "2026-04-28T07:31:26.896Z"
+}

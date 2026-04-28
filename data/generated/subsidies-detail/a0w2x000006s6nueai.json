@@ -39,11 +39,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "ものづくり補助金〔ビジネスモデル構築型〕",
   "subsidizedRate": "大企業　1/2，それ以外2/3",

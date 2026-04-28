@@ -39,6 +39,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "③令和６年度（補正予算）プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業（第１次公募）",
   "subsidizedRate": "中小企業基本法で定める中小企業1／2、大企業等1／3、（詳細は公募要領に記載。）",

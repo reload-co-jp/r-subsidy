@@ -11,11 +11,13 @@
     "不動産業",
     "物品賃貸業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "人材育成"
   ],
+  "usePurpose": "教育・子育て・少子化支援がほしい",
   "status": "open",
   "workflow": "子育て支援型共同住宅推進事業",
   "subsidizedRate": "補助上限額（安全安心確保：120万円／戸、交流施設：600万円／棟）と、補助対象経費の1/3のうち小さい額",

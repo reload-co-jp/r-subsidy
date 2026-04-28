@@ -42,12 +42,14 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "事業承継",
     "創業"
   ],
+  "usePurpose": "事業を引き継ぎたい",
   "status": "closed",
   "workflow": "事業承継支援助成金",
   "subsidizedRate": "助成対象と認められる経費の2/3以内／小規模企業者がAタイプ、Bタイプ、Dタイプのうち「企業価値や事業価値の算定」に取り組む経費は10/10以内",

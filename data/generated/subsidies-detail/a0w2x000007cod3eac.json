@@ -15,12 +15,14 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい / 安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "観光資源の保全等に係る「クラウドファンディングを活用した資金調達支援」補助金",
   "subsidizedRate": "2/3",

@@ -12,11 +12,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資"
   ],
+  "usePurpose": "イベント・事業運営支援がほしい",
   "status": "open",
   "workflow": "救命救急センター施設整備費等補助事業（設備整備費）",
   "subsidizedRate": "交付要綱等を参照とする",

@@ -13,6 +13,7 @@
     "生活関連サービス業",
     "娯楽業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -21,6 +22,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / 設備整備・IT導入をしたい / スポーツ・文化支援がほしい",
   "status": "closed",
   "workflow": "令和7年度総務省補助事業「先進的設備等を活用した放送コンテンツ製作促進事業」",
   "subsidizedRate": "1/2",

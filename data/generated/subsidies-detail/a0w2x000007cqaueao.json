@@ -41,11 +41,13 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
   "purposes": [
     "販路拡大"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "原油価格高騰等に伴う緊急販路開拓等支援事業",
   "subsidizedRate": "助成対象と認められる経費の４／５以内（千円未満切捨て）",

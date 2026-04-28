@@ -14,12 +14,14 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "災害（自然災害、感染症等）支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "伝統的工芸品産業支援補助金",
   "subsidizedRate": "3/4以内",

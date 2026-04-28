@@ -12,12 +12,14 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "デジタル化"
   ],
+  "usePurpose": "設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "経営力強化に向けた創意工夫チャレンジ促進事業(飲食事業者向け経営基盤強化支援（受動喫煙防止対策支援コース）)",
   "subsidizedRate": null,

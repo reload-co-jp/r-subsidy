@@ -10,12 +10,14 @@
     "卸売業",
     "小売業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "設備投資",
     "省エネ"
   ],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "災害時給油所地下タンク製品備蓄促進支援事業",
   "subsidizedRate": "上記補助金上限額は燃料備蓄保管管理費用（定額）のもの。　他に備蓄燃料購入費（定額）がある。",

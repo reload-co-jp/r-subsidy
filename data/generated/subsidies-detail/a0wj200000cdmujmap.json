@@ -14,6 +14,7 @@
     "不動産業",
     "物品賃貸業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -21,6 +22,7 @@
     "省エネ",
     "デジタル化"
   ],
+  "usePurpose": "安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "二酸化炭素排出抑制対策事業費等補助金",
   "subsidizedRate": "LRT：２分の１以下",

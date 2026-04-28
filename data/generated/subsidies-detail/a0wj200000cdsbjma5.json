@@ -35,6 +35,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -42,6 +43,7 @@
     "人材育成",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "中堅・中小企業の賃上げに向けた省力化等の大規模成長投資補助金",
   "subsidizedRate": "1/3　以下",

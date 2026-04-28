@@ -40,6 +40,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -47,6 +48,7 @@
     "研究開発",
     "創業"
   ],
+  "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "[一般社団法人発明推進協会]令和5年度_日本出願を基礎としたスタートアップ設立に向けた国際的な権利化支援事業",
   "subsidizedRate": "1/2",

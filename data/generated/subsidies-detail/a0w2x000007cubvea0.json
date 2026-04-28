@@ -37,9 +37,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "久留米市中小企業止水板等設置事業費補助金",
   "subsidizedRate": "1/2",

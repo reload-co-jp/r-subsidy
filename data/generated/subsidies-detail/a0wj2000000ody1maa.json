@@ -9,11 +9,13 @@
   "industries": [
     "情報通信業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "販路拡大"
   ],
+  "usePurpose": "販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "放送コンテンツによる地域情報発信力強化事業",
   "subsidizedRate": "1/2以下",

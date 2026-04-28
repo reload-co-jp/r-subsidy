@@ -12,9 +12,11 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [],
+  "usePurpose": "資金繰りを改善したい",
   "status": "closed",
   "workflow": "薬局物価高騰緊急対策事業",
   "subsidizedRate": null,

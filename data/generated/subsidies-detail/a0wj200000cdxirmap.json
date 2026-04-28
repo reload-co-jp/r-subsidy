@@ -17,6 +17,7 @@
     "宿泊業",
     "飲食サービス業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -25,6 +26,7 @@
     "研究開発",
     "デジタル化"
   ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 研究開発・実証事業を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和7年度補正 重要市場の商流維持・拡大緊急対策事業（重要市場の商流の維持・拡大への支援）",
   "subsidizedRate": "定額、1/2以内",

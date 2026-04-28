@@ -45,6 +45,7 @@
     "医療",
     "福祉"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
@@ -54,6 +55,7 @@
     "創業",
     "デジタル化"
   ],
+  "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",
   "workflow": "サイバーセキュリティ対策促進助成金",
   "subsidizedRate": "助成対象経費の1/2以内（詳細については募集要項を参照）",

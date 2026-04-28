@@ -11,11 +11,13 @@
   "industries": [
     "製造業"
   ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "purposes": [
     "研究開発"
   ],
+  "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "【神戸市】水素関連製品の研究・開発・実証補助金",
   "subsidizedRate": "最大1/2（補助上限金額は申請枠ごとに異なります。詳細は公募要領をご確認ください）",
