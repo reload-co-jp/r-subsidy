@@ -81,6 +81,7 @@ async function main() {
     upperLimit: s.upperLimit,
     source: s.source,
     startDate: s.startDate,
+    endDate: s.endDate,
     updatedAt: s.updatedAt,
   }))
 

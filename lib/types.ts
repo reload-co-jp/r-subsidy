@@ -186,6 +186,7 @@ export type SubsidyIndexItem = {
   upperLimit: string | null
   source: Source
   startDate: string | null
+  endDate: string | null
   updatedAt: string
 }
 

@@ -5,7 +5,7 @@ import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { PREFECTURES, isPrefecture, matchesPrefecture } from "../../lib/prefectures"
 import type { SubsidyIndexItem } from "../../lib/types"
-import { formatAmount, parseAmount } from "../../lib/format"
+import { formatAmount, formatDate, parseAmount } from "../../lib/format"
 import PurposeTagLink from "../../components/elements/purpose-tag-link"
 
 const SITE_NAME = "RSubsidy 補助金サーチ"
@@ -40,8 +40,19 @@ function buildSearchIndex(subsidy: SubsidyIndexItem) {
       ...subsidy.purposes,
       ...subsidy.industries,
       subsidy.upperLimit ?? "",
+      subsidy.startDate ?? "",
+      subsidy.endDate ?? "",
     ].join(" ")
   )
+}
+
+function formatPeriod(startDate: string | null, endDate: string | null) {
+  const start = formatDate(startDate)
+  const end = formatDate(endDate)
+  if (start && end) return `${start}〜${end}`
+  if (start) return `${start}〜`
+  if (end) return `〜${end}`
+  return null
 }
 
 export default function SubsidiesListClient({
@@ -409,6 +420,7 @@ export default function SubsidiesListClient({
         <div style={{ display: "grid", gap: ".75rem" }}>
           {filtered.map((s) => {
             const st = statusLabel[s.status] ?? statusLabel.unknown
+            const period = formatPeriod(s.startDate, s.endDate)
             return (
               <Link
                 key={s.id}
@@ -513,6 +525,17 @@ export default function SubsidiesListClient({
                       </span>
                     )}
                   </div>
+                  {period && (
+                    <p
+                      style={{
+                        color: "var(--text-muted)",
+                        fontSize: ".8rem",
+                        marginTop: ".55rem",
+                      }}
+                    >
+                      受付期間 {period}
+                    </p>
+                  )}
                 </div>
               </Link>
             )
