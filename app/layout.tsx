@@ -166,7 +166,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         >
           <p>&copy; RSubsidy 補助金サーチ — JグランツAPI連携</p>
           <p style={{ marginTop: ".25rem" }}>
-            Powered by{" "}
+            <Link href="/about" style={{ color: "var(--text-muted)" }}>
+              このサイトについて
+            </Link>
+            {" / "}
+            運営会社:{" "}
             <a
               href="https://reload.co.jp"
               target="_blank"
