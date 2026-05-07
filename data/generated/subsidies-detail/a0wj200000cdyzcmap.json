@@ -1,0 +1,39 @@
+{
+  "id": "a0WJ200000CDYZcMAP",
+  "slug": "a0wj200000cdyzcmap",
+  "title": "令和８年度「原子力産業基盤強化事業補助金」",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要（サマリ）:</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">この補助金は、原子力関連機器・サービスの安全性や信頼性向上に資する取組に要する経費の一部を補助することにより、原子力の安全性・信頼性を支えている原子力産業基盤の維持・強化を図ることを目的とします。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要:</strong></p><p><span style=\"color: black; font-size: 14px;\">エネルギー基本計画（令和７年２月閣議決定）において、「我が国の原子力産業・人材基盤は、高い国産化率と技術を誇り、国内経済や雇用に対する貢献度も高く、既設炉の再稼働や革新軽水炉・小型軽水炉等の次世代革新炉の開発・設置に向けても不可欠である」としています。</span></p><p><br></p><p><span style=\"color: black; font-size: 14px;\">その上で、本事業では、世界トップクラスの技術力や経験を有している国内サプライヤによる原子力関連機器・サービスの安全性や信頼性向上に資する技術開発、事業撤退を余儀なくされる事業の継承、製造プロセスにおけるデジタル化の促進等の支援を</span><span style=\"font-size: 14px;\">実施します。</span></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■備考:</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">応募書類はjGrantsでご提出ください。</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">やむを得ない事情によりjGrantsでの提出が困難な場合は、事務局にご相談ください。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">※　上記に記載のない内容もございますので、必ず「募集要領」をご確認ください。</span></p><p><br></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問い合わせ先:</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">〒</span><span style=\"font-size: 14px;\">１０１－００４７</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> 東京都千代田区</span><span style=\"font-size: 14px;\">内神田3-6-1　さんしん・ヒロセビル6F</span></p><p><span style=\"font-size: 14px; font-family: sans-serif; color: rgb(0, 0, 0);\">特定非営利活動法人 地球と未来の環境基金（EFF）</span></p><p><span style=\"font-size: 14px; font-family: sans-serif; color: rgb(0, 0, 0);\">担当：稲垣、金坂</span></p>",
+  "region": "national",
+  "prefectures": [],
+  "industries": [
+    "建設業",
+    "製造業",
+    "情報通信業",
+    "サービス業（他に分類されないもの）",
+    "学術研究",
+    "専門・技術サービス業"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "販路拡大",
+    "研究開発",
+    "省エネ",
+    "デジタル化"
+  ],
+  "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 事業を引き継ぎたい / 研究開発・実証事業を行いたい / 人材育成を行いたい / 資金繰りを改善したい / 雇用・職場環境を改善したい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい / 教育・子育て・少子化支援がほしい / スポーツ・文化支援がほしい",
+  "status": "open",
+  "workflow": "原子力産業基盤強化事業補助金",
+  "subsidizedRate": "１／２",
+  "upperLimit": "200,000,000円",
+  "lowerLimit": null,
+  "startDate": "2026-05-07",
+  "endDate": "2026-05-27",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYZcMAP",
+  "updatedAt": "2026-05-07T07:18:24.366Z"
+}
