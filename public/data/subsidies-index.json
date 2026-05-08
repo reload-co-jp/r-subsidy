@@ -111919,7 +111919,7 @@
     "overview": "廃プラスチックをリサイクル・リユースするための、省CO2型の資源循環高度化設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -112242,7 +112242,7 @@
     "overview": "従来の化石資源由来プラスチックを代替するバイオプラスチック等の再生可能資源由来素材等の製造に係る設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -112296,7 +112296,7 @@
     "overview": "廃太陽光パネルのリサイクル設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -112349,7 +112349,7 @@
     "overview": "廃リチウム蓄電池のリサイクル設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -112402,7 +112402,7 @@
     "overview": "都市鉱山のリサイクルの促進のため、素材の分離・選別性を向上させる高効率な破砕や、X線等を用いた含有元素等に応じた合金選別、複数センサーを組み合わせた高効率選別など、先進的な技術を用いて従来の破砕・選別よりも回収される素材の量又は質を向上させる破砕・選別を行う設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -131430,7 +131430,7 @@
     "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -131755,7 +131755,7 @@
     "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -131784,7 +131784,7 @@
     "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -134641,7 +134641,7 @@
     "prefectures": [
       "静岡県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -136082,7 +136082,7 @@
     "prefectures": [
       "静岡県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -136137,7 +136137,7 @@
     "prefectures": [
       "静岡県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -136192,7 +136192,7 @@
     "prefectures": [
       "静岡県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -136301,7 +136301,7 @@
     "prefectures": [
       "沖縄県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -137060,7 +137060,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "学術研究",
       "専門・技術サービス業"
@@ -137487,6 +137487,32 @@
     "startDate": "2026-04-21",
     "endDate": "2026-04-30",
     "updatedAt": "2026-04-19T18:29:28.426Z"
+  },
+  {
+    "id": "a0WJ200000CDY6tMAH",
+    "slug": "a0wj200000cdy6tmah",
+    "title": "令和8年度医療機関におけるＡＩ技術活用促進事業（単年度型）",
+    "overview": "",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "創業",
+      "デジタル化"
+    ],
+    "upperLimit": "10,000,000円",
+    "source": "jgrants",
+    "startDate": "2026-04-14",
+    "endDate": "2026-09-30",
+    "updatedAt": "2026-05-08T05:11:08.787Z"
   },
   {
     "id": "a0WJ200000CDY6uMAH",
@@ -138419,7 +138445,7 @@
       "奈良県",
       "和歌山県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -138560,7 +138586,7 @@
     "overview": "新たなフードテックビジネスの創出という目的を達成するために、フードテック等を活用した新たな商品・サービス等の取組を支援します。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -139409,7 +139435,7 @@
     "prefectures": [
       "山口県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -139500,7 +139526,7 @@
     "prefectures": [
       "山口県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -140296,7 +140322,7 @@
     "overview": "地域地球温暖化防止活動推進センター向け補助金",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "分類不能の産業"
     ],
@@ -140476,7 +140502,7 @@
       "愛知県",
       "三重県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -140539,7 +140565,7 @@
       "宮崎県",
       "鹿児島県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -140832,7 +140858,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -141145,7 +141171,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -141254,7 +141280,7 @@
       "愛媛県",
       "高知県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -141706,7 +141732,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -142458,7 +142484,7 @@
       "長野県",
       "静岡県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -142520,7 +142546,7 @@
       "山形県",
       "福島県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "公務（他に分類されるものを除く）",
       "金融業",
@@ -142549,7 +142575,7 @@
       "広島県",
       "山口県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -142624,7 +142650,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "不動産業",
       "物品賃貸業"
@@ -143898,6 +143924,63 @@
     "updatedAt": "2026-04-28T07:31:27.794Z"
   },
   {
+    "id": "a0WJ200000CDYfOMAX",
+    "slug": "a0wj200000cdyfomax",
+    "title": "【愛知県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "overview": "【あいち産業振興機構】外国出願補助金",
+    "region": "prefecture",
+    "prefectures": [
+      "愛知県"
+    ],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "3,000,000円",
+    "source": "jgrants",
+    "startDate": "2026-05-08",
+    "endDate": "2026-06-10",
+    "updatedAt": "2026-05-08T05:11:09.398Z"
+  },
+  {
     "id": "a0WJ200000CDYfwMAH",
     "slug": "a0wj200000cdyfwmah",
     "title": "古賀市温室効果ガス排出量可視化システム導入費補助金",
@@ -145155,5 +145238,166 @@
     "startDate": "2026-05-07",
     "endDate": "2026-06-19",
     "updatedAt": "2026-05-07T07:18:24.596Z"
+  },
+  {
+    "id": "a0WJ200000CDYnuMAH",
+    "slug": "a0wj200000cdynumah",
+    "title": "多摩市ふるさと納税を活用した資金調達支援事業補助金",
+    "overview": "",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "研究開発",
+      "創業",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "source": "jgrants",
+    "startDate": "2026-04-01",
+    "endDate": "2027-03-31",
+    "updatedAt": "2026-05-08T05:11:09.492Z"
+  },
+  {
+    "id": "a0WJ200000CDYoEMAX",
+    "slug": "a0wj200000cdyoemax",
+    "title": "【埼玉県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "overview": "【埼玉県】令和８年度海外出願支援事業",
+    "region": "prefecture",
+    "prefectures": [
+      "埼玉県"
+    ],
+    "status": "upcoming",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "3,000,000円",
+    "source": "jgrants",
+    "startDate": "2026-05-11",
+    "endDate": "2026-06-19",
+    "updatedAt": "2026-05-08T05:11:09.497Z"
+  },
+  {
+    "id": "a0WJ200000CDYoUMAX",
+    "slug": "a0wj200000cdyoumax",
+    "title": "令和８年度「地域の中堅・中核企業支援事業（地域の人事部支援事業）」補助事業者公募",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": "13,000,000円",
+    "source": "jgrants",
+    "startDate": "2026-04-23",
+    "endDate": "2026-05-29",
+    "updatedAt": "2026-05-08T05:11:09.497Z"
   }
 ]
