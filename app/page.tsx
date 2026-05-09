@@ -43,9 +43,27 @@ function getLatestSubsidies(): NormalizedSubsidy[] {
     return subsidies
       .filter((subsidy) => subsidy.status !== "closed")
       .sort((a, b) => getSortTime(b) - getSortTime(a))
-      .slice(0, 5)
+      .slice(0, 20)
   } catch {
     return []
+  }
+}
+
+function getLawyerComments(): Record<string, string> {
+  try {
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "source",
+      "lawyer-comments.json"
+    )
+    const raw = JSON.parse(fs.readFileSync(file, "utf-8"))
+    // _comment キーを除外
+    const { _comment: _c, ...comments } = raw
+    void _c
+    return comments
+  } catch {
+    return {}
   }
 }
 
@@ -99,6 +117,7 @@ const Page: FC = () => {
   const history = getUpdateHistory()
   const stats = getSubsidyStats()
   const latestSubsidies = getLatestSubsidies()
+  const lawyerComments = getLawyerComments()
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -321,7 +340,7 @@ const Page: FC = () => {
             }}
           >
             <h2 style={{ color: "var(--text-strong)", fontSize: "1.1rem" }}>
-              最新の補助金
+              最新の補助金（20件）
             </h2>
             <Link
               href="/subsidies"
@@ -425,11 +444,45 @@ const Page: FC = () => {
                         display: "flex",
                         gap: ".4rem",
                         flexWrap: "wrap",
+                        marginBottom: lawyerComments[subsidy.slug] ? ".5rem" : undefined,
                       }}
                     >
                       {subsidy.purposes.slice(0, 3).map((purpose) => (
                         <PurposeTagLink key={purpose} purpose={purpose} />
                       ))}
+                    </div>
+                  )}
+                  {lawyerComments[subsidy.slug] && (
+                    <div
+                      style={{
+                        backgroundColor: "#f0fdf8",
+                        border: "1px solid #a7f3d0",
+                        borderRadius: "6px",
+                        padding: ".6rem .8rem",
+                        marginTop: ".5rem",
+                      }}
+                    >
+                      <span
+                        style={{
+                          color: "#059669",
+                          fontSize: ".72rem",
+                          fontWeight: "bold",
+                          display: "block",
+                          marginBottom: ".25rem",
+                        }}
+                      >
+                        行政書士コメント
+                      </span>
+                      <p
+                        style={{
+                          color: "#064e3b",
+                          fontSize: ".78rem",
+                          lineHeight: 1.6,
+                          margin: 0,
+                        }}
+                      >
+                        {lawyerComments[subsidy.slug]}
+                      </p>
                     </div>
                   )}
                 </article>

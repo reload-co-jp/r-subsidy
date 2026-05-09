@@ -40,6 +40,21 @@ function getSubsidy(slug: string): NormalizedSubsidy | null {
   }
 }
 
+function getLawyerComment(slug: string): string | null {
+  try {
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "source",
+      "lawyer-comments.json"
+    )
+    const raw = JSON.parse(fs.readFileSync(file, "utf-8"))
+    return raw[slug] ?? null
+  } catch {
+    return null
+  }
+}
+
 function buildDescription(subsidy: NormalizedSubsidy) {
   const parts = [
     subsidy.overview,
@@ -127,6 +142,7 @@ type Props = { params: Promise<{ slug: string }> }
 const Page: FC<Props> = async ({ params }) => {
   const { slug } = await params
   const subsidy = getSubsidy(slug)
+  const lawyerComment = getLawyerComment(slug)
 
   if (!subsidy) {
     return (
@@ -335,6 +351,39 @@ const Page: FC<Props> = async ({ params }) => {
           </p>
         )}
       </div>
+
+      {lawyerComment && (
+        <div
+          style={{
+            backgroundColor: "#f0fdf8",
+            border: "1px solid #a7f3d0",
+            borderRadius: "10px",
+            padding: "1.25rem",
+            marginBottom: "1.5rem",
+          }}
+        >
+          <h2
+            style={{
+              color: "#059669",
+              fontSize: ".85rem",
+              fontWeight: "bold",
+              marginBottom: ".75rem",
+            }}
+          >
+            行政書士コメント
+          </h2>
+          <p
+            style={{
+              color: "#064e3b",
+              fontSize: ".9rem",
+              lineHeight: 1.7,
+              margin: 0,
+            }}
+          >
+            {lawyerComment}
+          </p>
+        </div>
+      )}
 
       <div
         style={{
