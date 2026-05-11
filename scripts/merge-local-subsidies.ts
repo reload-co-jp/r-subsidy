@@ -15,7 +15,8 @@ function readPreviousMergedAt(nextPayload: unknown) {
     if (!fs.existsSync(MERGED_FILE)) return null
 
     const previous = JSON.parse(fs.readFileSync(MERGED_FILE, 'utf-8'))
-    const { mergedAt: _previousMergedAt, ...previousComparable } = previous
+    const previousComparable = { ...previous }
+    delete previousComparable.mergedAt
 
     if (stringifyJson(previousComparable) === stringifyJson(nextPayload)) {
       return typeof previous.mergedAt === 'string' ? previous.mergedAt : null
