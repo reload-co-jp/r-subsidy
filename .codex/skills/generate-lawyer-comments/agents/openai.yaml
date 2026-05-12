@@ -1,0 +1,3 @@
+display_name: Generate Lawyer Comments
+short_description: 最新補助金向け行政書士コメントを追記
+default_prompt: Use $generate-lawyer-comments to add missing administrative-scrivener comments for recent open subsidies.
