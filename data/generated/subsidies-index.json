@@ -133093,7 +133093,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -133146,7 +133146,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -133252,7 +133252,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -133305,7 +133305,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -133358,7 +133358,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -133411,7 +133411,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -135705,7 +135705,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "農業",
       "林業",
@@ -138366,7 +138366,7 @@
     "overview": "【応募申請】令和７年度補正 GXサプライチェーン構築支援事業（事業Ⅰ：浮体式等洋上浮力発電設備）",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -138419,7 +138419,7 @@
     "overview": "【事前着手届出】令和７年度補正 GXサプライチェーン構築支援事業（事業Ⅰ：浮体式等洋上浮力発電設備）",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -139098,7 +139098,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "農業",
       "林業",
@@ -139833,7 +139833,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "運輸業",
       "郵便業",
@@ -139859,7 +139859,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -143965,6 +143965,60 @@
     "updatedAt": "2026-04-28T07:31:27.793Z"
   },
   {
+    "id": "a0WJ200000CDYeVMAX",
+    "slug": "a0wj200000cdyevmax",
+    "title": "【令和８年度当初】国立公園等利用拠点滞在環境等上質化事業（国立公園等資源整備事業費補助金）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "source": "jgrants",
+    "startDate": "2026-05-12",
+    "endDate": "2026-06-02",
+    "updatedAt": "2026-05-12T07:07:16.114Z"
+  },
+  {
     "id": "a0WJ200000CDYf9MAH",
     "slug": "a0wj200000cdyf9mah",
     "title": "【福岡県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
@@ -144372,6 +144426,60 @@
     "updatedAt": "2026-05-09T05:39:51.702Z"
   },
   {
+    "id": "a0WJ200000CDYi8MAH",
+    "slug": "a0wj200000cdyi8mah",
+    "title": "【令和８年度当初】国立公園等多言語解説等整備事業（国立公園等資源整備事業費補助金）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "source": "jgrants",
+    "startDate": "2026-05-12",
+    "endDate": "2026-06-02",
+    "updatedAt": "2026-05-12T07:07:16.138Z"
+  },
+  {
     "id": "a0WJ200000CDYiDMAX",
     "slug": "a0wj200000cdyidmax",
     "title": "令和8年度「GX戦略地域制度におけるコンビナート等再生に向けた 事業化促進事業」に係る間接補助事業者の公募",
@@ -144751,7 +144859,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -144804,7 +144912,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -144857,7 +144965,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -145917,6 +146025,59 @@
     "startDate": "2026-04-23",
     "endDate": "2026-05-29",
     "updatedAt": "2026-05-08T05:11:09.497Z"
+  },
+  {
+    "id": "a0WJ200000CDYoeMAH",
+    "slug": "a0wj200000cdyoemah",
+    "title": "令和８年度　ＺＥＢ実証事業",
+    "overview": "建築物のネット・ゼロ・エネルギー化を目指すため、ＺＥＢ設計ノウハウが確立されていない民間の大規模建築物におけるＺＥＢ化（既存テナントビルのＺＥＢ化を見据えた部分的な改修を含む）及びＷＥＢＰＲＯ未評価技術の導入の実証を支援します。",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "700,000,000円",
+    "source": "jgrants",
+    "startDate": "2026-05-12",
+    "endDate": "2026-06-11",
+    "updatedAt": "2026-05-12T07:07:16.277Z"
   },
   {
     "id": "a0WJ200000CDYooMAH",
