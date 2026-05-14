@@ -147049,5 +147049,85 @@
     "startDate": "2026-05-19",
     "endDate": "2027-03-31",
     "updatedAt": "2026-05-14T10:18:22.826Z"
+  },
+  {
+    "id": "a0WJ200000CDYucMAH",
+    "slug": "a0wj200000cdyucmah",
+    "title": "休廃止鉱山鉱害防止等工事費補助金（令和８年度当初）【近畿支部】",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "鉱業",
+      "採石業",
+      "砂利採取業"
+    ],
+    "purposes": [],
+    "upperLimit": "2,212,849,000円",
+    "source": "jgrants",
+    "startDate": "2026-05-19",
+    "endDate": "2027-03-31",
+    "updatedAt": "2026-05-14T17:10:22.181Z"
+  },
+  {
+    "id": "a0WJ200000CDYuhMAH",
+    "slug": "a0wj200000cdyuhmah",
+    "title": "休廃止鉱山鉱害防止等工事費補助金（令和８年度当初）【中国監督部】",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "鉱業",
+      "採石業",
+      "砂利採取業"
+    ],
+    "purposes": [],
+    "upperLimit": "2,212,849,000円",
+    "source": "jgrants",
+    "startDate": "2026-05-19",
+    "endDate": "2027-03-31",
+    "updatedAt": "2026-05-14T17:10:22.186Z"
+  },
+  {
+    "id": "a0WJ200000CDYumMAH",
+    "slug": "a0wj200000cdyummah",
+    "title": "休廃止鉱山鉱害防止等工事費補助金（令和８年度当初）【四国支部】",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "鉱業",
+      "採石業",
+      "砂利採取業"
+    ],
+    "purposes": [],
+    "upperLimit": "2,212,849,000円",
+    "source": "jgrants",
+    "startDate": "2026-05-19",
+    "endDate": "2027-03-31",
+    "updatedAt": "2026-05-14T17:10:22.188Z"
+  },
+  {
+    "id": "a0WJ200000CDYurMAH",
+    "slug": "a0wj200000cdyurmah",
+    "title": "休廃止鉱山鉱害防止等工事費補助金（令和８年度当初）【九州監督部】",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "鉱業",
+      "採石業",
+      "砂利採取業"
+    ],
+    "purposes": [],
+    "upperLimit": "2,212,849,000円",
+    "source": "jgrants",
+    "startDate": "2026-05-19",
+    "endDate": "2027-03-31",
+    "updatedAt": "2026-05-14T17:10:22.192Z"
   }
 ]
