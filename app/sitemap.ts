@@ -3,6 +3,7 @@ import path from "path"
 import type { MetadataRoute } from "next"
 import { PREFECTURES } from "../lib/prefectures"
 import type { SubsidyIndexItem } from "../lib/types"
+import type { SubsidyNews } from "./news/page"
 import { SITE_URL } from "../lib/site"
 export const dynamic = "force-static"
 
@@ -20,12 +21,25 @@ function getSubsidies(): SubsidyIndexItem[] {
   }
 }
 
+function getNews(): SubsidyNews[] {
+  try {
+    const file = path.join(process.cwd(), "data", "source", "subsidy-news.json")
+    return JSON.parse(fs.readFileSync(file, "utf-8"))
+  } catch {
+    return []
+  }
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = getSiteUrl()
   const subsidies = getSubsidies()
+  const news = getNews()
 
   const latestUpdatedAt = subsidies.reduce((latest, s) =>
     s.updatedAt > latest ? s.updatedAt : latest, ""
+  )
+  const latestNewsAt = news.reduce((latest, n) =>
+    n.publishedAt > latest ? n.publishedAt : latest, ""
   )
   const today = new Date().toISOString()
 
@@ -33,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/`, lastModified: latestUpdatedAt || today, changeFrequency: "weekly", priority: 1 },
     { url: `${siteUrl}/subsidies/`, lastModified: latestUpdatedAt || today, changeFrequency: "daily", priority: 0.9 },
     { url: `${siteUrl}/diagnosis/`, lastModified: today, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${siteUrl}/news/`, lastModified: latestNewsAt || today, changeFrequency: "weekly", priority: 0.8 },
     { url: `${siteUrl}/cases/`, lastModified: today, changeFrequency: "monthly", priority: 0.75 },
     { url: `${siteUrl}/about/`, lastModified: today, changeFrequency: "yearly", priority: 0.5 },
     { url: `${siteUrl}/features/it-companies/`, lastModified: today, changeFrequency: "weekly", priority: 0.8 },
@@ -54,5 +69,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: subsidy.status === "open" ? 0.75 : 0.65,
     }))
 
-  return [...staticRoutes, ...prefectureRoutes, ...subsidyRoutes]
+  const newsRoutes: MetadataRoute.Sitemap = news.map((n) => ({
+    url: `${siteUrl}/news/${n.id}/`,
+    lastModified: n.publishedAt,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }))
+
+  return [...staticRoutes, ...prefectureRoutes, ...subsidyRoutes, ...newsRoutes]
 }

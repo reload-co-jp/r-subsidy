@@ -137,6 +137,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <Link href="/subsidies" style={navLinkStyle}>
               補助金一覧
             </Link>
+            <Link href="/news" style={navLinkStyle}>
+              ニュース
+            </Link>
             <Link href="/cases" style={navLinkStyle}>
               申請事例
             </Link>
