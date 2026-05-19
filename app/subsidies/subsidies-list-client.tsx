@@ -78,7 +78,8 @@ export default function SubsidiesListClient({
   )
   const [purposeFilter, setPurposeFilter] = useState(() => searchParams.get("purpose") ?? "all")
   const [amountFilter, setAmountFilter] = useState(() => searchParams.get("amount") ?? "all")
-  const filterTitle = buildFilterTitle(query, statusFilter, prefectureFilter, purposeFilter)
+  const [smeFilter, setSmeFilter] = useState(() => searchParams.get("sme") === "true")
+  const filterTitle = buildFilterTitle(query, statusFilter, prefectureFilter, purposeFilter, smeFilter)
 
   useEffect(() => {
     const params = new URLSearchParams(searchParams.toString())
@@ -113,13 +114,19 @@ export default function SubsidiesListClient({
       params.delete("amount")
     }
 
+    if (smeFilter) {
+      params.set("sme", "true")
+    } else {
+      params.delete("sme")
+    }
+
     const nextUrl = params.toString() ? `${pathname}?${params.toString()}` : pathname
     const currentUrl = searchParams.toString() ? `${pathname}?${searchParams.toString()}` : pathname
 
     if (nextUrl !== currentUrl) {
       router.replace(nextUrl, { scroll: false })
     }
-  }, [amountFilter, initialPrefecture, pathname, prefectureFilter, purposeFilter, query, router, searchParams, statusFilter])
+  }, [amountFilter, initialPrefecture, pathname, prefectureFilter, purposeFilter, query, router, searchParams, smeFilter, statusFilter])
 
   useEffect(() => {
     document.title = `${filterTitle} | ${SITE_NAME}`
@@ -140,6 +147,7 @@ export default function SubsidiesListClient({
             : matchesPrefecture(subsidy, prefectureFilter)
 
       const matchesPurpose = purposeFilter === "all" ? true : subsidy.purposes.includes(purposeFilter)
+      const matchesSME = smeFilter ? subsidy.isForSME : true
       const matchesAmount = (() => {
         if (amountFilter === "all") return true
         const n = parseAmount(subsidy.upperLimit)
@@ -152,7 +160,7 @@ export default function SubsidiesListClient({
         if (amountFilter === "over10oku") return n >= 1_000_000_000
         return true
       })()
-      return matchesQuery && matchesStatus && matchesSelectedPrefecture && matchesPurpose && matchesAmount
+      return matchesQuery && matchesStatus && matchesSelectedPrefecture && matchesPurpose && matchesSME && matchesAmount
     })
     .toSorted((a, b) => {
       if (a.startDate === b.startDate) return 0
@@ -160,7 +168,7 @@ export default function SubsidiesListClient({
       if (!b.startDate) return -1
       return b.startDate.localeCompare(a.startDate)
     })
-  }, [amountFilter, query, prefectureFilter, purposeFilter, statusFilter, subsidies])
+  }, [amountFilter, query, prefectureFilter, purposeFilter, smeFilter, statusFilter, subsidies])
 
   if (subsidies.length === 0) {
     return (
@@ -387,6 +395,30 @@ export default function SubsidiesListClient({
             )
           })}
         </div>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: ".5rem",
+            marginTop: ".85rem",
+          }}
+        >
+          <button
+            type="button"
+            onClick={() => setSmeFilter(!smeFilter)}
+            style={{
+              borderRadius: "999px",
+              border: `1px solid ${smeFilter ? "#0ea5e9" : "var(--border-soft)"}`,
+              backgroundColor: smeFilter ? "#0ea5e922" : "var(--bg-surface-alt)",
+              color: smeFilter ? "#0ea5e9" : "var(--text-base)",
+              padding: ".45rem .8rem",
+              fontSize: ".8rem",
+              cursor: "pointer",
+            }}
+          >
+            中小企業向けのみ
+          </button>
+        </div>
         <p
           style={{
             color: "var(--text-muted)",
@@ -394,7 +426,7 @@ export default function SubsidiesListClient({
             marginTop: ".65rem",
           }}
         >
-          {query || statusFilter !== "all" || prefectureFilter !== "all" || purposeFilter !== "all" || amountFilter !== "all"
+          {query || statusFilter !== "all" || prefectureFilter !== "all" || purposeFilter !== "all" || amountFilter !== "all" || smeFilter
             ? `${filtered.length}件ヒット`
             : `${subsidies.length}件を表示中`}
         </p>
@@ -564,7 +596,8 @@ function buildFilterTitle(
   query: string,
   statusFilter: "all" | SubsidyIndexItem["status"],
   prefectureFilter: string,
-  purposeFilter: string
+  purposeFilter: string,
+  smeFilter: boolean
 ) {
   const area =
     prefectureFilter === "all" ? "" : prefectureFilter === "national" ? "国の補助金" : prefectureFilter
@@ -578,7 +611,8 @@ function buildFilterTitle(
         : status
           ? `${status}の`
           : ""
-  const baseTitle = `${prefix}${purpose ? `${purpose}向け` : ""}補助金一覧`
+  const target = smeFilter ? "中小企業向け" : purpose ? `${purpose}向け` : ""
+  const baseTitle = `${prefix}${target}補助金一覧`
 
   return query ? `${baseTitle}（「${query}」の検索結果）` : baseTitle
 }
