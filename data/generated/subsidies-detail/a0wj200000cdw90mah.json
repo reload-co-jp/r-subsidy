@@ -45,6 +45,7 @@
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": true,
   "purposes": [],
   "usePurpose": "資金繰りを改善したい",
   "status": "closed",

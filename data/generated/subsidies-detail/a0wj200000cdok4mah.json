@@ -17,6 +17,7 @@
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": false,
   "purposes": [
     "人材育成",
     "販路拡大",

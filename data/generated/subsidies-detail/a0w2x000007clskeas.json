@@ -43,6 +43,7 @@
   "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,
+  "isForSME": true,
   "purposes": [
     "人材育成",
     "創業"

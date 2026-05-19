@@ -43,6 +43,7 @@
   "targetNumberOfEmployees": "901名以上",
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": true,
   "purposes": [
     "人材育成",
     "販路拡大"

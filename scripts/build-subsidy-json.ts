@@ -79,6 +79,7 @@ async function main() {
     industries: s.industries,
     purposes: s.purposes,
     upperLimit: s.upperLimit,
+    isForSME: s.isForSME,
     source: s.source,
     startDate: s.startDate,
     endDate: s.endDate,

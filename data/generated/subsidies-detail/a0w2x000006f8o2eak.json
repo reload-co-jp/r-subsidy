@@ -17,6 +17,7 @@
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": false,
   "purposes": [
     "研究開発",
     "省エネ"

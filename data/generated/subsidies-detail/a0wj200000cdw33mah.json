@@ -13,6 +13,7 @@
   "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
+  "isForSME": true,
   "purposes": [
     "人材育成",
     "デジタル化"

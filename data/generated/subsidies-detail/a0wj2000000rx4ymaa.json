@@ -35,6 +35,7 @@
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": true,
   "purposes": [
     "研究開発",
     "創業",

@@ -44,6 +44,7 @@
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": false,
   "purposes": [],
   "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",

@@ -16,6 +16,7 @@
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": false,
   "purposes": [],
   "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",

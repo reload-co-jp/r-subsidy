@@ -16,6 +16,7 @@
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": false,
   "purposes": [],
   "usePurpose": "まちづくり・地域振興支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "closed",

@@ -39,6 +39,7 @@
   "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
+  "isForSME": true,
   "purposes": [],
   "usePurpose": "安全・防災対策支援がほしい",
   "status": "closed",

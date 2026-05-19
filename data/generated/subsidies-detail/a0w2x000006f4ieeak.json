@@ -45,6 +45,7 @@
   "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,
+  "isForSME": true,
   "purposes": [
     "販路拡大",
     "研究開発"

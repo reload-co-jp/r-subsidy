@@ -124,6 +124,7 @@ export type NormalizedSubsidy = {
   targetNumberOfEmployees: string | null
   employeeMin: number | null
   employeeMax: number | null
+  isForSME: boolean
   purposes: string[]
   usePurpose: string | null
   status: Status
@@ -184,6 +185,7 @@ export type SubsidyIndexItem = {
   industries: string[]
   purposes: string[]
   upperLimit: string | null
+  isForSME: boolean
   source: Source
   startDate: string | null
   endDate: string | null

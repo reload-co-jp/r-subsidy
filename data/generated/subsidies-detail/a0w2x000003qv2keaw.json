@@ -12,6 +12,7 @@
   "targetNumberOfEmployees": null,
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": true,
   "purposes": [
     "研究開発"
   ],

@@ -41,6 +41,7 @@
   "targetNumberOfEmployees": "20名以下",
   "employeeMin": null,
   "employeeMax": 20,
+  "isForSME": true,
   "purposes": [
     "設備投資",
     "人材育成",

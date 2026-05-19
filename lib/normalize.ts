@@ -117,6 +117,17 @@ export function normalizeEmployeeCount(str: string | undefined): {
   return { min: null, max: null }
 }
 
+export function isSubsidyForSME(
+  employeeMax: number | null,
+  title: string,
+  overview: string,
+  detail: string
+): boolean {
+  if (employeeMax !== null && employeeMax <= 300) return true
+  const text = `${title} ${overview} ${detail}`
+  return text.includes('中小企業')
+}
+
 export function normalizeIndustries(industryTypes: string[] | undefined): string[] {
   if (!industryTypes || industryTypes.length === 0) return []
   return industryTypes.map((t) => t.trim()).filter(Boolean)
@@ -213,19 +224,21 @@ export function normalizeJGrantsDetail(detail: JGrantsDetail): NormalizedSubsidy
 
   const empStr = detail.target?.target_number_of_employees ?? detail.target_number_of_employees
   const { min: employeeMin, max: employeeMax } = normalizeEmployeeCount(empStr)
+  const detailText = detail.subsidy_detail?.detail ?? detail.detail ?? ''
 
   return {
     id: detail.id,
     slug: toSlug(detail.id),
     title: detail.title,
     overview,
-    detail: detail.subsidy_detail?.detail ?? detail.detail ?? '',
+    detail: detailText,
     region,
     prefectures,
     industries: normalizeIndustries(detail.target?.industry_type ?? splitDelimitedText(detail.industry)),
     targetNumberOfEmployees: empStr ?? null,
     employeeMin,
     employeeMax,
+    isForSME: isSubsidyForSME(employeeMax, detail.title, overview, detailText),
     purposes,
     usePurpose,
     status,

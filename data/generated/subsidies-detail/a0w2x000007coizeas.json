@@ -21,6 +21,7 @@
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
+  "isForSME": true,
   "purposes": [
     "人材育成",
     "デジタル化"

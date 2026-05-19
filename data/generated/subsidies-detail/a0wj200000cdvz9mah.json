@@ -45,6 +45,7 @@
   "targetNumberOfEmployees": "300名以下",
   "employeeMin": null,
   "employeeMax": 300,
+  "isForSME": true,
   "purposes": [],
   "usePurpose": "資金繰りを改善したい",
   "status": "closed",
