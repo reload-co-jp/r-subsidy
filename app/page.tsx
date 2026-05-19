@@ -43,7 +43,7 @@ function getLatestSubsidies(): NormalizedSubsidy[] {
     return subsidies
       .filter((subsidy) => subsidy.status !== "closed")
       .sort((a, b) => getSortTime(b) - getSortTime(a))
-      .slice(0, 20)
+      .slice(0, 5)
   } catch {
     return []
   }
@@ -340,7 +340,7 @@ const Page: FC = () => {
             }}
           >
             <h2 style={{ color: "var(--text-strong)", fontSize: "1.1rem" }}>
-              最新の補助金（20件）
+              最新の補助金（5件）
             </h2>
             <Link
               href="/subsidies"
