@@ -1,0 +1,29 @@
+{
+  "id": "a0WJ200000CDZHvMAP",
+  "slug": "a0wj200000cdzhvmap",
+  "title": "テスト☆彡_20260522",
+  "overview": "",
+  "detail": "<p><b style=\"color: rgb(0, 111, 173);\">■目的・概要</b></p><p>（ここに目的・概要を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■根拠法令</b></p><p>（ここに補助金に紐づく根拠法令を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■応募資格</b></p><p>（ここに補助対象者・応募資格を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■地理条件</b></p><p>（ここに必要な地理条件を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■備考</b></p><p>（ここに備考を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■問合せ先</b></p><p>（ここに問合せ先を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■参照URL</b></p><p>（ここに参照URLを入力して下さい。URLをリンク化したい場合は、リンクの埋め込みを行ってください。）</p>",
+  "region": "national",
+  "prefectures": [],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [],
+  "usePurpose": "新たな事業を行いたい",
+  "status": "open",
+  "workflow": "テスト_20260522",
+  "subsidizedRate": null,
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-05-01",
+  "endDate": "2125-05-01",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZHvMAP",
+  "updatedAt": "2026-05-22T16:10:45.000Z"
+}
