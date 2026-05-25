@@ -328,6 +328,167 @@ const Page: FC = () => {
         </div>
       </section>
 
+      <section style={{ marginBottom: "3rem" }}>
+        <h2
+          style={{
+            color: "var(--text-strong)",
+            fontSize: "1.1rem",
+            marginBottom: "1rem",
+          }}
+        >
+          おすすめ補助金特集
+        </h2>
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+            gap: "1rem",
+          }}
+        >
+          <Link
+            href="/features/popular-sme"
+            style={{ textDecoration: "none" }}
+          >
+            <div
+              style={{
+                backgroundColor: "var(--bg-surface)",
+                border: "2px solid #38b48b44",
+                borderRadius: "10px",
+                padding: "1.25rem",
+                display: "flex",
+                flexDirection: "column",
+                gap: ".6rem",
+                height: "100%",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: ".5rem" }}>
+                <span
+                  style={{
+                    backgroundColor: "#38b48b",
+                    color: "#fff",
+                    borderRadius: "4px",
+                    padding: ".15rem .5rem",
+                    fontSize: ".7rem",
+                    fontWeight: "bold",
+                    whiteSpace: "nowrap",
+                  }}
+                >
+                  特集
+                </span>
+                <span
+                  style={{
+                    color: "#22c55e",
+                    fontSize: ".75rem",
+                    fontWeight: "bold",
+                  }}
+                >
+                  受付中あり
+                </span>
+              </div>
+              <p
+                style={{
+                  color: "var(--text-strong)",
+                  fontSize: ".95rem",
+                  fontWeight: "bold",
+                  lineHeight: 1.5,
+                  margin: 0,
+                }}
+              >
+                全業種対応・採択数が多い
+                <br />
+                中小企業向け補助金
+              </p>
+              <p
+                style={{
+                  color: "var(--text-muted)",
+                  fontSize: ".8rem",
+                  lineHeight: 1.6,
+                  margin: 0,
+                }}
+              >
+                ものづくり補助金・事業再構築補助金など採択実績が豊富な定番制度を一覧で確認できます。
+              </p>
+              <span
+                style={{
+                  color: "#38b48b",
+                  fontSize: ".82rem",
+                  fontWeight: "bold",
+                  marginTop: "auto",
+                }}
+              >
+                特集を見る →
+              </span>
+            </div>
+          </Link>
+          <Link
+            href="/features/it-companies"
+            style={{ textDecoration: "none" }}
+          >
+            <div
+              style={{
+                backgroundColor: "var(--bg-surface)",
+                border: "1px solid var(--border-soft)",
+                borderRadius: "10px",
+                padding: "1.25rem",
+                display: "flex",
+                flexDirection: "column",
+                gap: ".6rem",
+                height: "100%",
+              }}
+            >
+              <div style={{ display: "flex", alignItems: "center", gap: ".5rem" }}>
+                <span
+                  style={{
+                    backgroundColor: "#6366f1",
+                    color: "#fff",
+                    borderRadius: "4px",
+                    padding: ".15rem .5rem",
+                    fontSize: ".7rem",
+                    fontWeight: "bold",
+                    whiteSpace: "nowrap",
+                  }}
+                >
+                  特集
+                </span>
+              </div>
+              <p
+                style={{
+                  color: "var(--text-strong)",
+                  fontSize: ".95rem",
+                  fontWeight: "bold",
+                  lineHeight: 1.5,
+                  margin: 0,
+                }}
+              >
+                IT系・零細企業向け
+                <br />
+                補助金特集
+              </p>
+              <p
+                style={{
+                  color: "var(--text-muted)",
+                  fontSize: ".8rem",
+                  lineHeight: 1.6,
+                  margin: 0,
+                }}
+              >
+                DX推進・クラウド化・システム導入など情報通信業やデジタル化を進めたい企業向け。
+              </p>
+              <span
+                style={{
+                  color: "#6366f1",
+                  fontSize: ".82rem",
+                  fontWeight: "bold",
+                  marginTop: "auto",
+                }}
+              >
+                特集を見る →
+              </span>
+            </div>
+          </Link>
+        </div>
+      </section>
+
       {latestSubsidies.length > 0 && (
         <section style={{ marginBottom: "3rem" }}>
           <div
