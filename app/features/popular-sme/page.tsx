@@ -53,30 +53,54 @@ function getPopularSmeSubsidies(all: SubsidyIndexItem[]): SubsidyIndexItem[] {
 const FEATURED_SUBSIDIES = [
   {
     label: "ものづくり・商業・サービス生産性向上促進補助金",
-    desc: "製造業に限らず全業種の設備投資・システム構築・DX推進に対応。上限最大4,000万円。毎年複数回の公募があり採択件数が多い定番補助金。",
+    amount: "最大750万〜4,000万円",
+    recommend: 5,
+    ease: 3,
+    requirements: "全業種の中小企業・小規模事業者。革新的な設備投資・サービス開発計画が必要。付加価値額年率3%以上向上計画必須。",
+    note: "毎年複数回公募。採択件数が多く実績豊富な定番補助金。",
     purposes: ["設備投資", "デジタル化", "研究開発"],
   },
   {
     label: "事業再構築補助金",
-    desc: "新分野展開・業態転換・事業再編など思い切った事業変革を補助。全業種対象で上限最大1億5,000万円。採択数累計5万件超の大型補助金。",
+    amount: "最大3,000万〜1億5,000万円",
+    recommend: 4,
+    ease: 2,
+    requirements: "売上・付加価値額減少要件あり。新分野展開・業態転換・事業再編など大きな変革が必要。",
+    note: "採択数累計5万件超の大型補助金。現在は後継枠・新制度に移行中のため最新情報確認必須。",
     purposes: ["設備投資", "販路拡大", "デジタル化"],
   },
   {
     label: "IT導入補助金",
-    desc: "会計・在庫・顧客管理など業務効率化ツールの導入費を補助。全業種の中小企業・小規模事業者が対象で上限最大450万円。",
+    amount: "5万〜450万円（セキュリティ枠 最大1,500万円）",
+    recommend: 5,
+    ease: 4,
+    requirements: "全業種の中小企業・小規模事業者。認定ITベンダーが提供するツールの導入が必要。",
+    note: "会計・在庫・顧客管理などSaaSツール導入費を補助。手続きが比較的シンプルで取りやすい。",
     purposes: ["デジタル化"],
   },
   {
     label: "小規模事業者持続化補助金",
-    desc: "販路開拓・ウェブサイト制作・チラシ作成など販売促進活動を広く補助。従業員20名以下の小規模事業者向けで上限50〜200万円。",
+    amount: "最大50〜200万円",
+    recommend: 4,
+    ease: 5,
+    requirements: "常時使用従業員20名以下（商業・サービス業は5名以下）の小規模事業者。",
+    note: "HP制作・チラシ・広告費・展示会出展など販路開拓全般に使える。採択率が高く申請ハードル低め。",
     purposes: ["販路拡大"],
   },
   {
     label: "働き方改革推進支援助成金",
-    desc: "時間外労働削減・テレワーク環境整備など働き方改革の取組を支援。全業種の中小企業が対象で上限最大1,370万円。",
+    amount: "最大1,370万円",
+    recommend: 4,
+    ease: 4,
+    requirements: "全業種の中小企業。時間外労働削減・テレワーク環境整備などの取組計画が必要。",
+    note: "テレワーク導入・勤怠管理システム整備など幅広い用途に対応。",
     purposes: ["人材育成"],
   },
 ]
+
+function renderStars(count: number, max = 5): string {
+  return "★".repeat(count) + "☆".repeat(max - count)
+}
 
 const Page: FC = () => {
   const all = getSubsidies()
@@ -162,9 +186,18 @@ const Page: FC = () => {
         >
           採択数が多い定番補助金5選
         </h2>
-        <div style={{ display: "grid", gap: ".85rem" }}>
+        <div style={{ display: "grid", gap: "1rem" }}>
           {FEATURED_SUBSIDIES.map((item, i) => (
-            <div key={item.label} style={{ display: "flex", gap: ".75rem", alignItems: "flex-start" }}>
+            <div
+              key={item.label}
+              style={{
+                display: "flex",
+                gap: ".75rem",
+                alignItems: "flex-start",
+                borderBottom: i < FEATURED_SUBSIDIES.length - 1 ? "1px solid var(--border-soft)" : "none",
+                paddingBottom: i < FEATURED_SUBSIDIES.length - 1 ? "1rem" : "0",
+              }}
+            >
               <span
                 style={{
                   backgroundColor: "#38b48b22",
@@ -183,19 +216,43 @@ const Page: FC = () => {
               >
                 {i + 1}
               </span>
-              <div>
+              <div style={{ flex: 1 }}>
                 <p
                   style={{
                     color: "var(--text-strong)",
                     fontSize: ".9rem",
                     fontWeight: "bold",
-                    marginBottom: ".2rem",
+                    marginBottom: ".35rem",
                   }}
                 >
                   {item.label}
                 </p>
-                <p style={{ color: "var(--text-muted)", fontSize: ".8rem", lineHeight: 1.6, marginBottom: ".4rem" }}>
-                  {item.desc}
+                <div
+                  style={{
+                    display: "flex",
+                    gap: "1rem",
+                    flexWrap: "wrap",
+                    marginBottom: ".35rem",
+                    fontSize: ".75rem",
+                  }}
+                >
+                  <span>
+                    <span style={{ color: "var(--text-muted)" }}>おすすめ度 </span>
+                    <span style={{ color: "#f59e0b", letterSpacing: ".05em" }}>{renderStars(item.recommend)}</span>
+                  </span>
+                  <span>
+                    <span style={{ color: "var(--text-muted)" }}>取りやすさ </span>
+                    <span style={{ color: "#38b48b", letterSpacing: ".05em" }}>{renderStars(item.ease)}</span>
+                  </span>
+                  <span style={{ color: "var(--text-muted)" }}>
+                    補助額：<strong style={{ color: "var(--text-strong)" }}>{item.amount}</strong>
+                  </span>
+                </div>
+                <p style={{ color: "var(--text-muted)", fontSize: ".8rem", lineHeight: 1.6, marginBottom: ".3rem" }}>
+                  <strong style={{ color: "var(--text-strong)" }}>要件：</strong>{item.requirements}
+                </p>
+                <p style={{ color: "var(--text-muted)", fontSize: ".78rem", lineHeight: 1.6, marginBottom: ".4rem" }}>
+                  {item.note}
                 </p>
                 <div style={{ display: "flex", gap: ".3rem", flexWrap: "wrap" }}>
                   {item.purposes.map((p) => (
