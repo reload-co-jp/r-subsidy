@@ -53,7 +53,7 @@ function getPopularSmeSubsidies(all: SubsidyIndexItem[]): SubsidyIndexItem[] {
 const FEATURED_SUBSIDIES = [
   {
     label: "ものづくり・商業・サービス生産性向上促進補助金",
-    href: "/subsidies?q=ものづくり補助金",
+    href: "/subsidies/a0wj200000cdvkemah",
     amount: "最大750万〜4,000万円",
     recommend: 5,
     ease: 3,
@@ -97,7 +97,7 @@ const FEATURED_SUBSIDIES = [
   },
   {
     label: "働き方改革推進支援助成金",
-    href: "/subsidies?q=働き方改革推進支援助成金",
+    href: "/subsidies/a0wj200000cdyegma5",
     amount: "最大1,370万円",
     recommend: 4,
     ease: 4,

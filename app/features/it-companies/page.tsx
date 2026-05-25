@@ -63,7 +63,7 @@ const IT_SUBSIDIES = [
   },
   {
     label: "ものづくり補助金",
-    href: "/subsidies?q=ものづくり補助金",
+    href: "/subsidies/a0wj200000cdvkemah",
     amount: "750万〜1,250万円（省力化枠 最大1,500万円）",
     recommend: 4,
     ease: 3,
