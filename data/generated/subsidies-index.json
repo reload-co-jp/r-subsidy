@@ -137659,7 +137659,7 @@
     "prefectures": [
       "京都府"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -145994,7 +145994,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -146457,7 +146457,7 @@
     "overview": "脱炭素型 自然冷媒機器の導入支援",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "運輸業",
@@ -148405,6 +148405,64 @@
     "updatedAt": "2026-05-15T08:27:45.695Z"
   },
   {
+    "id": "a0WJ200000CDYiSMAX",
+    "slug": "a0wj200000cdyismax",
+    "title": "【三重県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "overview": "【三重県産業支援センター】外国出願補助金",
+    "region": "prefecture",
+    "prefectures": [
+      "三重県"
+    ],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "3,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-05-24",
+    "endDate": "2026-06-19",
+    "updatedAt": "2026-05-25T08:24:38.025Z"
+  },
+  {
     "id": "a0WJ200000CDYimMAH",
     "slug": "a0wj200000cdyimmah",
     "title": "【経済産業省】ものづくり・商業・サービス生産性向上促進補助金（22次締切）",
@@ -149058,7 +149116,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "製造業",
@@ -149089,7 +149147,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "製造業",
@@ -150582,6 +150640,38 @@
     "updatedAt": "2026-05-19T07:17:17.128Z"
   },
   {
+    "id": "a0WJ200000CDYqgMAH",
+    "slug": "a0wj200000cdyqgmah",
+    "title": "令和8年度 重要市場の商流維持・拡大対策事業",
+    "overview": "重要市場事業",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "製造業",
+      "サービス業（他に分類されないもの）",
+      "農業",
+      "林業",
+      "卸売業",
+      "小売業",
+      "宿泊業",
+      "飲食サービス業"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "10,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-05-25",
+    "endDate": "2026-06-19",
+    "updatedAt": "2026-05-25T08:24:38.252Z"
+  },
+  {
     "id": "a0WJ200000CDYr0MAH",
     "slug": "a0wj200000cdyr0mah",
     "title": "「賃上げ環境整備補助金2026」",
@@ -150673,7 +150763,7 @@
     "prefectures": [
       "島根県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
