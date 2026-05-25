@@ -53,48 +53,58 @@ function getPopularSmeSubsidies(all: SubsidyIndexItem[]): SubsidyIndexItem[] {
 const FEATURED_SUBSIDIES = [
   {
     label: "ものづくり・商業・サービス生産性向上促進補助金",
+    href: "/subsidies?q=ものづくり補助金",
     amount: "最大750万〜4,000万円",
     recommend: 5,
     ease: 3,
     requirements: "全業種の中小企業・小規模事業者。革新的な設備投資・サービス開発計画が必要。付加価値額年率3%以上向上計画必須。",
     note: "毎年複数回公募。採択件数が多く実績豊富な定番補助金。",
     purposes: ["設備投資", "デジタル化", "研究開発"],
+    lawyerComment: "事業計画書の付加価値額・給与支給総額の数値根拠が審査の核心です。認定支援機関との計画策定を早期に開始し、補助事業期間内の達成スケジュールを具体的に示してください。賃上げ要件は補助事業実施後も継続義務があるため、計画の実現可能性を慎重に検討してください。",
   },
   {
     label: "事業再構築補助金",
+    href: "/subsidies?q=事業再構築補助金",
     amount: "最大3,000万〜1億5,000万円",
     recommend: 4,
     ease: 2,
     requirements: "売上・付加価値額減少要件あり。新分野展開・業態転換・事業再編など大きな変革が必要。",
     note: "採択数累計5万件超の大型補助金。現在は後継枠・新制度に移行中のため最新情報確認必須。",
     purposes: ["設備投資", "販路拡大", "デジタル化"],
+    lawyerComment: "現行制度から新枠への移行期にあります。最新公募要領で売上減少・付加価値額要件を確認し、新分野展開の市場規模・競合分析を事業計画に盛り込んでください。補助事業期間が終了しても付加価値額・給与支給総額の目標達成義務が続く点に注意が必要です。",
   },
   {
     label: "IT導入補助金",
+    href: "/subsidies?q=IT導入補助金",
     amount: "5万〜450万円（セキュリティ枠 最大1,500万円）",
     recommend: 5,
     ease: 4,
     requirements: "全業種の中小企業・小規模事業者。認定ITベンダーが提供するツールの導入が必要。",
     note: "会計・在庫・顧客管理などSaaSツール導入費を補助。手続きが比較的シンプルで取りやすい。",
     purposes: ["デジタル化"],
+    lawyerComment: "登録済みITツール・IT導入支援事業者の選定が申請の前提です。ツールが補助対象として登録されているかJグランツで事前確認し、支援事業者と早めに連絡を取ってください。交付申請は導入前に完了させる必要があり、先行発注・契約は補助対象外となります。",
   },
   {
     label: "小規模事業者持続化補助金",
+    href: "/subsidies?q=持続化補助金",
     amount: "最大50〜200万円",
     recommend: 4,
     ease: 5,
     requirements: "常時使用従業員20名以下（商業・サービス業は5名以下）の小規模事業者。",
     note: "HP制作・チラシ・広告費・展示会出展など販路開拓全般に使える。採択率が高く申請ハードル低め。",
     purposes: ["販路拡大"],
+    lawyerComment: "商工会・商工会議所の支援を受けて経営計画書を作成することが申請要件です。補助事業実施期間内に発注・支払・納品を完了させる必要があります。HP制作費は全額対象とならないケースもあるため、対象経費の範囲を公募要領で確認してください。",
   },
   {
     label: "働き方改革推進支援助成金",
+    href: "/subsidies?q=働き方改革推進支援助成金",
     amount: "最大1,370万円",
     recommend: 4,
     ease: 4,
     requirements: "全業種の中小企業。時間外労働削減・テレワーク環境整備などの取組計画が必要。",
     note: "テレワーク導入・勤怠管理システム整備など幅広い用途に対応。",
     purposes: ["人材育成"],
+    lawyerComment: "36協定の締結・届出が前提要件です。就業規則の改定・労使協定の整備が必要な場合があります。設備導入前に交付決定を受ける必要があるため、先行発注は補助対象外となります。申請前に労働局または社会保険労務士への相談を推奨します。",
   },
 ]
 
@@ -225,7 +235,12 @@ const Page: FC = () => {
                     marginBottom: ".35rem",
                   }}
                 >
-                  {item.label}
+                  <Link
+                    href={item.href}
+                    style={{ color: "inherit", textDecoration: "underline", textDecorationColor: "var(--border-soft)" }}
+                  >
+                    {item.label}
+                  </Link>
                 </p>
                 <div
                   style={{
@@ -254,7 +269,7 @@ const Page: FC = () => {
                 <p style={{ color: "var(--text-muted)", fontSize: ".78rem", lineHeight: 1.6, marginBottom: ".4rem" }}>
                   {item.note}
                 </p>
-                <div style={{ display: "flex", gap: ".3rem", flexWrap: "wrap" }}>
+                <div style={{ display: "flex", gap: ".3rem", flexWrap: "wrap", marginBottom: item.lawyerComment ? ".5rem" : undefined }}>
                   {item.purposes.map((p) => (
                     <span
                       key={p}
@@ -271,6 +286,38 @@ const Page: FC = () => {
                     </span>
                   ))}
                 </div>
+                {item.lawyerComment && (
+                  <div
+                    style={{
+                      backgroundColor: "#f0fdf8",
+                      border: "1px solid #a7f3d0",
+                      borderRadius: "6px",
+                      padding: ".6rem .8rem",
+                    }}
+                  >
+                    <span
+                      style={{
+                        color: "#059669",
+                        fontSize: ".72rem",
+                        fontWeight: "bold",
+                        display: "block",
+                        marginBottom: ".25rem",
+                      }}
+                    >
+                      行政書士コメント
+                    </span>
+                    <p
+                      style={{
+                        color: "#064e3b",
+                        fontSize: ".78rem",
+                        lineHeight: 1.6,
+                        margin: 0,
+                      }}
+                    >
+                      {item.lawyerComment}
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           ))}
