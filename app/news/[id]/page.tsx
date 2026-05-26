@@ -91,6 +91,7 @@ const Page: FC<Props> = async ({ params }) => {
     inLanguage: "ja",
     datePublished: item.publishedAt,
     dateModified: item.publishedAt,
+    image: [absoluteUrl(DEFAULT_OG_IMAGE)],
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,

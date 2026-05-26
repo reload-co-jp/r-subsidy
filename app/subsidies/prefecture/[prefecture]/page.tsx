@@ -109,7 +109,7 @@ export default async function Page({ params }: Props) {
     .toSorted((a, b) => b.updatedAt.localeCompare(a.updatedAt))
     .slice(0, 5)
   const title = `${prefecture}で受付中の補助金一覧`
-  const description = `${prefecture}で利用できる受付中の補助金を、対象用途・業種・補助上限額で比較できます。`
+  const description = `${prefecture}で利用できる受付中の補助金を${openSubsidies.length}件掲載。中小企業・個人事業主向けに、対象用途、業種、補助上限額を比較できます。`
   const pageUrl = getPrefecturePageUrl(prefecture)
   const structuredData = {
     "@context": "https://schema.org",

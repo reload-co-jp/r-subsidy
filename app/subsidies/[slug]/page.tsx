@@ -8,6 +8,70 @@ import type { NormalizedSubsidy, SubsidyIndexItem } from "../../../lib/types"
 import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl } from "../../../lib/site"
 import { formatDate, formatAmount } from "../../../lib/format"
 
+function getRelatedSubsidies(subsidy: NormalizedSubsidy): SubsidyIndexItem[] {
+  try {
+    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const all: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
+    const active = all.filter((s) => s.slug !== subsidy.slug && s.status !== "closed")
+    const byPurpose = active.filter((s) =>
+      s.purposes.some((p) => subsidy.purposes.includes(p))
+    )
+    if (byPurpose.length >= 3) return byPurpose.slice(0, 5)
+    const byPrefecture = active.filter(
+      (s) =>
+        subsidy.prefectures.length > 0 &&
+        s.prefectures.some((p) => subsidy.prefectures.includes(p))
+    )
+    const merged = [...byPurpose, ...byPrefecture.filter((s) => !byPurpose.some((b) => b.slug === s.slug))]
+    return merged.slice(0, 5)
+  } catch {
+    return []
+  }
+}
+
+type FaqItem = { question: string; answer: string }
+
+function buildFaqItems(subsidy: NormalizedSubsidy): FaqItem[] {
+  const regionLabel: Record<string, string> = { national: "全国", tokyo: "東京都", prefecture: "都道府県" }
+  const items: FaqItem[] = []
+
+  const region =
+    subsidy.region === "prefecture" && subsidy.prefectures.length > 0
+      ? `都道府県（${subsidy.prefectures.join("、")}）`
+      : (regionLabel[subsidy.region] ?? subsidy.region)
+  items.push({ question: `「${subsidy.title}」の対象地域は?`, answer: region })
+
+  if (subsidy.subsidizedRate) {
+    items.push({ question: `「${subsidy.title}」の補助率は?`, answer: subsidy.subsidizedRate })
+  }
+
+  if (subsidy.upperLimit && subsidy.upperLimit !== "0円") {
+    items.push({
+      question: `「${subsidy.title}」の補助上限額は?`,
+      answer: formatAmount(subsidy.upperLimit) ?? subsidy.upperLimit,
+    })
+  }
+
+  if (subsidy.startDate || subsidy.endDate) {
+    const start = subsidy.startDate ? formatDate(subsidy.startDate) : "未定"
+    const end = subsidy.endDate ? formatDate(subsidy.endDate) : "未定"
+    items.push({ question: `「${subsidy.title}」の受付期間は?`, answer: `${start} 〜 ${end}` })
+  }
+
+  if (subsidy.industries.length > 0) {
+    items.push({
+      question: `「${subsidy.title}」はどの業種が対象?`,
+      answer: subsidy.industries.join("、"),
+    })
+  }
+
+  if (subsidy.workflow) {
+    items.push({ question: `「${subsidy.title}」の申請窓口は?`, answer: subsidy.workflow })
+  }
+
+  return items
+}
+
 export const dynamicParams = false
 
 export function generateStaticParams(): { slug: string }[] {
@@ -174,6 +238,8 @@ const Page: FC<Props> = async ({ params }) => {
   const st = statusLabel[subsidy.status] ?? statusLabel.unknown
   const pageUrl = absoluteUrl(`/subsidies/${subsidy.slug}/`)
   const description = buildDescription(subsidy)
+  const relatedSubsidies = getRelatedSubsidies(subsidy)
+  const faqItems = buildFaqItems(subsidy)
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -251,6 +317,22 @@ const Page: FC<Props> = async ({ params }) => {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+      {faqItems.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqItems.map((item) => ({
+                "@type": "Question",
+                name: item.question,
+                acceptedAnswer: { "@type": "Answer", text: item.answer },
+              })),
+            }),
+          }}
+        />
+      )}
       <Breadcrumb
         items={[
           { label: "ホーム", href: "/" },
@@ -537,6 +619,94 @@ const Page: FC<Props> = async ({ params }) => {
           >
             公式ページを見る →
           </a>
+        </div>
+      )}
+
+      {faqItems.length > 0 && (
+        <div
+          style={{
+            backgroundColor: "var(--bg-surface)",
+            borderRadius: "10px",
+            border: "1px solid var(--border-soft)",
+            marginBottom: "1.5rem",
+            overflow: "hidden",
+          }}
+        >
+          <h2
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".8rem",
+              padding: ".75rem 1rem",
+              borderBottom: "1px solid var(--border-soft)",
+              margin: 0,
+            }}
+          >
+            よくある質問
+          </h2>
+          {faqItems.map((item, i) => (
+            <div
+              key={i}
+              style={{
+                borderBottom: i < faqItems.length - 1 ? "1px solid var(--border-soft)" : undefined,
+                padding: ".85rem 1rem",
+              }}
+            >
+              <p style={{ color: "#38b48b", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".35rem" }}>
+                Q. {item.question}
+              </p>
+              <p style={{ color: "var(--text-strong)", fontSize: ".88rem", margin: 0 }}>
+                A. {item.answer}
+              </p>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {relatedSubsidies.length > 0 && (
+        <div style={{ marginBottom: "1.5rem" }}>
+          <h2
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".8rem",
+              marginBottom: ".75rem",
+            }}
+          >
+            関連する補助金
+          </h2>
+          <div style={{ display: "grid", gap: ".5rem" }}>
+            {relatedSubsidies.map((s) => (
+              <Link
+                key={s.slug}
+                href={`/subsidies/${s.slug}`}
+                style={{
+                  backgroundColor: "var(--bg-surface)",
+                  border: "1px solid var(--border-soft)",
+                  borderRadius: "8px",
+                  padding: ".75rem 1rem",
+                  textDecoration: "none",
+                  display: "block",
+                }}
+              >
+                <span
+                  style={{
+                    backgroundColor:
+                      s.status === "open" ? "#22c55e22" : "#f59e0b22",
+                    color: s.status === "open" ? "#22c55e" : "#f59e0b",
+                    border: `1px solid ${s.status === "open" ? "#22c55e44" : "#f59e0b44"}`,
+                    borderRadius: "4px",
+                    padding: ".1rem .45rem",
+                    fontSize: ".72rem",
+                    marginRight: ".5rem",
+                  }}
+                >
+                  {s.status === "open" ? "受付中" : "公募前"}
+                </span>
+                <span style={{ color: "var(--text-strong)", fontSize: ".88rem" }}>
+                  {s.title}
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
       )}
 
