@@ -10,7 +10,7 @@ import SubsidiesListClient from "../../subsidies/subsidies-list-client"
 
 const PAGE_TITLE = "全業種対応・採択数が多い中小企業向け補助金特集"
 const PAGE_DESCRIPTION =
-  "業種を問わず中小企業・個人事業主が申請できる、採択実績が豊富な補助金を厳選。ものづくり補助金・事業再構築補助金・IT導入補助金など定番制度を受付状況とあわせて掲載しています。"
+  "業種を問わず中小企業・個人事業主が申請できる、採択実績が豊富な補助金を厳選。ものづくり補助金・事業再構築補助金・デジタル化・AI導入補助金など定番制度を受付状況とあわせて掲載しています。"
 const PAGE_URL = absoluteUrl("/features/popular-sme/")
 
 export const metadata: Metadata = {
@@ -74,8 +74,8 @@ const FEATURED_SUBSIDIES = [
     lawyerComment: "現行制度から新枠への移行期にあります。最新公募要領で売上減少・付加価値額要件を確認し、新分野展開の市場規模・競合分析を事業計画に盛り込んでください。補助事業期間が終了しても付加価値額・給与支給総額の目標達成義務が続く点に注意が必要です。",
   },
   {
-    label: "IT導入補助金",
-    href: "/subsidies?q=IT導入補助金",
+    label: "デジタル化・AI導入補助金",
+    href: "/subsidies/national-digital-ai-hojo-2026",
     amount: "5万〜450万円（セキュリティ枠 最大1,500万円）",
     recommend: 5,
     ease: 4,

@@ -1,0 +1,30 @@
+{
+  "id": "national-nedo-kenkyu-kaihatsu",
+  "slug": "national-nedo-kenkyu-kaihatsu",
+  "title": "NEDO補助金（研究開発・実証事業）",
+  "overview": "国立研究開発法人 新エネルギー・産業技術総合開発機構（NEDO）が実施する研究開発・実証・設備導入補助。AI・DX・半導体・水素・再エネ・ロボット・バイオ等の先端分野が対象。",
+  "detail": "【対象分野】AI・DX、半導体、水素・燃料電池、太陽光・風力等再生可能エネルギー、ロボット、量子技術、バイオ・材料、自動車・蓄電池、省エネルギー、カーボンリサイクル、国際展開支援など。\n【事業分類】研究開発、実証（フィールドテスト）、普及啓発、設備導入補助、調査・分析など。\n【対象者】企業（中小〜大企業）、大学・研究機関、NPO・非営利団体、地方公共団体など。\n【助成額】プログラムにより数百万〜数億円規模。補助率も事業ごとに設定（1/2〜2/3程度が多い）。\n【申請方法】2025年12月よりJグランツでの応募受付を順次開始。GビズIDが必要。各公募の詳細・締切はNEDO公募情報ページで確認。\n【注意事項】各公募の課題適合性が審査の核心。NEDO事前相談制度の活用を推奨。採択後は研究開発費の直接・間接経費の区分管理が厳格に求められる。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [
+    "研究開発",
+    "デジタル化",
+    "設備投資"
+  ],
+  "usePurpose": null,
+  "status": "open",
+  "workflow": "NEDO（国立研究開発法人 新エネルギー・産業技術総合開発機構）",
+  "subsidizedRate": "1/2〜2/3程度（プログラムにより異なる）",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://www.nedo.go.jp/koubo/index.html",
+  "updatedAt": "2026-05-26T00:00:00.000Z"
+}

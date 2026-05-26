@@ -152549,5 +152549,84 @@
     "startDate": "2026-05-25",
     "endDate": "2026-06-24",
     "updatedAt": "2026-05-26T06:10:57.034Z"
+  },
+  {
+    "id": "national-digital-ai-hojo-2026",
+    "slug": "national-digital-ai-hojo-2026",
+    "title": "デジタル化・AI導入補助金2026",
+    "overview": "中小企業・小規模事業者が業務デジタル化・AI導入に活用できるITツール導入費を補助する制度。旧IT導入補助金の後継。IT導入支援事業者とパートナーシップを組んで申請する。",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "デジタル化",
+      "設備投資"
+    ],
+    "upperLimit": "4,500万円",
+    "isForSME": true,
+    "source": "manual",
+    "startDate": "2026-03-30",
+    "endDate": "2026-06-15",
+    "updatedAt": "2026-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "national-career-up-joseikin",
+    "slug": "national-career-up-joseikin",
+    "title": "キャリアアップ助成金",
+    "overview": "有期雇用・短時間・派遣労働者などの非正規雇用労働者の正社員転換や処遇改善を実施した事業主に助成する制度。雇用保険二事業として全額事業主負担で運営。",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": "80万円（正社員化コース・中小企業・重点支援対象者の場合）",
+    "isForSME": true,
+    "source": "manual",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "national-jinzai-kaihatsu-shien-joseikin",
+    "slug": "national-jinzai-kaihatsu-shien-joseikin",
+    "title": "人材開発支援助成金",
+    "overview": "事業主が雇用する労働者に対し職務関連の専門知識・技能習得訓練を実施した場合に、訓練経費や訓練期間中の賃金の一部を助成する制度。",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": "1,000万円（1事業所1年度あたり）",
+    "isForSME": true,
+    "source": "manual",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "national-nedo-kenkyu-kaihatsu",
+    "slug": "national-nedo-kenkyu-kaihatsu",
+    "title": "NEDO補助金（研究開発・実証事業）",
+    "overview": "国立研究開発法人 新エネルギー・産業技術総合開発機構（NEDO）が実施する研究開発・実証・設備導入補助。AI・DX・半導体・水素・再エネ・ロボット・バイオ等の先端分野が対象。",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "研究開発",
+      "デジタル化",
+      "設備投資"
+    ],
+    "upperLimit": null,
+    "isForSME": false,
+    "source": "manual",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-05-26T00:00:00.000Z"
   }
 ]

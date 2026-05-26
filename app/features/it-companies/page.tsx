@@ -51,8 +51,8 @@ function getItSubsidies(all: SubsidyIndexItem[]): SubsidyIndexItem[] {
 
 const IT_SUBSIDIES = [
   {
-    label: "IT導入補助金",
-    href: "/subsidies?q=IT導入補助金",
+    label: "デジタル化・AI導入補助金",
+    href: "/subsidies/national-digital-ai-hojo-2026",
     amount: "5万〜450万円（セキュリティ枠 最大1,500万円）",
     recommend: 5,
     ease: 4,
@@ -85,7 +85,7 @@ const IT_SUBSIDIES = [
   },
   {
     label: "キャリアアップ助成金",
-    href: "/subsidies?q=キャリアアップ助成金",
+    href: "/subsidies/national-career-up-joseikin",
     amount: "1人あたり最大80万円",
     recommend: 4,
     ease: 4,
@@ -96,7 +96,7 @@ const IT_SUBSIDIES = [
   },
   {
     label: "人材開発支援助成金",
-    href: "/subsidies?q=人材開発支援助成金",
+    href: "/subsidies/national-jinzai-kaihatsu-shien-joseikin",
     amount: "訓練費用の45〜75%（上限あり）",
     recommend: 4,
     ease: 4,
@@ -107,7 +107,7 @@ const IT_SUBSIDIES = [
   },
   {
     label: "NEDO補助金（研究開発系）",
-    href: "/subsidies?q=NEDO",
+    href: "/subsidies/national-nedo-kenkyu-kaihatsu",
     amount: "数百万〜数億円",
     recommend: 4,
     ease: 2,

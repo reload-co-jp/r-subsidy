@@ -31,7 +31,7 @@ function getCases(): ApplicationCase[] {
 
 const PAGE_TITLE = "補助金 申請事例"
 const PAGE_DESCRIPTION =
-  "IT導入補助金・ものづくり補助金・小規模事業者持続化補助金などの実際の申請・採択事例を業種別に紹介。課題・取り組み内容・効果をまとめています。"
+  "デジタル化・AI導入補助金・ものづくり補助金・小規模事業者持続化補助金などの実際の申請・採択事例を業種別に紹介。課題・取り組み内容・効果をまとめています。"
 const PAGE_URL = absoluteUrl("/cases/")
 
 export const metadata: Metadata = {

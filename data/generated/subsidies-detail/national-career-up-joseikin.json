@@ -1,0 +1,28 @@
+{
+  "id": "national-career-up-joseikin",
+  "slug": "national-career-up-joseikin",
+  "title": "キャリアアップ助成金",
+  "overview": "有期雇用・短時間・派遣労働者などの非正規雇用労働者の正社員転換や処遇改善を実施した事業主に助成する制度。雇用保険二事業として全額事業主負担で運営。",
+  "detail": "【正社員化コース】有期→正規転換：重点支援対象者は中小80万円（40万×2期）・大企業60万円、上記以外は中小40万円・大企業30万円。無期→正規転換：重点支援対象者は中小40万円・大企業30万円、上記以外は中小20万円・大企業15万円。1年度1事業所あたり上限人数20名。\n重点支援対象者：雇入れから3年以上の有期雇用労働者、一定条件を満たす有期雇用労働者、派遣労働者・母子家庭の母等・人材開発支援助成金の特定訓練修了者。\n【加算額】正社員化制度新規規定：中小20万円・大企業15万円（1事業所1回のみ）。多様な正社員制度新規規定：中小40万円・大企業30万円。職場情報公表加算：中小20万円・大企業15万円。\n【賃金規定等改定コース】基本給3%以上増額改定：中小4〜7万円/人、大企業2.6〜4.6万円/人（引き上げ率により変動）。上限100名/年度。\n【賃金規定等共通化コース】有期と正規の共通賃金規定新規適用：中小60万円・大企業45万円（1事業所1回のみ）。\n【賞与・退職金制度導入コース】いずれか導入：中小40万円・大企業30万円。両方同時導入：中小56.8万円・大企業42.6万円（1事業所1回のみ）。\n【申請手順】コース実施日の前日までにキャリアアップ計画を管轄労働局へ提出→取組実施→取組後6ヶ月分の賃金支払後2ヶ月以内に支給申請。電子申請は雇用関係助成金ポータル（esop.mhlw.go.jp）から。",
+  "region": "national",
+  "prefectures": [],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": null,
+  "status": "open",
+  "workflow": "都道府県労働局・ハローワーク",
+  "subsidizedRate": null,
+  "upperLimit": "80万円（正社員化コース・中小企業・重点支援対象者の場合）",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "source": "manual",
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html",
+  "updatedAt": "2026-05-26T00:00:00.000Z"
+}

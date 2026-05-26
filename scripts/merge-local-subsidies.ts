@@ -3,6 +3,7 @@ import path from 'path'
 import type { NormalizedSubsidy } from '../lib/types'
 
 const NORMALIZED_FILE = path.join(process.cwd(), 'data', 'normalized', 'jgrants-normalized.json')
+const MANUAL_FILE = path.join(process.cwd(), 'data', 'source', 'manual-subsidies.json')
 const OUT_DIR = path.join(process.cwd(), 'data', 'normalized')
 const MERGED_FILE = path.join(OUT_DIR, 'merged.json')
 
@@ -34,13 +35,17 @@ async function main() {
   const jgrants: NormalizedSubsidy[] = fs.existsSync(NORMALIZED_FILE)
     ? JSON.parse(fs.readFileSync(NORMALIZED_FILE, 'utf-8')).subsidies
     : []
-  const merged: NormalizedSubsidy[] = [...jgrants]
+  const manual: NormalizedSubsidy[] = fs.existsSync(MANUAL_FILE)
+    ? JSON.parse(fs.readFileSync(MANUAL_FILE, 'utf-8'))
+    : []
+  const merged: NormalizedSubsidy[] = [...jgrants, ...manual]
   const payload = {
     counts: {
       jgrants: jgrants.length,
       national: 0,
       tokyo: 0,
       overrides: 0,
+      manual: manual.length,
       total: merged.length,
     },
     subsidies: merged,
@@ -54,7 +59,7 @@ async function main() {
     })
   )
 
-  console.log(`Merged: ${jgrants.length} JGrants = ${merged.length} total`)
+  console.log(`Merged: ${jgrants.length} JGrants + ${manual.length} manual = ${merged.length} total`)
 }
 
 main().catch((err) => {
