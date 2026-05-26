@@ -61,6 +61,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }))
 
+  const allPurposes = [...new Set(subsidies.flatMap((s) => s.purposes))].sort()
+  const purposeRoutes: MetadataRoute.Sitemap = allPurposes.map((purpose) => ({
+    url: `${siteUrl}/subsidies/purpose/${encodeURIComponent(purpose)}/`,
+    lastModified: latestUpdatedAt || today,
+    changeFrequency: "weekly",
+    priority: 0.82,
+  }))
+
+  const allIndustries = [...new Set(subsidies.flatMap((s) => s.industries))].sort()
+  const industryRoutes: MetadataRoute.Sitemap = allIndustries.map((industry) => ({
+    url: `${siteUrl}/subsidies/industry/${encodeURIComponent(industry)}/`,
+    lastModified: latestUpdatedAt || today,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }))
+
   const subsidyRoutes: MetadataRoute.Sitemap = subsidies
     .filter((s) => s.status !== "closed")
     .map((subsidy) => ({
@@ -77,5 +93,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticRoutes, ...prefectureRoutes, ...subsidyRoutes, ...newsRoutes]
+  return [...staticRoutes, ...prefectureRoutes, ...purposeRoutes, ...industryRoutes, ...subsidyRoutes, ...newsRoutes]
 }
