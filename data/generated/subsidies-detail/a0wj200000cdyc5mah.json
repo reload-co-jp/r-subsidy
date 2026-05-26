@@ -20,7 +20,7 @@
     "デジタル化"
   ],
   "usePurpose": "新たな事業を行いたい / 災害（自然災害、感染症等）支援がほしい / 設備整備・IT導入をしたい",
-  "status": "open",
+  "status": "closed",
   "workflow": "水力発電導入促進支援事業費補助金（既存設備有効活用強化支援事業）",
   "subsidizedRate": "「補助金のサマリー」参照",
   "upperLimit": "20,000,000円",
@@ -29,5 +29,5 @@
   "endDate": "2026-05-26",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYc5MAH",
-  "updatedAt": "2026-04-28T07:31:27.737Z"
+  "updatedAt": "2026-05-26T06:10:56.516Z"
 }
