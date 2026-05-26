@@ -29,7 +29,7 @@ jobs:
       - name: Update subsidies
         run: pnpm subsidies:update
         env:
-          JGRANTS_KEYWORDS: ${{ secrets.JGRANTS_KEYWORDS }}
+          JGRANTS_KEYWORDS: "補助,助成,支援"
 
       - name: Commit changes
         run: |
