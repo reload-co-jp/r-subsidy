@@ -105,27 +105,23 @@ export default function DiagnosisClient() {
   const [error, setError] = useState<string | null>(null)
   const [results, setResults] = useState<ScoringResult[]>([])
 
-  const [businessType, setBusinessType] =
-    useState<UserProfile["businessType"]>("corporation")
-  const [prefecture, setPrefecture] = useState("東京都")
-  const [industry, setIndustry] = useState("製造業")
-  const [employeeCount, setEmployeeCount] = useState(20)
-  const [purposes, setPurposes] = useState<string[]>([])
-
-  useEffect(() => {
+  const savedProfile = (() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEY)
-      if (!saved) return
-      const p = JSON.parse(saved)
-      if (p.businessType) setBusinessType(p.businessType)
-      if (p.prefecture) setPrefecture(p.prefecture)
-      if (p.industry) setIndustry(p.industry)
-      if (p.employeeCount != null) setEmployeeCount(p.employeeCount)
-      if (Array.isArray(p.purposes)) setPurposes(p.purposes)
-    } catch (e: unknown) {
-      console.error("Failed to load profile", e)
+      return saved ? JSON.parse(saved) : null
+    } catch {
+      return null
     }
-  }, [])
+  })()
+  const [businessType, setBusinessType] = useState<UserProfile["businessType"]>(
+    savedProfile?.businessType ?? "corporation"
+  )
+  const [prefecture, setPrefecture] = useState(savedProfile?.prefecture ?? "東京都")
+  const [industry, setIndustry] = useState(savedProfile?.industry ?? "製造業")
+  const [employeeCount, setEmployeeCount] = useState<number>(savedProfile?.employeeCount ?? 20)
+  const [purposes, setPurposes] = useState<string[]>(
+    Array.isArray(savedProfile?.purposes) ? savedProfile.purposes : []
+  )
 
   useEffect(() => {
     try {
