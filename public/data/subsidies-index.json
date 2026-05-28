@@ -146153,7 +146153,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -152357,6 +152357,44 @@
     "startDate": "2026-05-01",
     "endDate": "2026-06-30",
     "updatedAt": "2026-05-26T06:10:57.027Z"
+  },
+  {
+    "id": "a0WJ200000CDZCFMA5",
+    "slug": "a0wj200000cdzcfma5",
+    "title": "令和７年度補正グローバルサウス未来志向型共創等事業費補助金（大型実証 非ＡＳＥＡＮ加盟国）",
+    "overview": "令和７年度補正グローバルサウス補助金（大型実証事業実施事業者の募集（補助））",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "学術研究",
+      "専門・技術サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大",
+      "研究開発",
+      "創業",
+      "デジタル化"
+    ],
+    "upperLimit": "4,000,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-30",
+    "updatedAt": "2026-05-28T05:09:33.573Z"
   },
   {
     "id": "a0WJ200000CDZDMMA5",
