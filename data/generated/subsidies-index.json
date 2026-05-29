@@ -120140,7 +120140,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "教育",
       "学習支援業",
@@ -121844,7 +121844,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "医療",
       "福祉"
@@ -126384,7 +126384,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "医療",
       "福祉"
@@ -128991,6 +128991,32 @@
     "updatedAt": "2026-05-26T06:10:54.910Z"
   },
   {
+    "id": "a0WJ200000CDWBJMA5",
+    "slug": "a0wj200000cdwbjma5",
+    "title": "【実績報告：概算払い】東京都生産性向上・職場環境整備等支援事業",
+    "overview": "",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "closed",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "デジタル化"
+    ],
+    "upperLimit": "50,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2025-08-04",
+    "endDate": "2026-05-29",
+    "updatedAt": "2026-05-29T03:49:15.197Z"
+  },
+  {
     "id": "a0WJ200000CDWBgMAP",
     "slug": "a0wj200000cdwbgmap",
     "title": "【環境省】【R7補正】断熱窓への改修促進等による住宅の省エネ・省CO2加速化支援事業",
@@ -130366,6 +130392,58 @@
     "startDate": "2026-04-13",
     "endDate": "2026-09-11",
     "updatedAt": "2026-05-26T06:10:54.992Z"
+  },
+  {
+    "id": "a0WJ200000CDWnlMAH",
+    "slug": "a0wj200000cdwnlmah",
+    "title": "【実績報告：確定払い（費用未確定で交付申請）】東京都生産性向上・職場環境整備等支援事業",
+    "overview": "",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "closed",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "デジタル化"
+    ],
+    "upperLimit": "50,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2025-08-04",
+    "endDate": "2026-05-29",
+    "updatedAt": "2026-05-29T03:49:15.286Z"
+  },
+  {
+    "id": "a0WJ200000CDWnqMAH",
+    "slug": "a0wj200000cdwnqmah",
+    "title": "【実績報告：確定払い（確定額で交付申請）】東京都生産性向上・職場環境整備等支援事業",
+    "overview": "",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "closed",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "デジタル化"
+    ],
+    "upperLimit": "50,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2025-08-04",
+    "endDate": "2026-05-29",
+    "updatedAt": "2026-05-29T03:49:15.286Z"
   },
   {
     "id": "a0WJ200000CDWoFMAX",
@@ -132319,7 +132397,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "情報通信業"
     ],
@@ -132433,7 +132511,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "情報通信業"
     ],
@@ -135534,7 +135612,7 @@
       "富山県",
       "石川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業"
     ],
@@ -136202,7 +136280,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -139061,7 +139139,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -139646,7 +139724,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "電気・ガス・熱供給・水道業"
     ],
@@ -139697,7 +139775,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "電気・ガス・熱供給・水道業"
     ],
@@ -143295,7 +143373,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "情報通信業"
     ],
@@ -144455,7 +144533,7 @@
       "神奈川県",
       "山梨県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -146100,7 +146178,7 @@
     "prefectures": [
       "群馬県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -146340,6 +146418,60 @@
     "startDate": "2026-04-28",
     "endDate": "2027-02-26",
     "updatedAt": "2026-05-26T06:10:56.453Z"
+  },
+  {
+    "id": "a0WJ200000CDYaAMAX",
+    "slug": "a0wj200000cdyaamax",
+    "title": "令和８年度テレワーク定着強化奨励金",
+    "overview": "自社に最適な「テレワークルール（我が社のベストバランス）」等の構築を支援します！",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": "400,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-05-29",
+    "endDate": "2027-02-26",
+    "updatedAt": "2026-05-29T03:49:16.822Z"
   },
   {
     "id": "a0WJ200000CDYaFMAX",
@@ -147949,7 +148081,7 @@
     "prefectures": [
       "愛知県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "学術研究",
@@ -148578,7 +148710,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -149250,6 +149382,61 @@
     "updatedAt": "2026-05-26T06:10:56.740Z"
   },
   {
+    "id": "a0WJ200000CDYldMAH",
+    "slug": "a0wj200000cdyldmah",
+    "title": "令和８年度 エネルギー使用合理化設備導入促進対策費補助金（資源自律経済確立産官学連携加速化事業）",
+    "overview": "資源循環",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大",
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "40,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-05-29",
+    "endDate": "2026-06-30",
+    "updatedAt": "2026-05-29T03:49:17.119Z"
+  },
+  {
     "id": "a0WJ200000CDYliMAH",
     "slug": "a0wj200000cdylimah",
     "title": "【ふくい産業支援センター】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
@@ -149432,7 +149619,7 @@
     "prefectures": [
       "千葉県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -149961,7 +150148,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "運輸業",
       "郵便業"
@@ -150271,7 +150458,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -150812,7 +150999,7 @@
     "overview": "観光による経済効果を全国津々浦々に波及させ、観光消費を効果的に拡大させるとともに、持続的な地方誘客により観光需要の平準化につながるよう、インバウンドの需要分散に資する観光コンテンツ供給の促進を目的とし、地方公共団体、DMO、民間事業者等による、多様な地域資源を活用した観光コンテンツの造成や情報発信、販路開拓等を総合的に支援します。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "複合サービス事業",
       "サービス業（他に分類されないもの）",
@@ -152146,6 +152333,61 @@
     "startDate": "2026-05-17",
     "endDate": "2026-06-05",
     "updatedAt": "2026-05-26T06:10:56.987Z"
+  },
+  {
+    "id": "a0WJ200000CDYyhMAH",
+    "slug": "a0wj200000cdyyhmah",
+    "title": "令和8年度テレワークトータルサポート助成金",
+    "overview": "テレワークの導入・定着・促進を総合的に支援します！",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成"
+    ],
+    "upperLimit": "2,500,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-05-29",
+    "endDate": "2027-02-05",
+    "updatedAt": "2026-05-29T03:49:17.432Z"
   },
   {
     "id": "a0WJ200000CDYzQMAX",

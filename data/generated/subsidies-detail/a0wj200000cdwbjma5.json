@@ -1,0 +1,35 @@
+{
+  "id": "a0WJ200000CDWBJMA5",
+  "slug": "a0wj200000cdwbjma5",
+  "title": "【実績報告：概算払い】東京都生産性向上・職場環境整備等支援事業",
+  "overview": "",
+  "detail": "<p><span style=\"font-size: 20px;\">本フォームは、概算払いにて補助金の交付を受けている医療機関の実績報告用です。</span></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.hokeniryo.metro.tokyo.lg.jp/iryo/jigyo/productivity\" target=\"_blank\">生産性向上・職場環境整備等支援事業|事業主の方へ|東京都保健医療局</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>東京都生産性向上・職場環境等整備支援事業補助金　コールセンター</p><p>電話番号：０５７０－０１８－０８５（平日9時～17時）</p><p>メール　：<a href=\"mailto:tokyo_productivity@jtb.com\" target=\"_blank\" style=\"font-size: 10.5pt;\">tokyo_productivity@jtb.com</a></p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "デジタル化"
+  ],
+  "usePurpose": "雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
+  "status": "closed",
+  "workflow": "東京都生産性向上・職場環境整備等支援事業",
+  "subsidizedRate": "10/10",
+  "upperLimit": "50,000,000円",
+  "lowerLimit": null,
+  "startDate": "2025-08-04",
+  "endDate": "2026-05-29",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDWBJMA5",
+  "updatedAt": "2026-05-29T03:49:15.197Z"
+}
