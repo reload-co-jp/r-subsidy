@@ -62,9 +62,21 @@ async function fetchAllIds(): Promise<string[]> {
   console.log(`Merged unique items: ${items.length}`)
 
   fs.mkdirSync(OUTPUT_DIR, { recursive: true })
+
+  const indexFile = path.join(OUTPUT_DIR, 'jgrants-index.json')
+  let previousFetchedAt: string | null = null
+  if (fs.existsSync(indexFile)) {
+    try {
+      const prev = JSON.parse(fs.readFileSync(indexFile, 'utf-8')) as { fetchedAt?: string }
+      previousFetchedAt = prev.fetchedAt ?? null
+    } catch {
+      // ignore
+    }
+  }
+
   fs.writeFileSync(
-    path.join(OUTPUT_DIR, 'jgrants-index.json'),
-    JSON.stringify({ fetchedAt: new Date().toISOString(), items }, null, 2)
+    indexFile,
+    JSON.stringify({ fetchedAt: new Date().toISOString(), previousFetchedAt, items }, null, 2)
   )
 
   return [...ids]

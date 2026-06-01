@@ -16,6 +16,8 @@ type IndexItem = {
   subsidy_max_limit?: number
 }
 
+type DetailCache = JGrantsDetailResponse & { fetchedAt?: string }
+
 async function fetchDetail(id: string): Promise<JGrantsDetailResponse> {
   const res = await fetch(`${BASE_URL}/${id}`, {
     headers: { 'Content-Type': 'application/json' },
@@ -52,12 +54,13 @@ function hasChanged(cached: JGrantsDetail, item: IndexItem): boolean {
   return false
 }
 
-function readCachedDetail(outFile: string): JGrantsDetail | null {
+function readCachedDetail(outFile: string): { detail: JGrantsDetail | null; fetchedAt: string | null } {
   try {
-    const raw = JSON.parse(fs.readFileSync(outFile, 'utf-8')) as JGrantsDetailResponse
-    return Array.isArray(raw.result) ? raw.result[0] : raw.result
+    const raw = JSON.parse(fs.readFileSync(outFile, 'utf-8')) as DetailCache
+    const detail = Array.isArray(raw.result) ? raw.result[0] : raw.result
+    return { detail: detail ?? null, fetchedAt: raw.fetchedAt ?? null }
   } catch {
-    return null
+    return { detail: null, fetchedAt: null }
   }
 }
 
@@ -68,13 +71,17 @@ async function main() {
     process.exit(1)
   }
 
-  const { items } = JSON.parse(fs.readFileSync(indexFile, 'utf-8')) as {
+  const { items, previousFetchedAt } = JSON.parse(fs.readFileSync(indexFile, 'utf-8')) as {
     items: IndexItem[]
+    previousFetchedAt?: string | null
   }
+
+  const previousFetchedAtDate = previousFetchedAt ? new Date(previousFetchedAt) : null
 
   fs.mkdirSync(DETAIL_DIR, { recursive: true })
 
   let skippedClosed = 0
+  let skippedFresh = 0
   let skippedUnchanged = 0
   let updated = 0
   const targets = items.filter((item) => {
@@ -85,7 +92,11 @@ async function main() {
       return false
     }
     if (fs.existsSync(outFile)) {
-      const cached = readCachedDetail(outFile)
+      const { detail: cached, fetchedAt: detailFetchedAt } = readCachedDetail(outFile)
+      if (previousFetchedAtDate && detailFetchedAt && new Date(detailFetchedAt) > previousFetchedAtDate) {
+        skippedFresh++
+        return false
+      }
       if (cached && !hasChanged(cached, item)) {
         skippedUnchanged++
         return false
@@ -95,7 +106,7 @@ async function main() {
     return true
   })
 
-  console.log(`Total: ${items.length}, Fetch: ${targets.length} (updated: ${updated}), Skipped (closed): ${skippedClosed}, Skipped (unchanged): ${skippedUnchanged}`)
+  console.log(`Total: ${items.length}, Fetch: ${targets.length} (updated: ${updated}), Skipped (closed): ${skippedClosed}, Skipped (fresh): ${skippedFresh}, Skipped (unchanged): ${skippedUnchanged}`)
 
   const errors: { id: string; error: string }[] = []
   let done = 0
@@ -107,7 +118,7 @@ async function main() {
         const outFile = path.join(DETAIL_DIR, `${item.id}.json`)
         const detail = await fetchWithRetry(item.id)
         if (detail) {
-          fs.writeFileSync(outFile, JSON.stringify(detail, null, 2))
+          fs.writeFileSync(outFile, JSON.stringify({ fetchedAt: new Date().toISOString(), ...detail }, null, 2))
         } else {
           errors.push({ id: item.id, error: 'fetch failed' })
         }
