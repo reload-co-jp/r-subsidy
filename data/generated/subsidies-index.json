@@ -115013,7 +115013,7 @@
   {
     "id": "a0WJ200000CDOsKMAX",
     "slug": "a0wj200000cdoskmax",
-    "title": "令和７年度予算　携帯電話等エリア整備事業",
+    "title": "携帯電話等エリア整備事業",
     "overview": "",
     "region": "national",
     "prefectures": [
@@ -115065,7 +115065,7 @@
       "鹿児島県",
       "沖縄県"
     ],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "情報通信業"
     ],
@@ -115080,7 +115080,7 @@
     "isForSME": false,
     "source": "jgrants",
     "startDate": "2025-03-31",
-    "endDate": "2026-03-31",
+    "endDate": "2027-03-31",
     "updatedAt": "2026-05-26T06:10:53.252Z"
   },
   {
@@ -148291,7 +148291,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -149451,7 +149451,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -150408,7 +150408,7 @@
     "overview": "太陽光パネルや車載用バッテリー等の再エネ関連製品に含有されている、非鉄金属・レアメタルを適切にリユース、リサイクルし、また、ガラス等のベース素材の代替を図るための省CO2型のリサイクル技術向上と、リサイクル原料の品質向上を図り、未利用資源の活用体制構築を促進する実証の費用の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -150580,7 +150580,7 @@
     "prefectures": [
       "滋賀県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -155024,6 +155024,31 @@
     "startDate": "2026-04-17",
     "endDate": "2026-06-19",
     "updatedAt": "2026-06-01T14:01:34.422Z"
+  },
+  {
+    "id": "a0WJ200000CDa0xMAD",
+    "slug": "a0wj200000cda0xmad",
+    "title": "情報通信利用促進支援事業費補助金「先進的設備等を活用した放送コンテンツ製作促進事業」二次公募",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "closed",
+    "industries": [
+      "情報通信業",
+      "サービス業（他に分類されないもの）"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "150,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-03-18",
+    "endDate": "2026-04-13",
+    "updatedAt": "2026-06-02T05:47:18.779Z"
   },
   {
     "id": "national-digital-ai-hojo-2026",

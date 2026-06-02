@@ -1,7 +1,7 @@
 {
   "id": "a0WJ200000CDOsKMAX",
   "slug": "a0wj200000cdoskmax",
-  "title": "令和７年度予算　携帯電話等エリア整備事業",
+  "title": "携帯電話等エリア整備事業",
   "overview": "",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■事業の目的:</strong></p><p><span style=\"color: rgb(34, 34, 34); font-size: 16px;\">過疎地、辺地、離島、半島、山村などの地理的に条件不利な地域（以下「条件不利地域」という。）において、携帯電話等を利用可能とするとともに、５Ｇによって高度化された無線通信を可能とすることにより、電波の利用に関する不均衡を緩和し、電波の適正な利用を確保することを目的としています。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■事業の概要:</strong></p><p><span style=\"color: rgb(34, 34, 34); font-size: 16px;\">条件不利地域において、携帯電話等を利用可能とするため又は５Ｇによって高度化された無線通信を可能とするために、地方公共団体、無線通信事業者、インフラシェアリング事業者等が、携帯電話等の基地局施設（鉄塔、無線設備等）、伝送路施設（光ファイバ等）を整備する場合に、これらの費用を国が一部補助するものです。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■問い合わせ先:</strong></p><p><span style=\"color: rgb(15, 15, 15); font-size: 16px;\">総務省総合通信基盤局電波部移動通信課　第一業務係</span></p><p><span style=\"color: rgb(15, 15, 15); font-size: 16px;\">TEL：03-5253-5894</span></p>",
   "region": "national",
@@ -69,13 +69,13 @@
     "デジタル化"
   ],
   "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 事業を引き継ぎたい / 研究開発・実証事業を行いたい / 人材育成を行いたい / 資金繰りを改善したい / 雇用・職場環境を改善したい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい / 教育・子育て・少子化支援がほしい / スポーツ・文化支援がほしい",
-  "status": "closed",
+  "status": "open",
   "workflow": "無線システム普及支援事業費等事業（携帯電話等エリア整備事業）",
   "subsidizedRate": "1/2、2/3、3/5、3/4",
   "upperLimit": "0円",
   "lowerLimit": null,
   "startDate": "2025-03-31",
-  "endDate": "2026-03-31",
+  "endDate": "2027-03-31",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDOsKMAX",
   "updatedAt": "2026-05-26T06:10:53.252Z"
