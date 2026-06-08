@@ -1,12 +1,12 @@
 {
-  "mergedAt": "2026-06-05T06:57:07.838Z",
+  "mergedAt": "2026-06-08T05:36:23.781Z",
   "counts": {
-    "jgrants": 3121,
+    "jgrants": 3126,
     "national": 0,
     "tokyo": 0,
     "overrides": 0,
     "manual": 4,
-    "total": 3125
+    "total": 3130
   },
   "subsidies": [
     {
@@ -134742,7 +134742,7 @@
     {
       "id": "a0WJ200000CDOuuMAH",
       "slug": "a0wj200000cdouumah",
-      "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業",
+      "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業）",
       "overview": "",
       "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>１．本事業は、水素を活用した自立・分散型エネルギーシステムや、水素の需要拡大につながる水素ボイラーや高効率型燃料電池などの設備機器等を導入する経費の一部を補助することにより、再生可能エネルギーの導入拡大を図り、エネルギー起源二酸化炭素の排出抑制に資することを目的とする。</p><p>２．事業の実施により、エネルギー起源二酸化炭素の排出量が確実に削減されることが重要です。このため応募申請においては、二酸化炭素排出削減量について算出過程を含む根拠を明示していただきます。また、事業完了後の一定期間は削減量の実績を報告していただきます。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■対象事業</strong></p><p><strong>A．水素を活用した自立・分散型エネルギーシステム構築事業（自立）</strong></p><p>本事業は、地域防災計画等により災害時に防災拠点等として位置付けられた、あるいはこれから位置付けられる予定の施設において、水素等を活用することで、地域の再エネ等を最大限活用する、自立・分散型のエネルギーシステムの構築を行う事業であって、地域の実情に応じた水素による再エネ等の貯蔵・利用モデルを確立し、再エネ等の導入拡大、CO₂排出削減を目的とし、次の要件に適合する施設・設備を日本国内で導入する設置計画が確実な事業を対象とします。</p><p><br></p><p>＜対象事業の要件＞</p><p>ア　地域での再エネ等普及・拡大の妨げとなっている自然的・社会的条件に基づく課題に対して、地域の実情に応じ、防災、災害時にも有用な公益性のある、水素による再エネの貯蔵・利用モデルとなること。</p><p>イ　CO₂の削減が図れる事業であること。</p><p>ウ　補助対象設備等に該当する蓄電池もしくは燃料電池から出力される電力に関して、一般送配電事業者が管理する送電線・配電線への電力供給は行わないこと。</p><p>エ　再エネ等を地域で最大限活用する将来像を見据え、再エネ等発電設備とともに、下記の補助対象施設・設備等を組合せ、再エネ等由来水素による電気・熱（温水を含む、システム内利用も可）をオンサイトで供給・利用するシステムであること。</p><p>オ　補助対象設備から出力される電力、熱（温水を含む、システム内利用も可）は自家消費すること。</p><p>カ　補助事業を実施する施設が、設置する自治体の地域防災計画、又は協定等により防災拠点等として位置付けられているなど、補助事業の完了後、非常時に地域のエネルギー供給の拠点として活用される見込みがあること。</p><p><br></p><p>＜補助対象施設・設備等＞</p><p>a. 蓄電池</p><p>b. 水電解装置</p><p>c. 給水タンク</p><p>d. 水素貯蔵タンク（圧縮水素、水素吸蔵合金、液化タンク等）</p><p>e. 水素利用機器（燃料電池 （改質器付きを除く）、水素ボイラー等）</p><p>f. 貯湯タンク</p><p>g. エネルギーマネジメントシステム</p><p>h. 熱配管</p><p>i. その他補助対象施設・設備を運用する上で必要と認められる設備</p><p><br></p><p>※ 自立・分散型エネルギーシステムを導入するための施設・設備を対象とし、施設・設備の新設のほか、既設設備の増設、改造する場合も補助対象とします。中古品の設備導入は認められません。</p><p>※本システム外からの購入などにより入手した水素を利用する場合は補助対象外です。</p><p>※太陽光発電や風力発電等の再エネ設備及び蓄電池は、当該自立・分散型エネルギーシステムの水電解装置への専用給電（通常時）が目的の場合にのみ補助対象となります。ただし再エネ発電設備設備からの給電に余剰が生ずる場合に、当該自立・分散型エネルギーシステムを構成する他の設備・機器において消費することは可能です。</p><p>なお、令和８年度～９年度の２年度で本事業を実施する場合は、原則として太陽光発電設備については令和８年度に設置する設備のみが対象となります。</p><p>※IP通信機能を有する機器については、原則として、独立行政法人情報処理推進機構（IPA）による「セキュリティ要件適合評価及びラベリング制度」（JCｰSTAR）の適合ラベル取得製品（★１以上）である場合に、補助対象となります。</p><p>JCｰSTAR適合ラベル取得製品かどうかはIPAのウェブサイト「適合ラベル取得製品リスト」<span style=\"font-size: 10.5pt;\">https://www.ipa.go.jp/security/jc-star/list/jc-star-product-list/index.html </span>で確認してください。</p><p>※導入する自立・分散型エネルギーシステムは原則として、以下の事項（システム機能要件）を満たすものとします。</p><p><span style=\"color: black;\">・</span>災害時など商用電力系統等が遮断された場合でも、システム内の施設・設備に安定的にエネルギーを供給することが可能なシステムであること。</p><p><span style=\"color: black;\">・</span>再エネの変動や負荷側の変化を常に監視し、自動運転するエネルギーマネジメントシステムを実装し、最適なバランスでエネルギーを貯蔵・供給して二酸化炭素の排出削減に寄与するシステムとすること。</p><p><span style=\"color: black;\">・</span>燃料電池から供給される電力が蓄電池から供給される電力よりも優先されるようにエネルギーマネジメントシステムによって設定・稼働されること。</p><p>・自立・分散型エネルギーシステムを構成する設備・機器については、通常時の稼働（エネルギーフロー）及び非常時（系統からのエネルギー供給が無い場合）において必要かつ適正な規模・性能とすること。なお、将来の稼働量を見込んだ大型設備等は認められない。 </p><p><br></p><p>＜事業に関する事項＞</p><p><span style=\"font-size: 13px;\">◇共同実施 </span></p><p><span style=\"font-size: 13px;\">　補助事業を２者以上の事業者が共同で実施する場合には、補助事業に参画するすべての事業者が補助事業対象者に記載の法人・団体に該当することが必要となります。 </span></p><p><span style=\"font-size: 13px;\">　補助事業に参画するすべての事業者のうちの１者（以下「代表事業者」という。）が本補助金の応募等を行い、他の事業者を共同事業者とします。 </span></p><p><span style=\"font-size: 13px;\">　代表事業者は、本事業の交付申請書類の申請者となるほか、補助事業の全部又は一部を自ら行い、かつ、当該補助事業により財産を取得する者に限ります。 </span></p><p><span style=\"font-size: 13px;\">　補助事業として採択された場合には、円滑な事業執行と目標達成のために、その事業の推進に係る取りまとめを行うとともに、実施計画書に記載した事業の実施体制に基づき、具体的な事業計画の作成や、事業の円滑な実施のための進行管理を行っていただくことになります。</span></p><p><span style=\"font-size: 13px;\">　代表事業者及び共同事業者は、特段の理由があり財団が承認した場合を除き、補助事業として採択された後は変更することができません。</span></p><p><span style=\"font-size: 13px;\"> </span></p><p><span style=\"font-size: 13px;\">※ファイナンスリースを利用する場合</span></p><p><span style=\"font-size: 13px;\">　ファイナンスリース事業者を代表事業者とし、設備等を使用する上記ａ．に記載の法人・団体に該当する事業者を共同事業者として申請します。この場合は、リース料から補助金相当分が減額されていること並びに補助事業により導入した設備等を法定耐用年数期間まで継続して使用する契約であることを証明できる書類の提示を条件とします</span></p><p><br></p><p><strong>B．水素利活用機器導入促進及び社会実装支援事業（機器支援）</strong></p><p>本事業は、<span style=\"color: black;\">日本国内において地域の再エネ等を活用し、水素を製造、貯蔵、輸送する地域水素サプライチェーンの社会実装に必要な設備・機器の導入（製造・貯蔵・輸送分野）及び水素の利用拡大に繋がるための設備・機器の導入（利用分野）であって、次の要件に適合する産業用の設備・機器を導入する設置計画が確実な事業。</span></p><p><br></p><p>＜対象事業の要件＞</p><p><span style=\"font-size: 13px;\">ア　</span><span style=\"font-size: 13px; color: black;\">設置場所又は同一地域（その設置場所と同一の都道府県又は隣接する場所として財団が認めるものに限る。）において再エネにより発電した電力を活用して製造した水素を利用する設備・機器であること。また、将来的に再エネ等由来水素への移行する計画がある場合は、副生水素等も対象とする</span><span style=\"font-size: 13px;\">。</span></p><p><span style=\"font-size: 13px;\">イ　CO₂削減が図れる事業であること。（設備における水素の利用割合は問わないこととする）</span></p><p><span style=\"font-size: 13px;\">ウ　水素を燃料とする機器からの電気・熱は自家消費を原則とする。</span></p><p><br></p><p>＜補助対象設備・機器＞</p><p>a. 水電解装置</p><p>b. 給水タンク</p><p>c. 水素貯蔵タンク（バッファタンク、圧縮水素タンク、水素吸蔵合金タンク、液化タンク等）</p><p>d. 水素充填ユニット</p><p>e. 水素を供給、輸送する装置</p><p>f. エネルギーマネジメントシステム</p><p>g. 産業用燃料電池（改質器付きを除く）</p><p>h. 再エネ等由来水素サプライチェーンより供給される水素を燃料とする水素ボイラーや水素発電機などの設備・機器（原則として車両は除く）</p><p>水素のみ燃料とする設備（専焼）、既存燃料と混焼で併用する設備（混焼）のどちらも対象となりますが、混焼設備の補助対象経費は一般的な既存燃料の設備との差額となります。</p><p>i. その他サプライチェーンの社会実装に必要と認める設備</p><p><br></p><p><span style=\"font-size: 13px; color: rgb(36, 36, 36);\">※再エネ等由来水素サプライチェーンを構築するための新設の設備のほか既存設備を活用し新たに再エネ等由来水素サプライチェーンの構築を図る場合にも対象とし、また、当該サプライ チェーンを構成する要素と認められる設備・機器であれば「水電解装置のみ」などの単独の設備・機器を対象とすることが可能です。</span></p><p><span style=\"font-size: 13px; color: rgb(36, 36, 36);\">※再エネ等由来水素の供給が補助対象期間内に整わない場合は、暫定的に苛性ソーダ製造時に生成される副生水素など</span><span style=\"font-size: 13px; color: black;\">、水素生成時にCO2が排出されない水素</span><span style=\"font-size: 13px; color: rgb(36, 36, 36);\">を利用することも可能です。ただし、この際の水素製造に係る設備は補助対象外です。</span></p><p><span style=\"font-size: 13px; color: rgb(36, 36, 36);\">※太陽光発電や風力発電等の再エネ設備および蓄電池の設置は、当該サプライチェーンの水電解装置への専用給電（通常時）が目的の場合のみ補助対象となります。ただし再エネ発電設備や蓄電池からの給電に余剰が生ずる場合に、当該サプライチェーンを構成する他の設備・機器において消費することは可能です。 </span></p><p><span style=\"font-size: 13px;\">なお、令和８年度～９年度の２年度で実施する場合、原則として、太陽光発電設備については令和８年度に設置する設備のみが補助対象となります。</span></p><p><span style=\"font-size: 13px;\">※IP通信機能を有する機器については、原則として、独立行政法人情報処理推進機構（IPA）による「セキュリティ要件適合評価及びラベリング制度」(JC-STAR)の適合ラベル取得製品（★1以上）である場合に、補助対象となります。</span></p><p><span style=\"font-size: 13px;\">JC-STAR適合ラベル取得製品かどうかは、IPAのウェブサイト「適合ラベル取得製品リスト」https://www.ipa.go.jp/security/jc-star/list/jc-star-product-list/index.htmlで確認してください。</span></p><p><span style=\"font-size: 13px; color: rgb(36, 36, 36);\">※水素の運搬に使用するトレーラー等の自動車本体については補助対象外です。</span></p><p><span style=\"font-size: 13px; color: rgb(36, 36, 36);\">※当該サプライチェーンの構築に含まれない設備は補助対象外です。</span></p><p><span style=\"font-size: 13px; color: rgb(36, 36, 36);\">※稼働開始当初に必要な能力の設備が対象となります。</span></p><p><span style=\"font-size: 13px; color: rgb(36, 36, 36);\">※供給される水素の利用対象が燃料電池自動車のみである計画では応募できません。</span></p><p><span style=\"font-size: 13px; color: rgb(36, 36, 36);\">※サプライチェーンを構成する設備・機器については、通常時の稼働（エネルギーフロー）において必要かつ適正な規模・性能であることが必要です。将来の稼働量を見込んだ大型設備等は認められません。</span></p><p><br></p><p><span style=\"font-size: 13px;\">＜事業に関する事項＞</span></p><p><span style=\"font-size: 13px; color: black;\">◇共同実施</span></p><p><span style=\"font-size: 13px;\">　補助事業を２者以上の事業者が共同で実施する場合には、補助事業に参画するすべての事業者が補助事業対象者に記載の法人・団体に該当することが必要となります。</span></p><p><span style=\"font-size: 13px;\">　補助事業に参画するすべての事業者のうちの１者（以下「代表事業者」という。）が本補助金の応募等を行い、他の事業者を共同事業者とします。</span></p><p><span style=\"font-size: 13px;\">　代表事業者は、本事業の交付申請書類の申請者となるほか、補助事業の全部又は一部を自ら行い、かつ、当該補助事業により財産を取得する者に限ります。</span></p><p><span style=\"font-size: 13px;\">　また、代表事業者および共同事業者がそれぞれ交付申請を行うこともできます。この場合、申請者は、補助事業の一部を自ら行い、かつ、財産を取得する者に限ります。</span></p><p><span style=\"font-size: 13px;\">　なお、代表事業者は、当該補助事業の実施に係る全ての責を負うものとし、円滑な事業執行と目標達成のために、その事業の推進に係る取りまとめを行うとともに、実施計画書に記載　した事業の実施体制に基づき、具体的な事業計画の作成や、事業の円滑な実施のための進行管理を行っていただくことになります。加えて、共同事業者が法令等若しくは本公募要領等に違反した場合については、代表事業者がその責を負うものとします。</span></p><p><span style=\"font-size: 13px;\">　代表事業者及び共同事業者は、特段の理由があり財団が承認した場合を除き、補助事業として採択された後は変更することができません。</span></p><p><span style=\"font-size: 13px;\"> </span></p><p><span style=\"font-size: 13px;\">※ファイナンスリースを利用する場合</span></p><p><span style=\"font-size: 13px;\">　ファイナンスリース事業者を代表事業者とし、設備等を使用する上記ａ．に記載の法人・団体に該当する事業者を共同事業者として申請します。この場合は、リース料から補助金相当分が減額されていること並びに補助事業により導入した設備等を法定耐用年数期間まで継続して使用する契約であることを証明できる書類の提示を条件とします。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助事業対象者</strong></p><p>１．民間企業（リース・レンタル事業者を含む。）</p><p>２．地方公共団体</p><p>３．独立行政法人通則法（平成11年法律第103号）第2条第1項に規定する独立行政法人</p><p>４．地方独立行政法人法（平成15年法律第108号）第2条第1項に規定する地方独立行政法人</p><p>５．一般社団法人、一般財団法人及び公益社団法人、公益財団法人</p><p>６．法律により直接設立された法人</p><p>７．その他環境大臣の承認を得て財団が適当と認める者</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p>全国</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請時の依頼事項</strong></p><p><strong>申請後は担当者様のメールアドレス確認のため応募アドレス suiso_oubo@heco-hojo.jp に申請済である旨を記載した電子メールを送付いただきますようお願いいたします。</strong></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>＜メールアドレス＞suiso_oubo@heco-hojo.jp</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>公益財団法人北海道環境財団　ホームページ（http://www.heco-hojo.jp/)</p>",
       "region": "national",
@@ -171103,7 +171103,7 @@
         "省エネ"
       ],
       "usePurpose": "研究開発・実証事業を行いたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "調査等",
       "subsidizedRate": null,
       "upperLimit": "0円",
@@ -178968,6 +178968,39 @@
       "updatedAt": "2026-05-26T06:10:56.792Z"
     },
     {
+      "id": "a0WJ200000CDYoZMAX",
+      "slug": "a0wj200000cdyozmax",
+      "title": "「NEDO先導研究・フロンティア育成事業におけるブレインテック／ ニューロテック領域の動向および事業創出支援に関する調査」の公募",
+      "overview": "",
+      "detail": "<p><span style=\"font-size: 16px;\">※本公募名はシステムの文字数制限により省略されております。正式には以下の公募名称になります。</span></p><p><span style=\"font-size: 16px;\">「NEDO先導研究プログラム／フロンティア育成事業／脳・神経機能の回復・拡張や人機協働を実現するブレインテック・ニューロテック／ブレインテック・ニューロテック領域の動向および事業創出支援に関する調査」の公募</span></p><p><br></p><p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、「NEDO先導研究プログラム／フロンティア育成事業／脳・神経機能の回復・拡張や人機協働を実現するブレインテック・ニューロテック／ブレインテック・ニューロテック領域の動向および事業創出支援に関する調査」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/CD2_100443.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/CD2_100443.html</a></p>",
+      "region": "national",
+      "prefectures": [],
+      "industries": [
+        "学術研究",
+        "専門・技術サービス業"
+      ],
+      "targetNumberOfEmployees": "従業員数の制約なし",
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": false,
+      "purposes": [
+        "研究開発",
+        "省エネ",
+        "デジタル化"
+      ],
+      "usePurpose": "研究開発・実証事業を行いたい",
+      "status": "open",
+      "workflow": "P14004_NEDO先導研究プログラム",
+      "subsidizedRate": null,
+      "upperLimit": "0円",
+      "lowerLimit": null,
+      "startDate": "2026-06-08",
+      "endDate": "2026-07-08",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYoZMAX",
+      "updatedAt": "2026-06-08T05:36:22.090Z"
+    },
+    {
       "id": "a0WJ200000CDYoeMAH",
       "slug": "a0wj200000cdyoemah",
       "title": "令和８年度　ＺＥＢ実証事業",
@@ -179580,7 +179613,7 @@
         "デジタル化"
       ],
       "usePurpose": "災害（自然災害、感染症等）支援がほしい / 設備整備・IT導入をしたい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "二酸化炭素排出抑制対策事業費等補助金（廃棄物処理施設を核とした地域循環共生圏構築促進事業）",
       "subsidizedRate": "①EV収集車・船舶：価格との差額の３／４（ただし上限あり）、②EV収集以外の設備導入事業：補助対象経費の１／２（ただし上限あり）　　公募要領参照",
       "upperLimit": "0円",
@@ -179619,7 +179652,7 @@
         "デジタル化"
       ],
       "usePurpose": "災害（自然災害、感染症等）支援がほしい / 設備整備・IT導入をしたい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "二酸化炭素排出抑制対策事業費等補助金（廃棄物処理施設を核とした地域循環共生圏構築促進事業）",
       "subsidizedRate": "補助対象経費の１／２(但し上限あり）公募要領参照",
       "upperLimit": "0円",
@@ -179658,13 +179691,13 @@
         "デジタル化"
       ],
       "usePurpose": "災害（自然災害、感染症等）支援がほしい / 設備整備・IT導入をしたい",
-      "status": "closed",
+      "status": "open",
       "workflow": "二酸化炭素排出抑制対策事業費等補助金（廃棄物処理施設を核とした地域循環共生圏構築促進事業）",
       "subsidizedRate": "原則、定額、ただし、算出された額が1,500万円を超える場合は、1,500万円",
       "upperLimit": "0円",
       "lowerLimit": null,
-      "startDate": "2026-04-13",
-      "endDate": "2026-05-08",
+      "startDate": "2026-06-08",
+      "endDate": "2026-07-03",
       "source": "jgrants",
       "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYqvMAH",
       "updatedAt": "2026-06-04T06:04:13.469Z"
@@ -180271,7 +180304,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "INPIT外国出願補助金",
       "subsidizedRate": "1/2",
       "upperLimit": "3,000,000円",
@@ -180655,7 +180688,7 @@
       "upperLimit": "0円",
       "lowerLimit": null,
       "startDate": "2026-05-15",
-      "endDate": "2026-06-11",
+      "endDate": "2026-06-18",
       "source": "jgrants",
       "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYuNMAX",
       "updatedAt": "2026-05-26T06:10:56.928Z"
@@ -181812,6 +181845,41 @@
       "source": "jgrants",
       "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZCFMA5",
       "updatedAt": "2026-05-28T05:09:33.573Z"
+    },
+    {
+      "id": "a0WJ200000CDZDCMA5",
+      "slug": "a0wj200000cdzdcma5",
+      "title": "令和8年度_低炭素型ディーゼルトラック普及加速化事業",
+      "overview": "",
+      "detail": "<p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">　一般財団法人環境優良車普及機構（以下「機構」という。）では、環境省から</span>令和8年度二酸化炭素排出抑制対策事業費等補助金（環境配慮型先進トラック・バス導入加速事業（低炭素型ディーゼルトラック普及加速化事業））<span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">の交付決定を受け、機構が管理・運用する補助金を活用して、トラック輸送における二酸化炭素の排出削減を図り、もって地球環境保全に資することを目的として、低炭素型ディーゼルトラックを導入する事業者に対して補助金を交付する事業を実施することとしています。</span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">　本補助金の概要、対象事業、応募方法及びその他の留意事項は、</span>公募要領に記載するとおりですので、応募される方は、公募要領を熟読のうえ、交付規程（令和8年5月12日環補デ第8-006号）に従って手続きを行っていただくようお願いいたします。</p><p><br></p><p><strong style=\"font-size: 10.5pt; color: rgb(0, 111, 173);\">■目的と性格</strong></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">・この補助金は、中小トラック事業者が低炭素型ディーゼルトラックを導入する事業を支援することにより、トラック輸送においてエコドライブを含む燃費改善のための取組を継続的に実施・改善する体制を構築することで二酸化炭素排出削減を図り、もって地球環境保全に資することを目的としています。</span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\"> </span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">・事業の実施によるエネルギー起源二酸化炭素の排出量が確実に削減されることが重要です。このため、事業完了後は事業報告書（燃費改善効果及び二酸化炭素削減効果の実績把握）の提出をしていただくことになります。また適正な財産管理、補助事業である旨の表示(車両へのステッカーの貼付)などが必要です。</span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\"> </span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">・これらの義務が十分果たされないときは、機構より改善のための指導を行うとともに、事態の重大なものについては交付決定を解除することもあります。また、新たな申請を受理しない場合もあります。</span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\"> </span></p><p><strong style=\"font-size: 10.5pt; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">　低炭素型ディーゼルトラックの補助金を受けることができるのは、以下①又は②のいずれかに該当する者が補助対象事業者になります。</span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\"> </span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">　① 以下のア～ウに該当する者であって、中小企業基本法（昭和３８年法律第１５４号）第２条第１項第１号に掲げる中小企業者(資本金３億円以下又は従業員数３００人以下)であること</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">ア　一般貨物自動車運送事業者</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">イ　特定貨物自動車運送事業者</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">ウ　第二種貨物利用運送事業者</span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\"> </span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">　② 上記①に貸渡す自動車リース事業者</span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\"> </span></p><p><strong style=\"font-size: 10.5pt; color: rgb(0, 111, 173);\">■補助対象・補助額</strong></p><p><span style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\">　令和8年4月1日～令和9年1月29日までに新車新規登録された車両。具体的な対象車両区分と対象排出ガス規制識別記号、および補助額は下表のとおりです。</span></p><p><span style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\"> </span></p><p class=\"ql-indent-1\"><span style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\"> ※廃車の要件等については、</span><a href=\"https://www.levo.or.jp/wp-content/uploads/shinsakijun.pdf\" target=\"_blank\" style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\">審査基準</a><span style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\">をご参照ください。</span></p><p><br></p><p><strong style=\"font-size: 10.5pt; color: rgb(0, 111, 173);\">■申請台数</strong></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">　1事業者あたり4台 </span></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">　※提出書類は1台につき一式必要となります。</span></p><p><br></p><p><strong style=\"font-size: 10.5pt; color: rgb(0, 111, 173);\">■予算総額</strong></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">　約28億円</span></p><p><br></p><p><strong style=\"font-size: 10.5pt; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">　</span><a href=\"https://www.levo.or.jp/subsidy/diesel/\" target=\"_blank\" style=\"font-size: 10.5pt; color: rgb(62, 62, 60);\">https://www.levo.or.jp/subsidy/diesel/</a></p><p><br></p><p><br></p><p><strong style=\"font-size: 10.5pt; font-family: Tahoma, sans-serif; color: rgb(0, 111, 173);\">﻿</strong><strong style=\"font-size: 10.5pt; color: rgb(0, 111, 173);\">■備考</strong></p><p><span style=\"font-size: 10.5pt; color: black;\">　Ｊグランツからの申請が使用できるのは、申請者のみです。代理人による申請はできません。</span></p><p><br></p><p><strong style=\"font-size: 10.5pt; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\">　一般財団法人環境優良車普及機構</span></p><p><span style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\">　補助事業執行部　低炭素型ディーゼル車普及事業</span></p><p><span style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\">　・電　話 ：　０３－５３４１－４５７７</span></p><p><span style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\">　・ＦＡＸ ：　０３－５３４１－４５７８</span></p><p><span style=\"font-size: 10.5pt; color: rgb(51, 51, 51);\">　・Ｅ-mail：　</span>hojokin*levo.or.jp　←「*」を「@」へ変更してください。8</p>",
+      "region": "national",
+      "prefectures": [],
+      "industries": [
+        "運輸業",
+        "郵便業",
+        "金融業",
+        "保険業"
+      ],
+      "targetNumberOfEmployees": "従業員数の制約なし",
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "設備投資",
+        "創業",
+        "省エネ"
+      ],
+      "usePurpose": "エコ・SDGs活動支援がほしい",
+      "status": "open",
+      "workflow": "二酸化炭素排出抑制対策事業費等補助金 環境配慮型先進トラック・バス導入加速事業",
+      "subsidizedRate": "公募要領を参照",
+      "upperLimit": "0円",
+      "lowerLimit": null,
+      "startDate": "2026-06-08",
+      "endDate": "2027-01-29",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZDCMA5",
+      "updatedAt": "2026-06-08T05:36:22.806Z"
     },
     {
       "id": "a0WJ200000CDZDMMA5",
@@ -183124,6 +183192,69 @@
       "updatedAt": "2026-06-01T14:01:34.411Z"
     },
     {
+      "id": "a0WJ200000CDZkdMAH",
+      "slug": "a0wj200000cdzkdmah",
+      "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（地域共創・セクター横断型カーボンニュートラル技術開発・実証事業（うちスタートアップ企業に対する事業促進支援事業））",
+      "overview": "",
+      "detail": "<p><strong style=\"font-size: 24px; color: rgb(0, 111, 173);\">※詳細につきましては以下よりご確認ください。</strong></p><p><span style=\"font-size: 24px;\">　</span><a href=\"https://siz-kankyou.com/2026sector/\" target=\"_blank\" style=\"font-size: 24px;\">https://siz-kankyou.com/2026sector/</a></p><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■目的</strong></p><p><span style=\"font-size: 16px;\">　スタートアップを主とした中小企業等が行うエネルギー起源CO2の排出抑制に資する研究開発事業等を支援することにより、新規産業の創出・成長による脱炭素社会の実現に資することを目的とする。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■補助金交付額</strong></p><p><span style=\"font-size: 16px;\">　●POC・FS支援</span></p><p><span style=\"font-size: 16px;\">\t定額（上限1,000万円）</span></p><p><span style=\"font-size: 16px;\">\t </span></p><p><span style=\"font-size: 16px;\">　●小規模研究開発支援</span></p><p><span style=\"font-size: 16px;\">\t定額（上限5,000万円）</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p style=\"text-align: justify;\"><span style=\"font-size: 16px;\">　一般社団法人静岡県環境資源協会　省CO2促進事業支援センター</span></p><p style=\"text-align: justify;\"><span style=\"font-size: 16px;\">（E-mail：</span><span style=\"font-size: 10.5pt;\">sector@siz-kankyou.or.jp</span><span style=\"font-size: 16px;\">）</span></p>",
+      "region": "national",
+      "prefectures": [],
+      "industries": [
+        "漁業",
+        "建設業",
+        "製造業",
+        "電気・ガス・熱供給・水道業",
+        "情報通信業",
+        "複合サービス事業",
+        "サービス業（他に分類されないもの）",
+        "公務（他に分類されるものを除く）",
+        "分類不能の産業",
+        "農業",
+        "林業",
+        "鉱業",
+        "採石業",
+        "砂利採取業",
+        "運輸業",
+        "郵便業",
+        "卸売業",
+        "小売業",
+        "金融業",
+        "保険業",
+        "不動産業",
+        "物品賃貸業",
+        "学術研究",
+        "専門・技術サービス業",
+        "宿泊業",
+        "飲食サービス業",
+        "生活関連サービス業",
+        "娯楽業",
+        "教育",
+        "学習支援業",
+        "医療",
+        "福祉"
+      ],
+      "targetNumberOfEmployees": "従業員数の制約なし",
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "研究開発",
+        "創業",
+        "省エネ"
+      ],
+      "usePurpose": "研究開発・実証事業を行いたい",
+      "status": "open",
+      "workflow": "地域共創・セクター横断型カーボンニュートラル技術開発・実証事業",
+      "subsidizedRate": "定額",
+      "upperLimit": "0円",
+      "lowerLimit": null,
+      "startDate": "2026-06-08",
+      "endDate": "2026-06-30",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZkdMAH",
+      "updatedAt": "2026-06-08T05:36:22.947Z"
+    },
+    {
       "id": "a0WJ200000CDZxtMAH",
       "slug": "a0wj200000cdzxtmah",
       "title": "令和８年度 スマート保安実証支援事業費補助金（技術実証支援）_令和８年度_第１回",
@@ -183793,6 +183924,103 @@
       "source": "jgrants",
       "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaBZMA1",
       "updatedAt": "2026-06-04T06:04:13.739Z"
+    },
+    {
+      "id": "a0WJ200000CDaKjMAL",
+      "slug": "a0wj200000cdakjmal",
+      "title": "神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金",
+      "overview": "神奈川県障害福祉サービス事業所等及び障害福祉施設等が必要な障害福祉サービスを円滑に継続するため、将来的に必要となる設備・備品の購入費等及び食料品の購入費等の一部を補助します。",
+      "detail": "<p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 16px;\">　「神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金交付要綱」に基づき、障害福祉サービス事業所及び障害福祉施設等が、物価上昇の影響等がある中でも、必要な障害福祉サービスを円滑に継続するため、将来的に必要となる設備・備品の購入費等及び食料品の購入費等の一部を補助する。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■根拠法令</strong></p><p><span style=\"font-size: 16px;\">　神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金交付要綱</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 16px;\">　交付要綱参照</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■地理条件</strong></p><p><span style=\"font-size: 16px;\">　神奈川県内に所在するもの、かつ申請日時点で神奈川県又は所管市町村の指定等を受け、現に運営をしているもの。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 16px;\">　サービス継続支援事業コールセンター</span></p><p><span style=\"font-size: 16px;\">　電話　050-5527-2125（月曜日～金曜日（祝日を除く）9時30分～17時00分）</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■交付要綱、様式、よくある問合せ等</strong></p><p><span style=\"font-size: 16px;\">　下記リンクの神奈川県ホームページに最新版を掲載していますので、ご確認ください。</span></p><p><br></p><p><span style=\"font-size: 16px;\">（ホームページリンク）</span></p><p><span style=\"font-size: 16px;\">　</span><a href=\"https://www.pref.kanagawa.jp/docs/dn6/seihigaiboushi/servicekeizoku.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.pref.kanagawa.jp/docs/dn6/seihigaiboushi/servicekeizoku.html</a></p>",
+      "region": "prefecture",
+      "prefectures": [
+        "神奈川県"
+      ],
+      "industries": [
+        "医療",
+        "福祉"
+      ],
+      "targetNumberOfEmployees": "従業員数の制約なし",
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": false,
+      "purposes": [
+        "設備投資"
+      ],
+      "usePurpose": "資金繰りを改善したい / 安全・防災対策支援がほしい",
+      "status": "open",
+      "workflow": "神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業",
+      "subsidizedRate": null,
+      "upperLimit": "0円",
+      "lowerLimit": null,
+      "startDate": "2026-06-07",
+      "endDate": "2026-06-26",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaKjMAL",
+      "updatedAt": "2026-06-06T14:20:44.701Z"
+    },
+    {
+      "id": "a0WJ200000CDaPKMA1",
+      "slug": "a0wj200000cdapkma1",
+      "title": "【愛媛県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）第１回募集",
+      "overview": "【愛媛県】海外出願補助金",
+      "detail": "<p><strong style=\"color: rgb(0, 111, 173); font-size: 10pt;\">■目的・概要</strong></p><p><span style=\"font-size: 10pt;\">中小企業者等の戦略的な海外出願を促進するため、外国への事業展開等を計画している中小企業者等に対して海外出願にかかる費用の一部を助成します。</span></p><p><span style=\"font-size: 10pt;\"> </span></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 10pt;\">■補助率</strong></p><p><span style=\"font-size: 10pt;\">助成対象経費の１／２以内</span></p><p><span style=\"font-size: 10pt;\"> </span></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 10pt;\">■上限額</strong></p><p><span style=\"font-size: 10pt;\">１企業あたり：３００万円</span></p><p><span style=\"font-size: 10pt;\">１案件あたり：</span></p><p><span style=\"font-size: 10pt;\">特許　１５０万円</span></p><p><span style=\"font-size: 10pt;\">実用新案・意匠・商標　それぞれ６０万円</span></p><p><span style=\"font-size: 10pt;\">抜け駆け対策商標　３０万円</span></p><p><span style=\"font-size: 10pt;\">※予算の状況等により、申請金額から減額して交付決定を行う場合があります。</span></p><p><span style=\"font-size: 10pt;\"> </span></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 10pt;\">■助成対象費用</strong></p><p><span style=\"font-size: 10pt;\">①外国特許庁への出願手数料</span></p><p><span style=\"font-size: 10pt;\">②①に要する国内代理人・現地代理人費用</span></p><p><span style=\"font-size: 10pt;\">③①に要する翻訳費用</span></p><p><span style=\"font-size: 10pt;\">※日本国内における消費税及び地方消費税は、補助対象経費となりません。</span></p><p><span style=\"font-size: 10pt;\"> </span></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 10pt;\">■応募資格</strong></p><p><span style=\"\">交付申請時に以下の要件を満たすこと。</span></p><p><span style=\"\">・中小企業者又は中小企業者で構成されるグループ（構成員のうち中小企業者が２/３以上占めるもの）。ただし、みなし大企業（※）を除く。</span></p><p><span style=\"\">（※）みなし大企業とは、以下（ア）～（オ）に該当する企業をいう。</span></p><p><span style=\"\">（ア）発行済株式の総数又は出資価格の総額の２分の１以上を同一の大企業が所有している中小企業者等</span></p><p><span style=\"\">（イ）発行済株式の総数又は出資価格の総額の３分の２以上を複数の大企業が所有している中小企業者等</span></p><p><span style=\"\">（ウ）大企業の役員又は職員を兼ねている者が、役員総数の２分の１以上を占めている中小企業者等</span></p><p><span style=\"\">（エ）資本金又は出資の総額が５億円以上の法人に直接又は間接に１００％の株式を保有される中小企業者等</span></p><p><span style=\"\">（オ）間接補助金申請時において、確定している（申告済みの）直近過去３年分の各年又は各事業年度の課税所得の年平均額が１５億円を超える中小企業者等</span></p><p><span style=\"\"> </span></p><p><span style=\"\">・地域団体商標の外国出願については商工会議所、商工会、NPO法人等が対象。</span></p><p><span style=\"\"> </span></p><p><span style=\"\">・</span><span style=\"color: black;\">以下（１）～（４）を満たすこと。</span></p><p><span style=\"color: black;\">（１）応募時に既に日本国特許庁に対して特許、実用新案、意匠又は商標出願済みであり、採択後にその出願を基礎に優先権主張をして外国出願を年度内に行う予定であること</span></p><p><span style=\"color: black;\">※商標出願については優先権がない外国出願も可とします。</span></p><p><span style=\"color: black;\">※日本の特許出願を優先権主張の基礎にしないPCT出願（ダイレクトPCT出願を含む。）については、日本への国内移行予定のものに限ります。</span></p><p><span style=\"color: black;\">※優先権がないハーグ出願については、出願時に日本国を指定締約国に含むものに限ります。</span></p><p><span style=\"color: black;\">（２）先行技術調査等の結果からみて、外国での権利取得の可能性が明らかに否定されないこと。</span></p><p><span style=\"color: black;\">（３）外国で権利が成立した場合等において「当該権利を活用した事業展開を計画している」又は「商標出願に関し、外国における抜け駆け出願対策の意思を有している」こと。</span></p><p><span style=\"color: black;\">※抜け駆け出願とは、悪意の第三者による抜け駆け出願のこと。</span></p><p><span style=\"color: black;\">（４）外国出願に必要な資金能力及び資金計画を有していること。</span></p><p><span style=\"\">※採択された場合は、企業名・所在地等について公表いたします。</span></p><p><span style=\"\">※採択された場合は、事業完了後５年間の状況調査（フォローアップ調査、ヒアリング等）を行います。</span></p><p><span style=\"font-size: 10pt;\"> </span></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 10pt;\">■選考方法</strong></p><p><span style=\"color: rgb(2, 21, 31); font-size: 10pt;\">選定委員会において、書面又は事業者のプレゼンテーション等の方法で採択を決定します。</span></p><p><span style=\"font-size: 10pt;\"> </span></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 10pt;\">■備考</strong></p><p><span style=\"font-size: 10pt;\">①jGrants上に入力しただけでは、申請受付となりません。</span></p><p><span style=\"font-size: 10pt;\">交付申請書及び添付書類を必ず郵送にてご提出ください（6月30日(月)17:00必着）。</span></p><p><span style=\"font-size: 10pt;\">また、交付申請書(Word版)を電子メールで送付してください。 </span></p><p><span style=\"font-size: 10pt;\">＜本補助金事業に関する問合せ先・書類提出先＞</span></p><p><span style=\"color: black; font-size: 10pt;\">〒791-1101</span></p><p><span style=\"color: black; font-size: 10pt;\">松山市久米窪田町337-1　テクノプラザ愛媛</span></p><p><span style=\"color: black; font-size: 10pt;\">公益財団法人えひめ産業振興財団　産学官連携推進課（担当：篠﨑）</span></p><p><span style=\"color: black; font-size: 10pt;\">Tel:089-960-1294</span></p><p><span style=\"color: black; font-size: 10pt;\">E-male：k-shinozaki@ehime-iinet.or.jp</span></p><p><span style=\"font-size: 10pt;\">②要件及び申請様式については､詳細欄の公募要領、財団HP（下記、■参照URL）にてご確認ください。</span></p><p><span style=\"font-size: 10pt;\"> </span></p><p><span style=\"font-size: 10pt;\">③複数案件申請される場合は、案件の数だけお申し込みください。</span></p><p><span style=\"font-size: 10pt;\"> </span></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 10pt;\">■参照URL</strong></p><p><span style=\"color: rgb(68, 68, 68); font-size: 10pt;\">https://www.ehime-iinet.or.jp/subsidy</span></p>",
+      "region": "prefecture",
+      "prefectures": [
+        "愛媛県"
+      ],
+      "industries": [
+        "漁業",
+        "建設業",
+        "製造業",
+        "電気・ガス・熱供給・水道業",
+        "情報通信業",
+        "複合サービス事業",
+        "サービス業（他に分類されないもの）",
+        "公務（他に分類されるものを除く）",
+        "分類不能の産業",
+        "農業",
+        "林業",
+        "鉱業",
+        "採石業",
+        "砂利採取業",
+        "運輸業",
+        "郵便業",
+        "卸売業",
+        "小売業",
+        "金融業",
+        "保険業",
+        "不動産業",
+        "物品賃貸業",
+        "学術研究",
+        "専門・技術サービス業",
+        "宿泊業",
+        "飲食サービス業",
+        "生活関連サービス業",
+        "娯楽業",
+        "教育",
+        "学習支援業",
+        "医療",
+        "福祉"
+      ],
+      "targetNumberOfEmployees": "300名以下",
+      "employeeMin": null,
+      "employeeMax": 300,
+      "isForSME": true,
+      "purposes": [
+        "販路拡大",
+        "研究開発"
+      ],
+      "usePurpose": "販路拡大・海外展開をしたい",
+      "status": "open",
+      "workflow": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+      "subsidizedRate": "1/2以内",
+      "upperLimit": "3,000,000円",
+      "lowerLimit": null,
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-30",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaPKMA1",
+      "updatedAt": "2026-06-06T14:20:44.701Z"
     },
     {
       "id": "national-digital-ai-hojo-2026",

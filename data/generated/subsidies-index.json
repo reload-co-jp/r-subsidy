@@ -115202,7 +115202,7 @@
   {
     "id": "a0WJ200000CDOuuMAH",
     "slug": "a0wj200000cdouumah",
-    "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業",
+    "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（再エネ等由来水素を活用した自立・分散型エネルギーシステム構築等事業）",
     "overview": "",
     "region": "national",
     "prefectures": [],
@@ -145122,7 +145122,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "学術研究",
       "専門・技術サービス業"
@@ -151697,6 +151697,30 @@
     "updatedAt": "2026-05-26T06:10:56.792Z"
   },
   {
+    "id": "a0WJ200000CDYoZMAX",
+    "slug": "a0wj200000cdyozmax",
+    "title": "「NEDO先導研究・フロンティア育成事業におけるブレインテック／ ニューロテック領域の動向および事業創出支援に関する調査」の公募",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "purposes": [
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-08",
+    "endDate": "2026-07-08",
+    "updatedAt": "2026-06-08T05:36:22.090Z"
+  },
+  {
     "id": "a0WJ200000CDYoeMAH",
     "slug": "a0wj200000cdyoemah",
     "title": "令和８年度　ＺＥＢ実証事業",
@@ -152198,7 +152222,7 @@
     "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -152228,7 +152252,7 @@
     "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -152258,7 +152282,7 @@
     "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -152277,8 +152301,8 @@
     "upperLimit": "0円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-04-13",
-    "endDate": "2026-05-08",
+    "startDate": "2026-06-08",
+    "endDate": "2026-07-03",
     "updatedAt": "2026-06-04T06:04:13.469Z"
   },
   {
@@ -152749,7 +152773,7 @@
     "overview": "中小企業者等の外国での特許、実用新案、意匠、商標の権利取得を支援します！",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -153107,7 +153131,7 @@
     "isForSME": false,
     "source": "jgrants",
     "startDate": "2026-05-15",
-    "endDate": "2026-06-11",
+    "endDate": "2026-06-18",
     "updatedAt": "2026-05-26T06:10:56.928Z"
   },
   {
@@ -154037,6 +154061,32 @@
     "startDate": "2026-06-01",
     "endDate": "2026-06-30",
     "updatedAt": "2026-05-28T05:09:33.573Z"
+  },
+  {
+    "id": "a0WJ200000CDZDCMA5",
+    "slug": "a0wj200000cdzdcma5",
+    "title": "令和8年度_低炭素型ディーゼルトラック普及加速化事業",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "運輸業",
+      "郵便業",
+      "金融業",
+      "保険業"
+    ],
+    "purposes": [
+      "設備投資",
+      "創業",
+      "省エネ"
+    ],
+    "upperLimit": "0円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-06-08",
+    "endDate": "2027-01-29",
+    "updatedAt": "2026-06-08T05:36:22.806Z"
   },
   {
     "id": "a0WJ200000CDZDMMA5",
@@ -155142,6 +155192,60 @@
     "updatedAt": "2026-06-01T14:01:34.411Z"
   },
   {
+    "id": "a0WJ200000CDZkdMAH",
+    "slug": "a0wj200000cdzkdmah",
+    "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（地域共創・セクター横断型カーボンニュートラル技術開発・実証事業（うちスタートアップ企業に対する事業促進支援事業））",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "研究開発",
+      "創業",
+      "省エネ"
+    ],
+    "upperLimit": "0円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-06-08",
+    "endDate": "2026-06-30",
+    "updatedAt": "2026-06-08T05:36:22.947Z"
+  },
+  {
     "id": "a0WJ200000CDZxtMAH",
     "slug": "a0wj200000cdzxtmah",
     "title": "令和８年度 スマート保安実証支援事業費補助金（技術実証支援）_令和８年度_第１回",
@@ -155694,6 +155798,85 @@
     "startDate": "2026-05-31",
     "endDate": "2026-06-30",
     "updatedAt": "2026-06-04T06:04:13.739Z"
+  },
+  {
+    "id": "a0WJ200000CDaKjMAL",
+    "slug": "a0wj200000cdakjmal",
+    "title": "神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金",
+    "overview": "神奈川県障害福祉サービス事業所等及び障害福祉施設等が必要な障害福祉サービスを円滑に継続するため、将来的に必要となる設備・備品の購入費等及び食料品の購入費等の一部を補助します。",
+    "region": "prefecture",
+    "prefectures": [
+      "神奈川県"
+    ],
+    "status": "open",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-07",
+    "endDate": "2026-06-26",
+    "updatedAt": "2026-06-06T14:20:44.701Z"
+  },
+  {
+    "id": "a0WJ200000CDaPKMA1",
+    "slug": "a0wj200000cdapkma1",
+    "title": "【愛媛県】令和８年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）第１回募集",
+    "overview": "【愛媛県】海外出願補助金",
+    "region": "prefecture",
+    "prefectures": [
+      "愛媛県"
+    ],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "販路拡大",
+      "研究開発"
+    ],
+    "upperLimit": "3,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-30",
+    "updatedAt": "2026-06-06T14:20:44.701Z"
   },
   {
     "id": "national-digital-ai-hojo-2026",

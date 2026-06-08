@@ -1,0 +1,33 @@
+{
+  "id": "a0WJ200000CDaKjMAL",
+  "slug": "a0wj200000cdakjmal",
+  "title": "神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金",
+  "overview": "神奈川県障害福祉サービス事業所等及び障害福祉施設等が必要な障害福祉サービスを円滑に継続するため、将来的に必要となる設備・備品の購入費等及び食料品の購入費等の一部を補助します。",
+  "detail": "<p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 16px;\">　「神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金交付要綱」に基づき、障害福祉サービス事業所及び障害福祉施設等が、物価上昇の影響等がある中でも、必要な障害福祉サービスを円滑に継続するため、将来的に必要となる設備・備品の購入費等及び食料品の購入費等の一部を補助する。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■根拠法令</strong></p><p><span style=\"font-size: 16px;\">　神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金交付要綱</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 16px;\">　交付要綱参照</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■地理条件</strong></p><p><span style=\"font-size: 16px;\">　神奈川県内に所在するもの、かつ申請日時点で神奈川県又は所管市町村の指定等を受け、現に運営をしているもの。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 16px;\">　サービス継続支援事業コールセンター</span></p><p><span style=\"font-size: 16px;\">　電話　050-5527-2125（月曜日～金曜日（祝日を除く）9時30分～17時00分）</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■交付要綱、様式、よくある問合せ等</strong></p><p><span style=\"font-size: 16px;\">　下記リンクの神奈川県ホームページに最新版を掲載していますので、ご確認ください。</span></p><p><br></p><p><span style=\"font-size: 16px;\">（ホームページリンク）</span></p><p><span style=\"font-size: 16px;\">　</span><a href=\"https://www.pref.kanagawa.jp/docs/dn6/seihigaiboushi/servicekeizoku.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.pref.kanagawa.jp/docs/dn6/seihigaiboushi/servicekeizoku.html</a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "資金繰りを改善したい / 安全・防災対策支援がほしい",
+  "status": "open",
+  "workflow": "神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業",
+  "subsidizedRate": null,
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-06-07",
+  "endDate": "2026-06-26",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaKjMAL",
+  "updatedAt": "2026-06-06T14:20:44.701Z"
+}
