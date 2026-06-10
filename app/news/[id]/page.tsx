@@ -177,11 +177,7 @@ const Page: FC<Props> = async ({ params }) => {
         </p>
 
         <div
-          style={{
-            color: "var(--text-base)",
-            fontSize: ".9rem",
-            lineHeight: 1.8,
-          }}
+          style={{ color: "var(--text-base)" }}
           className="rich-html"
         >
           <ReactMarkdown>{item.body}</ReactMarkdown>
