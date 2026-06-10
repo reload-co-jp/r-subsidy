@@ -161,9 +161,16 @@ export default function DiagnosisClient() {
         employeeCount,
         purposes,
       }
-      const activeSubsidies = subsidies.filter(
-        (subsidy) => subsidy.status !== "closed"
-      )
+      const activeSubsidies = subsidies.filter((subsidy) => {
+        if (subsidy.status === "closed") return false
+        if (subsidy.region === "tokyo" && prefecture !== "東京都") return false
+        if (
+          subsidy.region === "prefecture" &&
+          subsidy.prefectures.length > 0 &&
+          !subsidy.prefectures.includes(prefecture)
+        ) return false
+        return true
+      })
       const scored = scoreAndSort(activeSubsidies, profile)
       setResults(scored)
       setStep("result")
