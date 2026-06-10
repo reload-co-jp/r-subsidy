@@ -105,35 +105,33 @@ export default function DiagnosisClient() {
   const [error, setError] = useState<string | null>(null)
   const [results, setResults] = useState<ScoringResult[]>([])
 
-  const savedProfile = (() => {
+  const [businessType, setBusinessType] = useState<UserProfile["businessType"]>("corporation")
+  const [prefecture, setPrefecture] = useState("東京都")
+  const [industry, setIndustry] = useState("製造業")
+  const [employeeCount, setEmployeeCount] = useState<number>(20)
+  const [purposes, setPurposes] = useState<string[]>([])
+
+  useEffect(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEY)
-      return saved ? JSON.parse(saved) : null
+      if (saved) {
+        const p = JSON.parse(saved)
+        if (p.businessType) setBusinessType(p.businessType)
+        if (p.prefecture) setPrefecture(p.prefecture)
+        if (p.industry) setIndustry(p.industry)
+        if (typeof p.employeeCount === "number") setEmployeeCount(p.employeeCount)
+        if (Array.isArray(p.purposes)) setPurposes(p.purposes)
+      }
     } catch {
-      return null
+      // ignore
     }
-  })()
-  const [businessType, setBusinessType] = useState<UserProfile["businessType"]>(
-    savedProfile?.businessType ?? "corporation"
-  )
-  const [prefecture, setPrefecture] = useState(savedProfile?.prefecture ?? "東京都")
-  const [industry, setIndustry] = useState(savedProfile?.industry ?? "製造業")
-  const [employeeCount, setEmployeeCount] = useState<number>(savedProfile?.employeeCount ?? 20)
-  const [purposes, setPurposes] = useState<string[]>(
-    Array.isArray(savedProfile?.purposes) ? savedProfile.purposes : []
-  )
+  }, [])
 
   useEffect(() => {
     try {
       localStorage.setItem(
         STORAGE_KEY,
-        JSON.stringify({
-          businessType,
-          prefecture,
-          industry,
-          employeeCount,
-          purposes,
-        })
+        JSON.stringify({ businessType, prefecture, industry, employeeCount, purposes })
       )
     } catch (e: unknown) {
       console.error("Failed to save profile", e)
