@@ -1,12 +1,23 @@
 "use client"
 
-import Link from "next/link"
+import { useRouter } from "next/navigation"
 
 export default function PurposeTagLink({ purpose }: { purpose: string }) {
+  const router = useRouter()
   return (
-    <Link
-      href={`/subsidies/purpose/${encodeURIComponent(purpose)}/`}
-      onClick={(e) => e.stopPropagation()}
+    <span
+      role="link"
+      tabIndex={0}
+      onClick={(e) => {
+        e.stopPropagation()
+        router.push(`/subsidies/purpose/${encodeURIComponent(purpose)}/`)
+      }}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.stopPropagation()
+          router.push(`/subsidies/purpose/${encodeURIComponent(purpose)}/`)
+        }
+      }}
       style={{
         backgroundColor: "var(--bg-tag)",
         color: "#38b48b",
@@ -15,9 +26,10 @@ export default function PurposeTagLink({ purpose }: { purpose: string }) {
         fontSize: ".75rem",
         textDecoration: "none",
         display: "inline-block",
+        cursor: "pointer",
       }}
     >
       {purpose}
-    </Link>
+    </span>
   )
 }
