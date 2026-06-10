@@ -3,9 +3,9 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
-import ReactMarkdown from "react-markdown"
 import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl } from "../../../lib/site"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
+import { RichMarkdown } from "../../../components/elements/rich-markdown"
 import type { SubsidyNews } from "../page"
 
 export const dynamicParams = false
@@ -180,7 +180,7 @@ const Page: FC<Props> = async ({ params }) => {
           style={{ color: "var(--text-base)" }}
           className="rich-html"
         >
-          <ReactMarkdown>{item.body}</ReactMarkdown>
+          <RichMarkdown>{item.body}</RichMarkdown>
         </div>
       </div>
 

@@ -103,61 +103,29 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             </Script>
           </>
         )}
-        <header
-          style={{
-            backgroundColor: "var(--bg-header)",
-            boxShadow: "0 2px 10px rgba(34,50,45,0.08)",
-            padding: "0 1.5rem",
-            position: "sticky",
-            top: 0,
-            zIndex: 100,
-            borderBottom: "1px solid var(--border-soft)",
-          }}
-        >
-          <nav
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "2rem",
-              height: "56px",
-            }}
-          >
-            <Link
-              href="/"
-              style={{
-                color: "#38b48b",
-                textDecoration: "none",
-                fontWeight: "bold",
-                fontSize: "1rem",
-                letterSpacing: "0.02em",
-              }}
-            >
+        <header className="site-header">
+          <nav className="site-nav" aria-label="グローバルナビゲーション">
+            <Link href="/" className="site-logo">
               RSubsidy 補助金サーチ
             </Link>
-            <Link href="/subsidies" style={navLinkStyle}>
+            <Link href="/subsidies" className="site-nav-link">
               補助金一覧
             </Link>
-            <Link href="/news" style={navLinkStyle}>
+            <Link href="/news" className="site-nav-link">
               ニュース
             </Link>
-            <Link href="/guides" style={navLinkStyle}>
+            <Link href="/guides" className="site-nav-link">
               申請ガイド
             </Link>
-            <Link href="/cases" style={navLinkStyle}>
+            <Link href="/cases" className="site-nav-link">
               申請事例
             </Link>
-            <Link href="/diagnosis" style={{ ...navLinkStyle, marginLeft: "auto" }}>
+            <Link href="/diagnosis" className="site-nav-link site-nav-cta">
               診断スタート →
             </Link>
           </nav>
         </header>
-        <main
-          style={{
-            background: "linear-gradient(180deg, #f7fffb 0%, #f1faf6 100%)",
-            minHeight: "calc(100dvh - 56px - 48px)",
-            padding: "2rem 1.5rem",
-          }}
-        >
+        <main className="site-main">
           {children}
         </main>
         <footer
@@ -190,12 +158,6 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       </body>
     </html>
   )
-}
-
-const navLinkStyle: React.CSSProperties = {
-  color: "var(--text-base)",
-  textDecoration: "none",
-  fontSize: ".875rem",
 }
 
 export default RootLayout
