@@ -162,7 +162,7 @@ export default function DiagnosisClient() {
         purposes,
       }
       const activeSubsidies = subsidies.filter((subsidy) => {
-        if (subsidy.status === "closed") return false
+        if (subsidy.status !== "open" && subsidy.status !== "upcoming") return false
         if (subsidy.region === "tokyo" && prefecture !== "東京都") return false
         if (
           subsidy.region === "prefecture" &&
