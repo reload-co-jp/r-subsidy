@@ -39,15 +39,15 @@ function buildFaqItems(subsidy: NormalizedSubsidy): FaqItem[] {
     subsidy.region === "prefecture" && subsidy.prefectures.length > 0
       ? `都道府県（${subsidy.prefectures.join("、")}）`
       : (regionLabel[subsidy.region] ?? subsidy.region)
-  items.push({ question: `「${subsidy.title}」の対象地域は?`, answer: region })
+  items.push({ question: `対象地域は?`, answer: region })
 
   if (subsidy.subsidizedRate) {
-    items.push({ question: `「${subsidy.title}」の補助率は?`, answer: subsidy.subsidizedRate })
+    items.push({ question: `補助率は?`, answer: subsidy.subsidizedRate })
   }
 
   if (subsidy.upperLimit && subsidy.upperLimit !== "0円") {
     items.push({
-      question: `「${subsidy.title}」の補助上限額は?`,
+      question: `補助上限額は?`,
       answer: formatAmount(subsidy.upperLimit) ?? subsidy.upperLimit,
     })
   }
@@ -55,18 +55,18 @@ function buildFaqItems(subsidy: NormalizedSubsidy): FaqItem[] {
   if (subsidy.startDate || subsidy.endDate) {
     const start = subsidy.startDate ? formatDate(subsidy.startDate) : "未定"
     const end = subsidy.endDate ? formatDate(subsidy.endDate) : "未定"
-    items.push({ question: `「${subsidy.title}」の受付期間は?`, answer: `${start} 〜 ${end}` })
+    items.push({ question: `受付期間は?`, answer: `${start} 〜 ${end}` })
   }
 
   if (subsidy.industries.length > 0) {
     items.push({
-      question: `「${subsidy.title}」はどの業種が対象?`,
+      question: `どの業種が対象?`,
       answer: subsidy.industries.join("、"),
     })
   }
 
   if (subsidy.workflow) {
-    items.push({ question: `「${subsidy.title}」の申請窓口は?`, answer: subsidy.workflow })
+    items.push({ question: `申請窓口は?`, answer: subsidy.workflow })
   }
 
   return items
