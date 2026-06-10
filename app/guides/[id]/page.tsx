@@ -3,9 +3,11 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
+import ReactMarkdown from "react-markdown"
 import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl } from "../../../lib/site"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
 import type { Guide } from "../page"
+import type { SubsidyIndexItem } from "../../../lib/types"
 
 export const dynamicParams = false
 
@@ -20,6 +22,16 @@ function getAllGuides(): Guide[] {
 
 function getGuide(id: string): Guide | null {
   return getAllGuides().find((g) => g.id === id) ?? null
+}
+
+function getSubsidyTitle(slug: string): string {
+  try {
+    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const subsidies: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
+    return subsidies.find((s) => s.slug === slug)?.title ?? slug
+  } catch {
+    return slug
+  }
 }
 
 export function generateStaticParams(): { id: string }[] {
@@ -82,7 +94,22 @@ const Page: FC<Props> = async ({ params }) => {
 
   const pageUrl = absoluteUrl(`/guides/${item.id}/`)
 
-  const structuredData = {
+  const publisherOrg = {
+    "@type": "Organization",
+    name: SITE_NAME,
+    url: absoluteUrl("/"),
+  }
+
+  const breadcrumbList = {
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
+      { "@type": "ListItem", position: 2, name: "申請ガイド", item: absoluteUrl("/guides/") },
+      { "@type": "ListItem", position: 3, name: item.title, item: pageUrl },
+    ],
+  }
+
+  const articleData = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: item.title,
@@ -92,27 +119,46 @@ const Page: FC<Props> = async ({ params }) => {
     datePublished: item.publishedAt,
     dateModified: item.publishedAt,
     image: [absoluteUrl(DEFAULT_OG_IMAGE)],
-    publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: absoluteUrl("/"),
-    },
-    breadcrumb: {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: "申請ガイド", item: absoluteUrl("/guides/") },
-        { "@type": "ListItem", position: 3, name: item.title, item: pageUrl },
-      ],
-    },
+    author: publisherOrg,
+    publisher: publisherOrg,
+    breadcrumb: breadcrumbList,
   }
+
+  const howToSteps = item.body
+    .split("\n")
+    .filter((line) => /^\*\*STEP\d+[：:]/.test(line))
+    .map((line, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      name: line.replace(/^\*\*/, "").replace(/\*\*$/, "").replace(/^STEP\d+[：:]\s*/, ""),
+      text: line.replace(/^\*\*/, "").replace(/\*\*$/, ""),
+    }))
+
+  const howToData = howToSteps.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name: item.title,
+        description: item.summary,
+        inLanguage: "ja",
+        step: howToSteps,
+      }
+    : null
+
+  const structuredData = howToData ?? articleData
 
   return (
     <div style={{ maxWidth: "800px", margin: "0 auto" }}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }}
       />
+      {howToData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToData) }}
+        />
+      )}
 
       <Breadcrumb
         items={[
@@ -180,10 +226,10 @@ const Page: FC<Props> = async ({ params }) => {
             color: "var(--text-base)",
             fontSize: ".9rem",
             lineHeight: 1.8,
-            whiteSpace: "pre-wrap",
           }}
+          className="guide-body"
         >
-          {item.body}
+          <ReactMarkdown>{item.body}</ReactMarkdown>
         </div>
       </div>
 
@@ -230,7 +276,7 @@ const Page: FC<Props> = async ({ params }) => {
                   fontSize: ".875rem",
                 }}
               >
-                → {slug}
+                → {getSubsidyTitle(slug)}
               </Link>
             ))}
           </div>
