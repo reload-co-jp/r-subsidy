@@ -346,7 +346,7 @@ const Page: FC<Props> = async ({ params }) => {
           backgroundColor: "var(--bg-surface)",
           borderRadius: "10px",
           padding: "1.5rem",
-          border: "1px solid var(--border-soft)",
+          border: "1px solid var(--border-strong)",
           marginBottom: "1.5rem",
         }}
       >
@@ -373,10 +373,11 @@ const Page: FC<Props> = async ({ params }) => {
           <span
             style={{
               backgroundColor: "var(--bg-surface-alt)",
-              color: "#94a3b8",
+              color: "var(--text-base)",
               borderRadius: "4px",
               padding: ".2rem .6rem",
               fontSize: ".8rem",
+              border: "1px solid var(--border-strong)",
             }}
           >
             {regionLabel[subsidy.region] ?? subsidy.region}
@@ -471,7 +472,7 @@ const Page: FC<Props> = async ({ params }) => {
         style={{
           backgroundColor: "var(--bg-surface)",
           borderRadius: "10px",
-          border: "1px solid var(--border-soft)",
+          border: "1px solid var(--border-strong)",
           marginBottom: "1.5rem",
           overflow: "hidden",
         }}
@@ -483,16 +484,17 @@ const Page: FC<Props> = async ({ params }) => {
               .map((row) => (
                 <tr
                   key={row.label}
-                  style={{ borderBottom: "1px solid var(--border-soft)" }}
+                  style={{ borderBottom: "1px solid var(--border-strong)" }}
                 >
                   <td
                     style={{
                       padding: ".75rem 1rem",
-                      color: "var(--text-muted)",
+                      color: "var(--text-base)",
                       fontSize: ".8rem",
                       width: "140px",
                       whiteSpace: "nowrap",
                       verticalAlign: "top",
+                      fontWeight: "500",
                     }}
                   >
                     {row.label}
@@ -516,8 +518,9 @@ const Page: FC<Props> = async ({ params }) => {
         <div style={{ marginBottom: "1.5rem" }}>
           <h2
             style={{
-              color: "var(--text-muted)",
-              fontSize: ".8rem",
+              color: "var(--text-base)",
+              fontSize: ".85rem",
+              fontWeight: "600",
               marginBottom: ".5rem",
             }}
           >
@@ -546,8 +549,9 @@ const Page: FC<Props> = async ({ params }) => {
         <div style={{ marginBottom: "1.5rem" }}>
           <h2
             style={{
-              color: "var(--text-muted)",
-              fontSize: ".8rem",
+              color: "var(--text-base)",
+              fontSize: ".85rem",
+              fontWeight: "600",
               marginBottom: ".5rem",
             }}
           >
@@ -578,14 +582,15 @@ const Page: FC<Props> = async ({ params }) => {
             backgroundColor: "var(--bg-surface)",
             borderRadius: "10px",
             padding: "1.25rem",
-            border: "1px solid var(--border-soft)",
+            border: "1px solid var(--border-strong)",
             marginBottom: "1.5rem",
           }}
         >
           <h2
             style={{
-              color: "var(--text-muted)",
-              fontSize: ".8rem",
+              color: "var(--text-base)",
+              fontSize: ".85rem",
+              fontWeight: "600",
               marginBottom: ".75rem",
             }}
           >
@@ -634,10 +639,11 @@ const Page: FC<Props> = async ({ params }) => {
         >
           <h2
             style={{
-              color: "var(--text-muted)",
-              fontSize: ".8rem",
+              color: "var(--text-base)",
+              fontSize: ".85rem",
+              fontWeight: "600",
               padding: ".75rem 1rem",
-              borderBottom: "1px solid var(--border-soft)",
+              borderBottom: "1px solid var(--border-strong)",
               margin: 0,
             }}
           >
@@ -647,7 +653,7 @@ const Page: FC<Props> = async ({ params }) => {
             <div
               key={i}
               style={{
-                borderBottom: i < faqItems.length - 1 ? "1px solid var(--border-soft)" : undefined,
+                borderBottom: i < faqItems.length - 1 ? "1px solid var(--border-strong)" : undefined,
                 padding: ".85rem 1rem",
               }}
             >
@@ -666,8 +672,9 @@ const Page: FC<Props> = async ({ params }) => {
         <div style={{ marginBottom: "1.5rem" }}>
           <h2
             style={{
-              color: "var(--text-muted)",
-              fontSize: ".8rem",
+              color: "var(--text-base)",
+              fontSize: ".85rem",
+              fontWeight: "600",
               marginBottom: ".75rem",
             }}
           >
