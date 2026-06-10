@@ -140,6 +140,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <Link href="/news" style={navLinkStyle}>
               ニュース
             </Link>
+            <Link href="/guides" style={navLinkStyle}>
+              申請ガイド
+            </Link>
             <Link href="/cases" style={navLinkStyle}>
               申請事例
             </Link>

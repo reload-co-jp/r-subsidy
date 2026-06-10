@@ -4,6 +4,7 @@ import type { MetadataRoute } from "next"
 import { PREFECTURES } from "../lib/prefectures"
 import type { SubsidyIndexItem } from "../lib/types"
 import type { SubsidyNews } from "./news/page"
+import type { Guide } from "./guides/page"
 import { SITE_URL } from "../lib/site"
 export const dynamic = "force-static"
 
@@ -30,10 +31,20 @@ function getNews(): SubsidyNews[] {
   }
 }
 
+function getGuides(): Guide[] {
+  try {
+    const file = path.join(process.cwd(), "data", "source", "guides.json")
+    return JSON.parse(fs.readFileSync(file, "utf-8"))
+  } catch {
+    return []
+  }
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const siteUrl = getSiteUrl()
   const subsidies = getSubsidies()
   const news = getNews()
+  const guides = getGuides()
 
   const latestUpdatedAt = subsidies.reduce((latest, s) =>
     s.updatedAt > latest ? s.updatedAt : latest, ""
@@ -48,6 +59,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${siteUrl}/subsidies/`, lastModified: latestUpdatedAt || today, changeFrequency: "daily", priority: 0.9 },
     { url: `${siteUrl}/diagnosis/`, lastModified: today, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/news/`, lastModified: latestNewsAt || today, changeFrequency: "weekly", priority: 0.8 },
+    { url: `${siteUrl}/guides/`, lastModified: today, changeFrequency: "monthly", priority: 0.8 },
     { url: `${siteUrl}/cases/`, lastModified: today, changeFrequency: "monthly", priority: 0.75 },
     { url: `${siteUrl}/about/`, lastModified: today, changeFrequency: "yearly", priority: 0.5 },
     { url: `${siteUrl}/features/it-companies/`, lastModified: today, changeFrequency: "weekly", priority: 0.8 },
@@ -93,5 +105,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticRoutes, ...prefectureRoutes, ...purposeRoutes, ...industryRoutes, ...subsidyRoutes, ...newsRoutes]
+  const guideRoutes: MetadataRoute.Sitemap = guides.map((g) => ({
+    url: `${siteUrl}/guides/${g.id}/`,
+    lastModified: g.publishedAt,
+    changeFrequency: "monthly",
+    priority: 0.75,
+  }))
+
+  return [...staticRoutes, ...prefectureRoutes, ...purposeRoutes, ...industryRoutes, ...subsidyRoutes, ...newsRoutes, ...guideRoutes]
 }
