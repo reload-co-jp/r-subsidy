@@ -13,6 +13,7 @@ import type {
 import { SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
 import { formatDate, formatAmount } from "../lib/format"
 import PurposeTagLink from "../components/elements/purpose-tag-link"
+import HomeSearchForm from "../components/elements/home-search-form"
 
 function getUpdateHistory(): UpdateHistory | null {
   try {
@@ -274,6 +275,27 @@ const Page: FC = () => {
             自社に合いやすい補助金を絞り込めます。
           </p>
         </div>
+      </section>
+
+      <section
+        style={{
+          backgroundColor: "var(--bg-surface)",
+          border: "1px solid var(--border-soft)",
+          borderRadius: "10px",
+          padding: "1.25rem",
+          marginBottom: "3rem",
+        }}
+      >
+        <h2
+          style={{
+            color: "var(--text-strong)",
+            fontSize: "1rem",
+            marginBottom: ".85rem",
+          }}
+        >
+          補助金を検索
+        </h2>
+        <HomeSearchForm />
       </section>
 
       <section style={{ marginBottom: "3rem" }}>
