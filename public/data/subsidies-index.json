@@ -156339,6 +156339,46 @@
     "updatedAt": "2026-06-10T09:33:47.170Z"
   },
   {
+    "id": "national-jizokuka-ippan-2026",
+    "slug": "national-jizokuka-ippan-2026",
+    "title": "小規模事業者持続化補助金（一般型・通常枠）",
+    "overview": "地域の雇用・産業を支える小規模事業者が販路開拓・生産性向上に取り組む際の経費を補助する制度。商工会・商工会議所の支援を受けながら経営計画を策定し、Jグランツで電子申請する。",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [],
+    "purposes": [
+      "販路開拓",
+      "設備投資"
+    ],
+    "upperLimit": "250万円（各特例適用時）",
+    "isForSME": true,
+    "source": "manual",
+    "startDate": "2026-11-05",
+    "endDate": "2026-12-15",
+    "updatedAt": "2026-06-11T00:00:00.000Z"
+  },
+  {
+    "id": "national-shoryokuka-ippan-2026",
+    "slug": "national-shoryokuka-ippan-2026",
+    "title": "中小企業省力化投資補助金（一般型）",
+    "overview": "人手不足解消・生産性向上を目的に、中小企業・小規模事業者が個社の業務に合わせた省力化設備・システムを導入する際の費用を補助する制度。ハードウェア・ソフトウェアを自由に組み合わせた独自システム構築が対象（カタログ注文型とは異なる）。",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "デジタル化"
+    ],
+    "upperLimit": "1億円（101人以上・大幅賃上げ時）",
+    "isForSME": true,
+    "source": "manual",
+    "startDate": "2026-07-01",
+    "endDate": "2026-07-31",
+    "updatedAt": "2026-06-11T00:00:00.000Z"
+  },
+  {
     "id": "national-digital-ai-hojo-2026",
     "slug": "national-digital-ai-hojo-2026",
     "title": "デジタル化・AI導入補助金2026",
@@ -156356,7 +156396,7 @@
     "source": "manual",
     "startDate": "2026-03-30",
     "endDate": "2026-06-15",
-    "updatedAt": "2026-05-26T00:00:00.000Z"
+    "updatedAt": "2026-06-11T00:00:00.000Z"
   },
   {
     "id": "national-career-up-joseikin",
