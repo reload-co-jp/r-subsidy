@@ -20,13 +20,13 @@
     "人材育成"
   ],
   "usePurpose": "人材育成を行いたい",
-  "status": "closed",
+  "status": "open",
   "workflow": "臨床研修費等補助金",
   "subsidizedRate": null,
   "upperLimit": "0円",
   "lowerLimit": null,
   "startDate": "2025-10-14",
-  "endDate": "2026-05-31",
+  "endDate": "2026-06-19",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDVdPMAX",
   "updatedAt": "2026-05-26T06:10:54.680Z"
