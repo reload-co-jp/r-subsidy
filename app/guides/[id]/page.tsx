@@ -227,7 +227,7 @@ const Page: FC<Props> = async ({ params }) => {
             fontSize: ".9rem",
             lineHeight: 1.8,
           }}
-          className="guide-body"
+          className="rich-html"
         >
           <ReactMarkdown>{item.body}</ReactMarkdown>
         </div>

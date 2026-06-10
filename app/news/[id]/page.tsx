@@ -3,6 +3,7 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
+import ReactMarkdown from "react-markdown"
 import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl } from "../../../lib/site"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
 import type { SubsidyNews } from "../page"
@@ -180,10 +181,10 @@ const Page: FC<Props> = async ({ params }) => {
             color: "var(--text-base)",
             fontSize: ".9rem",
             lineHeight: 1.8,
-            whiteSpace: "pre-wrap",
           }}
+          className="rich-html"
         >
-          {item.body}
+          <ReactMarkdown>{item.body}</ReactMarkdown>
         </div>
       </div>
 

@@ -136,7 +136,40 @@ function buildDescription(subsidy: NormalizedSubsidy) {
   return lastPeriod > 0 ? truncated.slice(0, lastPeriod + 1) : truncated
 }
 
+function escapeHtml(text: string) {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+}
+
+function plainTextToHtml(text: string) {
+  return text
+    .split(/\n\n+/)
+    .map((block) => {
+      const headingMatch = block.match(/^【([^】]+)】\n?([\s\S]*)/)
+      if (headingMatch) {
+        const rest = headingMatch[2].trim()
+        return `<h2>${escapeHtml(headingMatch[1])}</h2>${rest ? `<p>${escapeHtml(rest).replace(/\n/g, "<br>")}</p>` : ""}`
+      }
+      if (block.startsWith("【") && block.endsWith("】")) {
+        return `<h2>${escapeHtml(block.slice(1, -1))}</h2>`
+      }
+      const lines = block.split("\n")
+      const isList = lines.every((l) => /^[-・]/.test(l.trim()) || l.trim() === "")
+      if (isList) {
+        const items = lines.filter((l) => l.trim()).map((l) => `<li>${escapeHtml(l.replace(/^[-・]\s*/, ""))}</li>`).join("")
+        return `<ul>${items}</ul>`
+      }
+      return `<p>${escapeHtml(block).replace(/\n/g, "<br>")}</p>`
+    })
+    .join("")
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+}
+
 function sanitizeDetailHtml(html: string) {
+  const isHtml = /<[a-z][\s\S]*>/i.test(html)
+  if (!isHtml) return plainTextToHtml(html)
   return html
     .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
     .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, "")
