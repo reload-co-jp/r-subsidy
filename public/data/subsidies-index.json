@@ -77734,7 +77734,7 @@
     "prefectures": [
       "石川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -91249,7 +91249,7 @@
     "prefectures": [
       "石川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -91423,7 +91423,7 @@
     "prefectures": [
       "石川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -104746,6 +104746,31 @@
     "updatedAt": "2026-05-26T06:10:51.862Z"
   },
   {
+    "id": "a0WJ200000CDHQZMA5",
+    "slug": "a0wj200000cdhqzma5",
+    "title": "在宅人工呼吸器使用難病患者非常用電源設備整備事業補助金",
+    "overview": "在宅人工呼吸器使用難病患者のための非常用電源設備整備補助",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-03-31",
+    "endDate": "2026-12-28",
+    "updatedAt": "2026-06-12T06:49:46.515Z"
+  },
+  {
     "id": "a0WJ200000CDHQgMAP",
     "slug": "a0wj200000cdhqgmap",
     "title": "令和７年度「中小企業支援事業補助金（地域の人事部支援事業）」補助事業事務局公募",
@@ -110951,7 +110976,7 @@
     "prefectures": [
       "石川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -114143,7 +114168,7 @@
     "prefectures": [
       "新潟県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -127150,7 +127175,7 @@
     "prefectures": [
       "宮崎県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -142867,7 +142892,7 @@
     "prefectures": [
       "岡山県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -147890,7 +147915,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "学術研究",
       "専門・技術サービス業"
@@ -148415,7 +148440,7 @@
     "overview": "共生データセンター",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -148524,7 +148549,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "学術研究",
       "専門・技術サービス業"
@@ -148549,7 +148574,7 @@
     "prefectures": [
       "福岡県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -149513,7 +149538,7 @@
     "prefectures": [
       "福島県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -149740,7 +149765,7 @@
     "prefectures": [
       "富山県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -150700,7 +150725,7 @@
     "prefectures": [
       "福井県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -151411,7 +151436,7 @@
     "prefectures": [
       "鳥取県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -151984,7 +152009,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -152154,7 +152179,7 @@
       "神奈川県",
       "山梨県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -154919,7 +154944,7 @@
     "prefectures": [
       "宮城県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -156073,6 +156098,114 @@
     "updatedAt": "2026-06-10T09:33:47.161Z"
   },
   {
+    "id": "a0WJ200000CDaMLMA1",
+    "slug": "a0wj200000cdamlma1",
+    "title": "【令和8年度】DX型CO2削減対策実行支援事業",
+    "overview": "DX型CO2削減対策実行支援事業　SHIFT事業　実行支援事業　SHIFT",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "2,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-06-12",
+    "endDate": "2026-08-26",
+    "updatedAt": "2026-06-12T06:49:52.678Z"
+  },
+  {
+    "id": "a0WJ200000CDaMQMA1",
+    "slug": "a0wj200000cdamqma1",
+    "title": "【令和8年度】省CO2型システムへの改修支援事業",
+    "overview": "省CO2型システムへの改修支援事業　SHIFT事業　改修支援事業　SHIFT",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "500,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-12",
+    "endDate": "2026-08-26",
+    "updatedAt": "2026-06-12T06:49:52.678Z"
+  },
+  {
     "id": "a0WJ200000CDaMVMA1",
     "slug": "a0wj200000cdamvma1",
     "title": "【事前着手】令和8年度排出削減が困難な産業におけるエネルギー・製造プロセス転換支援事業",
@@ -156465,6 +156598,29 @@
     "startDate": "2026-06-15",
     "endDate": "2026-06-30",
     "updatedAt": "2026-06-10T09:33:47.169Z"
+  },
+  {
+    "id": "a0WJ200000CDamKMAT",
+    "slug": "a0wj200000cdamkmat",
+    "title": "令和８年度日中経済交流等事業費補助金",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "分類不能の産業",
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "purposes": [
+      "研究開発"
+    ],
+    "upperLimit": "20,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-12",
+    "endDate": "2026-07-03",
+    "updatedAt": "2026-06-12T06:49:52.733Z"
   },
   {
     "id": "a0WJ200000CDamPMAT",
