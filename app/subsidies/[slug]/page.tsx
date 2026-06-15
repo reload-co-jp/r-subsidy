@@ -345,7 +345,7 @@ const Page: FC<Props> = async ({ params }) => {
   ]
 
   return (
-    <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+    <div className="page-content">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

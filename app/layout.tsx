@@ -130,30 +130,144 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         </main>
         <footer
           style={{
-            backgroundColor: "var(--bg-header)",
-            borderTop: "1px solid var(--border-soft)",
-            fontSize: ".75rem",
-            padding: "1rem 1.5rem",
-            color: "var(--text-muted)",
-            textAlign: "center",
+            backgroundColor: "#1a1a1a",
+            borderTop: "3px solid #B9985A",
+            color: "rgba(255,255,255,0.7)",
+            padding: "3rem 2rem 2rem",
           }}
         >
-          <p>&copy; RSubsidy 補助金サーチ — JグランツAPI連携</p>
-          <p style={{ marginTop: ".25rem" }}>
-            <Link href="/about" style={{ color: "var(--text-muted)" }}>
-              このサイトについて
-            </Link>
-            {" / "}
-            運営会社:{" "}
-            <a
-              href="https://reload.co.jp"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "var(--text-muted)" }}
+          <div
+            style={{
+              maxWidth: "1200px",
+              margin: "0 auto",
+            }}
+          >
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+                gap: "2rem",
+                marginBottom: "2.5rem",
+              }}
             >
-              株式会社リロード
-            </a>
-          </p>
+              <div>
+                <p
+                  style={{
+                    color: "#B9985A",
+                    fontWeight: "bold",
+                    fontSize: "1rem",
+                    marginBottom: "1rem",
+                    letterSpacing: ".04em",
+                  }}
+                >
+                  RSubsidy
+                </p>
+                <p style={{ fontSize: ".8rem", lineHeight: 1.7 }}>
+                  中小企業・個人事業主向け
+                  <br />
+                  補助金ポータルサイト
+                </p>
+              </div>
+              <div>
+                <p
+                  style={{
+                    color: "#ffffff",
+                    fontWeight: "bold",
+                    fontSize: ".8rem",
+                    marginBottom: ".75rem",
+                    letterSpacing: ".06em",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  サービス
+                </p>
+                <div style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}>
+                  {[
+                    { label: "補助金一覧", href: "/subsidies" },
+                    { label: "補助金診断", href: "/diagnosis" },
+                    { label: "申請ガイド", href: "/guides" },
+                    { label: "申請事例", href: "/cases" },
+                  ].map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      style={{
+                        color: "rgba(255,255,255,0.6)",
+                        fontSize: ".8rem",
+                        textDecoration: "none",
+                      }}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <p
+                  style={{
+                    color: "#ffffff",
+                    fontWeight: "bold",
+                    fontSize: ".8rem",
+                    marginBottom: ".75rem",
+                    letterSpacing: ".06em",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  情報
+                </p>
+                <div style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}>
+                  {[
+                    { label: "ニュース", href: "/news" },
+                    { label: "このサイトについて", href: "/about" },
+                  ].map((item) => (
+                    <Link
+                      key={item.href}
+                      href={item.href}
+                      style={{
+                        color: "rgba(255,255,255,0.6)",
+                        fontSize: ".8rem",
+                        textDecoration: "none",
+                      }}
+                    >
+                      {item.label}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              <div>
+                <p
+                  style={{
+                    color: "#ffffff",
+                    fontWeight: "bold",
+                    fontSize: ".8rem",
+                    marginBottom: ".75rem",
+                    letterSpacing: ".06em",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  運営
+                </p>
+                <a
+                  href="https://reload.co.jp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "rgba(255,255,255,0.6)", fontSize: ".8rem", textDecoration: "none" }}
+                >
+                  株式会社リロード
+                </a>
+              </div>
+            </div>
+            <div
+              style={{
+                borderTop: "1px solid rgba(255,255,255,0.1)",
+                paddingTop: "1.25rem",
+                fontSize: ".75rem",
+                color: "rgba(255,255,255,0.4)",
+              }}
+            >
+              &copy; {new Date().getFullYear()} RSubsidy 補助金サーチ — JグランツAPI連携
+            </div>
+          </div>
         </footer>
       </body>
     </html>

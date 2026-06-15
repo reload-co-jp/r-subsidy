@@ -24,7 +24,7 @@ const companyItems = [
 
 export default function AboutPage() {
   return (
-    <div style={{ maxWidth: "860px", margin: "0 auto" }}>
+    <div className="page-content">
       <section style={{ marginBottom: "2.5rem" }}>
         <h1
           style={{

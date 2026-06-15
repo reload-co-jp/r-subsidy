@@ -188,7 +188,7 @@ export default function DiagnosisClient() {
     for (const r of results) grouped[r.tier].push(r)
 
     return (
-      <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+      <div className="page-content">
         <div
           style={{
             display: "flex",
@@ -331,7 +331,7 @@ export default function DiagnosisClient() {
   }
 
   return (
-    <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+    <div className="page-content">
       <section style={{ marginBottom: "2rem" }}>
         <h1
           style={{

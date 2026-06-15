@@ -151,7 +151,7 @@ export default async function Page({ params }: Props) {
   }
 
   return (
-    <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+    <div className="page-content">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
