@@ -137486,7 +137486,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -144239,7 +144239,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -145505,6 +145505,56 @@
     "updatedAt": "2026-05-29T05:51:08.547Z"
   },
   {
+    "id": "a0WJ200000CDYUPMA5",
+    "slug": "a0wj200000cdyupma5",
+    "title": "令和８年度フィンテック企業に対する海外進出支援事業 海外展示会共同出展",
+    "overview": "",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [
+      "分類不能の産業",
+      "金融業",
+      "保険業"
+    ],
+    "purposes": [
+      "販路拡大"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-17",
+    "endDate": "2026-12-28",
+    "updatedAt": "2026-06-16T08:39:10.213Z"
+  },
+  {
+    "id": "a0WJ200000CDYUQMA5",
+    "slug": "a0wj200000cdyuqma5",
+    "title": "令和８年度フィンテック企業に対する海外進出支援事業補助金",
+    "overview": "",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [
+      "分類不能の産業",
+      "金融業",
+      "保険業"
+    ],
+    "purposes": [
+      "販路拡大"
+    ],
+    "upperLimit": "3,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-17",
+    "endDate": "2026-12-28",
+    "updatedAt": "2026-06-16T08:39:10.219Z"
+  },
+  {
     "id": "a0WJ200000CDYUSMA5",
     "slug": "a0wj200000cdyusma5",
     "title": "令和8年度企業等における省エネ・再エネ活用設備導入補助金",
@@ -146685,7 +146735,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "学術研究",
       "専門・技術サービス業"
@@ -147375,7 +147425,7 @@
       "鹿児島県",
       "沖縄県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -151688,7 +151738,7 @@
     "prefectures": [
       "兵庫県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -153082,7 +153132,7 @@
     "overview": "環境分野のスタートアップ企業や起業を目指す方へ",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -153159,7 +153209,7 @@
     "overview": "環境分野のスタートアップ企業や起業を目指す方へ",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -153215,7 +153265,7 @@
     "overview": "環境分野のスタートアップ企業や起業を目指す方へ",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -154651,7 +154701,7 @@
     "overview": "環境分野のスタートアップ企業や起業を目指す方へ",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -154705,7 +154755,7 @@
     "overview": "環境分野のスタートアップ企業や起業を目指す方へ",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -154761,7 +154811,7 @@
     "overview": "環境分野のスタートアップ企業や起業を目指す方へ",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -156346,7 +156396,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -156400,7 +156450,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -156454,7 +156504,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -156573,7 +156623,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -156741,7 +156791,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -156787,6 +156837,276 @@
     "startDate": "2026-06-15",
     "endDate": "2027-02-26",
     "updatedAt": "2026-06-13T14:42:32.853Z"
+  },
+  {
+    "id": "a0WJ200000CDb6TMAT",
+    "slug": "a0wj200000cdb6tmat",
+    "title": "【福岡県宗像市】令和8年度 食のまち宗像推進補助金",
+    "overview": "",
+    "region": "prefecture",
+    "prefectures": [
+      "福岡県"
+    ],
+    "status": "open",
+    "industries": [
+      "製造業",
+      "サービス業（他に分類されないもの）",
+      "卸売業",
+      "小売業",
+      "宿泊業",
+      "飲食サービス業"
+    ],
+    "purposes": [
+      "販路拡大",
+      "研究開発"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-01",
+    "endDate": "2026-12-25",
+    "updatedAt": "2026-06-16T08:39:11.590Z"
+  },
+  {
+    "id": "a0WJ200000CDb6YMAT",
+    "slug": "a0wj200000cdb6ymat",
+    "title": "【福岡県宗像市】令和8年度 宗像市創業応援補助金（“宗業”者応援補助金）",
+    "overview": "",
+    "region": "prefecture",
+    "prefectures": [
+      "福岡県"
+    ],
+    "status": "open",
+    "industries": [
+      "建設業",
+      "製造業",
+      "情報通信業",
+      "サービス業（他に分類されないもの）",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "研究開発",
+      "創業",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-01",
+    "endDate": "2026-12-25",
+    "updatedAt": "2026-06-16T08:39:11.590Z"
+  },
+  {
+    "id": "a0WJ200000CDb6dMAD",
+    "slug": "a0wj200000cdb6dmad",
+    "title": "【福岡県宗像市】令和8年度 宗像市がんばる中小企業者応援補助金",
+    "overview": "",
+    "region": "prefecture",
+    "prefectures": [
+      "福岡県"
+    ],
+    "status": "open",
+    "industries": [
+      "建設業",
+      "製造業",
+      "サービス業（他に分類されないもの）",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-06-01",
+    "endDate": "2026-12-25",
+    "updatedAt": "2026-06-16T08:39:11.591Z"
+  },
+  {
+    "id": "a0WJ200000CDb86MAD",
+    "slug": "a0wj200000cdb86mad",
+    "title": "今治市企業立地促進奨励金",
+    "overview": "企業の立地に伴う建物や設備等の固定資産税相当額を交付します。",
+    "region": "prefecture",
+    "prefectures": [
+      "愛媛県"
+    ],
+    "status": "open",
+    "industries": [
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "学術研究",
+      "専門・技術サービス業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "創業",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-03-31",
+    "endDate": "2027-03-31",
+    "updatedAt": "2026-06-16T08:39:11.591Z"
+  },
+  {
+    "id": "a0WJ200000CDb87MAD",
+    "slug": "a0wj200000cdb87mad",
+    "title": "今治市賃貸借型企業立地奨励金（賃借料に対する奨励金）",
+    "overview": "オフィス開設の賃料を大幅カット！今治市での新たなビジネス拠点づくりを応援します。",
+    "region": "prefecture",
+    "prefectures": [
+      "愛媛県"
+    ],
+    "status": "open",
+    "industries": [
+      "情報通信業",
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "創業",
+      "デジタル化"
+    ],
+    "upperLimit": "18,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-03-31",
+    "endDate": "2027-03-31",
+    "updatedAt": "2026-06-16T08:39:11.591Z"
+  },
+  {
+    "id": "a0WJ200000CDb8AMAT",
+    "slug": "a0wj200000cdb8amat",
+    "title": "今治市設備投資奨励金",
+    "overview": "中小企業の設備更新を強力バックアップ！設備投資に伴う固定資産税相当額を最大3,000万円（年間各年度1,000万円を上限に×3年間にわたって）交付します。",
+    "region": "prefecture",
+    "prefectures": [
+      "愛媛県"
+    ],
+    "status": "open",
+    "industries": [
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "卸売業",
+      "小売業",
+      "学術研究",
+      "専門・技術サービス業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "10,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-03-31",
+    "endDate": "2027-03-31",
+    "updatedAt": "2026-06-16T08:39:11.591Z"
+  },
+  {
+    "id": "a0WJ200000CDb8BMAT",
+    "slug": "a0wj200000cdb8bmat",
+    "title": "今治市指定区域用地取得奨励金",
+    "overview": "今治新都市区域での拠点整備を強力サポート！用地取得費用の最大10%（上限5億円）を交付します。",
+    "region": "prefecture",
+    "prefectures": [
+      "愛媛県"
+    ],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "デジタル化"
+    ],
+    "upperLimit": "500,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-03-31",
+    "endDate": "2027-03-31",
+    "updatedAt": "2026-06-16T08:39:11.591Z"
   },
   {
     "id": "national-jizokuka-ippan-2026",
