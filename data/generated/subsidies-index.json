@@ -140181,16 +140181,18 @@
       "福岡県",
       "佐賀県"
     ],
-    "status": "open",
+    "status": "upcoming",
     "industries": [
       "不動産業",
       "物品賃貸業"
     ],
-    "purposes": [],
+    "purposes": [
+      "デジタル化"
+    ],
     "upperLimit": "158,000,000円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-03-23",
+    "startDate": "2026-07-01",
     "endDate": "2026-12-25",
     "updatedAt": "2026-05-26T06:10:55.880Z"
   },
@@ -145220,7 +145222,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -145513,7 +145515,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "分類不能の産業",
       "金融業",
@@ -145538,7 +145540,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "分類不能の産業",
       "金融業",
@@ -150029,11 +150031,11 @@
   {
     "id": "a0WJ200000CDYiwMAH",
     "slug": "a0wj200000cdyiwmah",
-    "title": "①省CO2型プラスチック高度リサイクル設備導入事業（バリューチェーン）【令和令和７年度（補正予算）２次公募及び令和８年度１次公募】",
+    "title": "①省CO2型プラスチック高度リサイクル設備導入事業（バリューチェーン）【令和７年度（補正予算）３次公募及び令和８年度２次公募】",
     "overview": "廃プラスチックをリサイクル・リユースするための、省CO2型の資源循環高度化設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "upcoming",
     "industries": [
       "漁業",
       "建設業",
@@ -150076,18 +150078,18 @@
     "upperLimit": "7,297,000,000円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-05-01",
-    "endDate": "2026-06-05",
+    "startDate": "2026-06-23",
+    "endDate": "2026-06-24",
     "updatedAt": "2026-05-26T06:10:56.670Z"
   },
   {
     "id": "a0WJ200000CDYjRMAX",
     "slug": "a0wj200000cdyjrmax",
-    "title": "②化石資源由来プラスチックを代替する再生可能資源由来素材 の省CO2型製造設備導入事業（バリューチェーン）【令和７年度（補正予算）第２次公募及び令和８年度第１次公募】",
+    "title": "②化石資源由来プラスチックを代替する再生可能資源由来素材 の省CO2型製造設備導入事業（バリューチェーン）【令和７年度（補正予算）第３次公募及び令和８年度第２次公募】",
     "overview": "従来の化石資源由来プラスチックを代替するバイオプラスチック等の再生可能資源由来素材等の製造に係る設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "upcoming",
     "industries": [
       "漁業",
       "建設業",
@@ -150131,8 +150133,8 @@
     "upperLimit": "7,297,000,000円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-05-01",
-    "endDate": "2026-06-05",
+    "startDate": "2026-06-23",
+    "endDate": "2026-07-24",
     "updatedAt": "2026-05-26T06:10:56.683Z"
   },
   {
@@ -150193,11 +150195,11 @@
   {
     "id": "a0WJ200000CDYk0MAH",
     "slug": "a0wj200000cdyk0mah",
-    "title": "⑤金属破砕・選別設備導入事業（バリューチェーン）【令和７年度（補正予算）第２次公募及び第８年度第１次公募】",
+    "title": "⑤金属破砕・選別設備導入事業（バリューチェーン）【令和７年度（補正予算）第３次公募及び第８年度第２次公募】",
     "overview": "都市鉱山のリサイクルの促進のため、素材の分離・選別性を向上させる高効率な破砕や、X線等を用いた含有元素等に応じた合金選別、複数センサーを組み合わせた高効率選別など、先進的な技術を用いて従来の破砕・選別よりも回収される素材の量又は質を向上させる破砕・選別を行う設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "upcoming",
     "industries": [
       "漁業",
       "建設業",
@@ -150240,8 +150242,8 @@
     "upperLimit": "7,297,000,000円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-05-01",
-    "endDate": "2026-06-05",
+    "startDate": "2026-06-23",
+    "endDate": "2026-07-24",
     "updatedAt": "2026-05-26T06:10:56.702Z"
   },
   {
@@ -150462,11 +150464,11 @@
   {
     "id": "a0WJ200000CDYkCMAX",
     "slug": "a0wj200000cdykcmax",
-    "title": "③太陽光パネルリサイクル設備導入事業（バリューチェーン）【令和７年度（補正予算）第２次公募及び令和８年度第１次公募】",
+    "title": "③太陽光パネルリサイクル設備導入事業（バリューチェーン）【令和７年度（補正予算）第３次公募及び令和８年度第２次公募】",
     "overview": "廃太陽光パネルのリサイクル設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "upcoming",
     "industries": [
       "漁業",
       "建設業",
@@ -150509,18 +150511,18 @@
     "upperLimit": "7,297,000,000円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-05-01",
-    "endDate": "2026-06-05",
+    "startDate": "2026-06-23",
+    "endDate": "2026-07-24",
     "updatedAt": "2026-05-26T06:10:56.722Z"
   },
   {
     "id": "a0WJ200000CDYkHMAX",
     "slug": "a0wj200000cdykhmax",
-    "title": "④リチウム蓄電池リサイクル設備導入事業（バリューチェーン）【令和７年度（補正予算）第２次公募及び令和８年度第１次公募】",
+    "title": "④リチウム蓄電池リサイクル設備導入事業（バリューチェーン）【令和７年度（補正予算）第３次公募及び令和８年度第２次公募】",
     "overview": "廃リチウム蓄電池のリサイクル設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "upcoming",
     "industries": [
       "漁業",
       "建設業",
@@ -150563,8 +150565,8 @@
     "upperLimit": "7,297,000,000円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-05-01",
-    "endDate": "2026-06-05",
+    "startDate": "2026-06-23",
+    "endDate": "2026-07-24",
     "updatedAt": "2026-05-26T06:10:56.738Z"
   },
   {
@@ -153712,6 +153714,34 @@
     "updatedAt": "2026-05-26T06:10:56.953Z"
   },
   {
+    "id": "a0WJ200000CDYvWMAX",
+    "slug": "a0wj200000cdyvwmax",
+    "title": "【観光庁】観光振興事業費補助金（質の高い消費と投資を呼び込むためのデジタルノマド誘客促進事業）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "closed",
+    "industries": [
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "宿泊業",
+      "飲食サービス業"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": "7,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-03-25",
+    "endDate": "2026-04-30",
+    "updatedAt": "2026-06-17T11:32:28.814Z"
+  },
+  {
     "id": "a0WJ200000CDYvXMAX",
     "slug": "a0wj200000cdyvxmax",
     "title": "多摩市ふるさと納税を活用した資金調達支援事業補助金",
@@ -155930,7 +155960,7 @@
     "prefectures": [
       "山梨県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "電気・ガス・熱供給・水道業",
@@ -157107,6 +157137,81 @@
     "startDate": "2026-03-31",
     "endDate": "2027-03-31",
     "updatedAt": "2026-06-16T08:39:11.591Z"
+  },
+  {
+    "id": "a0WJ200000CDbEWMA1",
+    "slug": "a0wj200000cdbewma1",
+    "title": "令和８年度「都市ガス分野の災害対応・レジリエンス強化に係る支援事業費補助金」（執行団体公募）（再公募）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "電気・ガス・熱供給・水道業"
+    ],
+    "purposes": [
+      "設備投資",
+      "デジタル化"
+    ],
+    "upperLimit": "141,502,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-06-17",
+    "endDate": "2026-07-08",
+    "updatedAt": "2026-06-17T11:32:29.175Z"
+  },
+  {
+    "id": "a0WJ200000CDbHOMA1",
+    "slug": "a0wj200000cdbhoma1",
+    "title": "令和8年度当初予算　一次公募　民間企業等による再エネの導入及び地域共生加速化事業のうち、ストレージパリティの達成に向けた太陽光発電設備等の価格低減促進事業",
+    "overview": "ストレージパリティ事業",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "デジタル化"
+    ],
+    "upperLimit": "60,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-26",
+    "endDate": "2026-07-24",
+    "updatedAt": "2026-06-17T11:32:29.175Z"
   },
   {
     "id": "national-jizokuka-ippan-2026",
