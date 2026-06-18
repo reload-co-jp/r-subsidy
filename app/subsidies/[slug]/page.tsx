@@ -5,7 +5,7 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import type { NormalizedSubsidy, SubsidyIndexItem } from "../../../lib/types"
-import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl } from "../../../lib/site"
+import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl, buildBreadcrumbList } from "../../../lib/site"
 import { formatDate, formatAmount } from "../../../lib/format"
 
 function getRelatedSubsidies(subsidy: NormalizedSubsidy): SubsidyIndexItem[] {
@@ -282,30 +282,13 @@ const Page: FC<Props> = async ({ params }) => {
     description,
     datePublished: subsidy.startDate ?? subsidy.updatedAt,
     dateModified: subsidy.updatedAt,
-    breadcrumb: {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "ホーム",
-          item: absoluteUrl("/"),
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "補助金一覧",
-          item: absoluteUrl("/subsidies/"),
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
-          name: subsidy.title,
-          item: pageUrl,
-        },
-      ],
-    },
   }
+
+  const breadcrumbList = buildBreadcrumbList([
+    { name: "ホーム", url: absoluteUrl("/") },
+    { name: "補助金一覧", url: absoluteUrl("/subsidies/") },
+    { name: subsidy.title, url: pageUrl },
+  ])
 
   const infoRows: { label: string; value: string | null }[] = [
     {
@@ -349,6 +332,10 @@ const Page: FC<Props> = async ({ params }) => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
       />
       {faqItems.length > 0 && (
         <script

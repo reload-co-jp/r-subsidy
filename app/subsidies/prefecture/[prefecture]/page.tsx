@@ -4,7 +4,7 @@ import path from "path"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { PREFECTURES, isPrefecture, matchesPrefecture } from "../../../../lib/prefectures"
-import { SITE_NAME, absoluteUrl } from "../../../../lib/site"
+import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../../../lib/site"
 import type { SubsidyIndexItem } from "../../../../lib/types"
 import { Breadcrumb } from "../../../../components/elements/breadcrumb"
 import SubsidiesListClient from "../../subsidies-list-client"
@@ -119,29 +119,6 @@ export default async function Page({ params }: Props) {
     inLanguage: "ja",
     description,
     numberOfItems: openSubsidies.length,
-    breadcrumb: {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        {
-          "@type": "ListItem",
-          position: 1,
-          name: "ホーム",
-          item: absoluteUrl("/"),
-        },
-        {
-          "@type": "ListItem",
-          position: 2,
-          name: "補助金一覧",
-          item: absoluteUrl("/subsidies/"),
-        },
-        {
-          "@type": "ListItem",
-          position: 3,
-          name: title,
-          item: pageUrl,
-        },
-      ],
-    },
     mainEntity: latestSubsidies.map((subsidy, index) => ({
       "@type": "ListItem",
       position: index + 1,
@@ -150,11 +127,21 @@ export default async function Page({ params }: Props) {
     })),
   }
 
+  const breadcrumbList = buildBreadcrumbList([
+    { name: "ホーム", url: absoluteUrl("/") },
+    { name: "補助金一覧", url: absoluteUrl("/subsidies/") },
+    { name: title, url: pageUrl },
+  ])
+
   return (
     <div className="page-content">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
       />
       <Breadcrumb
         items={[

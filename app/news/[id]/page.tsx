@@ -3,7 +3,7 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
-import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl } from "../../../lib/site"
+import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl, buildBreadcrumbList } from "../../../lib/site"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
 import { RichMarkdown } from "../../../components/elements/rich-markdown"
 import type { SubsidyNews } from "../page"
@@ -98,21 +98,23 @@ const Page: FC<Props> = async ({ params }) => {
       name: SITE_NAME,
       url: absoluteUrl("/"),
     },
-    breadcrumb: {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: "ニュース", item: absoluteUrl("/news/") },
-        { "@type": "ListItem", position: 3, name: item.title, item: pageUrl },
-      ],
-    },
   }
+
+  const breadcrumbList = buildBreadcrumbList([
+    { name: "ホーム", url: absoluteUrl("/") },
+    { name: "ニュース", url: absoluteUrl("/news/") },
+    { name: item.title, url: pageUrl },
+  ])
 
   return (
     <div className="page-content">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
       />
 
       <Breadcrumb

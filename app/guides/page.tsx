@@ -3,7 +3,7 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
-import { SITE_NAME, absoluteUrl } from "../../lib/site"
+import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../lib/site"
 import { Breadcrumb } from "../../components/elements/breadcrumb"
 
 export type Guide = {
@@ -60,20 +60,22 @@ const Page: FC = () => {
     url: PAGE_URL,
     inLanguage: "ja",
     description: PAGE_DESCRIPTION,
-    breadcrumb: {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: PAGE_TITLE, item: PAGE_URL },
-      ],
-    },
   }
+
+  const breadcrumbList = buildBreadcrumbList([
+    { name: "ホーム", url: absoluteUrl("/") },
+    { name: PAGE_TITLE, url: PAGE_URL },
+  ])
 
   return (
     <div className="page-content">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
       />
 
       <Breadcrumb

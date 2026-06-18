@@ -4,7 +4,7 @@ import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
 import type { SubsidyIndexItem } from "../../../lib/types"
-import { SITE_NAME, absoluteUrl } from "../../../lib/site"
+import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../../lib/site"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
 import SubsidiesListClient from "../../subsidies/subsidies-list-client"
 
@@ -126,21 +126,23 @@ const Page: FC = () => {
     inLanguage: "ja",
     description: PAGE_DESCRIPTION,
     numberOfItems: popularSubsidies.length,
-    breadcrumb: {
-      "@type": "BreadcrumbList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-        { "@type": "ListItem", position: 2, name: "補助金一覧", item: absoluteUrl("/subsidies/") },
-        { "@type": "ListItem", position: 3, name: PAGE_TITLE, item: PAGE_URL },
-      ],
-    },
   }
+
+  const breadcrumbList = buildBreadcrumbList([
+    { name: "ホーム", url: absoluteUrl("/") },
+    { name: "補助金一覧", url: absoluteUrl("/subsidies/") },
+    { name: PAGE_TITLE, url: PAGE_URL },
+  ])
 
   return (
     <div className="page-content">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
       />
       <Breadcrumb
         items={[

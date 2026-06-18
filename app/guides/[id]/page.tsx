@@ -3,7 +3,7 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
-import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl } from "../../../lib/site"
+import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl, buildBreadcrumbList } from "../../../lib/site"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
 import { RichMarkdown } from "../../../components/elements/rich-markdown"
 import type { Guide } from "../page"
@@ -100,14 +100,11 @@ const Page: FC<Props> = async ({ params }) => {
     url: absoluteUrl("/"),
   }
 
-  const breadcrumbList = {
-    "@type": "BreadcrumbList",
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "ホーム", item: absoluteUrl("/") },
-      { "@type": "ListItem", position: 2, name: "申請ガイド", item: absoluteUrl("/guides/") },
-      { "@type": "ListItem", position: 3, name: item.title, item: pageUrl },
-    ],
-  }
+  const breadcrumbList = buildBreadcrumbList([
+    { name: "ホーム", url: absoluteUrl("/") },
+    { name: "申請ガイド", url: absoluteUrl("/guides/") },
+    { name: item.title, url: pageUrl },
+  ])
 
   const articleData = {
     "@context": "https://schema.org",
@@ -121,7 +118,6 @@ const Page: FC<Props> = async ({ params }) => {
     image: [absoluteUrl(DEFAULT_OG_IMAGE)],
     author: publisherOrg,
     publisher: publisherOrg,
-    breadcrumb: breadcrumbList,
   }
 
   const howToSteps = item.body
@@ -152,6 +148,10 @@ const Page: FC<Props> = async ({ params }) => {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
       />
       {howToData && (
         <script
