@@ -1,6 +1,6 @@
 {
-  "normalizedAt": "2026-06-18T11:34:27.369Z",
-  "count": 3166,
+  "normalizedAt": "2026-06-19T02:16:53.574Z",
+  "count": 3168,
   "warnings": 0,
   "subsidies": [
     {
@@ -148314,7 +148314,7 @@
         "人材育成"
       ],
       "usePurpose": "人材育成を行いたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "臨床研修費等補助金",
       "subsidizedRate": null,
       "upperLimit": "0円",
@@ -162964,7 +162964,7 @@
         "デジタル化"
       ],
       "usePurpose": "販路拡大・海外展開をしたい / イベント・事業運営支援がほしい",
-      "status": "open",
+      "status": "closed",
       "workflow": "IP360（令和７年度補正コンテンツ産業成長投資支援事業費補助金）",
       "subsidizedRate": "対象経費の2分の1",
       "upperLimit": "200,000,000円",
@@ -162996,7 +162996,7 @@
         "研究開発"
       ],
       "usePurpose": "販路拡大・海外展開をしたい / イベント・事業運営支援がほしい",
-      "status": "open",
+      "status": "closed",
       "workflow": "IP360（令和７年度補正コンテンツ産業成長投資支援事業費補助金）",
       "subsidizedRate": "対象経費の2分の1",
       "upperLimit": "40,000,000円",
@@ -163029,7 +163029,7 @@
         "デジタル化"
       ],
       "usePurpose": "販路拡大・海外展開をしたい / イベント・事業運営支援がほしい",
-      "status": "open",
+      "status": "closed",
       "workflow": "IP360（令和７年度補正コンテンツ産業成長投資支援事業費補助金）",
       "subsidizedRate": "対象経費の2分の1",
       "upperLimit": "20,000,000円",
@@ -166109,7 +166109,7 @@
         "デジタル化"
       ],
       "usePurpose": "災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / 設備整備・IT導入をしたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "社会福祉施設等への非常用電源等の整備促進事業補助金",
       "subsidizedRate": "４分の３",
       "upperLimit": "3,750,000円",
@@ -173291,7 +173291,7 @@
       "purposes": [],
       "usePurpose": "安全・防災対策支援がほしい",
       "status": "open",
-      "workflow": "久留米市中小企業止水板等設置事業費補助金",
+      "workflow": "久留米市中小企業先端設備等導入支援補助金（令和8年度）",
       "subsidizedRate": "1/2",
       "upperLimit": "500,000円",
       "lowerLimit": null,
@@ -176878,7 +176878,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 事業を引き継ぎたい / 研究開発・実証事業を行いたい / 人材育成を行いたい / 資金繰りを改善したい / 雇用・職場環境を改善したい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい / 教育・子育て・少子化支援がほしい / スポーツ・文化支援がほしい",
-      "status": "open",
+      "status": "closed",
       "workflow": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
       "subsidizedRate": "1/2",
       "upperLimit": "3,000,000円",
@@ -178287,7 +178287,7 @@
         "研究開発"
       ],
       "usePurpose": "販路拡大・海外展開をしたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【北海道】賃上げ環境整備補助金2026",
       "subsidizedRate": "1/2以内",
       "upperLimit": "2,000,000円",
@@ -178349,7 +178349,7 @@
         "省エネ"
       ],
       "usePurpose": "新たな事業を行いたい / 人材育成を行いたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【北海道】賃上げ環境整備補助金2026",
       "subsidizedRate": "1/2以内",
       "upperLimit": "1,000,000円",
@@ -178408,7 +178408,7 @@
         "研究開発"
       ],
       "usePurpose": "新たな事業を行いたい / 人材育成を行いたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【北海道】賃上げ環境整備補助金2026",
       "subsidizedRate": "1/2以内",
       "upperLimit": "500,000円",
@@ -178470,7 +178470,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 人材育成を行いたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【北海道】賃上げ環境整備補助金2026",
       "subsidizedRate": "1/2以内",
       "upperLimit": "500,000円",
@@ -178531,7 +178531,7 @@
         "デジタル化"
       ],
       "usePurpose": "人材育成を行いたい / 設備整備・IT導入をしたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【北海道】賃上げ環境整備補助金2026",
       "subsidizedRate": "1/2以内",
       "upperLimit": "600,000円",
@@ -178593,7 +178593,7 @@
         "創業"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【北海道】賃上げ環境整備補助金2026",
       "subsidizedRate": "1/2以内",
       "upperLimit": "3,000,000円",
@@ -178654,7 +178654,7 @@
         "省エネ"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【北海道】賃上げ環境整備補助金2026",
       "subsidizedRate": "1/2以内",
       "upperLimit": "5,000,000円",
@@ -178715,7 +178715,7 @@
         "省エネ"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【北海道】賃上げ環境整備補助金2026",
       "subsidizedRate": "1/2以内",
       "upperLimit": "5,000,000円",
@@ -178945,7 +178945,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 事業を引き継ぎたい / 研究開発・実証事業を行いたい / 人材育成を行いたい / 資金繰りを改善したい / 雇用・職場環境を改善したい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい / 教育・子育て・少子化支援がほしい / スポーツ・文化支援がほしい",
-      "status": "open",
+      "status": "closed",
       "workflow": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
       "subsidizedRate": "1/2以内",
       "upperLimit": "3,000,000円",
@@ -179012,7 +179012,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 事業を引き継ぎたい / 研究開発・実証事業を行いたい / 人材育成を行いたい / 資金繰りを改善したい / 雇用・職場環境を改善したい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい / 教育・子育て・少子化支援がほしい / スポーツ・文化支援がほしい",
-      "status": "open",
+      "status": "closed",
       "workflow": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
       "subsidizedRate": "1/2以内",
       "upperLimit": "3,000,000円",
@@ -179145,7 +179145,7 @@
         "デジタル化"
       ],
       "usePurpose": "販路拡大・海外展開をしたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【埼玉県】中小企業等海外展開支援事業費補助金（海外出願支援事業）",
       "subsidizedRate": "1/2",
       "upperLimit": "3,000,000円",
@@ -179823,7 +179823,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 研究開発・実証事業を行いたい / 設備整備・IT導入をしたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "重要市場の商流維持・拡大対策事業（重要市場の商流の維持・拡大への支援）",
       "subsidizedRate": "定額、1/2以内",
       "upperLimit": "10,000,000円",
@@ -180283,7 +180283,7 @@
       "slug": "a0wj200000cdyswmax",
       "title": "「デコ活」（脱炭素につながる新しい豊かな暮らしを創る国民運動）推進事業（二次公募）",
       "overview": "デコ活",
-      "detail": "<p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">一般社団法人地域循環共生社会連携協会では、</span><span style=\"font-size: 16px;\">環境配慮行動普及促進事業費補助金及び二酸化炭素排出抑制対策事業費等補助金（「デコ活」（脱炭素につながる新しい豊かな暮らしを創る国民運動）推進事業）</span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">に係る環境省からの交付決定を受け、補助事業者を公募します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■目的・概要</strong></p><p><span style=\"font-size: 16px;\">（目的）</span></p><p><span style=\"font-size: 16px;\">国民（消費者・働き手。以下同じ）の行動変容やライフスタイル転換を通じた暮らし（生活・働き方。以下同じ）の改善及び温室効果ガス削減等の環境保全効果が継続的に見込める連携協働型の社会実装（事業化され自走することをいう。以下同じ）に向けたプロジェクトであって、各主体が連携協働して需要サイドのボトルネックを構造的に解消する仕掛けを国民に提供する事業に要する経費の一部を連携協働型社会実装助成方式（事業主体と国が資金、資源（人的・物的）を持ち寄るもので、いわゆるマッチングファンド方式により当該プロジェクトを実施する方式をいう）で交付することにより、事業展開を可能にし、国民の「新しい豊かな暮らし」の実現及びこれを支える製品・サービス等への大規模な需要創出を図り、もって2050年カーボンニュートラル及び2030年温室効果ガス排出削減目標の達成に寄与することを目的とします。</span></p><p><span style=\"font-size: 16px;\">（概要）</span></p><p><span style=\"font-size: 16px;\">①　広域規模事業</span></p><p><span style=\"font-size: 16px;\">国民の行動変容やライフスタイル転換を通じた暮らしの改善及び温室効果ガス削減等の環境保全効果が継続的に見込める連携協働型の社会実装に向けたプロジェクトであって、需要サイドのボトルネックを構造的に解消する仕掛けを国民に提供し、二以上の都道府県で多数の主体への効果が認められる事業。</span></p><p><br></p><p><span style=\"font-size: 16px;\">②　地域規模事業</span></p><p><span style=\"font-size: 16px;\">国民の行動変容やライフスタイル転換を通じた暮らしの改善及び温室効果ガス削減等の環境保全効果が継続的に見込める連携協働型の社会実装に向けたプロジェクトであって、需要サイドのボトルネックを構造的に解消する仕掛けを国民に提供し一都道府県内で効果が認められる事業。</span></p><p><br></p><p><span style=\"font-size: 16px;\">【留意事項】</span></p><p><span style=\"font-size: 16px;\">本事業の採択に向けた検討においては、CO2排出量の削減や環境保全効果等のより高い取組（※）に対して加点がなされます。 </span></p><p><span style=\"font-size: 16px;\">（※）参考： 『脱炭素につながる新しい豊かな暮らしの10年後』の関連資料 （CO2削減効果及びそのメリットとその算出根拠等） </span></p><p><a href=\"https://ondankataisaku.env.go.jp/decokatsu/common/file/20221208_cn_lifestyle.pdf\" target=\"_blank\" style=\"font-size: 16px;\">脱炭素につながる新しい豊かな暮らしの10年後</a></p><p><br></p><p><span style=\"font-size: 16px; color: black;\">二次公募では「くらしの10年ロードマップ」の7分野のうち「⑦基盤」を除いた6分野を公募します。 </span></p><p><a href=\"https://www.env.go.jp/content/000199520.pdf\" target=\"_blank\" style=\"font-size: 16px; color: rgb(4, 105, 193);\">くらしの10年ロードマップ</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■応募資格</strong></p><p><span style=\"font-size: 16px;\">以下のいずれかの者</span></p><p><span style=\"font-size: 16px;\">ア　民間事業者（風俗営業等の規制及び業務の適正化等に関する法律（昭和二十三年法律第百二十二号）第２条に規定する「風俗営業」、「性風俗関連特殊営業」及び「接客業務受託営業」を営む者、旅館業法（昭和二十三年法律第百三十八号）第３条第１項に規定する許可を受け旅館業を営む者であって、風俗営業等の規制及び業務の適正化等に関する法律第２条第６項に規定する店舗型性風俗特殊営業を営む者を除く。）</span></p><p><span style=\"font-size: 16px;\">イ　地方公共団体</span></p><p><span style=\"font-size: 16px;\">ウ　独立行政法人通則法（平成十一年法律第百三号）第２条第１項に規定する独立行政法人</span></p><p><span style=\"font-size: 16px;\">エ　一般社団法人・一般財団法人及び公益社団法人・公益財団法人・特定非営利活動法人・非政府組織</span></p><p><span style=\"font-size: 16px;\">オ　その他環境大臣（以下「大臣」という。）の承認を得て協会が適当と認める者</span></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■補助上限額</strong></p><p><span style=\"font-size: 16px;\">公募要領を参照</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■補助事業期間</strong></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">単年度</span></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">交付決定の日から令和９年２月２８日までに完了する必要があります。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■問合せ先</strong></p><p><span style=\"font-size: 16px;\">一般社団法人地域循環共生社会連携協会　事業部</span></p><p><span style=\"font-size: 16px;\">担当：齋藤</span></p><p><span style=\"font-size: 16px;\">問合せ用メールアドレス： deco08@rcespa.jp</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">﻿</span></p><p><strong style=\"font-size: 20px; color: rgb(0, 111, 173);\">■参考URL</strong></p><p><a href=\"https://rcespa.jp/offering/r07hosei_decokatsu_koubo_01\" target=\"_blank\" style=\"font-size: 11pt;\">https://</a>　<span style=\"font-size: 16px; color: rgb(0, 111, 173);\">（公募開始後に掲載します）</span><span style=\"font-size: 16px;\">﻿</span></p>",
+      "detail": "<p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">一般社団法人地域循環共生社会連携協会では、</span><span style=\"font-size: 16px;\">環境配慮行動普及促進事業費補助金及び二酸化炭素排出抑制対策事業費等補助金（「デコ活」（脱炭素につながる新しい豊かな暮らしを創る国民運動）推進事業）</span><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">に係る環境省からの交付決定を受け、補助事業者を公募します。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 16px;\">（目的）</span></p><p><span style=\"font-size: 16px;\">国民（消費者・働き手。以下同じ）の行動変容やライフスタイル転換を通じた暮らし（生活・働き方。以下同じ）の改善及び温室効果ガス削減等の環境保全効果が継続的に見込める連携協働型の社会実装（事業化され自走することをいう。以下同じ）に向けたプロジェクトであって、各主体が連携協働して需要サイドのボトルネックを構造的に解消する仕掛けを国民に提供する事業に要する経費の一部を連携協働型社会実装助成方式（事業主体と国が資金、資源（人的・物的）を持ち寄るもので、いわゆるマッチングファンド方式により当該プロジェクトを実施する方式をいう）で交付することにより、事業展開を可能にし、国民の「新しい豊かな暮らし」の実現及びこれを支える製品・サービス等への大規模な需要創出を図り、もって2050年カーボンニュートラル及び2030年温室効果ガス排出削減目標の達成に寄与することを目的とします。</span></p><p><span style=\"font-size: 16px;\">（概要）</span></p><p><span style=\"font-size: 16px;\">①　広域規模事業</span></p><p><span style=\"font-size: 16px;\">国民の行動変容やライフスタイル転換を通じた暮らしの改善及び温室効果ガス削減等の環境保全効果が継続的に見込める連携協働型の社会実装に向けたプロジェクトであって、需要サイドのボトルネックを構造的に解消する仕掛けを国民に提供し、二以上の都道府県で多数の主体への効果が認められる事業。</span></p><p><br></p><p><span style=\"font-size: 16px;\">②　地域規模事業</span></p><p><span style=\"font-size: 16px;\">国民の行動変容やライフスタイル転換を通じた暮らしの改善及び温室効果ガス削減等の環境保全効果が継続的に見込める連携協働型の社会実装に向けたプロジェクトであって、需要サイドのボトルネックを構造的に解消する仕掛けを国民に提供し一都道府県内で効果が認められる事業。</span></p><p><br></p><p><span style=\"font-size: 16px;\">【留意事項】</span></p><p><span style=\"font-size: 16px;\">本事業の採択に向けた検討においては、CO2排出量の削減や環境保全効果等のより高い取組（※）に対して加点がなされます。 </span></p><p><span style=\"font-size: 16px;\">（※）参考： 『脱炭素につながる新しい豊かな暮らしの10年後』の関連資料 （CO2削減効果及びそのメリットとその算出根拠等） </span></p><p><a href=\"https://ondankataisaku.env.go.jp/decokatsu/common/file/20221208_cn_lifestyle.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">脱炭素につながる新しい豊かな暮らしの10年後</a></p><p><br></p><p><span style=\"color: black; font-size: 16px;\">二次公募では「くらしの10年ロードマップ」の7分野のうち「⑦基盤」を除いた6分野を公募します。 </span></p><p><a href=\"https://www.env.go.jp/content/000199520.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(4, 105, 193); font-size: 16px;\">くらしの10年ロードマップ</a></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 16px;\">以下のいずれかの者</span></p><p><span style=\"font-size: 16px;\">ア　民間事業者（風俗営業等の規制及び業務の適正化等に関する法律（昭和二十三年法律第百二十二号）第２条に規定する「風俗営業」、「性風俗関連特殊営業」及び「接客業務受託営業」を営む者、旅館業法（昭和二十三年法律第百三十八号）第３条第１項に規定する許可を受け旅館業を営む者であって、風俗営業等の規制及び業務の適正化等に関する法律第２条第６項に規定する店舗型性風俗特殊営業を営む者を除く。）</span></p><p><span style=\"font-size: 16px;\">イ　地方公共団体</span></p><p><span style=\"font-size: 16px;\">ウ　独立行政法人通則法（平成十一年法律第百三号）第２条第１項に規定する独立行政法人</span></p><p><span style=\"font-size: 16px;\">エ　一般社団法人・一般財団法人及び公益社団法人・公益財団法人・特定非営利活動法人・非政府組織</span></p><p><span style=\"font-size: 16px;\">オ　その他環境大臣（以下「大臣」という。）の承認を得て協会が適当と認める者</span></p><p><br></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■補助上限額</strong></p><p><span style=\"font-size: 16px;\">公募要領を参照</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■補助事業期間</strong></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">単年度</span></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">交付決定の日から令和９年２月２８日までに完了する必要があります。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 16px;\">一般社団法人地域循環共生社会連携協会　事業部</span></p><p><span style=\"font-size: 16px;\">担当：齋藤</span></p><p><span style=\"font-size: 16px;\">問合せ用メールアドレス： deco08@rcespa.jp</span></p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\">﻿</span></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 20px;\">■参考URL</strong></p><p><a href=\"https://rcespa.jp/r08-decokatsu/r08-decokatsu-no2\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px;\">https://rcespa.jp/r08-decokatsu/r08-decokatsu-no2</a></p>",
       "region": "national",
       "prefectures": [],
       "industries": [
@@ -180328,7 +180328,7 @@
         "省エネ"
       ],
       "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / まちづくり・地域振興支援がほしい / エコ・SDGs活動支援がほしい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "環境配慮行動普及促進事業費補助金及び二酸化炭素排出抑制対策事業費等補助金",
       "subsidizedRate": "公募要領を参照",
       "upperLimit": "0円",
@@ -180678,7 +180678,7 @@
         "研究開発"
       ],
       "usePurpose": "販路拡大・海外展開をしたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "【香川県】令和８年度中小企業等海外展開支援事業費補助金（海外出願支援事業）",
       "subsidizedRate": "1/2",
       "upperLimit": "3,000,000円",
@@ -182281,7 +182281,7 @@
         "研究開発"
       ],
       "usePurpose": "販路拡大・海外展開をしたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "中小企業等海外展開支援事業費補助金（海外出願支援事業）",
       "subsidizedRate": "1/2",
       "upperLimit": "3,000,000円",
@@ -183290,6 +183290,37 @@
       "updatedAt": "2026-05-27T07:05:17.417Z"
     },
     {
+      "id": "a0WJ200000CDZipMAH",
+      "slug": "a0wj200000cdzipmah",
+      "title": "令和8年度東京都薬局物価高騰緊急対策事業支援金",
+      "overview": "東京都では、直面する物価高騰に伴う影響を緩和し、安定的な医薬品の供給体制を確保するため、光熱費の物価高騰への緊急対策として、薬局の負担軽減に向けた支援金を支給します。",
+      "detail": "<p><span style=\"font-size: 14px;\">■応募資格 </span></p><p><span style=\"font-size: 14px;\">都内に開設している薬局（健康保険法第63条第３項第１号に定める保険薬局に限る。）の開設者 </span></p><p><br></p><p><span style=\"font-size: 14px;\">■問合せ先 </span></p><p><span style=\"font-size: 14px;\">03-6822-4155（東京都薬局物価高騰緊急対策支援金事務局）</span></p><p><span style=\"font-size: 14px;\">受付時間：平日午前9時から午後5時まで</span></p><p><br></p><p><span style=\"font-size: 14px;\">メールでのお問い合わせは、</span><span style=\"font-size: 14px; color: rgb(68, 68, 68);\">以下のメールアドレスにお送りください。</span></p><p>contact<span style=\"font-size: 14px; color: rgb(51, 51, 51);\">(at)</span>yakkyoku-bukka-08.jp</p><p><span style=\"font-size: 14px;\">※</span><span style=\"font-size: 14px; color: rgb(51, 51, 51);\">迷惑メール対策のため、メールアドレスの表記を一部変更しております。お手数ですが、メール送信の際は(at)を@に置き換えてご利用ください。</span></p><p><span style=\"font-size: 14px;\">件名：【東京都薬局物価高騰】お問い合わせ</span></p><p><span style=\"font-size: 14px;\">本文：①法人名又は屋号、②ハガキに記載の4桁の番号、③保険薬局コード（7桁）、④ご担当者様お名前、⑤電話番号、⑥お問い合わせ内容</span></p><p><br></p><p><span style=\"font-size: 14px;\">■参照URL </span></p><p>https://www.hokeniryo.metro.tokyo.lg.jp/anzen/kenkou_anzen/yakkyoku-bukka5</p>",
+      "region": "tokyo",
+      "prefectures": [
+        "東京都"
+      ],
+      "industries": [
+        "医療",
+        "福祉"
+      ],
+      "targetNumberOfEmployees": "従業員数の制約なし",
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": false,
+      "purposes": [],
+      "usePurpose": "資金繰りを改善したい",
+      "status": "upcoming",
+      "workflow": "薬局物価高騰緊急対策事業",
+      "subsidizedRate": null,
+      "upperLimit": "78,000円",
+      "lowerLimit": null,
+      "startDate": "2026-06-30",
+      "endDate": "2026-08-07",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZipMAH",
+      "updatedAt": "2026-06-19T02:16:53.362Z"
+    },
+    {
       "id": "a0WJ200000CDZjJMAX",
       "slug": "a0wj200000cdzjjmax",
       "title": "令和８年度　フードテックビジネス実証事業",
@@ -183979,7 +184010,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
-      "status": "open",
+      "status": "closed",
       "workflow": "青森県産業DXモデル創出支援事業費補助金",
       "subsidizedRate": "補助対象経費の2/3に相当する額又は400万円のいずれか低い額以内の額  ​",
       "upperLimit": "4,000,000円",
@@ -185855,7 +185886,7 @@
         "省エネ"
       ],
       "usePurpose": "人材育成を行いたい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "令和8年度 洋上風力発電人材育成事業費 補助金",
       "subsidizedRate": "補助対象経費の2/3以内",
       "upperLimit": "500,000,000円",
@@ -185896,6 +185927,46 @@
       "source": "jgrants",
       "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbEWMA1",
       "updatedAt": "2026-06-17T11:32:29.175Z"
+    },
+    {
+      "id": "a0WJ200000CDbFwMAL",
+      "slug": "a0wj200000cdbfwmal",
+      "title": "令和８年度「原子力産業基盤強化事業補助金」（二次公募）",
+      "overview": "",
+      "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要（サマリ）:</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">この補助金は、原子力関連機器・サービスの安全性や信頼性向上に資する取組に要する経費の一部を補助することにより、原子力の安全性・信頼性を支えている原子力産業基盤の維持・強化を図ることを目的とします。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要:</strong></p><p><span style=\"color: black; font-size: 14px;\">エネルギー基本計画（令和７年２月閣議決定）において、「我が国の原子力産業・人材基盤は、高い国産化率と技術を誇り、国内経済や雇用に対する貢献度も高く、既設炉の再稼働や革新軽水炉・小型軽水炉等の次世代革新炉の開発・設置に向けても不可欠である」としています。</span></p><p><br></p><p><span style=\"color: black; font-size: 14px;\">その上で、本事業では、世界トップクラスの技術力や経験を有している国内サプライヤによる原子力関連機器・サービスの安全性や信頼性向上に資する技術開発、事業撤退を余儀なくされる事業の継承、製造プロセスにおけるデジタル化の促進等の支援を</span><span style=\"font-size: 14px;\">実施します。</span></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■備考:</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">応募書類はjGrantsでご提出ください。</span></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">やむを得ない事情によりjGrantsでの提出が困難な場合は、事務局にご相談ください。</span></p><p><br></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">※　上記に記載のない内容もございますので、必ず「募集要領」をご確認ください。</span></p><p><br></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問い合わせ先:</strong></p><p><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">〒</span><span style=\"font-size: 14px;\">１０１－００４７</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\"> 東京都千代田区</span><span style=\"font-size: 14px;\">内神田3-6-1　さんしん・ヒロセビル6F</span></p><p><span style=\"font-size: 14px; font-family: sans-serif; color: rgb(0, 0, 0);\">特定非営利活動法人 地球と未来の環境基金（EFF）</span></p><p><span style=\"font-size: 14px; font-family: sans-serif; color: rgb(0, 0, 0);\">担当：稲垣、金坂</span></p>",
+      "region": "national",
+      "prefectures": [],
+      "industries": [
+        "建設業",
+        "製造業",
+        "情報通信業",
+        "サービス業（他に分類されないもの）",
+        "学術研究",
+        "専門・技術サービス業"
+      ],
+      "targetNumberOfEmployees": "従業員数の制約なし",
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": false,
+      "purposes": [
+        "設備投資",
+        "人材育成",
+        "販路拡大",
+        "研究開発",
+        "省エネ",
+        "デジタル化"
+      ],
+      "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / イベント・事業運営支援がほしい / 事業を引き継ぎたい / 研究開発・実証事業を行いたい / 人材育成を行いたい / 資金繰りを改善したい / 雇用・職場環境を改善したい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい / 教育・子育て・少子化支援がほしい / スポーツ・文化支援がほしい",
+      "status": "open",
+      "workflow": "原子力産業基盤強化事業補助金",
+      "subsidizedRate": "１／２",
+      "upperLimit": "200,000,000円",
+      "lowerLimit": null,
+      "startDate": "2026-06-19",
+      "endDate": "2026-07-09",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbFwMAL",
+      "updatedAt": "2026-06-19T02:16:53.574Z"
     },
     {
       "id": "a0WJ200000CDbHOMA1",

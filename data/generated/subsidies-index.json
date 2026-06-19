@@ -126490,7 +126490,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "医療",
       "福祉"
@@ -138483,7 +138483,7 @@
     "overview": "海外展開支援（IP・エコシステム世界展開支援）",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "生活関連サービス業",
       "娯楽業"
@@ -138507,7 +138507,7 @@
     "overview": "海外展開支援（ローカライズ支援）",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "生活関連サービス業",
       "娯楽業"
@@ -138530,7 +138530,7 @@
     "overview": "海外展開支援（プロモーション支援）",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "生活関連サービス業",
       "娯楽業"
@@ -141035,7 +141035,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "医療",
       "福祉"
@@ -149872,7 +149872,7 @@
     "prefectures": [
       "三重県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -151072,7 +151072,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -151123,7 +151123,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -151176,7 +151176,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -151226,7 +151226,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -151279,7 +151279,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -151331,7 +151331,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -151384,7 +151384,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -151436,7 +151436,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -151624,7 +151624,7 @@
     "prefectures": [
       "和歌山県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -151682,7 +151682,7 @@
     "prefectures": [
       "大阪府"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -151798,7 +151798,7 @@
     "prefectures": [
       "埼玉県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -152391,7 +152391,7 @@
     "overview": "重要市場事業",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "製造業",
@@ -152786,7 +152786,7 @@
     "overview": "デコ活",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -153081,7 +153081,7 @@
     "prefectures": [
       "香川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -154378,7 +154378,7 @@
     "prefectures": [
       "岩手県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -155260,6 +155260,28 @@
     "updatedAt": "2026-05-27T07:05:17.417Z"
   },
   {
+    "id": "a0WJ200000CDZipMAH",
+    "slug": "a0wj200000cdzipmah",
+    "title": "令和8年度東京都薬局物価高騰緊急対策事業支援金",
+    "overview": "東京都では、直面する物価高騰に伴う影響を緩和し、安定的な医薬品の供給体制を確保するため、光熱費の物価高騰への緊急対策として、薬局の負担軽減に向けた支援金を支給します。",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [],
+    "upperLimit": "78,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-30",
+    "endDate": "2026-08-07",
+    "updatedAt": "2026-06-19T02:16:53.362Z"
+  },
+  {
     "id": "a0WJ200000CDZjJMAX",
     "slug": "a0wj200000cdzjjmax",
     "title": "令和８年度　フードテックビジネス実証事業",
@@ -155811,7 +155833,7 @@
     "prefectures": [
       "青森県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -157377,7 +157399,7 @@
     "overview": "日本国内において、洋上風力発電の人材育成に資するカリキュラム、実験施設、トレーニング施設等を、自社のみならず広く社会に向けて提供することを目的とした事業を対象とする補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "学術研究",
       "専門・技術サービス業"
@@ -157416,6 +157438,37 @@
     "startDate": "2026-06-17",
     "endDate": "2026-07-08",
     "updatedAt": "2026-06-17T11:32:29.175Z"
+  },
+  {
+    "id": "a0WJ200000CDbFwMAL",
+    "slug": "a0wj200000cdbfwmal",
+    "title": "令和８年度「原子力産業基盤強化事業補助金」（二次公募）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "建設業",
+      "製造業",
+      "情報通信業",
+      "サービス業（他に分類されないもの）",
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "200,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-19",
+    "endDate": "2026-07-09",
+    "updatedAt": "2026-06-19T02:16:53.574Z"
   },
   {
     "id": "a0WJ200000CDbHOMA1",
