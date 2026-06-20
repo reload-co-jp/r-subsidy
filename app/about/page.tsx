@@ -3,7 +3,7 @@ import Link from "next/link"
 import { SITE_NAME, absoluteUrl } from "../../lib/site"
 
 export const metadata: Metadata = {
-  title: `このサイトについて | ${SITE_NAME}`,
+  title: "このサイトについて",
   description:
     "RSubsidy 補助金サーチの概要、掲載情報、運営会社についてまとめたページです。",
   alternates: {

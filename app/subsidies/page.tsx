@@ -19,7 +19,7 @@ function getSubsidies(): SubsidyIndexItem[] {
   }
 }
 
-const PAGE_TITLE = `補助金一覧 | ${SITE_NAME}`
+const PAGE_TITLE = "補助金一覧"
 const PAGE_DESCRIPTION =
   "中小企業・個人事業主向けの補助金をJグランツから一覧で掲載。都道府県・受付状態・用途・補助上限額で絞り込み、制度を比較できます。"
 const PAGE_URL = absoluteUrl("/subsidies/")
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
     canonical: PAGE_URL,
   },
   openGraph: {
-    title: PAGE_TITLE,
+    title: `${PAGE_TITLE} | ${SITE_NAME}`,
     description: PAGE_DESCRIPTION,
     url: PAGE_URL,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: PAGE_TITLE,
+    title: `${PAGE_TITLE} | ${SITE_NAME}`,
     description: PAGE_DESCRIPTION,
   },
 }
