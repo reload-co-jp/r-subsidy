@@ -5,6 +5,7 @@ import type {
   ScoreBreakdown,
   Tier,
 } from './types'
+import { matchesPrefecture } from './prefectures'
 
 const WEIGHTS = {
   region: { national: 10, tokyoMatch: 30, prefectureMatch: 25, mismatch: 0 },
@@ -26,7 +27,7 @@ function scoreRegion(subsidy: NormalizedSubsidy, profile: UserProfile): number {
   if (subsidy.region === 'tokyo') {
     return profile.prefecture === '東京都' ? WEIGHTS.region.tokyoMatch : WEIGHTS.region.mismatch
   }
-  return subsidy.prefectures.includes(profile.prefecture)
+  return matchesPrefecture(subsidy, profile.prefecture)
     ? WEIGHTS.region.prefectureMatch
     : WEIGHTS.region.mismatch
 }

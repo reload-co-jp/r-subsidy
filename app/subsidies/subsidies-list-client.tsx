@@ -1,12 +1,11 @@
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
-import Link from "next/link"
 import { usePathname, useRouter, useSearchParams } from "next/navigation"
 import { PREFECTURES, isPrefecture, matchesPrefecture } from "../../lib/prefectures"
 import type { SubsidyIndexItem } from "../../lib/types"
-import { formatAmount, formatDate, parseAmount } from "../../lib/format"
-import PurposeTagLink from "../../components/elements/purpose-tag-link"
+import { formatDate, parseAmount } from "../../lib/format"
+import SubsidyCard from "../../components/elements/subsidy-card"
 
 const SITE_NAME = "RSubsidy 補助金サーチ"
 
@@ -454,122 +453,19 @@ export default function SubsidiesListClient({
             const st = statusLabel[s.status] ?? statusLabel.unknown
             const period = formatPeriod(s.startDate, s.endDate)
             return (
-              <Link
+              <SubsidyCard
                 key={s.id}
-                href={`/subsidies/${s.slug}`}
-                style={{ textDecoration: "none" }}
-              >
-                <div
-                  style={{
-                    backgroundColor: "var(--bg-surface)",
-                    borderRadius: "8px",
-                    padding: "1.25rem",
-                    border: "1px solid var(--border-soft)",
-                    transition: "border-color .15s",
-                    cursor: "pointer",
-                  }}
-                >
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "flex-start",
-                      gap: ".75rem",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    <span
-                      style={{
-                        backgroundColor: st.color + "22",
-                        color: st.color,
-                        border: `1px solid ${st.color}44`,
-                        borderRadius: "4px",
-                        padding: ".15rem .5rem",
-                        fontSize: ".75rem",
-                        whiteSpace: "nowrap",
-                        flexShrink: 0,
-                      }}
-                    >
-                      {st.label}
-                    </span>
-                    <span
-                      style={{
-                        backgroundColor: "var(--bg-surface-alt)",
-                        color: "#94a3b8",
-                        borderRadius: "4px",
-                        padding: ".15rem .5rem",
-                        fontSize: ".75rem",
-                        whiteSpace: "nowrap",
-                        flexShrink: 0,
-                      }}
-                    >
-                      {regionLabel[s.region] ?? s.region}
-                    </span>
-                    <h2
-                      style={{
-                        color: "var(--text-strong)",
-                        fontSize: ".95rem",
-                        fontWeight: "bold",
-                        margin: 0,
-                        flex: 1,
-                        minWidth: "200px",
-                      }}
-                    >
-                      {s.title}
-                    </h2>
-                  </div>
-                  {s.overview && (
-                    <p
-                      style={{
-                        color: "var(--text-muted)",
-                        fontSize: ".8rem",
-                        marginTop: ".5rem",
-                        lineHeight: 1.6,
-                        overflow: "hidden",
-                        display: "-webkit-box",
-                        WebkitLineClamp: 2,
-                        WebkitBoxOrient: "vertical",
-                      }}
-                    >
-                      {s.overview}
-                    </p>
-                  )}
-                  <div
-                    style={{
-                      marginTop: ".75rem",
-                      display: "flex",
-                      gap: ".5rem",
-                      flexWrap: "wrap",
-                    }}
-                  >
-                    {s.purposes.slice(0, 4).map((p) => (
-                      <PurposeTagLink key={p} purpose={p} />
-                    ))}
-                    {s.upperLimit && s.upperLimit !== "0円" && (
-                      <span
-                        style={{
-                          marginLeft: "auto",
-                          color: "#f59e0b",
-                          fontSize: ".8rem",
-                          whiteSpace: "nowrap",
-                        }}
-                      >
-                        上限 {formatAmount(s.upperLimit)}
-                      </span>
-                    )}
-                  </div>
-                  {period && (
-                    <p
-                      style={{
-                        color: "var(--text-muted)",
-                        fontSize: ".8rem",
-                        marginTop: ".55rem",
-                      }}
-                    >
-                      受付期間 {period}
-                    </p>
-                  )}
-                </div>
-              </Link>
+                slug={s.slug}
+                title={s.title}
+                upperLimit={s.upperLimit}
+                purposes={s.purposes}
+                overview={s.overview}
+                period={period}
+                badges={[
+                  { label: st.label, color: st.color },
+                  { label: regionLabel[s.region] ?? s.region, color: "#94a3b8" },
+                ]}
+              />
             )
           })}
         </div>
