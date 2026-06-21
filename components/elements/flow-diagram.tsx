@@ -25,7 +25,6 @@ const s = {
   proc:  base("#ffffff", "#b7d7cb", "#314640"),
   dec:   base("#fff9e6", "#c9910a", "#7a5800", { fontWeight: "bold", width: "170px" }),
   dur:   base("#e8f0ff", "#3b82f6", "#1d4ed8"),
-  step:  (n: string) => ({ ...base("#ffffff", "#b7d7cb", "#314640"), width: "120px" } as React.CSSProperties),
 }
 
 const lbl = (top: React.ReactNode, bottom?: React.ReactNode) => (

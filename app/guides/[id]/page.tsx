@@ -141,8 +141,6 @@ const Page: FC<Props> = async ({ params }) => {
       }
     : null
 
-  const structuredData = howToData ?? articleData
-
   return (
     <div className="page-content">
       <script
