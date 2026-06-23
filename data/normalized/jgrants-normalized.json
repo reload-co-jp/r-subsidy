@@ -1,6 +1,6 @@
 {
-  "normalizedAt": "2026-06-22T08:32:13.987Z",
-  "count": 3192,
+  "normalizedAt": "2026-06-23T15:33:58.942Z",
+  "count": 3195,
   "warnings": 0,
   "subsidies": [
     {
@@ -97768,13 +97768,13 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 設備整備・IT導入をしたい",
-      "status": "closed",
+      "status": "open",
       "workflow": "事業再構築補助金",
       "subsidizedRate": "公募要領をご確認ください。",
       "upperLimit": "150,000,000円",
       "lowerLimit": null,
       "startDate": "2022-09-01",
-      "endDate": "2026-03-31",
+      "endDate": "2028-05-07",
       "source": "jgrants",
       "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UaiqSEAR",
       "updatedAt": "2026-05-26T06:10:48.981Z"
@@ -132873,7 +132873,7 @@
         "デジタル化"
       ],
       "usePurpose": "安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "二酸化炭素排出抑制対策事業費等補助金",
       "subsidizedRate": "公募要領を参照",
       "upperLimit": "0円",
@@ -177130,7 +177130,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
       "subsidizedRate": "中小企業基本法で定める中小企業1／2、大企業等1／3、（詳細は公募要領に記載。）",
       "upperLimit": "7,297,000,000円",
@@ -177194,7 +177194,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
       "subsidizedRate": "中小企業基本法で定める中小企業1／2、大企業等1／3、（詳細は公募要領に記載。）",
       "upperLimit": "7,297,000,000円",
@@ -177321,7 +177321,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
       "subsidizedRate": "中小企業基本法で定める中小企業1／2、大企業等1／3、（詳細は公募要領に記載。）",
       "upperLimit": "7,297,000,000円",
@@ -177635,7 +177635,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
       "subsidizedRate": "中小企業基本法で定める中小企業1／2、大企業等1／3、（詳細は公募要領に記載。）",
       "upperLimit": "7,297,000,000円",
@@ -177698,7 +177698,7 @@
         "デジタル化"
       ],
       "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
-      "status": "upcoming",
+      "status": "open",
       "workflow": "プラスチック資源・金属資源等のバリューチェーン脱炭素化 のための高度化設備導入等促進事業",
       "subsidizedRate": "中小企業基本法で定める中小企業1／2、大企業等1／3、（詳細は公募要領に記載。）",
       "upperLimit": "7,297,000,000円",
@@ -186503,7 +186503,7 @@
       "slug": "a0wj200000cdapxmad",
       "title": "令和7年度補正 デジタルライフライン整備加速事業（地下埋設物等の設備データ整備事業）",
       "overview": "",
-      "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>本補助金は、「デジタルライフライン全国総合整備計画」（令和６年6月デジタルライフライン全国総合整備実現会議決定）に基づき、地下埋設物等の設備データの整備を加速することを目的とするものです。本事業では、電力・ガス・通信・上下水道をはじめとする公益事業者の設備データを一元的に管理するインフラ管理DXシステムの全国展開を見据え、「インフラ管理DXガイドライン（素案）」に即してインフラ管理DX事業を推進するデータ整備機関について、データ変換を行うツールの開発等に係る経費の一部を補助することにより、デジタル時代の社会インフラである「デジタルライフライン」の全国整備を加速することを目指します。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助対象となる事業</strong></p><p>地下埋設物等の設備データ整備事業</p><p>・インフラ管理DXシステムの全国展開を見据え、特に実装初期に要する、データ変換を行うツール等の設計・開発等に伴う費用及びこれに付随する費用の一部補助を行います。</p><p>・データ変換を行うツール等の設計・開発等を行うにあたり、データ整備の実施も必要な場合には、当該作業にかかる費用を補助対象に含めることができます。ただし、データ整備を実施する場合、補助総額はデータ整備の対象となる公益事業者1者あたり、ツールの開発費を含めて、最大1,500万円（補助対象経費4,500万円相当）を上限とします。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>申請にあたっては、次の<strong><u>ａ～ｇまでの全ての条件を満たす</u></strong>ことが必要です。</p><p>ａ．日本国内において登記された法人であり、国内に事業実施場所を有していること。</p><p>ｂ．間接補助事業を的確かつ円滑に遂行できる組織及び人員等を有していること。</p><p>ｃ．間接補助事業を円滑に遂行するために必要な経営基盤を有し、かつ、資金等について十分な管理能力を有していること。</p><p>ｄ．経済産業省所管補助金交付等の停止及び契約に係る指名停止等措置要領（平成１５・０１・２９会課第１号）別表第一及び第二の各号第一欄に掲げる措置要件のいずれにも該当しないこと。</p><p>ｅ．単独又は複数の大企業、中小企業等であること。</p><p class=\"ql-indent-1\">① 中小企業等とは、中小企業基本法で定める中小企業者（中小企業）ならびに一般社団法人、一般財団法人、事業協同組合、農業法人及び大学をいう。ただし、次のいずれかを満たす場合は大企業として扱う。</p><p class=\"ql-indent-1\">② 資本金又は出資金が5億円以上の法人に直接、又は、間接に１００％の株式を保有されている中小企業者</p><p class=\"ql-indent-1\">③ 確定している（申告済みの）直近過去3年分の各年又は各事業年度の課税所得の年平均が15億円を超える中小企業者</p><p class=\"ql-indent-1\">④ みなし大企業に該当する中小企業者</p><p>ｆ．「暴力団排除に関する誓約事項」に記載されている事項に該当しないこと（誓約事項に違反した場合、交付決定の全部又は一部を取消しとなることに留意すること）。</p><p>ｇ．政府からのＥＢＰＭに関する協力要請に応じること。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>令和７年度補正　デジタルライフライン整備加速事業事務局</p><p>パシフィックコンサルタンツ（株）</p><p>E-mail：digital-lifeline_r08@dl.pacific-hojo.jp</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請に関して</strong></p><p>公募サイトから公募要領、及び各種様式等の申請書類をダウンロードしていただき、公募要領をご確認の上、期日までにＪグランツもしくはメールにて申請書類の提出を行ってください<span style=\"font-size: 12.8px;\">。</span></p><p><span class=\"ql-cursor\">﻿</span>Ｊグランツにて申請書類を提出された際には、適切に申請書類がアップロードされているかを確認するため、事務局までメールにてご連絡ください。</p><p><a href=\"https://pacific-hojo2.com/digital-lifeline/\" rel=\"noopener noreferrer\" target=\"_blank\">https://pacific-hojo2.com/digital-lifeline/</a></p>",
+      "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>本補助金は、「デジタルライフライン全国総合整備計画」（令和６年6月デジタルライフライン全国総合整備実現会議決定）に基づき、地下埋設物等の設備データの整備を加速することを目的とするものです。本事業では、電力・ガス・通信・上下水道をはじめとする公益事業者の設備データを一元的に管理するインフラ管理DXシステムの全国展開を見据え、「インフラ管理DXガイドライン（素案）」に即してインフラ管理DX事業を推進するデータ整備機関について、データ変換を行うツールの開発等に係る経費の一部を補助することにより、デジタル時代の社会インフラである「デジタルライフライン」の全国整備を加速することを目指します。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助対象となる事業</strong></p><p>地下埋設物等の設備データ整備事業</p><p>・インフラ管理DXシステムの全国展開を見据え、特に実装初期に要する、データ変換を行うツール等の設計・開発等に伴う費用及びこれに付随する費用の一部補助を行います。</p><p>・データ変換を行うツール等の設計・開発等を行うにあたり、データ整備の実施も必要な場合には、当該作業にかかる費用を補助対象に含めることができます。ただし、データ整備を実施する場合、補助総額はデータ整備の対象となる公益事業者1者あたり、ツールの開発費を含めて、最大1,500万円（補助対象経費4,500万円相当）を上限とします。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>申請にあたっては、次の<strong><u>ａ～ｇまでの全ての条件を満たす</u></strong>ことが必要です。</p><p>ａ．日本国内において登記された法人であり、国内に事業実施場所を有していること。</p><p>ｂ．間接補助事業を的確かつ円滑に遂行できる組織及び人員等を有していること。</p><p>ｃ．間接補助事業を円滑に遂行するために必要な経営基盤を有し、かつ、資金等について十分な管理能力を有していること。</p><p>ｄ．経済産業省所管補助金交付等の停止及び契約に係る指名停止等措置要領（平成１５・０１・２９会課第１号）別表第一及び第二の各号第一欄に掲げる措置要件のいずれにも該当しないこと。</p><p>ｅ．単独又は複数の大企業、中小企業等であること。</p><p class=\"ql-indent-1\">① 中小企業等とは、中小企業基本法で定める中小企業者（中小企業）ならびに一般社団法人、一般財団法人、事業協同組合、農業法人及び大学をいう。ただし、次のいずれかを満たす場合は大企業として扱う。</p><p class=\"ql-indent-1\">② 資本金又は出資金が5億円以上の法人に直接、又は、間接に１００％の株式を保有されている中小企業者</p><p class=\"ql-indent-1\">③ 確定している（申告済みの）直近過去3年分の各年又は各事業年度の課税所得の年平均が15億円を超える中小企業者</p><p class=\"ql-indent-1\">④ みなし大企業に該当する中小企業者</p><p>ｆ．「暴力団排除に関する誓約事項」に記載されている事項に該当しないこと（誓約事項に違反した場合、交付決定の全部又は一部を取消しとなることに留意すること）。</p><p>ｇ．政府からのＥＢＰＭに関する協力要請に応じること。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>令和７年度補正　デジタルライフライン整備加速事業事務局</p><p>パシフィックコンサルタンツ（株）</p><p>E-mail：digital-lifeline@dl.pacific-hojo.jp</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請に関して</strong></p><p>公募サイトから公募要領、及び各種様式等の申請書類をダウンロードしていただき、公募要領をご確認の上、期日までにＪグランツもしくはメールにて申請書類の提出を行ってください<span style=\"font-size: 12.8px;\">。</span></p><p>﻿Ｊグランツにて申請書類を提出された際には、適切に申請書類がアップロードされているかを確認するため、事務局までメールにてご連絡ください。</p><p><a href=\"https://pacific-hojo2.com/digital-lifeline/\" rel=\"noopener noreferrer\" target=\"_blank\">https://pacific-hojo2.com/digital-lifeline/</a></p>",
       "region": "national",
       "prefectures": [],
       "industries": [
@@ -186539,7 +186539,7 @@
       "slug": "a0wj200000cdb6jmat",
       "title": "【令和７年度】二酸化炭素排出抑制対策事業費等補助金（水インフラにおける脱炭素化推進事業）［四次公募］",
       "overview": "",
-      "detail": "<p><strong style=\"color: rgb(0, 111, 173); font-size: 24px;\">※詳細につきましては以下よりご確認ください。</strong></p><p><span style=\"font-size: 24px;\">　</span><a href=\"https://siz-kankyou.com/2025co2/mizuinfrastructure3/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 24px;\">https://siz-kankyou.com/2025co2/mizuinfrastructure4/</a></p><p><br></p><p><br></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">①水インフラのCO2削減設備導入支援事業</span></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">②水インフラ由来再エネの地産地消モデル事業</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■目的・概要</strong></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">①水インフラである上下水道施設 、ダム施設において、 再生可能エネルギー設備の設置や省エネ設備の導入等の脱炭素化の取組を行う事業に要する経費 の一部に補助金を交付することにより、事業者等のCO2排出抑制を行うとともに、先行事例を示すことで、近隣事業者等へのCO2排出抑制対策の効果的な波及を促進し、脱炭素 型の水インフラシステムの実現に資することを目的とする。 </span></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">②自家消費する以上の水力発電等の再エネポテンシャルを有する水インフラ施設において、ポテンシャルの最大限の活用のため、民間事業者等が発電事業を行い、周辺地域等に一定量の電力を 供給し、電力の地産地消を行うモデル事業に要する経費の一部に補助金を交付することにより、 先行事例を示すことで、近隣事業者等へのCO2排出抑制対策の効果的な波及 を促進し、脱炭素型の水インフラシステムの実現に資することを目的とする。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■補助率</strong></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">①太陽光発電設備、CO2削減率が15％以上30％未満の省CO2促進設備：３分の１以内</span></p><p style=\"text-align: justify;\"><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">　太陽光発電設備以外の再生可能エネルギー設備、CO2削減率が30％以上の省CO2促進設備：２分の１以内</span></p><p style=\"text-align: justify;\"><span style=\"font-size: 16px; color: rgb(0, 0, 0);\"> ※上限は事業期間全体で1.0億円</span></p><p><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">②２分の１以内　※上限は事業期間全体で2.5億円</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 16px;\">■問合せ先</strong></p><p style=\"text-align: justify;\"><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">　一般社団法人静岡県環境資源協会　省CO2促進事業支援センター</span></p><p style=\"text-align: justify;\"><span style=\"font-size: 16px; color: rgb(0, 0, 0);\">（E-mail：center@siz-kankyou.or.jp）</span></p>",
+      "detail": "<p><strong style=\"font-size: 24px; color: rgb(0, 111, 173);\">※詳細につきましては以下よりご確認ください。</strong></p><p><span style=\"font-size: 24px;\">　</span><a href=\"https://siz-kankyou.com/2025co2/mizuinfrastructure4/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 24px;\">https://siz-kankyou.com/2025co2/mizuinfrastructure4/</a></p><p><br></p><p><br></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">①水インフラのCO2削減設備導入支援事業</span></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">②水インフラ由来再エネの地産地消モデル事業</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">①水インフラである上下水道施設 、ダム施設において、 再生可能エネルギー設備の設置や省エネ設備の導入等の脱炭素化の取組を行う事業に要する経費 の一部に補助金を交付することにより、事業者等のCO2排出抑制を行うとともに、先行事例を示すことで、近隣事業者等へのCO2排出抑制対策の効果的な波及を促進し、脱炭素 型の水インフラシステムの実現に資することを目的とする。 </span></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">②自家消費する以上の水力発電等の再エネポテンシャルを有する水インフラ施設において、ポテンシャルの最大限の活用のため、民間事業者等が発電事業を行い、周辺地域等に一定量の電力を 供給し、電力の地産地消を行うモデル事業に要する経費の一部に補助金を交付することにより、 先行事例を示すことで、近隣事業者等へのCO2排出抑制対策の効果的な波及 を促進し、脱炭素型の水インフラシステムの実現に資することを目的とする。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■補助率</strong></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">①太陽光発電設備、CO2削減率が15％以上30％未満の省CO2促進設備：３分の１以内</span></p><p style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">　太陽光発電設備以外の再生可能エネルギー設備、CO2削減率が30％以上の省CO2促進設備：２分の１以内</span></p><p style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); font-size: 16px;\"> ※上限は事業期間全体で1.0億円</span></p><p><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">②２分の１以内　※上限は事業期間全体で2.5億円</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">　一般社団法人静岡県環境資源協会　省CO2促進事業支援センター</span></p><p style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); font-size: 16px;\">（E-mail：center@siz-kankyou.or.jp）</span></p>",
       "region": "national",
       "prefectures": [],
       "industries": [
@@ -187224,6 +187224,39 @@
       "updatedAt": "2026-06-22T08:32:13.956Z"
     },
     {
+      "id": "a0WJ200000CDbPBMA1",
+      "slug": "a0wj200000cdbpbma1",
+      "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））（第２次公募）",
+      "overview": "地域貢献等の要件を満たす事業の廃熱を高効率で熱回収する設備（熱や電気等を施設外でも確実に利用すること）及び廃棄物から燃料を製造する設備（燃料が地域内産業で確実に使用されること）の費用の一部を補助します。",
+      "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 13px;\"> 廃棄物エネルギーを利活用した地域共生・地域循環、社会全体での脱炭素化につなげるため、再生利用が困難な廃棄物からの熱回収等によりエネルギーを創出・活用し、かつ、災害廃棄物受入等による地元自治体との協力体制の構築等を行う事業を支援することにより、CO2排出削減に加え廃棄物処理施設を自立分散型エネルギー源とし、創出したエネルギーの地域内での利活用を促すとともに、地域・くらしの安全・安心、防災力の向上を目指します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■根拠法令</strong></p><p><span style=\"font-size: 13px;\">なし</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 10.5pt;\"> </span><span style=\"font-size: 12px;\"> </span><span style=\"font-size: 13px;\">一般廃棄物処理業又は産業廃棄物処理業を行う事業者（一般廃棄物処理業又は産業廃棄物処理業を行う事業者に貸し渡しを行う、貸渡し（リース）を業とする者を含む。）であって、次の各号に掲げる者とする。</span></p><p><span style=\"font-size: 13px;\"> ア　民間企業</span></p><p><span style=\"font-size: 13px;\"> イ　一般社団法人・一般財団法人及び公益社団法人・公益財団法人</span></p><p><span style=\"font-size: 13px;\"> ウ　その他、大臣の承認を得て財団が適当と認める者</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助対象要件</strong></p><p><span style=\"color: rgb(68, 68, 68);\">１．廃棄物高効率熱回収事業</span></p><p><span style=\"color: rgb(68, 68, 68);\"> 廃棄物処理に伴う廃熱を有効利用する施設の設備設置・改良を行う事業※１</span></p><p><span style=\"color: rgb(68, 68, 68);\"> （熱や電気等を施設外でも確実に利用すること）</span></p><p><span style=\"color: rgb(68, 68, 68);\"> ※１ 燃焼ガス冷却設備、発電設備、熱供給設備</span></p><p><span style=\"color: rgb(68, 68, 68);\"> 上記の設備と一体不可分である受発配電設備、ガス、水道等の設備</span></p><p><span style=\"color: rgb(68, 68, 68);\">２．廃棄物燃料製造事業</span></p><p><span style=\"color: rgb(68, 68, 68);\"> 廃棄物燃料製造施設（固形燃料化・油化・メタン化・ＲＰＦ化等）の設備設置・改良を行う事業※２</span></p><p><span style=\"color: rgb(68, 68, 68);\"> ※２ 破砕設備、選別・分級設備、成形設備（ＲＰＦ 製造設備の場合）</span></p><p><span style=\"color: rgb(68, 68, 68);\"> 上記の設備と一体不可分である電気、ガス、水道等の設備</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■事業形態：</strong> （間接補助）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助率・補助額 </strong><strong style=\"color: rgb(0, 111, 173); font-size: 12.8px;\">：</strong></p><p><span style=\"font-size: 13px;\"> 廃棄物高効率熱回収事業　補助</span>率1／3（上限1.5億円 但し、発電能力2MW以上は3億円、5MW以上は5億円）</p><p><span style=\"font-size: 13px;\"> 廃棄物燃料製造事業　</span>補助率1／3（上限1億円 但し、高度化設備導入の場合は1.5億円）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■実施期間：</strong>令和7年度～令和11年度</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p>日本国内の事業所等において設備を設置する事業に限る。</p><p><br></p><p><strong style=\"color: rgb(1, 113, 176);\">■備考</strong></p><p>・応募申請にはGビズIDが必要です。</p><p>・応募要領をよくお読みの上、申請を行ってください。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 14px;\">\t</span><span style=\"font-size: 13px;\">公益財団法人廃棄物・３Ｒ研究財団</span></p><p><span style=\"font-size: 13px;\">\t〒１３０－００２６ </span></p><p><span style=\"font-size: 13px;\">\t東京都墨田区両国３－２５－５　ＪＥＩ両国ビル８階</span></p><p><span style=\"font-size: 13px;\">\t担当：小口、上島、三宅、小田切</span></p><p><span style=\"font-size: 13px;\">\tTEL：０３－６６５９－６４２４ </span></p><p><span style=\"font-size: 13px;\">\tFAX：０３－６６５９－６４２５ </span></p><p><span style=\"font-size: 13px;\">\tE-mail：r.koudoka-3＠jwrf.or.jp</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.env.go.jp/content/000335998.pdf\" target=\"_blank\">000335998.pdf</a></p>",
+      "region": "national",
+      "prefectures": [],
+      "industries": [
+        "サービス業（他に分類されないもの）"
+      ],
+      "targetNumberOfEmployees": "従業員数の制約なし",
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": false,
+      "purposes": [
+        "設備投資",
+        "研究開発",
+        "省エネ",
+        "デジタル化"
+      ],
+      "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
+      "status": "open",
+      "workflow": "令和８年度二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））",
+      "subsidizedRate": "補助率・補助額については補助金のサマリーページをご参照ください。",
+      "upperLimit": "0円",
+      "lowerLimit": null,
+      "startDate": "2026-06-23",
+      "endDate": "2026-08-03",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbPBMA1",
+      "updatedAt": "2026-06-23T15:33:58.596Z"
+    },
+    {
       "id": "a0WJ200000CDbPkMAL",
       "slug": "a0wj200000cdbpkmal",
       "title": "【ふくい産業支援センター】令和８年度_中小企業等海外展開支援事業費補助金_二次公募（海外出願支援事業）",
@@ -187541,6 +187574,84 @@
       "source": "jgrants",
       "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbYyMAL",
       "updatedAt": "2026-06-21T01:50:31.261Z"
+    },
+    {
+      "id": "a0WJ200000CDbpvMAD",
+      "slug": "a0wj200000cdbpvmad",
+      "title": "【令和８年度】サステナブル倉庫モデル促進事業",
+      "overview": "",
+      "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>本補助金は、物流施設における省CO2化・省人化機器等及び再生可能エネルギー設備の同時導入を支援することにより、「サステナブル倉庫」のモデル事例創出及び普及を図り、 業界全体におけるCO2排出削減と担い手不足への対応を同時に実現することを目的とします。さ らにはCO2排出削減や担い手不足対策だけでなく、災害時におけるサプライチェーンの維持等、 地域課題の解決にも貢献することを目指します。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■根拠法令</strong></p><p>倉庫業法（昭和３１年法律第１２１号）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">倉庫業者（倉庫業法（昭和３１年法律第１２１号）に基づき、倉庫業の登録を受けている者）が営む営業倉庫</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p>全国</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請時の依頼事項</strong>*************************************************************************************** </p><p><strong>申請後は担当者様のメールアドレス確認のため、応募アドレス＜souko_oubo@heco-hojo.jp＞に</strong></p><p><strong>【申請済みである旨】を記載した電子メールを送付いただきますようお願いいたします。</strong></p><p>************************************************************************************************************ </p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">＜メールアドレス＞souko_ask@heco-hojo.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.heco-hojo.jp/index.html\" target=\"_blank\">公益財団法人北海道環境財団</a></p>",
+      "region": "national",
+      "prefectures": [],
+      "industries": [
+        "運輸業",
+        "郵便業",
+        "卸売業",
+        "小売業"
+      ],
+      "targetNumberOfEmployees": "従業員数の制約なし",
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": false,
+      "purposes": [
+        "設備投資",
+        "人材育成",
+        "省エネ",
+        "デジタル化"
+      ],
+      "usePurpose": "雇用・職場環境を改善したい / 災害（自然災害、感染症等）支援がほしい / 設備整備・IT導入をしたい",
+      "status": "open",
+      "workflow": "サステナブル倉庫モデル促進事業",
+      "subsidizedRate": "補助対象経費の1/2",
+      "upperLimit": "100,000,000円",
+      "lowerLimit": null,
+      "startDate": "2026-06-22",
+      "endDate": "2026-07-17",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbpvMAD",
+      "updatedAt": "2026-06-23T15:33:58.912Z"
+    },
+    {
+      "id": "a0WJ200000CDbq0MAD",
+      "slug": "a0wj200000cdbq0mad",
+      "title": "【令和８年度】フェーズフリーの省CO2独立型施設支援事業",
+      "overview": "",
+      "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>本補助金は、クーリングシェルターや災害時の活動拠点としても活用可能な設備等の導入を促進し、平常時においては、業務その他部門の脱炭素化に寄与すること、非常時においては、地域の熱中症対策とレジリエンス性能の向上を目的とします。 その中で本事業では、フェーズフリーな省CO2独立型施設の普及促進と、新たな「災害備蓄」としての社会的位置づけの確立を目指します。 </p><p><strong style=\"color: rgb(0, 111, 173);\">■根拠法令</strong></p><p>気候変動適応法（平成３０年法 律第５０号）、道路運送車両法等の法令、建築基準法、その他（平常時の事業実施に必要となる許認可）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p>全国</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請時の依頼事項</strong>*************************************************************************************** </p><p><strong>申請後は担当者様のメールアドレス確認のため、応募アドレス＜souko_oubo@heco-hojo.jp＞に</strong></p><p><strong>【申請済みである旨】を記載した電子メールを送付いただきますようお願いいたします。</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">************************************************************************************************************ </strong></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">＜メールアドレス＞h-ido_ask@heco-hojo.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"http://www.heco-hojo.jp/index.html\" target=\"_blank\">公益財団法人北海道環境財団　補助金</a></p>",
+      "region": "national",
+      "prefectures": [],
+      "industries": [
+        "建設業",
+        "製造業",
+        "農業",
+        "林業",
+        "卸売業",
+        "小売業",
+        "宿泊業",
+        "飲食サービス業",
+        "教育",
+        "学習支援業",
+        "医療",
+        "福祉"
+      ],
+      "targetNumberOfEmployees": "従業員数の制約なし",
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": false,
+      "purposes": [
+        "設備投資",
+        "省エネ"
+      ],
+      "usePurpose": "新たな事業を行いたい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい",
+      "status": "open",
+      "workflow": "フェーズフリーの省CO2独立型施設支援事業",
+      "subsidizedRate": "補助対象経費の1/3",
+      "upperLimit": "35,000,000円",
+      "lowerLimit": null,
+      "startDate": "2026-06-22",
+      "endDate": "2026-07-17",
+      "source": "jgrants",
+      "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDbq0MAD",
+      "updatedAt": "2026-06-23T15:33:58.942Z"
     }
   ]
 }

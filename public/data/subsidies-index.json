@@ -84859,7 +84859,7 @@
     "overview": "事業再構築補助金",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -84902,7 +84902,7 @@
     "isForSME": true,
     "source": "jgrants",
     "startDate": "2022-09-01",
-    "endDate": "2026-03-31",
+    "endDate": "2028-05-07",
     "updatedAt": "2026-05-26T06:10:48.981Z"
   },
   {
@@ -113609,7 +113609,7 @@
     "overview": "鉄道（回生電力・車両省エネ・先進省エネ）",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "公務（他に分類されるものを除く）",
       "運輸業",
@@ -150090,7 +150090,7 @@
     "overview": "廃プラスチックをリサイクル・リユースするための、省CO2型の資源循環高度化設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -150144,7 +150144,7 @@
     "overview": "従来の化石資源由来プラスチックを代替するバイオプラスチック等の再生可能資源由来素材等の製造に係る設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -150254,7 +150254,7 @@
     "overview": "都市鉱山のリサイクルの促進のため、素材の分離・選別性を向上させる高効率な破砕や、X線等を用いた含有元素等に応じた合金選別、複数センサーを組み合わせた高効率選別など、先進的な技術を用いて従来の破砕・選別よりも回収される素材の量又は質を向上させる破砕・選別を行う設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -150523,7 +150523,7 @@
     "overview": "廃太陽光パネルのリサイクル設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -150577,7 +150577,7 @@
     "overview": "廃リチウム蓄電池のリサイクル設備を導入するための経費の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -158537,6 +158537,30 @@
     "updatedAt": "2026-06-22T08:32:13.956Z"
   },
   {
+    "id": "a0WJ200000CDbPBMA1",
+    "slug": "a0wj200000cdbpbma1",
+    "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金 （地域共生型廃棄物発電等導入促進事業 （うち地域の廃棄物を活用した地域エネルギー創出事業））（第２次公募）",
+    "overview": "地域貢献等の要件を満たす事業の廃熱を高効率で熱回収する設備（熱や電気等を施設外でも確実に利用すること）及び廃棄物から燃料を製造する設備（燃料が地域内産業で確実に使用されること）の費用の一部を補助します。",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "サービス業（他に分類されないもの）"
+    ],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-23",
+    "endDate": "2026-08-03",
+    "updatedAt": "2026-06-23T15:33:58.596Z"
+  },
+  {
     "id": "a0WJ200000CDbPkMAL",
     "slug": "a0wj200000cdbpkmal",
     "title": "【ふくい産業支援センター】令和８年度_中小企業等海外展開支援事業費補助金_二次公募（海外出願支援事業）",
@@ -158809,6 +158833,66 @@
     "startDate": "2026-07-14",
     "endDate": "2027-02-28",
     "updatedAt": "2026-06-21T01:50:31.261Z"
+  },
+  {
+    "id": "a0WJ200000CDbpvMAD",
+    "slug": "a0wj200000cdbpvmad",
+    "title": "【令和８年度】サステナブル倉庫モデル促進事業",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "100,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-22",
+    "endDate": "2026-07-17",
+    "updatedAt": "2026-06-23T15:33:58.912Z"
+  },
+  {
+    "id": "a0WJ200000CDbq0MAD",
+    "slug": "a0wj200000cdbq0mad",
+    "title": "【令和８年度】フェーズフリーの省CO2独立型施設支援事業",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "建設業",
+      "製造業",
+      "農業",
+      "林業",
+      "卸売業",
+      "小売業",
+      "宿泊業",
+      "飲食サービス業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "省エネ"
+    ],
+    "upperLimit": "35,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-22",
+    "endDate": "2026-07-17",
+    "updatedAt": "2026-06-23T15:33:58.942Z"
   },
   {
     "id": "national-jizokuka-ippan-2026",
