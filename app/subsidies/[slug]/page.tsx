@@ -5,14 +5,26 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import type { NormalizedSubsidy, SubsidyIndexItem } from "../../../lib/types"
-import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl, buildBreadcrumbList } from "../../../lib/site"
+import {
+  SITE_NAME,
+  DEFAULT_OG_IMAGE,
+  absoluteUrl,
+  buildBreadcrumbList,
+} from "../../../lib/site"
 import { formatDate, formatAmount } from "../../../lib/format"
 
 function getRelatedSubsidies(subsidy: NormalizedSubsidy): SubsidyIndexItem[] {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-index.json"
+    )
     const all: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
-    const active = all.filter((s) => s.slug !== subsidy.slug && s.status !== "closed")
+    const active = all.filter(
+      (s) => s.slug !== subsidy.slug && s.status !== "closed"
+    )
     const byPurpose = active.filter((s) =>
       s.purposes.some((p) => subsidy.purposes.includes(p))
     )
@@ -22,7 +34,10 @@ function getRelatedSubsidies(subsidy: NormalizedSubsidy): SubsidyIndexItem[] {
         subsidy.prefectures.length > 0 &&
         s.prefectures.some((p) => subsidy.prefectures.includes(p))
     )
-    const merged = [...byPurpose, ...byPrefecture.filter((s) => !byPurpose.some((b) => b.slug === s.slug))]
+    const merged = [
+      ...byPurpose,
+      ...byPrefecture.filter((s) => !byPurpose.some((b) => b.slug === s.slug)),
+    ]
     return merged.slice(0, 5)
   } catch {
     return []
@@ -32,7 +47,11 @@ function getRelatedSubsidies(subsidy: NormalizedSubsidy): SubsidyIndexItem[] {
 type FaqItem = { question: string; answer: string }
 
 function buildFaqItems(subsidy: NormalizedSubsidy): FaqItem[] {
-  const regionLabel: Record<string, string> = { national: "全国", tokyo: "東京都", prefecture: "都道府県" }
+  const regionLabel: Record<string, string> = {
+    national: "全国",
+    tokyo: "東京都",
+    prefecture: "都道府県",
+  }
   const items: FaqItem[] = []
 
   const region =
@@ -137,10 +156,7 @@ function buildDescription(subsidy: NormalizedSubsidy) {
 }
 
 function escapeHtml(text: string) {
-  return text
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
+  return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
 }
 
 function plainTextToHtml(text: string) {
@@ -156,9 +172,14 @@ function plainTextToHtml(text: string) {
         return `<h2>${escapeHtml(block.slice(1, -1))}</h2>`
       }
       const lines = block.split("\n")
-      const isList = lines.every((l) => /^[-・]/.test(l.trim()) || l.trim() === "")
+      const isList = lines.every(
+        (l) => /^[-・]/.test(l.trim()) || l.trim() === ""
+      )
       if (isList) {
-        const items = lines.filter((l) => l.trim()).map((l) => `<li>${escapeHtml(l.replace(/^[-・]\s*/, ""))}</li>`).join("")
+        const items = lines
+          .filter((l) => l.trim())
+          .map((l) => `<li>${escapeHtml(l.replace(/^[-・]\s*/, ""))}</li>`)
+          .join("")
         return `<ul>${items}</ul>`
       }
       return `<p>${escapeHtml(block).replace(/\n/g, "<br>")}</p>`
@@ -178,6 +199,82 @@ function sanitizeDetailHtml(html: string) {
     .replace(/\s(href|src)=["']\s*javascript:[^"']*["']/gi, "")
 }
 
+function stripHtml(html: string) {
+  return html
+    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
+    .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function buildSubsidyStructuredData(
+  subsidy: NormalizedSubsidy,
+  pageUrl: string,
+  description: string
+) {
+  const amount = formatAmount(subsidy.upperLimit)
+  const areaServed =
+    subsidy.region === "national"
+      ? "日本全国"
+      : subsidy.prefectures.length > 0
+        ? subsidy.prefectures
+        : (regionLabel[subsidy.region] ?? subsidy.region)
+  const detailText = stripHtml(subsidy.detail).slice(0, 5000)
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${pageUrl}#webpage`,
+        name: subsidy.title,
+        url: pageUrl,
+        inLanguage: "ja",
+        description,
+        datePublished: subsidy.startDate ?? subsidy.updatedAt,
+        dateModified: subsidy.updatedAt,
+        mainEntity: { "@id": `${pageUrl}#grant` },
+      },
+      {
+        "@type": "MonetaryGrant",
+        "@id": `${pageUrl}#grant`,
+        name: subsidy.title,
+        url: pageUrl,
+        description,
+        text: detailText || description,
+        funder: subsidy.workflow
+          ? { "@type": "Organization", name: subsidy.workflow }
+          : undefined,
+        areaServed,
+        audience: {
+          "@type": "BusinessAudience",
+          audienceType: subsidy.isForSME ? "中小企業・個人事業主" : "事業者",
+        },
+        applicationStartDate: subsidy.startDate ?? undefined,
+        applicationDeadline: subsidy.endDate ?? undefined,
+        amount: amount
+          ? {
+              "@type": "MonetaryAmount",
+              currency: "JPY",
+              value: amount,
+            }
+          : undefined,
+        keywords: [
+          ...subsidy.purposes,
+          ...subsidy.industries,
+          ...subsidy.prefectures,
+        ].join(", "),
+        sameAs: subsidy.referenceUrl ?? undefined,
+      },
+    ],
+  }
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const subsidy = getSubsidy(slug)
@@ -195,7 +292,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = buildDescription(subsidy)
   const pageUrl = absoluteUrl(`/subsidies/${subsidy.slug}/`)
 
-  const ogImage = { url: absoluteUrl(DEFAULT_OG_IMAGE), width: 1200, height: 630, alt: subsidy.title }
+  const ogImage = {
+    url: absoluteUrl(DEFAULT_OG_IMAGE),
+    width: 1200,
+    height: 630,
+    alt: subsidy.title,
+  }
 
   return {
     title: `${subsidy.title} | ${SITE_NAME}`,
@@ -203,7 +305,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: pageUrl,
     },
-    ...(subsidy.status === "closed" ? { robots: { index: false, follow: true } } : {}),
+    ...(subsidy.status === "closed"
+      ? { robots: { index: false, follow: true } }
+      : {}),
     openGraph: {
       title: `${subsidy.title} | ${SITE_NAME}`,
       description,
@@ -273,16 +377,11 @@ const Page: FC<Props> = async ({ params }) => {
   const description = buildDescription(subsidy)
   const relatedSubsidies = getRelatedSubsidies(subsidy)
   const faqItems = buildFaqItems(subsidy)
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    name: subsidy.title,
-    url: pageUrl,
-    inLanguage: "ja",
-    description,
-    datePublished: subsidy.startDate ?? subsidy.updatedAt,
-    dateModified: subsidy.updatedAt,
-  }
+  const structuredData = buildSubsidyStructuredData(
+    subsidy,
+    pageUrl,
+    description
+  )
 
   const breadcrumbList = buildBreadcrumbList([
     { name: "ホーム", url: absoluteUrl("/") },
@@ -301,7 +400,10 @@ const Page: FC<Props> = async ({ params }) => {
     { label: "補助率", value: subsidy.subsidizedRate },
     {
       label: "補助上限額",
-      value: subsidy.upperLimit === "0円" ? "情報なし" : formatAmount(subsidy.upperLimit),
+      value:
+        subsidy.upperLimit === "0円"
+          ? "情報なし"
+          : formatAmount(subsidy.upperLimit),
     },
     { label: "補助下限額", value: formatAmount(subsidy.lowerLimit) },
     { label: "受付開始", value: formatDate(subsidy.startDate) },
@@ -673,14 +775,30 @@ const Page: FC<Props> = async ({ params }) => {
             <div
               key={i}
               style={{
-                borderBottom: i < faqItems.length - 1 ? "1px solid var(--border-strong)" : undefined,
+                borderBottom:
+                  i < faqItems.length - 1
+                    ? "1px solid var(--border-strong)"
+                    : undefined,
                 padding: ".85rem 1rem",
               }}
             >
-              <p style={{ color: "#38b48b", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".35rem" }}>
+              <p
+                style={{
+                  color: "#38b48b",
+                  fontSize: ".82rem",
+                  fontWeight: "bold",
+                  marginBottom: ".35rem",
+                }}
+              >
                 Q. {item.question}
               </p>
-              <p style={{ color: "var(--text-strong)", fontSize: ".88rem", margin: 0 }}>
+              <p
+                style={{
+                  color: "var(--text-strong)",
+                  fontSize: ".88rem",
+                  margin: 0,
+                }}
+              >
                 A. {item.answer}
               </p>
             </div>
@@ -728,7 +846,9 @@ const Page: FC<Props> = async ({ params }) => {
                 >
                   {s.status === "open" ? "受付中" : "公募前"}
                 </span>
-                <span style={{ color: "var(--text-strong)", fontSize: ".88rem" }}>
+                <span
+                  style={{ color: "var(--text-strong)", fontSize: ".88rem" }}
+                >
                   {s.title}
                 </span>
               </Link>

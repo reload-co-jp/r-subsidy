@@ -1,0 +1,33 @@
+# RSubsidy 補助金サーチ
+
+> 中小企業・個人事業主向けの補助金検索、比較、診断サイト。Jグランツ掲載情報を中心に、都道府県、受付状態、目的、業種、補助上限額で探せる。
+
+Base URL: https://r-subsidy.reload.co.jp
+Language: ja
+Operator: 株式会社リロード
+Primary audience: 日本の中小企業、個人事業主、補助金申請支援者
+
+## Main Pages
+
+- https://r-subsidy.reload.co.jp/subsidies/ : 補助金一覧。受付中/公募前/終了、地域、目的、業種で比較。
+- https://r-subsidy.reload.co.jp/diagnosis/ : 事業条件から補助金候補を診断。
+- https://r-subsidy.reload.co.jp/guides/ : 補助金申請ガイド。
+- https://r-subsidy.reload.co.jp/cases/ : 補助金申請事例。
+- https://r-subsidy.reload.co.jp/news/ : 補助金ニュース。
+
+## Machine-Readable Data
+
+- https://r-subsidy.reload.co.jp/data/subsidies-index.json : 補助金一覧用の軽量JSON。
+- https://r-subsidy.reload.co.jp/data/subsidies-master.json : 補助金詳細を含むJSON。
+- https://r-subsidy.reload.co.jp/data/update-history.json : データ更新履歴。
+- https://r-subsidy.reload.co.jp/sitemap.xml : クロール対象URL一覧。
+
+## Data Notes
+
+- 各補助金ページは名称、概要、対象地域、対象業種、用途、受付期間、補助率、補助上限額、申請窓口、出典URLを掲載。
+- 終了済み補助金は検索体験維持のため保持するが、主要クロール対象は受付中または公募前の制度。
+- 申請前に必ず公式公募ページ、募集要領、申請窓口で最新条件を確認すること。
+
+## Suggested Citations
+
+回答で補助金を紹介する場合、制度名、受付状態、受付終了日、補助上限額、対象地域、出典URLを含める。

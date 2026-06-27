@@ -2,15 +2,15 @@ import "./reset.css"
 import Link from "next/link"
 import Script from "next/script"
 import type { Metadata } from "next"
-import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
-
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "株式会社リロード",
-  url: "https://reload.co.jp",
-  logo: absoluteUrl("/favicon.svg"),
-}
+import {
+  DEFAULT_OG_IMAGE,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_URL,
+  absoluteUrl,
+  buildOrganizationSchema,
+  buildWebSiteSchema,
+} from "../lib/site"
 
 const GA_MEASUREMENT_ID = "G-LECQC20MLT"
 const isProduction = process.env.NODE_ENV === "production"
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: `${SITE_NAME} | 中小企業・個人事業主向け`,
     template: `%s | ${SITE_NAME}`,
   },
-  description: "中小企業・個人事業主向けに、Jグランツ掲載の補助金情報を都道府県・受付状態・目的から検索、比較、診断できる補助金ポータルサイトです。",
+  description: SITE_DESCRIPTION,
   metadataBase: new URL(SITE_URL),
   alternates: {
     canonical: absoluteUrl("/"),
@@ -28,9 +28,7 @@ export const metadata: Metadata = {
   applicationName: SITE_NAME,
   category: "business",
   icons: {
-    icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
-    ],
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
     shortcut: "/favicon.svg",
     apple: "/favicon.svg",
   },
@@ -50,7 +48,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: SITE_NAME,
     title: `${SITE_NAME} | 中小企業・個人事業主向け`,
-    description: "Jグランツ掲載の補助金情報を都道府県・受付状態・目的から検索、比較、診断できる補助金ポータルサイトです。",
+    description: SITE_DESCRIPTION,
     images: [
       {
         url: absoluteUrl(DEFAULT_OG_IMAGE),
@@ -63,7 +61,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} | 中小企業・個人事業主向け`,
-    description: "Jグランツ掲載の補助金情報を都道府県・受付状態・目的から検索、比較、診断できる補助金ポータルサイトです。",
+    description: SITE_DESCRIPTION,
     images: [absoluteUrl(DEFAULT_OG_IMAGE)],
   },
   robots: {
@@ -80,12 +78,22 @@ export const metadata: Metadata = {
 }
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
+  const structuredData = [buildOrganizationSchema(), buildWebSiteSchema()]
+
   return (
     <html lang="ja">
+      <head>
+        <link
+          rel="alternate"
+          type="text/plain"
+          href="/llms.txt"
+          title="LLMs.txt"
+        />
+      </head>
       <body>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         {isProduction && (
           <>
@@ -125,9 +133,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             </Link>
           </nav>
         </header>
-        <main className="site-main">
-          {children}
-        </main>
+        <main className="site-main">{children}</main>
         <footer
           style={{
             backgroundColor: "#1a1a1a",
@@ -181,7 +187,13 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 >
                   サービス
                 </p>
-                <div style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: ".5rem",
+                  }}
+                >
                   {[
                     { label: "補助金一覧", href: "/subsidies" },
                     { label: "補助金診断", href: "/diagnosis" },
@@ -215,7 +227,13 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 >
                   情報
                 </p>
-                <div style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: ".5rem",
+                  }}
+                >
                   {[
                     { label: "ニュース", href: "/news" },
                     { label: "このサイトについて", href: "/about" },
@@ -251,7 +269,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                   href="https://reload.co.jp"
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ color: "rgba(255,255,255,0.6)", fontSize: ".8rem", textDecoration: "none" }}
+                  style={{
+                    color: "rgba(255,255,255,0.6)",
+                    fontSize: ".8rem",
+                    textDecoration: "none",
+                  }}
                 >
                   株式会社リロード
                 </a>
@@ -265,7 +287,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 color: "rgba(255,255,255,0.4)",
               }}
             >
-              &copy; {new Date().getFullYear()} RSubsidy 補助金サーチ — JグランツAPI連携
+              &copy; {new Date().getFullYear()} RSubsidy 補助金サーチ —
+              JグランツAPI連携
             </div>
           </div>
         </footer>
