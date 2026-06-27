@@ -139,8 +139,30 @@ function getLawyerComment(slug: string): string | null {
 }
 
 function buildDescription(subsidy: NormalizedSubsidy) {
+  const overviewText = (subsidy.overview?.trim() ?? "")
+    .replace(/[\r\n]+/g, "。")
+    .replace(/。{2,}/g, "。")
+
+  let baseText = overviewText
+  if (baseText.length < 30 && subsidy.detail) {
+    const plain = subsidy.detail
+      .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
+      .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, "")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&nbsp;/g, " ")
+      .replace(/&amp;/g, "&")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/[■▶●◆▼◇□△▲※◎★☆【】〔〕〈〉《》]/g, " ")
+      .replace(/\s+/g, " ")
+      .replace(/^(?:[ぁ-鿿豈-﫿]{1,6} )+/, "")
+      .trim()
+    const detailSnippet = plain.slice(0, 100).trim()
+    baseText = baseText ? `${baseText}。${detailSnippet}` : detailSnippet
+  }
+
   const parts = [
-    subsidy.overview,
+    baseText || null,
     subsidy.upperLimit ? `補助上限額は${subsidy.upperLimit}` : null,
     subsidy.subsidizedRate ? `補助率は${subsidy.subsidizedRate}` : null,
     subsidy.purposes.length > 0
@@ -148,7 +170,7 @@ function buildDescription(subsidy: NormalizedSubsidy) {
       : null,
   ].filter(Boolean)
 
-  const full = parts.join("。")
+  const full = parts.join("。").replace(/。{2,}/g, "。")
   if (full.length <= 140) return full
   const truncated = full.slice(0, 140)
   const lastPeriod = truncated.lastIndexOf("。")
