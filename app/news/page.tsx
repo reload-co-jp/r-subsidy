@@ -31,7 +31,7 @@ function getNews(): SubsidyNews[] {
 
 const PAGE_TITLE = "補助金 最新ニュース"
 const PAGE_DESCRIPTION =
-  "中小企業・個人事業主向け補助金の最新情報をお届け。新規公募開始・制度改正・申請締切情報などを週次で更新しています。"
+  "中小企業・個人事業主向け補助金の最新情報をお届け。新規公募開始・制度改正・採択結果・申請締切情報など随時更新。補助金申請の準備に役立つ実務情報を掲載。"
 const PAGE_URL = absoluteUrl("/news/")
 
 export const metadata: Metadata = {

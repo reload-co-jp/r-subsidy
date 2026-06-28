@@ -21,7 +21,7 @@ function getSubsidies(): SubsidyIndexItem[] {
 
 const PAGE_TITLE = "補助金一覧"
 const PAGE_DESCRIPTION =
-  "中小企業・個人事業主向けの補助金をJグランツから一覧で掲載。都道府県・受付状態・用途・補助上限額で絞り込み、制度を比較できます。"
+  "現在受付中の補助金・助成金322件を含む3,200件超を一覧掲載。都道府県・業種・用途・補助上限額で絞り込み、中小企業・個人事業主が使える制度をすぐに比較できます。"
 const PAGE_URL = absoluteUrl("/subsidies/")
 
 export const metadata: Metadata = {

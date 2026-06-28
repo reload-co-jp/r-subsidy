@@ -4,7 +4,7 @@ export const DEFAULT_OG_IMAGE = "/ogp.svg"
 export const OPERATOR_NAME = "株式会社リロード"
 export const OPERATOR_URL = "https://reload.co.jp"
 export const SITE_DESCRIPTION =
-  "中小企業・個人事業主向けに、Jグランツ掲載の補助金情報を都道府県・受付状態・目的から検索、比較、診断できる補助金ポータルサイトです。"
+  "3,200件超の補助金・助成金を掲載。都道府県・業種・目的から絞り込み、現在受付中の制度をすぐに確認できます。中小企業・個人事業主向けの無料補助金データベース。"
 
 export function absoluteUrl(path = "/") {
   return new URL(path, SITE_URL).toString()
