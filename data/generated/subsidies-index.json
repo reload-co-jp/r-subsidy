@@ -153081,7 +153081,7 @@
     "overview": "中小企業者等の外国での特許、実用新案、意匠、商標の権利取得を支援します！",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -155245,7 +155245,7 @@
     "prefectures": [
       "青森県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -156325,7 +156325,7 @@
     "prefectures": [
       "宮崎県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -159182,6 +159182,30 @@
     "updatedAt": "2026-06-27T13:36:24.640Z"
   },
   {
+    "id": "a0WJ200000CDcODMA1",
+    "slug": "a0wj200000cdcodma1",
+    "title": "令和８年度「水力発電導入促進支援事業費補助金（事業性評価支援事業）」（新規事業　３次締切分）",
+    "overview": "PFIによる発電所の運営を目的として、地方公共団体が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等、当該地点の発電所の整備・運営に係る公募を行う事業と、地方公共団体又は地方公共団体と連携する民間事業者が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業と、民間事業者等が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業をサポートします。",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "電気・ガス・熱供給・水道業"
+    ],
+    "purposes": [
+      "設備投資",
+      "創業",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "20,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-06-27",
+    "endDate": "2026-09-25",
+    "updatedAt": "2026-06-29T07:44:51.352Z"
+  },
+  {
     "id": "national-jizokuka-ippan-2026",
     "slug": "national-jizokuka-ippan-2026",
     "title": "小規模事業者持続化補助金（一般型・通常枠）",
@@ -159237,9 +159261,9 @@
     "upperLimit": "4,500万円",
     "isForSME": true,
     "source": "manual",
-    "startDate": "2026-03-30",
-    "endDate": "2026-06-15",
-    "updatedAt": "2026-06-11T00:00:00.000Z"
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-06-28T00:00:00.000Z"
   },
   {
     "id": "national-career-up-joseikin",
@@ -159277,7 +159301,7 @@
     "source": "manual",
     "startDate": null,
     "endDate": null,
-    "updatedAt": "2026-05-26T00:00:00.000Z"
+    "updatedAt": "2026-06-28T00:00:00.000Z"
   },
   {
     "id": "national-nedo-kenkyu-kaihatsu",
