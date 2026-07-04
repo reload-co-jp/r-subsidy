@@ -1,0 +1,32 @@
+{
+  "id": "a0WJ200000CDZ2OMAX",
+  "slug": "a0wj200000cdz2omax",
+  "title": "令和8年度　建築GX・DX推進事業",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■ 概要</strong></p><p class=\"ql-indent-1\">本補助事業は、建築物ライフサイクルカーボン評価（LCCO₂評価）の実施によるLCCO₂削減の推進（GX）と、建築業界全体の生産性向上（DX）を一体的に支援し、これらの取組を加速させることを目的としています。</p><p class=\"ql-indent-1\">一定の要件を満たす建築物を整備するプロジェクトにおいて、</p><p class=\"ql-indent-1\">・複数の事業者が連携して建築BIMデータの作成等を行う場合の設計費及び建設工事費の一部</p><p class=\"ql-indent-1\">・建築物のLCCO₂評価を行う場合のLCCO₂評価実施費用</p><p class=\"ql-indent-1\">について、国が民間事業者等に対して補助を行います。</p><p class=\"ql-indent-1\">本事業は、大規模プロジェクトに限らず、小規模プロジェクトや改修プロジェクトも対象としており、中小事業者でも活用しやすい制度となっています。また、LCCO₂評価については、設計事務所や建設会社に加え、発注者が主体となって実施する場合も支援の対象としています。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■ 問合せ先 </strong></p><p class=\"ql-indent-1\">建築GX・DX推進事業実施支援室</p><p class=\"ql-indent-1\"><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">TEL ：　03-6803-6766</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">受付 ：　月～金曜日（祝日、年末年始を除く）　10:00～17:00（12:00～13:00除く）</span></p><p class=\"ql-indent-1\"><a href=\"https://gxdx.jp/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://gxdx.jp/</a></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">※マニュアルや様式については上記ホームページを参照ください</span></p><p class=\"ql-indent-1\"><strong style=\"font-size: 14px; color: rgb(255, 0, 0);\">補助上限額については建築GX・DX推進事業 募集要領をご確認ください。</strong></p>",
+  "region": "national",
+  "prefectures": [],
+  "industries": [
+    "建設業"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [
+    "設備投資",
+    "省エネ",
+    "デジタル化"
+  ],
+  "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
+  "status": "open",
+  "workflow": "住宅・建築物カーボンニュートラル総合推進事業",
+  "subsidizedRate": null,
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-07-01",
+  "endDate": "2026-09-30",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ2OMAX",
+  "updatedAt": "2026-07-04T01:11:20.072Z"
+}

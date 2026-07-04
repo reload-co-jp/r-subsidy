@@ -41,9 +41,9 @@
     "医療",
     "福祉"
   ],
-  "targetNumberOfEmployees": "300名以下",
+  "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
-  "employeeMax": 300,
+  "employeeMax": null,
   "isForSME": true,
   "purposes": [
     "設備投資",
