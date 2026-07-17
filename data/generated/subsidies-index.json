@@ -115600,7 +115600,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "分類不能の産業",
       "金融業",
@@ -149651,13 +149651,13 @@
   {
     "id": "a0WJ200000CDYh2MAH",
     "slug": "a0wj200000cdyh2mah",
-    "title": "2026年度「海外出願支援事業」",
-    "overview": "海外への事業展開を計画している道内中小企業者等が、特許・実用新案・意匠・商標（抜け駆け対策商標を含む）を海外へ出願する際に要する費用の一部を助成する制度です。\nこの度、２０２６年度の募集を開始します。詳細は募集要項をご確認ください。",
+    "title": "2026年度「海外出願支援事業」（2次募集）",
+    "overview": "海外への事業展開を計画している道内中小企業者等が、特許・実用新案・意匠・商標（抜け駆け対策商標を含む）を海外へ出願する際に要する費用の一部を助成する制度です。",
     "region": "prefecture",
     "prefectures": [
       "北海道"
     ],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -149693,8 +149693,8 @@
     "upperLimit": "3,000,000円",
     "isForSME": true,
     "source": "jgrants",
-    "startDate": "2026-04-24",
-    "endDate": "2026-06-05",
+    "startDate": "2026-07-15",
+    "endDate": "2026-08-21",
     "updatedAt": "2026-05-26T06:10:56.619Z"
   },
   {
@@ -150094,13 +150094,13 @@
   {
     "id": "a0WJ200000CDYirMAH",
     "slug": "a0wj200000cdyirmah",
-    "title": "2026年度「地域課題解決型起業支援事業」",
+    "title": "2026年度「地域課題解決型起業支援事業」（2次募集）",
     "overview": "デジタル技術を活用し、道内で地域課題を解決するために起業する方を支援します",
     "region": "prefecture",
     "prefectures": [
       "北海道"
     ],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -150140,8 +150140,8 @@
     "upperLimit": "2,000,000円",
     "isForSME": true,
     "source": "jgrants",
-    "startDate": "2026-04-28",
-    "endDate": "2026-05-29",
+    "startDate": "2026-07-14",
+    "endDate": "2026-08-19",
     "updatedAt": "2026-05-26T06:10:56.658Z"
   },
   {
@@ -152653,7 +152653,7 @@
     "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -152673,7 +152673,7 @@
     "isForSME": false,
     "source": "jgrants",
     "startDate": "2026-06-08",
-    "endDate": "2026-07-03",
+    "endDate": "2026-07-24",
     "updatedAt": "2026-06-04T06:04:13.469Z"
   },
   {
@@ -153715,7 +153715,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -155912,6 +155912,53 @@
     "updatedAt": "2026-06-01T14:01:34.411Z"
   },
   {
+    "id": "a0WJ200000CDZkYMAX",
+    "slug": "a0wj200000cdzkymax",
+    "title": "令和８年度TOKYO戦略的イノベーション促進事業",
+    "overview": "【最大8,000万円】中小企業向け研究開発費助成",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "研究開発",
+      "創業",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "80,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-08-14",
+    "endDate": "2026-09-03",
+    "updatedAt": "2026-07-17T10:41:49.048Z"
+  },
+  {
     "id": "a0WJ200000CDZkdMAH",
     "slug": "a0wj200000cdzkdmah",
     "title": "【令和８年度】二酸化炭素排出抑制対策事業費等補助金（地域共創・セクター横断型カーボンニュートラル技術開発・実証事業（うちスタートアップ企業に対する事業促進支援事業））",
@@ -156396,7 +156443,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -157073,7 +157120,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -157127,7 +157174,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -157181,7 +157228,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -157235,7 +157282,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -157289,7 +157336,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -157343,7 +157390,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -157633,7 +157680,7 @@
   {
     "id": "a0WJ200000CDacHMAT",
     "slug": "a0wj200000cdachmat",
-    "title": "東京都医療機関等における賃上げ・物価上昇に対する支援事業(診療所、訪問看護ステーション　申請用）",
+    "title": "東京都医療機関等における賃上げ・物価上昇に対する支援事業(診療所・歯科診療所、訪問看護ステーション　申請用）",
     "overview": "",
     "region": "tokyo",
     "prefectures": [
@@ -158631,7 +158678,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -159677,7 +159724,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "upcoming",
     "industries": [
       "医療",
       "福祉"
@@ -159688,7 +159735,7 @@
     "upperLimit": "14,541,000,000円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-07-05",
+    "startDate": "2026-12-23",
     "endDate": "2027-05-31",
     "updatedAt": "2026-07-04T01:11:20.636Z"
   },
@@ -159755,7 +159802,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "運輸業",
       "郵便業",
@@ -159782,7 +159829,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -160697,6 +160744,42 @@
     "updatedAt": "2026-07-15T12:38:30.442Z"
   },
   {
+    "id": "a0WJ200000CDczgMAD",
+    "slug": "a0wj200000cdczgmad",
+    "title": "【令和７年度補正 グローバルサウス未来志向型共創等事業費補助金（ウクライナ復興支援に向けた欧州企業連携・中東欧諸国等連携強化）（FS実証・実証事業実施事業者の募集（補助））】",
+    "overview": "令和７年度補正 グローバルサウス未来志向型共創等事業費補助金（ウクライナ復興支援に向けた欧州企業連携・中東欧諸国等連携強化）（FS実証・実証事業実施事業者の募集（補助））",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "販路拡大",
+      "研究開発"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-07-21",
+    "endDate": "2026-09-25",
+    "updatedAt": "2026-07-17T10:41:49.611Z"
+  },
+  {
     "id": "a0WJ200000CDd3OMAT",
     "slug": "a0wj200000cdd3omat",
     "title": "令和７年度（補正予算）地域脱炭素実現に向けた具体的施策実装支援事業（四次公募）",
@@ -160803,6 +160886,84 @@
     "startDate": "2026-07-13",
     "endDate": "2026-11-20",
     "updatedAt": "2026-07-15T12:38:30.453Z"
+  },
+  {
+    "id": "a0WJ200000CDd46MAD",
+    "slug": "a0wj200000cdd46mad",
+    "title": "【群馬県・2次募集】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "overview": "【群馬県・2次募集】海外出願補助金",
+    "region": "prefecture",
+    "prefectures": [
+      "群馬県"
+    ],
+    "status": "upcoming",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "販路拡大",
+      "研究開発"
+    ],
+    "upperLimit": "3,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-07-21",
+    "endDate": "2026-08-31",
+    "updatedAt": "2026-07-17T10:41:49.634Z"
+  },
+  {
+    "id": "a0WJ200000CDd5IMAT",
+    "slug": "a0wj200000cdd5imat",
+    "title": "「プレシード・シード期の概念実証／実現可能性調査における支援方策に関する調査」の公募",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "purposes": [
+      "研究開発",
+      "省エネ"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-07-16",
+    "endDate": "2026-08-04",
+    "updatedAt": "2026-07-17T10:41:49.635Z"
   },
   {
     "id": "a0WJ200000CDd5XMAT",
@@ -160923,7 +161084,7 @@
     "overview": "太陽光パネルや車載用バッテリー等の再エネ関連製品に含有されている、非鉄金属・レアメタルを適切にリユース、リサイクルし、また、ガラス等のベース素材の代替を図るための省CO2型のリサイクル技術向上と、リサイクル原料の品質向上を図り、未利用資源の活用体制構築を促進する実証の費用の一部を補助します。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -160972,6 +161133,30 @@
     "startDate": "2026-07-16",
     "endDate": "2026-08-26",
     "updatedAt": "2026-07-15T12:38:30.478Z"
+  },
+  {
+    "id": "a0WJ200000CDdJhMAL",
+    "slug": "a0wj200000cddjhmal",
+    "title": "GX地域共創補助金2026",
+    "overview": "【応募申請】R8年度GX地域共創補助金（1次公募）",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "製造業",
+      "情報通信業"
+    ],
+    "purposes": [
+      "設備投資",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "25,000,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-07-17",
+    "endDate": "2026-09-01",
+    "updatedAt": "2026-07-17T10:41:49.661Z"
   },
   {
     "id": "a0WJ200000CDdN0MAL",
@@ -161057,6 +161242,173 @@
     "startDate": "2026-07-14",
     "endDate": "2026-08-20",
     "updatedAt": "2026-07-15T12:38:30.488Z"
+  },
+  {
+    "id": "a0WJ200000CDdPBMA1",
+    "slug": "a0wj200000cddpbma1",
+    "title": "【令和８年度】ハイブリッド及び天然ガストラック・バス導入支援事業（環境配慮型先進トラック・バス導入加速事業）",
+    "overview": "ハイブリッド連節バスを除く、ハイブリッド及び天然ガストラック・バスを導入するための補助金",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "製造業",
+      "公務（他に分類されるものを除く）",
+      "運輸業",
+      "郵便業",
+      "金融業",
+      "保険業"
+    ],
+    "purposes": [
+      "設備投資",
+      "創業",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-07-17",
+    "endDate": "2027-01-29",
+    "updatedAt": "2026-07-17T10:41:49.676Z"
+  },
+  {
+    "id": "a0WJ200000CDdQsMAL",
+    "slug": "a0wj200000cddqsmal",
+    "title": "中東情勢による原材料価格高騰に伴う経営基盤安定化緊急対策事業",
+    "overview": "中東情勢による原材料価格高騰の影響を受ける中小企業の原材料費の縮減や価格転嫁等に向けた取組を支援します",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大",
+      "デジタル化"
+    ],
+    "upperLimit": "20,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-07-17",
+    "endDate": "2026-07-31",
+    "updatedAt": "2026-07-17T10:41:49.676Z"
+  },
+  {
+    "id": "a0WJ200000CDdRCMA1",
+    "slug": "a0wj200000cddrcma1",
+    "title": "【福岡県2次】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "overview": "【福岡県】外国出願補助金",
+    "region": "prefecture",
+    "prefectures": [
+      "福岡県"
+    ],
+    "status": "upcoming",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "販路拡大",
+      "研究開発"
+    ],
+    "upperLimit": "3,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-07-21",
+    "endDate": "2026-08-21",
+    "updatedAt": "2026-07-17T10:41:49.676Z"
+  },
+  {
+    "id": "a0WJ200000CDdRHMA1",
+    "slug": "a0wj200000cddrhma1",
+    "title": "【令和８年度】ハイブリッド連節バス導入支援事業（環境配慮型先進トラック・バス導入加速事業）",
+    "overview": "ハイブリッド連節バスを導入するための補助金",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "製造業",
+      "公務（他に分類されるものを除く）",
+      "運輸業",
+      "郵便業",
+      "金融業",
+      "保険業"
+    ],
+    "purposes": [
+      "設備投資",
+      "創業",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-07-17",
+    "endDate": "2026-09-30",
+    "updatedAt": "2026-07-17T10:41:49.683Z"
   },
   {
     "id": "national-jizokuka-ippan-2026",

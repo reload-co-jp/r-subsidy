@@ -26,13 +26,13 @@
     "デジタル化"
   ],
   "usePurpose": "災害（自然災害、感染症等）支援がほしい / 設備整備・IT導入をしたい",
-  "status": "closed",
+  "status": "open",
   "workflow": "二酸化炭素排出抑制対策事業費等補助金（廃棄物処理施設を核とした地域循環共生圏構築促進事業）",
   "subsidizedRate": "原則、定額、ただし、算出された額が1,500万円を超える場合は、1,500万円",
   "upperLimit": "0円",
   "lowerLimit": null,
   "startDate": "2026-06-08",
-  "endDate": "2026-07-03",
+  "endDate": "2026-07-24",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYqvMAH",
   "updatedAt": "2026-06-04T06:04:13.469Z"
