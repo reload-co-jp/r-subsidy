@@ -113609,7 +113609,7 @@
     "overview": "鉄道（回生電力・車両省エネ・先進省エネ）",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "公務（他に分類されるものを除く）",
       "運輸業",
@@ -141152,7 +141152,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "医療",
       "福祉"
@@ -143973,7 +143973,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "情報通信業"
     ],
@@ -144016,7 +144016,7 @@
     "overview": "開発プラットフォーム構築支援",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "情報通信業",
@@ -155002,7 +155002,7 @@
     "overview": "令和8年度貿易PF活用補助金",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -159063,7 +159063,7 @@
     "isForSME": false,
     "source": "jgrants",
     "startDate": "2026-07-15",
-    "endDate": "2027-02-26",
+    "endDate": "2027-03-31",
     "updatedAt": "2026-07-15T12:38:30.217Z"
   },
   {
@@ -160463,7 +160463,7 @@
     "upperLimit": "5,000,000円",
     "isForSME": true,
     "source": "jgrants",
-    "startDate": "2026-07-09",
+    "startDate": "2026-07-08",
     "endDate": "2026-08-07",
     "updatedAt": "2026-07-15T12:38:30.379Z"
   },
@@ -160750,7 +160750,7 @@
     "overview": "令和７年度補正 グローバルサウス未来志向型共創等事業費補助金（ウクライナ復興支援に向けた欧州企業連携・中東欧諸国等連携強化）（FS実証・実証事業実施事業者の募集（補助））",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -160888,6 +160888,28 @@
     "updatedAt": "2026-07-15T12:38:30.453Z"
   },
   {
+    "id": "a0WJ200000CDd3iMAD",
+    "slug": "a0wj200000cdd3imad",
+    "title": "令和８年度東京都医療機関等物価高騰緊急対策支援金 （病院・有床診療所・有床助産所申請用）",
+    "overview": "【東京都令和８年度事業】東京都では、物価高騰に直面する医療機関等の負担軽減に向けた緊急対策として、\n支援金を支給します。",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [],
+    "upperLimit": "5,511,246,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2025-07-22",
+    "endDate": "2026-08-14",
+    "updatedAt": "2026-07-21T11:46:22.457Z"
+  },
+  {
     "id": "a0WJ200000CDd46MAD",
     "slug": "a0wj200000cdd46mad",
     "title": "【群馬県・2次募集】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
@@ -160896,7 +160918,7 @@
     "prefectures": [
       "群馬県"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -160941,6 +160963,28 @@
     "startDate": "2026-07-21",
     "endDate": "2026-08-31",
     "updatedAt": "2026-07-17T10:41:49.634Z"
+  },
+  {
+    "id": "a0WJ200000CDd4BMAT",
+    "slug": "a0wj200000cdd4bmat",
+    "title": "令和８年度東京都医療機関等物価高騰緊急対策支援金(無床診療所・歯科診療所・無床助産所、施術所・歯科技工所　申請用）",
+    "overview": "【東京都令和８年度事業】東京都では、物価高騰に直面する医療機関等の負担軽減に向けた緊急対策として、\n支援金を支給します。",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [],
+    "upperLimit": "5,511,246,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-07-22",
+    "endDate": "2026-08-14",
+    "updatedAt": "2026-07-21T11:46:22.485Z"
   },
   {
     "id": "a0WJ200000CDd5IMAT",
@@ -161335,7 +161379,7 @@
     "prefectures": [
       "福岡県"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
