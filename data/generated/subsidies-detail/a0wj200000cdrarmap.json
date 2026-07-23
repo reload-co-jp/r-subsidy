@@ -22,13 +22,13 @@
     "デジタル化"
   ],
   "usePurpose": "設備整備・IT導入をしたい",
-  "status": "closed",
-  "workflow": "こどもDX推進に向けた医療機関等におけるマイナンバーカード利活用推進事業",
+  "status": "open",
+  "workflow": "医療機関等におけるマイナンバーカード利活用推進事業",
   "subsidizedRate": "1/4",
   "upperLimit": "141,000円",
   "lowerLimit": null,
   "startDate": "2025-07-25",
-  "endDate": "2026-02-27",
+  "endDate": "2027-03-31",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDRArMAP",
   "updatedAt": "2026-05-26T06:10:53.969Z"
