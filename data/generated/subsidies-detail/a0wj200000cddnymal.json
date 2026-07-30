@@ -1,0 +1,32 @@
+{
+  "id": "a0WJ200000CDdNyMAL",
+  "slug": "a0wj200000cddnymal",
+  "title": "「省電力・高速情報処理を実現するフロンティア技術等に関する俯瞰調査」の公募",
+  "overview": "",
+  "detail": "<p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、「省電力・高速情報処理を実現するフロンティア技術等に関する俯瞰調査」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/NA2_100292.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/NA2_100292.html</a></p>",
+  "region": "national",
+  "prefectures": [],
+  "industries": [
+    "学術研究",
+    "専門・技術サービス業"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [
+    "研究開発",
+    "省エネ"
+  ],
+  "usePurpose": "研究開発・実証事業を行いたい",
+  "status": "open",
+  "workflow": "P24012_フロンティア領域の探索・重点支援のためのＧＸイノベーション・エコシステム構築事業推進に係る検討",
+  "subsidizedRate": null,
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-07-28",
+  "endDate": "2026-08-21",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdNyMAL",
+  "updatedAt": "2026-07-30T04:55:32.363Z"
+}
