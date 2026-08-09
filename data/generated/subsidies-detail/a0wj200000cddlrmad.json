@@ -1,0 +1,34 @@
+{
+  "id": "a0WJ200000CDdlrMAD",
+  "slug": "a0wj200000cddlrmad",
+  "title": "【施行】令和8年度愛知県介護テクノロジー導入支援事業費補助金",
+  "overview": "",
+  "detail": "<p><strong style=\"font-size: 18px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 18px;\">愛知県内の介護事業所等における介護テクノロジー導入を促進するため。</span></p><p><br></p><p><strong style=\"font-size: 18px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 18px;\">・愛知県内で介護保険法（平成9年法律第123号）に基づく事業所・施設を運営する法人</span></p><p><span style=\"font-size: 18px;\">・愛知県内で老人福祉法（昭和38年法律第133号）に基づく養護老人ホーム及び軽費老人ホームを運営する法人</span></p><p><br></p><p><strong style=\"font-size: 18px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 18px;\">令和8年度介護テクノロジー導入支援事業費補助金事務局</span></p><p><span style=\"font-size: 18px;\">電話：050-1753-4234</span></p><p><span style=\"font-size: 18px;\">メール：</span><a href=\"mailto:aichi-kaigo-technology@his-world.com\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px;\"><u>aichi-kaigo-technology@his-world.com</u></a></p><p><span style=\"font-size: 18px;\">※例年多数の問合せがあるため、原則としてJグランツ内の問合せフォームから問合せをしてください。</span></p><p><br></p><p><strong style=\"font-size: 18px; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.pref.aichi.jp/soshiki/korei/kaigotech-kouhu.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 18px;\">愛知県高齢福祉課介護テクノロジー導入支援事業費補助金関連ページ</a><a href=\"https://www.pref.aichi.jp/soshiki/korei/kaigotech-kouhu.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 14px;\">﻿</a></p>",
+  "region": "prefecture",
+  "prefectures": [
+    "愛知県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "usePurpose": "設備整備・IT導入をしたい",
+  "status": "open",
+  "workflow": "令和8年度愛知県介護テクノロジー導入支援事業費補助金",
+  "subsidizedRate": "4/5",
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-07-31",
+  "endDate": "2026-08-31",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDdlrMAD",
+  "updatedAt": "2026-08-08T07:49:04.884Z"
+}

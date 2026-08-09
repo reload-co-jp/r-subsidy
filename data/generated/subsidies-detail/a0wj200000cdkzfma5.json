@@ -28,13 +28,13 @@
     "デジタル化"
   ],
   "usePurpose": "安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
-  "status": "closed",
+  "status": "open",
   "workflow": "二酸化炭素排出抑制対策事業費等補助金",
   "subsidizedRate": "１／２以下",
   "upperLimit": "0円",
   "lowerLimit": null,
   "startDate": "2026-07-10",
-  "endDate": "2026-07-30",
+  "endDate": "2026-08-25",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDKZFMA5",
   "updatedAt": "2026-05-26T06:10:52.366Z"
