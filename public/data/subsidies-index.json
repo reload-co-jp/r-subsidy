@@ -113657,11 +113657,11 @@
   {
     "id": "a0WJ200000CDO8eMAH",
     "slug": "a0wj200000cdo8emah",
-    "title": "交通システムの省CO2 化に向けた設備整備事業（鉄道事業等におけるネットワーク型低炭素化促進事業）",
+    "title": "交通システムの省CO2 化に向けた設備整備事業（鉄道事業等におけるネットワーク型低炭素化促進事業）（二次公募）",
     "overview": "鉄道（回生電力・車両省エネ・先進省エネ）",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "公務（他に分類されるものを除く）",
       "運輸業",
@@ -113677,8 +113677,8 @@
     "upperLimit": "0円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-06-23",
-    "endDate": "2026-07-21",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-14",
     "updatedAt": "2026-05-26T06:10:53.068Z"
   },
   {
@@ -143292,8 +143292,8 @@
     "upperLimit": "0円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-08-10",
-    "endDate": "2026-08-30",
+    "startDate": "2026-08-12",
+    "endDate": "2026-09-01",
     "updatedAt": "2026-08-08T07:49:02.052Z"
   },
   {
@@ -145890,13 +145890,13 @@
   {
     "id": "a0WJ200000CDYUSMA5",
     "slug": "a0wj200000cdyusma5",
-    "title": "【埼玉県】令和8年度企業等における省エネ・再エネ活用設備導入補助金",
+    "title": "【埼玉県】令和8年度 企業等における省エネ・再エネ活用設備導入補助金",
     "overview": "省エネ・再エネの導入を支援！脱炭素化を推進するとともに、地域のエネルギーレジリエンスの強化に役立てましょう。",
     "region": "prefecture",
     "prefectures": [
       "埼玉県"
     ],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -145922,8 +145922,8 @@
     "upperLimit": "0円",
     "isForSME": false,
     "source": "jgrants",
-    "startDate": "2026-07-05",
-    "endDate": "2026-07-24",
+    "startDate": "2026-08-16",
+    "endDate": "2026-09-14",
     "updatedAt": "2026-05-26T06:10:56.321Z"
   },
   {
@@ -156122,13 +156122,13 @@
   {
     "id": "a0WJ200000CDZi6MAH",
     "slug": "a0wj200000cdzi6mah",
-    "title": "高度人材インターンシップ受入支援費補助金",
+    "title": "令和8年度 高度人材インターンシップ受入支援費補助金",
     "overview": "海外の高度外国人材を対象にしたインターンを実施！​",
     "region": "tokyo",
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -160804,7 +160804,7 @@
       "鹿児島県",
       "沖縄県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "分類不能の産業",
@@ -161353,6 +161353,30 @@
     "startDate": "2026-08-07",
     "endDate": "2026-09-04",
     "updatedAt": "2026-08-08T07:49:04.474Z"
+  },
+  {
+    "id": "a0WJ200000CDcy9MAD",
+    "slug": "a0wj200000cdcy9mad",
+    "title": "「GXイノベーション・エコシステム構築事業推進に向けたフロンティア領域の探索・重点支援のためのマネジメント手法の構築」の公募",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "学術研究",
+      "専門・技術サービス業"
+    ],
+    "purposes": [
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-08-17",
+    "endDate": "2026-09-30",
+    "updatedAt": "2026-08-17T10:12:40.718Z"
   },
   {
     "id": "a0WJ200000CDcyEMAT",
@@ -162086,6 +162110,58 @@
     "startDate": "2026-07-16",
     "endDate": "2026-08-26",
     "updatedAt": "2026-07-15T12:38:30.478Z"
+  },
+  {
+    "id": "a0WJ200000CDdAfMAL",
+    "slug": "a0wj200000cddafmal",
+    "title": "【令和８年度】介護ロボット・ICT導入支援事業費補助金（介護ソフト等）",
+    "overview": "当該補助金のうち、交付要領の「４　事業内容の（１）介護テクノロジー等の導入支援」において、介護ソフト等を導入する場合に、こちらから申請してください。",
+    "region": "prefecture",
+    "prefectures": [
+      "神奈川県"
+    ],
+    "status": "open",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "デジタル化"
+    ],
+    "upperLimit": "3,180,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-08-17",
+    "endDate": "2026-08-31",
+    "updatedAt": "2026-08-17T10:12:40.922Z"
+  },
+  {
+    "id": "a0WJ200000CDdAkMAL",
+    "slug": "a0wj200000cddakmal",
+    "title": "【令和８年度】介護ロボット・ICT導入支援事業費補助金（パッケージ型）",
+    "overview": "介護テクノロジーのうち、「介護業務支援」に該当するテクノロジーと、そのテクノロジーと連動することで効果が高まると判断できるテクノロジー（通信環境整備に係る経費も支援対象に含む。）を導入する場合に、こちらから申請してください。",
+    "region": "prefecture",
+    "prefectures": [
+      "神奈川県"
+    ],
+    "status": "open",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "デジタル化"
+    ],
+    "upperLimit": "10,630,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-08-17",
+    "endDate": "2026-08-31",
+    "updatedAt": "2026-08-17T10:12:40.924Z"
   },
   {
     "id": "a0WJ200000CDdJhMAL",
@@ -162925,7 +163001,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -163014,7 +163090,7 @@
     "overview": "建築物のネット・ゼロ・エネルギー化を目指すため、ＺＥＢ設計ノウハウが確立されていない民間の大規模建築物におけるＺＥＢ化（既存テナントビルのＺＥＢ化を見据えた部分的な改修を含む）及びＷＥＢＰＲＯ未評価技術の導入の実証を支援します。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -163808,6 +163884,96 @@
     "updatedAt": "2026-08-14T22:12:44.233Z"
   },
   {
+    "id": "a0WJ200000CDdmVMAT",
+    "slug": "a0wj200000cddmvmat",
+    "title": "令和８年度　電力利活用事業（単年度事業分）　第３次公募　【　廃棄物処理施設を核とした地域循環共生圏構築促進事業　】",
+    "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業"
+    ],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-08-24",
+    "endDate": "2026-09-18",
+    "updatedAt": "2026-08-17T10:12:41.224Z"
+  },
+  {
+    "id": "a0WJ200000CDdmfMAD",
+    "slug": "a0wj200000cddmfmad",
+    "title": "令和８年度　熱利活用事業（単年度事業分）　第３次公募　【　廃棄物処理施設を核とした地域循環共生圏構築促進事業　】",
+    "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業"
+    ],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-08-24",
+    "endDate": "2026-09-18",
+    "updatedAt": "2026-08-17T10:12:41.241Z"
+  },
+  {
+    "id": "a0WJ200000CDdmpMAD",
+    "slug": "a0wj200000cddmpmad",
+    "title": "令和８年度　ＦＳ調査事業　第３次公募　【　廃棄物処理施設を核とした地域循環共生圏構築促進事業　】",
+    "overview": "自立・分散型の「地域エネルギーセンター」の整備を支援します",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業"
+    ],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-08-24",
+    "endDate": "2026-09-18",
+    "updatedAt": "2026-08-17T10:12:41.262Z"
+  },
+  {
     "id": "a0WJ200000CDdoTMAT",
     "slug": "a0wj200000cddotmat",
     "title": "東京都正規雇用転換安定化支援助成金（令和８年度第４回申請受付）",
@@ -163963,6 +164129,32 @@
     "startDate": "2026-07-31",
     "endDate": "2026-08-31",
     "updatedAt": "2026-08-08T07:49:04.885Z"
+  },
+  {
+    "id": "a0WJ200000CDdqoMAD",
+    "slug": "a0wj200000cddqomad",
+    "title": "【令和８年度】介護ロボット・ICT導入支援事業費補助金（介護ロボット等）",
+    "overview": "当該補助金のうち、交付要領の「４　事業内容の（１）介護テクノロジー等の導入支援」において、介護ソフト以外を導入する場合に、こちらから申請してください。",
+    "region": "prefecture",
+    "prefectures": [
+      "神奈川県"
+    ],
+    "status": "open",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "デジタル化"
+    ],
+    "upperLimit": "5,480,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-08-17",
+    "endDate": "2026-08-31",
+    "updatedAt": "2026-08-17T10:12:41.265Z"
   },
   {
     "id": "a0WJ200000CDdqyMAD",
@@ -164243,7 +164435,7 @@
     "prefectures": [
       "岡山県"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -164280,7 +164472,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -164324,7 +164516,7 @@
     "isForSME": true,
     "source": "jgrants",
     "startDate": "2026-04-03",
-    "endDate": "2026-05-08",
+    "endDate": "2028-03-31",
     "updatedAt": "2026-08-08T07:49:04.952Z"
   },
   {

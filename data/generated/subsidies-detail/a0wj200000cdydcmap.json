@@ -55,8 +55,8 @@
   "subsidizedRate": "補助対象経費の１／３以内",
   "upperLimit": "0円",
   "lowerLimit": null,
-  "startDate": "2026-08-10",
-  "endDate": "2026-08-30",
+  "startDate": "2026-08-12",
+  "endDate": "2026-09-01",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYDcMAP",
   "updatedAt": "2026-08-08T07:49:02.052Z"
