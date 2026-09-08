@@ -1,0 +1,33 @@
+{
+  "id": "a0WJ200000CDaMfMAL",
+  "slug": "a0wj200000cdamfmal",
+  "title": "ディープテック・スタートアップ支援基金／ディープテック・スタートアップ支援事業第10回公募",
+  "overview": "",
+  "detail": "<p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、「ディープテック・スタートアップ支援基金／ディープテック・スタートアップ支援事業第10回公募」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/CA2_100521.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/CA2_100521.html</a></p>",
+  "region": "national",
+  "prefectures": [],
+  "industries": [
+    "学術研究",
+    "専門・技術サービス業"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [
+    "研究開発",
+    "創業",
+    "省エネ"
+  ],
+  "usePurpose": "研究開発・実証事業を行いたい",
+  "status": "closed",
+  "workflow": "P23019_ディープテック・スタートアップ支援基金／ディープテック・スタートアップ支援事業",
+  "subsidizedRate": null,
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-09-03",
+  "endDate": "2026-09-08",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDaMfMAL",
+  "updatedAt": "2026-09-08T09:33:01.533Z"
+}
