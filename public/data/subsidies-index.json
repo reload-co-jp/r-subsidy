@@ -156260,7 +156260,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -156301,7 +156301,7 @@
     "isForSME": true,
     "source": "jgrants",
     "startDate": "2026-08-16",
-    "endDate": "2026-09-09",
+    "endDate": "2026-09-25",
     "updatedAt": "2026-08-08T07:49:03.702Z"
   },
   {

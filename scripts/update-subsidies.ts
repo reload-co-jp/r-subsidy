@@ -5,6 +5,8 @@ const scripts = [
   'fetch-jgrants-index.ts',
   'fetch-jgrants-details.ts',
   'normalize-jgrants.ts',
+  'fetch-jnet21.ts',
+  'fetch-mirasapo-cases.ts',
   'merge-local-subsidies.ts',
   'build-subsidy-json.ts',
   'validate-json.ts',

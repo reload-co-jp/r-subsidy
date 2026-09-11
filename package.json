@@ -14,6 +14,8 @@
     "subsidies:update": "tsx scripts/update-subsidies.ts",
     "subsidies:fetch-index": "tsx scripts/fetch-jgrants-index.ts",
     "subsidies:fetch-details": "tsx scripts/fetch-jgrants-details.ts",
+    "subsidies:fetch-jnet21": "tsx scripts/fetch-jnet21.ts",
+    "subsidies:fetch-mirasapo": "tsx scripts/fetch-mirasapo-cases.ts",
     "subsidies:normalize": "tsx scripts/normalize-jgrants.ts",
     "subsidies:merge": "tsx scripts/merge-local-subsidies.ts",
     "subsidies:build": "tsx scripts/build-subsidy-json.ts",
