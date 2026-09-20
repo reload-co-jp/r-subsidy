@@ -1,18 +1,31 @@
 "use client"
 
-import type { ScoringResult, Tier } from "../../lib/types"
+import type { ScoringResult, Tier, UserProfile } from "../../lib/types"
 import SubsidyCard from "../../components/elements/subsidy-card"
+import { isPrefecture } from "../../lib/prefectures"
+import { POPULAR_INDUSTRIES } from "../../lib/industries"
 import { TIER_CONFIG } from "./constants"
 
 const TIER_ORDER: Tier[] = ["strong", "match", "check"]
 
 export default function DiagnosisResult({
   results,
+  profile,
   onReset,
 }: {
   results: ScoringResult[]
+  profile: UserProfile
   onReset: () => void
 }) {
+  const prefectureLinkable = isPrefecture(profile.prefecture)
+  // 診断フォームの業種選択肢は実データの業種タグと完全一致しないため
+  // （例:「医療・福祉」→ 実データは「医療」「福祉」に分離）、
+  // 診断結果に含まれる実在の業種タグから部分一致するものを探して使う
+  const matchedIndustry = results
+    .flatMap((r) => r.subsidy.industries)
+    .find((ind) => ind.includes(profile.industry) || profile.industry.includes(ind))
+  const industryLinkable = !!matchedIndustry
+  const comboLinkable = !!matchedIndustry && POPULAR_INDUSTRIES.includes(matchedIndustry)
   const grouped: Record<Tier, ScoringResult[]> = {
     strong: [],
     match: [],
@@ -127,6 +140,72 @@ export default function DiagnosisResult({
             </section>
           )
         })
+      )}
+
+      {(prefectureLinkable || industryLinkable) && (
+        <section
+          style={{
+            backgroundColor: "var(--bg-surface)",
+            border: "1px solid var(--border-soft)",
+            borderRadius: "10px",
+            padding: "1rem",
+            marginBottom: "1.5rem",
+          }}
+        >
+          <h2 style={{ color: "var(--text-strong)", fontSize: ".9rem", marginBottom: ".6rem" }}>
+            条件を保存・共有したい場合
+          </h2>
+          <p style={{ color: "var(--text-muted)", fontSize: ".82rem", marginBottom: ".7rem" }}>
+            診断結果はブックマークできません。近い条件の一覧ページはこちらです。
+          </p>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: ".5rem" }}>
+            {prefectureLinkable && comboLinkable && (
+              <a
+                href={`/subsidies/prefecture/${encodeURIComponent(profile.prefecture)}/industry/${encodeURIComponent(matchedIndustry!)}/`}
+                style={{
+                  fontSize: ".82rem",
+                  color: "var(--text-strong)",
+                  border: "1px solid var(--border-soft)",
+                  borderRadius: "999px",
+                  padding: ".35rem .8rem",
+                  textDecoration: "none",
+                }}
+              >
+                {profile.prefecture}×{matchedIndustry}の補助金一覧
+              </a>
+            )}
+            {prefectureLinkable && (
+              <a
+                href={`/subsidies/prefecture/${encodeURIComponent(profile.prefecture)}/`}
+                style={{
+                  fontSize: ".82rem",
+                  color: "var(--text-strong)",
+                  border: "1px solid var(--border-soft)",
+                  borderRadius: "999px",
+                  padding: ".35rem .8rem",
+                  textDecoration: "none",
+                }}
+              >
+                {profile.prefecture}の補助金一覧
+              </a>
+            )}
+            {industryLinkable && (
+              <a
+                href={`/subsidies/industry/${encodeURIComponent(matchedIndustry!)}/`}
+                style={{
+                  fontSize: ".82rem",
+                  color: "var(--text-strong)",
+                  border: "1px solid var(--border-soft)",
+                  borderRadius: "999px",
+                  padding: ".35rem .8rem",
+                  textDecoration: "none",
+                }}
+              >
+                {matchedIndustry}向け補助金一覧
+              </a>
+            )}
+          </div>
+        </section>
       )}
     </div>
   )

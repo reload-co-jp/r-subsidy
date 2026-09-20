@@ -461,6 +461,7 @@ export default function SubsidiesListClient({
                 purposes={s.purposes}
                 overview={s.overview}
                 period={period}
+                updatedAt={s.updatedAt}
                 badges={[
                   { label: st.label, color: st.color },
                   { label: regionLabel[s.region] ?? s.region, color: "#94a3b8" },

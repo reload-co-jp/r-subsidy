@@ -6,6 +6,8 @@ import { notFound } from "next/navigation"
 import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../../../lib/site"
 import type { SubsidyIndexItem } from "../../../../lib/types"
 import { Breadcrumb } from "../../../../components/elements/breadcrumb"
+import FaqSection, { buildFaqStructuredData } from "../../../../components/elements/faq-section"
+import { buildCollectionFaqItems } from "../../../../lib/collection-faq"
 import SubsidiesListClient from "../../subsidies-list-client"
 
 export const dynamicParams = false
@@ -82,6 +84,12 @@ export default async function Page({ params }: Props) {
     .toSorted((a, b) => b.updatedAt.localeCompare(a.updatedAt))
     .slice(0, 5)
 
+  const faqItems = buildCollectionFaqItems(
+    purpose,
+    filtered.length,
+    active.filter((s) => s.status === "open").length
+  )
+
   const title = `${purpose}に使える補助金一覧`
   const description = `${purpose}目的で利用できる補助金を${active.length}件掲載。中小企業・個人事業主向けに、都道府県・受付状態・補助上限額で絞り込み比較できます。`
   const pageUrl = getPageUrl(purpose)
@@ -118,6 +126,12 @@ export default async function Page({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
       />
+      {faqItems.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqStructuredData(faqItems)) }}
+        />
+      )}
       <Breadcrumb
         items={[
           { label: "ホーム", href: "/" },
@@ -173,6 +187,8 @@ export default async function Page({ params }: Props) {
           </div>
         </section>
       )}
+
+      <FaqSection items={faqItems} />
 
       <Suspense fallback={null}>
         <SubsidiesListClient

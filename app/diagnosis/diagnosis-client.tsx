@@ -90,7 +90,7 @@ export default function DiagnosisClient() {
   }
 
   if (step === "result") {
-    return <DiagnosisResult results={results} onReset={() => setStep("form")} />
+    return <DiagnosisResult results={results} profile={profile} onReset={() => setStep("form")} />
   }
 
   return (

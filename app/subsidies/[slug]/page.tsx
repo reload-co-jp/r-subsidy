@@ -1,6 +1,7 @@
 import { FC } from "react"
 import Link from "next/link"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
+import FaqSection, { buildFaqStructuredData } from "../../../components/elements/faq-section"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
@@ -449,6 +450,7 @@ const Page: FC<Props> = async ({ params }) => {
             ? "東京都"
             : "手動登録",
     },
+    { label: "最終更新日", value: formatDate(subsidy.updatedAt) },
   ]
 
   return (
@@ -464,17 +466,7 @@ const Page: FC<Props> = async ({ params }) => {
       {faqItems.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              mainEntity: faqItems.map((item) => ({
-                "@type": "Question",
-                name: item.question,
-                acceptedAnswer: { "@type": "Answer", text: item.answer },
-              })),
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqStructuredData(faqItems)) }}
         />
       )}
       <Breadcrumb
@@ -537,6 +529,16 @@ const Page: FC<Props> = async ({ params }) => {
               {subsidy.prefectures.join("、")}
             </span>
           )}
+          <span
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".8rem",
+              alignSelf: "center",
+              marginLeft: "auto",
+            }}
+          >
+            最終更新日：{formatDate(subsidy.updatedAt)}
+          </span>
         </div>
 
         <h1
@@ -771,62 +773,7 @@ const Page: FC<Props> = async ({ params }) => {
         </div>
       )}
 
-      {faqItems.length > 0 && (
-        <div
-          style={{
-            backgroundColor: "var(--bg-surface)",
-            borderRadius: "10px",
-            border: "1px solid var(--border-soft)",
-            marginBottom: "1.5rem",
-            overflow: "hidden",
-          }}
-        >
-          <h2
-            style={{
-              color: "var(--text-base)",
-              fontSize: ".85rem",
-              fontWeight: "600",
-              padding: ".75rem 1rem",
-              borderBottom: "1px solid var(--border-strong)",
-              margin: 0,
-            }}
-          >
-            よくある質問
-          </h2>
-          {faqItems.map((item, i) => (
-            <div
-              key={i}
-              style={{
-                borderBottom:
-                  i < faqItems.length - 1
-                    ? "1px solid var(--border-strong)"
-                    : undefined,
-                padding: ".85rem 1rem",
-              }}
-            >
-              <p
-                style={{
-                  color: "#38b48b",
-                  fontSize: ".82rem",
-                  fontWeight: "bold",
-                  marginBottom: ".35rem",
-                }}
-              >
-                Q. {item.question}
-              </p>
-              <p
-                style={{
-                  color: "var(--text-strong)",
-                  fontSize: ".88rem",
-                  margin: 0,
-                }}
-              >
-                A. {item.answer}
-              </p>
-            </div>
-          ))}
-        </div>
-      )}
+      <FaqSection items={faqItems} />
 
       {relatedSubsidies.length > 0 && (
         <div style={{ marginBottom: "1.5rem" }}>

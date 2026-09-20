@@ -1,6 +1,6 @@
 import type { ReactNode } from "react"
 import Link from "next/link"
-import { formatAmount } from "../../lib/format"
+import { formatAmount, formatDate } from "../../lib/format"
 import PurposeTagLink from "./purpose-tag-link"
 
 export type SubsidyCardBadge = { label: string; color: string }
@@ -14,6 +14,7 @@ export default function SubsidyCard({
   badges = [],
   overview,
   period,
+  updatedAt,
   accentColor,
   trailing,
 }: {
@@ -25,6 +26,7 @@ export default function SubsidyCard({
   badges?: SubsidyCardBadge[]
   overview?: string | null
   period?: string | null
+  updatedAt?: string | null
   accentColor?: string
   trailing?: ReactNode
 }) {
@@ -129,7 +131,7 @@ export default function SubsidyCard({
               )}
             </div>
           )}
-          {period && (
+          {(period || updatedAt) && (
             <p
               style={{
                 color: "var(--text-muted)",
@@ -137,7 +139,9 @@ export default function SubsidyCard({
                 marginTop: ".55rem",
               }}
             >
-              受付期間 {period}
+              {period && <span>受付期間 {period}</span>}
+              {period && updatedAt && <span> ・ </span>}
+              {updatedAt && <span>更新 {formatDate(updatedAt)}</span>}
             </p>
           )}
         </div>

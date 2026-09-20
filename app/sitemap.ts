@@ -1,7 +1,8 @@
 import fs from "fs"
 import path from "path"
 import type { MetadataRoute } from "next"
-import { PREFECTURES } from "../lib/prefectures"
+import { PREFECTURES, POPULAR_PREFECTURES, matchesPrefecture } from "../lib/prefectures"
+import { POPULAR_INDUSTRIES } from "../lib/industries"
 import type { SubsidyIndexItem } from "../lib/types"
 import type { SubsidyNews } from "./news/page"
 import type { Guide } from "./guides/page"
@@ -177,11 +178,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }))
 
+  const comboRoutes: MetadataRoute.Sitemap = POPULAR_PREFECTURES.flatMap(
+    (prefecture) =>
+      POPULAR_INDUSTRIES.filter((industry) =>
+        subsidies.some(
+          (s) => matchesPrefecture(s, prefecture) && s.industries.includes(industry)
+        )
+      ).map((industry) => ({
+        url: `${siteUrl}/subsidies/prefecture/${encodeURIComponent(prefecture)}/industry/${encodeURIComponent(industry)}/`,
+        lastModified: latestUpdatedAt || today,
+        changeFrequency: "weekly" as const,
+        priority: 0.78,
+      }))
+  )
+
   return [
     ...staticRoutes,
     ...prefectureRoutes,
     ...purposeRoutes,
     ...industryRoutes,
+    ...comboRoutes,
     ...subsidyRoutes,
     ...newsRoutes,
     ...guideRoutes,

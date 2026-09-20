@@ -4,9 +4,12 @@ import path from "path"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { PREFECTURES, isPrefecture, matchesPrefecture } from "../../../../lib/prefectures"
+import { POPULAR_INDUSTRIES } from "../../../../lib/industries"
 import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../../../lib/site"
 import type { SubsidyIndexItem } from "../../../../lib/types"
 import { Breadcrumb } from "../../../../components/elements/breadcrumb"
+import FaqSection, { buildFaqStructuredData } from "../../../../components/elements/faq-section"
+import { buildCollectionFaqItems } from "../../../../lib/collection-faq"
 import SubsidiesListClient from "../../subsidies-list-client"
 
 export const dynamicParams = false
@@ -108,6 +111,10 @@ export default async function Page({ params }: Props) {
   const latestSubsidies = openSubsidies
     .toSorted((a, b) => b.updatedAt.localeCompare(a.updatedAt))
     .slice(0, 5)
+  const comboIndustries = POPULAR_INDUSTRIES.filter((industry) =>
+    prefectureSubsidies.some((s) => s.industries.includes(industry))
+  )
+  const faqItems = buildCollectionFaqItems(prefecture, prefectureSubsidies.length, openSubsidies.length)
   const title = `${prefecture}で受付中の補助金一覧`
   const description = `${prefecture}で利用できる受付中の補助金を${openSubsidies.length}件掲載。中小企業・個人事業主向けに、対象用途、業種、補助上限額を比較できます。`
   const pageUrl = getPrefecturePageUrl(prefecture)
@@ -143,6 +150,12 @@ export default async function Page({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
       />
+      {faqItems.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqStructuredData(faqItems)) }}
+        />
+      )}
       <Breadcrumb
         items={[
           { label: "ホーム", href: "/" },
@@ -199,6 +212,34 @@ export default async function Page({ params }: Props) {
           </div>
         </section>
       )}
+
+      {comboIndustries.length > 0 && (
+        <section style={{ marginBottom: "1.5rem" }}>
+          <h2 style={{ color: "var(--text-strong)", fontSize: ".95rem", marginBottom: ".6rem" }}>
+            {prefecture}の業種別補助金
+          </h2>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: ".5rem" }}>
+            {comboIndustries.map((industry) => (
+              <a
+                key={industry}
+                href={`/subsidies/prefecture/${encodeURIComponent(prefecture)}/industry/${encodeURIComponent(industry)}/`}
+                style={{
+                  fontSize: ".82rem",
+                  color: "var(--text-strong)",
+                  border: "1px solid var(--border-soft)",
+                  borderRadius: "999px",
+                  padding: ".35rem .8rem",
+                  textDecoration: "none",
+                }}
+              >
+                {industry}
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <FaqSection items={faqItems} />
 
       <Suspense fallback={null}>
         <SubsidiesListClient
