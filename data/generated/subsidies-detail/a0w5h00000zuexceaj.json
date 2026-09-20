@@ -53,13 +53,13 @@
     "デジタル化"
   ],
   "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / 研究開発・実証事業を行いたい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい",
-  "status": "closed",
+  "status": "open",
   "workflow": "ドローンを活用したツアー造成支援事業",
   "subsidizedRate": "補助対象経費の2/3以内",
   "upperLimit": "5,000,000円",
   "lowerLimit": null,
-  "startDate": "2026-05-12",
-  "endDate": "2026-07-15",
+  "startDate": "2026-09-17",
+  "endDate": "2026-10-16",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000ZueXcEAJ",
   "updatedAt": "2026-05-26T06:10:50.082Z"

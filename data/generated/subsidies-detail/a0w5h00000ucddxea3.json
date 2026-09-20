@@ -19,13 +19,13 @@
     "人材育成"
   ],
   "usePurpose": "人材育成を行いたい",
-  "status": "closed",
+  "status": "upcoming",
   "workflow": "東京都広域団体認定訓練助成金",
   "subsidizedRate": null,
   "upperLimit": "0円",
   "lowerLimit": null,
-  "startDate": "2026-03-31",
-  "endDate": "2026-04-15",
+  "startDate": "2026-09-30",
+  "endDate": "2026-10-30",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0W5h00000UcDDXEA3",
   "updatedAt": "2026-05-26T06:10:49.111Z"
