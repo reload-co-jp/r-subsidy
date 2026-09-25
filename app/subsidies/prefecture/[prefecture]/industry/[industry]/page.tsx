@@ -11,6 +11,7 @@ import FaqSection, { buildFaqStructuredData } from "../../../../../../components
 import { buildCollectionFaqItems } from "../../../../../../lib/collection-faq"
 import SubsidiesListClient from "../../../../subsidies-list-client"
 import { POPULAR_INDUSTRIES } from "../../../../../../lib/industries"
+import { indexRobots, isLocalTo } from "../../../../../../lib/seo"
 
 export const dynamicParams = false
 
@@ -53,8 +54,8 @@ export function generateStaticParams(): { prefecture: string; industry: string }
     for (const industry of POPULAR_INDUSTRIES) {
       if (getMatches(subsidies, prefecture, industry).length > 0) {
         params.push({
-          prefecture: encodeURIComponent(prefecture),
-          industry: encodeURIComponent(industry),
+          prefecture,
+          industry,
         })
       }
     }
@@ -86,9 +87,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title,
     description,
+    // 全国制度を含むため、地域固有の制度が少ない組み合わせは他ページと重複 → noindex
+    robots: indexRobots(active.filter((s) => isLocalTo(s, prefecture)).length),
     alternates: { canonical: pageUrl },
-    openGraph: { title: `${title} | ${SITE_NAME}`, description, url: pageUrl, type: "website" },
-    twitter: { card: "summary_large_image", title: `${title} | ${SITE_NAME}`, description },
+    openGraph: { title, description, url: pageUrl, type: "website" },
+    twitter: { card: "summary_large_image", title, description },
   }
 }
 

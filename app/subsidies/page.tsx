@@ -9,6 +9,7 @@ import type { SubsidyIndexItem } from "../../lib/types"
 import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../lib/site"
 import { Breadcrumb } from "../../components/elements/breadcrumb"
 import SubsidiesListClient from "./subsidies-list-client"
+import { CURRENT_YEAR } from "../../lib/seo"
 
 function getSubsidies(): SubsidyIndexItem[] {
   try {
@@ -19,9 +20,10 @@ function getSubsidies(): SubsidyIndexItem[] {
   }
 }
 
-const PAGE_TITLE = "補助金一覧"
-const PAGE_DESCRIPTION =
-  "現在受付中の補助金・助成金322件を含む3,200件超を一覧掲載。都道府県・業種・用途・補助上限額で絞り込み、中小企業・個人事業主が使える制度をすぐに比較できます。"
+const ALL_SUBSIDIES = getSubsidies()
+const OPEN_COUNT = ALL_SUBSIDIES.filter((s) => s.status === "open").length
+const PAGE_TITLE = `全国の補助金・助成金一覧｜${CURRENT_YEAR}年最新`
+const PAGE_DESCRIPTION = `現在受付中の補助金・助成金${OPEN_COUNT}件を含む${ALL_SUBSIDIES.length.toLocaleString()}件を一覧掲載。都道府県・業種・用途・補助上限額で絞り込み、中小企業・個人事業主が使える制度をすぐに比較できます。`
 const PAGE_URL = absoluteUrl("/subsidies/")
 
 export const metadata: Metadata = {
@@ -44,7 +46,7 @@ export const metadata: Metadata = {
 }
 
 const Page: FC = () => {
-  const subsidies = getSubsidies()
+  const subsidies = ALL_SUBSIDIES
   const structuredData = [
     {
       "@context": "https://schema.org",
@@ -80,10 +82,15 @@ const Page: FC = () => {
       />
       <div style={{ marginBottom: "1.5rem" }}>
         <h1 style={{ color: "var(--text-strong)", fontSize: "1.4rem", marginBottom: ".5rem" }}>
-          補助金一覧
+          全国の補助金・助成金一覧
         </h1>
         <p style={{ color: "var(--text-muted)", fontSize: ".875rem" }}>
           {subsidies.length > 0 ? `${subsidies.length}件の補助金` : "データが未取得です。pnpm subsidies:update を実行してください。"}
+        </p>
+        <p style={{ display: "flex", gap: "1rem", flexWrap: "wrap", fontSize: ".85rem", marginTop: ".5rem" }}>
+          <Link href="/subsidies/open/" style={{ color: "#38b48b" }}>受付中の補助金</Link>
+          <Link href="/subsidies/deadline/" style={{ color: "#38b48b" }}>締切が近い補助金</Link>
+          <Link href="/subsidies/upcoming/" style={{ color: "#38b48b" }}>公募予定の補助金</Link>
         </p>
       </div>
 

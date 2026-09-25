@@ -10,8 +10,9 @@ import type {
   SubsidyIndexItem,
   UpdateHistory,
 } from "../lib/types"
-import { SITE_NAME, SITE_URL, absoluteUrl } from "../lib/site"
+import { SITE_NAME, absoluteUrl } from "../lib/site"
 import { formatDate, formatAmount } from "../lib/format"
+import { purposeLabel } from "../lib/seo"
 import PurposeTagLink from "../components/elements/purpose-tag-link"
 import HomeSearchForm from "../components/elements/home-search-form"
 
@@ -114,25 +115,13 @@ export const metadata: Metadata = {
   },
 }
 
+const HOME_PURPOSES = ["デジタル化", "設備投資", "販路拡大", "研究開発", "人材育成", "創業", "事業承継", "省エネ", "海外展開"]
+
 const Page: FC = () => {
   const history = getUpdateHistory()
   const stats = getSubsidyStats()
   const latestSubsidies = getLatestSubsidies()
   const lawyerComments = getLawyerComments()
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: SITE_NAME,
-    url: SITE_URL,
-    inLanguage: "ja",
-    description:
-      "中小企業・個人事業主向けに、Jグランツ掲載の補助金を都道府県・受付状態・目的から検索し、事業内容に合う制度を診断できる補助金ポータルです。",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${SITE_URL}/subsidies/?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
-  }
   const latestItemList = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -147,10 +136,6 @@ const Page: FC = () => {
 
   return (
     <div>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
       {latestSubsidies.length > 0 && (
         <script
           type="application/ld+json"
@@ -336,6 +321,51 @@ const Page: FC = () => {
         </div>
       </section>
 
+      {/* 探し方ガイド（主要一覧ページへの内部リンク） */}
+      <section style={{ padding: "3rem 2rem" }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+          <h2 style={{ color: "var(--text-strong)", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "1rem" }}>
+            RSubsidyで探せる補助金
+          </h2>
+          <p style={{ color: "var(--text-base)", fontSize: ".92rem", lineHeight: 1.9, marginBottom: "1.25rem" }}>
+            RSubsidyでは、Jグランツなどの公募情報をもとに、国の制度から都道府県・市区町村の制度まで
+            {stats ? `${stats.total.toLocaleString()}件（うち受付中${stats.open}件・公募予定${stats.upcoming}件）` : ""}
+            の補助金・助成金を掲載しています。まずは
+            <Link href="/subsidies/" style={{ color: "#38b48b" }}>全国の補助金一覧</Link>
+            から、所在地の<a href="#prefectures" style={{ color: "#38b48b" }}>都道府県</a>
+            、IT導入や設備投資などの<a href="#purposes" style={{ color: "#38b48b" }}>目的</a>
+            、<Link href="/subsidies/industry/製造業/" style={{ color: "#38b48b" }}>製造業</Link>
+            などの業種で絞り込むのが近道です。申請期限が迫った制度は
+            <Link href="/subsidies/deadline/" style={{ color: "#38b48b" }}>締切が近い補助金</Link>
+            、新しく公募が始まった制度は
+            <Link href="/subsidies/open/" style={{ color: "#38b48b" }}>受付中の補助金</Link>
+            と<Link href="/subsidies/upcoming/" style={{ color: "#38b48b" }}>公募予定の補助金</Link>
+            で確認できます。どれが使えるかわからない場合は
+            <Link href="/diagnosis/" style={{ color: "#38b48b" }}>補助金診断</Link>
+            、申請の進め方は<Link href="/guides/" style={{ color: "#38b48b" }}>申請ガイド</Link>
+            をご覧ください。
+          </p>
+          <div id="purposes" style={{ display: "flex", flexWrap: "wrap", gap: ".5rem" }}>
+            {HOME_PURPOSES.map((purpose) => (
+              <Link
+                key={purpose}
+                href={`/subsidies/purpose/${encodeURIComponent(purpose)}/`}
+                style={{
+                  fontSize: ".85rem",
+                  color: "var(--text-strong)",
+                  border: "1px solid var(--border-soft)",
+                  borderRadius: "999px",
+                  padding: ".4rem .9rem",
+                  textDecoration: "none",
+                }}
+              >
+                {purposeLabel(purpose)}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* About */}
       <section style={{ padding: "4rem 2rem" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
@@ -449,7 +479,7 @@ const Page: FC = () => {
       </section>
 
       {/* Prefecture */}
-      <section style={{ backgroundColor: "var(--bg-surface-alt)", padding: "3rem 2rem" }}>
+      <section id="prefectures" style={{ backgroundColor: "var(--bg-surface-alt)", padding: "3rem 2rem" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1rem", marginBottom: "1.25rem" }}>
             <h2 style={{ color: "var(--text-strong)", fontSize: "1.4rem", fontWeight: "bold" }}>

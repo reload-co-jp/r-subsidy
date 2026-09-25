@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import type { NormalizedSubsidy, SubsidyIndexItem, UpdateHistory } from '../lib/types'
+import { sanitizeSubsidies } from '../lib/quality'
 
 const MERGED_FILE = path.join(process.cwd(), 'data', 'normalized', 'merged.json')
 const OUT_DIR = path.join(process.cwd(), 'data', 'generated')
@@ -60,10 +61,19 @@ async function main() {
 
   ensureDirs()
 
-  const { subsidies, counts } = JSON.parse(fs.readFileSync(MERGED_FILE, 'utf-8')) as {
+  const merged = JSON.parse(fs.readFileSync(MERGED_FILE, 'utf-8')) as {
     subsidies: NormalizedSubsidy[]
     counts: { jgrants: number; national: number; tokyo: number; total: number }
   }
+  const { counts } = merged
+  const { subsidies, issues } = sanitizeSubsidies(merged.subsidies)
+  const issueCounts = issues.reduce<Record<string, number>>((acc, i) => {
+    const key = i.reason.replace(/（.*）$/, '')
+    acc[key] = (acc[key] ?? 0) + 1
+    return acc
+  }, {})
+  console.log('Data quality:', issueCounts)
+  writeJsonIfChanged(path.join(OUT_DIR, 'quality-issues.json'), issues)
 
   console.log(`Building JSON for ${subsidies.length} subsidies...`)
 

@@ -13,61 +13,95 @@ import {
   buildBreadcrumbList,
 } from "../../../lib/site"
 import { formatDate, formatAmount } from "../../../lib/format"
+import { isPrefecture } from "../../../lib/prefectures"
+import {
+  areaLabel,
+  isActive,
+  isLocalTo,
+  loadSubsidyIndex,
+  purposeLabel,
+  subsidyTitle,
+} from "../../../lib/seo"
 
-function getRelatedSubsidies(subsidy: NormalizedSubsidy): SubsidyIndexItem[] {
-  try {
-    const file = path.join(
-      process.cwd(),
-      "data",
-      "generated",
-      "subsidies-index.json"
-    )
-    const all: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
-    const active = all.filter(
-      (s) => s.slug !== subsidy.slug && s.status !== "closed"
-    )
-    const byPurpose = active.filter((s) =>
-      s.purposes.some((p) => subsidy.purposes.includes(p))
-    )
-    if (byPurpose.length >= 3) return byPurpose.slice(0, 5)
-    const byPrefecture = active.filter(
-      (s) =>
-        subsidy.prefectures.length > 0 &&
-        s.prefectures.some((p) => subsidy.prefectures.includes(p))
-    )
-    const merged = [
-      ...byPurpose,
-      ...byPrefecture.filter((s) => !byPurpose.some((b) => b.slug === s.slug)),
-    ]
-    return merged.slice(0, 5)
-  } catch {
-    return []
+type RelatedGroup = { heading: string; href: string; linkLabel: string; items: SubsidyIndexItem[] }
+
+// 業種がほぼ全業種指定の制度は「業種を問わない」扱い
+const ALL_INDUSTRY_THRESHOLD = 30
+
+function industryLabel(subsidy: NormalizedSubsidy) {
+  if (subsidy.industries.length === 0) return null
+  if (subsidy.industries.length >= ALL_INDUSTRY_THRESHOLD) return "業種を問わず幅広い業種が対象"
+  return subsidy.industries.join("、")
+}
+
+function getLocalPrefecture(subsidy: NormalizedSubsidy) {
+  return subsidy.region !== "national" ? subsidy.prefectures.find(isPrefecture) ?? null : null
+}
+
+function getRelatedGroups(subsidy: NormalizedSubsidy): RelatedGroup[] {
+  const active = loadSubsidyIndex().filter((s) => s.slug !== subsidy.slug && isActive(s))
+  const used = new Set<string>()
+  const pick = (items: SubsidyIndexItem[]) => {
+    const picked = items.filter((s) => !used.has(s.slug)).slice(0, 5)
+    picked.forEach((s) => used.add(s.slug))
+    return picked
   }
+  const groups: RelatedGroup[] = []
+  const prefecture = getLocalPrefecture(subsidy)
+  if (prefecture) {
+    groups.push({
+      heading: `${prefecture}の補助金`,
+      href: `/subsidies/prefecture/${encodeURIComponent(prefecture)}/`,
+      linkLabel: `${prefecture}の補助金一覧へ`,
+      items: pick(active.filter((s) => isLocalTo(s, prefecture))),
+    })
+  }
+  const purpose = subsidy.purposes[0]
+  if (purpose) {
+    groups.push({
+      heading: `${purposeLabel(purpose)}に使える補助金`,
+      href: `/subsidies/purpose/${encodeURIComponent(purpose)}/`,
+      linkLabel: `${purposeLabel(purpose)}の補助金一覧へ`,
+      items: pick(active.filter((s) => s.purposes.includes(purpose))),
+    })
+  }
+  const industry = subsidy.industries.length < ALL_INDUSTRY_THRESHOLD ? subsidy.industries[0] : undefined
+  if (industry) {
+    groups.push({
+      heading: `${industry}向けの補助金`,
+      href: `/subsidies/industry/${encodeURIComponent(industry)}/`,
+      linkLabel: `${industry}向け補助金一覧へ`,
+      items: pick(active.filter((s) => s.industries.includes(industry))),
+    })
+  }
+  // 地域制度の利用者も併用を検討できる、用途が近い国（全国対象）の制度
+  groups.push({
+    heading: "関連する全国の補助金",
+    href: "/subsidies/",
+    linkLabel: "全国の補助金一覧へ",
+    items: pick(
+      active.filter((s) => areaLabel(s) === "全国" && s.purposes.some((p) => subsidy.purposes.includes(p)))
+    ),
+  })
+  return groups.filter((g) => g.items.length > 0)
 }
 
 type FaqItem = { question: string; answer: string }
 
+// 制度データから事実として回答できる質問のみ生成する
 function buildFaqItems(subsidy: NormalizedSubsidy): FaqItem[] {
-  const regionLabel: Record<string, string> = {
-    national: "全国",
-    tokyo: "東京都",
-    prefecture: "都道府県",
-  }
   const items: FaqItem[] = []
+  const name = subsidy.title
 
-  const region =
-    subsidy.region === "prefecture" && subsidy.prefectures.length > 0
-      ? `都道府県（${subsidy.prefectures.join("、")}）`
-      : (regionLabel[subsidy.region] ?? subsidy.region)
-  items.push({ question: `対象地域は?`, answer: region })
+  items.push({ question: `${name}の対象地域は?`, answer: areaLabel(subsidy) === "全国" ? "全国が対象です。" : `${subsidy.prefectures.join("、")}が対象です。` })
 
   if (subsidy.subsidizedRate) {
-    items.push({ question: `補助率は?`, answer: subsidy.subsidizedRate })
+    items.push({ question: `${name}の補助率はいくら?`, answer: subsidy.subsidizedRate })
   }
 
   if (subsidy.upperLimit && subsidy.upperLimit !== "0円") {
     items.push({
-      question: `補助上限額は?`,
+      question: `${name}の補助上限額はいくら?`,
       answer: formatAmount(subsidy.upperLimit) ?? subsidy.upperLimit,
     })
   }
@@ -75,38 +109,56 @@ function buildFaqItems(subsidy: NormalizedSubsidy): FaqItem[] {
   if (subsidy.startDate || subsidy.endDate) {
     const start = subsidy.startDate ? formatDate(subsidy.startDate) : "未定"
     const end = subsidy.endDate ? formatDate(subsidy.endDate) : "未定"
-    items.push({ question: `受付期間は?`, answer: `${start} 〜 ${end}` })
+    items.push({ question: `${name}の受付期間は?`, answer: `${start} 〜 ${end}（${statusLabel[subsidy.status]?.label ?? "要確認"}）` })
   }
 
-  if (subsidy.industries.length > 0) {
-    items.push({
-      question: `どの業種が対象?`,
-      answer: subsidy.industries.join("、"),
-    })
+  const industries = industryLabel(subsidy)
+  if (industries) {
+    items.push({ question: `${name}の対象業種は?`, answer: industries })
+  }
+
+  if (subsidy.targetNumberOfEmployees) {
+    items.push({ question: `${name}の従業員数の条件は?`, answer: subsidy.targetNumberOfEmployees })
+  }
+
+  if (subsidy.purposes.includes("デジタル化")) {
+    items.push({ question: `${name}はIT導入・DXに利用できる?`, answer: "対象用途に「デジタル化（IT・DX）」が含まれます。対象経費の詳細は公式情報をご確認ください。" })
+  }
+
+  if (subsidy.purposes.includes("設備投資")) {
+    items.push({ question: `${name}は設備投資に利用できる?`, answer: "対象用途に「設備投資」が含まれます。対象経費の詳細は公式情報をご確認ください。" })
   }
 
   if (subsidy.workflow) {
-    items.push({ question: `申請窓口は?`, answer: subsidy.workflow })
+    items.push({ question: `${name}の申請窓口は?`, answer: subsidy.workflow })
   }
 
   return items
 }
 
+// ページ冒頭の2〜3文の概要（制度データのみから生成）
+function buildSummary(subsidy: NormalizedSubsidy) {
+  const area = areaLabel(subsidy)
+  const sentences = [`${subsidy.title}は、${area === "全国" ? "全国" : area}の事業者を対象とした補助金・助成金です。`]
+  const amount = subsidy.upperLimit && subsidy.upperLimit !== "0円" ? formatAmount(subsidy.upperLimit) : null
+  const rate = subsidy.subsidizedRate && subsidy.subsidizedRate.length <= 40 ? subsidy.subsidizedRate : null
+  if (amount || rate) {
+    sentences.push(
+      [amount && `補助上限額は${amount}`, rate && `補助率は${rate}`].filter(Boolean).join("、") + "です。"
+    )
+  }
+  if (subsidy.startDate || subsidy.endDate) {
+    sentences.push(
+      `受付期間は${formatDate(subsidy.startDate) ?? "未定"}〜${formatDate(subsidy.endDate) ?? "未定"}で、現在は「${statusLabel[subsidy.status]?.label ?? "要確認"}」です。`
+    )
+  }
+  return sentences.join("")
+}
+
 export const dynamicParams = false
 
 export function generateStaticParams(): { slug: string }[] {
-  try {
-    const file = path.join(
-      process.cwd(),
-      "data",
-      "generated",
-      "subsidies-index.json"
-    )
-    const index: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
-    return index.map((s) => ({ slug: s.slug }))
-  } catch {
-    return []
-  }
+  return loadSubsidyIndex().map((s) => ({ slug: s.slug }))
 }
 
 function getSubsidy(slug: string): NormalizedSubsidy | null {
@@ -139,31 +191,26 @@ function getLawyerComment(slug: string): string | null {
   }
 }
 
+function clipDescription(text: string) {
+  if (text.length <= 140) return text
+  const truncated = text.slice(0, 140)
+  const lastPeriod = truncated.lastIndexOf("。")
+  return lastPeriod > 0 ? truncated.slice(0, lastPeriod + 1) : truncated
+}
+
 function buildDescription(subsidy: NormalizedSubsidy) {
   const overviewText = (subsidy.overview?.trim() ?? "")
     .replace(/[\r\n]+/g, "。")
     .replace(/。{2,}/g, "。")
 
-  let baseText = overviewText
-  if (baseText.length < 30 && subsidy.detail) {
-    const plain = subsidy.detail
-      .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, "")
-      .replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, "")
-      .replace(/<[^>]+>/g, " ")
-      .replace(/&nbsp;/g, " ")
-      .replace(/&amp;/g, "&")
-      .replace(/&lt;/g, "<")
-      .replace(/&gt;/g, ">")
-      .replace(/[■▶●◆▼◇□△▲※◎★☆【】〔〕〈〉《》]/g, " ")
-      .replace(/\s+/g, " ")
-      .replace(/^(?:[ぁ-鿿豈-﫿]{1,6} )+/, "")
-      .trim()
-    const detailSnippet = plain.slice(0, 100).trim()
-    baseText = baseText ? `${baseText}。${detailSnippet}` : detailSnippet
+  // 概要が無い制度は、地域別に同文の詳細が多く description が重複するため、制度固有の要約を使う
+  if (overviewText.length < 30) {
+    const purposes = subsidy.purposes.length > 0 ? `対象用途は${subsidy.purposes.map(purposeLabel).join("・")}。` : ""
+    return clipDescription(buildSummary(subsidy) + purposes)
   }
 
   const parts = [
-    baseText || null,
+    overviewText,
     subsidy.upperLimit ? `補助上限額は${subsidy.upperLimit}` : null,
     subsidy.subsidizedRate ? `補助率は${subsidy.subsidizedRate}` : null,
     subsidy.purposes.length > 0
@@ -171,11 +218,7 @@ function buildDescription(subsidy: NormalizedSubsidy) {
       : null,
   ].filter(Boolean)
 
-  const full = parts.join("。").replace(/。{2,}/g, "。")
-  if (full.length <= 140) return full
-  const truncated = full.slice(0, 140)
-  const lastPeriod = truncated.lastIndexOf("。")
-  return lastPeriod > 0 ? truncated.slice(0, lastPeriod + 1) : truncated
+  return clipDescription(parts.join("。").replace(/。{2,}/g, "。"))
 }
 
 function escapeHtml(text: string) {
@@ -322,8 +365,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alt: subsidy.title,
   }
 
+  const title = subsidyTitle(subsidy)
+
   return {
-    title: `${subsidy.title} | ${SITE_NAME}`,
+    title,
     description,
     alternates: {
       canonical: pageUrl,
@@ -332,7 +377,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? { robots: { index: false, follow: true } }
       : {}),
     openGraph: {
-      title: `${subsidy.title} | ${SITE_NAME}`,
+      title: `${title} | ${SITE_NAME}`,
       description,
       url: pageUrl,
       type: "article",
@@ -341,7 +386,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${subsidy.title} | ${SITE_NAME}`,
+      title: `${title} | ${SITE_NAME}`,
       description,
       images: [ogImage.url],
     },
@@ -398,8 +443,13 @@ const Page: FC<Props> = async ({ params }) => {
   const st = statusLabel[subsidy.status] ?? statusLabel.unknown
   const pageUrl = absoluteUrl(`/subsidies/${subsidy.slug}/`)
   const description = buildDescription(subsidy)
-  const relatedSubsidies = getRelatedSubsidies(subsidy)
+  const relatedGroups = getRelatedGroups(subsidy)
   const faqItems = buildFaqItems(subsidy)
+  const summary = buildSummary(subsidy)
+  const localPrefecture = getLocalPrefecture(subsidy)
+  const parentCrumb = localPrefecture
+    ? { name: `${localPrefecture}の補助金`, path: `/subsidies/prefecture/${encodeURIComponent(localPrefecture)}/` }
+    : { name: "補助金一覧", path: "/subsidies/" }
   const structuredData = buildSubsidyStructuredData(
     subsidy,
     pageUrl,
@@ -409,16 +459,19 @@ const Page: FC<Props> = async ({ params }) => {
   const breadcrumbList = buildBreadcrumbList([
     { name: "ホーム", url: absoluteUrl("/") },
     { name: "補助金一覧", url: absoluteUrl("/subsidies/") },
+    ...(localPrefecture ? [{ name: parentCrumb.name, url: absoluteUrl(parentCrumb.path) }] : []),
     { name: subsidy.title, url: pageUrl },
   ])
 
   const infoRows: { label: string; value: string | null }[] = [
+    { label: "対象地域", value: areaLabel(subsidy) === "全国" ? "全国" : subsidy.prefectures.join("、") },
     {
-      label: "対象地域",
+      label: "対象者（従業員数）",
       value:
-        subsidy.region === "prefecture" && subsidy.prefectures.length > 0
-          ? `都道府県（${subsidy.prefectures.join("、")}）`
-          : (regionLabel[subsidy.region] ?? subsidy.region),
+        subsidy.targetNumberOfEmployees ??
+        (subsidy.employeeMin !== null || subsidy.employeeMax !== null
+          ? `${subsidy.employeeMin ?? "—"}〜${subsidy.employeeMax ?? "—"}人`
+          : null),
     },
     { label: "補助率", value: subsidy.subsidizedRate },
     {
@@ -431,15 +484,11 @@ const Page: FC<Props> = async ({ params }) => {
     { label: "補助下限額", value: formatAmount(subsidy.lowerLimit) },
     { label: "受付開始", value: formatDate(subsidy.startDate) },
     { label: "受付終了", value: formatDate(subsidy.endDate) },
+    { label: "対象業種", value: industryLabel(subsidy) },
     {
-      label: "対象従業員数",
-      value:
-        subsidy.targetNumberOfEmployees ??
-        (subsidy.employeeMin !== null || subsidy.employeeMax !== null
-          ? `${subsidy.employeeMin ?? "—"}〜${subsidy.employeeMax ?? "—"}人`
-          : null),
+      label: "利用目的",
+      value: subsidy.usePurpose ?? (subsidy.purposes.length > 0 ? subsidy.purposes.map(purposeLabel).join("、") : null),
     },
-    { label: "利用目的", value: subsidy.usePurpose },
     { label: "申請窓口", value: subsidy.workflow },
     {
       label: "出典",
@@ -473,6 +522,7 @@ const Page: FC<Props> = async ({ params }) => {
         items={[
           { label: "ホーム", href: "/" },
           { label: "補助金一覧", href: "/subsidies" },
+          ...(localPrefecture ? [{ label: parentCrumb.name, href: parentCrumb.path }] : []),
           { label: subsidy.title },
         ]}
       />
@@ -552,6 +602,17 @@ const Page: FC<Props> = async ({ params }) => {
           {subsidy.title}
         </h1>
 
+        <p
+          style={{
+            color: "var(--text-strong)",
+            fontSize: ".92rem",
+            lineHeight: 1.8,
+            marginBottom: "1rem",
+          }}
+        >
+          {summary}
+        </p>
+
         {subsidy.workflow && (
           <div
             style={{
@@ -580,39 +641,6 @@ const Page: FC<Props> = async ({ params }) => {
           </p>
         )}
       </div>
-
-      {lawyerComment && (
-        <div
-          style={{
-            backgroundColor: "#f0fdf8",
-            border: "1px solid #a7f3d0",
-            borderRadius: "10px",
-            padding: "1.25rem",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2
-            style={{
-              color: "#059669",
-              fontSize: ".85rem",
-              fontWeight: "bold",
-              marginBottom: ".75rem",
-            }}
-          >
-            行政書士コメント
-          </h2>
-          <p
-            style={{
-              color: "#064e3b",
-              fontSize: ".9rem",
-              lineHeight: 1.7,
-              margin: 0,
-            }}
-          >
-            {lawyerComment}
-          </p>
-        </div>
-      )}
 
       <div
         style={{
@@ -660,6 +688,39 @@ const Page: FC<Props> = async ({ params }) => {
         </table>
       </div>
 
+      {lawyerComment && (
+        <div
+          style={{
+            backgroundColor: "#f0fdf8",
+            border: "1px solid #a7f3d0",
+            borderRadius: "10px",
+            padding: "1.25rem",
+            marginBottom: "1.5rem",
+          }}
+        >
+          <h2
+            style={{
+              color: "#059669",
+              fontSize: ".85rem",
+              fontWeight: "bold",
+              marginBottom: ".75rem",
+            }}
+          >
+            行政書士コメント
+          </h2>
+          <p
+            style={{
+              color: "#064e3b",
+              fontSize: ".9rem",
+              lineHeight: 1.7,
+              margin: 0,
+            }}
+          >
+            {lawyerComment}
+          </p>
+        </div>
+      )}
+
       {subsidy.purposes.length > 0 && (
         <div style={{ marginBottom: "1.5rem" }}>
           <h2
@@ -674,9 +735,11 @@ const Page: FC<Props> = async ({ params }) => {
           </h2>
           <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
             {subsidy.purposes.map((p) => (
-              <span
+              <Link
                 key={p}
+                href={`/subsidies/purpose/${encodeURIComponent(p)}/`}
                 style={{
+                  textDecoration: "none",
                   backgroundColor: "var(--bg-tag)",
                   color: "#38b48b",
                   borderRadius: "4px",
@@ -684,8 +747,8 @@ const Page: FC<Props> = async ({ params }) => {
                   fontSize: ".8rem",
                 }}
               >
-                {p}
-              </span>
+                {purposeLabel(p)}
+              </Link>
             ))}
           </div>
         </div>
@@ -705,9 +768,11 @@ const Page: FC<Props> = async ({ params }) => {
           </h2>
           <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
             {subsidy.industries.map((ind) => (
-              <span
+              <Link
                 key={ind}
+                href={`/subsidies/industry/${encodeURIComponent(ind)}/`}
                 style={{
+                  textDecoration: "none",
                   backgroundColor: "var(--bg-surface-alt)",
                   color: "var(--text-base)",
                   borderRadius: "4px",
@@ -716,7 +781,7 @@ const Page: FC<Props> = async ({ params }) => {
                 }}
               >
                 {ind}
-              </span>
+              </Link>
             ))}
           </div>
         </div>
@@ -775,8 +840,8 @@ const Page: FC<Props> = async ({ params }) => {
 
       <FaqSection items={faqItems} />
 
-      {relatedSubsidies.length > 0 && (
-        <div style={{ marginBottom: "1.5rem" }}>
+      {relatedGroups.map((group) => (
+        <section key={group.heading} style={{ marginBottom: "1.5rem" }}>
           <h2
             style={{
               color: "var(--text-base)",
@@ -785,13 +850,13 @@ const Page: FC<Props> = async ({ params }) => {
               marginBottom: ".75rem",
             }}
           >
-            関連する補助金
+            {group.heading}
           </h2>
           <div style={{ display: "grid", gap: ".5rem" }}>
-            {relatedSubsidies.map((s) => (
+            {group.items.map((s) => (
               <Link
                 key={s.slug}
-                href={`/subsidies/${s.slug}`}
+                href={`/subsidies/${s.slug}/`}
                 style={{
                   backgroundColor: "var(--bg-surface)",
                   border: "1px solid var(--border-soft)",
@@ -823,8 +888,14 @@ const Page: FC<Props> = async ({ params }) => {
               </Link>
             ))}
           </div>
-        </div>
-      )}
+          <Link
+            href={group.href}
+            style={{ display: "inline-block", marginTop: ".5rem", color: "#38b48b", fontSize: ".82rem", textDecoration: "none" }}
+          >
+            {group.linkLabel} →
+          </Link>
+        </section>
+      ))}
 
       <div style={{ textAlign: "center" }}>
         <Link

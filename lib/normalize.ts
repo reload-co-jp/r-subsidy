@@ -26,6 +26,7 @@ const PURPOSE_KEYWORDS: Record<string, string[]> = {
   創業: ['創業', '開業', 'スタートアップ', '起業', '新規'],
   省エネ: ['省エネ', 'エネルギー', '再生可能', '脱炭素', 'CO2', 'カーボン'],
   デジタル化: ['デジタル', 'DX', 'IT', 'システム', 'クラウド', 'AI'],
+  海外展開: ['海外展開', '海外進出', '輸出', '越境', 'インバウンド'],
 }
 
 export function extractPurposes(text: string): string[] {

@@ -4,6 +4,7 @@ import path from "path"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../../../lib/site"
+import { YEAR_LABEL, CURRENT_YEAR, indexRobots } from "../../../../lib/seo"
 import { POPULAR_PREFECTURES, matchesPrefecture } from "../../../../lib/prefectures"
 import { POPULAR_INDUSTRIES } from "../../../../lib/industries"
 import type { SubsidyIndexItem } from "../../../../lib/types"
@@ -42,7 +43,7 @@ function getAllIndustries(subsidies: SubsidyIndexItem[]): string[] {
 export function generateStaticParams(): { industry: string }[] {
   const subsidies = getSubsidies()
   return getAllIndustries(subsidies).map((industry) => ({
-    industry: encodeURIComponent(industry),
+    industry,
   }))
 }
 
@@ -61,16 +62,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const filtered = subsidies.filter((s) => s.industries.includes(industry) && s.status !== "closed")
-  const title = `${industry}向け補助金一覧`
+  const title = `${industry}向けの補助金・助成金一覧｜${CURRENT_YEAR}年最新`
   const description = `${industry}が対象の補助金を${filtered.length}件掲載。中小企業・個人事業主向けに、都道府県・受付状態・用途・補助上限額で比較できます。`
   const pageUrl = getPageUrl(industry)
 
   return {
     title,
     description,
+    robots: indexRobots(filtered.length),
     alternates: { canonical: pageUrl },
-    openGraph: { title: `${title} | ${SITE_NAME}`, description, url: pageUrl, type: "website" },
-    twitter: { card: "summary_large_image", title: `${title} | ${SITE_NAME}`, description },
+    openGraph: { title, description, url: pageUrl, type: "website" },
+    twitter: { card: "summary_large_image", title, description },
   }
 }
 
@@ -98,7 +100,7 @@ export default async function Page({ params }: Props) {
     active.filter((s) => s.status === "open").length
   )
 
-  const title = `${industry}向け補助金一覧`
+  const title = `${industry}向けの補助金・助成金一覧｜${CURRENT_YEAR}年最新`
   const description = `${industry}が対象の補助金を${active.length}件掲載。中小企業・個人事業主向けに、都道府県・受付状態・用途・補助上限額で比較できます。`
   const pageUrl = getPageUrl(industry)
 
@@ -152,7 +154,7 @@ export default async function Page({ params }: Props) {
           業種別の補助金
         </p>
         <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>
-          {title}
+          {YEAR_LABEL}の{industry}向け補助金・助成金
         </h1>
         <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8 }}>
           {description}

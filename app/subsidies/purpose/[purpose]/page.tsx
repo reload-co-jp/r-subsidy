@@ -4,6 +4,7 @@ import path from "path"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../../../lib/site"
+import { YEAR_LABEL, CURRENT_YEAR, indexRobots, purposeLabel } from "../../../../lib/seo"
 import type { SubsidyIndexItem } from "../../../../lib/types"
 import { Breadcrumb } from "../../../../components/elements/breadcrumb"
 import FaqSection, { buildFaqStructuredData } from "../../../../components/elements/faq-section"
@@ -39,7 +40,8 @@ function getAllPurposes(subsidies: SubsidyIndexItem[]): string[] {
 
 export function generateStaticParams(): { purpose: string }[] {
   const subsidies = getSubsidies()
-  return getAllPurposes(subsidies).map((purpose) => ({ purpose: encodeURIComponent(purpose) }))
+  // 生値で返す（エンコードすると二重エンコードされ404になる）
+  return getAllPurposes(subsidies).map((purpose) => ({ purpose }))
 }
 
 function getPageUrl(purpose: string) {
@@ -57,16 +59,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const filtered = subsidies.filter((s) => s.purposes.includes(purpose) && s.status !== "closed")
-  const title = `${purpose}に使える補助金一覧`
-  const description = `${purpose}目的で利用できる補助金を${filtered.length}件掲載。中小企業・個人事業主向けに、都道府県・受付状態・補助上限額で絞り込み比較できます。`
+  const title = `${purposeLabel(purpose)}に使える補助金・助成金一覧｜${CURRENT_YEAR}年最新`
+  const description = `${purposeLabel(purpose)}目的で利用できる補助金・助成金を${filtered.length}件掲載。中小企業・個人事業主向けに、都道府県・受付状態・補助上限額で絞り込み比較できます。`
   const pageUrl = getPageUrl(purpose)
 
   return {
     title,
     description,
+    robots: indexRobots(filtered.length),
     alternates: { canonical: pageUrl },
-    openGraph: { title: `${title} | ${SITE_NAME}`, description, url: pageUrl, type: "website" },
-    twitter: { card: "summary_large_image", title: `${title} | ${SITE_NAME}`, description },
+    openGraph: { title, description, url: pageUrl, type: "website" },
+    twitter: { card: "summary_large_image", title, description },
   }
 }
 
@@ -90,8 +93,8 @@ export default async function Page({ params }: Props) {
     active.filter((s) => s.status === "open").length
   )
 
-  const title = `${purpose}に使える補助金一覧`
-  const description = `${purpose}目的で利用できる補助金を${active.length}件掲載。中小企業・個人事業主向けに、都道府県・受付状態・補助上限額で絞り込み比較できます。`
+  const title = `${purposeLabel(purpose)}に使える補助金・助成金一覧｜${CURRENT_YEAR}年最新`
+  const description = `${purposeLabel(purpose)}目的で利用できる補助金・助成金を${active.length}件掲載。中小企業・個人事業主向けに、都道府県・受付状態・補助上限額で絞り込み比較できます。`
   const pageUrl = getPageUrl(purpose)
 
   const structuredData = {
@@ -144,7 +147,7 @@ export default async function Page({ params }: Props) {
           目的別の補助金
         </p>
         <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>
-          {title}
+          {YEAR_LABEL}の{purposeLabel(purpose)}に使える補助金・助成金
         </h1>
         <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8 }}>
           {description}

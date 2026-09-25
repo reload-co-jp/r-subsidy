@@ -19,7 +19,9 @@
     "subsidies:normalize": "tsx scripts/normalize-jgrants.ts",
     "subsidies:merge": "tsx scripts/merge-local-subsidies.ts",
     "subsidies:build": "tsx scripts/build-subsidy-json.ts",
-    "subsidies:validate": "tsx scripts/validate-json.ts"
+    "subsidies:validate": "tsx scripts/validate-json.ts",
+    "seo:check": "tsx scripts/seo-check.ts",
+    "test": "tsx scripts/quality.test.ts"
   },
   "keywords": [],
   "author": "",
