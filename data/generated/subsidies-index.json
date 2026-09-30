@@ -50951,7 +50951,7 @@
     "overview": "生放送番組に字幕を付与する機器の整備に対して助成金を交付",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "情報通信業"
     ],
@@ -86925,7 +86925,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "分類不能の産業"
     ],
@@ -123297,7 +123297,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -129868,7 +129868,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -130896,7 +130896,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "医療",
       "福祉"
@@ -138664,7 +138664,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "closed",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -138705,8 +138705,8 @@
     "upperLimit": "1,500,000円",
     "isForSME": true,
     "source": "jgrants",
-    "startDate": "2026-08-31",
-    "endDate": "2026-09-14",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-14",
     "updatedAt": "2026-05-26T06:10:55.716Z"
   },
   {
@@ -141152,7 +141152,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "closed",
+    "status": "upcoming",
     "industries": [
       "漁業",
       "建設業",
@@ -141196,8 +141196,8 @@
     "upperLimit": "1,500,000円",
     "isForSME": true,
     "source": "jgrants",
-    "startDate": "2026-07-10",
-    "endDate": "2026-07-31",
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-30",
     "updatedAt": "2026-07-15T12:38:28.461Z"
   },
   {
@@ -141891,7 +141891,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "医療",
       "福祉"
@@ -141943,7 +141943,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "医療",
       "福祉"
@@ -144012,7 +144012,7 @@
     "prefectures": [
       "神奈川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -148389,7 +148389,7 @@
     "overview": "水力発電は、エネルギー自給率の向上、ＣＯ2フリー、安定電源、安価な発電コスト等の特性から、資源の乏しい我が国の電力供給を支える重要な電源として期待されています。本事業により水力発電の既存設備の出力向上を支援することによって、水力発電の更なる導入拡大を目指します。また、近年の激甚化する自然災害により、想定外の被害を受ける水力発電設備が増加しており、災害の備えが急務となっています。レジリエンス強化に資する事業を支援することによって、更なる電力の安定供給を目指します。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "電気・ガス・熱供給・水道業"
     ],
@@ -150026,7 +150026,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -153080,7 +153080,7 @@
     "prefectures": [
       "北海道"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -154729,7 +154729,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業"
     ],
@@ -155858,7 +155858,7 @@
     "isForSME": true,
     "source": "jgrants",
     "startDate": "2026-08-16",
-    "endDate": "2026-09-25",
+    "endDate": "2026-09-30",
     "updatedAt": "2026-08-08T07:49:03.702Z"
   },
   {
@@ -157173,6 +157173,60 @@
     "updatedAt": "2026-06-06T14:20:44.701Z"
   },
   {
+    "id": "a0WJ200000CDaSdMAL",
+    "slug": "a0wj200000cdasdmal",
+    "title": "令和8年度製品開発着手支援助成事業",
+    "overview": "～チャレンジを応援！～\n新たな製品・技術の開発にあたって必要な技術検討を支援します",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "研究開発",
+      "創業"
+    ],
+    "upperLimit": "1,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-10-27",
+    "endDate": "2026-11-18",
+    "updatedAt": "2026-09-30T07:10:24.309Z"
+  },
+  {
     "id": "a0WJ200000CDaSiMAL",
     "slug": "a0wj200000cdasimal",
     "title": "【令和７年度補正予算・令和８年度】二酸化炭素排出抑制対策事業費等補助金（新築建築物のZEB普及促進支援事業/既存建築物のZEB化普及促進支援事業）",
@@ -157503,7 +157557,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入及び低炭素型建材の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -159877,7 +159931,7 @@
     "overview": "サステナ倉庫事業",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "運輸業",
       "郵便業",
@@ -159904,7 +159958,7 @@
     "overview": "省CO2独立型施設支援事業",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -160593,7 +160647,7 @@
     "overview": "小規模事業者持続化補助金＜共同・協業型＞",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "建設業",
       "製造業",
@@ -160946,7 +161000,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "学術研究",
       "専門・技術サービス業"
@@ -162438,7 +162492,7 @@
     "overview": "ハイブリッド連節バスを導入するための補助金",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "公務（他に分類されるものを除く）",
@@ -163232,7 +163286,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -163362,6 +163416,57 @@
     "updatedAt": "2026-07-30T04:55:32.919Z"
   },
   {
+    "id": "a0WJ200000CDdjfMAD",
+    "slug": "a0wj200000cddjfmad",
+    "title": "[３次公募]中小企業成長加速化補助金",
+    "overview": "[３次公募]中小企業成長加速化補助金",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "デジタル化",
+      "海外展開"
+    ],
+    "upperLimit": "500,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-09-29",
+    "endDate": "2026-11-12",
+    "updatedAt": "2026-09-30T07:10:25.144Z"
+  },
+  {
     "id": "a0WJ200000CDdjkMAD",
     "slug": "a0wj200000cddjkmad",
     "title": "令和8年度地熱発電の資源量調査事業費助成金交付事業_第3回",
@@ -163390,7 +163495,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "情報通信業"
     ],
@@ -163468,7 +163573,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "学術研究",
       "専門・技術サービス業"
@@ -164119,7 +164224,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -164263,7 +164368,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -164317,7 +164422,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "学術研究",
       "専門・技術サービス業"
@@ -164341,7 +164446,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -164395,7 +164500,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -164449,7 +164554,7 @@
     "overview": "業務用建築物のネット・ゼロ・エネルギー化に必要な省エネ・省CO2性の高いシステムや設備機器等の導入を支援する補助金です。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -164503,7 +164608,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -164557,7 +164662,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -165548,7 +165653,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -165819,7 +165924,7 @@
     "overview": "中小企業者等の外国での特許、実用新案、意匠、商標の権利取得を支援します！",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -167888,7 +167993,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -167943,7 +168048,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "情報通信業"
@@ -167970,7 +168075,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "情報通信業"
@@ -167997,7 +168102,7 @@
     "prefectures": [
       "福井県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -168342,6 +168447,60 @@
     "startDate": "2026-08-28",
     "endDate": "2026-10-09",
     "updatedAt": "2026-09-08T09:33:02.550Z"
+  },
+  {
+    "id": "a0WJ200000CDeRiMAL",
+    "slug": "a0wj200000cderimal",
+    "title": "令和8年度_受動喫煙防止対策助成金",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "公務（他に分類されるものを除く）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "デジタル化"
+    ],
+    "upperLimit": "1,000,000円",
+    "isForSME": true,
+    "source": "jgrants",
+    "startDate": "2026-09-30",
+    "endDate": "2027-01-31",
+    "updatedAt": "2026-09-30T07:10:25.412Z"
   },
   {
     "id": "a0WJ200000CDeS9MAL",
@@ -169003,7 +169162,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -169055,7 +169214,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -169108,7 +169267,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -169869,7 +170028,7 @@
     "prefectures": [
       "島根県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -170007,7 +170166,7 @@
     "prefectures": [
       "埼玉県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -170146,7 +170305,7 @@
     "overview": "PFIによる発電所の運営を目的として、地方公共団体が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等、当該地点の発電所の整備・運営に係る公募を行う事業と、地方公共団体又は地方公共団体と連携する民間事業者が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業と、民間事業者等が行う地点選定・事業計画段階におけるポテンシャル調査・事業性評価に必要な調査・設計等を行う事業をサポートします。",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "電気・ガス・熱供給・水道業"
     ],
@@ -170162,6 +170321,44 @@
     "startDate": "2026-09-28",
     "endDate": "2026-10-28",
     "updatedAt": "2026-09-25T21:00:17.774Z"
+  },
+  {
+    "id": "a0WfQ000003GpG9UAK",
+    "slug": "a0wfq000003gpg9uak",
+    "title": "令和７年度補正グローバルサウス未来志向型共創等事業費補助金（小規模実証・ＦＳ事業：二次公募）（ＦＳ・小規模実証事業実施事業者の募集（補助））",
+    "overview": "令和７年度補正グローバルサウス補助金（二次公募：ＦＳ・小規模実証事業実施事業者の募集（補助））",
+    "region": "national",
+    "prefectures": [],
+    "status": "upcoming",
+    "industries": [
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "学術研究",
+      "専門・技術サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大",
+      "研究開発",
+      "デジタル化",
+      "海外展開"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-23",
+    "updatedAt": "2026-09-30T07:10:25.685Z"
   },
   {
     "id": "a0WfQ000003I7CbUAK",
@@ -170504,7 +170701,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -170623,7 +170820,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -170732,7 +170929,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -170785,7 +170982,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -170837,7 +171034,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "漁業",
       "建設業",
@@ -170879,6 +171076,84 @@
     "startDate": "2026-09-30",
     "endDate": "2026-10-31",
     "updatedAt": "2026-09-25T21:00:17.818Z"
+  },
+  {
+    "id": "a0WfQ000003aZqLUAU",
+    "slug": "a0wfq000003azqluau",
+    "title": "成田空港の次代を担う若者の奨学金返還支援事業補助金",
+    "overview": "成田空港内で働く若者の奨学金返還を支援する企業等に対して補助金を交付します。",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "漁業",
+      "建設業",
+      "製造業",
+      "電気・ガス・熱供給・水道業",
+      "情報通信業",
+      "複合サービス事業",
+      "サービス業（他に分類されないもの）",
+      "分類不能の産業",
+      "農業",
+      "林業",
+      "鉱業",
+      "採石業",
+      "砂利採取業",
+      "運輸業",
+      "郵便業",
+      "卸売業",
+      "小売業",
+      "金融業",
+      "保険業",
+      "不動産業",
+      "物品賃貸業",
+      "学術研究",
+      "専門・技術サービス業",
+      "宿泊業",
+      "飲食サービス業",
+      "生活関連サービス業",
+      "娯楽業",
+      "教育",
+      "学習支援業",
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "人材育成",
+      "創業"
+    ],
+    "upperLimit": "0円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-09-30",
+    "endDate": "2026-11-30",
+    "updatedAt": "2026-09-30T07:10:25.759Z"
+  },
+  {
+    "id": "a0WfQ000003cYWnUAM",
+    "slug": "a0wfq000003cywnuam",
+    "title": "情報通信利用促進支援事業費補助金「先進的設備等を活用した放送コンテンツ製作促進事業」三次公募",
+    "overview": "",
+    "region": "national",
+    "prefectures": [],
+    "status": "open",
+    "industries": [
+      "情報通信業",
+      "サービス業（他に分類されないもの）"
+    ],
+    "purposes": [
+      "設備投資",
+      "販路拡大",
+      "研究開発",
+      "デジタル化",
+      "海外展開"
+    ],
+    "upperLimit": "150,000,000円",
+    "isForSME": false,
+    "source": "jgrants",
+    "startDate": "2026-09-27",
+    "endDate": "2026-10-05",
+    "updatedAt": "2026-09-30T07:10:25.769Z"
   },
   {
     "id": "national-jizokuka-ippan-2026",

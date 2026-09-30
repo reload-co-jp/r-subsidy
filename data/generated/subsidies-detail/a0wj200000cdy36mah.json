@@ -53,13 +53,13 @@
     "海外展開"
   ],
   "usePurpose": "販路拡大・海外展開をしたい",
-  "status": "closed",
+  "status": "upcoming",
   "workflow": "課題解決型技術開発促進事業（販路拡大助成）",
   "subsidizedRate": "助成対象と認められる経費の2/3以内（千円未満切捨て）",
   "upperLimit": "1,500,000円",
   "lowerLimit": null,
-  "startDate": "2026-07-10",
-  "endDate": "2026-07-31",
+  "startDate": "2026-11-10",
+  "endDate": "2026-11-30",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDY36MAH",
   "updatedAt": "2026-07-15T12:38:28.461Z"
