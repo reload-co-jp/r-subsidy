@@ -19,13 +19,13 @@
     "デジタル化"
   ],
   "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
-  "status": "closed",
+  "status": "open",
   "workflow": "住宅・建築物カーボンニュートラル総合推進事業",
   "subsidizedRate": null,
   "upperLimit": "0円",
   "lowerLimit": null,
   "startDate": "2026-07-01",
-  "endDate": "2026-09-30",
+  "endDate": "2026-12-31",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDZ2OMAX",
   "updatedAt": "2026-07-04T01:11:20.072Z"

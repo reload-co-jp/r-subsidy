@@ -51,13 +51,13 @@
     "デジタル化"
   ],
   "usePurpose": "設備整備・IT導入をしたい",
-  "status": "open",
+  "status": "closed",
   "workflow": "業務改善助成金",
   "subsidizedRate": "３／４～４／５",
   "upperLimit": "6,000,000円",
   "lowerLimit": null,
   "startDate": "2026-08-31",
-  "endDate": "2028-03-31",
+  "endDate": "2026-10-01",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDe6OMAT",
   "updatedAt": "2026-08-29T14:12:54.389Z"
