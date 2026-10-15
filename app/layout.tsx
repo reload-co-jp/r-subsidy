@@ -84,7 +84,9 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   const structuredData = [buildOrganizationSchema(), buildWebSiteSchema()]
   const history = loadUpdateHistory()
-  const lastUpdated = history ? formatDate(toJstDate(history.lastUpdated)) : null
+  const lastUpdated = history
+    ? formatDate(toJstDate(history.lastUpdated))
+    : null
 
   return (
     <html lang="ja">
@@ -157,28 +159,55 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
               <nav aria-label="補助金を探す">
                 <p className="footer-heading">補助金を探す</p>
                 <ul className="footer-list">
-                  <li><Link href="/subsidies/">補助金一覧</Link></li>
-                  <li><Link href="/subsidies/open/">受付中の補助金</Link></li>
-                  <li><Link href="/subsidies/deadline/">締切が近い補助金</Link></li>
-                  <li><Link href="/subsidies/upcoming/">公募予定の補助金</Link></li>
-                  <li><Link href="/diagnosis/">補助金診断</Link></li>
+                  <li>
+                    <Link href="/subsidies/">補助金一覧</Link>
+                  </li>
+                  <li>
+                    <Link href="/subsidies/open/">受付中の補助金</Link>
+                  </li>
+                  <li>
+                    <Link href="/subsidies/deadline/">締切が近い補助金</Link>
+                  </li>
+                  <li>
+                    <Link href="/subsidies/upcoming/">公募予定の補助金</Link>
+                  </li>
+                  <li>
+                    <Link href="/diagnosis/">補助金診断</Link>
+                  </li>
                 </ul>
               </nav>
               <nav aria-label="お役立ち情報">
                 <p className="footer-heading">お役立ち情報</p>
                 <ul className="footer-list">
-                  <li><Link href="/guides/">申請ガイド</Link></li>
-                  <li><Link href="/cases/">申請事例</Link></li>
-                  <li><Link href="/news/">ニュース</Link></li>
+                  <li>
+                    <Link href="/guides/">申請ガイド</Link>
+                  </li>
+                  <li>
+                    <Link href="/glossary/">補助金用語集</Link>
+                  </li>
+                  <li>
+                    <Link href="/cases/">申請事例</Link>
+                  </li>
+                  <li>
+                    <Link href="/news/">ニュース</Link>
+                  </li>
                 </ul>
               </nav>
               <nav aria-label="サイトについて">
                 <p className="footer-heading">サイトについて</p>
                 <ul className="footer-list">
-                  <li><Link href="/about/">運営者情報・データについて</Link></li>
-                  <li><Link href="/privacy/">プライバシーポリシー</Link></li>
                   <li>
-                    <a href={OPERATOR_URL} target="_blank" rel="noopener noreferrer">
+                    <Link href="/about/">運営者情報・データについて</Link>
+                  </li>
+                  <li>
+                    <Link href="/privacy/">プライバシーポリシー</Link>
+                  </li>
+                  <li>
+                    <a
+                      href={OPERATOR_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       {OPERATOR_NAME}（運営会社）
                     </a>
                   </li>
@@ -188,7 +217,11 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <div className="footer-note">
               <p>
                 データ出典：
-                <a href="https://www.jgrants-portal.go.jp/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.jgrants-portal.go.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Jグランツ（デジタル庁）
                 </a>
                 の公開API、東京都ほか自治体の公開情報。
@@ -198,7 +231,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 掲載情報は公開情報を自動取得・整理したもので、内容の正確性・最新性を保証するものではありません。
                 申請の際は必ず各制度の公募要領・公式窓口で最新情報をご確認ください。本サイトは採択・受給を保証するものではありません。
               </p>
-              <p>&copy; {new Date().getFullYear()} {OPERATOR_NAME}</p>
+              <p>
+                &copy; {new Date().getFullYear()} {OPERATOR_NAME}
+              </p>
             </div>
           </div>
         </footer>

@@ -1,3 +1,4 @@
+import { FIELD_GLOSSARY } from "../../../lib/glossary"
 import { FC } from "react"
 import Link from "next/link"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
@@ -576,6 +577,17 @@ const Page: FC<Props> = async ({ params }) => {
     { label: "申請窓口", value: subsidy.workflow },
   ]
 
+  const fieldLabel = (label: string) =>
+    FIELD_GLOSSARY[label] ? (
+      <Link
+        href={`/glossary/${FIELD_GLOSSARY[label]}/`}
+        title={`用語解説：${label}`}
+      >
+        {label}
+      </Link>
+    ) : (
+      label
+    )
   const show = (v: React.ReactNode) =>
     v ?? <span className="unconfirmed">{UNCONFIRMED}</span>
 
@@ -638,7 +650,7 @@ const Page: FC<Props> = async ({ params }) => {
           <tbody>
             {keyFacts.map((row) => (
               <tr key={row.label}>
-                <th scope="row">{row.label}</th>
+                <th scope="row">{fieldLabel(row.label)}</th>
                 <td style={{ fontWeight: 700, color: "var(--text-strong)" }}>
                   {show(row.value)}
                 </td>
@@ -697,7 +709,7 @@ const Page: FC<Props> = async ({ params }) => {
             <tbody>
               {targetRows.map((row) => (
                 <tr key={row.label}>
-                  <th scope="row">{row.label}</th>
+                  <th scope="row">{fieldLabel(row.label)}</th>
                   <td>{show(row.value)}</td>
                 </tr>
               ))}

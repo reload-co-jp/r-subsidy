@@ -7,11 +7,20 @@ import { AREA_PREFECTURES, matchesPrefecture } from "../lib/prefectures"
 import type { SubsidyIndexItem } from "../lib/types"
 import { SITE_NAME, absoluteUrl } from "../lib/site"
 import { formatDate } from "../lib/format"
-import { getDeadlineGroups, loadSubsidyIndex, loadUpdateHistory, purposeLabel, toJstDate } from "../lib/seo"
+import {
+  getDeadlineGroups,
+  loadSubsidyIndex,
+  loadUpdateHistory,
+  purposeLabel,
+  toJstDate,
+} from "../lib/seo"
 import HomeSearchForm from "../components/elements/home-search-form"
 import SubsidyCard from "../components/elements/subsidy-card"
 import SubsidyLinkList from "../components/elements/subsidy-link-list"
-import FaqSection, { buildFaqStructuredData, type FaqItem } from "../components/elements/faq-section"
+import FaqSection, {
+  buildFaqStructuredData,
+  type FaqItem,
+} from "../components/elements/faq-section"
 import type { Guide } from "./guides/page"
 
 export const metadata: Metadata = {
@@ -60,13 +69,19 @@ const HOME_FAQ: FaqItem[] = [
 
 function getGuides(): Guide[] {
   try {
-    return JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "source", "guides.json"), "utf-8"))
+    return JSON.parse(
+      fs.readFileSync(
+        path.join(process.cwd(), "data", "source", "guides.json"),
+        "utf-8"
+      )
+    )
   } catch {
     return []
   }
 }
 
-const byStartDesc = (a: SubsidyIndexItem, b: SubsidyIndexItem) => (b.startDate ?? "").localeCompare(a.startDate ?? "")
+const byStartDesc = (a: SubsidyIndexItem, b: SubsidyIndexItem) =>
+  (b.startDate ?? "").localeCompare(a.startDate ?? "")
 const byStartAsc = (a: SubsidyIndexItem, b: SubsidyIndexItem) =>
   (a.startDate ?? "9999").localeCompare(b.startDate ?? "9999")
 
@@ -79,8 +94,11 @@ const Page: FC = () => {
   const deadlineSoon = getDeadlineGroups(subsidies).soon.slice(0, 6)
   const latestOpen = openList.toSorted(byStartDesc).slice(0, 5)
   const upcoming = upcomingList.toSorted(byStartAsc).slice(0, 5)
-  const activeCount = (pred: (s: SubsidyIndexItem) => boolean) => subsidies.filter((s) => s.status !== "closed" && pred(s)).length
-  const lastUpdated = history ? formatDate(toJstDate(history.lastUpdated)) : null
+  const activeCount = (pred: (s: SubsidyIndexItem) => boolean) =>
+    subsidies.filter((s) => s.status !== "closed" && pred(s)).length
+  const lastUpdated = history
+    ? formatDate(toJstDate(history.lastUpdated))
+    : null
 
   const structuredData = [
     {
@@ -99,7 +117,10 @@ const Page: FC = () => {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
 
       <section className="hero">
         <div className="container">
@@ -109,7 +130,8 @@ const Page: FC = () => {
             目的と地域からすぐに探せる
           </h1>
           <p className="hero-lead">
-            国・都道府県の補助金・助成金{subsidies.length.toLocaleString()}件を掲載。受付状態・締切・補助上限額を比較して、中小企業・個人事業主が申請できる制度を見つけられます。
+            国・都道府県の補助金・助成金{subsidies.length.toLocaleString()}
+            件を掲載。受付状態・締切・補助上限額を比較して、中小企業・個人事業主が申請できる制度を見つけられます。
           </p>
           <div className="hero-search">
             <HomeSearchForm />
@@ -123,7 +145,11 @@ const Page: FC = () => {
         </div>
       </section>
 
-      <section className="section" style={{ paddingTop: "2rem", paddingBottom: "2rem" }} aria-label="掲載状況">
+      <section
+        className="section"
+        style={{ paddingTop: "2rem", paddingBottom: "2rem" }}
+        aria-label="掲載状況"
+      >
         <div className="container">
           <div className="stat-grid">
             <div className="stat">
@@ -133,14 +159,22 @@ const Page: FC = () => {
               </p>
               <p className="stat-label">掲載補助金数</p>
             </div>
-            <Link href="/subsidies/open/" className="stat" style={{ textDecoration: "none" }}>
+            <Link
+              href="/subsidies/open/"
+              className="stat"
+              style={{ textDecoration: "none" }}
+            >
               <p className="stat-value" style={{ color: "var(--green-dark)" }}>
                 {openList.length.toLocaleString()}
                 <small>件</small>
               </p>
               <p className="stat-label">受付中 →</p>
             </Link>
-            <Link href="/subsidies/upcoming/" className="stat" style={{ textDecoration: "none" }}>
+            <Link
+              href="/subsidies/upcoming/"
+              className="stat"
+              style={{ textDecoration: "none" }}
+            >
               <p className="stat-value" style={{ color: "var(--amber-text)" }}>
                 {upcomingList.length.toLocaleString()}
                 <small>件</small>
@@ -148,7 +182,10 @@ const Page: FC = () => {
               <p className="stat-label">公募予定 →</p>
             </Link>
             <div className="stat">
-              <p className="stat-value" style={{ fontSize: "1.15rem", paddingTop: ".35rem" }}>
+              <p
+                className="stat-value"
+                style={{ fontSize: "1.15rem", paddingTop: ".35rem" }}
+              >
                 {lastUpdated ?? "未取得"}
               </p>
               <p className="stat-label">最終データ更新</p>
@@ -163,7 +200,9 @@ const Page: FC = () => {
             <div className="section-head">
               <div>
                 <h2 className="section-title">締切間近の補助金</h2>
-                <p className="section-lead">30日以内に受付が終了する制度（締切が近い順）</p>
+                <p className="section-lead">
+                  30日以内に受付が終了する制度（締切が近い順）
+                </p>
               </div>
               <Link href="/subsidies/deadline/" className="link-more">
                 締切が近い補助金をすべて見る →
@@ -199,8 +238,13 @@ const Page: FC = () => {
           <ul className="list-plain grid grid-4">
             {HOME_PURPOSES.map(({ key, desc }) => (
               <li key={key}>
-                <Link href={`/subsidies/purpose/${encodeURIComponent(key)}/`} className="card card-link purpose-tile">
-                  <strong className="card-title">{purposeLabel(key)}の補助金</strong>
+                <Link
+                  href={`/subsidies/purpose/${encodeURIComponent(key)}/`}
+                  className="card card-link purpose-tile"
+                >
+                  <strong className="card-title">
+                    {purposeLabel(key)}の補助金
+                  </strong>
                   <span>{desc}</span>
                   <span style={{ color: "var(--green-dark)", fontWeight: 700 }}>
                     {activeCount((s) => s.purposes.includes(key))}件
@@ -217,22 +261,36 @@ const Page: FC = () => {
           <div className="section-head">
             <div>
               <h2 className="section-title">都道府県から探す</h2>
-              <p className="section-lead">各都道府県の制度と、全国で使える国の制度をまとめて確認できます</p>
+              <p className="section-lead">
+                各都道府県の制度と、全国で使える国の制度をまとめて確認できます
+              </p>
             </div>
             <Link href="/subsidies/?prefecture=national" className="link-more">
               国の補助金（全国対象）→
             </Link>
           </div>
-          <div className="card" style={{ paddingTop: ".5rem", paddingBottom: ".5rem" }}>
+          <div
+            className="card"
+            style={{ paddingTop: ".5rem", paddingBottom: ".5rem" }}
+          >
             {Object.entries(AREA_PREFECTURES).map(([area, prefectures]) => (
               <div key={area} className="area-block">
                 <h3 className="area-name">{area}</h3>
                 <ul className="list-plain chip-group">
                   {prefectures.map((p) => (
                     <li key={p}>
-                      <Link href={`/subsidies/prefecture/${encodeURIComponent(p)}/`} className="chip">
+                      <Link
+                        href={`/subsidies/prefecture/${encodeURIComponent(p)}/`}
+                        className="chip"
+                      >
                         {p}
-                        <span style={{ color: "var(--text-muted)", fontSize: ".75rem", marginLeft: ".3rem" }}>
+                        <span
+                          style={{
+                            color: "var(--text-muted)",
+                            fontSize: ".75rem",
+                            marginLeft: ".3rem",
+                          }}
+                        >
                           {activeCount((s) => matchesPrefecture(s, p))}
                         </span>
                       </Link>
@@ -243,7 +301,8 @@ const Page: FC = () => {
             ))}
           </div>
           <p className="section-lead" style={{ marginTop: ".75rem" }}>
-            ※ 市区町村の制度は、各都道府県ページで制度名・対象地域からご確認ください。
+            ※
+            市区町村の制度は、各都道府県ページで制度名・対象地域からご確認ください。
           </p>
         </div>
       </section>
@@ -297,12 +356,27 @@ const Page: FC = () => {
               },
             ].map((f) => (
               <li key={f.href}>
-                <Link href={f.href} className="card card-link" style={{ height: "100%" }}>
-                  <span className="badge badge-navy" style={{ marginBottom: ".5rem" }}>
+                <Link
+                  href={f.href}
+                  className="card card-link"
+                  style={{ height: "100%" }}
+                >
+                  <span
+                    className="badge badge-navy"
+                    style={{ marginBottom: ".5rem" }}
+                  >
                     特集
                   </span>
                   <p className="card-title">{f.title}</p>
-                  <p style={{ color: "var(--text-muted)", fontSize: ".85rem", marginTop: ".35rem" }}>{f.desc}</p>
+                  <p
+                    style={{
+                      color: "var(--text-muted)",
+                      fontSize: ".85rem",
+                      marginTop: ".35rem",
+                    }}
+                  >
+                    {f.desc}
+                  </p>
                 </Link>
               </li>
             ))}
@@ -312,7 +386,10 @@ const Page: FC = () => {
 
       <section className="section section--alt">
         <div className="container">
-          <div className="grid grid-2" style={{ gap: "2rem", alignItems: "start" }}>
+          <div
+            className="grid grid-2"
+            style={{ gap: "2rem", alignItems: "start" }}
+          >
             <div>
               <div className="section-head">
                 <h2 className="section-title">申請ガイド</h2>
@@ -332,11 +409,23 @@ const Page: FC = () => {
                   </li>
                 ))}
                 <li>
+                  <Link href="/glossary/" className="card card-link">
+                    <p className="card-title" style={{ fontSize: ".95rem" }}>
+                      補助金用語集
+                    </p>
+                    <p className="card-text">
+                      公募要領・補助率・交付決定など、申請で使われる用語の意味を解説しています。
+                    </p>
+                  </Link>
+                </li>
+                <li>
                   <Link href="/cases/" className="card card-link">
                     <p className="card-title" style={{ fontSize: ".95rem" }}>
                       補助金の申請事例
                     </p>
-                    <p className="card-text">実際に補助金を活用した企業の取り組み事例を紹介しています。</p>
+                    <p className="card-text">
+                      実際に補助金を活用した企業の取り組み事例を紹介しています。
+                    </p>
                   </Link>
                 </li>
               </ul>

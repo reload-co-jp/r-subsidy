@@ -1,3 +1,4 @@
+import { loadGlossary } from "../lib/glossary"
 import fs from "fs"
 import path from "path"
 import type { MetadataRoute } from "next"
@@ -98,7 +99,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${siteUrl}/guides/`,
-      lastModified: guides.reduce((l, g) => (g.publishedAt > l ? g.publishedAt : l), "") || undefined,
+      lastModified:
+        guides.reduce((l, g) => (g.publishedAt > l ? g.publishedAt : l), "") ||
+        undefined,
       changeFrequency: "monthly",
       priority: 0.8,
     },
@@ -155,8 +158,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const deadlineSoon = getDeadlineGroups(subsidies).soon
 
   const statusRoutes: MetadataRoute.Sitemap = [
-    listRoute("/subsidies/open/", active.filter((s) => s.status === "open"), 0.85),
-    listRoute("/subsidies/upcoming/", active.filter((s) => s.status === "upcoming"), 0.8),
+    listRoute(
+      "/subsidies/open/",
+      active.filter((s) => s.status === "open"),
+      0.85
+    ),
+    listRoute(
+      "/subsidies/upcoming/",
+      active.filter((s) => s.status === "upcoming"),
+      0.8
+    ),
     listRoute("/subsidies/deadline/", deadlineSoon, 0.85),
   ]
 
@@ -164,7 +175,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     (prefecture) => {
       const local = subsidies.filter((s) => isLocalTo(s, prefecture))
       return local.length >= MIN_INDEX_COUNT
-        ? [listRoute(`/subsidies/prefecture/${encodeURIComponent(prefecture)}/`, local, 0.85)]
+        ? [
+            listRoute(
+              `/subsidies/prefecture/${encodeURIComponent(prefecture)}/`,
+              local,
+              0.85
+            ),
+          ]
         : []
     }
   )
@@ -176,29 +193,47 @@ export default function sitemap(): MetadataRoute.Sitemap {
         .map(({ purpose }) =>
           listRoute(
             `/subsidies/prefecture/${encodeURIComponent(prefecture)}/purpose/${encodeURIComponent(purpose)}/`,
-            active.filter((s) => isLocalTo(s, prefecture) && s.purposes.includes(purpose)),
+            active.filter(
+              (s) => isLocalTo(s, prefecture) && s.purposes.includes(purpose)
+            ),
             0.8
           )
         )
   )
 
   const allPurposes = [...new Set(subsidies.flatMap((s) => s.purposes))].sort()
-  const purposeRoutes: MetadataRoute.Sitemap = allPurposes.flatMap((purpose) => {
-    const items = active.filter((s) => s.purposes.includes(purpose))
-    return items.length >= MIN_INDEX_COUNT
-      ? [listRoute(`/subsidies/purpose/${encodeURIComponent(purpose)}/`, items, 0.82)]
-      : []
-  })
+  const purposeRoutes: MetadataRoute.Sitemap = allPurposes.flatMap(
+    (purpose) => {
+      const items = active.filter((s) => s.purposes.includes(purpose))
+      return items.length >= MIN_INDEX_COUNT
+        ? [
+            listRoute(
+              `/subsidies/purpose/${encodeURIComponent(purpose)}/`,
+              items,
+              0.82
+            ),
+          ]
+        : []
+    }
+  )
 
   const allIndustries = [
     ...new Set(subsidies.flatMap((s) => s.industries)),
   ].sort()
-  const industryRoutes: MetadataRoute.Sitemap = allIndustries.flatMap((industry) => {
-    const items = active.filter((s) => s.industries.includes(industry))
-    return items.length >= MIN_INDEX_COUNT
-      ? [listRoute(`/subsidies/industry/${encodeURIComponent(industry)}/`, items, 0.8)]
-      : []
-  })
+  const industryRoutes: MetadataRoute.Sitemap = allIndustries.flatMap(
+    (industry) => {
+      const items = active.filter((s) => s.industries.includes(industry))
+      return items.length >= MIN_INDEX_COUNT
+        ? [
+            listRoute(
+              `/subsidies/industry/${encodeURIComponent(industry)}/`,
+              items,
+              0.8
+            ),
+          ]
+        : []
+    }
+  )
 
   const subsidyRoutes: MetadataRoute.Sitemap = subsidies
     .filter((s) => s.status !== "closed")
@@ -222,6 +257,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly",
     priority: 0.75,
   }))
+
+  const glossary = loadGlossary()
+  const glossaryRoutes: MetadataRoute.Sitemap = [
+    {
+      url: `${siteUrl}/glossary/`,
+      lastModified:
+        glossary.reduce((l, t) => (t.updatedAt > l ? t.updatedAt : l), "") ||
+        undefined,
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    ...glossary.map((t) => ({
+      url: `${siteUrl}/glossary/${t.slug}/`,
+      lastModified: t.updatedAt,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
+  ]
 
   const comboRoutes: MetadataRoute.Sitemap = POPULAR_PREFECTURES.flatMap(
     (prefecture) =>
@@ -252,5 +305,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...subsidyRoutes,
     ...newsRoutes,
     ...guideRoutes,
+    ...glossaryRoutes,
   ]
 }
