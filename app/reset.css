@@ -642,6 +642,12 @@ input, select, button, textarea {
   overflow: hidden;
 }
 
+@media (max-width: 640px) {
+  .stat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .stat {
   background: #fff;
   padding: 1rem 1.25rem;
@@ -696,20 +702,38 @@ input, select, button, textarea {
 
 /* ===== Home ===== */
 .hero {
-  background: linear-gradient(180deg, var(--navy-50) 0%, #fff 100%);
-  border-bottom: 1px solid var(--border-soft);
+  position: relative;
+  overflow: hidden;
+  background: var(--navy);
   padding: clamp(2.5rem, 6vw, 4.5rem) 0 2.5rem;
 }
 
+.hero-bg {
+  object-fit: cover;
+}
+
+/* 文字の可読性確保のためのネイビーのオーバーレイ */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(15, 42, 74, .92) 0%, rgba(15, 42, 74, .78) 55%, rgba(15, 42, 74, .55) 100%);
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 1;
+}
+
 .hero-title {
-  color: var(--navy);
+  color: #fff;
   font-size: clamp(1.6rem, 4vw, 2.4rem);
   line-height: 1.35;
   margin-bottom: .75rem;
 }
 
 .hero-lead {
-  color: var(--text-base);
+  color: rgba(255, 255, 255, .92);
   font-size: clamp(.95rem, 1.6vw, 1.05rem);
   margin-bottom: 1.5rem;
   max-width: 44em;
@@ -730,7 +754,16 @@ input, select, button, textarea {
   gap: .75rem 1rem;
   margin-top: 1.25rem;
   font-size: .9rem;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, .9);
+}
+
+.hero-cta .btn-navy {
+  background: #fff;
+  color: var(--navy);
+}
+
+.hero-cta .btn-navy:hover {
+  background: var(--navy-50);
 }
 
 .purpose-tile {

@@ -1,5 +1,6 @@
 import { FC } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
@@ -123,7 +124,8 @@ const Page: FC = () => {
       />
 
       <section className="hero">
-        <div className="container">
+        <Image src="/images/hero-1600.jpg" alt="" fill priority sizes="100vw" className="hero-bg" />
+        <div className="container hero-inner">
           <h1 className="hero-title">
             自社で使える補助金を、
             <br />
