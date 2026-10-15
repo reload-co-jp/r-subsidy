@@ -1,814 +1,353 @@
 import { FC } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
-import { POPULAR_PREFECTURES } from "../lib/prefectures"
-import type {
-  NormalizedSubsidy,
-  SubsidyIndexItem,
-  UpdateHistory,
-} from "../lib/types"
+import { AREA_PREFECTURES, matchesPrefecture } from "../lib/prefectures"
+import type { SubsidyIndexItem } from "../lib/types"
 import { SITE_NAME, absoluteUrl } from "../lib/site"
-import { formatDate, formatAmount } from "../lib/format"
-import { purposeLabel } from "../lib/seo"
-import PurposeTagLink from "../components/elements/purpose-tag-link"
+import { formatDate } from "../lib/format"
+import { getDeadlineGroups, loadSubsidyIndex, loadUpdateHistory, purposeLabel, toJstDate } from "../lib/seo"
 import HomeSearchForm from "../components/elements/home-search-form"
-
-function getUpdateHistory(): UpdateHistory | null {
-  try {
-    const file = path.join(
-      process.cwd(),
-      "data",
-      "generated",
-      "update-history.json"
-    )
-    return JSON.parse(fs.readFileSync(file, "utf-8"))
-  } catch {
-    return null
-  }
-}
-
-function getLatestSubsidies(): NormalizedSubsidy[] {
-  try {
-    const file = path.join(
-      process.cwd(),
-      "data",
-      "generated",
-      "subsidies-master.json"
-    )
-    const subsidies: NormalizedSubsidy[] = JSON.parse(
-      fs.readFileSync(file, "utf-8")
-    )
-
-    return subsidies
-      .filter((subsidy) => subsidy.status !== "closed")
-      .sort((a, b) => getSortTime(b) - getSortTime(a))
-      .slice(0, 5)
-  } catch {
-    return []
-  }
-}
-
-function getLawyerComments(): Record<string, string> {
-  try {
-    const file = path.join(
-      process.cwd(),
-      "data",
-      "source",
-      "lawyer-comments.json"
-    )
-    const raw = JSON.parse(fs.readFileSync(file, "utf-8"))
-    // _comment キーを除外
-    const { _comment: _c, ...comments } = raw
-    void _c
-    return comments
-  } catch {
-    return {}
-  }
-}
-
-function getSubsidyStats() {
-  try {
-    const file = path.join(
-      process.cwd(),
-      "data",
-      "generated",
-      "subsidies-index.json"
-    )
-    const subsidies: SubsidyIndexItem[] = JSON.parse(
-      fs.readFileSync(file, "utf-8")
-    )
-
-    return subsidies.reduce(
-      (stats, subsidy) => {
-        stats.total += 1
-        stats[subsidy.status] += 1
-        return stats
-      },
-      {
-        total: 0,
-        open: 0,
-        upcoming: 0,
-        closed: 0,
-        unknown: 0,
-      }
-    )
-  } catch {
-    return null
-  }
-}
-
-function getSortTime(subsidy: NormalizedSubsidy) {
-  const date = subsidy.startDate ?? subsidy.updatedAt
-  const time = new Date(date).getTime()
-  return Number.isNaN(time) ? 0 : time
-}
+import SubsidyCard from "../components/elements/subsidy-card"
+import SubsidyLinkList from "../components/elements/subsidy-link-list"
+import FaqSection, { buildFaqStructuredData, type FaqItem } from "../components/elements/faq-section"
+import type { Guide } from "./guides/page"
 
 export const metadata: Metadata = {
-  title: `${SITE_NAME} | 中小企業・個人事業主向け`,
+  title: `${SITE_NAME} | 中小企業・個人事業主向け補助金検索`,
   description:
-    "中小企業・個人事業主向けに、Jグランツ掲載の補助金を都道府県・受付状態・目的から検索し、事業内容に合う制度を診断できる補助金ポータルです。",
+    "中小企業・個人事業主向けに、国・都道府県の補助金・助成金を目的・地域・受付状態から検索できます。締切間近・受付中・公募予定の制度を一覧で確認し、補助金診断で自社に合う制度を探せます。",
   alternates: {
     canonical: absoluteUrl("/"),
   },
 }
 
-const HOME_PURPOSES = ["デジタル化", "設備投資", "販路拡大", "研究開発", "人材育成", "創業", "事業承継", "省エネ", "海外展開"]
+const HOME_PURPOSES = [
+  { key: "デジタル化", desc: "ITツール・システム導入、DX推進" },
+  { key: "設備投資", desc: "機械装置・生産設備の導入" },
+  { key: "販路拡大", desc: "新規顧客開拓・展示会・EC" },
+  { key: "研究開発", desc: "新製品・新技術の開発" },
+  { key: "創業", desc: "起業・開業時の経費" },
+  { key: "人材育成", desc: "研修・人材確保・雇用" },
+  { key: "省エネ", desc: "省エネ設備・脱炭素" },
+  { key: "事業承継", desc: "承継・M&A・引継ぎ" },
+]
+
+// サイト独自の一般的な解説（個別制度の条件は各公募要領が優先）
+const HOME_FAQ: FaqItem[] = [
+  {
+    question: "補助金と助成金の違いは何ですか？",
+    answer:
+      "一般に、補助金は経済産業省や自治体などが政策目的に沿って公募し、審査（採択）を経て交付されるものが多く、予算や採択件数に上限があります。助成金は厚生労働省の雇用関係助成金のように、要件を満たせば原則として受給できるものが多いとされています。ただし名称と実態が一致しない制度もあるため、各制度の公募要領で確認してください。",
+  },
+  {
+    question: "補助金はいつ受け取れますか？",
+    answer:
+      "多くの補助金は後払い（精算払い）です。採択・交付決定後に事業を実施して経費を支払い、実績報告と検査を経てから補助金が支払われるのが一般的です。事業実施中の資金繰りもあらかじめ計画しておく必要があります。",
+  },
+  {
+    question: "交付決定前に購入した経費も対象になりますか？",
+    answer:
+      "多くの制度では、交付決定日より前に発注・契約・支払いをした経費は補助対象外です。例外を設けている制度もあるため、対象経費の期間は必ず公募要領で確認してください。",
+  },
+  {
+    question: "このサイトの情報はどこから取得していますか？",
+    answer:
+      "デジタル庁が運営するJグランツの公開APIなど、公的機関が公開している情報を定期的に自動取得して掲載しています。受付状態や締切は取得時点の情報のため、申請前に必ず公式の公募要領・申請窓口で最新情報をご確認ください。",
+  },
+]
+
+function getGuides(): Guide[] {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "source", "guides.json"), "utf-8"))
+  } catch {
+    return []
+  }
+}
+
+const byStartDesc = (a: SubsidyIndexItem, b: SubsidyIndexItem) => (b.startDate ?? "").localeCompare(a.startDate ?? "")
+const byStartAsc = (a: SubsidyIndexItem, b: SubsidyIndexItem) =>
+  (a.startDate ?? "9999").localeCompare(b.startDate ?? "9999")
 
 const Page: FC = () => {
-  const history = getUpdateHistory()
-  const stats = getSubsidyStats()
-  const latestSubsidies = getLatestSubsidies()
-  const lawyerComments = getLawyerComments()
-  const latestItemList = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    name: "最新の補助金",
-    itemListElement: latestSubsidies.map((subsidy, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      url: absoluteUrl(`/subsidies/${subsidy.slug}/`),
-      name: subsidy.title,
-    })),
-  }
+  const subsidies = loadSubsidyIndex()
+  const history = loadUpdateHistory()
+  const guides = getGuides()
+  const openList = subsidies.filter((s) => s.status === "open")
+  const upcomingList = subsidies.filter((s) => s.status === "upcoming")
+  const deadlineSoon = getDeadlineGroups(subsidies).soon.slice(0, 6)
+  const latestOpen = openList.toSorted(byStartDesc).slice(0, 5)
+  const upcoming = upcomingList.toSorted(byStartAsc).slice(0, 5)
+  const activeCount = (pred: (s: SubsidyIndexItem) => boolean) => subsidies.filter((s) => s.status !== "closed" && pred(s)).length
+  const lastUpdated = history ? formatDate(toJstDate(history.lastUpdated)) : null
+
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: "締切が近い補助金",
+      itemListElement: deadlineSoon.map((s, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: absoluteUrl(`/subsidies/${s.slug}/`),
+        name: s.title,
+      })),
+    },
+    buildFaqStructuredData(HOME_FAQ),
+  ]
 
   return (
-    <div>
-      {latestSubsidies.length > 0 && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(latestItemList) }}
-        />
-      )}
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
 
-      {/* Hero */}
-      <section
-        style={{
-          position: "relative",
-          overflow: "hidden",
-        }}
-      >
-        <Image
-          src="/images/hero.jpg"
-          alt="補助金ポータル"
-          width={1400}
-          height={500}
-          priority
-          style={{
-            width: "100%",
-            height: "min(52vw, 520px)",
-            minHeight: "320px",
-            display: "block",
-            objectFit: "cover",
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            background: "linear-gradient(to right, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.3) 60%, rgba(0,0,0,0.1) 100%)",
-            display: "flex",
-            alignItems: "center",
-          }}
-        >
-          <div
-            style={{
-              maxWidth: "1200px",
-              margin: "0 auto",
-              width: "100%",
-              padding: "0 2rem",
-            }}
-          >
-            <div
-              style={{
-                borderLeft: "4px solid #B9985A",
-                paddingLeft: "1.5rem",
-                marginBottom: "1.5rem",
-              }}
-            >
-              <h1
-                style={{
-                  fontSize: "clamp(1.6rem, 3.5vw, 2.6rem)",
-                  fontWeight: "bold",
-                  color: "#fff",
-                  lineHeight: 1.3,
-                  marginBottom: ".75rem",
-                }}
-              >
-                あなたの事業に合った補助金を
-                <br />
-                かんたん診断
-              </h1>
-              <p
-                style={{
-                  color: "rgba(255,255,255,0.8)",
-                  fontSize: "clamp(0.85rem, 1.5vw, 1rem)",
-                  lineHeight: 1.75,
-                }}
-              >
-                事業形態・業種・従業員数などを入力するだけで、
-                <br />
-                Jグランツ掲載の補助金をスコアリングして最適な制度をご提案します。
-              </p>
-            </div>
-            <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-              <Link
-                href="/diagnosis"
-                style={{
-                  display: "inline-block",
-                  backgroundColor: "#B9985A",
-                  color: "#0D0D0D",
-                  padding: "0.9rem 2.75rem",
-                  textDecoration: "none",
-                  fontWeight: "500",
-                  fontSize: ".95rem",
-                  letterSpacing: ".08em",
-                }}
-              >
-                診断をはじめる
-              </Link>
-              <Link
-                href="/subsidies"
-                style={{
-                  display: "inline-block",
-                  backgroundColor: "transparent",
-                  color: "rgba(255,255,255,0.85)",
-                  padding: "0.9rem 2.75rem",
-                  textDecoration: "none",
-                  fontWeight: "400",
-                  fontSize: ".95rem",
-                  letterSpacing: ".08em",
-                  border: "1px solid rgba(255,255,255,0.4)",
-                }}
-              >
-                補助金一覧
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats bar */}
-      <section
-        style={{
-          backgroundColor: "#000000",
-          padding: "1.5rem 2rem",
-        }}
-      >
-        <div
-          style={{
-            maxWidth: "1200px",
-            margin: "0 auto",
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
-            gap: "1rem",
-          }}
-        >
-          {[
-            { label: "登録補助金数", value: stats ? `${stats.total}件` : "—" },
-            { label: "受付中", value: stats ? `${stats.open}件` : "—" },
-            { label: "公募前", value: stats ? `${stats.upcoming}件` : "—" },
-            { label: "JグランツAPI連携", value: history ? `${history.sources.jgrants}件` : "—" },
-            {
-              label: "最終更新",
-              value: history ? new Date(history.lastUpdated).toLocaleDateString("ja-JP") : "未取得",
-            },
-          ].map((stat, i, arr) => (
-            <div
-              key={stat.label}
-              style={{
-                textAlign: "center",
-                borderRight: i < arr.length - 1 ? "1px solid rgba(185,152,90,0.2)" : "none",
-                padding: "0 1rem",
-              }}
-            >
-              <div
-                style={{
-                  color: "#B9985A",
-                  fontSize: "1.5rem",
-                  fontFamily: '"Yu Mincho", "YuMincho", Georgia, serif',
-                  fontWeight: "400",
-                  letterSpacing: ".04em",
-                }}
-              >
-                {stat.value}
-              </div>
-              <div style={{ color: "rgba(255,255,255,0.45)", fontSize: ".72rem", marginTop: ".25rem", letterSpacing: ".05em" }}>
-                {stat.label}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Search */}
-      <section style={{ backgroundColor: "var(--bg-surface-alt)", padding: "3rem 2rem" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div style={{ display: "flex", alignItems: "baseline", gap: "1rem", marginBottom: "1.25rem" }}>
-            <h2
-              style={{
-                color: "var(--text-strong)",
-                fontSize: "1.4rem",
-                fontWeight: "bold",
-              }}
-            >
-              補助金を検索
-            </h2>
-          </div>
-          <HomeSearchForm />
-        </div>
-      </section>
-
-      {/* 探し方ガイド（主要一覧ページへの内部リンク） */}
-      <section style={{ padding: "3rem 2rem" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <h2 style={{ color: "var(--text-strong)", fontSize: "1.4rem", fontWeight: "bold", marginBottom: "1rem" }}>
-            RSubsidyで探せる補助金
-          </h2>
-          <p style={{ color: "var(--text-base)", fontSize: ".92rem", lineHeight: 1.9, marginBottom: "1.25rem" }}>
-            RSubsidyでは、Jグランツなどの公募情報をもとに、国の制度から都道府県・市区町村の制度まで
-            {stats ? `${stats.total.toLocaleString()}件（うち受付中${stats.open}件・公募予定${stats.upcoming}件）` : ""}
-            の補助金・助成金を掲載しています。まずは
-            <Link href="/subsidies/" style={{ color: "#38b48b" }}>全国の補助金一覧</Link>
-            から、所在地の<a href="#prefectures" style={{ color: "#38b48b" }}>都道府県</a>
-            、IT導入や設備投資などの<a href="#purposes" style={{ color: "#38b48b" }}>目的</a>
-            、<Link href="/subsidies/industry/製造業/" style={{ color: "#38b48b" }}>製造業</Link>
-            などの業種で絞り込むのが近道です。申請期限が迫った制度は
-            <Link href="/subsidies/deadline/" style={{ color: "#38b48b" }}>締切が近い補助金</Link>
-            、新しく公募が始まった制度は
-            <Link href="/subsidies/open/" style={{ color: "#38b48b" }}>受付中の補助金</Link>
-            と<Link href="/subsidies/upcoming/" style={{ color: "#38b48b" }}>公募予定の補助金</Link>
-            で確認できます。どれが使えるかわからない場合は
-            <Link href="/diagnosis/" style={{ color: "#38b48b" }}>補助金診断</Link>
-            、申請の進め方は<Link href="/guides/" style={{ color: "#38b48b" }}>申請ガイド</Link>
-            をご覧ください。
+      <section className="hero">
+        <div className="container">
+          <h1 className="hero-title">
+            自社で使える補助金を、
+            <br />
+            目的と地域からすぐに探せる
+          </h1>
+          <p className="hero-lead">
+            国・都道府県の補助金・助成金{subsidies.length.toLocaleString()}件を掲載。受付状態・締切・補助上限額を比較して、中小企業・個人事業主が申請できる制度を見つけられます。
           </p>
-          <div id="purposes" style={{ display: "flex", flexWrap: "wrap", gap: ".5rem" }}>
-            {HOME_PURPOSES.map((purpose) => (
-              <Link
-                key={purpose}
-                href={`/subsidies/purpose/${encodeURIComponent(purpose)}/`}
-                style={{
-                  fontSize: ".85rem",
-                  color: "var(--text-strong)",
-                  border: "1px solid var(--border-soft)",
-                  borderRadius: "999px",
-                  padding: ".4rem .9rem",
-                  textDecoration: "none",
-                }}
-              >
-                {purposeLabel(purpose)}
-              </Link>
-            ))}
+          <div className="hero-search">
+            <HomeSearchForm />
+          </div>
+          <div className="hero-cta">
+            <span>どの制度が使えるかわからない場合は</span>
+            <Link href="/diagnosis/" className="btn btn-navy">
+              かんたん補助金診断（無料・登録不要）
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* About */}
-      <section style={{ padding: "4rem 2rem" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-              gap: "3rem",
-              alignItems: "center",
-            }}
-          >
-            <div>
-              <p
-                style={{
-                  color: "#B9985A",
-                  fontSize: ".8rem",
-                  fontWeight: "bold",
-                  letterSpacing: ".1em",
-                  textTransform: "uppercase",
-                  marginBottom: ".75rem",
-                }}
-              >
-                補助金ポータルでできること
+      <section className="section" style={{ paddingTop: "2rem", paddingBottom: "2rem" }} aria-label="掲載状況">
+        <div className="container">
+          <div className="stat-grid">
+            <div className="stat">
+              <p className="stat-value">
+                {subsidies.length.toLocaleString()}
+                <small>件</small>
               </p>
-              <h2
-                style={{
-                  color: "var(--text-strong)",
-                  fontSize: "clamp(1.4rem, 2.5vw, 1.9rem)",
-                  fontWeight: "bold",
-                  lineHeight: 1.4,
-                  marginBottom: "1.25rem",
-                }}
-              >
-                中小企業・個人事業主の
-                <br />
-                補助金探しをシンプルに
-              </h2>
-              <p style={{ color: "var(--text-muted)", fontSize: ".95rem", lineHeight: 1.9, marginBottom: ".8rem" }}>
-                Jグランツ掲載の制度を、都道府県・受付状態・目的からまとめて確認できます。
-                補助金一覧ページでは制度を比較でき、診断ページでは所在地・業種・従業員数・用途から自社に合いやすい補助金を絞り込めます。
+              <p className="stat-label">掲載補助金数</p>
+            </div>
+            <Link href="/subsidies/open/" className="stat" style={{ textDecoration: "none" }}>
+              <p className="stat-value" style={{ color: "var(--green-dark)" }}>
+                {openList.length.toLocaleString()}
+                <small>件</small>
               </p>
-              <Link
-                href="/subsidies"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: ".4rem",
-                  color: "#1a1a1a",
-                  textDecoration: "none",
-                  fontSize: ".9rem",
-                  fontWeight: "bold",
-                  borderBottom: "2px solid #B9985A",
-                  paddingBottom: ".1rem",
-                }}
-              >
-                補助金一覧を見る →
-              </Link>
-            </div>
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr",
-                gap: "1rem",
-              }}
-            >
-              {[
-                { num: "I", title: "条件で検索", desc: "都道府県・目的・受付状態で絞り込み" },
-                { num: "II", title: "診断で発見", desc: "業種・従業員数から最適な制度を提案" },
-                { num: "III", title: "最新情報", desc: "新着補助金をリアルタイムで更新" },
-                { num: "IV", title: "申請ガイド", desc: "わかりやすい申請手順の解説" },
-              ].map((item) => (
-                <div
-                  key={item.title}
-                  style={{
-                    backgroundColor: "var(--bg-surface-alt)",
-                    padding: "1.5rem 1.25rem",
-                    borderTop: "1px solid #B9985A",
-                  }}
-                >
-                  <div
-                    style={{
-                      color: "#B9985A",
-                      fontSize: ".7rem",
-                      fontFamily: "Georgia, serif",
-                      letterSpacing: ".15em",
-                      marginBottom: ".75rem",
-                    }}
-                  >
-                    {item.num}
-                  </div>
-                  <p
-                    style={{
-                      color: "var(--text-strong)",
-                      fontSize: ".88rem",
-                      fontWeight: "500",
-                      letterSpacing: ".04em",
-                      marginBottom: ".4rem",
-                      fontFamily: '"Yu Mincho", "YuMincho", "Hiragino Mincho ProN", serif',
-                    }}
-                  >
-                    {item.title}
-                  </p>
-                  <p style={{ color: "var(--text-muted)", fontSize: ".78rem", lineHeight: 1.7 }}>
-                    {item.desc}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Prefecture */}
-      <section id="prefectures" style={{ backgroundColor: "var(--bg-surface-alt)", padding: "3rem 2rem" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1rem", marginBottom: "1.25rem" }}>
-            <h2 style={{ color: "var(--text-strong)", fontSize: "1.4rem", fontWeight: "bold" }}>
-              都道府県から探す
-            </h2>
-            <Link
-              href="/subsidies"
-              style={{
-                color: "#1a1a1a",
-                textDecoration: "none",
-                fontSize: ".85rem",
-                fontWeight: "bold",
-                borderBottom: "1px solid #B9985A",
-                paddingBottom: ".05rem",
-                whiteSpace: "nowrap",
-              }}
-            >
-              条件検索へ →
+              <p className="stat-label">受付中 →</p>
             </Link>
-          </div>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: ".5rem" }}>
-            {POPULAR_PREFECTURES.map((prefecture) => (
-              <Link
-                key={prefecture}
-                href={`/subsidies/prefecture/${encodeURIComponent(prefecture)}`}
-                style={{
-                  backgroundColor: "var(--bg-surface)",
-                  border: "1px solid var(--border-soft)",
-                  borderRadius: "2px",
-                  color: "var(--text-base)",
-                  fontSize: ".82rem",
-                  padding: ".42rem .85rem",
-                  textDecoration: "none",
-                }}
-              >
-                {prefecture}
-              </Link>
-            ))}
+            <Link href="/subsidies/upcoming/" className="stat" style={{ textDecoration: "none" }}>
+              <p className="stat-value" style={{ color: "var(--amber-text)" }}>
+                {upcomingList.length.toLocaleString()}
+                <small>件</small>
+              </p>
+              <p className="stat-label">公募予定 →</p>
+            </Link>
+            <div className="stat">
+              <p className="stat-value" style={{ fontSize: "1.15rem", paddingTop: ".35rem" }}>
+                {lastUpdated ?? "未取得"}
+              </p>
+              <p className="stat-label">最終データ更新</p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Feature picks */}
-      <section style={{ padding: "4rem 2rem" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <p
-            style={{
-              color: "#B9985A",
-              fontSize: ".8rem",
-              fontWeight: "bold",
-              letterSpacing: ".1em",
-              textTransform: "uppercase",
-              marginBottom: ".5rem",
-            }}
-          >
-            Featured
-          </p>
-          <h2
-            style={{
-              color: "var(--text-strong)",
-              fontSize: "1.4rem",
-              fontWeight: "bold",
-              marginBottom: "1.5rem",
-            }}
-          >
-            おすすめ補助金特集
-          </h2>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-              gap: "1.5rem",
-            }}
-          >
-            <Link href="/features/popular-sme" style={{ textDecoration: "none" }}>
-              <div
-                style={{
-                  backgroundColor: "var(--bg-surface)",
-                  border: "1px solid var(--border-soft)",
-                  borderTop: "4px solid #B9985A",
-                  padding: "1.5rem",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: ".75rem",
-                  height: "100%",
-                }}
-              >
-                <div style={{ display: "flex", alignItems: "center", gap: ".5rem" }}>
-                  <span
-                    style={{
-                      backgroundColor: "#B9985A",
-                      color: "#000",
-                      borderRadius: "2px",
-                      padding: ".15rem .5rem",
-                      fontSize: ".7rem",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    特集
-                  </span>
-                  <span style={{ color: "#B9985A", fontSize: ".75rem", fontWeight: "bold" }}>
-                    受付中あり
-                  </span>
-                </div>
-                <p style={{ color: "var(--text-strong)", fontSize: "1rem", fontWeight: "bold", lineHeight: 1.5, margin: 0 }}>
-                  全業種対応・採択数が多い
-                  <br />
-                  中小企業向け補助金
-                </p>
-                <p style={{ color: "var(--text-muted)", fontSize: ".82rem", lineHeight: 1.7, margin: 0 }}>
-                  ものづくり補助金・事業再構築補助金など採択実績が豊富な定番制度を一覧で確認できます。
-                </p>
-                <span
-                  style={{
-                    color: "#1a1a1a",
-                    fontSize: ".85rem",
-                    fontWeight: "bold",
-                    marginTop: "auto",
-                    borderBottom: "2px solid #B9985A",
-                    display: "inline-block",
-                    paddingBottom: ".1rem",
-                  }}
-                >
-                  特集を見る →
-                </span>
+      {deadlineSoon.length > 0 && (
+        <section className="section" style={{ paddingTop: "1rem" }}>
+          <div className="container">
+            <div className="section-head">
+              <div>
+                <h2 className="section-title">締切間近の補助金</h2>
+                <p className="section-lead">30日以内に受付が終了する制度（締切が近い順）</p>
               </div>
-            </Link>
-            <Link href="/features/it-companies" style={{ textDecoration: "none" }}>
-              <div
-                style={{
-                  backgroundColor: "var(--bg-surface)",
-                  border: "1px solid var(--border-soft)",
-                  borderTop: "4px solid #1a1a1a",
-                  padding: "1.5rem",
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: ".75rem",
-                  height: "100%",
-                }}
-              >
-                <div>
-                  <span
-                    style={{
-                      backgroundColor: "#1a1a1a",
-                      color: "#fff",
-                      borderRadius: "2px",
-                      padding: ".15rem .5rem",
-                      fontSize: ".7rem",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    特集
-                  </span>
-                </div>
-                <p style={{ color: "var(--text-strong)", fontSize: "1rem", fontWeight: "bold", lineHeight: 1.5, margin: 0 }}>
-                  IT系・零細企業向け
-                  <br />
-                  補助金特集
-                </p>
-                <p style={{ color: "var(--text-muted)", fontSize: ".82rem", lineHeight: 1.7, margin: 0 }}>
-                  DX推進・クラウド化・システム導入など情報通信業やデジタル化を進めたい企業向け。
-                </p>
-                <span
-                  style={{
-                    color: "#1a1a1a",
-                    fontSize: ".85rem",
-                    fontWeight: "bold",
-                    marginTop: "auto",
-                    borderBottom: "2px solid #1a1a1a",
-                    display: "inline-block",
-                    paddingBottom: ".1rem",
-                  }}
-                >
-                  特集を見る →
-                </span>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Latest subsidies */}
-      {latestSubsidies.length > 0 && (
-        <section style={{ backgroundColor: "var(--bg-surface-alt)", padding: "4rem 2rem" }}>
-          <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "1rem", marginBottom: "1.5rem" }}>
-              <h2 style={{ color: "var(--text-strong)", fontSize: "1.4rem", fontWeight: "bold" }}>
-                最新の補助金
-              </h2>
-              <Link
-                href="/subsidies"
-                style={{
-                  color: "#1a1a1a",
-                  textDecoration: "none",
-                  fontSize: ".85rem",
-                  fontWeight: "bold",
-                  borderBottom: "1px solid #B9985A",
-                  paddingBottom: ".05rem",
-                  whiteSpace: "nowrap",
-                }}
-              >
-                一覧で探す →
+              <Link href="/subsidies/deadline/" className="link-more">
+                締切が近い補助金をすべて見る →
               </Link>
             </div>
-            <div style={{ display: "grid", gap: "1px", border: "1px solid var(--border-soft)" }}>
-              {latestSubsidies.map((subsidy) => (
-                <Link
-                  key={subsidy.id}
-                  href={`/subsidies/${subsidy.slug}`}
-                  style={{ textDecoration: "none" }}
-                >
-                  <article className="subsidy-card-row">
-                    <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", alignItems: "center", marginBottom: ".6rem" }}>
-                      <span
-                        style={{
-                          backgroundColor: "#B9985A20",
-                          color: "#8B6914",
-                          border: "1px solid #B9985A60",
-                          borderRadius: "2px",
-                          padding: ".1rem .5rem",
-                          fontSize: ".72rem",
-                          fontWeight: "bold",
-                        }}
-                      >
-                        {subsidy.status === "upcoming" ? "公募前" : "受付中"}
-                      </span>
-                      {subsidy.startDate && (
-                        <span style={{ color: "var(--text-muted)", fontSize: ".78rem" }}>
-                          受付開始 {formatDate(subsidy.startDate)}
-                        </span>
-                      )}
-                      {subsidy.upperLimit && subsidy.upperLimit !== "0円" && (
-                        <span style={{ color: "#d97706", fontSize: ".78rem", marginLeft: "auto", fontWeight: "bold" }}>
-                          上限 {formatAmount(subsidy.upperLimit)}
-                        </span>
-                      )}
-                    </div>
-                    <h3 style={{ color: "var(--text-strong)", fontSize: ".98rem", lineHeight: 1.5, marginBottom: ".5rem", fontWeight: "bold" }}>
-                      {subsidy.title}
-                    </h3>
-                    {subsidy.overview && (
-                      <p
-                        style={{
-                          color: "var(--text-muted)",
-                          fontSize: ".8rem",
-                          lineHeight: 1.7,
-                          marginBottom: ".5rem",
-                          overflow: "hidden",
-                          display: "-webkit-box",
-                          WebkitLineClamp: 2,
-                          WebkitBoxOrient: "vertical",
-                        }}
-                      >
-                        {subsidy.overview}
-                      </p>
-                    )}
-                    {subsidy.purposes.length > 0 && (
-                      <div
-                        style={{
-                          display: "flex",
-                          gap: ".4rem",
-                          flexWrap: "wrap",
-                          marginBottom: lawyerComments[subsidy.slug] ? ".5rem" : undefined,
-                        }}
-                      >
-                        {subsidy.purposes.slice(0, 3).map((purpose) => (
-                          <PurposeTagLink key={purpose} purpose={purpose} />
-                        ))}
-                      </div>
-                    )}
-                    {lawyerComments[subsidy.slug] && (
-                      <div
-                        style={{
-                          backgroundColor: "#FDFAF4",
-                          border: "1px solid #D4B896",
-                          borderLeft: "3px solid #B9985A",
-                          padding: ".6rem .8rem",
-                          marginTop: ".5rem",
-                        }}
-                      >
-                        <span style={{ color: "#8B6914", fontSize: ".72rem", fontWeight: "bold", display: "block", marginBottom: ".25rem" }}>
-                          行政書士コメント
-                        </span>
-                        <p style={{ color: "#333", fontSize: ".78rem", lineHeight: 1.6, margin: 0 }}>
-                          {lawyerComments[subsidy.slug]}
-                        </p>
-                      </div>
-                    )}
-                  </article>
-                </Link>
+            <ul className="list-plain grid grid-2">
+              {deadlineSoon.map((s) => (
+                <li key={s.slug}>
+                  <SubsidyCard
+                    slug={s.slug}
+                    title={s.title}
+                    status={s.status}
+                    region={s.region}
+                    prefectures={s.prefectures}
+                    upperLimit={s.upperLimit}
+                    endDate={s.endDate}
+                  />
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </section>
       )}
 
-      {/* CTA */}
-      <section
-        style={{
-          backgroundColor: "#000000",
-          padding: "4rem 2rem",
-          textAlign: "center",
-        }}
-      >
-        <div style={{ maxWidth: "600px", margin: "0 auto" }}>
-          <p style={{ color: "#B9985A", fontSize: ".8rem", fontWeight: "bold", letterSpacing: ".1em", textTransform: "uppercase", marginBottom: ".75rem" }}>
-            Get Started
-          </p>
-          <h2 style={{ color: "#ffffff", fontSize: "clamp(1.4rem, 2.5vw, 1.9rem)", fontWeight: "bold", lineHeight: 1.4, marginBottom: "1.5rem" }}>
-            補助金をすべて確認する
-          </h2>
-          <Link
-            href="/subsidies"
-            style={{
-              display: "inline-block",
-              backgroundColor: "#B9985A",
-              color: "#000",
-              textDecoration: "none",
-              fontSize: "1rem",
-              fontWeight: "bold",
-              padding: "1rem 3rem",
-              borderRadius: "2px",
-            }}
-          >
-            補助金一覧を見る →
-          </Link>
+      <section className="section section--alt" id="purposes">
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <h2 className="section-title">目的から探す</h2>
+              <p className="section-lead">件数は受付中・公募予定の制度数です</p>
+            </div>
+          </div>
+          <ul className="list-plain grid grid-4">
+            {HOME_PURPOSES.map(({ key, desc }) => (
+              <li key={key}>
+                <Link href={`/subsidies/purpose/${encodeURIComponent(key)}/`} className="card card-link purpose-tile">
+                  <strong className="card-title">{purposeLabel(key)}の補助金</strong>
+                  <span>{desc}</span>
+                  <span style={{ color: "var(--green-dark)", fontWeight: 700 }}>
+                    {activeCount((s) => s.purposes.includes(key))}件
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
-    </div>
+
+      <section className="section" id="prefectures">
+        <div className="container">
+          <div className="section-head">
+            <div>
+              <h2 className="section-title">都道府県から探す</h2>
+              <p className="section-lead">各都道府県の制度と、全国で使える国の制度をまとめて確認できます</p>
+            </div>
+            <Link href="/subsidies/?prefecture=national" className="link-more">
+              国の補助金（全国対象）→
+            </Link>
+          </div>
+          <div className="card" style={{ paddingTop: ".5rem", paddingBottom: ".5rem" }}>
+            {Object.entries(AREA_PREFECTURES).map(([area, prefectures]) => (
+              <div key={area} className="area-block">
+                <h3 className="area-name">{area}</h3>
+                <ul className="list-plain chip-group">
+                  {prefectures.map((p) => (
+                    <li key={p}>
+                      <Link href={`/subsidies/prefecture/${encodeURIComponent(p)}/`} className="chip">
+                        {p}
+                        <span style={{ color: "var(--text-muted)", fontSize: ".75rem", marginLeft: ".3rem" }}>
+                          {activeCount((s) => matchesPrefecture(s, p))}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <p className="section-lead" style={{ marginTop: ".75rem" }}>
+            ※ 市区町村の制度は、各都道府県ページで制度名・対象地域からご確認ください。
+          </p>
+        </div>
+      </section>
+
+      <section className="section section--alt">
+        <div className="container">
+          <div className="grid grid-2" style={{ gap: "2rem" }}>
+            <div>
+              <div className="section-head">
+                <h2 className="section-title">新たに受付開始した補助金</h2>
+                <Link href="/subsidies/open/" className="link-more">
+                  受付中の補助金 →
+                </Link>
+              </div>
+              <SubsidyLinkList items={latestOpen} />
+            </div>
+            <div>
+              <div className="section-head">
+                <h2 className="section-title">公募予定の補助金</h2>
+                <Link href="/subsidies/upcoming/" className="link-more">
+                  公募予定の補助金 →
+                </Link>
+              </div>
+              <SubsidyLinkList items={upcoming} />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="section-head">
+            <h2 className="section-title">テーマ別特集</h2>
+          </div>
+          <ul className="list-plain grid grid-3">
+            {[
+              {
+                href: "/features/popular-sme/",
+                title: "中小企業の定番補助金",
+                desc: "ものづくり補助金など、全業種で使われることの多い代表的な制度をまとめています。",
+              },
+              {
+                href: "/features/it-companies/",
+                title: "IT・小規模事業者向け補助金",
+                desc: "クラウド化・システム導入・DX推進など、デジタル化に使える制度の特集です。",
+              },
+              {
+                href: "/subsidies/industry/製造業/",
+                title: "製造業の補助金",
+                desc: "設備投資・省エネ・研究開発など、製造業が対象となる制度の一覧です。",
+              },
+            ].map((f) => (
+              <li key={f.href}>
+                <Link href={f.href} className="card card-link" style={{ height: "100%" }}>
+                  <span className="badge badge-navy" style={{ marginBottom: ".5rem" }}>
+                    特集
+                  </span>
+                  <p className="card-title">{f.title}</p>
+                  <p style={{ color: "var(--text-muted)", fontSize: ".85rem", marginTop: ".35rem" }}>{f.desc}</p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="section section--alt">
+        <div className="container">
+          <div className="grid grid-2" style={{ gap: "2rem", alignItems: "start" }}>
+            <div>
+              <div className="section-head">
+                <h2 className="section-title">申請ガイド</h2>
+                <Link href="/guides/" className="link-more">
+                  ガイド一覧 →
+                </Link>
+              </div>
+              <ul className="list-plain grid">
+                {guides.slice(0, 5).map((g) => (
+                  <li key={g.id}>
+                    <Link href={`/guides/${g.id}/`} className="card card-link">
+                      <p className="card-title" style={{ fontSize: ".95rem" }}>
+                        {g.title}
+                      </p>
+                      <p className="card-text">{g.summary}</p>
+                    </Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/cases/" className="card card-link">
+                    <p className="card-title" style={{ fontSize: ".95rem" }}>
+                      補助金の申請事例
+                    </p>
+                    <p className="card-text">実際に補助金を活用した企業の取り組み事例を紹介しています。</p>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <FaqSection items={HOME_FAQ} title="補助金のよくある質問" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
 

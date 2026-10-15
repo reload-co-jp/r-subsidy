@@ -150,7 +150,7 @@ export default async function Page({ params }: Props) {
         ]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <p style={{ color: "#38b48b", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
+        <p style={{ color: "var(--green-dark)", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
           業種別の補助金
         </p>
         <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>
@@ -186,7 +186,7 @@ export default async function Page({ params }: Props) {
                   paddingBottom: ".65rem",
                 }}
               >
-                <span style={{ color: "#38b48b", fontSize: ".78rem", fontWeight: "bold" }}>
+                <span style={{ color: "var(--green-dark)", fontSize: ".78rem", fontWeight: "bold" }}>
                   {s.status === "open" ? "受付中" : "公募前"}
                 </span>
                 <span style={{ display: "block", fontSize: ".92rem", marginTop: ".25rem" }}>

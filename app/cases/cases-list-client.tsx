@@ -45,9 +45,9 @@ export default function CasesListClient({
               onClick={() => setFilter(name)}
               style={{
                 borderRadius: "999px",
-                border: `1px solid ${selected ? "#38b48b" : "var(--border-soft)"}`,
-                backgroundColor: selected ? "#38b48b22" : "var(--bg-surface-alt)",
-                color: selected ? "#38b48b" : "var(--text-base)",
+                border: `1px solid ${selected ? "var(--green-dark)" : "var(--border-soft)"}`,
+                backgroundColor: selected ? "var(--green-50)" : "var(--bg-surface-alt)",
+                color: selected ? "var(--green-dark)" : "var(--text-base)",
                 padding: ".45rem .8rem",
                 fontSize: ".8rem",
                 cursor: "pointer",
@@ -80,9 +80,9 @@ export default function CasesListClient({
             >
               <span
                 style={{
-                  backgroundColor: "#38b48b22",
-                  color: "#38b48b",
-                  border: "1px solid #38b48b44",
+                  backgroundColor: "var(--green-50)",
+                  color: "var(--green-dark)",
+                  border: "1px solid var(--green-200)",
                   borderRadius: "4px",
                   padding: ".2rem .6rem",
                   fontSize: ".75rem",

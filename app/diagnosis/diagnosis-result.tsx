@@ -50,8 +50,8 @@ export default function DiagnosisResult({
           onClick={onReset}
           style={{
             background: "none",
-            border: "1px solid #2a3a5a",
-            color: "#38b48b",
+            border: "1px solid var(--border-strong)",
+            color: "var(--green-dark)",
             padding: ".4rem .8rem",
             borderRadius: "6px",
             cursor: "pointer",
@@ -92,14 +92,14 @@ export default function DiagnosisResult({
                 <span
                   style={{
                     backgroundColor: tc.bg,
-                    border: `1px solid ${tc.color}44`,
+                    border: `1px solid ${tc.border}`,
                     borderRadius: "4px",
                     padding: ".2rem .6rem",
                   }}
                 >
                   {tc.label}
                 </span>
-                <span style={{ color: "#888", fontWeight: "normal" }}>
+                <span style={{ color: "var(--text-muted)", fontWeight: "normal" }}>
                   {grouped[tier].length}件
                 </span>
               </h2>

@@ -20,7 +20,7 @@ export const Breadcrumb: FC<{ items: Item[] }> = ({ items }) => (
       <span key={i} style={{ display: "flex", gap: ".4rem", alignItems: "center" }}>
         {i > 0 && <span>›</span>}
         {item.href ? (
-          <Link href={item.href} style={{ color: "#38b48b", textDecoration: "none" }}>
+          <Link href={item.href} style={{ color: "var(--green-dark)", textDecoration: "none" }}>
             {item.label}
           </Link>
         ) : (

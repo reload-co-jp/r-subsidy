@@ -20,8 +20,8 @@ const base = (bg: string, border: string, color: string, extra?: object): React.
 })
 
 const s = {
-  start: base("#edf7f2", "#38b48b", "#22322d", { borderRadius: "100px", fontWeight: "bold", width: "180px" }),
-  end:   base("#edf7f2", "#38b48b", "#22322d", { borderRadius: "100px", fontWeight: "bold", width: "180px" }),
+  start: base("#edf7f2", "var(--green-dark)", "#22322d", { borderRadius: "100px", fontWeight: "bold", width: "180px" }),
+  end:   base("#edf7f2", "var(--green-dark)", "#22322d", { borderRadius: "100px", fontWeight: "bold", width: "180px" }),
   proc:  base("#ffffff", "#b7d7cb", "#314640"),
   dec:   base("#fff9e6", "#c9910a", "#7a5800", { fontWeight: "bold", width: "170px" }),
   dur:   base("#e8f0ff", "#3b82f6", "#1d4ed8"),
@@ -75,7 +75,7 @@ const stepStyle: React.CSSProperties = {
 }
 const stepLbl = (n: string, t: string, sub?: string) => (
   <div style={{ textAlign: "center" }}>
-    <div style={{ background: "#38b48b", color: "#fff", borderRadius: "3px", fontSize: "10px", fontWeight: "bold", padding: "1px 5px", marginBottom: "3px", display: "inline-block" }}>{n}</div>
+    <div style={{ background: "var(--green-dark)", color: "#fff", borderRadius: "3px", fontSize: "10px", fontWeight: "bold", padding: "1px 5px", marginBottom: "3px", display: "inline-block" }}>{n}</div>
     <div style={{ fontSize: "12px" }}>{t}</div>
     {sub && <div style={{ fontSize: "10px", color: "#5f766d", marginTop: "1px" }}>{sub}</div>}
   </div>
@@ -88,7 +88,7 @@ const digitalNodes: Node[] = [
   { id: "s4",  position: { x: 450, y: 0 },   data: { label: stepLbl("STEP 4", "共同で交付申請") },               style: stepStyle },
   { id: "dec", position: { x: 600, y: 0 },   data: { label: lbl("交付決定通知") },                              style: { ...base("#fff9e6", "#c9910a", "#7a5800", { fontWeight: "bold" }), width: "110px" } },
   { id: "s5",  position: { x: 600, y: 130 }, data: { label: stepLbl("STEP 5", "発注・契約・導入") },             style: stepStyle },
-  { id: "s6",  type: "output", position: { x: 600, y: 260 }, data: { label: stepLbl("STEP 6", "実績報告", "補助金受取") }, style: { ...stepStyle, ...base("#edf7f2", "#38b48b", "#22322d"), width: "110px" } },
+  { id: "s6",  type: "output", position: { x: 600, y: 260 }, data: { label: stepLbl("STEP 6", "実績報告", "補助金受取") }, style: { ...stepStyle, ...base("#edf7f2", "var(--green-dark)", "#22322d"), width: "110px" } },
   { id: "end", type: "output", position: { x: 760, y: 130 }, data: { label: "終了（不採択）" },                  style: { ...base("#fef2f2", "#fca5a5", "#991b1b"), width: "110px" } },
 ]
 

@@ -26,3 +26,11 @@ export function formatAmount(value: string | null): string | null {
   if (man > 0) return `${man}万円`
   return `${num}円`
 }
+
+export function areaLabel(s: { region: string; prefectures: string[] }) {
+  if (s.region === "national" || s.prefectures.includes("全国") || s.prefectures.length === 0) return "全国"
+  return s.prefectures.length > 3 ? `${s.prefectures.slice(0, 3).join("・")}ほか` : s.prefectures.join("・")
+}
+
+const PURPOSE_LABELS: Record<string, string> = { デジタル化: "IT・DX" }
+export const purposeLabel = (purpose: string) => PURPOSE_LABELS[purpose] ?? purpose

@@ -130,7 +130,7 @@ export default async function Page({ params }: Props) {
         ]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <p style={{ color: "#38b48b", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
+        <p style={{ color: "var(--green-dark)", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
           都道府県×目的別の補助金
         </p>
         <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>
@@ -139,11 +139,11 @@ export default async function Page({ params }: Props) {
         <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8 }}>
           {prefecture}や域内の市区町村が実施する、{label}に使える補助金・助成金をまとめています。現在受付中は
           {openCount}件、公募予定は{active.length - openCount}件です。国の制度も含めて探す場合は
-          <a href={purposeHref} style={{ color: "#38b48b" }}>
+          <a href={purposeHref} style={{ color: "var(--green-dark)" }}>
             {label}に使える補助金一覧
           </a>
           、{prefecture}の他の目的は
-          <a href={prefectureHref} style={{ color: "#38b48b" }}>
+          <a href={prefectureHref} style={{ color: "var(--green-dark)" }}>
             {prefecture}の補助金一覧
           </a>
           をご覧ください。

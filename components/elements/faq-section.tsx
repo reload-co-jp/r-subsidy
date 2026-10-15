@@ -12,54 +12,22 @@ export function buildFaqStructuredData(items: FaqItem[]) {
   }
 }
 
-export default function FaqSection({ items }: { items: FaqItem[] }) {
+export default function FaqSection({ items, title = "よくある質問" }: { items: FaqItem[]; title?: string }) {
   if (items.length === 0) return null
 
   return (
-    <div
-      style={{
-        backgroundColor: "var(--bg-surface)",
-        borderRadius: "10px",
-        border: "1px solid var(--border-soft)",
-        marginBottom: "1.5rem",
-        overflow: "hidden",
-      }}
-    >
-      <h2
-        style={{
-          color: "var(--text-base)",
-          fontSize: ".85rem",
-          fontWeight: "600",
-          padding: ".75rem 1rem",
-          borderBottom: "1px solid var(--border-strong)",
-          margin: 0,
-        }}
-      >
-        よくある質問
+    <section className="card" style={{ padding: 0, marginBottom: "1.5rem", overflow: "hidden" }}>
+      <h2 style={{ fontSize: "1rem", padding: ".85rem 1.25rem", borderBottom: "1px solid var(--border-soft)", background: "var(--bg-surface-alt)" }}>
+        {title}
       </h2>
-      {items.map((item, i) => (
-        <div
-          key={i}
-          style={{
-            borderBottom: i < items.length - 1 ? "1px solid var(--border-strong)" : undefined,
-            padding: ".85rem 1rem",
-          }}
-        >
-          <p
-            style={{
-              color: "#38b48b",
-              fontSize: ".82rem",
-              fontWeight: "bold",
-              marginBottom: ".35rem",
-            }}
-          >
-            Q. {item.question}
-          </p>
-          <p style={{ color: "var(--text-strong)", fontSize: ".88rem", margin: 0 }}>
-            A. {item.answer}
-          </p>
-        </div>
-      ))}
-    </div>
+      <dl>
+        {items.map((item, i) => (
+          <div key={i} style={{ borderTop: i > 0 ? "1px solid var(--border-soft)" : undefined, padding: "1rem 1.25rem" }}>
+            <dt style={{ color: "var(--navy)", fontSize: ".95rem", fontWeight: 700, marginBottom: ".35rem" }}>Q. {item.question}</dt>
+            <dd style={{ color: "var(--text-base)", fontSize: ".9rem", margin: 0 }}>{item.answer}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
   )
 }

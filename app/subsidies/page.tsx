@@ -88,9 +88,9 @@ const Page: FC = () => {
           {subsidies.length > 0 ? `${subsidies.length}件の補助金` : "データが未取得です。pnpm subsidies:update を実行してください。"}
         </p>
         <p style={{ display: "flex", gap: "1rem", flexWrap: "wrap", fontSize: ".85rem", marginTop: ".5rem" }}>
-          <Link href="/subsidies/open/" style={{ color: "#38b48b" }}>受付中の補助金</Link>
-          <Link href="/subsidies/deadline/" style={{ color: "#38b48b" }}>締切が近い補助金</Link>
-          <Link href="/subsidies/upcoming/" style={{ color: "#38b48b" }}>公募予定の補助金</Link>
+          <Link href="/subsidies/open/" style={{ color: "var(--green-dark)" }}>受付中の補助金</Link>
+          <Link href="/subsidies/deadline/" style={{ color: "var(--green-dark)" }}>締切が近い補助金</Link>
+          <Link href="/subsidies/upcoming/" style={{ color: "var(--green-dark)" }}>公募予定の補助金</Link>
         </p>
       </div>
 

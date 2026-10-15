@@ -165,7 +165,7 @@ export default async function Page({ params }: Props) {
         ]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <p style={{ color: "#38b48b", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
+        <p style={{ color: "var(--green-dark)", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
           都道府県別の補助金
         </p>
         <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>
@@ -175,9 +175,9 @@ export default async function Page({ params }: Props) {
           {YEAR_LABEL}の{prefecture}の補助金・助成金をまとめています。{prefecture}
           や域内の市区町村が実施する地域独自の制度を対象に、現在受付中が{openSubsidies.length}件、公募予定が
           {upcomingCount}件あります。国の制度（全国対象）は
-          <a href="/subsidies/" style={{ color: "#38b48b" }}>全国の補助金一覧</a>
+          <a href="/subsidies/" style={{ color: "var(--green-dark)" }}>全国の補助金一覧</a>
           で確認できます。申請の流れは
-          <a href="/guides/" style={{ color: "#38b48b" }}>申請ガイド</a>
+          <a href="/guides/" style={{ color: "var(--green-dark)" }}>申請ガイド</a>
           を参照してください。
         </p>
       </div>
@@ -237,7 +237,7 @@ export default async function Page({ params }: Props) {
                   paddingBottom: ".65rem",
                 }}
               >
-                <span style={{ color: "#38b48b", fontSize: ".78rem", fontWeight: "bold" }}>
+                <span style={{ color: "var(--green-dark)", fontSize: ".78rem", fontWeight: "bold" }}>
                   受付中
                 </span>
                 <span style={{ display: "block", fontSize: ".92rem", marginTop: ".25rem" }}>

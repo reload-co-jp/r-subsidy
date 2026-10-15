@@ -173,7 +173,7 @@ const Page: FC = () => {
       />
 
       <div style={{ marginBottom: "2rem" }}>
-        <p style={{ color: "#38b48b", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
+        <p style={{ color: "var(--green-dark)", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
           特集
         </p>
         <h1
@@ -222,9 +222,9 @@ const Page: FC = () => {
             >
               <span
                 style={{
-                  backgroundColor: "#38b48b22",
-                  color: "#38b48b",
-                  border: "1px solid #38b48b44",
+                  backgroundColor: "var(--green-50)",
+                  color: "var(--green-dark)",
+                  border: "1px solid var(--green-200)",
                   borderRadius: "4px",
                   padding: ".1rem .45rem",
                   fontSize: ".72rem",
@@ -269,7 +269,7 @@ const Page: FC = () => {
                   </span>
                   <span>
                     <span style={{ color: "var(--text-muted)" }}>取りやすさ </span>
-                    <span style={{ color: "#38b48b", letterSpacing: ".05em" }}>{renderStars(item.ease)}</span>
+                    <span style={{ color: "var(--green-dark)", letterSpacing: ".05em" }}>{renderStars(item.ease)}</span>
                   </span>
                   <span style={{ color: "var(--text-muted)" }}>
                     補助額：<strong style={{ color: "var(--text-strong)" }}>{item.amount}</strong>

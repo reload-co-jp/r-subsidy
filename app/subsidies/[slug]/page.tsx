@@ -2,6 +2,8 @@ import { FC } from "react"
 import Link from "next/link"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
 import FaqSection, { buildFaqStructuredData } from "../../../components/elements/faq-section"
+import StatusBadge, { STATUS_LABEL } from "../../../components/elements/status-badge"
+import SubsidyLinkList from "../../../components/elements/subsidy-link-list"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
@@ -19,7 +21,9 @@ import {
   isActive,
   isLocalTo,
   loadSubsidyIndex,
+  loadUpdateHistory,
   purposeLabel,
+  toJstDate,
   subsidyTitle,
 } from "../../../lib/seo"
 
@@ -107,9 +111,9 @@ function buildFaqItems(subsidy: NormalizedSubsidy): FaqItem[] {
   }
 
   if (subsidy.startDate || subsidy.endDate) {
-    const start = subsidy.startDate ? formatDate(subsidy.startDate) : "未定"
-    const end = subsidy.endDate ? formatDate(subsidy.endDate) : "未定"
-    items.push({ question: `${name}の受付期間は?`, answer: `${start} 〜 ${end}（${statusLabel[subsidy.status]?.label ?? "要確認"}）` })
+    const start = subsidy.startDate ? formatDate(subsidy.startDate) : "未確認"
+    const end = subsidy.endDate ? formatDate(subsidy.endDate) : "未確認"
+    items.push({ question: `${name}の受付期間は?`, answer: `${start} 〜 ${end}（${STATUS_LABEL[subsidy.status] ?? "要確認"}）` })
   }
 
   const industries = industryLabel(subsidy)
@@ -149,7 +153,7 @@ function buildSummary(subsidy: NormalizedSubsidy) {
   }
   if (subsidy.startDate || subsidy.endDate) {
     sentences.push(
-      `受付期間は${formatDate(subsidy.startDate) ?? "未定"}〜${formatDate(subsidy.endDate) ?? "未定"}で、現在は「${statusLabel[subsidy.status]?.label ?? "要確認"}」です。`
+      `受付期間は${formatDate(subsidy.startDate) ?? "未確認"}〜${formatDate(subsidy.endDate) ?? "未確認"}で、現在は「${STATUS_LABEL[subsidy.status] ?? "要確認"}」です。`
     )
   }
   return sentences.join("")
@@ -254,7 +258,11 @@ function plainTextToHtml(text: string) {
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
 }
 
-function sanitizeDetailHtml(html: string) {
+// 公開元の入力テンプレート文が残っている制度があるため、未記載として表示する
+const TEMPLATE_PLACEHOLDER = /（ここに[^）]*入力して(?:下|くだ)さい。?）/g
+
+function sanitizeDetailHtml(raw: string) {
+  const html = raw.replace(TEMPLATE_PLACEHOLDER, "（公開情報に記載なし）")
   const isHtml = /<[a-z][\s\S]*>/i.test(html)
   if (!isHtml) return plainTextToHtml(html)
   return html
@@ -289,7 +297,7 @@ function buildSubsidyStructuredData(
       ? "日本全国"
       : subsidy.prefectures.length > 0
         ? subsidy.prefectures
-        : (regionLabel[subsidy.region] ?? subsidy.region)
+        : areaLabel(subsidy)
   const detailText = stripHtml(subsidy.detail).slice(0, 5000)
 
   return {
@@ -393,18 +401,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-const statusLabel: Record<string, { label: string; color: string }> = {
-  open: { label: "受付中", color: "#22c55e" },
-  upcoming: { label: "公募前", color: "#f59e0b" },
-  closed: { label: "終了", color: "#6b7280" },
-  unknown: { label: "要確認", color: "#94a3b8" },
+const SOURCE_LABEL: Record<string, string> = {
+  jgrants: "Jグランツ（デジタル庁）",
+  tokyo: "東京都",
+  national: "国の公開情報",
+  manual: "公的機関の公開情報（運営者が個別に登録）",
 }
 
-const regionLabel: Record<string, string> = {
-  national: "全国",
-  tokyo: "東京都",
-  prefecture: "都道府県",
-}
+const UNCONFIRMED = "未確認（公募要領でご確認ください）"
 
 type Props = { params: Promise<{ slug: string }> }
 
@@ -429,7 +433,7 @@ const Page: FC<Props> = async ({ params }) => {
         <Link
           href="/subsidies"
           style={{
-            color: "#38b48b",
+            color: "var(--green-dark)",
             textDecoration: "none",
             fontSize: ".875rem",
           }}
@@ -440,7 +444,7 @@ const Page: FC<Props> = async ({ params }) => {
     )
   }
 
-  const st = statusLabel[subsidy.status] ?? statusLabel.unknown
+  const history = loadUpdateHistory()
   const pageUrl = absoluteUrl(`/subsidies/${subsidy.slug}/`)
   const description = buildDescription(subsidy)
   const relatedGroups = getRelatedGroups(subsidy)
@@ -463,55 +467,44 @@ const Page: FC<Props> = async ({ params }) => {
     { name: subsidy.title, url: pageUrl },
   ])
 
-  const infoRows: { label: string; value: string | null }[] = [
+
+  const amount = subsidy.upperLimit && subsidy.upperLimit !== "0円" ? formatAmount(subsidy.upperLimit) : null
+  const period =
+    subsidy.startDate || subsidy.endDate
+      ? `${formatDate(subsidy.startDate) ?? "未確認"} 〜 ${formatDate(subsidy.endDate) ?? "未確認"}`
+      : null
+  const employees =
+    subsidy.targetNumberOfEmployees ??
+    (subsidy.employeeMin !== null || subsidy.employeeMax !== null
+      ? `${subsidy.employeeMin ?? "—"}〜${subsidy.employeeMax ?? "—"}人`
+      : null)
+
+  const keyFacts: { label: string; value: React.ReactNode }[] = [
+    { label: "受付状態", value: <StatusBadge status={subsidy.status} /> },
     { label: "対象地域", value: areaLabel(subsidy) === "全国" ? "全国" : subsidy.prefectures.join("、") },
-    {
-      label: "対象者（従業員数）",
-      value:
-        subsidy.targetNumberOfEmployees ??
-        (subsidy.employeeMin !== null || subsidy.employeeMax !== null
-          ? `${subsidy.employeeMin ?? "—"}〜${subsidy.employeeMax ?? "—"}人`
-          : null),
-    },
+    { label: "申請期間", value: period },
+    { label: "補助上限額", value: amount },
     { label: "補助率", value: subsidy.subsidizedRate },
-    {
-      label: "補助上限額",
-      value:
-        subsidy.upperLimit === "0円"
-          ? "情報なし"
-          : formatAmount(subsidy.upperLimit),
-    },
-    { label: "補助下限額", value: formatAmount(subsidy.lowerLimit) },
-    { label: "受付開始", value: formatDate(subsidy.startDate) },
-    { label: "受付終了", value: formatDate(subsidy.endDate) },
+  ]
+
+  const targetRows: { label: string; value: string | null }[] = [
+    { label: "対象者（従業員数）", value: employees },
+    { label: "中小企業向け", value: subsidy.isForSME ? "中小企業・小規模事業者が対象に含まれます" : null },
     { label: "対象業種", value: industryLabel(subsidy) },
     {
       label: "利用目的",
       value: subsidy.usePurpose ?? (subsidy.purposes.length > 0 ? subsidy.purposes.map(purposeLabel).join("、") : null),
     },
+    { label: "補助下限額", value: formatAmount(subsidy.lowerLimit) },
     { label: "申請窓口", value: subsidy.workflow },
-    {
-      label: "出典",
-      value:
-        subsidy.source === "jgrants"
-          ? "Jグランツ"
-          : subsidy.source === "tokyo"
-            ? "東京都"
-            : "手動登録",
-    },
-    { label: "最終更新日", value: formatDate(subsidy.updatedAt) },
   ]
 
+  const show = (v: React.ReactNode) => v ?? <span className="unconfirmed">{UNCONFIRMED}</span>
+
   return (
-    <div className="page-content">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
-      />
+    <div className="page-content" style={{ maxWidth: "960px" }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }} />
       {faqItems.length > 0 && (
         <script
           type="application/ld+json"
@@ -521,392 +514,160 @@ const Page: FC<Props> = async ({ params }) => {
       <Breadcrumb
         items={[
           { label: "ホーム", href: "/" },
-          { label: "補助金一覧", href: "/subsidies" },
+          { label: "補助金一覧", href: "/subsidies/" },
           ...(localPrefecture ? [{ label: parentCrumb.name, href: parentCrumb.path }] : []),
           { label: subsidy.title },
         ]}
       />
 
-      <div
-        style={{
-          backgroundColor: "var(--bg-surface)",
-          borderRadius: "10px",
-          padding: "1.5rem",
-          border: "1px solid var(--border-strong)",
-          marginBottom: "1.5rem",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            gap: ".75rem",
-            marginBottom: "1rem",
-            flexWrap: "wrap",
-          }}
-        >
-          <span
-            style={{
-              backgroundColor: st.color + "22",
-              color: st.color,
-              border: `1px solid ${st.color}44`,
-              borderRadius: "4px",
-              padding: ".2rem .6rem",
-              fontSize: ".8rem",
-            }}
-          >
-            {st.label}
-          </span>
-          <span
-            style={{
-              backgroundColor: "var(--bg-surface-alt)",
-              color: "var(--text-base)",
-              borderRadius: "4px",
-              padding: ".2rem .6rem",
-              fontSize: ".8rem",
-              border: "1px solid var(--border-strong)",
-            }}
-          >
-            {regionLabel[subsidy.region] ?? subsidy.region}
-          </span>
-          {subsidy.prefectures.length > 0 && subsidy.region !== "national" && (
-            <span
-              style={{
-                color: "var(--text-muted)",
-                fontSize: ".8rem",
-                alignSelf: "center",
-              }}
-            >
-              {subsidy.prefectures.join("、")}
-            </span>
-          )}
-          <span
-            style={{
-              color: "var(--text-muted)",
-              fontSize: ".8rem",
-              alignSelf: "center",
-              marginLeft: "auto",
-            }}
-          >
-            最終更新日：{formatDate(subsidy.updatedAt)}
-          </span>
+      <header style={{ marginBottom: "1.5rem" }}>
+        <div className="card-meta">
+          <StatusBadge status={subsidy.status} />
+          <span className="badge badge-navy">{areaLabel(subsidy)}</span>
+          {subsidy.isForSME && <span className="badge">中小企業向け</span>}
         </div>
-
-        <h1
-          style={{
-            color: "var(--text-strong)",
-            fontSize: "1.3rem",
-            fontWeight: "bold",
-            marginBottom: "1rem",
-          }}
-        >
-          {subsidy.title}
-        </h1>
-
-        <p
-          style={{
-            color: "var(--text-strong)",
-            fontSize: ".92rem",
-            lineHeight: 1.8,
-            marginBottom: "1rem",
-          }}
-        >
-          {summary}
-        </p>
-
-        {subsidy.workflow && (
-          <div
-            style={{
-              backgroundColor: "#38b48b22",
-              border: "1px solid #38b48b44",
-              borderRadius: "6px",
-              padding: ".75rem 1rem",
-              marginBottom: "1rem",
-              color: "#38b48b",
-              fontSize: ".875rem",
-            }}
-          >
-            <strong>申請窓口：</strong> {subsidy.workflow}
-          </div>
-        )}
-
-        {subsidy.overview && (
-          <p
-            style={{
-              color: "var(--text-base)",
-              fontSize: ".9rem",
-              lineHeight: 1.7,
-            }}
-          >
-            {subsidy.overview}
+        <h1 className="page-title">{subsidy.title}</h1>
+        <p style={{ fontSize: ".95rem" }}>{summary}</p>
+        {subsidy.status === "closed" && (
+          <p className="note" style={{ marginTop: "1rem", borderLeftColor: "#6b7280" }}>
+            この制度は受付を終了しています（データ取得時点）。次回の公募予定は公式情報をご確認ください。
           </p>
         )}
-      </div>
+      </header>
 
-      <div
-        style={{
-          backgroundColor: "var(--bg-surface)",
-          borderRadius: "10px",
-          border: "1px solid var(--border-strong)",
-          marginBottom: "1.5rem",
-          overflow: "hidden",
-        }}
-      >
-        <table style={{ width: "100%", borderCollapse: "collapse" }}>
+      <section aria-labelledby="key-facts" className="card" style={{ padding: 0, overflow: "hidden", marginBottom: "1.5rem" }}>
+        <h2 id="key-facts" className="visually-hidden">
+          制度の要点
+        </h2>
+        <table className="data-table">
           <tbody>
-            {infoRows
-              .filter((r) => r.value)
-              .map((row) => (
-                <tr
-                  key={row.label}
-                  style={{ borderBottom: "1px solid var(--border-strong)" }}
-                >
-                  <td
-                    style={{
-                      padding: ".75rem 1rem",
-                      color: "var(--text-base)",
-                      fontSize: ".8rem",
-                      width: "140px",
-                      whiteSpace: "nowrap",
-                      verticalAlign: "top",
-                      fontWeight: "500",
-                    }}
-                  >
-                    {row.label}
-                  </td>
-                  <td
-                    style={{
-                      padding: ".75rem 1rem",
-                      color: "var(--text-strong)",
-                      fontSize: ".9rem",
-                    }}
-                  >
-                    {row.value}
-                  </td>
-                </tr>
-              ))}
+            {keyFacts.map((row) => (
+              <tr key={row.label}>
+                <th scope="row">{row.label}</th>
+                <td style={{ fontWeight: 700, color: "var(--text-strong)" }}>{show(row.value)}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
-      </div>
-
-      {lawyerComment && (
-        <div
-          style={{
-            backgroundColor: "#f0fdf8",
-            border: "1px solid #a7f3d0",
-            borderRadius: "10px",
-            padding: "1.25rem",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2
-            style={{
-              color: "#059669",
-              fontSize: ".85rem",
-              fontWeight: "bold",
-              marginBottom: ".75rem",
-            }}
-          >
-            行政書士コメント
-          </h2>
-          <p
-            style={{
-              color: "#064e3b",
-              fontSize: ".9rem",
-              lineHeight: 1.7,
-              margin: 0,
-            }}
-          >
-            {lawyerComment}
-          </p>
-        </div>
-      )}
-
-      {subsidy.purposes.length > 0 && (
-        <div style={{ marginBottom: "1.5rem" }}>
-          <h2
-            style={{
-              color: "var(--text-base)",
-              fontSize: ".85rem",
-              fontWeight: "600",
-              marginBottom: ".5rem",
-            }}
-          >
-            対象用途
-          </h2>
-          <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
-            {subsidy.purposes.map((p) => (
-              <Link
-                key={p}
-                href={`/subsidies/purpose/${encodeURIComponent(p)}/`}
-                style={{
-                  textDecoration: "none",
-                  backgroundColor: "var(--bg-tag)",
-                  color: "#38b48b",
-                  borderRadius: "4px",
-                  padding: ".25rem .6rem",
-                  fontSize: ".8rem",
-                }}
-              >
-                {purposeLabel(p)}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {subsidy.industries.length > 0 && (
-        <div style={{ marginBottom: "1.5rem" }}>
-          <h2
-            style={{
-              color: "var(--text-base)",
-              fontSize: ".85rem",
-              fontWeight: "600",
-              marginBottom: ".5rem",
-            }}
-          >
-            対象業種
-          </h2>
-          <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap" }}>
-            {subsidy.industries.map((ind) => (
-              <Link
-                key={ind}
-                href={`/subsidies/industry/${encodeURIComponent(ind)}/`}
-                style={{
-                  textDecoration: "none",
-                  backgroundColor: "var(--bg-surface-alt)",
-                  color: "var(--text-base)",
-                  borderRadius: "4px",
-                  padding: ".25rem .6rem",
-                  fontSize: ".8rem",
-                }}
-              >
-                {ind}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {subsidy.detail && (
-        <div
-          style={{
-            backgroundColor: "var(--bg-surface)",
-            borderRadius: "10px",
-            padding: "1.25rem",
-            border: "1px solid var(--border-strong)",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2
-            style={{
-              color: "var(--text-base)",
-              fontSize: ".85rem",
-              fontWeight: "600",
-              marginBottom: ".75rem",
-            }}
-          >
-            詳細
-          </h2>
-          <div
-            className="rich-html"
-            dangerouslySetInnerHTML={{
-              __html: sanitizeDetailHtml(subsidy.detail),
-            }}
-          />
-        </div>
-      )}
+      </section>
 
       {subsidy.referenceUrl && (
-        <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-          <a
-            href={subsidy.referenceUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: "inline-block",
-              backgroundColor: "#38b48b",
-              color: "#fff",
-              padding: ".75rem 2rem",
-              borderRadius: "8px",
-              textDecoration: "none",
-              fontWeight: "bold",
-              fontSize: ".9rem",
-            }}
-          >
-            公式ページを見る →
+        <div className="card" style={{ marginBottom: "2rem", display: "flex", flexWrap: "wrap", gap: "1rem", alignItems: "center", justifyContent: "space-between", background: "var(--navy-50)", borderColor: "#c9d4e3" }}>
+          <p style={{ fontSize: ".9rem", flex: "1 1 280px" }}>
+            公募要領・申請方法・必要書類は公式ページで確認できます。申請前に必ず最新の公式情報をご確認ください。
+          </p>
+          <a href={subsidy.referenceUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            公式ページ（公募要領・申請窓口）を開く
+            <span className="visually-hidden">（新しいタブで開きます）</span>
           </a>
         </div>
       )}
 
-      <FaqSection items={faqItems} />
+      {subsidy.overview && (
+        <section style={{ marginBottom: "2rem" }}>
+          <h2 style={{ fontSize: "1.2rem", marginBottom: ".75rem" }}>制度の概要</h2>
+          <p style={{ fontSize: ".95rem", lineHeight: 1.9 }}>{subsidy.overview}</p>
+        </section>
+      )}
 
-      {relatedGroups.map((group) => (
-        <section key={group.heading} style={{ marginBottom: "1.5rem" }}>
-          <h2
-            style={{
-              color: "var(--text-base)",
-              fontSize: ".85rem",
-              fontWeight: "600",
-              marginBottom: ".75rem",
-            }}
-          >
-            {group.heading}
-          </h2>
-          <div style={{ display: "grid", gap: ".5rem" }}>
-            {group.items.map((s) => (
-              <Link
-                key={s.slug}
-                href={`/subsidies/${s.slug}/`}
-                style={{
-                  backgroundColor: "var(--bg-surface)",
-                  border: "1px solid var(--border-soft)",
-                  borderRadius: "8px",
-                  padding: ".75rem 1rem",
-                  textDecoration: "none",
-                  display: "block",
-                }}
-              >
-                <span
-                  style={{
-                    backgroundColor:
-                      s.status === "open" ? "#22c55e22" : "#f59e0b22",
-                    color: s.status === "open" ? "#22c55e" : "#f59e0b",
-                    border: `1px solid ${s.status === "open" ? "#22c55e44" : "#f59e0b44"}`,
-                    borderRadius: "4px",
-                    padding: ".1rem .45rem",
-                    fontSize: ".72rem",
-                    marginRight: ".5rem",
-                  }}
-                >
-                  {s.status === "open" ? "受付中" : "公募前"}
-                </span>
-                <span
-                  style={{ color: "var(--text-strong)", fontSize: ".88rem" }}
-                >
-                  {s.title}
-                </span>
+      <section style={{ marginBottom: "2rem" }}>
+        <h2 style={{ fontSize: "1.2rem", marginBottom: ".75rem" }}>対象者・利用条件</h2>
+        <div className="card" style={{ padding: 0, overflow: "hidden" }}>
+          <table className="data-table">
+            <tbody>
+              {targetRows.map((row) => (
+                <tr key={row.label}>
+                  <th scope="row">{row.label}</th>
+                  <td>{show(row.value)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        {(subsidy.purposes.length > 0 || subsidy.industries.length > 0) && (
+          <div className="chip-group" style={{ marginTop: "1rem" }}>
+            {subsidy.purposes.map((p) => (
+              <Link key={p} href={`/subsidies/purpose/${encodeURIComponent(p)}/`} className="chip">
+                {purposeLabel(p)}の補助金
               </Link>
             ))}
+            {subsidy.industries.length < ALL_INDUSTRY_THRESHOLD &&
+              subsidy.industries.map((ind) => (
+                <Link key={ind} href={`/subsidies/industry/${encodeURIComponent(ind)}/`} className="chip">
+                  {ind}の補助金
+                </Link>
+              ))}
           </div>
-          <Link
-            href={group.href}
-            style={{ display: "inline-block", marginTop: ".5rem", color: "#38b48b", fontSize: ".82rem", textDecoration: "none" }}
-          >
-            {group.linkLabel} →
-          </Link>
+        )}
+      </section>
+
+      {lawyerComment && (
+        <section className="note" style={{ marginBottom: "2rem", borderLeftColor: "var(--green)" }}>
+          <h2 style={{ fontSize: ".95rem", marginBottom: ".4rem" }}>行政書士コメント（サイト独自の解説）</h2>
+          <p>{lawyerComment}</p>
+        </section>
+      )}
+
+      <section style={{ marginBottom: "2rem" }}>
+        <h2 style={{ fontSize: "1.2rem", marginBottom: ".35rem" }}>対象経費・申請方法・必要書類</h2>
+        <p style={{ color: "var(--text-muted)", fontSize: ".85rem", marginBottom: ".75rem" }}>
+          以下は{SOURCE_LABEL[subsidy.source] ?? "公的機関"}が公開している制度情報の原文です。対象経費・申請方法・必要書類が記載されていない場合は、公式ページの公募要領をご確認ください。
+        </p>
+        {subsidy.detail ? (
+          <div className="card rich-html" dangerouslySetInnerHTML={{ __html: sanitizeDetailHtml(subsidy.detail) }} />
+        ) : (
+          <p className="card unconfirmed">公開情報に詳細の記載がありません。{UNCONFIRMED}</p>
+        )}
+      </section>
+
+      <FaqSection items={faqItems} title={`${subsidy.title}のよくある質問`} />
+
+      <section className="note" style={{ marginBottom: "2rem" }} aria-label="データの出典">
+        <p>
+          <strong>出典：</strong>
+          {SOURCE_LABEL[subsidy.source] ?? "公的機関の公開情報"}
+          {subsidy.referenceUrl && (
+            <>
+              （
+              <a href={subsidy.referenceUrl} target="_blank" rel="noopener noreferrer">
+                公式ページ
+              </a>
+              ）
+            </>
+          )}
+        </p>
+        <p>
+          <strong>制度情報の更新日：</strong>
+          {formatDate(subsidy.updatedAt) ?? "未確認"}
+          {history && (
+            <>
+              ／<strong>当サイトの最終確認日：</strong>
+              {formatDate(toJstDate(history.lastUpdated))}
+            </>
+          )}
+        </p>
+        <p>
+          受付状態は取得時点の受付期間から判定しています。予算到達による早期終了や期間変更がありうるため、申請前に公式情報をご確認ください。本ページの情報は採択・受給を保証するものではありません。
+          <Link href="/about/">データの取得方法について</Link>
+        </p>
+      </section>
+
+      {relatedGroups.map((group) => (
+        <section key={group.heading} style={{ marginBottom: "2rem" }}>
+          <div className="section-head" style={{ marginBottom: ".75rem" }}>
+            <h2 style={{ fontSize: "1.1rem" }}>{group.heading}</h2>
+            <Link href={group.href} className="link-more">
+              {group.linkLabel} →
+            </Link>
+          </div>
+          <SubsidyLinkList items={group.items} />
         </section>
       ))}
 
-      <div style={{ textAlign: "center" }}>
-        <Link
-          href="/diagnosis"
-          style={{
-            color: "#38b48b",
-            textDecoration: "none",
-            fontSize: ".875rem",
-          }}
-        >
-          この補助金との適合度を診断する →
+      <div className="card" style={{ textAlign: "center", background: "var(--bg-surface-alt)" }}>
+        <p style={{ marginBottom: ".75rem" }}>ほかに使える補助金がないか、条件から探せます。</p>
+        <Link href="/diagnosis/" className="btn btn-navy">
+          補助金診断で探す
         </Link>
       </div>
     </div>

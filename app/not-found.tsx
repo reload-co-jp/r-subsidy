@@ -21,7 +21,7 @@ const NotFound: FC = () => {
         style={{
           fontSize: "5rem",
           fontWeight: "bold",
-          color: "#38b48b",
+          color: "var(--green-dark)",
           lineHeight: 1,
           marginBottom: "1rem",
         }}
@@ -52,7 +52,7 @@ const NotFound: FC = () => {
         <Link
           href="/"
           style={{
-            backgroundColor: "#38b48b",
+            backgroundColor: "var(--green-dark)",
             color: "#fff",
             textDecoration: "none",
             padding: ".75rem 1.75rem",

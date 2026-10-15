@@ -4,6 +4,8 @@ import Script from "next/script"
 import type { Metadata } from "next"
 import {
   DEFAULT_OG_IMAGE,
+  OPERATOR_NAME,
+  OPERATOR_URL,
   SITE_DESCRIPTION,
   SITE_NAME,
   SITE_URL,
@@ -11,6 +13,8 @@ import {
   buildOrganizationSchema,
   buildWebSiteSchema,
 } from "../lib/site"
+import { loadUpdateHistory, toJstDate } from "../lib/seo"
+import { formatDate } from "../lib/format"
 
 const GA_MEASUREMENT_ID = "G-LECQC20MLT"
 const isProduction = process.env.NODE_ENV === "production"
@@ -79,6 +83,8 @@ export const metadata: Metadata = {
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   const structuredData = [buildOrganizationSchema(), buildWebSiteSchema()]
+  const history = loadUpdateHistory()
+  const lastUpdated = history ? formatDate(toJstDate(history.lastUpdated)) : null
 
   return (
     <html lang="ja">
@@ -111,184 +117,88 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             </Script>
           </>
         )}
+        <a href="#main" className="skip-link">
+          本文へスキップ
+        </a>
         <header className="site-header">
           <nav className="site-nav" aria-label="グローバルナビゲーション">
             <Link href="/" className="site-logo">
-              RSubsidy 補助金サーチ
+              RSubsidy <span>補助金サーチ</span>
             </Link>
-            <Link href="/subsidies" className="site-nav-link">
-              補助金一覧
-            </Link>
-            <Link href="/news" className="site-nav-link">
-              ニュース
-            </Link>
-            <Link href="/guides" className="site-nav-link">
-              申請ガイド
-            </Link>
-            <Link href="/cases" className="site-nav-link">
-              申請事例
-            </Link>
-            <Link href="/diagnosis" className="site-nav-link site-nav-cta">
-              診断スタート →
-            </Link>
+            <ul className="site-nav-links">
+              <li>
+                <Link href="/subsidies/" className="site-nav-link">
+                  補助金一覧
+                </Link>
+              </li>
+              <li>
+                <Link href="/guides/" className="site-nav-link">
+                  申請ガイド
+                </Link>
+              </li>
+              <li>
+                <Link href="/diagnosis/" className="btn btn-primary btn-sm">
+                  補助金診断
+                </Link>
+              </li>
+            </ul>
           </nav>
         </header>
-        <main className="site-main">{children}</main>
-        <footer
-          style={{
-            backgroundColor: "#1a1a1a",
-            borderTop: "3px solid #B9985A",
-            color: "rgba(255,255,255,0.7)",
-            padding: "3rem 2rem 2rem",
-          }}
-        >
-          <div
-            style={{
-              maxWidth: "1200px",
-              margin: "0 auto",
-            }}
-          >
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-                gap: "2rem",
-                marginBottom: "2.5rem",
-              }}
-            >
+        <main id="main" className="site-main">
+          {children}
+        </main>
+        <footer className="site-footer">
+          <div className="container">
+            <div className="footer-grid">
               <div>
-                <p
-                  style={{
-                    color: "#B9985A",
-                    fontWeight: "bold",
-                    fontSize: "1rem",
-                    marginBottom: "1rem",
-                    letterSpacing: ".04em",
-                  }}
-                >
-                  RSubsidy
-                </p>
-                <p style={{ fontSize: ".8rem", lineHeight: 1.7 }}>
-                  中小企業・個人事業主向け
-                  <br />
-                  補助金ポータルサイト
-                </p>
+                <p className="footer-heading">RSubsidy 補助金サーチ</p>
+                <p>中小企業・個人事業主向けの補助金・助成金データベース</p>
               </div>
-              <div>
-                <p
-                  style={{
-                    color: "#ffffff",
-                    fontWeight: "bold",
-                    fontSize: ".8rem",
-                    marginBottom: ".75rem",
-                    letterSpacing: ".06em",
-                    textTransform: "uppercase",
-                  }}
-                >
-                  サービス
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: ".5rem",
-                  }}
-                >
-                  {[
-                    { label: "補助金一覧", href: "/subsidies" },
-                    { label: "補助金診断", href: "/diagnosis" },
-                    { label: "申請ガイド", href: "/guides" },
-                    { label: "申請事例", href: "/cases" },
-                  ].map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      style={{
-                        color: "rgba(255,255,255,0.6)",
-                        fontSize: ".8rem",
-                        textDecoration: "none",
-                      }}
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-              <div>
-                <p
-                  style={{
-                    color: "#ffffff",
-                    fontWeight: "bold",
-                    fontSize: ".8rem",
-                    marginBottom: ".75rem",
-                    letterSpacing: ".06em",
-                    textTransform: "uppercase",
-                  }}
-                >
-                  情報
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: ".5rem",
-                  }}
-                >
-                  {[
-                    { label: "ニュース", href: "/news" },
-                    { label: "このサイトについて", href: "/about" },
-                  ].map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      style={{
-                        color: "rgba(255,255,255,0.6)",
-                        fontSize: ".8rem",
-                        textDecoration: "none",
-                      }}
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-              <div>
-                <p
-                  style={{
-                    color: "#ffffff",
-                    fontWeight: "bold",
-                    fontSize: ".8rem",
-                    marginBottom: ".75rem",
-                    letterSpacing: ".06em",
-                    textTransform: "uppercase",
-                  }}
-                >
-                  運営
-                </p>
-                <a
-                  href="https://reload.co.jp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    color: "rgba(255,255,255,0.6)",
-                    fontSize: ".8rem",
-                    textDecoration: "none",
-                  }}
-                >
-                  株式会社リロード
-                </a>
-              </div>
+              <nav aria-label="補助金を探す">
+                <p className="footer-heading">補助金を探す</p>
+                <ul className="footer-list">
+                  <li><Link href="/subsidies/">補助金一覧</Link></li>
+                  <li><Link href="/subsidies/open/">受付中の補助金</Link></li>
+                  <li><Link href="/subsidies/deadline/">締切が近い補助金</Link></li>
+                  <li><Link href="/subsidies/upcoming/">公募予定の補助金</Link></li>
+                  <li><Link href="/diagnosis/">補助金診断</Link></li>
+                </ul>
+              </nav>
+              <nav aria-label="お役立ち情報">
+                <p className="footer-heading">お役立ち情報</p>
+                <ul className="footer-list">
+                  <li><Link href="/guides/">申請ガイド</Link></li>
+                  <li><Link href="/cases/">申請事例</Link></li>
+                  <li><Link href="/news/">ニュース</Link></li>
+                </ul>
+              </nav>
+              <nav aria-label="サイトについて">
+                <p className="footer-heading">サイトについて</p>
+                <ul className="footer-list">
+                  <li><Link href="/about/">運営者情報・データについて</Link></li>
+                  <li><Link href="/privacy/">プライバシーポリシー</Link></li>
+                  <li>
+                    <a href={OPERATOR_URL} target="_blank" rel="noopener noreferrer">
+                      {OPERATOR_NAME}（運営会社）
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-            <div
-              style={{
-                borderTop: "1px solid rgba(255,255,255,0.1)",
-                paddingTop: "1.25rem",
-                fontSize: ".75rem",
-                color: "rgba(255,255,255,0.4)",
-              }}
-            >
-              &copy; {new Date().getFullYear()} RSubsidy 補助金サーチ —
-              JグランツAPI連携
+            <div className="footer-note">
+              <p>
+                データ出典：
+                <a href="https://www.jgrants-portal.go.jp/" target="_blank" rel="noopener noreferrer">
+                  Jグランツ（デジタル庁）
+                </a>
+                の公開API、東京都ほか自治体の公開情報。
+                {lastUpdated && <>最終データ更新：{lastUpdated}。</>}
+              </p>
+              <p>
+                掲載情報は公開情報を自動取得・整理したもので、内容の正確性・最新性を保証するものではありません。
+                申請の際は必ず各制度の公募要領・公式窓口で最新情報をご確認ください。本サイトは採択・受給を保証するものではありません。
+              </p>
+              <p>&copy; {new Date().getFullYear()} {OPERATOR_NAME}</p>
             </div>
           </div>
         </footer>

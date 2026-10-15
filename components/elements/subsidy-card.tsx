@@ -1,17 +1,20 @@
 import type { ReactNode } from "react"
 import Link from "next/link"
-import { formatAmount, formatDate } from "../../lib/format"
+import type { Status } from "../../lib/types"
+import { areaLabel, formatAmount, formatDate } from "../../lib/format"
 import PurposeTagLink from "./purpose-tag-link"
-
-export type SubsidyCardBadge = { label: string; color: string }
+import StatusBadge from "./status-badge"
 
 export default function SubsidyCard({
   slug,
   title,
+  status,
+  region,
+  prefectures,
   upperLimit,
+  endDate,
   purposes = [],
   maxPurposes = 4,
-  badges = [],
   overview,
   period,
   updatedAt,
@@ -20,135 +23,77 @@ export default function SubsidyCard({
 }: {
   slug: string
   title: string
+  status?: Status
+  region?: string
+  prefectures?: string[]
   upperLimit?: string | null
+  endDate?: string | null
   purposes?: string[]
   maxPurposes?: number
-  badges?: SubsidyCardBadge[]
   overview?: string | null
   period?: string | null
   updatedAt?: string | null
   accentColor?: string
   trailing?: ReactNode
 }) {
-  const hasUpperLimit = !!upperLimit && upperLimit !== "0円"
+  const amount = upperLimit && upperLimit !== "0円" ? formatAmount(upperLimit) : null
   const visiblePurposes = purposes.slice(0, maxPurposes)
 
   return (
-    <Link href={`/subsidies/${slug}`} style={{ textDecoration: "none" }}>
-      <div
-        style={{
-          backgroundColor: "var(--bg-surface)",
-          borderRadius: "8px",
-          padding: trailing ? "1rem 1.25rem" : "1.25rem",
-          border: `1px solid ${accentColor ? `${accentColor}33` : "var(--border-soft)"}`,
-          transition: "border-color .15s",
-          cursor: "pointer",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          gap: "1rem",
-        }}
-      >
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "flex-start",
-              gap: ".75rem",
-              flexWrap: "wrap",
-            }}
-          >
-            {badges.map((b) => (
-              <span
-                key={b.label}
-                style={{
-                  backgroundColor: b.color + "22",
-                  color: b.color,
-                  border: `1px solid ${b.color}44`,
-                  borderRadius: "4px",
-                  padding: ".15rem .5rem",
-                  fontSize: ".75rem",
-                  whiteSpace: "nowrap",
-                  flexShrink: 0,
-                }}
-              >
-                {b.label}
-              </span>
-            ))}
-            <h2
-              style={{
-                color: "var(--text-strong)",
-                fontSize: ".95rem",
-                fontWeight: "bold",
-                margin: 0,
-                flex: 1,
-                minWidth: "200px",
-              }}
-            >
-              {title}
-            </h2>
+    <Link
+      href={`/subsidies/${slug}/`}
+      className="card card-link"
+      style={{
+        display: "flex",
+        gap: "1rem",
+        alignItems: "center",
+        borderLeft: accentColor ? `4px solid ${accentColor}` : undefined,
+      }}
+    >
+      <div style={{ flex: 1, minWidth: 0 }}>
+        {(status || region) && (
+          <div className="card-meta">
+            {status && <StatusBadge status={status} />}
+            {region && <span className="badge badge-navy">{areaLabel({ region, prefectures: prefectures ?? [] })}</span>}
           </div>
-          {overview && (
-            <p
-              style={{
-                color: "var(--text-muted)",
-                fontSize: ".8rem",
-                marginTop: ".5rem",
-                lineHeight: 1.6,
-                overflow: "hidden",
-                display: "-webkit-box",
-                WebkitLineClamp: 2,
-                WebkitBoxOrient: "vertical",
-              }}
-            >
-              {overview}
-            </p>
-          )}
-          {(visiblePurposes.length > 0 || hasUpperLimit) && (
-            <div
-              style={{
-                marginTop: ".75rem",
-                display: "flex",
-                gap: ".5rem",
-                flexWrap: "wrap",
-                alignItems: "center",
-              }}
-            >
-              {visiblePurposes.map((p) => (
-                <PurposeTagLink key={p} purpose={p} />
-              ))}
-              {hasUpperLimit && (
-                <span
-                  style={{
-                    marginLeft: visiblePurposes.length > 0 ? "auto" : 0,
-                    color: "#f59e0b",
-                    fontSize: ".8rem",
-                    whiteSpace: "nowrap",
-                  }}
-                >
-                  上限 {formatAmount(upperLimit ?? null)}
-                </span>
-              )}
+        )}
+        <h3 className="card-title">{title}</h3>
+        {overview && <p className="card-text">{overview}</p>}
+        <dl className="card-facts">
+          {status !== "upcoming" && endDate !== undefined && (
+            <div>
+              <dt>締切</dt>
+              <dd>{formatDate(endDate) ?? <span className="unconfirmed">未確認</span>}</dd>
             </div>
           )}
-          {(period || updatedAt) && (
-            <p
-              style={{
-                color: "var(--text-muted)",
-                fontSize: ".8rem",
-                marginTop: ".55rem",
-              }}
-            >
-              {period && <span>受付期間 {period}</span>}
-              {period && updatedAt && <span> ・ </span>}
-              {updatedAt && <span>更新 {formatDate(updatedAt)}</span>}
-            </p>
+          {upperLimit !== undefined && (
+            <div>
+              <dt>補助上限</dt>
+              <dd>{amount ?? <span className="unconfirmed">未確認</span>}</dd>
+            </div>
           )}
-        </div>
-        {trailing && (
-          <div style={{ textAlign: "right", flexShrink: 0 }}>{trailing}</div>
+          {period && (
+            <div>
+              <dt>受付期間</dt>
+              <dd style={{ fontWeight: 400 }}>{period}</dd>
+            </div>
+          )}
+          {updatedAt && (
+            <div>
+              <dt>更新</dt>
+              <dd style={{ fontWeight: 400 }}>{formatDate(updatedAt)}</dd>
+            </div>
+          )}
+        </dl>
+        {visiblePurposes.length > 0 && (
+          <div className="chip-group" style={{ gap: ".35rem", marginTop: ".6rem" }}>
+            {visiblePurposes.map((p) => (
+              <PurposeTagLink key={p} purpose={p} />
+            ))}
+          </div>
         )}
       </div>
+      {trailing && <div style={{ textAlign: "right", flexShrink: 0 }}>{trailing}</div>}
     </Link>
   )
 }

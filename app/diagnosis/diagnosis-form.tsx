@@ -71,11 +71,11 @@ export default function DiagnosisForm({
       {error && (
         <div
           style={{
-            backgroundColor: "#7f1d1d22",
-            border: "1px solid #ef444444",
+            backgroundColor: "#fdecec",
+            border: "1px solid #f2c4c6",
             borderRadius: "6px",
             padding: ".75rem 1rem",
-            color: "#fca5a5",
+            color: "var(--red-text)",
             fontSize: ".875rem",
             marginBottom: "1rem",
           }}
@@ -95,10 +95,10 @@ export default function DiagnosisForm({
                   flex: 1,
                   padding: ".6rem",
                   borderRadius: "6px",
-                  border: `1px solid ${businessType === t ? "#38b48b" : "var(--border-soft)"}`,
+                  border: `1px solid ${businessType === t ? "var(--green-dark)" : "var(--border-soft)"}`,
                   backgroundColor:
-                    businessType === t ? "#38b48b22" : "var(--bg-surface)",
-                  color: businessType === t ? "#38b48b" : "var(--text-muted)",
+                    businessType === t ? "var(--green-50)" : "var(--bg-surface)",
+                  color: businessType === t ? "var(--green-dark)" : "var(--text-muted)",
                   cursor: "pointer",
                   fontSize: ".875rem",
                 }}
@@ -146,7 +146,7 @@ export default function DiagnosisForm({
             onChange={(e) => setEmployeeCount(Number(e.target.value))}
             style={{
               width: "100%",
-              accentColor: "#38b48b",
+              accentColor: "var(--green-dark)",
             }}
           />
           <div
@@ -179,11 +179,11 @@ export default function DiagnosisForm({
                   style={{
                     padding: ".5rem .75rem",
                     borderRadius: "6px",
-                    border: `1px solid ${selected ? "#38b48b" : "var(--border-soft)"}`,
+                    border: `1px solid ${selected ? "var(--green-dark)" : "var(--border-soft)"}`,
                     backgroundColor: selected
-                      ? "#38b48b22"
+                      ? "var(--green-50)"
                       : "var(--bg-surface)",
-                    color: selected ? "#38b48b" : "var(--text-muted)",
+                    color: selected ? "var(--green-dark)" : "var(--text-muted)",
                     cursor: "pointer",
                     fontSize: ".8rem",
                     textAlign: "left",
@@ -201,7 +201,7 @@ export default function DiagnosisForm({
           onClick={onSubmit}
           disabled={loading}
           style={{
-            backgroundColor: loading ? "#2b8a6a" : "#38b48b",
+            backgroundColor: loading ? "var(--text-soft)" : "var(--green-dark)",
             color: "#fff",
             padding: ".875rem",
             borderRadius: "8px",

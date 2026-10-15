@@ -127,7 +127,7 @@ const Page: FC = () => {
             href="/diagnosis"
             style={{
               display: "inline-block",
-              backgroundColor: "#38b48b",
+              backgroundColor: "var(--green-dark)",
               color: "#fff",
               padding: ".65rem 1.75rem",
               borderRadius: "8px",

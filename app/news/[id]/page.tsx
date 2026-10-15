@@ -74,7 +74,7 @@ const Page: FC<Props> = async ({ params }) => {
         <p style={{ color: "var(--text-muted)", marginBottom: "1rem" }}>
           記事が見つかりませんでした
         </p>
-        <Link href="/news" style={{ color: "#38b48b", textDecoration: "none", fontSize: ".875rem" }}>
+        <Link href="/news" style={{ color: "var(--green-dark)", textDecoration: "none", fontSize: ".875rem" }}>
           ← ニュース一覧に戻る
         </Link>
       </div>
@@ -137,9 +137,9 @@ const Page: FC<Props> = async ({ params }) => {
         <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: "1rem" }}>
           <span
             style={{
-              backgroundColor: "#38b48b22",
-              color: "#38b48b",
-              border: "1px solid #38b48b44",
+              backgroundColor: "var(--green-50)",
+              color: "var(--green-dark)",
+              border: "1px solid var(--green-200)",
               borderRadius: "4px",
               padding: ".2rem .6rem",
               fontSize: ".8rem",
@@ -170,7 +170,7 @@ const Page: FC<Props> = async ({ params }) => {
             color: "var(--text-muted)",
             fontSize: ".9rem",
             lineHeight: 1.7,
-            borderLeft: "3px solid #38b48b",
+            borderLeft: "3px solid var(--green-dark)",
             paddingLeft: "1rem",
             marginBottom: "1.5rem",
           }}
@@ -224,7 +224,7 @@ const Page: FC<Props> = async ({ params }) => {
                 key={slug}
                 href={`/subsidies/${slug}`}
                 style={{
-                  color: "#38b48b",
+                  color: "var(--green-dark)",
                   textDecoration: "none",
                   fontSize: ".875rem",
                 }}

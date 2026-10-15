@@ -115,6 +115,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
+      url: `${siteUrl}/privacy/`,
+      lastModified: undefined,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
+    {
       url: `${siteUrl}/features/it-companies/`,
       lastModified: latestUpdatedAt || undefined,
       changeFrequency: "weekly",

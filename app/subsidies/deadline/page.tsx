@@ -42,12 +42,12 @@ export default function Page() {
       <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>締切が近い補助金・助成金</h1>
       <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8, marginBottom: "1.5rem" }}>
         {formatDate(TODAY)}時点で受付中の補助金のうち、締切が近いものを締切日順に掲載しています。申請には事業計画書の作成やGビズIDの取得に時間がかかるため、早めに準備を始めましょう。受付開始前の制度は
-        <a href="/subsidies/upcoming/" style={{ color: "#38b48b" }}>公募予定の補助金</a>、受付中の全制度は
-        <a href="/subsidies/open/" style={{ color: "#38b48b" }}>受付中の補助金</a>をご覧ください。
+        <a href="/subsidies/upcoming/" style={{ color: "var(--green-dark)" }}>公募予定の補助金</a>、受付中の全制度は
+        <a href="/subsidies/open/" style={{ color: "var(--green-dark)" }}>受付中の補助金</a>をご覧ください。
       </p>
       <nav style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
         {sections.map((s) => (
-          <a key={s.id} href={`#${s.id}`} style={{ fontSize: ".82rem", color: "#38b48b" }}>
+          <a key={s.id} href={`#${s.id}`} style={{ fontSize: ".82rem", color: "var(--green-dark)" }}>
             {s.heading}（{s.items.length}）
           </a>
         ))}

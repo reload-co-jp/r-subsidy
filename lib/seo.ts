@@ -1,8 +1,10 @@
 import fs from "fs"
 import path from "path"
-import type { SubsidyIndexItem } from "./types"
+import type { SubsidyIndexItem, UpdateHistory } from "./types"
 import { todayJst } from "./quality"
-import { formatAmount } from "./format"
+import { areaLabel, formatAmount, purposeLabel } from "./format"
+
+export { areaLabel, purposeLabel }
 
 // 一覧系ページをindexする最低掲載件数（受付中+公募前）。未満は noindex,follow & sitemap除外
 export const MIN_INDEX_COUNT = 5
@@ -13,8 +15,6 @@ export const CURRENT_YEAR = Number(TODAY.slice(0, 4))
 const fiscalYear = Number(TODAY.slice(5, 7)) >= 4 ? CURRENT_YEAR : CURRENT_YEAR - 1
 export const YEAR_LABEL = `${CURRENT_YEAR}年（令和${fiscalYear - 2018}年度）`
 
-const PURPOSE_LABELS: Record<string, string> = { デジタル化: "IT・DX" }
-export const purposeLabel = (purpose: string) => PURPOSE_LABELS[purpose] ?? purpose
 
 export function loadSubsidyIndex(): SubsidyIndexItem[] {
   try {
@@ -24,6 +24,18 @@ export function loadSubsidyIndex(): SubsidyIndexItem[] {
     return []
   }
 }
+
+export function loadUpdateHistory(): UpdateHistory | null {
+  try {
+    const file = path.join(process.cwd(), "data", "generated", "update-history.json")
+    return JSON.parse(fs.readFileSync(file, "utf-8"))
+  } catch {
+    return null
+  }
+}
+
+// ISO日時（UTC）→ JSTの YYYY-MM-DD
+export const toJstDate = (iso: string) => todayJst(new Date(iso))
 
 export const isActive = (s: SubsidyIndexItem) => s.status !== "closed"
 
@@ -38,11 +50,6 @@ export function indexRobots(activeCount: number) {
 
 export function latestUpdatedAt(subsidies: SubsidyIndexItem[]) {
   return subsidies.reduce((latest, s) => (s.updatedAt > latest ? s.updatedAt : latest), "")
-}
-
-export function areaLabel(s: { region: string; prefectures: string[] }) {
-  if (s.region === "national" || s.prefectures.includes("全国") || s.prefectures.length === 0) return "全国"
-  return s.prefectures.length > 3 ? `${s.prefectures.slice(0, 3).join("・")}ほか` : s.prefectures.join("・")
 }
 
 export function subsidyTitle(s: { title: string; region: string; prefectures: string[]; upperLimit: string | null }) {

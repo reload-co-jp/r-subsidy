@@ -53,8 +53,8 @@ export function StatusListPage({ status }: { status: Status }) {
       </h1>
       <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8, marginBottom: "1.5rem" }}>
         {formatDate(TODAY)}
-        {lead}締切が近い制度は<a href="/subsidies/deadline/" style={{ color: "#38b48b" }}>締切が近い補助金</a>
-        、地域や目的で絞り込む場合は<a href="/subsidies/" style={{ color: "#38b48b" }}>補助金一覧</a>をご利用ください。
+        {lead}締切が近い制度は<a href="/subsidies/deadline/" style={{ color: "var(--green-dark)" }}>締切が近い補助金</a>
+        、地域や目的で絞り込む場合は<a href="/subsidies/" style={{ color: "var(--green-dark)" }}>補助金一覧</a>をご利用ください。
       </p>
       <SubsidyLinkList items={items} />
     </div>

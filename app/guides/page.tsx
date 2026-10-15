@@ -120,7 +120,7 @@ const Page: FC = () => {
                 <span
                   style={{
                     backgroundColor: "#3b82f622",
-                    color: "#3b82f6",
+                    color: "var(--navy)",
                     border: "1px solid #3b82f644",
                     borderRadius: "4px",
                     padding: ".2rem .6rem",
@@ -187,7 +187,7 @@ const Page: FC = () => {
             href="/diagnosis"
             style={{
               display: "inline-block",
-              backgroundColor: "#38b48b",
+              backgroundColor: "var(--green-dark)",
               color: "#fff",
               padding: ".65rem 1.75rem",
               borderRadius: "8px",

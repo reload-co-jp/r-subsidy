@@ -27,10 +27,10 @@ export const PURPOSES = [
   "デジタル化",
 ]
 
-export const TIER_CONFIG: Record<Tier, { label: string; color: string; bg: string }> = {
-  strong: { label: "強くおすすめ", color: "#22c55e", bg: "#22c55e22" },
-  match: { label: "条件一致", color: "#38b48b", bg: "#38b48b22" },
-  check: { label: "要確認", color: "#94a3b8", bg: "#94a3b822" },
+export const TIER_CONFIG: Record<Tier, { label: string; color: string; bg: string; border: string }> = {
+  strong: { label: "強くおすすめ", color: "var(--navy)", bg: "var(--navy-50)", border: "#c9d4e3" },
+  match: { label: "条件一致", color: "var(--green-dark)", bg: "var(--green-50)", border: "var(--green-200)" },
+  check: { label: "要確認", color: "var(--text-muted)", bg: "var(--bg-surface-alt)", border: "var(--border-strong)" },
 }
 
 export const STORAGE_KEY = "diagnosis-profile"
