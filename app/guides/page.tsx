@@ -79,23 +79,12 @@ const Page: FC = () => {
       />
 
       <Breadcrumb
-        items={[
-          { label: "ホーム", href: "/" },
-          { label: "申請ガイド" },
-        ]}
+        items={[{ label: "ホーム", href: "/" }, { label: "申請ガイド" }]}
       />
 
       <div style={{ marginBottom: "1.75rem" }}>
-        <h1
-          style={{
-            color: "var(--text-strong)",
-            fontSize: "1.4rem",
-            marginBottom: ".5rem",
-          }}
-        >
-          補助金 申請ガイド
-        </h1>
-        <p style={{ color: "var(--text-muted)", fontSize: ".875rem", lineHeight: 1.8 }}>
+        <h1 className="page-title">補助金 申請ガイド</h1>
+        <p className="page-lead">
           補助金申請の手続き・準備方法をわかりやすく解説。GビズID取得・Jグランツの使い方など申請に必要な知識をまとめています。
         </p>
       </div>
@@ -107,19 +96,18 @@ const Page: FC = () => {
             href={`/guides/${guide.id}`}
             style={{ textDecoration: "none" }}
           >
-            <div
-              style={{
-                backgroundColor: "var(--bg-surface)",
-                border: "1px solid var(--border-soft)",
-                borderRadius: "10px",
-                padding: "1.25rem 1.5rem",
-                transition: "box-shadow 0.15s",
-              }}
-            >
-              <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: ".5rem" }}>
+            <div className="card">
+              <div
+                style={{
+                  display: "flex",
+                  gap: ".5rem",
+                  flexWrap: "wrap",
+                  marginBottom: ".5rem",
+                }}
+              >
                 <span
                   style={{
-                    backgroundColor: "#3b82f622",
+                    backgroundColor: "var(--navy-50)",
                     color: "var(--navy)",
                     border: "1px solid #3b82f644",
                     borderRadius: "4px",
@@ -130,59 +118,53 @@ const Page: FC = () => {
                 >
                   {guide.category}
                 </span>
-                <span style={{ color: "var(--text-muted)", fontSize: ".75rem", alignSelf: "center" }}>
+                <span
+                  style={{
+                    color: "var(--text-muted)",
+                    fontSize: ".75rem",
+                    alignSelf: "center",
+                  }}
+                >
                   {guide.publishedAt}
                 </span>
               </div>
-              <h2
-                style={{
-                  color: "var(--text-strong)",
-                  fontSize: "1rem",
-                  fontWeight: "bold",
-                  lineHeight: 1.5,
-                  marginBottom: ".5rem",
-                }}
-              >
-                {guide.title}
-              </h2>
-              <p
-                style={{
-                  color: "var(--text-muted)",
-                  fontSize: ".875rem",
-                  lineHeight: 1.7,
-                  display: "-webkit-box",
-                  WebkitLineClamp: 3,
-                  WebkitBoxOrient: "vertical",
-                  overflow: "hidden",
-                }}
-              >
-                {guide.summary}
-              </p>
+              <h2 className="sub-title">{guide.title}</h2>
+              <p className="page-lead">{guide.summary}</p>
             </div>
           </Link>
         ))}
       </div>
 
       {guides.length === 0 && (
-        <p style={{ color: "var(--text-muted)", textAlign: "center", padding: "3rem 0" }}>
+        <p
+          style={{
+            color: "var(--text-muted)",
+            textAlign: "center",
+            padding: "3rem 0",
+          }}
+        >
           記事は準備中です
         </p>
       )}
 
-      <div
-        style={{
-          marginTop: "2.5rem",
-          padding: "1.5rem",
-          backgroundColor: "var(--bg-surface)",
-          border: "1px solid var(--border-soft)",
-          borderRadius: "10px",
-          textAlign: "center",
-        }}
-      >
-        <p style={{ color: "var(--text-base)", fontSize: ".9rem", marginBottom: "1rem" }}>
+      <div className="card">
+        <p
+          style={{
+            color: "var(--text-base)",
+            fontSize: ".9rem",
+            marginBottom: "1rem",
+          }}
+        >
           自社に合う補助金を探してみましょう
         </p>
-        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: "1rem",
+            justifyContent: "center",
+            flexWrap: "wrap",
+          }}
+        >
           <Link
             href="/diagnosis"
             style={{

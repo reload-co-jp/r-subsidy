@@ -13,7 +13,12 @@ import { CURRENT_YEAR } from "../../lib/seo"
 
 function getSubsidies(): SubsidyIndexItem[] {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-index.json"
+    )
     return JSON.parse(fs.readFileSync(file, "utf-8"))
   } catch {
     return []
@@ -75,61 +80,42 @@ const Page: FC = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
       />
       <Breadcrumb
-        items={[
-          { label: "ホーム", href: "/" },
-          { label: "補助金一覧" },
-        ]}
+        items={[{ label: "ホーム", href: "/" }, { label: "補助金一覧" }]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <h1 style={{ color: "var(--text-strong)", fontSize: "1.4rem", marginBottom: ".5rem" }}>
-          全国の補助金・助成金一覧
-        </h1>
-        <p style={{ color: "var(--text-muted)", fontSize: ".875rem" }}>
-          {subsidies.length > 0 ? `${subsidies.length}件の補助金` : "データが未取得です。pnpm subsidies:update を実行してください。"}
+        <h1 className="page-title">全国の補助金・助成金一覧</h1>
+        <p className="page-lead">
+          中小企業・個人事業主向けの補助金・助成金
+          {subsidies.length.toLocaleString()}
+          件を掲載しています。キーワード・地域・目的・業種・受付状態で絞り込み、締切や補助上限額で並べ替えて比較できます。気になる制度は詳細ページで対象条件・補助率・申請窓口を確認してください。
         </p>
-        <p style={{ display: "flex", gap: "1rem", flexWrap: "wrap", fontSize: ".85rem", marginTop: ".5rem" }}>
-          <Link href="/subsidies/open/" style={{ color: "var(--green-dark)" }}>受付中の補助金</Link>
-          <Link href="/subsidies/deadline/" style={{ color: "var(--green-dark)" }}>締切が近い補助金</Link>
-          <Link href="/subsidies/upcoming/" style={{ color: "var(--green-dark)" }}>公募予定の補助金</Link>
-        </p>
+        <ul className="list-plain chip-group" style={{ marginTop: ".85rem" }}>
+          <li>
+            <Link href="/subsidies/open/" className="chip">
+              受付中の補助金
+            </Link>
+          </li>
+          <li>
+            <Link href="/subsidies/deadline/" className="chip">
+              締切が近い補助金
+            </Link>
+          </li>
+          <li>
+            <Link href="/subsidies/upcoming/" className="chip">
+              公募予定の補助金
+            </Link>
+          </li>
+        </ul>
       </div>
 
-      <section style={{ marginBottom: "1.5rem", color: "var(--text-base)", fontSize: ".92rem", lineHeight: 1.8 }}>
-        <p style={{ marginBottom: ".7rem" }}>
-          中小企業・個人事業主向けの補助金を一覧で確認できるページです。設備投資、デジタル化、人材育成、販路拡大など、
-          目的別に制度の概要を比較できます。
-        </p>
-        <p>
-          気になる制度は詳細ページで対象条件や補助率、上限額、申請窓口を確認できます。
-        </p>
-      </section>
-
-      <section
-        style={{
-          backgroundColor: "var(--bg-surface)",
-          border: "1px solid var(--border-soft)",
-          borderRadius: "10px",
-          padding: "1rem",
-          marginBottom: "1.5rem",
-        }}
-      >
-        <h2 style={{ color: "var(--text-strong)", fontSize: "1rem", marginBottom: ".8rem" }}>
-          都道府県別の補助金一覧
-        </h2>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: ".45rem" }}>
+      <section className="card" style={{ marginBottom: "1.5rem" }}>
+        <h2 className="sub-title">都道府県別の補助金一覧</h2>
+        <div className="chip-group">
           {PREFECTURES.map((prefecture) => (
             <Link
               key={prefecture}
               href={`/subsidies/prefecture/${encodeURIComponent(prefecture)}`}
-              style={{
-                backgroundColor: "var(--bg-surface-alt)",
-                border: "1px solid var(--border-soft)",
-                borderRadius: "999px",
-                color: "var(--text-base)",
-                fontSize: ".8rem",
-                padding: ".36rem .62rem",
-                textDecoration: "none",
-              }}
+              className="chip"
             >
               {prefecture}
             </Link>
@@ -140,7 +126,9 @@ const Page: FC = () => {
       <Suspense fallback={null}>
         <SubsidiesListClient
           subsidies={subsidies}
-          availablePurposes={[...new Set(subsidies.flatMap((s) => s.purposes))].sort()}
+          availablePurposes={[
+            ...new Set(subsidies.flatMap((s) => s.purposes)),
+          ].sort()}
         />
       </Suspense>
     </div>

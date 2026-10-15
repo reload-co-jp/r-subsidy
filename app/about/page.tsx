@@ -26,16 +26,7 @@ export default function AboutPage() {
   return (
     <div className="page-content">
       <section style={{ marginBottom: "2.5rem" }}>
-        <h1
-          style={{
-            color: "var(--text-strong)",
-            fontSize: "1.6rem",
-            lineHeight: 1.4,
-            marginBottom: "1rem",
-          }}
-        >
-          このサイトについて
-        </h1>
+        <h1 className="page-title">このサイトについて</h1>
         <div
           style={{
             color: "var(--text-base)",
@@ -44,7 +35,8 @@ export default function AboutPage() {
           }}
         >
           <p style={{ marginBottom: ".8rem" }}>
-            {SITE_NAME}は、中小企業・個人事業主が使える補助金を探しやすくするための補助金ポータルサイトです。
+            {SITE_NAME}
+            は、中小企業・個人事業主が使える補助金を探しやすくするための補助金ポータルサイトです。
           </p>
           <p>
             Jグランツ掲載の制度をもとに、都道府県・受付状態・目的から検索、比較、診断できる情報を提供しています。
@@ -52,24 +44,8 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section
-        style={{
-          backgroundColor: "var(--bg-surface)",
-          border: "1px solid var(--border-soft)",
-          borderRadius: "8px",
-          padding: "1.5rem",
-          marginBottom: "2.5rem",
-        }}
-      >
-        <h2
-          style={{
-            color: "var(--text-strong)",
-            fontSize: "1.1rem",
-            marginBottom: "1rem",
-          }}
-        >
-          運営会社
-        </h2>
+      <section className="card" style={{ marginBottom: "2.5rem" }}>
+        <h2 className="sub-title">運営会社</h2>
         <dl
           style={{
             display: "grid",
@@ -98,7 +74,10 @@ export default function AboutPage() {
                 href="https://reload.co.jp"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "var(--green-dark)", textUnderlineOffset: ".15em" }}
+                style={{
+                  color: "var(--green-dark)",
+                  textUnderlineOffset: ".15em",
+                }}
               >
                 https://reload.co.jp
               </a>
@@ -108,15 +87,20 @@ export default function AboutPage() {
       </section>
 
       <section id="data" style={{ marginBottom: "2.5rem" }}>
-        <h2 className="section-title" style={{ marginBottom: "1rem" }}>
-          掲載データについて
-        </h2>
-        <dl className="card" style={{ display: "grid", gap: "1rem", fontSize: ".92rem" }}>
+        <h2 className="sub-title section-title">掲載データについて</h2>
+        <dl
+          className="card"
+          style={{ display: "grid", gap: "1rem", fontSize: ".92rem" }}
+        >
           <div>
             <dt style={{ fontWeight: 700 }}>取得元</dt>
             <dd>
               デジタル庁が運営する
-              <a href="https://www.jgrants-portal.go.jp/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.jgrants-portal.go.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Jグランツ
               </a>
               の公開APIを中心に、国・自治体など公的機関が公開している補助金・助成金情報を取得しています。各制度ページに出典と公式ページへのリンクを掲載しています。
@@ -144,26 +128,41 @@ export default function AboutPage() {
       </section>
 
       <section id="disclaimer" style={{ marginBottom: "2.5rem" }}>
-        <h2 className="section-title" style={{ marginBottom: "1rem" }}>
-          利用上の注意
-        </h2>
-        <ul className="card" style={{ display: "grid", gap: ".5rem", fontSize: ".92rem", paddingLeft: "2.25rem" }}>
-          <li>掲載情報の正確性・最新性・完全性を保証するものではありません。申請前に必ず各制度の公募要領・公式窓口で最新情報をご確認ください。</li>
-          <li>補助金診断の結果は掲載データに基づく目安であり、採択・受給を保証するものではありません。</li>
-          <li>当サイトの情報を利用したことにより生じた損害について、運営者は責任を負いかねます。</li>
+        <h2 className="sub-title section-title">利用上の注意</h2>
+        <ul
+          className="card"
+          style={{
+            display: "grid",
+            gap: ".5rem",
+            fontSize: ".92rem",
+            paddingLeft: "2.25rem",
+          }}
+        >
           <li>
-            個人情報・Cookieの取り扱いは<Link href="/privacy/">プライバシーポリシー</Link>をご覧ください。
+            掲載情報の正確性・最新性・完全性を保証するものではありません。申請前に必ず各制度の公募要領・公式窓口で最新情報をご確認ください。
+          </li>
+          <li>
+            補助金診断の結果は掲載データに基づく目安であり、採択・受給を保証するものではありません。
+          </li>
+          <li>
+            当サイトの情報を利用したことにより生じた損害について、運営者は責任を負いかねます。
+          </li>
+          <li>
+            個人情報・Cookieの取り扱いは
+            <Link href="/privacy/">プライバシーポリシー</Link>をご覧ください。
           </li>
         </ul>
       </section>
 
       <section id="contact" style={{ marginBottom: "2.5rem" }}>
-        <h2 className="section-title" style={{ marginBottom: "1rem" }}>
-          お問い合わせ
-        </h2>
+        <h2 className="sub-title section-title">お問い合わせ</h2>
         <p className="card" style={{ fontSize: ".92rem" }}>
           掲載内容の誤りのご指摘、その他のお問い合わせは、運営会社
-          <a href="https://reload.co.jp" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://reload.co.jp"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             株式会社リロードの公式サイト
           </a>
           よりご連絡ください。個別の補助金の申請要件・審査に関するご質問は、各制度の申請窓口へお問い合わせください。

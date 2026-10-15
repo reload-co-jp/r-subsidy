@@ -3,7 +3,12 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
-import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl, buildBreadcrumbList } from "../../../lib/site"
+import {
+  SITE_NAME,
+  DEFAULT_OG_IMAGE,
+  absoluteUrl,
+  buildBreadcrumbList,
+} from "../../../lib/site"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
 import { RichMarkdown } from "../../../components/elements/rich-markdown"
 import type { SubsidyNews } from "../page"
@@ -41,7 +46,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const pageUrl = absoluteUrl(`/news/${item.id}/`)
-  const ogImage = { url: absoluteUrl(DEFAULT_OG_IMAGE), width: 1200, height: 630, alt: item.title }
+  const ogImage = {
+    url: absoluteUrl(DEFAULT_OG_IMAGE),
+    width: 1200,
+    height: 630,
+    alt: item.title,
+  }
 
   return {
     title: item.title,
@@ -70,11 +80,25 @@ const Page: FC<Props> = async ({ params }) => {
 
   if (!item) {
     return (
-      <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center", padding: "4rem 0" }}>
+      <div
+        style={{
+          maxWidth: "800px",
+          margin: "0 auto",
+          textAlign: "center",
+          padding: "4rem 0",
+        }}
+      >
         <p style={{ color: "var(--text-muted)", marginBottom: "1rem" }}>
           記事が見つかりませんでした
         </p>
-        <Link href="/news" style={{ color: "var(--green-dark)", textDecoration: "none", fontSize: ".875rem" }}>
+        <Link
+          href="/news"
+          style={{
+            color: "var(--green-dark)",
+            textDecoration: "none",
+            fontSize: ".875rem",
+          }}
+        >
           ← ニュース一覧に戻る
         </Link>
       </div>
@@ -134,7 +158,14 @@ const Page: FC<Props> = async ({ params }) => {
           marginBottom: "1.5rem",
         }}
       >
-        <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: "1rem" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: ".5rem",
+            flexWrap: "wrap",
+            marginBottom: "1rem",
+          }}
+        >
           <span
             style={{
               backgroundColor: "var(--green-50)",
@@ -148,7 +179,13 @@ const Page: FC<Props> = async ({ params }) => {
           >
             {item.category}
           </span>
-          <span style={{ color: "var(--text-muted)", fontSize: ".8rem", alignSelf: "center" }}>
+          <span
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".8rem",
+              alignSelf: "center",
+            }}
+          >
             {item.publishedAt}
           </span>
         </div>
@@ -178,16 +215,20 @@ const Page: FC<Props> = async ({ params }) => {
           {item.summary}
         </p>
 
-        <div
-          style={{ color: "var(--text-base)" }}
-          className="rich-html"
-        >
+        <div style={{ color: "var(--text-base)" }} className="rich-html">
           <RichMarkdown>{item.body}</RichMarkdown>
         </div>
       </div>
 
       {item.tags.length > 0 && (
-        <div style={{ display: "flex", gap: ".4rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: ".4rem",
+            flexWrap: "wrap",
+            marginBottom: "1.5rem",
+          }}
+        >
           {item.tags.map((tag) => (
             <span
               key={tag}
@@ -215,10 +256,18 @@ const Page: FC<Props> = async ({ params }) => {
             marginBottom: "1.5rem",
           }}
         >
-          <h2 style={{ color: "var(--text-muted)", fontSize: ".8rem", marginBottom: ".75rem" }}>
+          <h2
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".8rem",
+              marginBottom: ".75rem",
+            }}
+          >
             関連補助金
           </h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}>
+          <div
+            style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}
+          >
             {item.relatedSubsidySlugs.map((slug) => (
               <Link
                 key={slug}
@@ -247,7 +296,11 @@ const Page: FC<Props> = async ({ params }) => {
           href={item.sourceUrl}
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: "var(--text-muted)", fontSize: ".75rem", textDecoration: "none" }}
+          style={{
+            color: "var(--text-muted)",
+            fontSize: ".75rem",
+            textDecoration: "none",
+          }}
         >
           出典: {item.sourceLabel} ↗
         </a>
@@ -256,7 +309,11 @@ const Page: FC<Props> = async ({ params }) => {
       <div style={{ textAlign: "center" }}>
         <Link
           href="/news"
-          style={{ color: "var(--text-muted)", textDecoration: "none", fontSize: ".875rem" }}
+          style={{
+            color: "var(--text-muted)",
+            textDecoration: "none",
+            fontSize: ".875rem",
+          }}
         >
           ← ニュース一覧に戻る
         </Link>

@@ -3,7 +3,12 @@ import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import Link from "next/link"
-import { SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl, buildBreadcrumbList } from "../../../lib/site"
+import {
+  SITE_NAME,
+  DEFAULT_OG_IMAGE,
+  absoluteUrl,
+  buildBreadcrumbList,
+} from "../../../lib/site"
 import { Breadcrumb } from "../../../components/elements/breadcrumb"
 import { RichMarkdown } from "../../../components/elements/rich-markdown"
 import type { Guide } from "../page"
@@ -26,8 +31,15 @@ function getGuide(id: string): Guide | null {
 
 function getSubsidyTitle(slug: string): string {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
-    const subsidies: SubsidyIndexItem[] = JSON.parse(fs.readFileSync(file, "utf-8"))
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-index.json"
+    )
+    const subsidies: SubsidyIndexItem[] = JSON.parse(
+      fs.readFileSync(file, "utf-8")
+    )
     return subsidies.find((s) => s.slug === slug)?.title ?? slug
   } catch {
     return slug
@@ -52,7 +64,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const pageUrl = absoluteUrl(`/guides/${item.id}/`)
-  const ogImage = { url: absoluteUrl(DEFAULT_OG_IMAGE), width: 1200, height: 630, alt: item.title }
+  const ogImage = {
+    url: absoluteUrl(DEFAULT_OG_IMAGE),
+    width: 1200,
+    height: 630,
+    alt: item.title,
+  }
 
   return {
     title: item.title,
@@ -81,11 +98,25 @@ const Page: FC<Props> = async ({ params }) => {
 
   if (!item) {
     return (
-      <div style={{ maxWidth: "800px", margin: "0 auto", textAlign: "center", padding: "4rem 0" }}>
+      <div
+        style={{
+          maxWidth: "800px",
+          margin: "0 auto",
+          textAlign: "center",
+          padding: "4rem 0",
+        }}
+      >
         <p style={{ color: "var(--text-muted)", marginBottom: "1rem" }}>
           記事が見つかりませんでした
         </p>
-        <Link href="/guides" style={{ color: "var(--green-dark)", textDecoration: "none", fontSize: ".875rem" }}>
+        <Link
+          href="/guides"
+          style={{
+            color: "var(--green-dark)",
+            textDecoration: "none",
+            fontSize: ".875rem",
+          }}
+        >
           ← 申請ガイド一覧に戻る
         </Link>
       </div>
@@ -126,20 +157,24 @@ const Page: FC<Props> = async ({ params }) => {
     .map((line, i) => ({
       "@type": "HowToStep",
       position: i + 1,
-      name: line.replace(/^\*\*/, "").replace(/\*\*$/, "").replace(/^STEP\d+[：:]\s*/, ""),
+      name: line
+        .replace(/^\*\*/, "")
+        .replace(/\*\*$/, "")
+        .replace(/^STEP\d+[：:]\s*/, ""),
       text: line.replace(/^\*\*/, "").replace(/\*\*$/, ""),
     }))
 
-  const howToData = howToSteps.length > 0
-    ? {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        name: item.title,
-        description: item.summary,
-        inLanguage: "ja",
-        step: howToSteps,
-      }
-    : null
+  const howToData =
+    howToSteps.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: item.title,
+          description: item.summary,
+          inLanguage: "ja",
+          step: howToSteps,
+        }
+      : null
 
   return (
     <div className="page-content">
@@ -166,16 +201,15 @@ const Page: FC<Props> = async ({ params }) => {
         ]}
       />
 
-      <div
-        style={{
-          backgroundColor: "var(--bg-surface)",
-          borderRadius: "10px",
-          padding: "1.5rem",
-          border: "1px solid var(--border-soft)",
-          marginBottom: "1.5rem",
-        }}
-      >
-        <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: "1rem" }}>
+      <div className="card" style={{ marginBottom: "1.5rem" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: ".5rem",
+            flexWrap: "wrap",
+            marginBottom: "1rem",
+          }}
+        >
           <span
             style={{
               backgroundColor: "var(--navy)22",
@@ -189,46 +223,40 @@ const Page: FC<Props> = async ({ params }) => {
           >
             {item.category}
           </span>
-          <span style={{ color: "var(--text-muted)", fontSize: ".8rem", alignSelf: "center" }}>
+          <span
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".8rem",
+              alignSelf: "center",
+            }}
+          >
             {item.publishedAt}
           </span>
         </div>
 
-        <h1
-          style={{
-            color: "var(--text-strong)",
-            fontSize: "1.4rem",
-            fontWeight: "bold",
-            lineHeight: 1.5,
-            marginBottom: "1rem",
-          }}
-        >
-          {item.title}
-        </h1>
+        <h1 className="page-title">{item.title}</h1>
 
         <p
-          style={{
-            color: "var(--text-muted)",
-            fontSize: ".9rem",
-            lineHeight: 1.7,
-            borderLeft: "3px solid var(--navy)",
-            paddingLeft: "1rem",
-            marginBottom: "1.5rem",
-          }}
+          className="note"
+          style={{ marginBottom: "1.75rem", maxWidth: "none" }}
         >
           {item.summary}
         </p>
 
-        <div
-          style={{ color: "var(--text-base)" }}
-          className="rich-html"
-        >
+        <div style={{ color: "var(--text-base)" }} className="rich-html">
           <RichMarkdown>{item.body}</RichMarkdown>
         </div>
       </div>
 
       {item.tags.length > 0 && (
-        <div style={{ display: "flex", gap: ".4rem", flexWrap: "wrap", marginBottom: "1.5rem" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: ".4rem",
+            flexWrap: "wrap",
+            marginBottom: "1.5rem",
+          }}
+        >
           {item.tags.map((tag) => (
             <span
               key={tag}
@@ -247,19 +275,11 @@ const Page: FC<Props> = async ({ params }) => {
       )}
 
       {item.relatedSubsidySlugs.length > 0 && (
-        <div
-          style={{
-            backgroundColor: "var(--bg-surface)",
-            borderRadius: "10px",
-            padding: "1.25rem",
-            border: "1px solid var(--border-soft)",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2 style={{ color: "var(--text-muted)", fontSize: ".8rem", marginBottom: ".75rem" }}>
-            関連補助金
-          </h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}>
+        <div className="card" style={{ marginBottom: "1.5rem" }}>
+          <h2 className="sub-title">関連補助金</h2>
+          <div
+            style={{ display: "flex", flexDirection: "column", gap: ".5rem" }}
+          >
             {item.relatedSubsidySlugs.map((slug) => (
               <Link
                 key={slug}
@@ -288,7 +308,11 @@ const Page: FC<Props> = async ({ params }) => {
           href={item.sourceUrl}
           target="_blank"
           rel="noopener noreferrer"
-          style={{ color: "var(--text-muted)", fontSize: ".75rem", textDecoration: "none" }}
+          style={{
+            color: "var(--text-muted)",
+            fontSize: ".75rem",
+            textDecoration: "none",
+          }}
         >
           出典: {item.sourceLabel} ↗
         </a>
@@ -297,7 +321,11 @@ const Page: FC<Props> = async ({ params }) => {
       <div style={{ textAlign: "center" }}>
         <Link
           href="/guides"
-          style={{ color: "var(--text-muted)", textDecoration: "none", fontSize: ".875rem" }}
+          style={{
+            color: "var(--text-muted)",
+            textDecoration: "none",
+            fontSize: ".875rem",
+          }}
         >
           ← 申請ガイド一覧に戻る
         </Link>

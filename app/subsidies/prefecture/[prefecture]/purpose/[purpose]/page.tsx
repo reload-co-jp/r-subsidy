@@ -14,7 +14,9 @@ import {
   purposeLabel,
 } from "../../../../../../lib/seo"
 import { Breadcrumb } from "../../../../../../components/elements/breadcrumb"
-import FaqSection, { buildFaqStructuredData } from "../../../../../../components/elements/faq-section"
+import FaqSection, {
+  buildFaqStructuredData,
+} from "../../../../../../components/elements/faq-section"
 import { buildCollectionFaqItems } from "../../../../../../lib/collection-faq"
 import SubsidiesListClient from "../../../../subsidies-list-client"
 
@@ -47,7 +49,9 @@ export function generateStaticParams() {
 function getPageData(rawPrefecture: string, rawPurpose: string) {
   const prefecture = decode(rawPrefecture)
   const purpose = decode(rawPurpose)
-  const matches = loadSubsidyIndex().filter((s) => isLocalTo(s, prefecture) && s.purposes.includes(purpose))
+  const matches = loadSubsidyIndex().filter(
+    (s) => isLocalTo(s, prefecture) && s.purposes.includes(purpose)
+  )
   const active = matches.filter(isActive)
   const label = purposeLabel(purpose)
   const openCount = active.filter((s) => s.status === "open").length
@@ -80,15 +84,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function Page({ params }: Props) {
   const { prefecture: rawPrefecture, purpose: rawPurpose } = await params
-  const { prefecture, purpose, label, matches, active, openCount, title, description, pageUrl } = getPageData(
-    rawPrefecture,
-    rawPurpose
-  )
+  const {
+    prefecture,
+    purpose,
+    label,
+    matches,
+    active,
+    openCount,
+    title,
+    description,
+    pageUrl,
+  } = getPageData(rawPrefecture, rawPurpose)
   if (active.length === 0) notFound()
 
   const prefectureHref = `/subsidies/prefecture/${encodeURIComponent(prefecture)}/`
   const purposeHref = `/subsidies/purpose/${encodeURIComponent(purpose)}/`
-  const faqItems = buildCollectionFaqItems(`${prefecture}の${label}`, matches.length, openCount)
+  const faqItems = buildCollectionFaqItems(
+    `${prefecture}の${label}`,
+    matches.length,
+    openCount
+  )
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -113,12 +128,20 @@ export default async function Page({ params }: Props) {
 
   return (
     <div className="page-content">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbList) }}
+      />
       {faqItems.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqStructuredData(faqItems)) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(buildFaqStructuredData(faqItems)),
+          }}
         />
       )}
       <Breadcrumb
@@ -130,22 +153,18 @@ export default async function Page({ params }: Props) {
         ]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <p style={{ color: "var(--green-dark)", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
-          都道府県×目的別の補助金
-        </p>
-        <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>
+        <p className="eyebrow">都道府県×目的別の補助金</p>
+        <h1 className="page-title">
           {YEAR_LABEL}の{prefecture}の{label}補助金・助成金
         </h1>
-        <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8 }}>
-          {prefecture}や域内の市区町村が実施する、{label}に使える補助金・助成金をまとめています。現在受付中は
-          {openCount}件、公募予定は{active.length - openCount}件です。国の制度も含めて探す場合は
-          <a href={purposeHref} style={{ color: "var(--green-dark)" }}>
-            {label}に使える補助金一覧
-          </a>
-          、{prefecture}の他の目的は
-          <a href={prefectureHref} style={{ color: "var(--green-dark)" }}>
-            {prefecture}の補助金一覧
-          </a>
+        <p className="page-lead">
+          {prefecture}や域内の市区町村が実施する、{label}
+          に使える補助金・助成金をまとめています。現在受付中は
+          {openCount}件、公募予定は{active.length - openCount}
+          件です。国の制度も含めて探す場合は
+          <a href={purposeHref}>{label}に使える補助金一覧</a>、{prefecture}
+          の他の目的は
+          <a href={prefectureHref}>{prefecture}の補助金一覧</a>
           をご覧ください。
         </p>
       </div>
@@ -157,7 +176,9 @@ export default async function Page({ params }: Props) {
           subsidies={matches}
           initialPrefecture={prefecture}
           showPrefectureFilter={false}
-          availablePurposes={[...new Set(matches.flatMap((s) => s.purposes))].sort()}
+          availablePurposes={[
+            ...new Set(matches.flatMap((s) => s.purposes)),
+          ].sort()}
         />
       </Suspense>
     </div>

@@ -1,13 +1,24 @@
+import SubsidyLinkList from "../../../../../../components/elements/subsidy-link-list"
 import { Suspense } from "react"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { POPULAR_PREFECTURES, isPrefecture, matchesPrefecture } from "../../../../../../lib/prefectures"
-import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../../../../../lib/site"
+import {
+  POPULAR_PREFECTURES,
+  isPrefecture,
+  matchesPrefecture,
+} from "../../../../../../lib/prefectures"
+import {
+  SITE_NAME,
+  absoluteUrl,
+  buildBreadcrumbList,
+} from "../../../../../../lib/site"
 import type { SubsidyIndexItem } from "../../../../../../lib/types"
 import { Breadcrumb } from "../../../../../../components/elements/breadcrumb"
-import FaqSection, { buildFaqStructuredData } from "../../../../../../components/elements/faq-section"
+import FaqSection, {
+  buildFaqStructuredData,
+} from "../../../../../../components/elements/faq-section"
 import { buildCollectionFaqItems } from "../../../../../../lib/collection-faq"
 import SubsidiesListClient from "../../../../subsidies-list-client"
 import { POPULAR_INDUSTRIES } from "../../../../../../lib/industries"
@@ -27,7 +38,12 @@ function decode(value: string) {
 
 function getSubsidies(): SubsidyIndexItem[] {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-index.json"
+    )
     return JSON.parse(fs.readFileSync(file, "utf-8"))
   } catch {
     return []
@@ -40,13 +56,20 @@ function getPageUrl(prefecture: string, industry: string) {
   )
 }
 
-function getMatches(subsidies: SubsidyIndexItem[], prefecture: string, industry: string) {
+function getMatches(
+  subsidies: SubsidyIndexItem[],
+  prefecture: string,
+  industry: string
+) {
   return subsidies.filter(
     (s) => matchesPrefecture(s, prefecture) && s.industries.includes(industry)
   )
 }
 
-export function generateStaticParams(): { prefecture: string; industry: string }[] {
+export function generateStaticParams(): {
+  prefecture: string
+  industry: string
+}[] {
   const subsidies = getSubsidies()
   const params: { prefecture: string; industry: string }[] = []
 
@@ -74,7 +97,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const industry = decode(rawIndustry)
 
   if (!isValidCombo(prefecture, industry)) {
-    return { title: `補助金一覧 | ${SITE_NAME}`, robots: { index: false, follow: false } }
+    return {
+      title: `補助金一覧 | ${SITE_NAME}`,
+      robots: { index: false, follow: false },
+    }
   }
 
   const subsidies = getSubsidies()
@@ -140,7 +166,12 @@ export default async function Page({ params }: Props) {
   const breadcrumbList = buildBreadcrumbList([
     { name: "ホーム", url: absoluteUrl("/") },
     { name: "補助金一覧", url: absoluteUrl("/subsidies/") },
-    { name: `${prefecture}の補助金`, url: absoluteUrl(`/subsidies/prefecture/${encodeURIComponent(prefecture)}/`) },
+    {
+      name: `${prefecture}の補助金`,
+      url: absoluteUrl(
+        `/subsidies/prefecture/${encodeURIComponent(prefecture)}/`
+      ),
+    },
     { name: title, url: pageUrl },
   ])
 
@@ -157,63 +188,34 @@ export default async function Page({ params }: Props) {
       {faqItems.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqStructuredData(faqItems)) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(buildFaqStructuredData(faqItems)),
+          }}
         />
       )}
       <Breadcrumb
         items={[
           { label: "ホーム", href: "/" },
           { label: "補助金一覧", href: "/subsidies" },
-          { label: `${prefecture}の補助金`, href: `/subsidies/prefecture/${encodeURIComponent(prefecture)}` },
+          {
+            label: `${prefecture}の補助金`,
+            href: `/subsidies/prefecture/${encodeURIComponent(prefecture)}`,
+          },
           { label: title },
         ]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <p style={{ color: "var(--green-dark)", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
-          都道府県×業種別の補助金
-        </p>
-        <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>
-          {title}
-        </h1>
-        <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8 }}>
-          {description}
-        </p>
+        <p className="eyebrow">都道府県×業種別の補助金</p>
+        <h1 className="page-title">{title}</h1>
+        <p className="page-lead">{description}</p>
       </div>
 
       {latest.length > 0 && (
-        <section
-          style={{
-            backgroundColor: "var(--bg-surface)",
-            border: "1px solid var(--border-soft)",
-            borderRadius: "10px",
-            padding: "1rem",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2 style={{ color: "var(--text-strong)", fontSize: "1rem", marginBottom: ".8rem" }}>
+        <section style={{ marginBottom: "2rem" }}>
+          <h2 className="sub-title">
             {prefecture}の{industry}向け新着補助金
           </h2>
-          <div style={{ display: "grid", gap: ".65rem" }}>
-            {latest.map((s) => (
-              <a
-                key={s.id}
-                href={`/subsidies/${s.slug}/`}
-                style={{
-                  color: "var(--text-strong)",
-                  textDecoration: "none",
-                  borderBottom: "1px solid var(--border-soft)",
-                  paddingBottom: ".65rem",
-                }}
-              >
-                <span style={{ color: "var(--green-dark)", fontSize: ".78rem", fontWeight: "bold" }}>
-                  {s.status === "open" ? "受付中" : "公募前"}
-                </span>
-                <span style={{ display: "block", fontSize: ".92rem", marginTop: ".25rem" }}>
-                  {s.title}
-                </span>
-              </a>
-            ))}
-          </div>
+          <SubsidyLinkList items={latest} />
         </section>
       )}
 
@@ -224,7 +226,9 @@ export default async function Page({ params }: Props) {
           subsidies={matches}
           initialPrefecture={prefecture}
           showPrefectureFilter={false}
-          availablePurposes={[...new Set(matches.flatMap((s) => s.purposes))].sort()}
+          availablePurposes={[
+            ...new Set(matches.flatMap((s) => s.purposes)),
+          ].sort()}
         />
       </Suspense>
     </div>

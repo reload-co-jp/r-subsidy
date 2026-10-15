@@ -31,7 +31,7 @@ function getNews(): SubsidyNews[] {
 
 const PAGE_TITLE = "補助金 最新ニュース"
 const PAGE_DESCRIPTION =
-  "中小企業・個人事業主向け補助金の最新情報をお届け。新規公募開始・制度改正・採択結果・申請締切情報など随時更新。補助金申請の準備に役立つ実務情報を掲載。"
+  "中小企業・個人事業主向け補助金の最新情報をお届け。新規公募開始・制度改正・採択結果・申請締切情報などを掲載。補助金申請の準備に役立つ実務情報を掲載。"
 const PAGE_URL = absoluteUrl("/news/")
 
 export const metadata: Metadata = {
@@ -81,23 +81,12 @@ const Page: FC = () => {
       />
 
       <Breadcrumb
-        items={[
-          { label: "ホーム", href: "/" },
-          { label: "ニュース" },
-        ]}
+        items={[{ label: "ホーム", href: "/" }, { label: "ニュース" }]}
       />
 
       <div style={{ marginBottom: "1.75rem" }}>
-        <h1
-          style={{
-            color: "var(--text-strong)",
-            fontSize: "1.4rem",
-            marginBottom: ".5rem",
-          }}
-        >
-          補助金 最新ニュース
-        </h1>
-        <p style={{ color: "var(--text-muted)", fontSize: ".875rem", lineHeight: 1.8 }}>
+        <h1 className="page-title">補助金 最新ニュース</h1>
+        <p className="page-lead">
           中小企業・個人事業主向け補助金の最新情報。新規公募開始・制度改正・申請締切情報を週次更新。
         </p>
       </div>
@@ -106,20 +95,24 @@ const Page: FC = () => {
         <NewsListClient news={news} categories={categories} />
       </Suspense>
 
-      <div
-        style={{
-          marginTop: "2.5rem",
-          padding: "1.5rem",
-          backgroundColor: "var(--bg-surface)",
-          border: "1px solid var(--border-soft)",
-          borderRadius: "10px",
-          textAlign: "center",
-        }}
-      >
-        <p style={{ color: "var(--text-base)", fontSize: ".9rem", marginBottom: "1rem" }}>
+      <div className="card">
+        <p
+          style={{
+            color: "var(--text-base)",
+            fontSize: ".9rem",
+            marginBottom: "1rem",
+          }}
+        >
           自社に合う補助金を探してみましょう
         </p>
-        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: "1rem",
+            justifyContent: "center",
+            flexWrap: "wrap",
+          }}
+        >
           <Link
             href="/diagnosis"
             style={{

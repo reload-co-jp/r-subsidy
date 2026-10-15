@@ -1,12 +1,15 @@
 import type { Metadata } from "next"
 import DiagnosisClient from "./diagnosis-client"
 import { SITE_NAME, absoluteUrl } from "../../lib/site"
-import FaqSection, { buildFaqStructuredData } from "../../components/elements/faq-section"
+import FaqSection, {
+  buildFaqStructuredData,
+} from "../../components/elements/faq-section"
 
 const faqItems = [
   {
     question: "補助金診断は無料で使えますか?",
-    answer: "無料で利用できます。所在地・業種・従業員数・用途を選ぶだけで診断結果を確認できます。",
+    answer:
+      "無料で利用できます。所在地・業種・従業員数・用途を選ぶだけで診断結果を確認できます。",
   },
   {
     question: "診断結果はどうやって計算されますか?",
@@ -59,11 +62,15 @@ export default function DiagnosisPage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppStructuredData) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(webAppStructuredData),
+        }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqStructuredData(faqItems)) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(buildFaqStructuredData(faqItems)),
+        }}
       />
       <DiagnosisClient />
       <div className="page-content">

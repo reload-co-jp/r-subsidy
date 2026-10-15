@@ -1,15 +1,25 @@
+import SubsidyLinkList from "../../../../components/elements/subsidy-link-list"
 import { Suspense } from "react"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../../../lib/site"
+import {
+  SITE_NAME,
+  absoluteUrl,
+  buildBreadcrumbList,
+} from "../../../../lib/site"
 import { YEAR_LABEL, CURRENT_YEAR, indexRobots } from "../../../../lib/seo"
-import { POPULAR_PREFECTURES, matchesPrefecture } from "../../../../lib/prefectures"
+import {
+  POPULAR_PREFECTURES,
+  matchesPrefecture,
+} from "../../../../lib/prefectures"
 import { POPULAR_INDUSTRIES } from "../../../../lib/industries"
 import type { SubsidyIndexItem } from "../../../../lib/types"
 import { Breadcrumb } from "../../../../components/elements/breadcrumb"
-import FaqSection, { buildFaqStructuredData } from "../../../../components/elements/faq-section"
+import FaqSection, {
+  buildFaqStructuredData,
+} from "../../../../components/elements/faq-section"
 import { buildCollectionFaqItems } from "../../../../lib/collection-faq"
 import SubsidiesListClient from "../../subsidies-list-client"
 
@@ -27,7 +37,12 @@ function decode(value: string) {
 
 function getSubsidies(): SubsidyIndexItem[] {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-index.json"
+    )
     return JSON.parse(fs.readFileSync(file, "utf-8"))
   } catch {
     return []
@@ -58,10 +73,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const all = getAllIndustries(subsidies)
 
   if (!all.includes(industry)) {
-    return { title: `補助金一覧 | ${SITE_NAME}`, robots: { index: false, follow: false } }
+    return {
+      title: `補助金一覧 | ${SITE_NAME}`,
+      robots: { index: false, follow: false },
+    }
   }
 
-  const filtered = subsidies.filter((s) => s.industries.includes(industry) && s.status !== "closed")
+  const filtered = subsidies.filter(
+    (s) => s.industries.includes(industry) && s.status !== "closed"
+  )
   const title = `${industry}向けの補助金・助成金一覧｜${CURRENT_YEAR}年最新`
   const description = `${industry}が対象の補助金を${filtered.length}件掲載。中小企業・個人事業主向けに、都道府県・受付状態・用途・補助上限額で比較できます。`
   const pageUrl = getPageUrl(industry)
@@ -139,7 +159,9 @@ export default async function Page({ params }: Props) {
       {faqItems.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqStructuredData(faqItems)) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(buildFaqStructuredData(faqItems)),
+          }}
         />
       )}
       <Breadcrumb
@@ -150,72 +172,29 @@ export default async function Page({ params }: Props) {
         ]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <p style={{ color: "var(--green-dark)", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
-          業種別の補助金
-        </p>
-        <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>
+        <p className="eyebrow">業種別の補助金</p>
+        <h1 className="page-title">
           {YEAR_LABEL}の{industry}向け補助金・助成金
         </h1>
-        <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8 }}>
-          {description}
-        </p>
+        <p className="page-lead">{description}</p>
       </div>
 
       {latest.length > 0 && (
-        <section
-          style={{
-            backgroundColor: "var(--bg-surface)",
-            border: "1px solid var(--border-soft)",
-            borderRadius: "10px",
-            padding: "1rem",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2 style={{ color: "var(--text-strong)", fontSize: "1rem", marginBottom: ".8rem" }}>
-            {industry}向けの新着補助金
-          </h2>
-          <div style={{ display: "grid", gap: ".65rem" }}>
-            {latest.map((s) => (
-              <a
-                key={s.id}
-                href={`/subsidies/${s.slug}/`}
-                style={{
-                  color: "var(--text-strong)",
-                  textDecoration: "none",
-                  borderBottom: "1px solid var(--border-soft)",
-                  paddingBottom: ".65rem",
-                }}
-              >
-                <span style={{ color: "var(--green-dark)", fontSize: ".78rem", fontWeight: "bold" }}>
-                  {s.status === "open" ? "受付中" : "公募前"}
-                </span>
-                <span style={{ display: "block", fontSize: ".92rem", marginTop: ".25rem" }}>
-                  {s.title}
-                </span>
-              </a>
-            ))}
-          </div>
+        <section style={{ marginBottom: "2rem" }}>
+          <h2 className="sub-title">{industry}向けの新着補助金</h2>
+          <SubsidyLinkList items={latest} />
         </section>
       )}
 
       {comboPrefectures.length > 0 && (
         <section style={{ marginBottom: "1.5rem" }}>
-          <h2 style={{ color: "var(--text-strong)", fontSize: ".95rem", marginBottom: ".6rem" }}>
-            {industry}の都道府県別補助金
-          </h2>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: ".5rem" }}>
+          <h2 className="sub-title">{industry}の都道府県別補助金</h2>
+          <div className="chip-group">
             {comboPrefectures.map((prefecture) => (
               <a
                 key={prefecture}
                 href={`/subsidies/prefecture/${encodeURIComponent(prefecture)}/industry/${encodeURIComponent(industry)}/`}
-                style={{
-                  fontSize: ".82rem",
-                  color: "var(--text-strong)",
-                  border: "1px solid var(--border-soft)",
-                  borderRadius: "999px",
-                  padding: ".35rem .8rem",
-                  textDecoration: "none",
-                }}
+                className="chip"
               >
                 {prefecture}
               </a>
@@ -229,7 +208,9 @@ export default async function Page({ params }: Props) {
       <Suspense fallback={null}>
         <SubsidiesListClient
           subsidies={filtered}
-          availablePurposes={[...new Set(filtered.flatMap((s) => s.purposes))].sort()}
+          availablePurposes={[
+            ...new Set(filtered.flatMap((s) => s.purposes)),
+          ].sort()}
         />
       </Suspense>
     </div>

@@ -24,7 +24,8 @@ export default function CasesListClient({
 }) {
   const [filter, setFilter] = useState("all")
 
-  const filtered = filter === "all" ? cases : cases.filter((c) => c.subsidyName === filter)
+  const filtered =
+    filter === "all" ? cases : cases.filter((c) => c.subsidyName === filter)
 
   return (
     <>
@@ -46,7 +47,9 @@ export default function CasesListClient({
               style={{
                 borderRadius: "999px",
                 border: `1px solid ${selected ? "var(--green-dark)" : "var(--border-soft)"}`,
-                backgroundColor: selected ? "var(--green-50)" : "var(--bg-surface-alt)",
+                backgroundColor: selected
+                  ? "var(--green-50)"
+                  : "var(--bg-surface-alt)",
                 color: selected ? "var(--green-dark)" : "var(--text-base)",
                 padding: ".45rem .8rem",
                 fontSize: ".8rem",
@@ -129,24 +132,72 @@ export default function CasesListClient({
             </div>
 
             <dl style={{ display: "grid", gap: ".65rem" }}>
-              <div style={{ display: "grid", gridTemplateColumns: "5rem 1fr", gap: ".5rem" }}>
-                <dt style={{ color: "var(--text-muted)", fontSize: ".78rem", paddingTop: ".1rem" }}>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "5rem 1fr",
+                  gap: ".5rem",
+                }}
+              >
+                <dt
+                  style={{
+                    color: "var(--text-muted)",
+                    fontSize: ".78rem",
+                    paddingTop: ".1rem",
+                  }}
+                >
                   課題
                 </dt>
-                <dd style={{ color: "var(--text-base)", fontSize: ".875rem", lineHeight: 1.7 }}>
+                <dd
+                  style={{
+                    color: "var(--text-base)",
+                    fontSize: ".875rem",
+                    lineHeight: 1.7,
+                  }}
+                >
                   {c.challenge}
                 </dd>
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "5rem 1fr", gap: ".5rem" }}>
-                <dt style={{ color: "var(--text-muted)", fontSize: ".78rem", paddingTop: ".1rem" }}>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "5rem 1fr",
+                  gap: ".5rem",
+                }}
+              >
+                <dt
+                  style={{
+                    color: "var(--text-muted)",
+                    fontSize: ".78rem",
+                    paddingTop: ".1rem",
+                  }}
+                >
                   取り組み
                 </dt>
-                <dd style={{ color: "var(--text-base)", fontSize: ".875rem", lineHeight: 1.7 }}>
+                <dd
+                  style={{
+                    color: "var(--text-base)",
+                    fontSize: ".875rem",
+                    lineHeight: 1.7,
+                  }}
+                >
                   {c.solution}
                 </dd>
               </div>
-              <div style={{ display: "grid", gridTemplateColumns: "5rem 1fr", gap: ".5rem" }}>
-                <dt style={{ color: "var(--text-muted)", fontSize: ".78rem", paddingTop: ".1rem" }}>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "5rem 1fr",
+                  gap: ".5rem",
+                }}
+              >
+                <dt
+                  style={{
+                    color: "var(--text-muted)",
+                    fontSize: ".78rem",
+                    paddingTop: ".1rem",
+                  }}
+                >
                   効果
                 </dt>
                 <dd
@@ -173,7 +224,11 @@ export default function CasesListClient({
                 href={c.sourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "var(--text-muted)", fontSize: ".75rem", textDecoration: "none" }}
+                style={{
+                  color: "var(--text-muted)",
+                  fontSize: ".75rem",
+                  textDecoration: "none",
+                }}
               >
                 出典: {c.sourceLabel} ↗
               </a>

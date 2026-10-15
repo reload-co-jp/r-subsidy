@@ -22,7 +22,12 @@ type ApplicationCase = {
 
 function getCases(): ApplicationCase[] {
   try {
-    const file = path.join(process.cwd(), "data", "source", "application-cases.json")
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "source",
+      "application-cases.json"
+    )
     return JSON.parse(fs.readFileSync(file, "utf-8"))
   } catch {
     return []
@@ -80,23 +85,12 @@ const Page: FC = () => {
       />
 
       <Breadcrumb
-        items={[
-          { label: "ホーム", href: "/" },
-          { label: "申請事例" },
-        ]}
+        items={[{ label: "ホーム", href: "/" }, { label: "申請事例" }]}
       />
 
       <div style={{ marginBottom: "1.75rem" }}>
-        <h1
-          style={{
-            color: "var(--text-strong)",
-            fontSize: "1.4rem",
-            marginBottom: ".5rem",
-          }}
-        >
-          補助金 申請事例
-        </h1>
-        <p style={{ color: "var(--text-muted)", fontSize: ".875rem", lineHeight: 1.8 }}>
+        <h1 className="page-title">補助金 申請事例</h1>
+        <p className="page-lead">
           実際に補助金を活用した中小企業・小規模事業者の事例を紹介します。
           課題・取り組み内容・得られた効果を業種別にまとめています。
         </p>
@@ -109,20 +103,24 @@ const Page: FC = () => {
         />
       </Suspense>
 
-      <div
-        style={{
-          marginTop: "2.5rem",
-          padding: "1.5rem",
-          backgroundColor: "var(--bg-surface)",
-          border: "1px solid var(--border-soft)",
-          borderRadius: "10px",
-          textAlign: "center",
-        }}
-      >
-        <p style={{ color: "var(--text-base)", fontSize: ".9rem", marginBottom: "1rem" }}>
+      <div className="card">
+        <p
+          style={{
+            color: "var(--text-base)",
+            fontSize: ".9rem",
+            marginBottom: "1rem",
+          }}
+        >
           自社に合う補助金を探してみましょう
         </p>
-        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+        <div
+          style={{
+            display: "flex",
+            gap: "1rem",
+            justifyContent: "center",
+            flexWrap: "wrap",
+          }}
+        >
           <Link
             href="/diagnosis"
             style={{

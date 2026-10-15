@@ -1,13 +1,25 @@
+import SubsidyLinkList from "../../../../components/elements/subsidy-link-list"
 import { Suspense } from "react"
 import fs from "fs"
 import path from "path"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { SITE_NAME, absoluteUrl, buildBreadcrumbList } from "../../../../lib/site"
-import { YEAR_LABEL, CURRENT_YEAR, indexRobots, purposeLabel } from "../../../../lib/seo"
+import {
+  SITE_NAME,
+  absoluteUrl,
+  buildBreadcrumbList,
+} from "../../../../lib/site"
+import {
+  YEAR_LABEL,
+  CURRENT_YEAR,
+  indexRobots,
+  purposeLabel,
+} from "../../../../lib/seo"
 import type { SubsidyIndexItem } from "../../../../lib/types"
 import { Breadcrumb } from "../../../../components/elements/breadcrumb"
-import FaqSection, { buildFaqStructuredData } from "../../../../components/elements/faq-section"
+import FaqSection, {
+  buildFaqStructuredData,
+} from "../../../../components/elements/faq-section"
 import { buildCollectionFaqItems } from "../../../../lib/collection-faq"
 import SubsidiesListClient from "../../subsidies-list-client"
 
@@ -25,7 +37,12 @@ function decode(value: string) {
 
 function getSubsidies(): SubsidyIndexItem[] {
   try {
-    const file = path.join(process.cwd(), "data", "generated", "subsidies-index.json")
+    const file = path.join(
+      process.cwd(),
+      "data",
+      "generated",
+      "subsidies-index.json"
+    )
     return JSON.parse(fs.readFileSync(file, "utf-8"))
   } catch {
     return []
@@ -55,10 +72,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const all = getAllPurposes(subsidies)
 
   if (!all.includes(purpose)) {
-    return { title: `補助金一覧 | ${SITE_NAME}`, robots: { index: false, follow: false } }
+    return {
+      title: `補助金一覧 | ${SITE_NAME}`,
+      robots: { index: false, follow: false },
+    }
   }
 
-  const filtered = subsidies.filter((s) => s.purposes.includes(purpose) && s.status !== "closed")
+  const filtered = subsidies.filter(
+    (s) => s.purposes.includes(purpose) && s.status !== "closed"
+  )
   const title = `${purposeLabel(purpose)}に使える補助金・助成金一覧｜${CURRENT_YEAR}年最新`
   const description = `${purposeLabel(purpose)}目的で利用できる補助金・助成金を${filtered.length}件掲載。中小企業・個人事業主向けに、都道府県・受付状態・補助上限額で絞り込み比較できます。`
   const pageUrl = getPageUrl(purpose)
@@ -132,7 +154,9 @@ export default async function Page({ params }: Props) {
       {faqItems.length > 0 && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(buildFaqStructuredData(faqItems)) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(buildFaqStructuredData(faqItems)),
+          }}
         />
       )}
       <Breadcrumb
@@ -143,61 +167,24 @@ export default async function Page({ params }: Props) {
         ]}
       />
       <div style={{ marginBottom: "1.5rem" }}>
-        <p style={{ color: "var(--green-dark)", fontSize: ".82rem", fontWeight: "bold", marginBottom: ".45rem" }}>
-          目的別の補助金
-        </p>
-        <h1 style={{ color: "var(--text-strong)", fontSize: "1.55rem", marginBottom: ".55rem" }}>
+        <p className="eyebrow">目的別の補助金</p>
+        <h1 className="page-title">
           {YEAR_LABEL}の{purposeLabel(purpose)}に使える補助金・助成金
         </h1>
-        <p style={{ color: "var(--text-muted)", fontSize: ".9rem", lineHeight: 1.8 }}>
-          {description}
-        </p>
+        <p className="page-lead">{description}</p>
       </div>
 
       {latest.length > 0 && (
-        <section
-          style={{
-            backgroundColor: "var(--bg-surface)",
-            border: "1px solid var(--border-soft)",
-            borderRadius: "10px",
-            padding: "1rem",
-            marginBottom: "1.5rem",
-          }}
-        >
-          <h2 style={{ color: "var(--text-strong)", fontSize: "1rem", marginBottom: ".8rem" }}>
-            {purpose}の新着補助金
-          </h2>
-          <div style={{ display: "grid", gap: ".65rem" }}>
-            {latest.map((s) => (
-              <a
-                key={s.id}
-                href={`/subsidies/${s.slug}/`}
-                style={{
-                  color: "var(--text-strong)",
-                  textDecoration: "none",
-                  borderBottom: "1px solid var(--border-soft)",
-                  paddingBottom: ".65rem",
-                }}
-              >
-                <span style={{ color: "var(--green-dark)", fontSize: ".78rem", fontWeight: "bold" }}>
-                  {s.status === "open" ? "受付中" : "公募前"}
-                </span>
-                <span style={{ display: "block", fontSize: ".92rem", marginTop: ".25rem" }}>
-                  {s.title}
-                </span>
-              </a>
-            ))}
-          </div>
+        <section style={{ marginBottom: "2rem" }}>
+          <h2 className="sub-title">{purpose}の新着補助金</h2>
+          <SubsidyLinkList items={latest} />
         </section>
       )}
 
       <FaqSection items={faqItems} />
 
       <Suspense fallback={null}>
-        <SubsidiesListClient
-          subsidies={filtered}
-          availablePurposes={all}
-        />
+        <SubsidiesListClient subsidies={filtered} availablePurposes={all} />
       </Suspense>
     </div>
   )

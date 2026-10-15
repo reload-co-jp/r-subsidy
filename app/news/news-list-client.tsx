@@ -13,7 +13,8 @@ export default function NewsListClient({
 }) {
   const [filter, setFilter] = useState("all")
 
-  const filtered = filter === "all" ? news : news.filter((n) => n.category === filter)
+  const filtered =
+    filter === "all" ? news : news.filter((n) => n.category === filter)
 
   if (news.length === 0) {
     return (
@@ -34,7 +35,14 @@ export default function NewsListClient({
 
   return (
     <>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: ".5rem", marginBottom: "1.25rem" }}>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: ".5rem",
+          marginBottom: "1.25rem",
+        }}
+      >
         {["all", ...categories].map((cat) => {
           const selected = filter === cat
           return (
@@ -45,7 +53,9 @@ export default function NewsListClient({
               style={{
                 borderRadius: "999px",
                 border: `1px solid ${selected ? "var(--green-dark)" : "var(--border-soft)"}`,
-                backgroundColor: selected ? "var(--green-50)" : "var(--bg-surface-alt)",
+                backgroundColor: selected
+                  ? "var(--green-50)"
+                  : "var(--bg-surface-alt)",
                 color: selected ? "var(--green-dark)" : "var(--text-base)",
                 padding: ".45rem .8rem",
                 fontSize: ".8rem",
@@ -69,7 +79,14 @@ export default function NewsListClient({
               padding: "1.25rem 1.5rem",
             }}
           >
-            <div style={{ display: "flex", gap: ".5rem", flexWrap: "wrap", marginBottom: ".75rem" }}>
+            <div
+              style={{
+                display: "flex",
+                gap: ".5rem",
+                flexWrap: "wrap",
+                marginBottom: ".75rem",
+              }}
+            >
               <span
                 style={{
                   backgroundColor: "var(--green-50)",
@@ -94,10 +111,7 @@ export default function NewsListClient({
               </span>
             </div>
 
-            <Link
-              href={`/news/${n.id}`}
-              style={{ textDecoration: "none" }}
-            >
+            <Link href={`/news/${n.id}`} style={{ textDecoration: "none" }}>
               <h2
                 style={{
                   color: "var(--text-strong)",
@@ -122,7 +136,14 @@ export default function NewsListClient({
               {n.summary}
             </p>
 
-            <div style={{ display: "flex", gap: ".4rem", flexWrap: "wrap", marginBottom: ".75rem" }}>
+            <div
+              style={{
+                display: "flex",
+                gap: ".4rem",
+                flexWrap: "wrap",
+                marginBottom: ".75rem",
+              }}
+            >
               {n.tags.map((tag) => (
                 <span
                   key={tag}
