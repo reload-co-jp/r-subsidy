@@ -110,7 +110,8 @@ export type JGrantsDetail = {
 // Normalized types
 export type Region = 'national' | 'tokyo' | 'prefecture'
 export type Status = 'open' | 'upcoming' | 'closed' | 'unknown'
-export type Source = 'jgrants' | 'tokyo' | 'manual'
+// tokyo: 東京都中小企業振興公社 / jnet21: J-Net21 支援情報ヘッドライン / mhlw: 厚生労働省 雇用関係助成金
+export type Source = 'jgrants' | 'tokyo' | 'manual' | 'jnet21' | 'mhlw'
 
 export type NormalizedSubsidy = {
   id: string
@@ -200,5 +201,7 @@ export type UpdateHistory = {
     national: number
     tokyo: number
     manual: number
+    jnet21?: number
+    mhlw?: number
   }
 }

@@ -1,0 +1,30 @@
+{
+  "overview": "事業主団体が、その構成員である中小企業者（以下「構成中小企業者」という）に対して労働環境の向上を図るための事業を行う場合に助成するもので、雇用管理の改善を推進し、雇用創出を図ることを目的としています。",
+  "detail": "<h2>概要</h2><p>事業主団体が、その構成員である中小企業者（以下「構成中小企業者」という）に対して労働環境の向上を図るための事業を行う場合に助成するもので、雇用管理の改善を推進し、雇用創出を図ることを目的としています。</p>\n<h2>主な支給要件</h2><ul><li>本助成金（コース）は、(1)から(3)の措置のすべてを実施した事業協同組合等が受給することができます。</li><li>このほかにも、雇用関係助成金共通の要件などいくつかの受給要件がありますので、詳しくは下記の「お問い合わせ先」までお問い合わせください。</li><li>雇用関係助成金共通の要件等</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "雇用・人材育成",
+  "status": "unknown",
+  "workflow": "都道府県労働局・ハローワーク",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000199317.html",
+  "updatedAt": "2026-10-15T11:59:29.618Z",
+  "id": "mhlw-a15ee32f4a",
+  "slug": "mhlw-a15ee32f4a",
+  "title": "人材確保等支援助成金（中小企業団体助成コース）",
+  "source": "mhlw"
+}

@@ -1,0 +1,30 @@
+{
+  "overview": "重度身体障害者、知的障害者または精神障害者を多数継続して雇用し、かつ、安定した雇用を継続することができると認められる事業主で、これらの障害者のために事業施設等の設置または整備を行う場合に、その費用の一部を助成するものです。",
+  "detail": "<h2>概要</h2><p>重度身体障害者、知的障害者または精神障害者を多数継続して雇用し、かつ、安定した雇用を継続することができると認められる事業主で、これらの障害者のために事業施設等の設置または整備を行う場合に、その費用の一部を助成するものです。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "雇用・人材育成",
+  "status": "unknown",
+  "workflow": "（独）高齢・障害・求職者雇用支援機構",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/juta_joseikin/sub04_juta.html",
+  "updatedAt": "2026-10-15T12:00:30.412Z",
+  "id": "mhlw-148350ea7c",
+  "slug": "mhlw-148350ea7c",
+  "title": "重度障害者等多数雇用事業所施設設置等助成金",
+  "source": "mhlw"
+}

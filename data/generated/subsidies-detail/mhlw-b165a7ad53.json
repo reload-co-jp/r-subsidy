@@ -1,0 +1,30 @@
+{
+  "overview": "令和５年12月１日から、当分の間、ハローワーク等の紹介により、補完的保護対象者を試行雇用する事業主に対して、トライアル雇用助成金（一般トライアルコース）を支給します。 改正概要［547KB］",
+  "detail": "<h2>概要</h2><p>令和５年12月１日から、当分の間、ハローワーク等の紹介により、補完的保護対象者を試行雇用する事業主に対して、トライアル雇用助成金（一般トライアルコース）を支給します。 改正概要［547KB］</p>\n<h2>主な支給要件</h2><ul><li>本助成金は次の１の対象労働者を２の条件で雇い入れた場合に受給することができます。</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "雇用・人材育成",
+  "status": "unknown",
+  "workflow": "都道府県労働局・ハローワーク",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/newpage_16286.html",
+  "updatedAt": "2026-10-15T12:00:50.352Z",
+  "id": "mhlw-b165a7ad53",
+  "slug": "mhlw-b165a7ad53",
+  "title": "トライアル雇用助成金（一般トライアルコース）",
+  "source": "mhlw"
+}

@@ -1,0 +1,30 @@
+{
+  "overview": "",
+  "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "雇用・人材育成",
+  "status": "unknown",
+  "workflow": "都道府県労働局・ハローワーク",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/shougaishakoyou/index_00004.html",
+  "updatedAt": "2026-10-15T12:00:24.097Z",
+  "id": "mhlw-ffae52e75b",
+  "slug": "mhlw-ffae52e75b",
+  "title": "キャリアアップ助成金（障害者正社員化コース）",
+  "source": "mhlw"
+}

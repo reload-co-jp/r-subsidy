@@ -1,0 +1,1115 @@
+{
+  "fetchedAt": "2026-10-15T12:01:07.878Z",
+  "subsidies": [
+    {
+      "overview": "",
+      "detail": "<h2>主な支給要件</h2><ul><li>受給するためには、次の要件のいずれも満たすことが必要です。</li><li>(1)雇用保険の適用事業主であること。</li><li>(2)売上高又は生産量などの事業活動を示す指標について、その最近３か月間の月平均値が前年同期に比べて10％以上減少していること。</li><li>(3)雇用保険被保険者数及び受け入れている派遣労働者数による雇用量を示す指標について、その最近３か月間の月平均値が前年同期に比べて、中小企業の場合は10％を超えてかつ4人以上、中小企業以外の場合は5％を超えてかつ6人以上増加していないこと。</li><li>(4)実施する雇用調整が一定の基準を満たすものであること。 〔1〕休業の場合 労使間の協定により、所定労働日の所定労働時間内において実施されるものであること。（※１） ※１ 短時間休業にあっては、当該事業所における対象労働者の一部又は全員について１時間以上行われるものであること。</li><li>〔2〕教育訓練の場合 労使間の協定により、所定労働日の所定労働時間内において実施されるものであることのほか、教育訓練の内容が、職業に関する知識・技能・技術の習得や向上を目的とするものであること。（※２）。 ※２ 短時間訓練にあっては、当該事業所における対象労働者の一部又は全員について２時間以上行われるものであること。</li><li>〔3〕出向の場合 対象期間内に開始され、３か月以上１年以内に出向元事業所に復帰するものであること。</li><li>(5)過去に雇用調整助成金の支給を受けたことがある事業主が新たに対象期間を設定する場合、前回の対象期間内の最後の判定基礎期間末日もしくは支給対象期末日（いずれか遅い日）の翌日から起算して一年を超えていること。</li><li>※このほかにも、雇用関係助成金共通の要件などいくつかの受給要件がありますので、詳しくは下記の「お問い合わせ先」にお問い合わせください。</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/pageL07_20200515.html",
+      "updatedAt": "2026-10-15T12:00:42.736Z",
+      "id": "mhlw-5d9c1df3dd",
+      "slug": "mhlw-5d9c1df3dd",
+      "title": "雇用調整助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/sankokinsangyourenkeijinzaikakuhotou_00001.html",
+      "updatedAt": "2026-10-15T11:59:18.506Z",
+      "id": "mhlw-7a28fb4766",
+      "slug": "mhlw-7a28fb4766",
+      "title": "産業雇用安定助成金（産業連携人材確保等支援コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000082805_00012.html",
+      "updatedAt": "2026-10-15T12:00:44.032Z",
+      "id": "mhlw-25d044b9ee",
+      "slug": "mhlw-25d044b9ee",
+      "title": "産業雇用安定助成金（スキルアップ支援コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/sankosaigai.html",
+      "updatedAt": "2026-10-15T12:00:08.673Z",
+      "id": "mhlw-9290f58a4c",
+      "slug": "mhlw-9290f58a4c",
+      "title": "産業雇用安定助成金（災害特例人材確保支援コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "支給対象者１人あたり以下の金額が支給されます。ただし、１年度１事業所あたり５００人を限度とします。 【令和６年４月１日以降の再就職援助計画等の対象者】 （１）再就職の支援を職業紹介事業者に委託する場合 支給対象となる方の再就職を実現させた場合に以下の金額が支給されます。 【】は45歳以上の者の助成割合",
+      "detail": "<h2>概要</h2><p>支給対象者１人あたり以下の金額が支給されます。ただし、１年度１事業所あたり５００人を限度とします。 【令和６年４月１日以降の再就職援助計画等の対象者】 （１）再就職の支援を職業紹介事業者に委託する場合 支給対象となる方の再就職を実現させた場合に以下の金額が支給されます。 【】は45歳以上の者の助成割合</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/newpage_21924.html",
+      "updatedAt": "2026-10-15T12:00:09.376Z",
+      "id": "mhlw-645a389c9e",
+      "slug": "mhlw-645a389c9e",
+      "title": "早期再就職支援等助成金（再就職支援コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "再就職援助計画などの対象者を離職後３か月以内に期間の定めのない労働者として雇い入れ、継続して雇用することが確実である事業主に対して助成します。",
+      "detail": "<h2>概要</h2><p>再就職援助計画などの対象者を離職後３か月以内に期間の定めのない労働者として雇い入れ、継続して雇用することが確実である事業主に対して助成します。</p>\n<h2>主な支給要件</h2><ul><li>受給するためには、次の措置をとることが必要です。</li><li>（１）支給対象者を離職日の翌日から3か月以内に期間の定めのない労働者として雇い入れること。 ※有期雇用契約で雇い入れた後に期間の定めのない労働者として雇い入れた場合や紹介予定派遣で雇い入れた場合には支給対象となりません。</li><li>（２）支給対象者を一般被保険者又は高年齢被保険者として雇い入れること。 支給決定時までに事業主都合による解雇等により支給対象者を雇用しなくなった場合は、支給されません。</li><li>（３）支給対象者の雇い入れ後の賃金を、雇い入れ前の賃金より５％以上上昇させていること。</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000082805.html",
+      "updatedAt": "2026-10-15T11:59:21.207Z",
+      "id": "mhlw-65657856e0",
+      "slug": "mhlw-65657856e0",
+      "title": "早期再就職支援等助成金（雇入れ支援コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "「早期再就職支援等助成金（中途採用拡大コース）」は、中途採用者の雇用管理制度を整備した上で中途採用を拡大し、雇い入れた中途採用者の賃金を雇い入れ前と比較して５％以上上昇させた事業主に対して助成するものです。通常助成：支給対象者１人につき20万円が支給されます（1事業所１年度あたり20人まで）。加算助成：生産指標等により一定の成長性が認められる事業所の事業主が雇い入れた場合、支給対象者１人につき10万円が追加で支給されます（１事業所１年度あたり20人まで）。",
+      "detail": "<h2>概要</h2><p>「早期再就職支援等助成金（中途採用拡大コース）」は、中途採用者の雇用管理制度を整備した上で中途採用を拡大し、雇い入れた中途採用者の賃金を雇い入れ前と比較して５％以上上昇させた事業主に対して助成するものです。</p><p>通常助成：支給対象者１人につき20万円が支給されます（1事業所１年度あたり20人まで）。</p><p>加算助成：生産指標等により一定の成長性が認められる事業所の事業主が雇い入れた場合、支給対象者１人につき10万円が追加で支給されます（１事業所１年度あたり20人まで）。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000160737_00001.html",
+      "updatedAt": "2026-10-15T11:59:21.974Z",
+      "id": "mhlw-3ca2d9ebb3",
+      "slug": "mhlw-3ca2d9ebb3",
+      "title": "早期再就職支援等助成金（中途採用拡大コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "高年齢者や障害者等の就職困難者をハローワーク等の紹介により、継続して雇用する労働者（雇用保険の一般被保険者）として雇い入れる事業主に対して助成されます。",
+      "detail": "<h2>概要</h2><p>高年齢者や障害者等の就職困難者をハローワーク等の紹介により、継続して雇用する労働者（雇用保険の一般被保険者）として雇い入れる事業主に対して助成されます。</p>\n<h2>主な支給要件</h2><ul><li>本助成金を受給するためには、次の要件のいずれも満たすことが必要です。</li><li>(1)ハローワークまたは民間の職業紹介事業者等（※1）の紹介により雇い入れること</li><li>(2)雇用保険一般被保険者又は高年齢被保険者として雇い入れ、継続して雇用すること（※2）が確実であると認められること。 ※1 具体的には次の機関が該当します。 [1]公共職業安定所（ハローワーク）</li><li>[2]地方運輸局（船員として雇い入れる場合）</li><li>[3]適正な運用を期すことのできる有料・無料職業紹介事業者等 特定地方公共団体、厚生労働大臣の許可を受けた有料・無料職業紹介事業者、届出を行った無料職業紹介事業者、または無料船員職業紹介事業者（船員として雇い入れる場合）のうち、本助成金に係る取扱いを行うに当たって、厚生労働省職業安定局長の定める項目のいずれにも同意する旨の届出を労働局長に提出している職業紹介事業者等</li><li>※2 対象労働者の年齢が65歳以上に達するまで継続して雇用し、かつ、当該雇用期間が継続して2年以上であることをいいます。</li><li>このほかにも、雇用関係助成金共通の要件などいくつかの支給要件がありますので、詳しくは下記の「パンフレット」や「お問い合わせ先」までご確認ください。</li><li>雇用関係助成金共通の要件</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/tokutei_konnan.html",
+      "updatedAt": "2026-10-15T11:59:22.668Z",
+      "id": "mhlw-f5caf98b00",
+      "slug": "mhlw-f5caf98b00",
+      "title": "特定求職者雇用開発助成金（特定就職困難者コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "発達障害者や難病患者をハローワーク等の紹介により、継続して雇用する労働者（一般被保険者）として雇い入れる事業主に対して助成されます。 雇入れから約６か月後にハローワーク職員等が職場訪問を行う場合があります。",
+      "detail": "<h2>概要</h2><p>発達障害者や難病患者をハローワーク等の紹介により、継続して雇用する労働者（一般被保険者）として雇い入れる事業主に対して助成されます。 雇入れから約６か月後にハローワーク職員等が職場訪問を行う場合があります。</p>\n<h2>主な支給要件</h2><ul><li>本助成金を受給するためには、次の要件のいずれも満たすことが必要です。</li><li>(1)ハローワークまたは民間の職業紹介事業者等（※1）の紹介により雇い入れること</li><li>(2)雇用保険一般被保険者として雇い入れ、継続して雇用すること（※2）が確実であると認められること。 ※1 具体的には次の機関が該当します。 [1]公共職業安定所（ハローワーク）</li><li>[2]地方運輸局（船員として雇い入れる場合）</li><li>[3]適正な運用を期すことのできる同意職業紹介事業者等 特定地方公共団体、厚生労働大臣の許可を受けた有料・無料職業紹介事業者、届出を行った無料職業紹介事業者、または無料船員職業紹介事業者（船員として雇い入れる場合）のうち、本助成金に係る取扱いを行うに当たって、厚生労働省職業安定局長の定める項目のいずれにも同意する旨の届出を労働局長に提出し、雇用関係給付金に係る取扱いを行う旨を示す標識の交付を受け、これを事業所内に掲げる職業紹介事業者等</li><li>※2 対象労働者の年齢が65歳以上に達するまで継続して雇用し、かつ、当該雇用期間が継続して2年以上であることをいいます。</li><li>このほかにも、雇用関係助成金共通の要件などいくつかの支給要件がありますので、詳しくは下記の「パンフレット」や「お問い合わせ先」までご確認ください。</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/hattatsu_nanchi.html",
+      "updatedAt": "2026-10-15T11:59:23.311Z",
+      "id": "mhlw-266b3d889d",
+      "slug": "mhlw-266b3d889d",
+      "title": "特定求職者雇用開発助成金（発達障害者・難治性疾患患者雇用開発コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "雇入日時点で３５歳から６０歳未満の正規雇用に就くことが困難な方を、ハローワーク等の紹介により正規雇用労働者として雇い入れる事業主に対して助成されます。",
+      "detail": "<h2>概要</h2><p>雇入日時点で３５歳から６０歳未満の正規雇用に就くことが困難な方を、ハローワーク等の紹介により正規雇用労働者として雇い入れる事業主に対して助成されます。</p>\n<h2>主な支給要件</h2><ul><li>雇入れ日において（1）から（5）のいずれにも当てはまる方を、ハローワークまたは民間の職業紹介事業者など（※１）の紹介により正規雇用労働者（※２）として新たに雇用する事業主に助成金を支給します。</li><li>(1)雇入れの日において35歳から60歳未満の方</li><li>(2)雇入れの日の前日から起算して過去５年間に正規雇用労働者として雇用された期間（※３）を通算した期間が１年以下の方</li><li>(3)雇入れの日の前日から起算して過去１年間に正規雇用労働者として雇用された期間がない方（※４）</li><li>(4)ハローワークなどの紹介の時点で安定した職業（※５）に就いていない方でかつ、ハローワークなどにおいて、就労に向けた個別支援を受けている方</li><li>(5)正規雇用労働者として雇用されることを希望している方</li><li>※1 具体的には次の機関が該当します。 [1]公共職業安定所（ハローワーク）</li><li>[2]地方運輸局（船員として雇い入れる場合）</li><li>[3]適正な運用を期すことのできる有料・無料職業紹介事業者等 特定地方公共団体、厚生労働大臣の許可を受けた有料・無料職業紹介事業者、届出を行った無料職業紹介事業者、または無料船員職業紹介事業者（船員として雇い入れる場合）のうち、本助成金に係る取扱いを行うに当たって、厚生労働省職業安定局長の定める項目のいずれにも同意する旨の届出を労働局長に提出している職業紹介事業者等</li><li>※2 正規雇用労働者とは、以下の[1]から[3]のいずれにも該当する者とします。 ただし、一週間の所定労働時間が20時間以上30時間未満である短時間労働者は除きます。 また、正規雇用労働者について就業規則等において定められていることが必要です。 [1]期間の定めのない労働契約を締結している労働者であること。</li><li>[2]所定労働時間が同一の事業主に雇用される通常の労働者の所定労働時間（週30時間以上）と同じ労働者であること。</li><li>[3]同一の事業主に雇用される通常の労働者に適用される就業規則等に規定する賃金の算定方法および支給形態、賞与、退職金、休日、定期的な昇給や昇格の労働条件について長期雇用を前提とした待遇が適用されている労働者であること。</li><li>※3 正規雇用労働者として雇用された期間とは、以下の[1]又は[2]のいずれか等に該当し、かつ、正規雇用労働者と同等以上の職業能力が必要と考えられる職業に従事していた期間を含みます（この間、雇用保険被保険者だったか否かは問いません） [1]自営業者（個人事業主、フリーランス等名称は問いません）</li><li>[2]業務独占資格を有し当該資格が必要な職業に従事していた方（就労を希望する職業が当該資格を要しない場合を除きます</li><li>※4 過去１年間に正規雇用労働者として雇用された期間がある方でも、事業主都合の解雇等により離職した場合は助成対象となります。</li><li>※5 安定した職業とは 期間の定めのない労働契約であって、１週間の所定労働時間が同一の事業所に雇用される通常の労働者の１週間の所定労働時間と同じであるもの及び自営業者等であって、正規雇用労働者と同等以上の職業能力が必要と考えられるもの。</li><li>このほかにも、雇用関係助成金共通の要件などいくつかの支給要件がありますので、詳しくは下記の「パンフレット」や「お問い合わせ先」までご確認ください。</li><li>雇用関係助成金共通の要件</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/chuukou.html",
+      "updatedAt": "2026-10-15T11:59:24.087Z",
+      "id": "mhlw-60d1954daf",
+      "slug": "mhlw-60d1954daf",
+      "title": "特定求職者雇用開発助成金（中高年層安定雇用支援コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "ハローワークまたは地方公共団体において、通算して３ヶ月を超えて支援を受けている生活保護受給者や生活困窮者を、ハローワーク等の紹介により、継続して雇用する労働者（雇用保険の一般被保険者）として雇い入れる事業主に対して助成します。",
+      "detail": "<h2>概要</h2><p>ハローワークまたは地方公共団体において、通算して３ヶ月を超えて支援を受けている生活保護受給者や生活困窮者を、ハローワーク等の紹介により、継続して雇用する労働者（雇用保険の一般被保険者）として雇い入れる事業主に対して助成します。</p>\n<h2>主な支給要件</h2><ul><li>本助成金を受給するためには、次の要件のいずれも満たすことが必要です。</li><li>このほかにも、雇用関係助成金共通の要件などいくつかの支給要件がありますので、詳しくは下記の「パンフレット」や「お問い合わせ先」までご確認ください。</li><li>雇用関係助成金共通の要件</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/tokutei_seikatsu.html",
+      "updatedAt": "2026-10-15T11:59:24.717Z",
+      "id": "mhlw-a8008f2a08",
+      "slug": "mhlw-a8008f2a08",
+      "title": "特定求職者雇用開発助成金（生活保護受給者等雇用開発コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "令和５年12月１日から、当分の間、ハローワーク等の紹介により、補完的保護対象者を試行雇用する事業主に対して、トライアル雇用助成金（一般トライアルコース）を支給します。 改正概要［547KB］",
+      "detail": "<h2>概要</h2><p>令和５年12月１日から、当分の間、ハローワーク等の紹介により、補完的保護対象者を試行雇用する事業主に対して、トライアル雇用助成金（一般トライアルコース）を支給します。 改正概要［547KB］</p>\n<h2>主な支給要件</h2><ul><li>本助成金は次の１の対象労働者を２の条件で雇い入れた場合に受給することができます。</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/newpage_16286.html",
+      "updatedAt": "2026-10-15T12:00:50.352Z",
+      "id": "mhlw-b165a7ad53",
+      "slug": "mhlw-b165a7ad53",
+      "title": "トライアル雇用助成金（一般トライアルコース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "ハローワークまたは民間の職業紹介事業者等の紹介により、就職が困難な障害者を一定期間雇用することにより、その適性や業務遂行可能性を見極め、求職者及び求人者の相互理解を促進すること等を通じて、障害者の早期就職の実現や雇用機会の創出を図ることを目的としています。",
+      "detail": "<h2>概要</h2><p>ハローワークまたは民間の職業紹介事業者等の紹介により、就職が困難な障害者を一定期間雇用することにより、その適性や業務遂行可能性を見極め、求職者及び求人者の相互理解を促進すること等を通じて、障害者の早期就職の実現や雇用機会の創出を図ることを目的としています。</p>\n<h2>主な支給要件</h2><ul><li>本助成金は、次の１の対象労働者を２の条件により雇い入れた場合に受給することができます。</li><li>1.対象労働者 次の［１］と［２］の両方に該当する者であること ［１］継続雇用する労働者としての雇入れを希望している者であって、障害者トライアル雇用制度を理解した上で、障害者トライアル雇用による雇入れについても希望している者</li><li>［２］障害者雇用促進法に規定する障害者のうち、次のア～エのいずれかに該当する者 ア紹介日において就労の経験のない職業に就くことを希望する者</li><li>イ紹介日前２年以内に、離職が２回以上または転職が２回以上ある者</li><li>ウ紹介日前において離職している期間が６か月を超えている者</li><li>エ重度身体障害者、重度知的障害者、精神障害者</li><li>2.雇入れの条件 （１）ハローワークまたは民間の職業紹介事業者等の紹介により雇い入れること</li><li>（２）障害者トライアル雇用等の期間について、雇用保険被保険者資格取得の届出を行うこと</li><li>このほかにも、雇用関係助成金共通の要件などいくつかの支給要件がありますので、詳しくは下記の「お問い合わせ先」までご確認ください。</li><li>雇用関係助成金共通の要件［PDF形式：488KB]</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/shougai_trial.html",
+      "updatedAt": "2026-10-15T11:59:26.180Z",
+      "id": "mhlw-cd11acf8e4",
+      "slug": "mhlw-cd11acf8e4",
+      "title": "トライアル雇用助成金（障害者トライアルコース・障害者短時間トライアルコース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "建設事業主等に対する助成金には、建設事業主を対象とした助成金と建設事業主団体・職業訓練法人を対象とした助成金があります。 建設事業主等が、建設労働者の雇用環境の改善や建設労働者の技能の向上等を図るための取組みを行った場合に助成を受けることができます。",
+      "detail": "<h2>概要</h2><p>建設事業主等に対する助成金には、建設事業主を対象とした助成金と建設事業主団体・職業訓練法人を対象とした助成金があります。 建設事業主等が、建設労働者の雇用環境の改善や建設労働者の技能の向上等を図るための取組みを行った場合に助成を受けることができます。</p>\n<h2>コース</h2><ul><li>トライアル雇用助成金（若年・女性建設労働者トライアルコース）</li><li>人材確保等支援助成金（建設キャリアアップシステム等活用促進コース）</li><li>人材確保等支援助成金（若年者及び女性に魅力ある職場づくり事業コース（建設分野））</li><li>人材確保等支援助成金（作業員宿舎等設置助成コース（建設分野））</li><li>人材開発支援助成金（建設労働者認定訓練コース）</li><li>人材開発支援助成金（建設労働者技能実習コース）</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kensetsu-kouwan/kensetsu-kaizen.html",
+      "updatedAt": "2026-10-15T12:00:15.679Z",
+      "id": "mhlw-56877b70a9",
+      "slug": "mhlw-56877b70a9",
+      "title": "建設事業主等に対する助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "雇用機会が特に不足している地域等（※1、2）の事業主が、事業所の設置・整備を行い、併せてその地域に居住する求職者等を雇い入れる場合、設置整備費用及び対象労働者の増加数に応じて助成されます。（１年毎に最大３回支給）※1 同意雇用開発促進地域 [145KB］&emsp; 過疎等雇用改善地域 [221KB］&emsp; 特定有人国境離島地域等 [249KB］&emsp;※2 上記「※１」の他、下記の特例措置に係る対象地域●地域活性化雇用創造プロジェクト参加事業主に対する特例対象地域（注）●地方創生応援税制（企業版ふるさと納税）寄附事業主に対する特例対象地域 [217KB］（注）埼玉県、千葉県、東京都、神奈川県、愛知県及び大阪府は対象地域外となります。",
+      "detail": "<h2>概要</h2><p>雇用機会が特に不足している地域等（※1、2）の事業主が、事業所の設置・整備を行い、併せてその地域に居住する求職者等を雇い入れる場合、設置整備費用及び対象労働者の増加数に応じて助成されます。（１年毎に最大３回支給）</p><p>※1 同意雇用開発促進地域 [145KB］&amp;emsp; 過疎等雇用改善地域 [221KB］&amp;emsp; 特定有人国境離島地域等 [249KB］&amp;emsp;</p><p>※2 上記「※１」の他、下記の特例措置に係る対象地域</p><p>●地域活性化雇用創造プロジェクト参加事業主に対する特例対象地域（注）</p><p>●地方創生応援税制（企業版ふるさと納税）寄附事業主に対する特例対象地域 [217KB］</p><p>（注）埼玉県、千葉県、東京都、神奈川県、愛知県及び大阪府は対象地域外となります。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/chiiki_koyou.html",
+      "updatedAt": "2026-10-15T12:00:16.490Z",
+      "id": "mhlw-23d5689f91",
+      "slug": "mhlw-23d5689f91",
+      "title": "地域雇用開発助成金（地域雇用開発コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "沖縄県内において、事業所の設置・整備に伴い、沖縄県内に居住する３５歳未満の若年求職者を雇い入れる事業主に助成されます。",
+      "detail": "<h2>概要</h2><p>沖縄県内において、事業所の設置・整備に伴い、沖縄県内に居住する３５歳未満の若年求職者を雇い入れる事業主に助成されます。</p>\n<h2>主な支給要件</h2><ul><li>受給するためには、次の１によって事業の計画書を提出した上で、２による施設設置等と３による「対象労働者」の雇入れを行い、その結果５を満たした場合に受給することができます。中小企業事業主の場合は、１～３の措置に加えて、４による「沖縄新規学卒者の雇入れ」を行うことができます。</li><li>1計画書の提出 次の(1)と(2)を満たす計画書を作成し、沖縄労働局長に提出すること。 (1)沖縄県において、事業所（施設・設備）の設置・整備を行い、それに伴って対象労働者の雇い入れ行う計画であること</li><li>(2)沖縄県における雇用開発または雇用失業情勢の改善に資すると認められる計画であること</li><li>2施設設置等 次の(1)～(3)のすべてを満たす事業所（施設・設備）の設置・整備を行うこと。 (1)その施設・設備が、雇用の拡大のために必要な事業の用に供されるものであること</li><li>(2)その設置・整備が、計画日から完了日までの間（最長２４か月）に行われるものであること</li><li>(3)その設置・整備に要する費用が、契約１件あたり２０万円以上で、合計額が３００万円以上（中小企業事業主の場合は１００万円以上）であること</li><li>3対象労働者の雇い入れ 次の(1)の対象労働者を(2)の条件で雇い入れること (1)対象労働者 本コースおける「対象労働者」は、次の[1]～[2]のすべてに該当する求職者です。 [1]沖縄県内に居住する者であること</li><li>[2]雇い入れの時点で満３５歳未満である者（新規学卒者でない者）</li><li>(2)雇い入れの条件 ２の施設設置等に伴い、設置・整備事業所において、対象労働者を次の[1]～[3]のすべての条件により雇い入れること [1]計画日から完了日までの間に３人以上雇い入れること</li><li>[2]常用雇用する雇用保険一般被保険者として雇い入れ、本助成金の支給終了後も引き続き雇用することが見込まれること</li><li>[3]計画日までに定着指導責任者を任命し、雇い入れた者に対する職場定着を図ること</li><li>4沖縄新規学卒者の雇い入れ 沖縄県内に居住する新規学卒者を(1)の条件で雇い入れること (1)雇い入れの条件 設置・整備事業所において、沖縄新規学卒者を次の[1]～[4]のすべての条件により雇い入れること。 [1]中小企業事業主であること</li><li>[2]上記3によって雇い入れた３人以上の対象労働者のほかに雇い入れること</li><li>[3]計画日から完了日までの間に雇い入れること</li><li>[4]常用雇用する雇用保険一般被保険者として雇い入れ、本コースの支給終了後も引き続き雇用することが見込まれること</li><li>5事業所における労働者（雇用保険被保険者）数の増加 設置・整備事業所における雇用保険被保険者の完了日における数が、計画日の前日における数を上回ること</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/okinawa_jakunen.html",
+      "updatedAt": "2026-10-15T12:00:17.084Z",
+      "id": "mhlw-a85f2f963d",
+      "slug": "mhlw-a85f2f963d",
+      "title": "地域雇用開発助成金（沖縄若年者雇用促進コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "事業主が、雇用管理制度（賃金規定制度、諸手当等制度、人事評価制度、職場活性化制度、健康づくり制度）又は業務負担軽減機器等（従業員の直接的な作業負担を軽減する機器・設備等）の導入による雇用管理改善を行い、離職率低下の目標などを達成した場合に助成するものです。",
+      "detail": "<h2>概要</h2><p>事業主が、雇用管理制度（賃金規定制度、諸手当等制度、人事評価制度、職場活性化制度、健康づくり制度）又は業務負担軽減機器等（従業員の直接的な作業負担を軽減する機器・設備等）の導入による雇用管理改善を行い、離職率低下の目標などを達成した場合に助成するものです。</p>\n<h2>主な支給要件</h2><ul><li>受給するためには、事業主が、次の措置を実施することが必要です。 （１）雇用管理制度等整備計画の認定 次の〔１〕～〔５〕の雇用管理制度又は業務負担軽減機器等の導入を内容とする雇用管理制度等整備計画を作成し、管轄の労働局の認定を受けること。 〔１〕賃金規定制度 〔２〕諸手当等制度 〔３〕人事評価制度 〔４〕職場活性化制度（メンター制度、従業員調査（エンゲージメントサーベイ）、1on1ミーティング） 〔５〕健康づくり制度 （２）雇用管理制度又は業務負担軽減機器等の導入 （１）の雇用管理制度等整備計画に基づき、当該雇用管理制度等整備計画の実施期間内に、雇用管理制度又は業務負担軽減機器等を導入すること。</li><li>（３）離職率の低下目標の達成 （１）、（２）の実施の結果、雇用管理制度等整備計画の期間の終了から１年経過するまでの期間の離職率を、雇用管理制度等整備計画を提出する前１年間の離職率よりも、１％ポイント以上低下させること（※）。 （※）事業所の雇用保険一般被保険者数が９人以下の事業主の場合は、雇用管理制度等整備計画を提出する前１年間の離職率を上回らないこと。</li><li>このほかにも、雇用関係助成金共通の要件などいくつかの受給要件がありますので、詳しくは本ページ下記にあります「パンフレット・リーフレット」及び「支給要領」をご参照いただく他、ご不明点については「お問い合わせ先（支給申請窓口）」までお問い合わせください。</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000199292_00005.html",
+      "updatedAt": "2026-10-15T11:59:28.957Z",
+      "id": "mhlw-e6c0e61748",
+      "slug": "mhlw-e6c0e61748",
+      "title": "人材確保等支援助成金（雇用管理制度・雇用環境整備助成コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "事業主団体が、その構成員である中小企業者（以下「構成中小企業者」という）に対して労働環境の向上を図るための事業を行う場合に助成するもので、雇用管理の改善を推進し、雇用創出を図ることを目的としています。",
+      "detail": "<h2>概要</h2><p>事業主団体が、その構成員である中小企業者（以下「構成中小企業者」という）に対して労働環境の向上を図るための事業を行う場合に助成するもので、雇用管理の改善を推進し、雇用創出を図ることを目的としています。</p>\n<h2>主な支給要件</h2><ul><li>本助成金（コース）は、(1)から(3)の措置のすべてを実施した事業協同組合等が受給することができます。</li><li>このほかにも、雇用関係助成金共通の要件などいくつかの受給要件がありますので、詳しくは下記の「お問い合わせ先」までお問い合わせください。</li><li>雇用関係助成金共通の要件等</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000199317.html",
+      "updatedAt": "2026-10-15T11:59:29.618Z",
+      "id": "mhlw-a15ee32f4a",
+      "slug": "mhlw-a15ee32f4a",
+      "title": "人材確保等支援助成金（中小企業団体助成コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "人材確保等支援助成金（外国人労働者就労環境整備助成コース）のご案内ページです。申請様式やパンフレット等を掲載しています。",
+      "detail": "<h2>概要</h2><p>人材確保等支援助成金（外国人労働者就労環境整備助成コース）のご案内ページです。申請様式やパンフレット等を掲載しています。</p>\n<h2>主な支給要件</h2><ul><li>（１）外国人労働者を雇用している事業主であること</li><li>（２）認定を受けた就労環境整備計画に基づき、外国人労働者に対し、１及び２の措置を導入・実施すること（１及び２の措置に加え３の措置を導入・実施した場合は上乗せ助成） １雇用労務責任者の選任</li><li>２就業規則・社内マニュアル等の多言語化</li><li>３一時帰国のための休暇制度の整備（上乗せ措置）</li><li>（３）就労環境整備計画期間終了後６か月経過後における外国人労働者の離職率が15％以下であること</li><li>※このほかにも、雇用関係助成金共通の要件などいくつかの受給要件がありますので、詳しくは下記の「お問い合わせ先」までお問い合わせください。</li><li>雇用関係助成金共通の要件等</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/gaikokujin.html",
+      "updatedAt": "2026-10-15T11:59:30.361Z",
+      "id": "mhlw-340bc464e0",
+      "slug": "mhlw-340bc464e0",
+      "title": "人材確保等支援助成金（外国人労働者就労環境整備助成コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/telework_zyosei_R3.html",
+      "updatedAt": "2026-10-15T11:59:31.046Z",
+      "id": "mhlw-a158d87df8",
+      "slug": "mhlw-a158d87df8",
+      "title": "人材確保等支援助成金（テレワークコース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "北海道、東北地方等の積雪または寒冷の度が高い地域の事業主が、冬期間に離職を余儀なくされる季節労働者を通年雇用した場合に助成されます。",
+      "detail": "<h2>概要</h2><p>北海道、東北地方等の積雪または寒冷の度が高い地域の事業主が、冬期間に離職を余儀なくされる季節労働者を通年雇用した場合に助成されます。</p>\n<h2>主な支給要件</h2><ul><li>本助成金を受給するためには、次の要件のいずれかを満たすことが必要です。なお、詳細な要件については、支給要領等をご確認ください。</li><li>(1)季節労働者を冬期間も継続して同一の事業所で就業させた場合（事業所内就業）</li><li>(2)季節労働者を他の事業所で配置転換・労働者派遣・在籍出向により就業させ、冬期間も継続雇用した場合（事業所外就業）</li><li>(3)季節労働者を冬期間も継続雇用し、期間中一時的に休業させた場合（休業）</li><li>(4)季節労働者を季節的業務以外の業務に転換し、継続して雇用した場合（業務転換）</li><li>(5)季節労働者に職業訓練を実施した場合（職業訓練）</li><li>(6)季節労働者を通年雇用するために、新たに新分野の事業所設置・整備した場合（新分野進出）</li><li>(7)季節労働者を試行（トライアル）雇用終了後、引き続き、常用雇用として雇い入れた場合（季節トライアル雇用） [1](1)～(6)の場合、指定地域（※1）内で指定業種（※2）に属する事業を行う事業主が対象です。</li><li>[2](7)の場合、指定地域（※1）内に所在し、指定業種（※2）以外に属する事業主が対象です。</li><li>※1指定地域 北海道、青森、岩手および秋田の全市町村、宮城、山形、福島、新潟、富山、石川、福井、長野および岐阜の一部の市町村</li><li>※2指定業種 1.林業、2.採石業および砂、砂利又は玉石の採取業、3.建設業、4.水産食料品製造業、5.野菜缶詰、果実缶詰又は農産保存食料品の製造業、6.一般製材業、7.セメント製品製造業、8.建設用粘土製品（陶磁器製のものを除く。）の製造業、9.特定貨物自動車運送業、10.建設現場において据付作業を行う「造作材製造業（建具を除く）」、「建具製造業」、「鉄骨製造業」、「建設用金属製品製造業（鉄骨を除く）」、「金属製サッシ・ドア製造業」、「鉄骨系プレハブ住宅製造業」、「建設用金属製品製造業（サッシ、ドア、建築用金物を除く）」、「畳製造業」、11.農業（畜産農業および畜産サービス業を除く）」</li><li>このほかにも、雇用関係助成金に共通の要件等などいくつかの支給要件がありますので、詳しくは下記の「お問い合わせ先」までご確認ください。</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/tsuunen_koyou.html",
+      "updatedAt": "2026-10-15T11:59:31.769Z",
+      "id": "mhlw-e3e10b09f6",
+      "slug": "mhlw-e3e10b09f6",
+      "title": "通年雇用助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "高年齢者の雇用の推進を図るため、65歳以上への定年の引上げ、定年の定めの廃止又は継続雇用制度の導入、他社による継続雇用制度の導入のいずれかの措置を実施した事業主に対して助成するものです。",
+      "detail": "<h2>概要</h2><p>高年齢者の雇用の推進を図るため、65歳以上への定年の引上げ、定年の定めの廃止又は継続雇用制度の導入、他社による継続雇用制度の導入のいずれかの措置を実施した事業主に対して助成するものです。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/newpage_52738.html",
+      "updatedAt": "2026-10-15T12:00:21.292Z",
+      "id": "mhlw-33f9ef60d8",
+      "slug": "mhlw-33f9ef60d8",
+      "title": "65歳超雇用推進助成金（65歳超継続雇用促進コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "高年齢者の雇用の推進を図るため、高年齢者の雇用管理制度の整備に係る措置を実施した事業主に対して助成するものです。",
+      "detail": "<h2>概要</h2><p>高年齢者の雇用の推進を図るため、高年齢者の雇用管理制度の整備に係る措置を実施した事業主に対して助成するものです。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/newpage_55070.html",
+      "updatedAt": "2026-10-15T12:00:22.045Z",
+      "id": "mhlw-da0ce5fffc",
+      "slug": "mhlw-da0ce5fffc",
+      "title": "65歳超雇用推進助成金（高年齢者評価制度等雇用管理改善コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "高年齢者の雇用の推進を図るため、50歳以上かつ定年年齢未満の有期契約労働者を無期雇用労働者に転換させた事業主に対して助成するものです。",
+      "detail": "<h2>概要</h2><p>高年齢者の雇用の推進を図るため、50歳以上かつ定年年齢未満の有期契約労働者を無期雇用労働者に転換させた事業主に対して助成するものです。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/newpage_55142.html",
+      "updatedAt": "2026-10-15T12:00:22.777Z",
+      "id": "mhlw-3c03a4ae11",
+      "slug": "mhlw-3c03a4ae11",
+      "title": "65歳超雇用推進助成金（高年齢者無期雇用転換コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "有期雇用労働者、短時間労働者、派遣労働者といったいわゆる非正規雇用の労働者（以下、「有期雇用労働者等」という。）の企業内でのキャリアアップを促進するため、正社員化、処遇改善の取組を実施した事業主に対して助成するものです。",
+      "detail": "<h2>概要</h2><p>有期雇用労働者、短時間労働者、派遣労働者といったいわゆる非正規雇用の労働者（以下、「有期雇用労働者等」という。）の企業内でのキャリアアップを促進するため、正社員化、処遇改善の取組を実施した事業主に対して助成するものです。</p>\n<h2>コース</h2><ul><li>キャリアアップ助成金（正社員化コース）</li><li>キャリアアップ助成金（賃金規定等改定コース）</li><li>キャリアアップ助成金（賃金規定等共通化コース）</li><li>キャリアアップ助成金（賞与・退職金制度導入コース）</li><li>キャリアアップ助成金（短時間労働者労働時間延長支援コース）</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html",
+      "updatedAt": "2026-10-15T11:59:34.557Z",
+      "id": "mhlw-3fecaf24fc",
+      "slug": "mhlw-3fecaf24fc",
+      "title": "キャリアアップ助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/shougaishakoyou/index_00004.html",
+      "updatedAt": "2026-10-15T12:00:24.097Z",
+      "id": "mhlw-ffae52e75b",
+      "slug": "mhlw-ffae52e75b",
+      "title": "キャリアアップ助成金（障害者正社員化コース）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>コース</h2><ul><li>両立支援等助成金（出生時両立支援コース）</li><li>両立支援等助成金（介護離職防止支援コース）</li><li>両立支援等助成金（育児休業等支援コース）</li><li>両立支援等助成金（育休中等業務代替支援コース）</li><li>両立支援等助成金（柔軟な働き方選択制度等支援コース）</li><li>両立支援等助成金（事業所内保育施設コース）</li><li>両立支援等助成金（不妊治療及び女性の健康課題対応両立支援コース）</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/",
+      "updatedAt": "2026-10-15T12:01:00.949Z",
+      "id": "mhlw-1c9a760d5c",
+      "slug": "mhlw-1c9a760d5c",
+      "title": "両立支援等助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "人材開発支援助成金は、事業主等が雇用する労働者に対して、職務に関連した専門的な知識及び技能を習得させるための職業訓練等を計画に沿って実施した場合等に、訓練経費や訓練期間中の賃金の一部等を助成する制度です",
+      "detail": "<h2>概要</h2><p>人材開発支援助成金は、事業主等が雇用する労働者に対して、職務に関連した専門的な知識及び技能を習得させるための職業訓練等を計画に沿って実施した場合等に、訓練経費や訓練期間中の賃金の一部等を助成する制度です</p>\n<h2>コース</h2><ul><li>人材開発支援助成金（人材育成支援コース）</li><li>人材開発支援助成金（教育訓練休暇等付与コース）</li><li>人材開発支援助成金（人への投資促進コース）</li><li>人材開発支援助成金（事業展開等リスキリング支援コース）</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "都道府県労働局・ハローワーク",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/d01-1.html",
+      "updatedAt": "2026-10-15T12:00:25.505Z",
+      "id": "mhlw-408f0dc6a4",
+      "slug": "mhlw-408f0dc6a4",
+      "title": "人材開発支援助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "（独）高齢・障害・求職者雇用支援機構",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/shisetsu_joseikin/",
+      "updatedAt": "2026-10-15T12:01:02.290Z",
+      "id": "mhlw-bc20253725",
+      "slug": "mhlw-bc20253725",
+      "title": "障害者作業施設設置等助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "（独）高齢・障害・求職者雇用支援機構",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/shisetsu_joseikin/sub04_welfare.html",
+      "updatedAt": "2026-10-15T12:01:02.950Z",
+      "id": "mhlw-7d78c5e9db",
+      "slug": "mhlw-7d78c5e9db",
+      "title": "障害者福祉施設設置等助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "障害者を労働者として雇い入れるか継続して雇用している事業主が、障害の種類や程度に応じた適切な雇用管理のために必要な介助等の措置を実施する場合に、その費用の一部を助成するものです。",
+      "detail": "<h2>概要</h2><p>障害者を労働者として雇い入れるか継続して雇用している事業主が、障害の種類や程度に応じた適切な雇用管理のために必要な介助等の措置を実施する場合に、その費用の一部を助成するものです。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "（独）高齢・障害・求職者雇用支援機構",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/kaijo_joseikin/",
+      "updatedAt": "2026-10-15T12:00:27.600Z",
+      "id": "mhlw-a55f62d02c",
+      "slug": "mhlw-a55f62d02c",
+      "title": "障害者介助等助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "（独）高齢・障害・求職者雇用支援機構",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/shokubatekiou_joseikin/sub04_houmongata.html",
+      "updatedAt": "2026-10-15T12:01:04.339Z",
+      "id": "mhlw-835e79ab2a",
+      "slug": "mhlw-835e79ab2a",
+      "title": "職場適応援助者助成金（訪問型職場適応援助者助成金）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "（独）高齢・障害・求職者雇用支援機構",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/shokubatekiou_joseikin/sub04_kigyouzaisekigata_shokubatekiou.html",
+      "updatedAt": "2026-10-15T12:01:05.037Z",
+      "id": "mhlw-0ffc1e5830",
+      "slug": "mhlw-0ffc1e5830",
+      "title": "職場適応援助者助成金（企業在籍型職場適応援助者助成金）",
+      "source": "mhlw"
+    },
+    {
+      "overview": "重度身体障害者、知的障害者、精神障害者または通勤が特に困難と認められる身体障害者を雇い入れるか継続して雇用している事業主、またはこれらの重度障害者等を雇用している事業主が加入している事業主団体が、これらの障害者の通勤を容易にするための措置を行う場合に、その費用の一部を助成するものです。",
+      "detail": "<h2>概要</h2><p>重度身体障害者、知的障害者、精神障害者または通勤が特に困難と認められる身体障害者を雇い入れるか継続して雇用している事業主、またはこれらの重度障害者等を雇用している事業主が加入している事業主団体が、これらの障害者の通勤を容易にするための措置を行う場合に、その費用の一部を助成するものです。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "（独）高齢・障害・求職者雇用支援機構",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/tsukin_joseikin/",
+      "updatedAt": "2026-10-15T12:00:29.708Z",
+      "id": "mhlw-c2e817bdf0",
+      "slug": "mhlw-c2e817bdf0",
+      "title": "重度障害者等通勤対策助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "重度身体障害者、知的障害者または精神障害者を多数継続して雇用し、かつ、安定した雇用を継続することができると認められる事業主で、これらの障害者のために事業施設等の設置または整備を行う場合に、その費用の一部を助成するものです。",
+      "detail": "<h2>概要</h2><p>重度身体障害者、知的障害者または精神障害者を多数継続して雇用し、かつ、安定した雇用を継続することができると認められる事業主で、これらの障害者のために事業施設等の設置または整備を行う場合に、その費用の一部を助成するものです。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "（独）高齢・障害・求職者雇用支援機構",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/juta_joseikin/sub04_juta.html",
+      "updatedAt": "2026-10-15T12:00:30.412Z",
+      "id": "mhlw-148350ea7c",
+      "slug": "mhlw-148350ea7c",
+      "title": "重度障害者等多数雇用事業所施設設置等助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "",
+      "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "（独）高齢・障害・求職者雇用支援機構",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/s_koyousoudan_joseikin/sub04_koyousoudan.html",
+      "updatedAt": "2026-10-15T12:01:07.139Z",
+      "id": "mhlw-ad058393f2",
+      "slug": "mhlw-ad058393f2",
+      "title": "障害者雇用相談援助助成金",
+      "source": "mhlw"
+    },
+    {
+      "overview": "障害者の能力開発の事業を行うための施設または設備の設置や整備等を行う場合や、その能力開発訓練事業を運営する場合に、その費用の一部を助成するものです。",
+      "detail": "<h2>概要</h2><p>障害者の能力開発の事業を行うための施設または設備の設置や整備等を行う場合や、その能力開発訓練事業を運営する場合に、その費用の一部を助成するものです。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+      "region": "national",
+      "prefectures": [
+        "全国"
+      ],
+      "industries": [],
+      "targetNumberOfEmployees": null,
+      "employeeMin": null,
+      "employeeMax": null,
+      "isForSME": true,
+      "purposes": [
+        "人材育成"
+      ],
+      "usePurpose": "雇用・人材育成",
+      "status": "unknown",
+      "workflow": "（独）高齢・障害・求職者雇用支援機構",
+      "subsidizedRate": null,
+      "upperLimit": null,
+      "lowerLimit": null,
+      "startDate": null,
+      "endDate": null,
+      "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/s_noukai_joseikin/",
+      "updatedAt": "2026-10-15T12:00:31.810Z",
+      "id": "mhlw-90b4e09ccc",
+      "slug": "mhlw-90b4e09ccc",
+      "title": "障害者能力開発助成金",
+      "source": "mhlw"
+    }
+  ]
+}

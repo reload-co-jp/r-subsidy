@@ -1,0 +1,30 @@
+{
+  "overview": "県では、令和8年8月27日からの大雨により被害を受けた中小企業等が行う施設・設備の復旧等に要する経費の一部を補助することにより、被災事業者の復旧・復興を促進します。募集期間：第1回 令和8年10月8日（木曜日）～令和8年10月29日（木曜日）第2回 令和8年11月16日（月曜日）～令和8年12月4日（金曜日）",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県では、令和8年8月27日からの大雨により被害を受けた中小企業等が行う施設・設備の復旧等に要する経費の一部を補助することにより、被災事業者の復旧・復興を促進します。募集期間：第1回 令和8年10月8日（木曜日）～令和8年10月29日（木曜日）第2回 令和8年11月16日（月曜日）～令和8年12月4日（金曜日）</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：被災事業者支援</li><li>業種：指定無し</li><li>地域：富山県</li><li>実施機関：富山県</li><li>J-Net21掲載日：2026-10-13</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193887\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "富山県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "被災事業者支援",
+  "status": "unknown",
+  "workflow": "富山県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.toyama.jp/1300/sangyou/shoukoukensetsu/shoukougyou/20260827hisaijigyosha_jigyokeizoku.html",
+  "updatedAt": "2026-10-13T00:00:00.000Z",
+  "id": "jnet21-193887",
+  "slug": "jnet21-193887",
+  "title": "富山県被災事業者事業継続支援補助金（令和8年8月27日からの大雨被害の復旧支援）",
+  "source": "jnet21"
+}

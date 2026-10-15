@@ -1,0 +1,31 @@
+{
+  "overview": "健全な森林の造成と林業の振興を図るため、町内で森林整備事業を実施する方に対し、事業に係る費用の一部を助成します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>健全な森林の造成と林業の振興を図るため、町内で森林整備事業を実施する方に対し、事業に係る費用の一部を助成します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：埼玉県</li><li>実施機関：寄居町</li><li>J-Net21掲載日：2026-10-13</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193841\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "埼玉県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "寄居町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.yorii.saitama.jp/soshiki/12/sinnrinnseibijigyou.html",
+  "updatedAt": "2026-10-13T00:00:00.000Z",
+  "id": "jnet21-193841",
+  "slug": "jnet21-193841",
+  "title": "寄居町森林整備事業補助金",
+  "source": "jnet21"
+}

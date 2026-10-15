@@ -1,0 +1,30 @@
+{
+  "overview": "雇用機会が特に不足している地域等（※1、2）の事業主が、事業所の設置・整備を行い、併せてその地域に居住する求職者等を雇い入れる場合、設置整備費用及び対象労働者の増加数に応じて助成されます。（１年毎に最大３回支給）※1 同意雇用開発促進地域 [145KB］&emsp; 過疎等雇用改善地域 [221KB］&emsp; 特定有人国境離島地域等 [249KB］&emsp;※2 上記「※１」の他、下記の特例措置に係る対象地域●地域活性化雇用創造プロジェクト参加事業主に対する特例対象地域（注）●地方創生応援税制（企業版ふるさと納税）寄附事業主に対する特例対象地域 [217KB］（注）埼玉県、千葉県、東京都、神奈川県、愛知県及び大阪府は対象地域外となります。",
+  "detail": "<h2>概要</h2><p>雇用機会が特に不足している地域等（※1、2）の事業主が、事業所の設置・整備を行い、併せてその地域に居住する求職者等を雇い入れる場合、設置整備費用及び対象労働者の増加数に応じて助成されます。（１年毎に最大３回支給）</p><p>※1 同意雇用開発促進地域 [145KB］&amp;emsp; 過疎等雇用改善地域 [221KB］&amp;emsp; 特定有人国境離島地域等 [249KB］&amp;emsp;</p><p>※2 上記「※１」の他、下記の特例措置に係る対象地域</p><p>●地域活性化雇用創造プロジェクト参加事業主に対する特例対象地域（注）</p><p>●地方創生応援税制（企業版ふるさと納税）寄附事業主に対する特例対象地域 [217KB］</p><p>（注）埼玉県、千葉県、東京都、神奈川県、愛知県及び大阪府は対象地域外となります。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "雇用・人材育成",
+  "status": "unknown",
+  "workflow": "都道府県労働局・ハローワーク",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/chiiki_koyou.html",
+  "updatedAt": "2026-10-15T12:00:16.490Z",
+  "id": "mhlw-23d5689f91",
+  "slug": "mhlw-23d5689f91",
+  "title": "地域雇用開発助成金（地域雇用開発コース）",
+  "source": "mhlw"
+}

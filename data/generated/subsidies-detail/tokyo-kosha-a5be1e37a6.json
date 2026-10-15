@@ -1,0 +1,28 @@
+{
+  "overview": "中東情勢の影響による原材料価格高騰等の影響を回避する取組に対して、必要となる費用を助成します。",
+  "detail": "<h2>事業の概要</h2><ul><li>対象者：以下いずれかに該当する都内中小企業等 直近決算期の営業利益率が、前期決算期と比較して減少している 次期決算期の営業利益率が、直近決算期と比較して減少することを見込んでいる 直近決算期において営業損失を計上している</li><li>助成限度額：2,000万円</li><li>助成率：助成対象経費の5分の4以内</li><li>助成対象経費：原材料・副資材費 機械装置・工具器具費 機器・システム改良費 委託・外注費 設備等導入費 システム等導入費 専門家指導費 販路開拓経費 その他経費 ※「専門家指導費」、「その他経費」の単独申請はできません。</li><li>募集回 第1回 第2回 第3回 申請受付：令和8年7月17日(金)から 7月30日(金)まで ※申請受付は終了しました</li><li>書類審査：令和8年8月～</li><li>面接審査：令和8年9月24日（木）～ 10月9日（金）</li><li>交付決定：令和8年10月下旬予定</li></ul>\n<p>対象：中小企業者、個人事業主</p>\n<p>募集要項・申請様式は東京都中小企業振興公社の事業ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": "中小企業者・個人事業主",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": null,
+  "status": "upcoming",
+  "workflow": "公益財団法人東京都中小企業振興公社",
+  "subsidizedRate": "4/5以内",
+  "upperLimit": "20,000,000円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/chuto-kinkyu/index.html",
+  "updatedAt": "2026-10-15T12:03:30.022Z",
+  "id": "tokyo-kosha-a5be1e37a6",
+  "slug": "tokyo-kosha-a5be1e37a6",
+  "title": "中東情勢による原材料価格高騰に伴う経営基盤安定化緊急対策事業",
+  "source": "tokyo"
+}

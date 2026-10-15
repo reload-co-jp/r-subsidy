@@ -1,0 +1,30 @@
+{
+  "overview": "重度身体障害者、知的障害者、精神障害者または通勤が特に困難と認められる身体障害者を雇い入れるか継続して雇用している事業主、またはこれらの重度障害者等を雇用している事業主が加入している事業主団体が、これらの障害者の通勤を容易にするための措置を行う場合に、その費用の一部を助成するものです。",
+  "detail": "<h2>概要</h2><p>重度身体障害者、知的障害者、精神障害者または通勤が特に困難と認められる身体障害者を雇い入れるか継続して雇用している事業主、またはこれらの重度障害者等を雇用している事業主が加入している事業主団体が、これらの障害者の通勤を容易にするための措置を行う場合に、その費用の一部を助成するものです。</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "雇用・人材育成",
+  "status": "unknown",
+  "workflow": "（独）高齢・障害・求職者雇用支援機構",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.jeed.go.jp/disability/subsidy/tsukin_joseikin/",
+  "updatedAt": "2026-10-15T12:00:29.708Z",
+  "id": "mhlw-c2e817bdf0",
+  "slug": "mhlw-c2e817bdf0",
+  "title": "重度障害者等通勤対策助成金",
+  "source": "mhlw"
+}

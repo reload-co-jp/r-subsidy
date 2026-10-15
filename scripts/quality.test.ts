@@ -2,6 +2,8 @@ import assert from 'node:assert/strict'
 import { sanitizeSubsidies } from '../lib/quality'
 import { getDeadlineGroups } from '../lib/seo'
 import type { NormalizedSubsidy } from '../lib/types'
+import { extractPeriod, parseJapaneseDates, statusFromPeriod, titleKey } from './scrape-utils'
+import { isIndexableSubsidy } from '../lib/format'
 
 const base = { slug: 'a', title: '補助金A', status: 'open', startDate: '2026-01-01', endDate: '2026-12-31', updatedAt: '2026-01-01' }
 const make = (o: Partial<NormalizedSubsidy>) => ({ ...base, ...o }) as NormalizedSubsidy
@@ -36,3 +38,16 @@ assert.deepEqual(g.thisWeek.map((s) => s.slug), ['w'])
 assert.deepEqual(g.thisMonth.map((s) => s.slug), ['w', 'm'])
 assert.deepEqual(g.soon.map((s) => s.slug), ['w', 'm', 's'])
 console.log('deadline ok')
+
+// 追加取得元（J-Net21・厚労省・公社）の日付解析と重複判定キー
+assert.deepEqual(parseJapaneseDates('令和8年10月19日（月）～11月20日（金）'), ['2026-10-19', '2026-11-20'])
+assert.deepEqual(parseJapaneseDates('2026年12月25日まで'), ['2026-12-25'])
+assert.deepEqual(parseJapaneseDates('10月1日〜'), []) // 年が特定できない日付は使わない
+assert.deepEqual(extractPeriod('交付します。申請期限：令和9年1月29日（金）'), { startDate: null, endDate: '2027-01-29' })
+assert.equal(extractPeriod('市内の事業者を支援します。'), null)
+assert.equal(statusFromPeriod(null, '2026-01-01', '2026-02-01'), 'closed')
+assert.equal(statusFromPeriod('2026-03-01', null, '2026-02-01'), 'upcoming')
+assert.equal(titleKey('令和８年度第２回中小企業デジタル導入促進補助事業'), titleKey('中小企業デジタル導入促進補助事業'))
+assert.equal(isIndexableSubsidy({ status: 'unknown', source: 'jnet21', overview: '短い' }), false)
+assert.equal(isIndexableSubsidy({ status: 'open', source: 'jgrants', overview: '' }), true)
+console.log('scrape ok')

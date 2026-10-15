@@ -1,0 +1,33 @@
+{
+  "overview": "本市への更なる誘客と宿泊利用を促進するため、市内の宿泊事業者が実施する広告宣伝活動に要する経費の一部に対して助成金を交付します。申請期限：令和9年1月29日（金曜日）まで募集期間～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>本市への更なる誘客と宿泊利用を促進するため、市内の宿泊事業者が実施する広告宣伝活動に要する経費の一部に対して助成金を交付します。申請期限：令和9年1月29日（金曜日）まで募集期間～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：地域活性化、経営改善・経営強化</li><li>業種：宿泊業，飲食サービス業</li><li>地域：鹿児島県</li><li>実施機関：霧島市</li><li>J-Net21掲載日：2026-10-15</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194090\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "鹿児島県"
+  ],
+  "industries": [
+    "宿泊業",
+    "飲食サービス業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "販路拡大"
+  ],
+  "usePurpose": "地域活性化、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "霧島市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city-kirishima.jp/kyodo/kankousendenkoukokukatsudoujoseikin.html",
+  "updatedAt": "2026-10-15T00:00:00.000Z",
+  "id": "jnet21-194090",
+  "slug": "jnet21-194090",
+  "title": "令和8年度霧島市観光宣伝広告活動事業助成金",
+  "source": "jnet21"
+}

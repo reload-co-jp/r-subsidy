@@ -1,0 +1,30 @@
+{
+  "overview": "人材確保等支援助成金（外国人労働者就労環境整備助成コース）のご案内ページです。申請様式やパンフレット等を掲載しています。",
+  "detail": "<h2>概要</h2><p>人材確保等支援助成金（外国人労働者就労環境整備助成コース）のご案内ページです。申請様式やパンフレット等を掲載しています。</p>\n<h2>主な支給要件</h2><ul><li>（１）外国人労働者を雇用している事業主であること</li><li>（２）認定を受けた就労環境整備計画に基づき、外国人労働者に対し、１及び２の措置を導入・実施すること（１及び２の措置に加え３の措置を導入・実施した場合は上乗せ助成） １雇用労務責任者の選任</li><li>２就業規則・社内マニュアル等の多言語化</li><li>３一時帰国のための休暇制度の整備（上乗せ措置）</li><li>（３）就労環境整備計画期間終了後６か月経過後における外国人労働者の離職率が15％以下であること</li><li>※このほかにも、雇用関係助成金共通の要件などいくつかの受給要件がありますので、詳しくは下記の「お問い合わせ先」までお問い合わせください。</li><li>雇用関係助成金共通の要件等</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "雇用・人材育成",
+  "status": "unknown",
+  "workflow": "都道府県労働局・ハローワーク",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyufukin/gaikokujin.html",
+  "updatedAt": "2026-10-15T11:59:30.361Z",
+  "id": "mhlw-340bc464e0",
+  "slug": "mhlw-340bc464e0",
+  "title": "人材確保等支援助成金（外国人労働者就労環境整備助成コース）",
+  "source": "mhlw"
+}

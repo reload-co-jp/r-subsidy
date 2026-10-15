@@ -1,0 +1,31 @@
+{
+  "overview": "公社の支援を受ける企業が、知的財産の出願や権利化に向けた開発等に利用できる助成金",
+  "detail": "<h2>事業の概要</h2><ul><li>対象者：都内で実質的な事業活動を行っている創業おおむね10年以内の中小企業者 （会社及び個人事業者）</li><li>助成限度額：1,500万円</li><li>助成率：助成対象と認められる経費の1/2以内</li><li>助成対象経費：知的財産権の出願等権利化に要する経費や、権利化までに必要な技術開発・改良に要する経費等</li></ul>\n<p>対象：中小企業者、個人事業主、みなし大企業</p>\n<p>募集要項・申請様式は東京都中小企業振興公社の事業ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": "中小企業者・個人事業主・みなし大企業",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "研究開発",
+    "創業"
+  ],
+  "usePurpose": "知的財産",
+  "status": "unknown",
+  "workflow": "公益財団法人東京都中小企業振興公社",
+  "subsidizedRate": "1/2以内",
+  "upperLimit": "15,000,000円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.tokyo-kosha.or.jp/chizai/startup/handson/",
+  "updatedAt": "2026-10-15T12:02:49.054Z",
+  "id": "tokyo-kosha-c5a1e16bf6",
+  "slug": "tokyo-kosha-c5a1e16bf6",
+  "title": "スタートアップ知的財産支援助成事業",
+  "source": "tokyo"
+}

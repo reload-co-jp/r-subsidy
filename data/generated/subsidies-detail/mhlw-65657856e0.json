@@ -1,0 +1,30 @@
+{
+  "overview": "再就職援助計画などの対象者を離職後３か月以内に期間の定めのない労働者として雇い入れ、継続して雇用することが確実である事業主に対して助成します。",
+  "detail": "<h2>概要</h2><p>再就職援助計画などの対象者を離職後３か月以内に期間の定めのない労働者として雇い入れ、継続して雇用することが確実である事業主に対して助成します。</p>\n<h2>主な支給要件</h2><ul><li>受給するためには、次の措置をとることが必要です。</li><li>（１）支給対象者を離職日の翌日から3か月以内に期間の定めのない労働者として雇い入れること。 ※有期雇用契約で雇い入れた後に期間の定めのない労働者として雇い入れた場合や紹介予定派遣で雇い入れた場合には支給対象となりません。</li><li>（２）支給対象者を一般被保険者又は高年齢被保険者として雇い入れること。 支給決定時までに事業主都合による解雇等により支給対象者を雇用しなくなった場合は、支給されません。</li><li>（３）支給対象者の雇い入れ後の賃金を、雇い入れ前の賃金より５％以上上昇させていること。</li></ul>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "雇用・人材育成",
+  "status": "unknown",
+  "workflow": "都道府県労働局・ハローワーク",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000082805.html",
+  "updatedAt": "2026-10-15T11:59:21.207Z",
+  "id": "mhlw-65657856e0",
+  "slug": "mhlw-65657856e0",
+  "title": "早期再就職支援等助成金（雇入れ支援コース）",
+  "source": "mhlw"
+}

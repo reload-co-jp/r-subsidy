@@ -1,0 +1,31 @@
+{
+  "overview": "環境に配慮したマルチエネルギーステーション化を目指すガソリンスタンドの経営力強化を支援します！",
+  "detail": "<h2>事業の概要</h2><ul><li>助成対象者：上記「（1）専門家派遣」を受けた事業者</li><li>助成率：助成対象経費の3分の2以内</li><li>助成限度額：2,500万円（申請できる助成金の下限額は10万円）</li><li>助成対象期間：交付決定日から1年間</li><li>助成対象経費：専門家派遣支援によるアドバイス等に基づいて実施するガソリンスタンドの機能向上や事業多角化に関する取組に係る経費の一部 【対象設備等の例】 省エネ型洗車機、POSシステム、遠隔監視装置（監視カメラ）等 カーシェア、コインランドリー、カフェ等の開設のための設備導入等 照明設備（屋内照明、キャノピー灯等）のLED化 求人媒体への掲載費、事業多角化に必要な資格取得に係る経費等 ※詳細は募集要項等をご確認ください。</li><li>主な助成要件：事業を3年以上継続すること</li></ul>\n<p>対象：中小企業者、個人事業主</p>\n<p>募集要項・申請様式は東京都中小企業振興公社の事業ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": "中小企業者・個人事業主",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": null,
+  "status": "open",
+  "workflow": "公益財団法人東京都中小企業振興公社",
+  "subsidizedRate": "2/3以内",
+  "upperLimit": "25,000,000円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/multi_energy/index.html",
+  "updatedAt": "2026-10-15T12:02:12.359Z",
+  "id": "tokyo-kosha-3f834e253a",
+  "slug": "tokyo-kosha-3f834e253a",
+  "title": "環境に配慮したマルチエネルギーステーション化に向けた経営力強化・設備導入等支援事業",
+  "source": "tokyo"
+}

@@ -1,0 +1,34 @@
+{
+  "overview": "有害鳥獣対策の担い手を育成し、緊急銃猟等における捕獲者を確保するため、県外の射撃場で行う射撃練習に必要な経費の一部を補助します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>有害鳥獣対策の担い手を育成し、緊急銃猟等における捕獲者を確保するため、県外の射撃場で行う射撃練習に必要な経費の一部を補助します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：島根県</li><li>実施機関：邑南町</li><li>J-Net21掲載日：2026-10-14</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193911\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "島根県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成",
+    "研究開発"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "邑南町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.ohnan.lg.jp/soshiki/7/9564.html",
+  "updatedAt": "2026-10-14T00:00:00.000Z",
+  "id": "jnet21-193911",
+  "slug": "jnet21-193911",
+  "title": "射撃技術向上支援事業補助金（邑南町）",
+  "source": "jnet21"
+}

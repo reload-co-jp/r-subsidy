@@ -114,7 +114,11 @@ async function main() {
     writeJson(path.join(PUBLIC_DIR, 'subsidies-detail', `${subsidy.slug}.json`), detailData)
   }
 
-  // update-history.json
+  // update-history.json（公開データ＝品質チェック後の件数）
+  const bySource = subsidies.reduce<Record<string, number>>((acc, s) => {
+    acc[s.source] = (acc[s.source] ?? 0) + 1
+    return acc
+  }, {})
   const previousHistory = readPreviousHistory()
   const history: UpdateHistory = {
     lastUpdated:
@@ -123,8 +127,10 @@ async function main() {
     sources: {
       jgrants: counts.jgrants,
       national: counts.national ?? 0,
-      tokyo: counts.tokyo,
-      manual: 0,
+      tokyo: bySource.tokyo ?? 0,
+      manual: bySource.manual ?? 0,
+      jnet21: bySource.jnet21 ?? 0,
+      mhlw: bySource.mhlw ?? 0,
     },
   }
   writeJsonIfChanged(path.join(OUT_DIR, 'update-history.json'), history)

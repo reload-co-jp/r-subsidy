@@ -73780,7 +73780,7 @@
     "overview": "事業再構築補助金",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -129070,7 +129070,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "医療",
       "福祉"
@@ -138719,7 +138719,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -162066,7 +162066,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -162624,7 +162624,7 @@
       "宮崎県",
       "鹿児島県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "分類不能の産業",
@@ -163742,7 +163742,7 @@
     "overview": "ゼロエミッション船建造をサポートします。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業"
     ],
@@ -164993,7 +164993,7 @@
     "prefectures": [
       "秋田県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -165268,7 +165268,7 @@
     "prefectures": [
       "群馬県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -165653,7 +165653,7 @@
     "prefectures": [
       "石川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -166282,7 +166282,7 @@
     "prefectures": [
       "福井県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -166502,7 +166502,7 @@
     "prefectures": [
       "静岡県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -166667,7 +166667,7 @@
     "prefectures": [
       "滋賀県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -166887,7 +166887,7 @@
     "prefectures": [
       "奈良県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -166942,7 +166942,7 @@
     "prefectures": [
       "和歌山県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -166997,7 +166997,7 @@
     "prefectures": [
       "鳥取県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -167052,7 +167052,7 @@
     "prefectures": [
       "島根県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -167162,7 +167162,7 @@
     "prefectures": [
       "広島県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -167217,7 +167217,7 @@
     "prefectures": [
       "山口県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -167492,7 +167492,7 @@
     "prefectures": [
       "福岡県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -168103,7 +168103,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "情報通信業"
@@ -168130,7 +168130,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "情報通信業"
@@ -168488,7 +168488,7 @@
       "富山県",
       "石川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業"
     ],
@@ -168564,7 +168564,7 @@
     "overview": "共生データセンター",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -168618,7 +168618,7 @@
     "overview": "ストレージパリティ事業",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -168889,7 +168889,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "サービス業（他に分類されないもの）",
       "卸売業",
@@ -169594,7 +169594,7 @@
     "prefectures": [
       "福岡県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -169949,7 +169949,7 @@
     "prefectures": [
       "神奈川県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "医療",
       "福祉"
@@ -169971,7 +169971,7 @@
     "overview": "建築物のネット・ゼロ・エネルギー化を目指すため、ＺＥＢ設計ノウハウが確立されていない民間の大規模建築物におけるＺＥＢ化（既存テナントビルのＺＥＢ化を見据えた部分的な改修を含む）及びＷＥＢＰＲＯ未評価技術の導入の実証を支援します。",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -170165,7 +170165,7 @@
     "prefectures": [
       "山口県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -170331,7 +170331,7 @@
     "overview": "脱炭素型 自然冷媒機器の導入支援",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "製造業",
       "運輸業",
@@ -170384,7 +170384,7 @@
     "overview": "令和７年度補正グローバルサウス補助金（二次公募：ＦＳ・小規模実証事業実施事業者の募集（補助））",
     "region": "national",
     "prefectures": [],
-    "status": "upcoming",
+    "status": "open",
     "industries": [
       "建設業",
       "製造業",
@@ -170592,7 +170592,7 @@
     "prefectures": [
       "青森県"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -170756,7 +170756,7 @@
     "prefectures": [
       "東京都"
     ],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "漁業",
       "建設業",
@@ -171303,7 +171303,7 @@
     "overview": "",
     "region": "national",
     "prefectures": [],
-    "status": "open",
+    "status": "closed",
     "industries": [
       "情報通信業",
       "サービス業（他に分類されないもの）"
@@ -171440,5 +171440,2140 @@
     "startDate": null,
     "endDate": null,
     "updatedAt": "2026-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "tokyo-kosha-598146341a",
+    "slug": "tokyo-kosha-598146341a",
+    "title": "中小企業収益力強化サポート事業",
+    "overview": "物価高騰の影響を受ける中小企業の持続可能な経営体質づくりを支援します。",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": "3,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": "2026-05-27",
+    "endDate": "2026-12-14",
+    "updatedAt": "2026-10-15T12:02:08.328Z"
+  },
+  {
+    "id": "tokyo-kosha-a5be1e37a6",
+    "slug": "tokyo-kosha-a5be1e37a6",
+    "title": "中東情勢による原材料価格高騰に伴う経営基盤安定化緊急対策事業",
+    "overview": "中東情勢の影響による原材料価格高騰等の影響を回避する取組に対して、必要となる費用を助成します。",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": "20,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:03:30.022Z"
+  },
+  {
+    "id": "tokyo-kosha-3e843db673",
+    "slug": "tokyo-kosha-3e843db673",
+    "title": "経営力強化に向けた創意工夫チャレンジ促進事業(賃上げ重点コース)",
+    "overview": "既存事業を深化・発展させる経営改善計画を作成した中小企業を対象に、その経営改善計画に基づいて実施する取組を支援",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": "6,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:03:30.721Z"
+  },
+  {
+    "id": "tokyo-kosha-cf999e3bf1",
+    "slug": "tokyo-kosha-cf999e3bf1",
+    "title": "経営力強化に向けた創意工夫チャレンジ促進事業(業務改善コース)",
+    "overview": "既存事業を深化・発展させる経営改善計画を作成した中小企業を対象に、その経営改善計画に基づいて実施する取組を支援",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": "6,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:03:31.412Z"
+  },
+  {
+    "id": "tokyo-kosha-edbe633ea9",
+    "slug": "tokyo-kosha-edbe633ea9",
+    "title": "経営力強化に向けた創意工夫チャレンジ促進事業（新市場・新分野進出コース）",
+    "overview": "新市場・新分野に進出する経営改善計画を作成した中小企業を対象に、その経営改善計画に基づいて実施する取組を支援",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "upcoming",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": "10,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": "2027-01-04",
+    "endDate": "2027-01-14",
+    "updatedAt": "2026-10-15T12:03:32.119Z"
+  },
+  {
+    "id": "tokyo-kosha-3f834e253a",
+    "slug": "tokyo-kosha-3f834e253a",
+    "title": "環境に配慮したマルチエネルギーステーション化に向けた経営力強化・設備導入等支援事業",
+    "overview": "環境に配慮したマルチエネルギーステーション化を目指すガソリンスタンドの経営力強化を支援します！",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "省エネ"
+    ],
+    "upperLimit": "25,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:02:12.359Z"
+  },
+  {
+    "id": "tokyo-kosha-a157523d2b",
+    "slug": "tokyo-kosha-a157523d2b",
+    "title": "広域ものづくりネットワーク形成支援事業",
+    "overview": "大手企業等への製品・技術提案に向けて、複数の中小企業が連携して行う試作開発に利用できる助成金／ハンズオン支援 ※「中核企業認定申請書」を提出し、令和8年9月30日までに認定通知を受けていることが助成金申請要件となります。都内中小企業を中核とした複数の中小企業が連携して行う大手企業等への製品・技術提案に必要な試作品の開発、改良、検証等に要する経費の一部を助成",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "研究開発"
+    ],
+    "upperLimit": "15,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:03:35.619Z"
+  },
+  {
+    "id": "tokyo-kosha-272edf09f9",
+    "slug": "tokyo-kosha-272edf09f9",
+    "title": "社会実装参画による多摩イノベーション創出事業",
+    "overview": "大学・研究機関等の研究成果に基づく製品の共同開発支援 ※ 9月10日までに「利用申請書」を提出し、その後決定通知を受けていることが申請要件となります。",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "研究開発"
+    ],
+    "upperLimit": "50,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": "2026-11-10",
+    "updatedAt": "2026-10-15T12:03:36.322Z"
+  },
+  {
+    "id": "tokyo-kosha-d5bb64a023",
+    "slug": "tokyo-kosha-d5bb64a023",
+    "title": "課題解決型製品・サービス等の試作品開発・改良助成",
+    "overview": "都市課題（安全安心・高齢者・介護・DX・暑さ等）の解決へ向けた製品・サービスの試作品開発・改良費用に利用できる助成金",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "研究開発",
+      "設備投資",
+      "デジタル化"
+    ],
+    "upperLimit": "20,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": "2026-06-04",
+    "endDate": "2026-10-30",
+    "updatedAt": "2026-10-15T12:03:37.021Z"
+  },
+  {
+    "id": "tokyo-kosha-a6ebf6f3f0",
+    "slug": "tokyo-kosha-a6ebf6f3f0",
+    "title": "DX推進助成金（生産性向上コース／DX戦略策定支援コース）",
+    "overview": "公社のアドバイザーの提案に基づき、デジタル技術を用いた企業変革や生産性向上を図るために必要な経費の一部を助成",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "デジタル化",
+      "設備投資",
+      "研究開発"
+    ],
+    "upperLimit": "30,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:02:25.471Z"
+  },
+  {
+    "id": "tokyo-kosha-9ab0a73e08",
+    "slug": "tokyo-kosha-9ab0a73e08",
+    "title": "躍進的な事業推進のための設備投資支援事業",
+    "overview": "設備やシステム（ハード/ソフト等）導入に利用できる助成金",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "デジタル化"
+    ],
+    "upperLimit": "200,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:02:33.201Z"
+  },
+  {
+    "id": "tokyo-kosha-1d64e1bec4",
+    "slug": "tokyo-kosha-1d64e1bec4",
+    "title": "事業承継を契機とした成長支援事業（販路開拓コース）",
+    "overview": "事業承継後の後継者による新規販路開拓事業を、東京都の助成金で支援",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "事業承継",
+      "販路拡大",
+      "創業"
+    ],
+    "upperLimit": "3,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": "2026-07-01",
+    "endDate": "2026-11-12",
+    "updatedAt": "2026-10-15T12:03:42.960Z"
+  },
+  {
+    "id": "tokyo-kosha-7897ebfb8a",
+    "slug": "tokyo-kosha-7897ebfb8a",
+    "title": "事業承継支援助成金",
+    "overview": "事業承継や経営改善に向けて、外部専門家等に委託して行う取組に要する経費の一部を助成します。",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "事業承継"
+    ],
+    "upperLimit": "2,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:02:34.606Z"
+  },
+  {
+    "id": "tokyo-kosha-3eca16add6",
+    "slug": "tokyo-kosha-3eca16add6",
+    "title": "医療機器等開発着手支援助成事業",
+    "overview": "医療機器等の製品開発前の検証や市場調査等に利用できる助成金。▶再生する（YouTube再生時間 10:21）",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "研究開発"
+    ],
+    "upperLimit": "5,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:02:44.427Z"
+  },
+  {
+    "id": "tokyo-kosha-afda62ca96",
+    "slug": "tokyo-kosha-afda62ca96",
+    "title": "医療機器等事業化支援助成事業",
+    "overview": "医療機器等の製品開発から事業化に利用できる助成金。▶再生する（YouTube再生時間 10:21）",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "研究開発"
+    ],
+    "upperLimit": "50,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:02:44.427Z"
+  },
+  {
+    "id": "tokyo-kosha-63d1cc4eb6",
+    "slug": "tokyo-kosha-63d1cc4eb6",
+    "title": "知的財産活用製品化支援助成事業",
+    "overview": "大企業等の保有する開放特許等の知的財産を活用して新製品開発するために要する費用の助成",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "open",
+    "industries": [],
+    "purposes": [
+      "研究開発"
+    ],
+    "upperLimit": "5,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": "2026-12-01",
+    "updatedAt": "2026-10-15T12:02:48.361Z"
+  },
+  {
+    "id": "tokyo-kosha-c5a1e16bf6",
+    "slug": "tokyo-kosha-c5a1e16bf6",
+    "title": "スタートアップ知的財産支援助成事業",
+    "overview": "公社の支援を受ける企業が、知的財産の出願や権利化に向けた開発等に利用できる助成金",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "研究開発",
+      "創業"
+    ],
+    "upperLimit": "15,000,000円",
+    "isForSME": true,
+    "source": "tokyo",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:02:49.054Z"
+  },
+  {
+    "id": "mhlw-5d9c1df3dd",
+    "slug": "mhlw-5d9c1df3dd",
+    "title": "雇用調整助成金",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:42.736Z"
+  },
+  {
+    "id": "mhlw-7a28fb4766",
+    "slug": "mhlw-7a28fb4766",
+    "title": "産業雇用安定助成金（産業連携人材確保等支援コース）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:18.506Z"
+  },
+  {
+    "id": "mhlw-25d044b9ee",
+    "slug": "mhlw-25d044b9ee",
+    "title": "産業雇用安定助成金（スキルアップ支援コース）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:44.032Z"
+  },
+  {
+    "id": "mhlw-9290f58a4c",
+    "slug": "mhlw-9290f58a4c",
+    "title": "産業雇用安定助成金（災害特例人材確保支援コース）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:08.673Z"
+  },
+  {
+    "id": "mhlw-645a389c9e",
+    "slug": "mhlw-645a389c9e",
+    "title": "早期再就職支援等助成金（再就職支援コース）",
+    "overview": "支給対象者１人あたり以下の金額が支給されます。ただし、１年度１事業所あたり５００人を限度とします。 【令和６年４月１日以降の再就職援助計画等の対象者】 （１）再就職の支援を職業紹介事業者に委託する場合 支給対象となる方の再就職を実現させた場合に以下の金額が支給されます。 【】は45歳以上の者の助成割合",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:09.376Z"
+  },
+  {
+    "id": "mhlw-65657856e0",
+    "slug": "mhlw-65657856e0",
+    "title": "早期再就職支援等助成金（雇入れ支援コース）",
+    "overview": "再就職援助計画などの対象者を離職後３か月以内に期間の定めのない労働者として雇い入れ、継続して雇用することが確実である事業主に対して助成します。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:21.207Z"
+  },
+  {
+    "id": "mhlw-3ca2d9ebb3",
+    "slug": "mhlw-3ca2d9ebb3",
+    "title": "早期再就職支援等助成金（中途採用拡大コース）",
+    "overview": "「早期再就職支援等助成金（中途採用拡大コース）」は、中途採用者の雇用管理制度を整備した上で中途採用を拡大し、雇い入れた中途採用者の賃金を雇い入れ前と比較して５％以上上昇させた事業主に対して助成するものです。通常助成：支給対象者１人につき20万円が支給されます（1事業所１年度あたり20人まで）。加算助成：生産指標等により一定の成長性が認められる事業所の事業主が雇い入れた場合、支給対象者１人につき10万円が追加で支給されます（１事業所１年度あたり20人まで）。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:21.974Z"
+  },
+  {
+    "id": "mhlw-f5caf98b00",
+    "slug": "mhlw-f5caf98b00",
+    "title": "特定求職者雇用開発助成金（特定就職困難者コース）",
+    "overview": "高年齢者や障害者等の就職困難者をハローワーク等の紹介により、継続して雇用する労働者（雇用保険の一般被保険者）として雇い入れる事業主に対して助成されます。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:22.668Z"
+  },
+  {
+    "id": "mhlw-266b3d889d",
+    "slug": "mhlw-266b3d889d",
+    "title": "特定求職者雇用開発助成金（発達障害者・難治性疾患患者雇用開発コース）",
+    "overview": "発達障害者や難病患者をハローワーク等の紹介により、継続して雇用する労働者（一般被保険者）として雇い入れる事業主に対して助成されます。 雇入れから約６か月後にハローワーク職員等が職場訪問を行う場合があります。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:23.311Z"
+  },
+  {
+    "id": "mhlw-60d1954daf",
+    "slug": "mhlw-60d1954daf",
+    "title": "特定求職者雇用開発助成金（中高年層安定雇用支援コース）",
+    "overview": "雇入日時点で３５歳から６０歳未満の正規雇用に就くことが困難な方を、ハローワーク等の紹介により正規雇用労働者として雇い入れる事業主に対して助成されます。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:24.087Z"
+  },
+  {
+    "id": "mhlw-a8008f2a08",
+    "slug": "mhlw-a8008f2a08",
+    "title": "特定求職者雇用開発助成金（生活保護受給者等雇用開発コース）",
+    "overview": "ハローワークまたは地方公共団体において、通算して３ヶ月を超えて支援を受けている生活保護受給者や生活困窮者を、ハローワーク等の紹介により、継続して雇用する労働者（雇用保険の一般被保険者）として雇い入れる事業主に対して助成します。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:24.717Z"
+  },
+  {
+    "id": "mhlw-b165a7ad53",
+    "slug": "mhlw-b165a7ad53",
+    "title": "トライアル雇用助成金（一般トライアルコース）",
+    "overview": "令和５年12月１日から、当分の間、ハローワーク等の紹介により、補完的保護対象者を試行雇用する事業主に対して、トライアル雇用助成金（一般トライアルコース）を支給します。 改正概要［547KB］",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:50.352Z"
+  },
+  {
+    "id": "mhlw-cd11acf8e4",
+    "slug": "mhlw-cd11acf8e4",
+    "title": "トライアル雇用助成金（障害者トライアルコース・障害者短時間トライアルコース）",
+    "overview": "ハローワークまたは民間の職業紹介事業者等の紹介により、就職が困難な障害者を一定期間雇用することにより、その適性や業務遂行可能性を見極め、求職者及び求人者の相互理解を促進すること等を通じて、障害者の早期就職の実現や雇用機会の創出を図ることを目的としています。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:26.180Z"
+  },
+  {
+    "id": "mhlw-56877b70a9",
+    "slug": "mhlw-56877b70a9",
+    "title": "建設事業主等に対する助成金",
+    "overview": "建設事業主等に対する助成金には、建設事業主を対象とした助成金と建設事業主団体・職業訓練法人を対象とした助成金があります。 建設事業主等が、建設労働者の雇用環境の改善や建設労働者の技能の向上等を図るための取組みを行った場合に助成を受けることができます。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:15.679Z"
+  },
+  {
+    "id": "mhlw-23d5689f91",
+    "slug": "mhlw-23d5689f91",
+    "title": "地域雇用開発助成金（地域雇用開発コース）",
+    "overview": "雇用機会が特に不足している地域等（※1、2）の事業主が、事業所の設置・整備を行い、併せてその地域に居住する求職者等を雇い入れる場合、設置整備費用及び対象労働者の増加数に応じて助成されます。（１年毎に最大３回支給）※1 同意雇用開発促進地域 [145KB］&emsp; 過疎等雇用改善地域 [221KB］&emsp; 特定有人国境離島地域等 [249KB］&emsp;※2 上記「※１」の他、下記の特例措置に係る対象地域●地域活性化雇用創造プロジェクト参加事業主に対する特例対象地域（注）●地方創生応援税制（企業版ふるさと納税）寄附事業主に対する特例対象地域 [217KB］（注）埼玉県、千葉県、東京都、神奈川県、愛知県及び大阪府は対象地域外となります。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:16.490Z"
+  },
+  {
+    "id": "mhlw-a85f2f963d",
+    "slug": "mhlw-a85f2f963d",
+    "title": "地域雇用開発助成金（沖縄若年者雇用促進コース）",
+    "overview": "沖縄県内において、事業所の設置・整備に伴い、沖縄県内に居住する３５歳未満の若年求職者を雇い入れる事業主に助成されます。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:17.084Z"
+  },
+  {
+    "id": "mhlw-e6c0e61748",
+    "slug": "mhlw-e6c0e61748",
+    "title": "人材確保等支援助成金（雇用管理制度・雇用環境整備助成コース）",
+    "overview": "事業主が、雇用管理制度（賃金規定制度、諸手当等制度、人事評価制度、職場活性化制度、健康づくり制度）又は業務負担軽減機器等（従業員の直接的な作業負担を軽減する機器・設備等）の導入による雇用管理改善を行い、離職率低下の目標などを達成した場合に助成するものです。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:28.957Z"
+  },
+  {
+    "id": "mhlw-a15ee32f4a",
+    "slug": "mhlw-a15ee32f4a",
+    "title": "人材確保等支援助成金（中小企業団体助成コース）",
+    "overview": "事業主団体が、その構成員である中小企業者（以下「構成中小企業者」という）に対して労働環境の向上を図るための事業を行う場合に助成するもので、雇用管理の改善を推進し、雇用創出を図ることを目的としています。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:29.618Z"
+  },
+  {
+    "id": "mhlw-340bc464e0",
+    "slug": "mhlw-340bc464e0",
+    "title": "人材確保等支援助成金（外国人労働者就労環境整備助成コース）",
+    "overview": "人材確保等支援助成金（外国人労働者就労環境整備助成コース）のご案内ページです。申請様式やパンフレット等を掲載しています。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:30.361Z"
+  },
+  {
+    "id": "mhlw-a158d87df8",
+    "slug": "mhlw-a158d87df8",
+    "title": "人材確保等支援助成金（テレワークコース）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:31.046Z"
+  },
+  {
+    "id": "mhlw-e3e10b09f6",
+    "slug": "mhlw-e3e10b09f6",
+    "title": "通年雇用助成金",
+    "overview": "北海道、東北地方等の積雪または寒冷の度が高い地域の事業主が、冬期間に離職を余儀なくされる季節労働者を通年雇用した場合に助成されます。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T11:59:31.769Z"
+  },
+  {
+    "id": "mhlw-33f9ef60d8",
+    "slug": "mhlw-33f9ef60d8",
+    "title": "65歳超雇用推進助成金（65歳超継続雇用促進コース）",
+    "overview": "高年齢者の雇用の推進を図るため、65歳以上への定年の引上げ、定年の定めの廃止又は継続雇用制度の導入、他社による継続雇用制度の導入のいずれかの措置を実施した事業主に対して助成するものです。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:21.292Z"
+  },
+  {
+    "id": "mhlw-da0ce5fffc",
+    "slug": "mhlw-da0ce5fffc",
+    "title": "65歳超雇用推進助成金（高年齢者評価制度等雇用管理改善コース）",
+    "overview": "高年齢者の雇用の推進を図るため、高年齢者の雇用管理制度の整備に係る措置を実施した事業主に対して助成するものです。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:22.045Z"
+  },
+  {
+    "id": "mhlw-3c03a4ae11",
+    "slug": "mhlw-3c03a4ae11",
+    "title": "65歳超雇用推進助成金（高年齢者無期雇用転換コース）",
+    "overview": "高年齢者の雇用の推進を図るため、50歳以上かつ定年年齢未満の有期契約労働者を無期雇用労働者に転換させた事業主に対して助成するものです。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:22.777Z"
+  },
+  {
+    "id": "mhlw-ffae52e75b",
+    "slug": "mhlw-ffae52e75b",
+    "title": "キャリアアップ助成金（障害者正社員化コース）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:24.097Z"
+  },
+  {
+    "id": "mhlw-1c9a760d5c",
+    "slug": "mhlw-1c9a760d5c",
+    "title": "両立支援等助成金",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:01:00.949Z"
+  },
+  {
+    "id": "mhlw-bc20253725",
+    "slug": "mhlw-bc20253725",
+    "title": "障害者作業施設設置等助成金",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:01:02.290Z"
+  },
+  {
+    "id": "mhlw-7d78c5e9db",
+    "slug": "mhlw-7d78c5e9db",
+    "title": "障害者福祉施設設置等助成金",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:01:02.950Z"
+  },
+  {
+    "id": "mhlw-a55f62d02c",
+    "slug": "mhlw-a55f62d02c",
+    "title": "障害者介助等助成金",
+    "overview": "障害者を労働者として雇い入れるか継続して雇用している事業主が、障害の種類や程度に応じた適切な雇用管理のために必要な介助等の措置を実施する場合に、その費用の一部を助成するものです。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:27.600Z"
+  },
+  {
+    "id": "mhlw-835e79ab2a",
+    "slug": "mhlw-835e79ab2a",
+    "title": "職場適応援助者助成金（訪問型職場適応援助者助成金）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:01:04.339Z"
+  },
+  {
+    "id": "mhlw-0ffc1e5830",
+    "slug": "mhlw-0ffc1e5830",
+    "title": "職場適応援助者助成金（企業在籍型職場適応援助者助成金）",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:01:05.037Z"
+  },
+  {
+    "id": "mhlw-c2e817bdf0",
+    "slug": "mhlw-c2e817bdf0",
+    "title": "重度障害者等通勤対策助成金",
+    "overview": "重度身体障害者、知的障害者、精神障害者または通勤が特に困難と認められる身体障害者を雇い入れるか継続して雇用している事業主、またはこれらの重度障害者等を雇用している事業主が加入している事業主団体が、これらの障害者の通勤を容易にするための措置を行う場合に、その費用の一部を助成するものです。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:29.708Z"
+  },
+  {
+    "id": "mhlw-148350ea7c",
+    "slug": "mhlw-148350ea7c",
+    "title": "重度障害者等多数雇用事業所施設設置等助成金",
+    "overview": "重度身体障害者、知的障害者または精神障害者を多数継続して雇用し、かつ、安定した雇用を継続することができると認められる事業主で、これらの障害者のために事業施設等の設置または整備を行う場合に、その費用の一部を助成するものです。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:30.412Z"
+  },
+  {
+    "id": "mhlw-ad058393f2",
+    "slug": "mhlw-ad058393f2",
+    "title": "障害者雇用相談援助助成金",
+    "overview": "",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:01:07.139Z"
+  },
+  {
+    "id": "mhlw-90b4e09ccc",
+    "slug": "mhlw-90b4e09ccc",
+    "title": "障害者能力開発助成金",
+    "overview": "障害者の能力開発の事業を行うための施設または設備の設置や整備等を行う場合や、その能力開発訓練事業を運営する場合に、その費用の一部を助成するものです。",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "mhlw",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T12:00:31.810Z"
+  },
+  {
+    "id": "jnet21-194095",
+    "slug": "jnet21-194095",
+    "title": "大阪府特別高圧電力契約者等支援金【第5期：2026年7月から9月使用分対象】について",
+    "overview": "府においては、国の支援の対象外である特別高圧で受電する施設において、契約者やテナント事業者の中でも高額な料金を負担している中小企業を支援するため、令和8年7月から9月までの電力使用量に対し、「特別高圧電力契約者等支援金」を支給し、電気料金の一部を支援します。申請期間：令和8年10月19日（月曜日）から令和8年11月30日（月曜日）募集期間2026年10月19日～2026年11月30日",
+    "region": "prefecture",
+    "prefectures": [
+      "大阪府"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194090",
+    "slug": "jnet21-194090",
+    "title": "令和8年度霧島市観光宣伝広告活動事業助成金",
+    "overview": "本市への更なる誘客と宿泊利用を促進するため、市内の宿泊事業者が実施する広告宣伝活動に要する経費の一部に対して助成金を交付します。申請期限：令和9年1月29日（金曜日）まで募集期間～2027年1月29日",
+    "region": "prefecture",
+    "prefectures": [
+      "鹿児島県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "宿泊業",
+      "飲食サービス業"
+    ],
+    "purposes": [
+      "販路拡大"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194084",
+    "slug": "jnet21-194084",
+    "title": "大分県特別高圧電気価格激変緩和対策事業費補助金について",
+    "overview": "大分県内の事業所で、特別高圧で受電する中小企業の電気料金を支援します申請受付期間：令和8年10月19日（月曜日）9時00分～11月20日（金曜日）17時00分募集期間2026年10月19日～2026年11月20日",
+    "region": "prefecture",
+    "prefectures": [
+      "大分県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194083",
+    "slug": "jnet21-194083",
+    "title": "令和8年度（2026年度）訪問介護等サービス提供体制確保支援事業の実施について（北海道）",
+    "overview": "人材不足が喫緊の課題である訪問介護サービスについて、安心して働き続けられる環境整備等といった人材確保体制の構築に向けた取組みや、事業所の経営改善に向けた取組みを支援するため、補助金を交付します。申請期限：令和8年11月16日（月）23：59 厳守募集期間～2026年11月16日",
+    "region": "prefecture",
+    "prefectures": [
+      "北海道"
+    ],
+    "status": "unknown",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194078",
+    "slug": "jnet21-194078",
+    "title": "令和8年台風25号による農業被害に対する要望調査について（笠間市）",
+    "overview": "このたび、令和8年9月に発生した台風25号により被害を受けられた農業者の皆さまに、心よりお見舞い申し上げます。茨城県では、令和8年台風25号を農林漁業経営に大きな影響があると認め、茨城県農林漁業災害対策特別措置条例第3条第1項の規定に基づき、指定災害として指定しました。つきましては、茨城県農林漁業災害対策特別措置条例に基づく補助事業等の要望調査を実施いたします。受付期間：令和8年10月22日（木曜日）まで募集期間～2026年10月22日",
+    "region": "prefecture",
+    "prefectures": [
+      "茨城県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194076",
+    "slug": "jnet21-194076",
+    "title": "50代で新規就農する方を支援します（奥州市）",
+    "overview": "奥州市では「50'sアグリスタートアップ支援事業」として、50代で新規就農する方を支援します。",
+    "region": "prefecture",
+    "prefectures": [
+      "岩手県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [
+      "創業"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194074",
+    "slug": "jnet21-194074",
+    "title": "農家経営の第三者継承を支援します【アグリバトンパス事業】（奥州市）",
+    "overview": "奥州市では「奥州市アグリバトンパス事業」として、後継者のいない農業経営体と次世代を担う新規就農者を支援することにより、経営基盤の存続と新規就農者の育成・確保を図るため、予算の範囲内で支援をおこないます。",
+    "region": "prefecture",
+    "prefectures": [
+      "岩手県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [
+      "事業承継",
+      "創業"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194073",
+    "slug": "jnet21-194073",
+    "title": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」について（10月31日締切予定額調査）（大津町、熊本県）",
+    "overview": "【交付申請手続きについて】本補助金に係る国からの支援については、上限額が設定されています。そのため、県内の事業者がいつ、どのくらい申請をされるか把握し、滞りなく支援を行うため必要となる調査です。本補助金の活用を検討している事業者におかれましては、10月中の申請が難しい場合であっても、令和8年10月31日（土曜日）までに「申請予定額連絡票」へのご回答をお願いいたします。※なお、本調査にて回答した金額が交付申請額の上限となることはありませんので、現段階で分かる範囲でご回答ください。回答期限：令和8年10月31日（土曜日）募集期間～2026年10月31日",
+    "region": "prefecture",
+    "prefectures": [
+      "熊本県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194071",
+    "slug": "jnet21-194071",
+    "title": "中小企業者等人材育成事業補助金（上田市）",
+    "overview": "【中小企業大学校・三条校が実施する研修のご案内】中小企業大学校・三条校が実施する研修のうち、長野県内で開催される研修は以下のとおりです。補助金をご利用すると、負担が少なく受講できます。是非ご検討ください！開催日程 / 開催場所 / 受講料（税込）：令和8年12月17日（木曜）～令和8年12月18日（金曜） / 上田市 / 22,000円申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+    "region": "prefecture",
+    "prefectures": [
+      "長野県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194069",
+    "slug": "jnet21-194069",
+    "title": "八千代市農業用資材価格高騰対策支援事業補助金のご案内",
+    "overview": "農業用資材価格の高騰により厳しい経営環境に置かれている市内農業者に対し,補助金を交付します。受付期間：令和8年11月5日（木曜日）～令和8年11月30日（月曜日）募集期間2026年11月5日～2026年11月30日",
+    "region": "prefecture",
+    "prefectures": [
+      "千葉県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194068",
+    "slug": "jnet21-194068",
+    "title": "【2次募集】令和8年度 県産材消費拡大支援事業について（広島県）",
+    "overview": "県産ヒノキ材を用いて木造建築物（住宅・非住宅）を建築される場合、又は建築物の内外装材に県産材（スギ・ヒノキ）を利用される場合に、その利用材積・面積に応じて県産材製品の購入費用の一部を補助いたします。募集期間：2026年10月26日（月）～2026年11月6日（金） ※17時必着募集期間2026年10月26日～2026年11月6日",
+    "region": "prefecture",
+    "prefectures": [
+      "広島県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194067",
+    "slug": "jnet21-194067",
+    "title": "令和8年度地域介護・福祉空間整備等施設整備交付金の所要額調査等について（相模原市）",
+    "overview": "標記の交付金について、今後、本市として活用を検討していく中で、予算要求等の参考とするため、来年度以降の活用見込みについて調査を行うことといたしました。対象事業の実施を予定している場合は、ご回答をお願いします。回答期限：令和8年10月18日（日曜日）募集期間～2026年10月18日",
+    "region": "prefecture",
+    "prefectures": [
+      "神奈川県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194066",
+    "slug": "jnet21-194066",
+    "title": "令和8年度脱炭素化技術研究開発支援事業の事業者募集について【二次募集】（宮崎県）",
+    "overview": "本県における新エネルギーを活用した脱炭素関連産業の振興を図るため、県内企業等による新エネルギーの活用拡大に資する研究開発を支援します。提出期限：令和8年11月26日（木曜日）午後5時まで ※郵送の場合は提出期限までに必着。募集期間～2026年11月26日",
+    "region": "prefecture",
+    "prefectures": [
+      "宮崎県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "研究開発",
+      "省エネ"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194065",
+    "slug": "jnet21-194065",
+    "title": "【第9回募集】LPガスを使用している中小企業を支援します（LPガス高騰対策緊急支援補助金）（新潟県）",
+    "overview": "エネルギー価格高騰の影響が続く中、県では国の電気・都市ガス支援の対象期間延長にあわせて、LPガス高騰対策緊急支援補助金を拡充し、県内中小企業（個人事業主を含む）を支援します。申請期間（第9回募集）：令和8年10月20日（火）～令和9年1月15日（金）【必着】募集期間2026年10月20日～2027年1月15日",
+    "region": "prefecture",
+    "prefectures": [
+      "新潟県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "省エネ"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194014",
+    "slug": "jnet21-194014",
+    "title": "令和8（2026）年度（第2次）ものづくり産業生産性向上支援補助金事業計画の募集について（栃木県）",
+    "overview": "栃木県では、県内ものづくり中小企業者等の生産性向上・競争力強化を図るため、県内中小企業者等及び中堅企業者が行う、米国関税措置や中東情勢による影響に対応するための効率的な生産方法の導入や生産技術の高度化、生産に必要な原材料供給の効率化等に資する生産設備導入に要する経費の一部を補助する「ものづくり産業生産性向上支援補助金」事業を実施します。つきましては、令和8（2026）年度の事業計画について第2次募集をします。募集期間：令和8年10月14日（水曜日）～令和8年11月11日（水曜日）17時00分（必着）募集期間2026年10月14日～2026年11月11日",
+    "region": "prefecture",
+    "prefectures": [
+      "栃木県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "製造業"
+    ],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194013",
+    "slug": "jnet21-194013",
+    "title": "令和9年度農林商工業関係補助事業の要望調査について（水上村）",
+    "overview": "水上村では、農林商工業の振興を図るため、令和9年度（2027年度）の予算編成にあたり、各種補助事業の要望調査を実施します。つきましては、補助事業を希望される方は、要望書、見積書等を産業振興課に提出してください。提出期限：令和8年11月30日（月曜日）募集期間～2026年11月30日",
+    "region": "prefecture",
+    "prefectures": [
+      "熊本県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194012",
+    "slug": "jnet21-194012",
+    "title": "令和9年度特定有人国境離島地域社会維持推進交付金【雇用機会拡充事業】（三島村）",
+    "overview": "特定有人国境離島地域における持続的な居住が可能となる環境の整備を図ることを目的として、雇用増を伴う事業拡大を行う民間事業者等に対して、その事業資金の一部を補助することにより、特定有人国境離島地域における雇用機会の拡充を図ろうとするものです。事前連絡期間：令和8年11月9日（月）午後5時まで個別相談期間：事前連絡後～令和8年11月20日（金）まで提出締切：令和8年12月11日（金）午後5時役場必着募集期間～2026年12月11日",
+    "region": "prefecture",
+    "prefectures": [
+      "鹿児島県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成",
+      "事業承継",
+      "創業"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194011",
+    "slug": "jnet21-194011",
+    "title": "地域農業活性化支援事業について（北広島町）",
+    "overview": "北広島町の農業において、化学肥料の使用を低減した環境にやさしい農業の実現と畜産業の振興、および主食用米の需給調整の目的に、堆肥（牛糞）の購入に要する費用、WCS用稲の刈取・運搬に要した費用に対して補助金を交付します。申請受付期間：令和9年2月26日金曜日まで募集期間～2027年2月26日",
+    "region": "prefecture",
+    "prefectures": [
+      "広島県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-194008",
+    "slug": "jnet21-194008",
+    "title": "【追加募集！】農業者向け外国人材育成体制構築事業費補助金の募集について（宮崎県）",
+    "overview": "令和9年4月から始まる「育成就労制度」に対応するため、農作業指示の動画化、多言語化した作業指示書・就業規則の作成、講習受講など、農業現場における外国人材の育成に向けた取組を支援します。募集受付期間：令和8年11月30日（月曜日）まで募集期間～2026年11月30日",
+    "region": "prefecture",
+    "prefectures": [
+      "宮崎県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193986",
+    "slug": "jnet21-193986",
+    "title": "原子力発電施設等周辺地域企業立地支援事業（通称：F補助金）（一般財団法人電源地域振興センター）",
+    "overview": "原子力発電施設等の周辺地域における企業の立地と雇用機会の創出を図ることを目的に、その地域に立地した事業者に対して、支払った電気料金等に基づいて道府県が一定期間にわたって補助金を交付する制度です。令和8年度下期原子力発電施設等周辺地域企業立地支援事業（通称：F補助金）の募集を開始いたします。募集期間：（継続の募集） 令和8年10月9日（金）～令和8年10月23日（金）（新規もしくは特例増設初回の募集） 令和8年10月9日（金）～令和8年10月30日（金）募集期間2026年10月9日～2026年10月30日",
+    "region": "prefecture",
+    "prefectures": [
+      "北海道",
+      "青森県",
+      "宮城県",
+      "福島県",
+      "茨城県",
+      "石川県",
+      "福井県",
+      "静岡県",
+      "京都府",
+      "島根県",
+      "愛媛県",
+      "佐賀県",
+      "鹿児島県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "人材育成",
+      "創業"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193985",
+    "slug": "jnet21-193985",
+    "title": "令和8年熊本地震に伴う中小企業資金繰り支援（利子補給）のご案内（氷川町）",
+    "overview": "氷川町では、令和8年熊本地震により事業に大きな影響を受けた中小企業・小規模事業者の皆様が、事業の継続、早期の事業再建、経営安定化を図れるよう、融資にかかる利子の一部を補助（利子補給）する制度を実施します。申請期間：各年1月1日から12月31日までに支払った利子分を、翌年1月末日までに申請募集期間～2027年1月31日",
+    "region": "prefecture",
+    "prefectures": [
+      "熊本県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193984",
+    "slug": "jnet21-193984",
+    "title": "地域企業人材確保支援補助金（追加募集）（旭川市）",
+    "overview": "旭川市内に事業所を有する中小企業、個人事業主又は組合等における人材不足への対応を支援するため、デジタル技術を用いて短時間・単発の就労を内容とする雇用契約を仲介する事業のサービスを利用する企業及び仲介サービスにより短期雇用した者を正規雇用とした企業を支援します。申請期間（追加募集）：令和8年10月15日（木）～令和8年11月30日（月）募集期間2026年10月15日～2026年11月30日",
+    "region": "prefecture",
+    "prefectures": [
+      "北海道"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "研究開発",
+      "デジタル化"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-15T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193987",
+    "slug": "jnet21-193987",
+    "title": "津南町特産品開発・販路拡大事業補助金",
+    "overview": "新たな特産品の開発及び販路の開拓を促進し、町の産業の振興を図るため、町内事業者が行う特産品開発及び販路拡大事業に要する費用を助成します。申請期間：令和8年10月13日（火曜日）から令和9年1月29日（金曜日）まで申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年10月13日～2027年1月29日",
+    "region": "prefecture",
+    "prefectures": [
+      "新潟県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "販路拡大",
+      "研究開発"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-14T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193903",
+    "slug": "jnet21-193903",
+    "title": "【第3回】令和8年度 海外展示会出展支援補助金（公益財団法人埼玉県産業振興公社）",
+    "overview": "埼玉県産業振興公社では、県内中小企業の海外販路拡大を支援するため、「海外展示会出展支援補助金」の募集を開始しました。海外展開を積極的に進める企業の皆様のご応募をお待ちしております。募集件数：1者程度申請受付期間：令和8年10月13日（火）～令和8年10月21日（水）郵送必着（Eメールは17時迄）募集期間2026年10月13日～2026年10月21日",
+    "region": "prefecture",
+    "prefectures": [
+      "埼玉県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "販路拡大",
+      "海外展開"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-14T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193904",
+    "slug": "jnet21-193904",
+    "title": "【第3回】令和8年度 海外展示会出展支援補助金（ものづくり）（公益財団法人埼玉県産業振興公社）",
+    "overview": "埼玉県産業振興公社では、県内中小企業・中堅企業者の海外販路拡大を支援するため、「海外展示会出展支援補助金」の募集を開始しました。本補助金は、海外展示会出展支援を通じて販路拡大に取り組む企業に対し、予算の範囲内で経費の一部を補助し、新たな市場開拓を支援します。海外展開を積極的に進める企業の皆様のご応募をお待ちしております。募集件数：1者程度申請受付期間：令和8年10月13日（火）～令和8年10月21日（水）郵送必着（メールは17時まで）募集期間2026年10月13日～2026年10月21日",
+    "region": "prefecture",
+    "prefectures": [
+      "埼玉県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "販路拡大",
+      "海外展開"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-14T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193931",
+    "slug": "jnet21-193931",
+    "title": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」の交付申請手続きについて（熊本県）",
+    "overview": "令和8年熊本地震により被害を受けた中小企業者等の施設・設備の復旧を支援する「くまもと事業者再出発支援補助金」の交付申請手続きについて、お知らせいたします。【★重要★申請予定の方は必ず回答してください】本補助金に係る国からの支援については、上限額が設定されております。そのため、県内の事業者様がいつ、どのくらい申請をされるか把握し、滞りなく支援を行うため必要となる調査です。本補助金の活用を検討している事業者の皆様におかれましては、10月中の申請が難しい場合であっても、令和8年10月31日（土曜日）までに「申請予定額連絡票」へのご回答をお願いいたします。回答期限：令和8年10月31日（土曜日）まで募集期間～2026年10月31日",
+    "region": "prefecture",
+    "prefectures": [
+      "熊本県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-14T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193911",
+    "slug": "jnet21-193911",
+    "title": "射撃技術向上支援事業補助金（邑南町）",
+    "overview": "有害鳥獣対策の担い手を育成し、緊急銃猟等における捕獲者を確保するため、県外の射撃場で行う射撃練習に必要な経費の一部を補助します。",
+    "region": "prefecture",
+    "prefectures": [
+      "島根県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [
+      "人材育成",
+      "研究開発"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-14T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193943",
+    "slug": "jnet21-193943",
+    "title": "「新時代スタートアップ成長支援事業費補助金」の募集について（徳島県）",
+    "overview": "徳島県では、物価高騰や人手不足が加速する中、県内中小企業の生産性向上および省人化・省エネ化を図るため、学生起業家等との連携によるAI等の導入・実証を通じたシナジー効果を創出するとともに、スタートアップ等の新事業創出及び事業拡大を後押しし、持続的な賃上げ環境の整備及び新時代の地域産業の基盤形成を図るため、国の「重点支援地方交付金」を活用し、「新時代スタートアップ成長支援事業費補助金」を新たに創設し、補助金申請の募集を開始しました。（1）学生起業家AI等導入枠（2）スタートアップ枠募集期間：（1）学生起業家AI等導入枠 令和8年10月8日（木）～令和9年1月29日（金）午後5時（2）スタートアップ枠 令和8年10月8日（木）～令和8年10月30日（金）午後5時※いずれも【徳島県経済産業部産業成長推進課必着】募集期間2026年10月8日～",
+    "region": "prefecture",
+    "prefectures": [
+      "徳島県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "研究開発",
+      "創業",
+      "省エネ",
+      "デジタル化"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-14T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193868",
+    "slug": "jnet21-193868",
+    "title": "インターンシップ等受入促進事業補助金のご案内（広島県）",
+    "overview": "広島県では、生成AIの進展などにより産業構造が変化する中、県内企業等のDx推進や半導体などの成長・先端分野への対応に向け、県内企業等の海外展開イノベーション創出など競争力強化に必要な高度外国人材の確保を促進するため、県内企業が、インドを始めとする諸外国の大学・大学院に在籍等をする外国人材を、インターンシップで受け入れる際に要する費用の一部を補助します。申請期間：令和8年10月13日～令和9年2月26日 ※当日消印有効募集期間2026年10月13日～2027年2月26日",
+    "region": "prefecture",
+    "prefectures": [
+      "広島県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "人材育成",
+      "販路拡大",
+      "デジタル化",
+      "海外展開"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193787",
+    "slug": "jnet21-193787",
+    "title": "令和8年度京都市小売店等における使い捨てプラスチック発生抑制モデル事業補助金の募集",
+    "overview": "プラスチックごみ問題や気候変動への対応、循環経済への移行の必要性などを背景に、国内外においてプラスチック削減の重要性が高まっています。京都市では、消費者が商品購入の際にプラスチック製容器包装の少ない商品を選択できる環境を整えるため、小売店等における販売時のプラスチック製容器包装の削減に取り組むモデル事業を支援し、その成果を市内へ広く展開することとしています。この度、市内の食品小売店等において、はだか売りや量り売りなど、食料品の販売時に使用する使い捨てプラスチック製容器包装の削減に資する取組を実施する事業者等に対し、その経費の一部を補助する「京都市小売店等における使い捨てプラスチック発生抑制モデル事業補助金」の募集を開始します。受付期間：令和8年10月22日（木曜日）午後5時まで募集期間2026年10月9日～2026年10月22日",
+    "region": "prefecture",
+    "prefectures": [
+      "京都府"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "省エネ"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193790",
+    "slug": "jnet21-193790",
+    "title": "佐賀県中小企業事業継続力強化支援事業費補助金の三次募集開始のお知らせ",
+    "overview": "近年、令和元年佐賀豪雨災害等、中小企業に甚大な被害を及ぼす災害が相次いでおり、ひとたび被災すると経営に大きな影響を受ける可能性が高いと考えられます。本補助金は中小企業の経営力の強化を促し、もって地域経済の基盤となる中小企業の事業維持に資するため、事業継続計画（BCP）等を作成した県内中小企業の行う防災・減災に係る設備投資に対して支援を行うものです。公募期間：令和8年10月9日（金曜日）から令和8年11月5日（木曜日）募集期間2026年10月9日～2026年11月5日",
+    "region": "prefecture",
+    "prefectures": [
+      "佐賀県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193792",
+    "slug": "jnet21-193792",
+    "title": "福島県観光関連事業者等観光コンテンツ造成支援事業補助金について",
+    "overview": "県では、ふくしまデスティネーションキャンペーン開催を契機とした本県へのさらなる誘客促進及び持続可能な観光コンテンツの定着・発展を目的とし、県内の観光関連事業者等が実施する観光コンテンツの造成等に関する事業を補助いたします。募集期間：令和8年10月9日（金曜日）～令和8年11月25日（水曜日）17時 各市町村担当課必着募集期間2026年10月9日～2026年11月25日",
+    "region": "prefecture",
+    "prefectures": [
+      "福島県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "研究開発"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193793",
+    "slug": "jnet21-193793",
+    "title": "いわき市商工業活性化事業補助金 令和8年度事業の3次募集について",
+    "overview": "いわき市では、市内商工業の活性化のために商工団体等が行う自主的な活動を支援し、本市の商工業の振興に資する事業を対象に「いわき市商工業活性化事業補助金」を交付しています。募集期間：令和8年10月9日（金）から11月2日（月）まで ※必着募集期間2026年10月9日～2026年11月2日",
+    "region": "prefecture",
+    "prefectures": [
+      "福島県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193841",
+    "slug": "jnet21-193841",
+    "title": "寄居町森林整備事業補助金",
+    "overview": "健全な森林の造成と林業の振興を図るため、町内で森林整備事業を実施する方に対し、事業に係る費用の一部を助成します。",
+    "region": "prefecture",
+    "prefectures": [
+      "埼玉県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193842",
+    "slug": "jnet21-193842",
+    "title": "渇水対策水田整備事業補助金の申請について（津南町）",
+    "overview": "近年の高温・渇水により水田の耕盤に亀裂等が発生し、水持ちが悪く用水不足が課題になっているため、町では渇水対策として、ブルドーザによる代掻きに要する経費や秋季に行う代掻きを実施した面積に対し、予算の範囲内において補助します。申請受付期限：令和8年12月28日（月曜日）まで募集期間～2026年12月28日",
+    "region": "prefecture",
+    "prefectures": [
+      "新潟県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193843",
+    "slug": "jnet21-193843",
+    "title": "（組合向け）取引力強化推進事業の3次公募について（山口県中小企業団体中央会）",
+    "overview": "本会では、小規模事業者組合が取引力強化促進を図るために実施する共同販売・共同宣伝、組合員企業紹介等のために組合が行うホームページやチラシの作成等、組合および組合員の受注促進等の取り組みに対して助成します。なお、今回の募集は3次公募となり、4件程度の採択を予定しています。受付期間（3次公募）：令和8年10月9日（金）～10月30日（金）募集期間2026年10月9日～2026年10月30日",
+    "region": "prefecture",
+    "prefectures": [
+      "山口県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193869",
+    "slug": "jnet21-193869",
+    "title": "【令和8年10月受付開始】福知山市中小企業者物価高騰対応特別支援事業利子補給金",
+    "overview": "金融機関からお借入れされた対象融資について、12か月分の支払利息を6ヶ月ごと2回に分けて、上限25万円まで福知山市が補給します。申請期間：令和8年10月8日（木曜日）から令和9年4月30日（金曜日）まで※融資実行後、30日を経過する日までに、福知山市産業課までお申し込みください。※令和8年10月5日以前に対象融資を受けた者は、令和8年11月5日までが申込期限となりますのでご注意ください。募集期間2026年10月8日～2027年4月30日",
+    "region": "prefecture",
+    "prefectures": [
+      "京都府"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193870",
+    "slug": "jnet21-193870",
+    "title": "原子力発電施設周辺地域企業立地支援給付金（F補助金）の募集について（新潟県）",
+    "overview": "令和8年度下期原子力発電施設周辺地域企業立地支援給付金（通称：F補助金）の募集についてお知らせします。提出期限：【初回（新規・特例増設）の企業等】市町村への推薦依頼 令和8年10月27日（火曜日）県への審査依頼書等提出 令和8年11月2日（月曜日）【継続の企業等】一般財団法人電源地域振興センターへの審査依頼書等提出 令和8年11月2日（月曜日）※期限厳守：募集期間内に到着したもののみを受付させていただきます。募集期間2026年10月13日～2026年11月2日",
+    "region": "prefecture",
+    "prefectures": [
+      "新潟県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "創業"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193872",
+    "slug": "jnet21-193872",
+    "title": "令和8年度物価高騰対策支援金（医療・介護・障がい事業者支援事業）について（斜里町）",
+    "overview": "エネルギーや食料品等価格高騰による町内の医療・介護・障がい施設等の事業所の経済的負担を軽減するとともに、地域におけるサービスの安定的な提供体制を維持・確保するため、事業所の区分に応じた支援金を交付する事業です。申請受付期間：令和8年10月13日（火曜日）から令和8年12月28日（月曜日）必着募集期間2026年10月13日～2026年12月28日",
+    "region": "prefecture",
+    "prefectures": [
+      "北海道"
+    ],
+    "status": "unknown",
+    "industries": [
+      "医療",
+      "福祉"
+    ],
+    "purposes": [
+      "省エネ"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193876",
+    "slug": "jnet21-193876",
+    "title": "高森町ふるさと応援観光拠点ユニバーサルツーリズム促進事業補助金の公募を実施します",
+    "overview": "高森町ふるさと応援観光拠点ユニバーサルツーリズム促進事業補助金の公募を実施します【ユニバーサルツーリズムとは】高齢や障がい、妊娠、子育てなどの有無にかかわらず、すべての人が気兼ねなく安心して楽しめる旅行のことです。公募期間：令和8年10月13日火曜日から令和8年10月23日金曜日まで募集期間2026年10月13日～2026年10月23日",
+    "region": "prefecture",
+    "prefectures": [
+      "熊本県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193878",
+    "slug": "jnet21-193878",
+    "title": "令和8年6月豪雨による被災農地の自力復旧補助金（益城町）",
+    "overview": "本町では、令和8年6月豪雨により被害を受けた町内の農地を、ご自身で復旧された場合に、その費用の一部を補助する「益城町農地自力復旧事業補助金」の交付を開始します。被災農地の早期復旧を支援し、皆様の営農再開の一助となることを目的としています。申請期限：令和9年3月12日（金曜日）まで申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間～2027年3月12日",
+    "region": "prefecture",
+    "prefectures": [
+      "熊本県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193879",
+    "slug": "jnet21-193879",
+    "title": "令和9年度農山漁村振興交付金（地域資源活用価値創出対策）のうち地域資源活用価値創出整備事業（産業支援型）の要望調査を実施します（青森県）",
+    "overview": "地域資源を活用しつつ、農山漁村における農業者等の所得向上や雇用の増大を図る新たな取組のために必要となる農林水産物加工・販売施設等を整備する本事業について、県の令和9年度予算要求の参考とするため、要望調査を実施します。提出期限：事業要望調書 令和9年10月23日（金）地域資源活用価値創出整備事業（産業支援型）事業実施計画書 令和9年11月27日（金）",
+    "region": "prefecture",
+    "prefectures": [
+      "青森県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資",
+      "人材育成"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193882",
+    "slug": "jnet21-193882",
+    "title": "農作業用機械・施設の被害への補助事業【令和8年熊本地震】（益城町）",
+    "overview": "令和8年熊本地震で農業用機械や施設の被害を受けた農業者を対象に、補助事業の受け付けを行っています。申請期限：申請を希望する人は、12月上旬までに必ずご相談ください。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+    "region": "prefecture",
+    "prefectures": [
+      "熊本県"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193884",
+    "slug": "jnet21-193884",
+    "title": "持続的生産強化緊急対策（令和8年熊本地震対応産地緊急支援事業）に係る公募（第2回）について（農林水産省）",
+    "overview": "持続的生産強化緊急対策（令和8年熊本地震対応産地緊急支援事業）について、事業実施主体を公募します。本事業の実施を希望される方は、御応募ください。申請期限（第2回）：令和8年11月30日（月曜日）17時 ※必着募集期間2026年10月9日～2026年11月30日",
+    "region": "national",
+    "prefectures": [
+      "全国"
+    ],
+    "status": "unknown",
+    "industries": [
+      "農業",
+      "林業"
+    ],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193887",
+    "slug": "jnet21-193887",
+    "title": "富山県被災事業者事業継続支援補助金（令和8年8月27日からの大雨被害の復旧支援）",
+    "overview": "県では、令和8年8月27日からの大雨により被害を受けた中小企業等が行う施設・設備の復旧等に要する経費の一部を補助することにより、被災事業者の復旧・復興を促進します。募集期間：第1回 令和8年10月8日（木曜日）～令和8年10月29日（木曜日）第2回 令和8年11月16日（月曜日）～令和8年12月4日（金曜日）",
+    "region": "prefecture",
+    "prefectures": [
+      "富山県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [
+      "設備投資"
+    ],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193890",
+    "slug": "jnet21-193890",
+    "title": "令和8年度山形県中小企業特別高圧電力負担軽減事業費補助金（令和8年7月分～9月分）のご案内",
+    "overview": "山形県では、県内の事業所等で特別高圧電力を契約している中小企業等と、県内の特別高圧電力を契約している商業施設等において特別高圧電力を利用し、電気料金高騰の影響を受けている県内中小企業等に対して、補助金を交付します。提出期間：令和8年11月2日（月）から令和8年11月30日（月）募集期間2026年11月2日～2026年11月30日",
+    "region": "prefecture",
+    "prefectures": [
+      "山形県"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
+  },
+  {
+    "id": "jnet21-193874",
+    "slug": "jnet21-193874",
+    "title": "目黒区独自「物価高対応等融資支援金」の受付を開始します",
+    "overview": "中東情勢や物価高等の状況により、経営に急激な影響を受けた区内中小企業者で、令和8年4月1日以降に国や東京都の対象融資を利用し、一定の要件を満たすかたを対象に目黒区独自の融資支援金を給付します。申請期限：令和9年3月31日（水曜日）（必着）まで募集期間～2027年3月31日",
+    "region": "tokyo",
+    "prefectures": [
+      "東京都"
+    ],
+    "status": "unknown",
+    "industries": [],
+    "purposes": [],
+    "upperLimit": null,
+    "isForSME": true,
+    "source": "jnet21",
+    "startDate": null,
+    "endDate": null,
+    "updatedAt": "2026-10-13T00:00:00.000Z"
   }
 ]

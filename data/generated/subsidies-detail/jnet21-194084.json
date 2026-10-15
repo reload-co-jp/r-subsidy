@@ -1,0 +1,28 @@
+{
+  "overview": "大分県内の事業所で、特別高圧で受電する中小企業の電気料金を支援します申請受付期間：令和8年10月19日（月曜日）9時00分～11月20日（金曜日）17時00分募集期間2026年10月19日～2026年11月20日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>大分県内の事業所で、特別高圧で受電する中小企業の電気料金を支援します申請受付期間：令和8年10月19日（月曜日）9時00分～11月20日（金曜日）17時00分募集期間2026年10月19日～2026年11月20日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：大分県</li><li>実施機関：大分県</li><li>J-Net21掲載日：2026-10-15</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194084\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "大分県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "大分県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.oita.jp/soshiki/14340/tokubetsukoatsu-r806.html",
+  "updatedAt": "2026-10-15T00:00:00.000Z",
+  "id": "jnet21-194084",
+  "slug": "jnet21-194084",
+  "title": "大分県特別高圧電気価格激変緩和対策事業費補助金について",
+  "source": "jnet21"
+}

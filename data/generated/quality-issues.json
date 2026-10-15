@@ -1,5 +1,10 @@
 [
   {
+    "slug": "a0w2x000007cos5eac",
+    "title": "［第六回以降］事業再構築補助金（共同申請者）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
     "slug": "a0w2x000007crsaea0",
     "title": "東京都環境保全資金融資保証債務履行補助金",
     "reason": "不正または非現実的な日付を除去"
@@ -15,6 +20,16 @@
     "reason": "placeholder/使用しないデータ"
   },
   {
+    "slug": "a0wj200000cdw2emax",
+    "title": "×令和６年度地域医療勤務環境改善体制整備特別事業【仕入控除税額報告】",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cdxktmax",
+    "title": "令和８年度展示会出展助成事業",
+    "reason": "状態を補正 open→closed"
+  },
+  {
     "slug": "a0wj200000cdyzpmah",
     "title": "※使用しない　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業③空港におけるEV・FCV型車両改造事業（二酸化炭素排出抑制対策事業費等補助金）",
     "reason": "placeholder/使用しないデータ"
@@ -25,9 +40,164 @@
     "reason": "placeholder/使用しないデータ"
   },
   {
+    "slug": "a0wj200000cddn0mal",
+    "title": "令和８年度 非石油由来製品等開発支援事業",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cddrmmal",
+    "title": "令和８年度酒類業振興支援事業費補助金（第５期）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cddnjmat",
+    "title": "令和７年度(補正予算) ゼロエミッション船等の建造促進事業 2次公募",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cddugmad",
+    "title": "【秋田】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cddulmad",
+    "title": "【群馬】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cddusmad",
+    "title": "【石川】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde64mad",
+    "title": "【福井】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde68mad",
+    "title": "【静岡】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde6bmat",
+    "title": "【滋賀】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde6fmat",
+    "title": "【奈良】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde6gmat",
+    "title": "【和歌山】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde6hmat",
+    "title": "【鳥取】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde6imat",
+    "title": "【島根】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde6pmat",
+    "title": "【広島】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde6qmat",
+    "title": "【山口】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cde6vmat",
+    "title": "【福岡】令和８年度中小企業最低賃金引上げ支援対策費補助金（業務改善助成金）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cdec6mal",
+    "title": "令和８年度経営統合等による産業力強化支援事業（連携枠）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cdec7mal",
+    "title": "令和８年度経営統合等による産業力強化支援事業（単体枠）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cdeqmmal",
+    "title": "伝統的工芸品産業支援補助金（令和8年度第2回災害復興事業）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cdes9mal",
+    "title": "令和７年度（補正予算）地域共生を目指したデータセンター脱炭素化設備導入支援事業（三次公募）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cdesjma1",
+    "title": "令和8年度当初予算　二次公募　民間企業等による再エネの導入及び地域共生加速化事業のうち、ストレージパリティの達成に向けた太陽光発電設備等の価格低減促進事業",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wj200000cdet5mal",
+    "title": "令和８年度 第３回 若手・女性リーダー応援プログラム助成事業/商店街起業・承継支援事業",
+    "reason": "状態を補正 upcoming→open"
+  },
+  {
     "slug": "a0wj200000cdettmal",
     "title": "令和８年度東京都救命救急センター施設整備等補助事業（運営費）",
     "reason": "不正または非現実的な日付を除去"
+  },
+  {
+    "slug": "a0wj200000cdexvmal",
+    "title": "【福岡県3次】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wfq000003bzwhua0",
+    "title": "【追加募集】神奈川県障害福祉サービス事業所等及び障害福祉施設等に対するサービス継続支援事業補助金",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wfq000003cvhduao",
+    "title": "令和８年度　ＺＥＢ実証事業（三次公募）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wfq000003dghrua0",
+    "title": "【山口県】令和8年度_中小企業等海外展開支援事業費補助金（海外出願支援事業）（第2回公募）",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wfq000003evjxuao",
+    "title": "令和８年度（秋公募）コールドチェーンを支える冷凍冷蔵機器の脱フロン・脱炭素化推進事業",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wfq000003gpg9uak",
+    "title": "令和７年度補正グローバルサウス未来志向型共創等事業費補助金（小規模実証・ＦＳ事業：二次公募）（ＦＳ・小規模実証事業実施事業者の募集（補助））",
+    "reason": "状態を補正 upcoming→open"
+  },
+  {
+    "slug": "a0wfq000003i7iruac",
+    "title": "【青森県】令和8年度中小企業等海外展開支援事業費補助金（海外出願支援事業）２次公募",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wfq000003jpfvua4",
+    "title": "令和８年度第２回　創業助成事業",
+    "reason": "状態を補正 open→closed"
+  },
+  {
+    "slug": "a0wfq000003cywnuam",
+    "title": "情報通信利用促進支援事業費補助金「先進的設備等を活用した放送コンテンツ製作促進事業」三次公募",
+    "reason": "状態を補正 open→closed"
   },
   {
     "slug": "national-shoryokuka-ippan-2026",
@@ -283,5 +453,10 @@
     "slug": "a0wj200000cdb6dmad",
     "title": "【福岡県宗像市】令和8年度 宗像市がんばる中小企業者応援補助金",
     "reason": "重複制度（a0wj200000cdddbmad）"
+  },
+  {
+    "slug": "jnet21-193868",
+    "title": "インターンシップ等受入促進事業補助金のご案内（広島県）",
+    "reason": "重複制度（jnet21-193868）"
   }
 ]

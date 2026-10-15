@@ -1,0 +1,30 @@
+{
+  "overview": "医療機器等の製品開発から事業化に利用できる助成金。▶再生する（YouTube再生時間 10:21）",
+  "detail": "<h2>事業の概要</h2><ul><li>助成率：2／3</li><li>助成事業期間：最長5年間</li><li>募集要項：事業化支援 募集要項（PDF）</li><li>申請書：事業化支援 申請書（Excel）</li><li>申請書記入例：事業化支援 申請書記入例（Excel）</li><li>代理申請同意書：代理申請同意書（Word）</li><li>概要説明動画：▶再生する（YouTube再生時間 10:21）</li><li>申請要件確認動画：▶再生する（YouTube再生時間 9:06）</li><li>申請書説明動画※：▶再生する（YouTube再生時間 6:15） ※ものづくり企業が申請者になり、事業化支援助成事業を申し込むケースを紹介しています</li><li>注意事項：※事前ヒアリングを実施する前に概要説明動画、申請要件確認動画をご視聴ください。 ※申請書を作成する前に必ず申請書説明動画をご視聴ください。 （YouTube動画へ遷移します。音量にご注意ください。）</li></ul>\n<p>対象：中小企業者、個人事業主、中小企業団体等、中小企業グループ</p>\n<p>募集要項・申請様式は東京都中小企業振興公社の事業ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": "中小企業者・個人事業主・中小企業団体等・中小企業グループ",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "研究開発"
+  ],
+  "usePurpose": "製品開発",
+  "status": "open",
+  "workflow": "公益財団法人東京都中小企業振興公社",
+  "subsidizedRate": "2/3以内",
+  "upperLimit": "50,000,000円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.tokyo-kosha.or.jp/support/josei/medical/index.html",
+  "updatedAt": "2026-10-15T12:02:44.427Z",
+  "id": "tokyo-kosha-afda62ca96",
+  "slug": "tokyo-kosha-afda62ca96",
+  "title": "医療機器等事業化支援助成事業",
+  "source": "tokyo"
+}

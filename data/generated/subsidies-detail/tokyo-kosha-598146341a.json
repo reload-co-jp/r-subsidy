@@ -1,0 +1,28 @@
+{
+  "overview": "物価高騰の影響を受ける中小企業の持続可能な経営体質づくりを支援します。",
+  "detail": "<h2>事業の概要</h2><ul><li>項目 時期 備考 募集期間：第1回：令和8年5月27日～令和8年8月31日 第1回の申込受付は終了しました 申込受付は終了しました --&gt; 第2回：令和8年10月1日～ 令和8年12月14日（予定）</li><li>支援対象決定：第1回：令和8年5月27日より順次 第2回：令和8年10月1日～ 令和8年12月14日（予定）</li><li>専門家派遣の実施：支援決定から3〜5ヶ月程度</li><li>助成金申請：第1回：令和8年9月14日～令和8年10月30日 ※助成金の詳細は、助成金ポータルサイトをご確認ください 助成金ポータルサイト</li></ul>\n<p>対象：中小企業者、個人事業主</p>\n<p>募集要項・申請様式は東京都中小企業振興公社の事業ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": "中小企業者・個人事業主",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": null,
+  "status": "open",
+  "workflow": "公益財団法人東京都中小企業振興公社",
+  "subsidizedRate": "2/3以内",
+  "upperLimit": "3,000,000円",
+  "lowerLimit": null,
+  "startDate": "2026-05-27",
+  "endDate": "2026-12-14",
+  "referenceUrl": "https://tokyo-shuekiryoku-kyoka.jp/",
+  "updatedAt": "2026-10-15T12:02:08.328Z",
+  "id": "tokyo-kosha-598146341a",
+  "slug": "tokyo-kosha-598146341a",
+  "title": "中小企業収益力強化サポート事業",
+  "source": "tokyo"
+}

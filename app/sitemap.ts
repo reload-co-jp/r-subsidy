@@ -1,3 +1,4 @@
+import { isIndexableSubsidy } from "../lib/format"
 import { loadGlossary } from "../lib/glossary"
 import fs from "fs"
 import path from "path"
@@ -236,7 +237,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   )
 
   const subsidyRoutes: MetadataRoute.Sitemap = subsidies
-    .filter((s) => s.status !== "closed")
+    .filter(isIndexableSubsidy)
     .map((subsidy) => ({
       url: `${siteUrl}/subsidies/${subsidy.slug}/`,
       lastModified: subsidy.updatedAt,

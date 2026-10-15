@@ -224,7 +224,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 >
                   Jグランツ（デジタル庁）
                 </a>
-                の公開API、東京都ほか自治体の公開情報。
+                の公開API、J-Net21（中小機構）、厚生労働省、東京都中小企業振興公社ほか公的機関の公開情報。
                 {lastUpdated && <>最終データ更新：{lastUpdated}。</>}
               </p>
               <p>

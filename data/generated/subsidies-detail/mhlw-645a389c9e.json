@@ -1,0 +1,30 @@
+{
+  "overview": "支給対象者１人あたり以下の金額が支給されます。ただし、１年度１事業所あたり５００人を限度とします。 【令和６年４月１日以降の再就職援助計画等の対象者】 （１）再就職の支援を職業紹介事業者に委託する場合 支給対象となる方の再就職を実現させた場合に以下の金額が支給されます。 【】は45歳以上の者の助成割合",
+  "detail": "<h2>概要</h2><p>支給対象者１人あたり以下の金額が支給されます。ただし、１年度１事業所あたり５００人を限度とします。 【令和６年４月１日以降の再就職援助計画等の対象者】 （１）再就職の支援を職業紹介事業者に委託する場合 支給対象となる方の再就職を実現させた場合に以下の金額が支給されます。 【】は45歳以上の者の助成割合</p>\n<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：都道府県労働局・ハローワーク。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "雇用・人材育成",
+  "status": "unknown",
+  "workflow": "都道府県労働局・ハローワーク",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.mhlw.go.jp/stf/newpage_21924.html",
+  "updatedAt": "2026-10-15T12:00:09.376Z",
+  "id": "mhlw-645a389c9e",
+  "slug": "mhlw-645a389c9e",
+  "title": "早期再就職支援等助成金（再就職支援コース）",
+  "source": "mhlw"
+}

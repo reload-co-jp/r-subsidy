@@ -19,7 +19,7 @@ import {
   absoluteUrl,
   buildBreadcrumbList,
 } from "../../../lib/site"
-import { formatDate, formatAmount } from "../../../lib/format"
+import { formatDate, formatAmount, isIndexableSubsidy } from "../../../lib/format"
 import { isPrefecture } from "../../../lib/prefectures"
 import {
   areaLabel,
@@ -439,7 +439,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: pageUrl,
     },
-    ...(subsidy.status === "closed"
+    ...(!isIndexableSubsidy(subsidy)
       ? { robots: { index: false, follow: true } }
       : {}),
     openGraph: {
@@ -461,8 +461,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const SOURCE_LABEL: Record<string, string> = {
   jgrants: "Jグランツ（デジタル庁）",
-  tokyo: "東京都",
+  tokyo: "東京都中小企業振興公社",
   national: "国の公開情報",
+  jnet21: "J-Net21 支援情報ヘッドライン（中小機構）",
+  mhlw: "厚生労働省（雇用関係助成金）",
   manual: "公的機関の公開情報（運営者が個別に登録）",
 }
 
@@ -765,7 +767,7 @@ const Page: FC<Props> = async ({ params }) => {
           }}
         >
           以下は{SOURCE_LABEL[subsidy.source] ?? "公的機関"}
-          が公開している制度情報の原文です。対象経費・申請方法・必要書類が記載されていない場合は、公式ページの公募要領をご確認ください。
+          が公開している制度情報です。対象経費・申請方法・必要書類が記載されていない場合は、公式ページの公募要領をご確認ください。
         </p>
         {subsidy.detail ? (
           <div

@@ -34,3 +34,11 @@ export function areaLabel(s: { region: string; prefectures: string[] }) {
 
 const PURPOSE_LABELS: Record<string, string> = { デジタル化: "IT・DX" }
 export const purposeLabel = (purpose: string) => PURPOSE_LABELS[purpose] ?? purpose
+
+// 公的APIで構造化されていない取得元は、概要が一定量ある制度だけ検索エンジンに登録する（薄いページを増やさない）
+const STRUCTURED_SOURCES = new Set(["jgrants", "manual"])
+export const MIN_INDEX_OVERVIEW_LENGTH = 60
+export function isIndexableSubsidy(s: { status: string; source: string; overview: string }) {
+  if (s.status === "closed") return false
+  return STRUCTURED_SOURCES.has(s.source) || s.overview.trim().length >= MIN_INDEX_OVERVIEW_LENGTH
+}
