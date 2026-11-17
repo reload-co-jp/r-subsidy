@@ -12,7 +12,7 @@
     "employeeMin": null,
     "employeeMax": 20,
     "isForSME": true,
-    "purposes": ["販路開拓", "設備投資"],
+    "purposes": ["販路拡大", "設備投資"],
     "usePurpose": null,
     "status": "upcoming",
     "workflow": "商工会・商工会議所（事業支援計画書発行）→ Jグランツで電子申請",

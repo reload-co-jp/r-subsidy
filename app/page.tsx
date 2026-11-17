@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     "中小企業・個人事業主向けに、国・都道府県の補助金・助成金を目的・地域・受付状態から検索できます。締切間近・受付中・公募予定の制度を一覧で確認し、補助金診断で自社に合う制度を探せます。",
   alternates: {
     canonical: absoluteUrl("/"),
+    types: { "application/rss+xml": absoluteUrl("/feed.xml") },
   },
 }
 

@@ -1,6 +1,6 @@
 export const SITE_NAME = "RSubsidy 補助金サーチ"
 export const SITE_URL = "https://r-subsidy.reload.co.jp"
-export const DEFAULT_OG_IMAGE = "/ogp.svg"
+export const DEFAULT_OG_IMAGE = "/ogp.png"
 export const OPERATOR_NAME = "株式会社リロード"
 export const OPERATOR_URL = "https://reload.co.jp"
 export const SITE_DESCRIPTION =

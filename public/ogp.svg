@@ -13,7 +13,7 @@
   <text x="120" y="404" fill="#7AD2B6" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="28">
     国・東京都の補助金を比較して、あなたの事業に合う制度を探せます
   </text>
-  <rect x="120" y="458" width="260" height="64" rx="16" fill="#38B48B"/>
+  <rect x="120" y="458" width="400" height="64" rx="16" fill="#38B48B"/>
   <text x="170" y="500" fill="white" font-family="'Hiragino Sans', 'Yu Gothic', sans-serif" font-size="28" font-weight="700">
     r-subsidy.reload.co.jp
   </text>
