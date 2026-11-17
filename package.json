@@ -31,26 +31,26 @@
   "license": "ISC",
   "packageManager": "pnpm@11.3.0",
   "dependencies": {
-    "@xyflow/react": "^12.11.0",
-    "next": "^16.2.6",
-    "react": "^19.2.6",
-    "react-dom": "^19.2.6",
+    "@xyflow/react": "^12.12.1",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "react-markdown": "^10.1.0",
     "rehype-raw": "^7.0.0"
   },
   "devDependencies": {
-    "@eslint/compat": "^2.1.0",
+    "@eslint/compat": "^2.1.1",
     "@eslint/js": "^10.0.1",
-    "@types/node": "^25.9.1",
-    "@types/react": "^19.2.15",
-    "eslint": "^10.4.0",
+    "@types/node": "^25.9.9",
+    "@types/react": "^19.3.0",
+    "eslint": "^10.15.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.1.1",
-    "prettier": "^3.8.3",
-    "tsx": "^4.22.3",
+    "prettier": "^3.10.1",
+    "tsx": "^4.23.15",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.60.0"
+    "typescript-eslint": "^8.72.2"
   }
 }
