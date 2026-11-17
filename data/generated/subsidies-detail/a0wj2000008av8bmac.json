@@ -5,7 +5,9 @@
   "overview": "東京都中小企業振興公社の実施するデジタル技術活用推進助成事業の完了後の活用状況報告用のページです。",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>東京都中小企業振興公社の実施するデジタル技術活用推進助成事業において事業完了後に下記の提出を５年間行なう。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■本ページの対象事業者</strong></p><p><span style=\"color: rgb(0, 0, 0);\">すでに助成事業が完了（※）しており、上記の提出物を郵送で行ってる事業者</span></p><p><span style=\"color: rgb(0, 0, 0);\">（※）完了とは、助成金が支払済みの事業を指します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■備考</strong></p><p><span style=\"color: rgb(0, 0, 0);\">gBizIDプライムアカウントを取得の上、提出する必要があります。</span></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問い合わせ先</strong></p><p><span style=\"color: rgb(0, 0, 0);\">東京都中小企業振興公社総合支援部生産性向上支援課</span></p><p><span style=\"color: rgb(0, 0, 0);\">TEL : 03-3251-7919</span></p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -43,7 +45,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資", "研究開発", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "研究開発",
+    "デジタル化"
+  ],
   "usePurpose": "設備整備・IT導入をしたい",
   "status": "open",
   "workflow": "デジタル技術活用推進助成金",

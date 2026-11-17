@@ -1,0 +1,31 @@
+{
+  "overview": "事業主等の行う職業訓練のうち、教科、訓練期間、設備等について厚生労働省令で定める基準に適合して行われているものは、申請により訓練基準に適合している旨の認定を都道府県知事から受けることができます。この認定を受けた職業訓練を「認定職業訓練」といいます。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>事業主等の行う職業訓練のうち、教科、訓練期間、設備等について厚生労働省令で定める基準に適合して行われているものは、申請により訓練基準に適合している旨の認定を都道府県知事から受けることができます。この認定を受けた職業訓練を「認定職業訓練」といいます。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：全国</li><li>実施機関：都道府県</li><li>J-Net21掲載日：2026-05-21</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183100\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "都道府県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.chusho.meti.go.jp/pamflet/g_book/2026/download/2026gbookall.pdf#page=140",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "id": "jnet21-183100",
+  "slug": "jnet21-183100",
+  "title": "認定職業訓練制度（都道府県）",
+  "source": "jnet21"
+}

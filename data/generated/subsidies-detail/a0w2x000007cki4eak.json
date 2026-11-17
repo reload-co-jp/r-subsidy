@@ -5,7 +5,9 @@
   "overview": "採択者専用の提出フォームとなります。",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>創業者やSUが海外進出を図ろうとする際に必要となる海外向けマーケティングやHP作成、海外展示会出展等の経費の一部を助成します。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>詳細は募集要項をご確認ください。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>公益財団法人 東京都中小企業振興公社 事業戦略部</p><p>創業支援課 スタートアップ海外進出支援事業担当</p><p>TEL. 03-5220-1142</p><p>受付時間：原則、平日10：00～17：00（土日祝日は受付しておりません）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>https://www.tokyo-kosha.or.jp/support/josei/jigyo/start_up.html</p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -43,7 +45,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["販路拡大", "創業", "海外展開"],
+  "purposes": [
+    "販路拡大",
+    "創業",
+    "海外展開"
+  ],
   "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "スタートアップ海外進出支援事業",

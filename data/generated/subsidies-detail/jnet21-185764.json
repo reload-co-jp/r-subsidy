@@ -1,0 +1,30 @@
+{
+  "overview": "本市産業の多角化と多様な雇用機会の創出を図るため、本市に本社機能を移転する企業に対し、補助金を交付します。申請期限：営業開始日の30日前（または令和10年2月28日のいずれか早い日）まで",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>本市産業の多角化と多様な雇用機会の創出を図るため、本市に本社機能を移転する企業に対し、補助金を交付します。申請期限：営業開始日の30日前（または令和10年2月28日のいずれか早い日）まで</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：地域活性化、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：山口県</li><li>実施機関：下松市</li><li>J-Net21掲載日：2026-06-23</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/185764\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "山口県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "地域活性化、経営改善・経営強化",
+  "status": "open",
+  "workflow": "下松市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": "2028-02-28",
+  "referenceUrl": "https://www.city.kudamatsu.lg.jp/sangyou/sangyou/kigyouyuuchi/honsyaiten.html",
+  "updatedAt": "2026-06-23T00:00:00.000Z",
+  "id": "jnet21-185764",
+  "slug": "jnet21-185764",
+  "title": "下松市本社機能移転促進補助金について",
+  "source": "jnet21"
+}

@@ -1,0 +1,31 @@
+{
+  "overview": "デジタル化の促進と物価高騰を受けている市内事業者等を支援するため、デジタル化促進に係る経費の一部を補助することを目的とした「香南市デジタル化支援事業費補助金交付要綱」を策定しましたので、ご活用ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>デジタル化の促進と物価高騰を受けている市内事業者等を支援するため、デジタル化促進に係る経費の一部を補助することを目的とした「香南市デジタル化支援事業費補助金交付要綱」を策定しましたので、ご活用ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：高知県</li><li>実施機関：香南市</li><li>J-Net21掲載日：2026-07-09</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187066\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "高知県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "香南市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.kochi-konan.lg.jp/soshikikarasagasu/shokokankoka/sangyoshinko/4/1/13188.html",
+  "updatedAt": "2026-07-09T00:00:00.000Z",
+  "id": "jnet21-187066",
+  "slug": "jnet21-187066",
+  "title": "香南市デジタル化支援事業費補助金について",
+  "source": "jnet21"
+}

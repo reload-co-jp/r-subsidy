@@ -1,0 +1,30 @@
+{
+  "overview": "市内の中小企業者の設備投資等を促進し、市内の産業基盤の強化を図るため、事業の拡大または高度化の為の設備投資に対して、3年間固定資産税相当額を助成します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内の中小企業者の設備投資等を促進し、市内の産業基盤の強化を図るため、事業の拡大または高度化の為の設備投資に対して、3年間固定資産税相当額を助成します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：滋賀県</li><li>実施機関：長浜市</li><li>J-Net21掲載日：2026-09-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191024\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "滋賀県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "長浜市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.nagahama.lg.jp/0000001575.html",
+  "updatedAt": "2026-09-01T00:00:00.000Z",
+  "id": "jnet21-191024",
+  "slug": "jnet21-191024",
+  "title": "長浜市中小企業設備投資補助金",
+  "source": "jnet21"
+}

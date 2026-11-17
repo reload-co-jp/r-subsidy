@@ -1,0 +1,31 @@
+{
+  "overview": "小郡市では、中東情勢の影響によるナフサ由来の資材高騰の影響を鑑み、農業者の皆さんの負担軽減のため、令和8年度において補助金を交付します申請期限：令和9年2月15日（月曜日）募集期間～2027年2月15日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>小郡市では、中東情勢の影響によるナフサ由来の資材高騰の影響を鑑み、農業者の皆さんの負担軽減のため、令和8年度において補助金を交付します申請期限：令和9年2月15日（月曜日）募集期間～2027年2月15日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：福岡県</li><li>実施機関：小郡市</li><li>J-Net21掲載日：2026-09-30</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/192914\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福岡県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "小郡市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-02-15",
+  "endDate": "2027-02-15",
+  "referenceUrl": "https://www.city.ogori.fukuoka.jp/205/280/5302#bukkakoutou",
+  "updatedAt": "2026-09-30T00:00:00.000Z",
+  "id": "jnet21-192914",
+  "slug": "jnet21-192914",
+  "title": "農業物価高騰対応支援補助金の交付（小郡市）",
+  "source": "jnet21"
+}

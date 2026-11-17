@@ -1,0 +1,32 @@
+{
+  "overview": "飯能市では、地域の創業を支援し、地域経済の活性化や雇用の創出、商工業の振興につなげるため、法人設立する際の定款認証や登記費用等の諸費用、また個人事業主が起業・創業する際に必要な設備・備品等や広報費に対し「飯能市創業支援補助金」を交付しています。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>飯能市では、地域の創業を支援し、地域経済の活性化や雇用の創出、商工業の振興につなげるため、法人設立する際の定款認証や登記費用等の諸費用、また個人事業主が起業・創業する際に必要な設備・備品等や広報費に対し「飯能市創業支援補助金」を交付しています。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、地域活性化、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：埼玉県</li><li>実施機関：飯能市</li><li>J-Net21掲載日：2026-06-11</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184753\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "埼玉県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "創業"
+  ],
+  "usePurpose": "起業・創業、地域活性化、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "飯能市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/sogyo_kigyo_shuttenshien/1195.html",
+  "updatedAt": "2026-06-11T00:00:00.000Z",
+  "id": "jnet21-184753",
+  "slug": "jnet21-184753",
+  "title": "創業支援補助金（飯能市）",
+  "source": "jnet21"
+}

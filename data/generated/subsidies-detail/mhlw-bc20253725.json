@@ -2,13 +2,17 @@
   "overview": "",
   "detail": "<h2>支給額・申請手続き</h2><p>支給額、申請様式、支給要領は公式ページで確認してください。申請窓口：（独）高齢・障害・求職者雇用支援機構。</p>",
   "region": "national",
-  "prefectures": ["全国"],
+  "prefectures": [
+    "全国"
+  ],
   "industries": [],
   "targetNumberOfEmployees": null,
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["人材育成"],
+  "purposes": [
+    "人材育成"
+  ],
   "usePurpose": "雇用・人材育成",
   "status": "unknown",
   "workflow": "（独）高齢・障害・求職者雇用支援機構",

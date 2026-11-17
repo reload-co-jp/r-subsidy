@@ -1,0 +1,28 @@
+{
+  "overview": "特別高圧電力や工業用LPガスを使用する中小企業者等の負担軽減に向けた緊急対策として支援金を交付",
+  "detail": "<h2>事業の概要</h2><ul></ul>\n<p>対象：中小企業者、個人事業主、中小企業団体等、一般社団・一般財団、NPO</p>\n<p>募集要項・申請様式は東京都中小企業振興公社の事業ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": "中小企業者・個人事業主・中小企業団体等・一般社団・一般財団・NPO",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": null,
+  "status": "open",
+  "workflow": "公益財団法人東京都中小企業振興公社",
+  "subsidizedRate": "定額",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-11-09",
+  "endDate": "2027-05-31",
+  "referenceUrl": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/tokkolpg/shienkin7th.html",
+  "updatedAt": "2026-11-17T00:33:45.204Z",
+  "id": "tokyo-kosha-7348a9c64f",
+  "slug": "tokyo-kosha-7348a9c64f",
+  "title": "第7回 中小企業特別高圧電力・工業用LPガス価格高騰緊急対策事業支援金",
+  "source": "tokyo"
+}

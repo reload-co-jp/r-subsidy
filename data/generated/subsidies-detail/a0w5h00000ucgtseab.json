@@ -6,12 +6,17 @@
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 10.5pt;\">安全性・経済性・機動性に優れた原子力技術の高度化に資する技術開発を支援することにより、社会的要請に応える原子力技術の開発を促進し、もって我が国の原子力の信頼回復、産業基盤の強化を図ることを目的とする。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>ujiie-akihiro@meti.go.jp</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.enecho.meti.go.jp/appli/public_offer/2023/0219_02.html\" target=\"_blank\">令和6年度「社会的要請に応える革新的な原子力技術開発支援事業」に係る補助事業者の公募について｜資源エネルギー庁 (meti.go.jp)</a></p>",
   "region": "national",
   "prefectures": [],
-  "industries": ["公務（他に分類されるものを除く）"],
+  "industries": [
+    "公務（他に分類されるものを除く）"
+  ],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["研究開発", "省エネ"],
+  "purposes": [
+    "研究開発",
+    "省エネ"
+  ],
   "usePurpose": "イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "社会的要請に応える革新的な原子力技術開発支援事業",

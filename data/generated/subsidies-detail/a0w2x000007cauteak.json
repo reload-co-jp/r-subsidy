@@ -6,12 +6,17 @@
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>インボイス制度の円滑な導入に向け、中小・小規模事業者からの経営相談や各種支援策の相談等への対応を実施するために、補助事業者が相談窓口を設置し、相談内容に応じた各種窓口への案内、専門家等を活用した相談体制の構築等を行うためのオンラインツール等の導入、専門家等の活用に係る費用等の必要な経費を補助することにより、中小・小規模事業者のインボイス制度への円滑な対応を図ることを目的とする。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>中小企業庁　小規模企業振興課　団体班</p><p>TEL：03ｰ3501ｰ2036</p><p>FAX：03-3501-6989</p><p>mail: bzl-invoice-team@meti.go.jp</p><p><br></p>",
   "region": "national",
   "prefectures": [],
-  "industries": ["情報通信業", "サービス業（他に分類されないもの）"],
+  "industries": [
+    "情報通信業",
+    "サービス業（他に分類されないもの）"
+  ],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資"],
+  "purposes": [
+    "設備投資"
+  ],
   "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "事業環境変化対応型支援事業費補助金（相談窓口設置運営事業）",

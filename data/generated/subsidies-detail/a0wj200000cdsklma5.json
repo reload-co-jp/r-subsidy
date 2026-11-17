@@ -5,7 +5,9 @@
   "overview": "介護従事者の負担軽減につながる次世代介護機器等の開発・改良・普及を支援（助成限度額2,000万円、助成率２／３以内）",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"color: rgb(2, 2, 2);\">都内の中小企業者等が介護現場のニーズに対応した次世代介護機器等の開発・改良及び普及を行うために要する経費の一部を助成します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請受付期間</strong></p><p>令和７年７月16日（水）～令和７年８月22日（金）17時00分</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"color: rgb(2, 2, 2);\">公益財団法人東京都中小企業振興公社</span></p><p><span style=\"color: rgb(2, 2, 2);\">企画管理部　助成課　介護現場のニーズに対応した製品開発支援事業事務局</span></p><p><span style=\"color: rgb(2, 2, 2);\">TEL:03-3251-7894（受付時間：平日9:00～17:00）</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><strong style=\"color: rgb(0, 111, 173);\">URL：</strong><a href=\"https://www.tokyo-kosha.or.jp/support/josei/jigyo/kaigoneeds/index.html\" target=\"_blank\" style=\"color: rgb(11, 92, 171);\">https://www.tokyo-kosha.or.jp/support/josei/jigyo/kaigoneeds/index.html</a></p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -44,7 +46,9 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["研究開発"],
+  "purposes": [
+    "研究開発"
+  ],
   "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "介護現場のニーズに対応した製品開発支援事業",

@@ -1,0 +1,31 @@
+{
+  "overview": "飯舘村で生業を始めよう、生業を広げようとしている方を対象とした飯舘村スタートアップ補助金が、リニューアルに伴い制度を拡充されました！",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>飯舘村で生業を始めよう、生業を広げようとしている方を対象とした飯舘村スタートアップ補助金が、リニューアルに伴い制度を拡充されました！</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：福島県</li><li>実施機関：飯舘村</li><li>J-Net21掲載日：2026-07-23</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188061\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福島県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "創業"
+  ],
+  "usePurpose": "起業・創業、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "飯舘村",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.vill.iitate.fukushima.jp/soshiki/4/14862.html",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "id": "jnet21-188061",
+  "slug": "jnet21-188061",
+  "title": "飯舘村がんばる商工業者支援補助金",
+  "source": "jnet21"
+}

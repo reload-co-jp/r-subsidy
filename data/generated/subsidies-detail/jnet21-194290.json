@@ -1,0 +1,33 @@
+{
+  "overview": "原油価格や食料品価格などの各種物価高騰の影響を受けている医療、社会福祉施設等の安定的な施設運営を維持することを目的に、支援金交付事業を実施します。申請期限：令和8年12月25日（金曜日）募集期間～2026年12月25日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>原油価格や食料品価格などの各種物価高騰の影響を受けている医療、社会福祉施設等の安定的な施設運営を維持することを目的に、支援金交付事業を実施します。申請期限：令和8年12月25日（金曜日）募集期間～2026年12月25日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：卸売業，小売業 医療，福祉 教育，学習支援業</li><li>地域：北海道</li><li>実施機関：伊達市</li><li>J-Net21掲載日：2026-10-19</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194290\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "北海道"
+  ],
+  "industries": [
+    "卸売業",
+    "小売業 医療",
+    "福祉 教育",
+    "学習支援業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "伊達市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-25",
+  "endDate": "2026-12-25",
+  "referenceUrl": "https://www.city.date.hokkaido.jp/hotnews/detail/00007430.html",
+  "updatedAt": "2026-10-19T00:00:00.000Z",
+  "id": "jnet21-194290",
+  "slug": "jnet21-194290",
+  "title": "令和8年度医療・社会福祉施設等物価高騰対策支援金交付事業（伊達市）",
+  "source": "jnet21"
+}

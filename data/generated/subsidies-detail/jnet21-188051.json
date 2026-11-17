@@ -1,0 +1,32 @@
+{
+  "overview": "浸水被害の防止、軽減を図るため止水板の購入、設置及び設置に伴う関連工事に対して、費用の一部を補助します。申請期限：申請日の属する年度の12月末日（閉庁日の場合は、直前の開庁日）",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>浸水被害の防止、軽減を図るため止水板の購入、設置及び設置に伴う関連工事に対して、費用の一部を補助します。申請期限：申請日の属する年度の12月末日（閉庁日の場合は、直前の開庁日）</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：業種指定なし</li><li>地域：神奈川県</li><li>実施機関：藤沢市</li><li>J-Net21掲載日：2026-07-23</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188051\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "藤沢市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.fujisawa.kanagawa.jp/gesui-ke/sisuiban.html",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "id": "jnet21-188051",
+  "slug": "jnet21-188051",
+  "title": "藤沢市止水板設置工事補助金",
+  "source": "jnet21"
+}

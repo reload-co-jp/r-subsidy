@@ -1,0 +1,34 @@
+{
+  "overview": "宿泊税の円滑な徴収を図ることを目的に、宿泊税徴収にあたり、事業者が必要な宿泊システム整備等を支援するための補助金を交付します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>宿泊税の円滑な徴収を図ることを目的に、宿泊税徴収にあたり、事業者が必要な宿泊システム整備等を支援するための補助金を交付します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化、設備投資</li><li>業種：宿泊業，飲食サービス業</li><li>地域：山梨県</li><li>実施機関：富士吉田市</li><li>J-Net21掲載日：2026-11-10</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195864\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "山梨県"
+  ],
+  "industries": [
+    "宿泊業",
+    "飲食サービス業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "富士吉田市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.fujiyoshida.yamanashi.jp/site/zeinavi/15742.html",
+  "updatedAt": "2026-11-10T00:00:00.000Z",
+  "id": "jnet21-195864",
+  "slug": "jnet21-195864",
+  "title": "【宿泊税】宿泊事業者を支援する補助金・交付金について（富士吉田市）",
+  "source": "jnet21"
+}

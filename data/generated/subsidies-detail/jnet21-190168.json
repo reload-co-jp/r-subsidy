@@ -1,0 +1,31 @@
+{
+  "overview": "県内の中小事業者等における地球温暖化対策・脱炭素化を推進するため、既存の設備を高効率な空調機器、照明機器、給湯機器及び換気設備へ更新する費用の一部を補助します。申請受付期間：2026年4月16日（木曜日）から2027年1月29日（金曜日）募集期間2026年4月16日～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県内の中小事業者等における地球温暖化対策・脱炭素化を推進するため、既存の設備を高効率な空調機器、照明機器、給湯機器及び換気設備へ更新する費用の一部を補助します。申請受付期間：2026年4月16日（木曜日）から2027年1月29日（金曜日）募集期間2026年4月16日～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：岩手県</li><li>実施機関：岩手県</li><li>J-Net21掲載日：2026-08-21</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/190168\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岩手県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "岩手県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-04-16",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.pref.iwate.jp/kurashikankyou/gx/ontai/1067114.html",
+  "updatedAt": "2026-08-21T00:00:00.000Z",
+  "id": "jnet21-190168",
+  "slug": "jnet21-190168",
+  "title": "事業者向け省エネルギー対策推進事業（岩手県）",
+  "source": "jnet21"
+}

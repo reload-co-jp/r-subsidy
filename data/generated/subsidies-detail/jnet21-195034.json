@@ -1,0 +1,32 @@
+{
+  "overview": "地域資源を活用した中小企業者等の皆様が行う新事業展開に必要な費用を助成いたします。申請期間：【エントリー期間】2026年12月1日（火）から2027年1月8日（金）まで【申請受付期間】2026年12月1日（火）から2027年1月15日（金）まで募集期間2026年12月1日～2027年1月15日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>地域資源を活用した中小企業者等の皆様が行う新事業展開に必要な費用を助成いたします。申請期間：【エントリー期間】2026年12月1日（火）から2027年1月8日（金）まで【申請受付期間】2026年12月1日（火）から2027年1月15日（金）まで募集期間2026年12月1日～2027年1月15日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、販路開拓、研究・商品開発、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：愛知県</li><li>実施機関：公益財団法人あいち産業振興機構</li><li>J-Net21掲載日：2026-10-29</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195034\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "愛知県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成",
+    "販路拡大",
+    "研究開発"
+  ],
+  "usePurpose": "人材育成・雇用、販路開拓、研究・商品開発、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "公益財団法人あいち産業振興機構",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-01",
+  "endDate": "2026-12-01",
+  "referenceUrl": "https://www.aibsc.jp/support/1182/",
+  "updatedAt": "2026-10-29T00:00:00.000Z",
+  "id": "jnet21-195034",
+  "slug": "jnet21-195034",
+  "title": "2027年度あいち中小企業応援ファンド新事業展開応援助成金（地場産業枠・農商工連携枠）（公益財団法人あいち産業振興機構）",
+  "source": "jnet21"
+}

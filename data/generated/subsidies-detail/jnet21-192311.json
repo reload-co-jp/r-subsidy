@@ -1,0 +1,31 @@
+{
+  "overview": "大東市では、保育士が働きやすい環境を整備することにより保育士の就業の継続及び離職の防止を図るため、大東市内の民間保育園・認可こども園・小規模保育施設に対し保育士の宿舎借り上げ費用を支援しています。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>大東市では、保育士が働きやすい環境を整備することにより保育士の就業の継続及び離職の防止を図るため、大東市内の民間保育園・認可こども園・小規模保育施設に対し保育士の宿舎借り上げ費用を支援しています。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：大阪府</li><li>実施機関：大東市</li><li>J-Net21掲載日：2026-09-18</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/192311\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "大阪府"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "大東市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.daito.lg.jp/site/kosodate/73180.html",
+  "updatedAt": "2026-09-18T00:00:00.000Z",
+  "id": "jnet21-192311",
+  "slug": "jnet21-192311",
+  "title": "大東市保育士宿舎借り上げ支援事業",
+  "source": "jnet21"
+}

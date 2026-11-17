@@ -44,7 +44,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "省エネ"],
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
   "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和4年度（第2次補正予算）二酸化炭素排出抑制対策事業費等補助金（民間企業等による再エネ主力化・レジリエンス強化促進事業（ストレージパリティの達成に向けた太陽光発電設備等の価格低減促進事業））",

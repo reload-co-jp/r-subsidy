@@ -1,0 +1,31 @@
+{
+  "overview": "京都府では、再生可能エネルギーの導入を促進することにより脱炭素社会の実現を目指すため、事業者による建築物や未利用地（駐車場や農地等）、共同住宅への太陽光発電設備等の導入費用を支援します。申請期限：令和9年1月29日（金曜日）まで（先着順）募集期間～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>京都府では、再生可能エネルギーの導入を促進することにより脱炭素社会の実現を目指すため、事業者による建築物や未利用地（駐車場や農地等）、共同住宅への太陽光発電設備等の導入費用を支援します。申請期限：令和9年1月29日（金曜日）まで（先着順）募集期間～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：京都府</li><li>実施機関：京都府</li><li>J-Net21掲載日：2026-09-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191047\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "京都府"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "京都府",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-29",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.pref.kyoto.jp/energy/juten_taiyoko.html",
+  "updatedAt": "2026-09-01T00:00:00.000Z",
+  "id": "jnet21-191047",
+  "slug": "jnet21-191047",
+  "title": "京都府太陽光発電設備等導入促進事業補助金",
+  "source": "jnet21"
+}

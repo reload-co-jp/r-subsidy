@@ -5,7 +5,9 @@
   "overview": "岡崎市での新たなチャレンジを応援！創業時の信用保証料負担を軽減します",
   "detail": "<p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 16px;\">市内で創業されるかた（または創業して間もないかた）で、創業に係る融資（愛知県経済環境適応資金創業等支援資金）を受けたかたに対して、支払った信用保証料の一部を補助する制度です。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 16px;\">愛知県経済環境適応資金（創業等支援資金）を利用して創業したかた（または創業して間もないかた）であり、かつ、岡崎市内に住所（本店）及び主たる事業所があるかたが対象です。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■地理条件</strong></p><p><span style=\"font-size: 16px;\">愛知県岡崎市</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■備考</strong></p><p><span style=\"font-size: 16px;\">・同一年度の申請は1回限りです。</span></p><p><span style=\"font-size: 16px;\">・借換を含む場合は、按分により借換額分に相当する金額が対象から控除されます。</span></p><p><span style=\"font-size: 16px;\">・申請期限は融資実行日から60日以内（補助金の対象となる自動車購入資金を含む場合は、車両登録から60日以内）です。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 16px;\">岡崎市 商工労政課労政金融係（金融担当）</span></p><p><span style=\"font-size: 16px;\">電話番号：0564-23-6214・6351</span></p><p><span style=\"font-size: 16px;\">ファクス番号：0564-23-6213</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.city.okazaki.lg.jp/business/sangyo/1005391/1005392.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.city.okazaki.lg.jp/business/sangyo/1005391/1005392.html</a></p>",
   "region": "prefecture",
-  "prefectures": ["愛知県"],
+  "prefectures": [
+    "愛知県"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -43,7 +45,10 @@
   "employeeMin": null,
   "employeeMax": 300,
   "isForSME": true,
-  "purposes": ["設備投資", "創業"],
+  "purposes": [
+    "設備投資",
+    "創業"
+  ],
   "usePurpose": "資金繰りを改善したい",
   "status": "open",
   "workflow": "岡崎市創業資金保証料補助金",

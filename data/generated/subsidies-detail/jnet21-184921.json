@@ -1,0 +1,31 @@
+{
+  "overview": "県では洋上風力発電関連産業へ県内中小企業者の参入を支援するため、洋上風力発電の建設工事、運転、保守管理、点検その他関連業務に必要な知識、技能及び資格の取得に要する経費に対して補助金を交付します。申請期間：令和8年6月4日（木）から令和9年3月1日（月）募集期間2025年6月4日～2027年3月1日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県では洋上風力発電関連産業へ県内中小企業者の参入を支援するため、洋上風力発電の建設工事、運転、保守管理、点検その他関連業務に必要な知識、技能及び資格の取得に要する経費に対して補助金を交付します。申請期間：令和8年6月4日（木）から令和9年3月1日（月）募集期間2025年6月4日～2027年3月1日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、環境・省エネ・SDGs、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：山形県</li><li>実施機関：山形県</li><li>J-Net21掲載日：2026-06-12</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184921\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "山形県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成",
+    "省エネ"
+  ],
+  "usePurpose": "人材育成・雇用、環境・省エネ・SDGs、経営改善・経営強化",
+  "status": "open",
+  "workflow": "山形県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-06-04",
+  "endDate": "2027-03-01",
+  "referenceUrl": "https://www.pref.yamagata.jp/110002/sangyo/shokogyo/kogyogijutsu/yojo/yojo-r8-hojokin.html",
+  "updatedAt": "2026-06-12T00:00:00.000Z",
+  "id": "jnet21-184921",
+  "slug": "jnet21-184921",
+  "title": "令和8年度山形県洋上風力発電関連産業参入支援等事業費補助金について",
+  "source": "jnet21"
+}

@@ -1,0 +1,30 @@
+{
+  "overview": "展示会出展等に利用できる助成金",
+  "detail": "<h2>事業の概要</h2><ul><li>募集要項：BtoBの展示会への出展費用等を助成します。 募集要項</li><li>助成限度額：150万円</li><li>助成率：助成対象と認められる経費の2/3以内</li><li>申請受付期間：詳細スケジュールは「募集要項」で確認してください。 受付期間中でも予算に達した時点で受付を締め切ります。</li><li>申請概要書：申請概要書フォーマット</li><li>申請方法：電子申請 国（デジタル庁）が提出する「Jグランツ」による申請 Jグランツログインページはこちら</li></ul>\n<p>対象：中小企業者、個人事業主</p>\n<p>募集要項・申請様式は東京都中小企業振興公社の事業ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": "中小企業者・個人事業主",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "販路拡大"
+  ],
+  "usePurpose": "販路拡大",
+  "status": "open",
+  "workflow": "公益財団法人東京都中小企業振興公社",
+  "subsidizedRate": "2/3以内",
+  "upperLimit": "1,500,000円",
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.tokyo-kosha.or.jp/support/josei/jigyo/tenjikai/r8/index.html",
+  "updatedAt": "2026-11-17T00:33:55.018Z",
+  "id": "tokyo-kosha-e55d30e57b",
+  "slug": "tokyo-kosha-e55d30e57b",
+  "title": "展示会出展助成事業",
+  "source": "tokyo"
+}

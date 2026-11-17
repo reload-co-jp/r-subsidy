@@ -1,0 +1,31 @@
+{
+  "overview": "物価高騰の影響を受けている市内の農業者のうち、年間農産物販売額が50万円以上の方を対象に、農業経営の継続を支援するため、販売額に応じて支援金を支給します。申請期間：2026年11月16日（月曜）から2026年12月15日（火曜）まで募集期間2026年11月16日～2026年12月15日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>物価高騰の影響を受けている市内の農業者のうち、年間農産物販売額が50万円以上の方を対象に、農業経営の継続を支援するため、販売額に応じて支援金を支給します。申請期間：2026年11月16日（月曜）から2026年12月15日（火曜）まで募集期間2026年11月16日～2026年12月15日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：千葉県</li><li>実施機関：四街道市</li><li>J-Net21掲載日：2026-10-30</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195127\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "千葉県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "closed",
+  "workflow": "四街道市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-11-16",
+  "endDate": "2026-11-16",
+  "referenceUrl": "https://www.city.yotsukaido.chiba.jp/shisei/torikumi/bukkashien/bukkakoutou/r8_nogyo_shien.html",
+  "updatedAt": "2026-10-30T00:00:00.000Z",
+  "id": "jnet21-195127",
+  "slug": "jnet21-195127",
+  "title": "物価高騰対策農業者経営継続支援事業（四街道市）",
+  "source": "jnet21"
+}

@@ -44,7 +44,9 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["人材育成"],
+  "purposes": [
+    "人材育成"
+  ],
   "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "令和７年度「中小企業支援事業補助金（地域の人事部支援事業）」補助事業事務局公募",

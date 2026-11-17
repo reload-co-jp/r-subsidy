@@ -5,7 +5,9 @@
   "overview": "石川県及びISICOでは、本県経済活性化のために、全国最大規模となる400億円基金の「いしかわ中小企業チャレンジ支援ファンド」及び「中小企業地域資源活用等促進事業助成金」を活用し、本県経済の成長を促す新ビジネス・新事業創出を支援します。",
   "detail": "<p><b style=\"color: rgb(0, 111, 173);\">■目的・概要</b></p><p><span style=\"font-size: 11pt;\">産業化資源を効果的に活用して、新たな商品・サービスの開発・販路開拓に要する事業に助成する制度です</span></p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■応募資格</b></p><p>各メニューの公募要領に記載</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■問合せ先</b></p><p>（公財）石川県産業創出支援機構 プロジェクト推進部 地域産業支援課</p><p>〒920-8203　石川県金沢市鞍月2丁目20番地　石川県地場産業振興センター新館2Ｆ</p><p>TEL：076-267-5551 E-mail：shigen@isico.or.jp</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■参照URL</b></p><p>https://www.isico.or.jp/site/shinseihin/challengefund.html</p>",
   "region": "prefecture",
-  "prefectures": ["石川県"],
+  "prefectures": [
+    "石川県"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -44,7 +46,11 @@
   "employeeMin": null,
   "employeeMax": 900,
   "isForSME": true,
-  "purposes": ["販路拡大", "研究開発", "海外展開"],
+  "purposes": [
+    "販路拡大",
+    "研究開発",
+    "海外展開"
+  ],
   "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "いしかわ中小企業チャレンジ支援ファンド",

@@ -5,7 +5,9 @@
   "overview": "ゼロエミッションに資する製品開発、改良、規格等適合化に取り組む都内中小企業・中小企業グループに対して要する経費の一部を助成します。",
   "detail": "<p>本事業の共同申請については、以下にて申請を受け付けています。</p><p>https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDPkFMAX</p><p><br></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>公社は、都内中小企業のゼロエミッション関連産業への参入やゼロエミッションに係る技術・製品開発、販路開拓等を促進することを目的として、ゼロエミッション推進に向けた事業転換支援事業を令和4年度より実施しています。</p><p>本事業では、ゼロエミッションに資する製品の開発、改良、規格等適合化に取り組む都内中小企業等を対象に、その開発・改良等に要する経費の一部を助成します。</p><p>本助成事業では、ゼロエミッションに資する製品のパーツやゼロエミッションに資する製品の製造工程で投入される部材等、間接的な製品・技術の開発も対象となります。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>募集要項参照</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>ＴＥＬ：０４２－５００－３９０１</p><p>e-mail： zeroemi_kaihatsu@tokyo-kosha.or.jp</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>https://www.tokyo-kosha.or.jp/support/josei/jigyo/zeroemi_kaihatsu.html</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■その他</strong></p><p>詳細は、募集要項をご精読ください。</p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -43,7 +45,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["販路拡大", "研究開発"],
+  "purposes": [
+    "販路拡大",
+    "研究開発"
+  ],
   "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "ゼロエミッション推進に向けた事業転換支援事業（製品開発助成）",

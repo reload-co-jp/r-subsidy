@@ -1,0 +1,31 @@
+{
+  "id": "a0WfQ000003kpc5UAA",
+  "slug": "a0wfq000003kpc5uaa",
+  "title": "令和７年度 救命救急センター運営費補助金（消費税報告）",
+  "overview": "",
+  "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>都内の医療機関が、東京都救命救急センター設置運営要綱の規定に基づいて行う救命救急センターの整備及び運営事業に対して補助金を交付することにより、重篤・重症救急患者の医療を確保するとともに救急医療の体系的整備を図ることを目的とする。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■根拠法令</strong></p><p>医療提供体制推進事業費補助金交付要綱（厚生労働省）</p><p>東京都救命救急センター施設整備等補助金交付要綱</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>保健医療局医療政策部救急災害医療課（救急医療担当）</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [],
+  "usePurpose": "イベント・事業運営支援がほしい",
+  "status": "open",
+  "workflow": "東京都救命救急センター施設整備等補助事業（運営費）",
+  "subsidizedRate": "交付要綱等を参照とする。",
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-10-01",
+  "endDate": null,
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003kpc5UAA",
+  "updatedAt": "2026-11-17T00:19:06.523Z"
+}

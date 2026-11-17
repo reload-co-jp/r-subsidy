@@ -1,0 +1,31 @@
+{
+  "overview": "原油価格の急騰の影響を受ける徳島県内の「公衆浴場」及び「クリーニング所」の皆様に対し、燃料（A重油・灯油・軽油）の使用量に応じた補助金を支給いたします。申請期間：【第1期（令和8年4月～8月分）】令和8年9月1日（火）～令和8年10月12日（月）【第2期（令和8年9月～12月分）】令和9年1月1日（金）～令和9年1月31日（日）",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>原油価格の急騰の影響を受ける徳島県内の「公衆浴場」及び「クリーニング所」の皆様に対し、燃料（A重油・灯油・軽油）の使用量に応じた補助金を支給いたします。申請期間：【第1期（令和8年4月～8月分）】令和8年9月1日（火）～令和8年10月12日（月）【第2期（令和8年9月～12月分）】令和9年1月1日（金）～令和9年1月31日（日）</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：生活関連サービス業，娯楽業</li><li>地域：徳島県</li><li>実施機関：徳島県</li><li>J-Net21掲載日：2026-09-17</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/192313\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "徳島県"
+  ],
+  "industries": [
+    "生活関連サービス業",
+    "娯楽業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "closed",
+  "workflow": "徳島県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-09-01",
+  "endDate": "2026-10-12",
+  "referenceUrl": "https://www.pref.tokushima.lg.jp/jigyoshanokata/kurashi/seikatsueisei/7316147",
+  "updatedAt": "2026-09-17T00:00:00.000Z",
+  "id": "jnet21-192313",
+  "slug": "jnet21-192313",
+  "title": "徳島県 公衆浴場・クリーニング業燃料高騰対策支援事業 補助金のご案内",
+  "source": "jnet21"
+}

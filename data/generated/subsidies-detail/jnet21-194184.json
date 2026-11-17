@@ -1,0 +1,31 @@
+{
+  "overview": "農業生産資材等の価格高騰により経営が圧迫されている農業者に対して、営農を継続する緊急支援として補助金を交付します。申請期限：令和9年1月29日（金曜日）午後4時30分まで募集期間～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>農業生産資材等の価格高騰により経営が圧迫されている農業者に対して、営農を継続する緊急支援として補助金を交付します。申請期限：令和9年1月29日（金曜日）午後4時30分まで募集期間～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：宮崎県</li><li>実施機関：都城市</li><li>J-Net21掲載日：2026-10-16</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194184\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "宮崎県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "都城市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-29",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.miyakonojo.miyazaki.jp/soshiki/2/79728.html",
+  "updatedAt": "2026-10-16T00:00:00.000Z",
+  "id": "jnet21-194184",
+  "slug": "jnet21-194184",
+  "title": "令和8年度農業資材等価格高騰緊急支援事業についてお知らせします（都城市）",
+  "source": "jnet21"
+}

@@ -18,7 +18,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["販路拡大", "研究開発", "海外展開"],
+  "purposes": [
+    "販路拡大",
+    "研究開発",
+    "海外展開"
+  ],
   "usePurpose": "販路拡大・海外展開をしたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "次世代革新炉の開発・建設に向けた技術開発・サプライチェーン構築支援事業",

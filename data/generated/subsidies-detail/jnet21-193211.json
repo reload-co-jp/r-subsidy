@@ -1,0 +1,30 @@
+{
+  "overview": "令和8年熊本地震により被災した中小企業者等の事業用施設・設備等の復旧を支援するため、熊本県が「くまもと事業者再出発支援補助金」を実施します。申請受付：令和8年10月1日（木曜日）から受付開始募集期間2026年10月1日～",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>令和8年熊本地震により被災した中小企業者等の事業用施設・設備等の復旧を支援するため、熊本県が「くまもと事業者再出発支援補助金」を実施します。申請受付：令和8年10月1日（木曜日）から受付開始募集期間2026年10月1日～</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：被災事業者支援</li><li>業種：指定無し</li><li>地域：熊本県</li><li>実施機関：八代市、熊本県</li><li>J-Net21掲載日：2026-10-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193211\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "熊本県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "被災事業者支援",
+  "status": "open",
+  "workflow": "八代市、熊本県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-10-01",
+  "endDate": null,
+  "referenceUrl": "https://www.city.yatsushiro.lg.jp/kiji00327174/index.html",
+  "updatedAt": "2026-10-02T00:00:00.000Z",
+  "id": "jnet21-193211",
+  "slug": "jnet21-193211",
+  "title": "令和8年熊本地震に係る「くまもと事業者再出発支援補助金」（八代市、熊本県）",
+  "source": "jnet21"
+}

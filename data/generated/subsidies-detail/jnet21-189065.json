@@ -1,0 +1,30 @@
+{
+  "overview": "焼津市では、自然災害など発生時の企業の事業継続力を強化する事業を行う中小企業の事業に対して、補助金を交付します。申請期間：2027年3月5日（金曜日）必着募集期間～2027年3月5日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>焼津市では、自然災害など発生時の企業の事業継続力を強化する事業を行う中小企業の事業に対して、補助金を交付します。申請期間：2027年3月5日（金曜日）必着募集期間～2027年3月5日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：静岡県</li><li>実施機関：焼津市</li><li>J-Net21掲載日：2026-08-06</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/189065\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "静岡県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "焼津市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-03-05",
+  "endDate": "2027-03-05",
+  "referenceUrl": "https://www.city.yaizu.lg.jp/business/kigyo-shien/shien-hojo/chusho-kyojinka.html",
+  "updatedAt": "2026-08-06T00:00:00.000Z",
+  "id": "jnet21-189065",
+  "slug": "jnet21-189065",
+  "title": "焼津市中小企業強靭化支援事業補助金",
+  "source": "jnet21"
+}

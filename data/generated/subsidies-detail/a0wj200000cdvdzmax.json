@@ -5,7 +5,9 @@
   "overview": "CO2排出量の可視化や削減等にグループで一体的に取り組む事業者を支援します。",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 12.8px;\">昨今、環境意識の高い企業を中心に、サプライヤーに対して排出量の削減を求める傾向が強まる中、今後、中小企業が大企業等との取引を継続又は新たに開始するには、自社及び自社のサプライチェーンを含めたCO2排出量の把握と削減が求められてきています。</span></p><p><span style=\"font-size: 12.8px;\">そこで、本事業ではサプライチェーンでCO2排出量の見える化やCO2排出削減等に向けた一体的な取組などを支援することで、中小企業の成長を図ることを目的として、CO2排出量削減のための取り組みにかかる経費の一部を助成します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 12.8px;\">「中小企業のサプライチェーンにおける脱炭素化促進支援事業」でハンズオン支援を受け、CO2排出量削減計画策定支援終了証の発行を受けた都内中小企業者</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 12.8px;\">公益財団法人東京都中小企業振興公社　総合支援部　多摩支社</span></p><p><span style=\"font-size: 12.8px;\">中小企業のサプライチェーンにおける脱炭素化促進支援事業　事務局</span></p><p><span style=\"font-size: 12.8px;\">TEL：042-500-3901</span></p><p><span style=\"font-size: 12.8px;\">Mail： supply_chain@tokyo-kosha.or.jp</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 12.8px;\">https://www.tokyo-kosha.or.jp/support/josei/jigyo/supply_chain/index.html</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■その他</strong></p><p>詳細は、募集要項をご精読ください。</p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -43,7 +45,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["研究開発", "省エネ"],
+  "purposes": [
+    "研究開発",
+    "省エネ"
+  ],
   "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "中小企業のサプライチェーンにおける脱炭素化促進支援事業",

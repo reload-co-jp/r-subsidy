@@ -1,0 +1,28 @@
+{
+  "overview": "電気料金が高騰する中、国の電気料金支援の対象外となっている特別高圧契約で受電する中小企業等に対し、電気料金の一部を支援します。申請期限：2026年10月26日（月曜日）から2026年11月30日（月曜日）募集期間2026年10月26日～2026年11月30日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>電気料金が高騰する中、国の電気料金支援の対象外となっている特別高圧契約で受電する中小企業等に対し、電気料金の一部を支援します。申請期限：2026年10月26日（月曜日）から2026年11月30日（月曜日）募集期間2026年10月26日～2026年11月30日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：茨城県</li><li>実施機関：茨城県</li><li>J-Net21掲載日：2026-10-27</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194799\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "茨城県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "closed",
+  "workflow": "茨城県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-10-26",
+  "endDate": "2026-10-26",
+  "referenceUrl": "https://www.pref.ibaraki.jp/shokorodo/chusho/keiei/tokubetukouatushien.html",
+  "updatedAt": "2026-10-27T00:00:00.000Z",
+  "id": "jnet21-194799",
+  "slug": "jnet21-194799",
+  "title": "茨城県特別高圧受電施設等電気料金支援事業",
+  "source": "jnet21"
+}

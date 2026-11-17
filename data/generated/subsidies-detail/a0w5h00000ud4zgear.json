@@ -17,7 +17,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "研究開発", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "研究開発",
+    "デジタル化"
+  ],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "モビリティＤＸ促進のための無人自動運転開発・実証支援補助金",

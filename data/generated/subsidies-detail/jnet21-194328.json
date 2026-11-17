@@ -1,0 +1,33 @@
+{
+  "overview": "県内中小企業者等が行う販路開拓の取組に対し、要する経費の一部を補助するものです。募集期間：令和8年11月2日（月）～令和8年12月25日（金）17：00募集期間2026年11月2日～2026年12月25日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県内中小企業者等が行う販路開拓の取組に対し、要する経費の一部を補助するものです。募集期間：令和8年11月2日（月）～令和8年12月25日（金）17：00募集期間2026年11月2日～2026年12月25日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、生産性向上・IT化、販路開拓、特許・知的財産、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：青森県</li><li>実施機関：公益財団法人21あおもり産業総合支援センター</li><li>J-Net21掲載日：2026-10-20</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194328\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "青森県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "販路拡大",
+    "デジタル化"
+  ],
+  "usePurpose": "人材育成・雇用、生産性向上・IT化、販路開拓、特許・知的財産、経営改善・経営強化",
+  "status": "open",
+  "workflow": "公益財団法人21あおもり産業総合支援センター",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-11-02",
+  "endDate": "2026-12-25",
+  "referenceUrl": "https://www.21aomori.or.jp/topics/36892",
+  "updatedAt": "2026-10-20T00:00:00.000Z",
+  "id": "jnet21-194328",
+  "slug": "jnet21-194328",
+  "title": "令和9年度 新事業展開等促進補助事業（販路開拓コース）公募のお知らせ（公益財団法人21あおもり産業総合支援センター）",
+  "source": "jnet21"
+}

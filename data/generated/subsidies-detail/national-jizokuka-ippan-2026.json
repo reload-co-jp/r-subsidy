@@ -11,9 +11,12 @@
   "employeeMin": null,
   "employeeMax": 20,
   "isForSME": true,
-  "purposes": ["販路開拓", "設備投資"],
+  "purposes": [
+    "販路開拓",
+    "設備投資"
+  ],
   "usePurpose": null,
-  "status": "upcoming",
+  "status": "open",
   "workflow": "商工会・商工会議所（事業支援計画書発行）→ Jグランツで電子申請",
   "subsidizedRate": "2/3（赤字事業者かつ賃金引上げ特例で3/4）",
   "upperLimit": "250万円（各特例適用時）",

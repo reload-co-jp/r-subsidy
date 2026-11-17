@@ -5,7 +5,9 @@
   "overview": "若者世代の早期職場定着化支援",
   "detail": "<p style=\"text-align: center;\"><strong style=\"color: rgb(255, 0, 0); font-size: 16px;\">≪ 交付申請受付期間は 令和８年７月１日 8時30分～７月31日 17時15分 です ≫</strong></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p class=\"ql-indent-1\">若者世代の就職者に対して計画的な育成計画の策定や退職金制度、結婚・育児支援制度、介護支援制度など、安心して働き続けられる労働環境整備や賃上げを行った事業主に対して助成金を交付することにより、若者の早期の職場定着を促進することを目的とする。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■根拠規程</strong></p><p class=\"ql-indent-1\">東京都若者世代職場定着促進助成金交付要綱</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■おもな要件</strong></p><p><span style=\"font-size: 14px;\"> 〇中小企業事業主であること</span></p><p><span style=\"font-size: 14px;\"> 〇東京労働局管内に雇用保険適用事業所があること</span></p><p><span style=\"font-size: 14px;\"> 〇</span>都が実施する就職支援事業（若者世代向け）の利用者を正規雇用（６か月未満の非正規雇用を経て正規雇用に転換した者を含む）していること</p><p class=\"ql-indent-1\">※その他の要件は、申請の手引きをご参照ください。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■申請期間（令和８年度 第３回 交付申請）</strong></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">〇交付申請受付期間：令和８年７月１日(水)８時３０分　～　７月３１日(金)１７時１５分</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">〇支 援 期 間 ：令和８年９月１日(火)　～　令和８年１１月３０日(月)</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 14px;\">〇実績報告受付期間：令和８年１２月１日(火)８時３０分　～　１２月２５日(金)１７時１５分</span></p><p class=\"ql-indent-1\"><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■交付申請・実績報告様式</strong></p><p class=\"ql-indent-1\"><strong style=\"color: rgb(255, 0, 0);\">交付申請や実績報告に関する様式は、「TOKYOはたらくネット」からダウンロードしてください。</strong></p><p class=\"ql-indent-1\"><strong style=\"color: rgb(255, 0, 0);\">TOKYOはたらくネット：</strong><a href=\"https://www.hataraku.metro.tokyo.lg.jp/seiki-koyo/kigyou/wakamonosedai/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(4, 105, 193);\">https://www.hataraku.metro.tokyo.lg.jp/seiki-koyo/kigyou/wakamonosedai/</a></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p class=\"ql-indent-1\">東京都正規雇用化推進窓口</p><p class=\"ql-indent-1\">若者世代職場定着促進助成金担当</p><p class=\"ql-indent-1\">電話　０３－６２０５－６７３０</p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -42,7 +44,9 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["人材育成"],
+  "purposes": [
+    "人材育成"
+  ],
   "usePurpose": "人材育成を行いたい / 雇用・職場環境を改善したい",
   "status": "closed",
   "workflow": "東京都若者世代職場定着促進助成金",

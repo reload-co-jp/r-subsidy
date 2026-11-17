@@ -1,0 +1,32 @@
+{
+  "overview": "市では、漁業への就業を促進するため、漁業に従事するために必要な小型船舶操縦士免許（1級または2級）の取得費用を補助します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市では、漁業への就業を促進するため、漁業に従事するために必要な小型船舶操縦士免許（1級または2級）の取得費用を補助します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：漁業</li><li>地域：鹿児島県</li><li>実施機関：阿久根市</li><li>J-Net21掲載日：2026-08-17</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/189681\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "鹿児島県"
+  ],
+  "industries": [
+    "漁業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "阿久根市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.akune.lg.jp/soshikikarasagasu/kankyosuisanka/suisangakari/1/1/7159.html",
+  "updatedAt": "2026-08-17T00:00:00.000Z",
+  "id": "jnet21-189681",
+  "slug": "jnet21-189681",
+  "title": "漁業就業者資格取得費補助金交付事業（阿久根市）",
+  "source": "jnet21"
+}

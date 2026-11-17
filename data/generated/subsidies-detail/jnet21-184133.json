@@ -1,0 +1,30 @@
+{
+  "overview": "国の「物価高騰対応重点支援地方創生臨時交付金」を活用し、燃油価格高騰等の影響を受けている漁業者に支援金を交付します。申請受付期間：令和8年12月25日（金曜日）まで募集期間～2026年12月25日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>国の「物価高騰対応重点支援地方創生臨時交付金」を活用し、燃油価格高騰等の影響を受けている漁業者に支援金を交付します。申請受付期間：令和8年12月25日（金曜日）まで募集期間～2026年12月25日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：漁業</li><li>地域：千葉県</li><li>実施機関：鴨川市</li><li>J-Net21掲載日：2026-06-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184133\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "千葉県"
+  ],
+  "industries": [
+    "漁業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "鴨川市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-25",
+  "endDate": "2026-12-25",
+  "referenceUrl": "https://www.city.kamogawa.lg.jp/soshiki/24/23427.html",
+  "updatedAt": "2026-06-02T00:00:00.000Z",
+  "id": "jnet21-184133",
+  "slug": "jnet21-184133",
+  "title": "鴨川市漁業用燃油価格高騰重点支援金",
+  "source": "jnet21"
+}

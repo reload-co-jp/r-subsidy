@@ -1,0 +1,30 @@
+{
+  "overview": "令和8年熊本地震により漁業収入の減少等の被害を受けた漁業者に対し、経営継続や生産施設復旧のために資金を借り入れる場合に、借入資金の利子補給等を行います。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>令和8年熊本地震により漁業収入の減少等の被害を受けた漁業者に対し、経営継続や生産施設復旧のために資金を借り入れる場合に、借入資金の利子補給等を行います。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：被災事業者支援</li><li>業種：漁業</li><li>地域：熊本県</li><li>実施機関：宇城市</li><li>J-Net21掲載日：2026-11-05</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195457\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "熊本県"
+  ],
+  "industries": [
+    "漁業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "被災事業者支援",
+  "status": "unknown",
+  "workflow": "宇城市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.uki.kumamoto.jp/jigyosha/sangyo/2653495",
+  "updatedAt": "2026-11-05T00:00:00.000Z",
+  "id": "jnet21-195457",
+  "slug": "jnet21-195457",
+  "title": "令和8年熊本地震により被害を受けた漁業者が借り入れる資金の利子を補給します（宇城市）",
+  "source": "jnet21"
+}

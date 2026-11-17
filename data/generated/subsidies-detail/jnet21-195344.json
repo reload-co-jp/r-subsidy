@@ -1,0 +1,32 @@
+{
+  "overview": "市内建設業界の労働環境整備向上を図るため、夏季の熱中症対策器具等の導入に要する費用を一部補助いたします。申請期限：令和9年1月31日募集期間～2027年1月31日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内建設業界の労働環境整備向上を図るため、夏季の熱中症対策器具等の導入に要する費用を一部補助いたします。申請期限：令和9年1月31日募集期間～2027年1月31日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：建設業</li><li>地域：神奈川県</li><li>実施機関：横須賀市</li><li>J-Net21掲載日：2026-11-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195344\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [
+    "建設業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "upcoming",
+  "workflow": "横須賀市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-31",
+  "endDate": "2027-01-31",
+  "referenceUrl": "https://www.city.yokosuka.kanagawa.jp/4402/sangyoshinko/nettyuusyou.html",
+  "updatedAt": "2026-11-02T00:00:00.000Z",
+  "id": "jnet21-195344",
+  "slug": "jnet21-195344",
+  "title": "建設業熱中症対策補助金（横須賀市）",
+  "source": "jnet21"
+}

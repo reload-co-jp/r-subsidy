@@ -11,7 +11,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "省エネ"],
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
   "usePurpose": null,
   "status": "closed",
   "workflow": "災害時の強靱性向上に資する天然ガス利用設備導入支援事業費補助金（執行団体）",

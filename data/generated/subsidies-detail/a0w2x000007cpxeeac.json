@@ -44,7 +44,12 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "人材育成", "研究開発", "創業"],
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "研究開発",
+    "創業"
+  ],
   "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "地域戦略人材確保等実証事業（補助事業者）",

@@ -11,7 +11,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "人材育成", "省エネ"],
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "省エネ"
+  ],
   "usePurpose": null,
   "status": "closed",
   "workflow": "石油ガス流通合理化対策事業費補助金（石油ガスの流通合理化及び取引の適正化等に関する支援事業費のうち石油ガス地域防災対応体制整備事業に係るもの）",

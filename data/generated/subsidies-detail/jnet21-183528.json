@@ -1,0 +1,31 @@
+{
+  "overview": "区内中小企業が、社員の「働きやすさ」や「働きがい」を経営課題として積極的にとらえ、就業規則を整備等した上で、職場の環境整備を行う場合、経費の一部を補助します。申請受付期間：令和8年6月1日から令和8年12月21日（月曜日）まで（必着）募集期間2026年6月1日～2026年12月21日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>区内中小企業が、社員の「働きやすさ」や「働きがい」を経営課題として積極的にとらえ、就業規則を整備等した上で、職場の環境整備を行う場合、経費の一部を補助します。申請受付期間：令和8年6月1日から令和8年12月21日（月曜日）まで（必着）募集期間2026年6月1日～2026年12月21日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：東京都</li><li>実施機関：墨田区</li><li>J-Net21掲載日：2026-05-26</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183528\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "墨田区",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-06-01",
+  "endDate": "2026-12-21",
+  "referenceUrl": "https://www.city.sumida.lg.jp/sangyo_jigyosya/sangyo/koyou_syuurou/hojokin_jinzai.html",
+  "updatedAt": "2026-05-26T00:00:00.000Z",
+  "id": "jnet21-183528",
+  "slug": "jnet21-183528",
+  "title": "働きやすい職場の環境づくりを応援します！（墨田区人材確保・定着支援補助金）",
+  "source": "jnet21"
+}

@@ -1,0 +1,30 @@
+{
+  "overview": "原油価格や電気・ガス料金などの物価高騰の影響を受けた市内ものづくり企業等に対し、事業継続に必要なエネルギー関連経費の一部を緊急支援します。受付期間：令和8年10月6日（火曜日）〜令和8年12月28日（月曜日）17時（郵送の場合は当日消印有効）募集期間2026年10月6日～2026年12月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>原油価格や電気・ガス料金などの物価高騰の影響を受けた市内ものづくり企業等に対し、事業継続に必要なエネルギー関連経費の一部を緊急支援します。受付期間：令和8年10月6日（火曜日）〜令和8年12月28日（月曜日）17時（郵送の場合は当日消印有効）募集期間2026年10月6日～2026年12月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：三重県</li><li>実施機関：鈴鹿市</li><li>J-Net21掲載日：2026-10-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193109\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "三重県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "省エネ"
+  ],
+  "usePurpose": "経営改善・経営強化",
+  "status": "open",
+  "workflow": "鈴鹿市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-10-06",
+  "endDate": "2026-12-28",
+  "referenceUrl": "https://www.city.suzuka.lg.jp/sangyo/shien/1014883/1010792.html",
+  "updatedAt": "2026-10-01T00:00:00.000Z",
+  "id": "jnet21-193109",
+  "slug": "jnet21-193109",
+  "title": "第4弾 鈴鹿市物価高騰対策ものづくり企業等支援事業",
+  "source": "jnet21"
+}

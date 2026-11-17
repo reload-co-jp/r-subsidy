@@ -1,0 +1,31 @@
+{
+  "overview": "区内中小企業の販路拡大を後押しするため、国内外の展示会に出展する際の必要な費用の一部を補助します。申請受付期間：令和8年4月1日（水）受付開始～予算額に達し次第、終了申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年4月1日～",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>区内中小企業の販路拡大を後押しするため、国内外の展示会に出展する際の必要な費用の一部を補助します。申請受付期間：令和8年4月1日（水）受付開始～予算額に達し次第、終了申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年4月1日～</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：販路開拓、海外展開、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：東京都</li><li>実施機関：港区</li><li>J-Net21掲載日：2026-10-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193213\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "販路拡大",
+    "海外展開"
+  ],
+  "usePurpose": "販路開拓、海外展開、経営改善・経営強化",
+  "status": "open",
+  "workflow": "港区",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-04-01",
+  "endDate": null,
+  "referenceUrl": "https://minato-sansin.com/hanrokakudaisien/",
+  "updatedAt": "2026-10-02T00:00:00.000Z",
+  "id": "jnet21-193213",
+  "slug": "jnet21-193213",
+  "title": "産業見本市等出展支援事業補助金（港区）",
+  "source": "jnet21"
+}

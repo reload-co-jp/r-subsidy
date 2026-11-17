@@ -1,0 +1,33 @@
+{
+  "overview": "宿泊事業者の事務負担の軽減及び宿泊税の円滑な徴収環境の整備を図るため、宿泊事業者の既存のシステムの改修等に係る費用を支援します。申請期間：令和8年12月28日（月曜日）まで募集期間～2026年12月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>宿泊事業者の事務負担の軽減及び宿泊税の円滑な徴収環境の整備を図るため、宿泊事業者の既存のシステムの改修等に係る費用を支援します。申請期間：令和8年12月28日（月曜日）まで募集期間～2026年12月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：宿泊業，飲食サービス業</li><li>地域：大分県</li><li>実施機関：大分県</li><li>J-Net21掲載日：2026-07-06</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186749\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "大分県"
+  ],
+  "industries": [
+    "宿泊業",
+    "飲食サービス業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "デジタル化"
+  ],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "大分県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-28",
+  "endDate": "2026-12-28",
+  "referenceUrl": "https://www.pref.oita.jp/site/shukuhakuzei/syukuhakutaxhojo2026.html",
+  "updatedAt": "2026-07-06T00:00:00.000Z",
+  "id": "jnet21-186749",
+  "slug": "jnet21-186749",
+  "title": "【宿泊事業者向けの補助】宿泊税対応システム改修事業費補助金の募集について（大分県）",
+  "source": "jnet21"
+}

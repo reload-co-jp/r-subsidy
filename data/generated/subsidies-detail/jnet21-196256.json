@@ -1,0 +1,33 @@
+{
+  "overview": "横須賀市内の障害福祉サービス事業のうち、対象事業を運営している事業所に対して、従事する職員の賞与に要する経費を補助します。申請期間（後期）：令和8年11月13日（金曜日）から12月4日（金曜日）まで募集期間2026年11月13日～2026年12月4日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>横須賀市内の障害福祉サービス事業のうち、対象事業を運営している事業所に対して、従事する職員の賞与に要する経費を補助します。申請期間（後期）：令和8年11月13日（金曜日）から12月4日（金曜日）まで募集期間2026年11月13日～2026年12月4日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：神奈川県</li><li>実施機関：横須賀市</li><li>J-Net21掲載日：2026-11-16</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/196256\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "open",
+  "workflow": "横須賀市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-11-13",
+  "endDate": "2026-12-04",
+  "referenceUrl": "https://www.city.yokosuka.kanagawa.jp/2625/ikuseihi_shogai.html",
+  "updatedAt": "2026-11-16T00:00:00.000Z",
+  "id": "jnet21-196256",
+  "slug": "jnet21-196256",
+  "title": "社会福祉事業運営費補助金「施設従事職員育成費」（横須賀市）",
+  "source": "jnet21"
+}

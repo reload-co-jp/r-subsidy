@@ -1,0 +1,31 @@
+{
+  "overview": "中央会では、小規模事業者を主体とした組合等が、共同事業の活性化や受注拡大など取引力の強化に取り組む特徴的・先進的な事業を実施する組合を募集します。受付期間：令和8年6月1日（月）から令和8年11月30日（月）申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年6月1日～2026年11月30日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>中央会では、小規模事業者を主体とした組合等が、共同事業の活性化や受注拡大など取引力の強化に取り組む特徴的・先進的な事業を実施する組合を募集します。受付期間：令和8年6月1日（月）から令和8年11月30日（月）申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年6月1日～2026年11月30日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：青森県</li><li>実施機関：青森県中小企業団体中央会</li><li>J-Net21掲載日：2026-06-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184218\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "青森県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化",
+  "status": "open",
+  "workflow": "青森県中小企業団体中央会",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-06-01",
+  "endDate": "2026-11-30",
+  "referenceUrl": "https://jongara.net/blog/r8torihikiryoku_koubo/",
+  "updatedAt": "2026-06-03T00:00:00.000Z",
+  "id": "jnet21-184218",
+  "slug": "jnet21-184218",
+  "title": "令和8年度「取引力強化推進事業（補助金）」公募のご案内（青森県中小企業団体中央会）",
+  "source": "jnet21"
+}

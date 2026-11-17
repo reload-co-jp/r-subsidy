@@ -1,0 +1,31 @@
+{
+  "overview": "集合住宅および商業施設等に付属する駐車場に、電気自動車等（電気自動車およびプラグインハイブリッド車）の充電設備を設置する場合に、その設備の購入費の一部を助成します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>集合住宅および商業施設等に付属する駐車場に、電気自動車等（電気自動車およびプラグインハイブリッド車）の充電設備を設置する場合に、その設備の購入費の一部を助成します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：千葉県</li><li>実施機関：流山市</li><li>J-Net21掲載日：2026-09-14</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191945\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "千葉県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "流山市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.nagareyama.chiba.jp/life/1002584/1002591/1033223/index.html",
+  "updatedAt": "2026-09-14T00:00:00.000Z",
+  "id": "jnet21-191945",
+  "slug": "jnet21-191945",
+  "title": "流山市集合住宅・商業施設等用電気自動車等充電設備設置補助金",
+  "source": "jnet21"
+}

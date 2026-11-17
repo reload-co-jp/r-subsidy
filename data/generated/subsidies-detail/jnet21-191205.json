@@ -1,0 +1,31 @@
+{
+  "overview": "肥料農薬価格の高騰による影響を受けた農業者を支援するため、肥料農薬価格高騰対策緊急支援事業を実施します。申請期限：令和9年1月29日まで申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年4月1日～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>肥料農薬価格の高騰による影響を受けた農業者を支援するため、肥料農薬価格高騰対策緊急支援事業を実施します。申請期限：令和9年1月29日まで申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年4月1日～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：長野県</li><li>実施機関：阿智村</li><li>J-Net21掲載日：2026-09-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191205\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長野県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "open",
+  "workflow": "阿智村",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.vill.achi.lg.jp/soshiki/33/hiryounouyakuhozyo08.html",
+  "updatedAt": "2026-09-03T00:00:00.000Z",
+  "id": "jnet21-191205",
+  "slug": "jnet21-191205",
+  "title": "令和8年度 阿智村肥料農薬価格高騰対策緊急支援事業補助金",
+  "source": "jnet21"
+}

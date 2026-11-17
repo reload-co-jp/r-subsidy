@@ -5,7 +5,9 @@
   "overview": "従業員に対して行う研修の経費の一部を助成します！\n４種類の助成金をご活用ください。",
   "detail": "<h5 style=\"text-align: center;\"><span style=\"font-size: 22px; font-family: sans-serif;\">従業員に必要なスキルを習得してほしい！　でも…</span></h5><p style=\"text-align: center;\"><span style=\"font-size: 22px; font-family: sans-serif;\">受講料等の経費負担が大きい…</span></p><p style=\"text-align: center;\"><span style=\"font-size: 22px; font-family: sans-serif;\">研修の準備に時間がかかる…</span></p><p style=\"text-align: center;\"></p><p style=\"text-align: center;\"><strong style=\"color: rgb(0, 34, 255); font-size: 22px; font-family: sans-serif;\">そんなときは、助成金を活用しましょう！</strong></p><h5 style=\"text-align: center;\"><strong style=\"color: rgb(0, 34, 255); font-size: 22px; font-family: sans-serif;\">都内の中小企業等が従業員に対して行う研修の経費の一部を助成します。</strong></h5><p style=\"text-align: center;\"></p><p style=\"text-align: center;\"><span style=\"font-size: 22px;\">【提出期限】  </span></p><p style=\"text-align: center;\"><strong style=\"font-size: 22px; color: red;\">研修開始予定日の１か月前（当日23時59分）まで </strong></p><p style=\"text-align: center;\"><span style=\"font-size: 22px;\">【交付申請書受付期間】 </span></p><p style=\"text-align: center;\"><strong style=\"font-size: 22px; color: red;\">令和６年３月１日から令和７年２月28日（当日23時59分）まで</strong></p><p style=\"text-align: center;\"><span style=\"font-size: 12px;\">※ 予算の範囲を超える申請があった場合等、申請受付期間内でも受付を終了することがあります。 </span></p><h3 style=\"text-align: center;\"><span style=\"font-size: 12px;\"> ※ Jグランツで交付申請した場合、助成金請求までの全ての手続きを、Jグランツにて行っていただきます。</span></h3><h3 style=\"text-align: center;\"><br></h3><p><span style=\"font-size: 22px;\">助成金の詳細は 公益財団法人東京しごと財団ホームページ よりご確認ください。</span></p><p><br></p><h3>● <a href=\"https://www.shigotozaidan.or.jp/koyo-kankyo/saiyo-sodan/skill-n.html\" target=\"_blank\">事業内スキルアップ助成金</a></h3><p style=\"text-align: justify;\">職務のスキルアップのために自社で企画した研修</p><p style=\"text-align: justify;\"> </p><h3>● <a href=\"https://www.shigotozaidan.or.jp/koyo-kankyo/saiyo-sodan/skill-g.html\" target=\"_blank\">事業外スキルアップ助成金</a></h3><p style=\"text-align: justify;\">職務のスキルアップのために公開研修を利用して実施する研修</p><h3>● <a href=\"https://www.shigotozaidan.or.jp/koyo-kankyo/saiyo-sodan/skill-d.html\" target=\"_blank\">DXリスキリング助成金</a></h3><p style=\"text-align: justify;\">自社のDXのために実施する研修</p><h3>● <a href=\"https://www.shigotozaidan.or.jp/koyo-kankyo/saiyo-sodan/skill-i.html\" target=\"_blank\">育業中スキルアップ助成金</a></h3><p style=\"text-align: justify;\">従業員本人が希望し育業中受講するスキルアップのための研修</p><p style=\"text-align: justify;\"><br></p><p style=\"text-align: justify;\"><span style=\"font-size: 12.8px; color: rgb(68, 68, 68);\">&#128222;03-5211-0391（平日9時～17時）*平日12時～13時、土日・祝日、年末年始を除く</span></p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -43,7 +45,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資", "人材育成", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "デジタル化"
+  ],
   "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "スキルアップ支援事業・育業中スキルアップ支援事業",

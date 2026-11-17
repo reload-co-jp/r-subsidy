@@ -1,0 +1,33 @@
+{
+  "overview": "国土交通省は、自動車整備技術の高度化を図り、自動車の事故防止を推進するため、自動車整備事業者に対してスキャンツールの導入等を支援します。申請期間：令和8年8月7日（金）10：00～令和9年1月29日（火）17：00募集期間2026年8月7日～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>国土交通省は、自動車整備技術の高度化を図り、自動車の事故防止を推進するため、自動車整備事業者に対してスキャンツールの導入等を支援します。申請期間：令和8年8月7日（金）10：00～令和9年1月29日（火）17：00募集期間2026年8月7日～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：サービス業（他に分類されないもの）</li><li>地域：全国</li><li>実施機関：国土交通省</li><li>J-Net21掲載日：2026-07-31</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188419\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "サービス業（他に分類されないもの）"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "研究開発"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "国土交通省",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-08-07",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.mlit.go.jp/report/press/jidosha09_hh_000363.html",
+  "updatedAt": "2026-07-31T00:00:00.000Z",
+  "id": "jnet21-188419",
+  "slug": "jnet21-188419",
+  "title": "令和8年度予算スキャンツール補助事業を開始します！～自動車の電子装置の故障探求をサポートする整備機器の導入等を支援します～（国土交通省）",
+  "source": "jnet21"
+}

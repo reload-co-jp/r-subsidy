@@ -44,7 +44,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資", "研究開発", "省エネ"],
+  "purposes": [
+    "設備投資",
+    "研究開発",
+    "省エネ"
+  ],
   "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "令和７年度補正 GXサプライチェーン構築支援事業（事業Ⅱ：ペロブスカイト太陽電池）",

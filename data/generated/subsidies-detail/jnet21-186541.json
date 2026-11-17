@@ -1,0 +1,34 @@
+{
+  "overview": "三好市では、市内中小企業者の皆さまが取り組む、経営基盤の強化や向上・社会的環境の変化への対応のための事業を10のメニュー（事業区分）で支援します。募集期間：年度内随時",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>三好市では、市内中小企業者の皆さまが取り組む、経営基盤の強化や向上・社会的環境の変化への対応のための事業を10のメニュー（事業区分）で支援します。募集期間：年度内随時</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、生産性向上・IT化、販路開拓、研究・商品開発、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：徳島県</li><li>実施機関：三好市</li><li>J-Net21掲載日：2026-07-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186541\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "徳島県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "販路拡大",
+    "研究開発",
+    "デジタル化"
+  ],
+  "usePurpose": "人材育成・雇用、生産性向上・IT化、販路開拓、研究・商品開発、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "三好市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.miyoshi.i-tokushima.jp/docs/5697272.html",
+  "updatedAt": "2026-07-03T00:00:00.000Z",
+  "id": "jnet21-186541",
+  "slug": "jnet21-186541",
+  "title": "2026年度三好市中小企業者等総合支援事業補助金について",
+  "source": "jnet21"
+}

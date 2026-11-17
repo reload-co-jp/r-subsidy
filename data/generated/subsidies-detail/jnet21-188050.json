@@ -1,0 +1,31 @@
+{
+  "overview": "脱炭素機器のリース料低減を通じて、ESG要素を考慮した取組を促進し、バリューチェーン全体での脱炭素化に貢献する中小企業等を支援致します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>脱炭素機器のリース料低減を通じて、ESG要素を考慮した取組を促進し、バリューチェーン全体での脱炭素化に貢献する中小企業等を支援致します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：全国</li><li>実施機関：環境省</li><li>J-Net21掲載日：2026-07-23</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188050\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "環境省",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.chusho.meti.go.jp/pamflet/g_book/2026/download/2026gbookall.pdf#page=302",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "id": "jnet21-188050",
+  "slug": "jnet21-188050",
+  "title": "カーボンニュートラル社会構築に向けたESGリース促進事業（環境省）",
+  "source": "jnet21"
+}

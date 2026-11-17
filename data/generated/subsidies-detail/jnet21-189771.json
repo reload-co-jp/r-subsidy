@@ -1,0 +1,32 @@
+{
+  "overview": "三沢市は、市内中小企業者が取り組む人材確保・育成、業務効率化に関する事業の経費を補助するため、「三沢市中小企業サポート補助金」を実施しています。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>三沢市は、市内中小企業者が取り組む人材確保・育成、業務効率化に関する事業の経費を補助するため、「三沢市中小企業サポート補助金」を実施しています。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、生産性向上・IT化、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：青森県</li><li>実施機関：三沢市</li><li>J-Net21掲載日：2026-08-17</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/189771\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "青森県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "デジタル化"
+  ],
+  "usePurpose": "人材育成・雇用、生産性向上・IT化、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "三沢市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.misawa.lg.jp/index.cfm/10,46597,42,330,html",
+  "updatedAt": "2026-08-17T00:00:00.000Z",
+  "id": "jnet21-189771",
+  "slug": "jnet21-189771",
+  "title": "令和8年度中小企業サポート補助金のお知らせ（三沢市）",
+  "source": "jnet21"
+}

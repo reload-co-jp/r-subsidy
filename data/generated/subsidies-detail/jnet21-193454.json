@@ -1,0 +1,30 @@
+{
+  "overview": "市内の中小企業等の脱炭素経営を促進し、脱炭素化を後押しするために、温室効果ガスの削減につながる事業を実施した中小企業等に対して、予算の範囲内で費用を補助します。申請受付期間：令和8年10月30日（金曜日）から募集期間2026年10月30日～",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内の中小企業等の脱炭素経営を促進し、脱炭素化を後押しするために、温室効果ガスの削減につながる事業を実施した中小企業等に対して、予算の範囲内で費用を補助します。申請受付期間：令和8年10月30日（金曜日）から募集期間2026年10月30日～</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：茨城県</li><li>実施機関：取手市</li><li>J-Net21掲載日：2026-10-06</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193454\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "茨城県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化",
+  "status": "closed",
+  "workflow": "取手市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-10-30",
+  "endDate": "2026-10-30",
+  "referenceUrl": "https://www.city.toride.ibaraki.jp/kankyo/kurashi/kankyo/sekatsu/hojo/jigyosya_hojo.html",
+  "updatedAt": "2026-10-06T00:00:00.000Z",
+  "id": "jnet21-193454",
+  "slug": "jnet21-193454",
+  "title": "取手市中小企業脱炭素事業促進補助金",
+  "source": "jnet21"
+}

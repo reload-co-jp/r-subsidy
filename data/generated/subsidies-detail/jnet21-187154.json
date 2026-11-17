@@ -1,0 +1,32 @@
+{
+  "overview": "市内でオフィスの開設を行う企業の皆様に対し、オフィスの改装費や償却資産の取得費等の一部を支援する制度を設けております。水戸市への立地をご検討の際には、ぜひお気軽にご連絡ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内でオフィスの開設を行う企業の皆様に対し、オフィスの改装費や償却資産の取得費等の一部を支援する制度を設けております。水戸市への立地をご検討の際には、ぜひお気軽にご連絡ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：業種指定なし</li><li>地域：茨城県</li><li>実施機関：水戸市</li><li>J-Net21掲載日：2026-07-10</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187154\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "茨城県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "水戸市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.mito.lg.jp/page/1812.html",
+  "updatedAt": "2026-07-10T00:00:00.000Z",
+  "id": "jnet21-187154",
+  "slug": "jnet21-187154",
+  "title": "オフィス企業立地促進補助制度のご案内（水戸市）",
+  "source": "jnet21"
+}

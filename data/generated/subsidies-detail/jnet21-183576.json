@@ -1,0 +1,33 @@
+{
+  "overview": "鶴岡市で新規創業・開業する方、事業承継の譲受者（※対象要件あり）の経費を補助する支援制度についてご案内します。申請受付期間：令和8年5月22日（金曜）～令和9年1月29日（金曜）募集期間2026年5月22日～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>鶴岡市で新規創業・開業する方、事業承継の譲受者（※対象要件あり）の経費を補助する支援制度についてご案内します。申請受付期間：令和8年5月22日（金曜）～令和9年1月29日（金曜）募集期間2026年5月22日～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：山形県</li><li>実施機関：鶴岡市</li><li>J-Net21掲載日：2026-05-27</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183576\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "山形県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "事業承継",
+    "創業"
+  ],
+  "usePurpose": "起業・創業、経営改善・経営強化",
+  "status": "open",
+  "workflow": "鶴岡市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-05-22",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.tsuruoka.lg.jp/sangyo/shokoshien/syouko-sogyohojo.html",
+  "updatedAt": "2026-05-27T00:00:00.000Z",
+  "id": "jnet21-183576",
+  "slug": "jnet21-183576",
+  "title": "令和8年度鶴岡市新規創業等支援補助金＜新規創業・移住開業型＞について",
+  "source": "jnet21"
+}

@@ -26,9 +26,15 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "販路拡大", "研究開発", "デジタル化", "海外展開"],
+  "purposes": [
+    "設備投資",
+    "販路拡大",
+    "研究開発",
+    "デジタル化",
+    "海外展開"
+  ],
   "usePurpose": "販路拡大・海外展開をしたい",
-  "status": "open",
+  "status": "closed",
   "workflow": "グローバルサウス未来志向型共創等事業費補助金",
   "subsidizedRate": "１/２以内、中小企業のみ２/３以内",
   "upperLimit": "0円",

@@ -1,0 +1,33 @@
+{
+  "overview": "長浜市では、相談支援専門員の人材育成に向け、相談支援従事者初任者研修または主任研修を受講される従事者が所属している市内の福祉事業所に対し、補助金を交付します。申請期限：研修の修了の日が属する年度の3月末日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>長浜市では、相談支援専門員の人材育成に向け、相談支援従事者初任者研修または主任研修を受講される従事者が所属している市内の福祉事業所に対し、補助金を交付します。申請期限：研修の修了の日が属する年度の3月末日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：滋賀県</li><li>実施機関：長浜市</li><li>J-Net21掲載日：2026-09-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191025\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "滋賀県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "長浜市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.nagahama.lg.jp/0000012809.html",
+  "updatedAt": "2026-09-01T00:00:00.000Z",
+  "id": "jnet21-191025",
+  "slug": "jnet21-191025",
+  "title": "福祉事業所人材育成支援事業補助金（長浜市）",
+  "source": "jnet21"
+}

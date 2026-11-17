@@ -1,0 +1,31 @@
+{
+  "overview": "久留米市の農業者の方々に向けた各種支援事業を紹介する「久留米市 農業経営支援策活用ガイド」を作成しました。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>久留米市の農業者の方々に向けた各種支援事業を紹介する「久留米市 農業経営支援策活用ガイド」を作成しました。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：福岡県</li><li>実施機関：久留米市</li><li>J-Net21掲載日：2026-06-08</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184531\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福岡県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "久留米市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.kurume.fukuoka.jp/1090sangyou/2070nourin/3185sjshoukai/2020-0114-2003-60.html",
+  "updatedAt": "2026-06-08T00:00:00.000Z",
+  "id": "jnet21-184531",
+  "slug": "jnet21-184531",
+  "title": "久留米市の農業者のための各種支援事業の紹介",
+  "source": "jnet21"
+}

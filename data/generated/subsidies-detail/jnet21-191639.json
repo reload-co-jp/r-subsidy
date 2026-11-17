@@ -1,0 +1,30 @@
+{
+  "overview": "市内の中小企業事業主を対象に、人材採用を目的とした採用動画や電子版採用パンフレットの制作費、工場見学者の送迎バス借上費等を補助します！申請期限：毎年度2月末必着（月末が土・日・祝の場合はその前日）申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内の中小企業事業主を対象に、人材採用を目的とした採用動画や電子版採用パンフレットの制作費、工場見学者の送迎バス借上費等を補助します！申請期限：毎年度2月末必着（月末が土・日・祝の場合はその前日）申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：石川県</li><li>実施機関：金沢市</li><li>J-Net21掲載日：2026-09-09</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191639\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "石川県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "金沢市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://kanazawa-hataraku.jp/employer/sinsenryoku/",
+  "updatedAt": "2026-09-09T00:00:00.000Z",
+  "id": "jnet21-191639",
+  "slug": "jnet21-191639",
+  "title": "金沢市中小企業新戦力確保サポート補助金",
+  "source": "jnet21"
+}

@@ -1,0 +1,30 @@
+{
+  "overview": "町内の事業者の皆さまや、これから創業される方が融資を受けた際に支払う利子の一部を補助する制度を創設しました。資金調達の負担を軽減し、町内経済の発展を支援します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>町内の事業者の皆さまや、これから創業される方が融資を受けた際に支払う利子の一部を補助する制度を創設しました。資金調達の負担を軽減し、町内経済の発展を支援します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：三重県</li><li>実施機関：多気町</li><li>J-Net21掲載日：2026-06-08</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184563\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "三重県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "創業"
+  ],
+  "usePurpose": "起業・創業、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "多気町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.taki.mie.jp/life/soshiki/shokokanko/2_1/2/5418.html",
+  "updatedAt": "2026-06-08T00:00:00.000Z",
+  "id": "jnet21-184563",
+  "slug": "jnet21-184563",
+  "title": "多気町商工業者事業資金利子補給制度",
+  "source": "jnet21"
+}

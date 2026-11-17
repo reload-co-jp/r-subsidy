@@ -19,7 +19,7 @@ function validateSubsidy(s: NormalizedSubsidy, index: number): string[] {
     errors.push(`[${index}] invalid region: ${s.region}`)
   if (!["open", "upcoming", "closed", "unknown"].includes(s.status))
     errors.push(`[${index}] invalid status: ${s.status}`)
-  if (!["jgrants", "tokyo", "manual"].includes(s.source))
+  if (!["jgrants", "tokyo", "manual", "jnet21", "mhlw"].includes(s.source))
     errors.push(`[${index}] invalid source: ${s.source}`)
   return errors
 }

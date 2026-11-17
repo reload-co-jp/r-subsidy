@@ -1,0 +1,36 @@
+{
+  "overview": "和歌山市では、市内の中小企業者のビジネスチャンス創出を支援する「和歌山市ビジネスチャンス創出支援補助金」を設けています。国内や海外、オンラインで開催される見本市等への自社製品の出展、自社ECサイトの構築及びモール型ECサイトへの出店、新製品のPR用パンフレット等の作成、自社製品の改良に対して活用できます。受付期間：令和8年4月1日から令和9年1月29日まで募集期間2026年4月1日～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>和歌山市では、市内の中小企業者のビジネスチャンス創出を支援する「和歌山市ビジネスチャンス創出支援補助金」を設けています。国内や海外、オンラインで開催される見本市等への自社製品の出展、自社ECサイトの構築及びモール型ECサイトへの出店、新製品のPR用パンフレット等の作成、自社製品の改良に対して活用できます。受付期間：令和8年4月1日から令和9年1月29日まで募集期間2026年4月1日～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、販路開拓、海外展開、研究・商品開発、経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：和歌山県</li><li>実施機関：和歌山市</li><li>J-Net21掲載日：2026-07-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186352\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "和歌山県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "販路拡大",
+    "研究開発",
+    "デジタル化",
+    "海外展開"
+  ],
+  "usePurpose": "生産性向上・IT化、販路開拓、海外展開、研究・商品開発、経営改善・経営強化",
+  "status": "open",
+  "workflow": "和歌山市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-04-01",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.wakayama.wakayama.jp/1016047/sangyoukigyousien/1017324.html",
+  "updatedAt": "2026-07-01T00:00:00.000Z",
+  "id": "jnet21-186352",
+  "slug": "jnet21-186352",
+  "title": "和歌山市ビジネスチャンス創出支援補助金",
+  "source": "jnet21"
+}

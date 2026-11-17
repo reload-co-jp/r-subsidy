@@ -11,7 +11,9 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資"],
+  "purposes": [
+    "設備投資"
+  ],
   "usePurpose": null,
   "status": "closed",
   "workflow": "民放ラジオ難聴解消支援事業",

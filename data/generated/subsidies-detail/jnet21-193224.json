@@ -1,0 +1,31 @@
+{
+  "overview": "区内企業の海外進出支援及び経営基盤の強化を目的として、各種認証を取得・更新する際の経費の一部を補助します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年4月1日～",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>区内企業の海外進出支援及び経営基盤の強化を目的として、各種認証を取得・更新する際の経費の一部を補助します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年4月1日～</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：国際規格・認証、海外展開、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：東京都</li><li>実施機関：文京区</li><li>J-Net21掲載日：2026-10-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193224\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "販路拡大",
+    "海外展開"
+  ],
+  "usePurpose": "国際規格・認証、海外展開、経営改善・経営強化",
+  "status": "open",
+  "workflow": "文京区",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-04-01",
+  "endDate": null,
+  "referenceUrl": "https://www.city.bunkyo.lg.jp/b012/p005133.html",
+  "updatedAt": "2026-10-02T00:00:00.000Z",
+  "id": "jnet21-193224",
+  "slug": "jnet21-193224",
+  "title": "各種認証取得費等補助金（文京区）",
+  "source": "jnet21"
+}

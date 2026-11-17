@@ -1,0 +1,31 @@
+{
+  "overview": "江東区内で創業する方の事務所や店舗の賃料を一部補助します。補助件数：18件受付期間：令和8年9月1日（火）～令和8年11月30日（月）申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年9月1日～2026年11月30日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>江東区内で創業する方の事務所や店舗の賃料を一部補助します。補助件数：18件受付期間：令和8年9月1日（火）～令和8年11月30日（月）申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年9月1日～2026年11月30日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：東京都</li><li>実施機関：江東区</li><li>J-Net21掲載日：2026-08-21</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/190165\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "創業"
+  ],
+  "usePurpose": "起業・創業、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "江東区",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-09-01",
+  "endDate": "2026-11-30",
+  "referenceUrl": "https://www.city.koto.lg.jp/102020/sangyoshigoto/chusho/hojokin/80920.html",
+  "updatedAt": "2026-08-21T00:00:00.000Z",
+  "id": "jnet21-190165",
+  "slug": "jnet21-190165",
+  "title": "創業支援事務所等賃料補助金（江東区）",
+  "source": "jnet21"
+}

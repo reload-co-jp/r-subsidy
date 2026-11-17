@@ -1,0 +1,30 @@
+{
+  "overview": "株式会社日本政策金融公庫及び小牧市と小規模企業等振興資金に関する覚書を締結している取扱金融機関から創業のために必要な資金の融資を受けた方に対し、利子の一部を補助する制度です。申請期間：令和9年1月6日（水曜日）から令和9年1月29日（金曜日）まで募集期間2027年1月6日～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>株式会社日本政策金融公庫及び小牧市と小規模企業等振興資金に関する覚書を締結している取扱金融機関から創業のために必要な資金の融資を受けた方に対し、利子の一部を補助する制度です。申請期間：令和9年1月6日（水曜日）から令和9年1月29日（金曜日）まで募集期間2027年1月6日～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：愛知県</li><li>実施機関：小牧市</li><li>J-Net21掲載日：2026-11-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195346\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "愛知県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "創業"
+  ],
+  "usePurpose": "起業・創業、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "小牧市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-06",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.komaki.aichi.jp/admin/jigyousha/keiei/45595.html",
+  "updatedAt": "2026-11-02T00:00:00.000Z",
+  "id": "jnet21-195346",
+  "slug": "jnet21-195346",
+  "title": "創業支援利子補給補助金（小牧市）",
+  "source": "jnet21"
+}

@@ -1,0 +1,32 @@
+{
+  "overview": "電気料の高騰による医療機関・薬局への影響を緩和し、安定したサービスの提供を支援するため、施設等の種別に応じた支援金を給付します。受付期間：令和8年11月2日（月）から令和8年12月25日（金）募集期間2026年11月2日～2026年12月25日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>電気料の高騰による医療機関・薬局への影響を緩和し、安定したサービスの提供を支援するため、施設等の種別に応じた支援金を給付します。受付期間：令和8年11月2日（月）から令和8年12月25日（金）募集期間2026年11月2日～2026年12月25日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：卸売業，小売業 医療，福祉</li><li>地域：福井県</li><li>実施機関：福井県</li><li>J-Net21掲載日：2026-11-04</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195382\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福井県"
+  ],
+  "industries": [
+    "卸売業",
+    "小売業 医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "open",
+  "workflow": "福井県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-11-02",
+  "endDate": "2026-12-25",
+  "referenceUrl": "https://www.pref.fukui.lg.jp/doc/016407/youhosien/bukkakoutou.html",
+  "updatedAt": "2026-11-04T00:00:00.000Z",
+  "id": "jnet21-195382",
+  "slug": "jnet21-195382",
+  "title": "【医療機関・薬局】福井県医療機関・福祉施設等物価高騰対策支援金",
+  "source": "jnet21"
+}

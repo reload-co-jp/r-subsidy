@@ -54,7 +54,9 @@
     "鹿児島県",
     "沖縄県"
   ],
-  "industries": ["分類不能の産業"],
+  "industries": [
+    "分類不能の産業"
+  ],
   "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,

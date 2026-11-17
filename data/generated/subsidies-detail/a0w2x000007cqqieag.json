@@ -43,7 +43,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資", "省エネ"],
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
   "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "中小企業等に向けた省エネルギー診断拡充事業費補助金",

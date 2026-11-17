@@ -1,0 +1,33 @@
+{
+  "overview": "配合飼料価格の高騰が続き畜産農家の経営を圧迫している中、飼料自給率を向上させることにより生産コスト削減を図り、もって畜産農家の経営安定に資するため、飼料作物の種子購入費の1/3に相当する額を助成します。申請期限：令和9年2月26日（金曜日）まで募集期間～2027年2月26日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>配合飼料価格の高騰が続き畜産農家の経営を圧迫している中、飼料自給率を向上させることにより生産コスト削減を図り、もって畜産農家の経営安定に資するため、飼料作物の種子購入費の1/3に相当する額を助成します。申請期限：令和9年2月26日（金曜日）まで募集期間～2027年2月26日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：山口県</li><li>実施機関：美祢市</li><li>J-Net21掲載日：2026-11-05</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195455\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "山口県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "美祢市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-02-26",
+  "endDate": "2027-02-26",
+  "referenceUrl": "https://www2.city.mine.lg.jp/soshiki/norinbu/norinka/sangyo/noringyo/nogyo/11127.html",
+  "updatedAt": "2026-11-05T00:00:00.000Z",
+  "id": "jnet21-195455",
+  "slug": "jnet21-195455",
+  "title": "美祢市自給飼料生産促進事業補助金",
+  "source": "jnet21"
+}

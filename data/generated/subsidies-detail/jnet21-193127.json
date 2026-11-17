@@ -1,0 +1,28 @@
+{
+  "overview": "物価高騰等の影響で資金繰りの厳しい中小企業に対して融資に係る一部を補助することで、借入負担の軽減及び、経営の安定と向上を図るため補助金を交付します。申請受付期間：令和8年10月1日から令和9年3月1日まで募集期間2026年10月1日～2027年3月1日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>物価高騰等の影響で資金繰りの厳しい中小企業に対して融資に係る一部を補助することで、借入負担の軽減及び、経営の安定と向上を図るため補助金を交付します。申請受付期間：令和8年10月1日から令和9年3月1日まで募集期間2026年10月1日～2027年3月1日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：愛知県</li><li>実施機関：新城市</li><li>J-Net21掲載日：2026-10-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193127\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "愛知県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "open",
+  "workflow": "新城市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-10-01",
+  "endDate": "2027-03-01",
+  "referenceUrl": "https://www.city.shinshiro.lg.jp/sangyo/sangyo/shien/jigyomuke-yushi/bukkadaka.html",
+  "updatedAt": "2026-10-02T00:00:00.000Z",
+  "id": "jnet21-193127",
+  "slug": "jnet21-193127",
+  "title": "新城市中小事業者物価高騰対策支援事業補助金",
+  "source": "jnet21"
+}

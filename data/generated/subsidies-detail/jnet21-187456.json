@@ -1,0 +1,30 @@
+{
+  "overview": "市内の中小企業等に対し、金融機関から融資（サステナビリティ関連商品として市が適当であると判断したもの）を受ける際に生じる手数料の一部を補助することで、中小企業等の脱炭素経営の促進及び温室効果ガス排出の削減を図ります。申請受付期間：令和8年7月15日（水曜日）～令和9年2月26日（金曜日）募集期間2026年7月15日～2027年2月26日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内の中小企業等に対し、金融機関から融資（サステナビリティ関連商品として市が適当であると判断したもの）を受ける際に生じる手数料の一部を補助することで、中小企業等の脱炭素経営の促進及び温室効果ガス排出の削減を図ります。申請受付期間：令和8年7月15日（水曜日）～令和9年2月26日（金曜日）募集期間2026年7月15日～2027年2月26日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：香川県</li><li>実施機関：高松市</li><li>J-Net21掲載日：2026-07-16</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187456\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "香川県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化",
+  "status": "open",
+  "workflow": "高松市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-07-15",
+  "endDate": "2027-02-26",
+  "referenceUrl": "https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/kankyo/zerocarboncity_tkmt/decarbonized-leader/datutansofinance.html",
+  "updatedAt": "2026-07-16T00:00:00.000Z",
+  "id": "jnet21-187456",
+  "slug": "jnet21-187456",
+  "title": "令和8年度高松市中小企業向け脱炭素ファイナンス利用補助金",
+  "source": "jnet21"
+}

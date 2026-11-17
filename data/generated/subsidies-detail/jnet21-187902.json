@@ -1,0 +1,33 @@
+{
+  "overview": "花巻市では、賃上げ要件を伴う国の補助金を活用して生産性向上やDXに取り組む市内事業者に対し、上乗せして補助金を交付します。申請受付期間：令和8年7月27日（月曜）から令和9年2月1日（月曜）まで募集期間2026年7月27日～2027年2月1日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>花巻市では、賃上げ要件を伴う国の補助金を活用して生産性向上やDXに取り組む市内事業者に対し、上乗せして補助金を交付します。申請受付期間：令和8年7月27日（月曜）から令和9年2月1日（月曜）まで募集期間2026年7月27日～2027年2月1日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：岩手県</li><li>実施機関：花巻市</li><li>J-Net21掲載日：2026-07-22</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187902\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岩手県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化",
+  "status": "open",
+  "workflow": "花巻市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-07-27",
+  "endDate": "2027-02-01",
+  "referenceUrl": "https://www.city.hanamaki.iwate.jp/business/sangyoshien/keieihojo/1025749.html",
+  "updatedAt": "2026-07-22T00:00:00.000Z",
+  "id": "jnet21-187902",
+  "slug": "jnet21-187902",
+  "title": "花巻市省力化・生産性向上支援緊急対策補助金のお知らせ【申請期限：令和9年2月1日（月曜）】",
+  "source": "jnet21"
+}

@@ -44,7 +44,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["研究開発", "創業", "省エネ"],
+  "purposes": [
+    "研究開発",
+    "創業",
+    "省エネ"
+  ],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "地域共創・セクター横断型カーボンニュートラル技術開発・実証事業",

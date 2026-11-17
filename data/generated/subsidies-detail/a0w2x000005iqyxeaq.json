@@ -5,13 +5,21 @@
   "overview": "",
   "detail": "<p><b style=\"color: rgb(0, 111, 173);\">■目的・概要</b></p><p>（ここに目的・概要を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■根拠法令</b></p><p>（ここに補助金に紐づく根拠法令を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■応募資格</b></p><p>（ここに補助対象者・応募資格を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■地理条件</b></p><p>（ここに必要な地理条件を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■備考</b></p><p>（ここに備考を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■問合せ先</b></p><p>（ここに問合せ先を入力して下さい。）</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■参照URL</b></p><p>（ここに参照URLを入力して下さい。URLをリンク化したい場合は、リンクの埋め込みを行ってください。）</p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
-  "industries": ["金融業", "保険業"],
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "金融業",
+    "保険業"
+  ],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["販路拡大", "海外展開"],
+  "purposes": [
+    "販路拡大",
+    "海外展開"
+  ],
   "usePurpose": "販路拡大・海外展開をしたい",
   "status": "open",
   "workflow": "EMPの普及促進に係る補助金",

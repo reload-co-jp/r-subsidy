@@ -1,0 +1,31 @@
+{
+  "overview": "農林業拡大を図るため、農地改良、ため池改修、用排水路改修、頭首工改修等に対し、補助金を交付する制度です。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>農林業拡大を図るため、農地改良、ため池改修、用排水路改修、頭首工改修等に対し、補助金を交付する制度です。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：岡山県</li><li>実施機関：吉備中央町</li><li>J-Net21掲載日：2026-11-06</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195695\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岡山県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "吉備中央町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.kibichuo.lg.jp/soshiki/21/15123.html",
+  "updatedAt": "2026-11-06T00:00:00.000Z",
+  "id": "jnet21-195695",
+  "slug": "jnet21-195695",
+  "title": "小規模農林事業等補助金（農地改良、ため池改修、用排水路改修、頭首工改修等）（吉備中央町）",
+  "source": "jnet21"
+}

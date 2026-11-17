@@ -44,7 +44,12 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資", "研究開発", "省エネ", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "研究開発",
+    "省エネ",
+    "デジタル化"
+  ],
   "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "令和７年度 GXサプライチェーン構築支援事業（水電解装置・燃料電池）",

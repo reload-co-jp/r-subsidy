@@ -1,0 +1,35 @@
+{
+  "overview": "県内事業者における課題解決をテーマとするインターンシップ等を通じた人材受入のきっかけを提供することで、県内事業者の海外IT人材の獲得を促進するため、長野県海外IT人材インターンシップ受入支援補助金を交付します。申請期限：インターンシップ等が開始される日（インターンシップ等に参加するために移動を開始した日を含む。）の14日前申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県内事業者における課題解決をテーマとするインターンシップ等を通じた人材受入のきっかけを提供することで、県内事業者の海外IT人材の獲得を促進するため、長野県海外IT人材インターンシップ受入支援補助金を交付します。申請期限：インターンシップ等が開始される日（インターンシップ等に参加するために移動を開始した日を含む。）の14日前申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、生産性向上・IT化、経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：長野県</li><li>実施機関：長野県</li><li>J-Net21掲載日：2026-06-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183999\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長野県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "販路拡大",
+    "デジタル化"
+  ],
+  "usePurpose": "人材育成・雇用、生産性向上・IT化、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "長野県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.nagano.lg.jp/ritti-it/kaigaiitjinzai/2026kaigaiit_hojyokinn.html",
+  "updatedAt": "2026-06-02T00:00:00.000Z",
+  "id": "jnet21-183999",
+  "slug": "jnet21-183999",
+  "title": "令和8年度海外IT人材インターンシップ受入支援補助金の補助対象者を募集します（長野県）",
+  "source": "jnet21"
+}

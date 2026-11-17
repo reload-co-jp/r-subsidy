@@ -1,0 +1,31 @@
+{
+  "overview": "上天草市では、令和8年熊本地震により被害を受けた農業者の経営継続及び農業施設の復旧を支援するため、農業関係融資に係る利子補給を実施します。承認期間：令和9年3月31日まで",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>上天草市では、令和8年熊本地震により被害を受けた農業者の経営継続及び農業施設の復旧を支援するため、農業関係融資に係る利子補給を実施します。承認期間：令和9年3月31日まで</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：被災事業者支援</li><li>業種：農業，林業</li><li>地域：熊本県</li><li>実施機関：上天草市</li><li>J-Net21掲載日：2026-10-08</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193592\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "熊本県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "被災事業者支援",
+  "status": "unknown",
+  "workflow": "上天草市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.kamiamakusa.kumamoto.jp/q/aview/44/23622.html",
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "id": "jnet21-193592",
+  "slug": "jnet21-193592",
+  "title": "令和8年熊本地震に係る被災農業者への利子補給制度について（上天草市）",
+  "source": "jnet21"
+}

@@ -11,7 +11,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["研究開発", "省エネ"],
+  "purposes": [
+    "研究開発",
+    "省エネ"
+  ],
   "usePurpose": null,
   "status": "closed",
   "workflow": "潤滑油の品質確保事業等への支援事業費補助金",

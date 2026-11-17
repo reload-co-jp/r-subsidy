@@ -1,0 +1,31 @@
+{
+  "overview": "【支援制度】・原材料や原油価格の高騰に関する支援制度を探したい・資金繰りのために融資を受けたい・設備投資・販路開拓がしたい・農林漁業者向けの制度を探したい",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>【支援制度】・原材料や原油価格の高騰に関する支援制度を探したい・資金繰りのために融資を受けたい・設備投資・販路開拓がしたい・農林漁業者向けの制度を探したい</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：愛媛県</li><li>実施機関：愛媛県</li><li>J-Net21掲載日：2026-06-10</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184801\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "愛媛県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "販路拡大"
+  ],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "愛媛県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.ehime.jp/page/4853.html#shien1",
+  "updatedAt": "2026-06-10T00:00:00.000Z",
+  "id": "jnet21-184801",
+  "slug": "jnet21-184801",
+  "title": "原油価格・物価高騰等に関する相談窓口・支援情報サイト「支援制度」（愛媛県）",
+  "source": "jnet21"
+}

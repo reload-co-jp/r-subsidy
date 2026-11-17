@@ -1,0 +1,31 @@
+{
+  "overview": "物価高騰の影響を受け、町内の農業者及び農業法人に対して支援金を給付します。申請期間：令和8年12月25日まで募集期間～2026年12月25日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>物価高騰の影響を受け、町内の農業者及び農業法人に対して支援金を給付します。申請期間：令和8年12月25日まで募集期間～2026年12月25日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：埼玉県</li><li>実施機関：滑川町</li><li>J-Net21掲載日：2026-10-19</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194190\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "埼玉県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "滑川町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-25",
+  "endDate": "2026-12-25",
+  "referenceUrl": "https://www.town.namegawa.saitama.jp/soshikikarasagasu/sangyoshinkoka/sangyoshinko/3/4582.html",
+  "updatedAt": "2026-10-19T00:00:00.000Z",
+  "id": "jnet21-194190",
+  "slug": "jnet21-194190",
+  "title": "農業者向け滑川町物価高騰対策事業者臨時支援金について",
+  "source": "jnet21"
+}

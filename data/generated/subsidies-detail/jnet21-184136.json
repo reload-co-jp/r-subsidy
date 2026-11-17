@@ -1,0 +1,31 @@
+{
+  "overview": "デジタルツールを活用して将来にわたり継続的に自社の業務の成長、発展に取り組む市内事業者に対し、補助金を交付します。申請受付期間：令和9年1月29日（金）まで募集期間～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>デジタルツールを活用して将来にわたり継続的に自社の業務の成長、発展に取り組む市内事業者に対し、補助金を交付します。申請受付期間：令和9年1月29日（金）まで募集期間～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：京都府</li><li>実施機関：舞鶴市</li><li>J-Net21掲載日：2026-06-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184136\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "京都府"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "舞鶴市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-29",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.maizuru.kyoto.jp/shigoto/0000013222.html",
+  "updatedAt": "2026-06-02T00:00:00.000Z",
+  "id": "jnet21-184136",
+  "slug": "jnet21-184136",
+  "title": "中小企業デジタルツール導入支援事業補助金のご案内（舞鶴市）",
+  "source": "jnet21"
+}

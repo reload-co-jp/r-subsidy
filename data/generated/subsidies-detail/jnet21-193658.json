@@ -1,0 +1,30 @@
+{
+  "overview": "大分市内の中小企業などが従業員の賃金引上げを行った場合、賃上げ奨励金を交付します。受付期間：【前期】令和8年8月3日（月曜日）から11月30日（月曜日）まで【後期】令和8年12月1日（火曜日）から令和9年1月29日（金曜日）まで",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>大分市内の中小企業などが従業員の賃金引上げを行った場合、賃上げ奨励金を交付します。受付期間：【前期】令和8年8月3日（月曜日）から11月30日（月曜日）まで【後期】令和8年12月1日（火曜日）から令和9年1月29日（金曜日）まで</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：大分県</li><li>実施機関：大分市</li><li>J-Net21掲載日：2026-10-08</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193658\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "大分県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "open",
+  "workflow": "大分市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-08-03",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.oita.oita.jp/o154/baseup/shoreikin.html",
+  "updatedAt": "2026-10-08T00:00:00.000Z",
+  "id": "jnet21-193658",
+  "slug": "jnet21-193658",
+  "title": "賃上げした中小企業等に奨励金を交付します（大分市）",
+  "source": "jnet21"
+}

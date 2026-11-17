@@ -1,0 +1,34 @@
+{
+  "overview": "林業事業体へ就業された方を応援するため、八代市内で新たに住宅を取得又は賃借に伴う費用の一部を補助します。また月ごとの就業日数を就業すべき日数で除した割合に10万円を乗じて得た額の合計額を支給します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>林業事業体へ就業された方を応援するため、八代市内で新たに住宅を取得又は賃借に伴う費用の一部を補助します。また月ごとの就業日数を就業すべき日数で除した割合に10万円を乗じて得た額の合計額を支給します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：熊本県</li><li>実施機関：八代市</li><li>J-Net21掲載日：2026-07-16</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187469\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "熊本県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成",
+    "創業"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "八代市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.yatsushiro.lg.jp/kiji00326658/index.html",
+  "updatedAt": "2026-07-16T00:00:00.000Z",
+  "id": "jnet21-187469",
+  "slug": "jnet21-187469",
+  "title": "八代市林業新規就業者支援事業補助金",
+  "source": "jnet21"
+}

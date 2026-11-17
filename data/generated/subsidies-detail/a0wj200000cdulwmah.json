@@ -24,7 +24,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "省エネ"],
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
   "usePurpose": "新たな事業を行いたい / 災害（自然災害、感染症等）支援がほしい / 安全・防災対策支援がほしい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "フェーズフリーの省CO2独立型施設支援事業",

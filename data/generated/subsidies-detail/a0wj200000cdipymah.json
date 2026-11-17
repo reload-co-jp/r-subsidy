@@ -5,7 +5,9 @@
   "overview": "従業員に対して行う研修の経費の一部を助成します！\n４種類の助成金をご活用ください。",
   "detail": "<h5><strong style=\"font-size: 18px;\">☆令和７年度分についてはこちらからご申請ください。</strong></h5><p><strong style=\"font-size: 18px;\">　令和６年度の実績報告は、マイページより行ってください。</strong></p><p><br></p><p><br></p><p><strong style=\"color: rgb(0, 34, 255); font-size: 22px;\">都内の中小企業等が従業員に対して行う研修の経費の一部を助成します。</strong></p><p><strong style=\"color: rgb(0, 34, 255); font-size: 22px;\">研修の内容や実施方法に応じた助成金を活用しましょう！</strong></p><p><br></p><p><br></p><p><span style=\"font-size: 22px;\">【提出期限】  </span></p><p><strong style=\"font-size: 22px; color: red;\">研修開始予定日の１か月前（23時59分）まで </strong></p><p><span style=\"font-size: 22px;\">【交付申請書受付期間】 </span></p><p><strong style=\"font-size: 22px; color: red;\">令和７年３月１日から令和８年２月28日（23時59分）まで</strong></p><p><span style=\"font-size: 12px;\">※ 予算の範囲を超える申請があった場合等、申請受付期間内でも受付を終了することがあります。 </span></p><h3><span style=\"font-size: 12px;\"> ※ Jグランツで交付申請した場合、助成金請求までの全ての手続きを、Jグランツにて行っていただきます。</span></h3><h3 style=\"text-align: center;\"><br></h3><p><span style=\"font-size: 22px;\">助成金の詳細は 公益財団法人東京しごと財団ホームページ よりご確認ください。</span></p><p><br></p><h3>● <a href=\"https://www.koyokankyo.shigotozaidan.or.jp/jigyo/skillup/skill-R7jigyonai.html\" target=\"_blank\">事業内スキルアップ助成金</a></h3><p style=\"text-align: justify;\">職務のスキルアップのために自社で企画した研修</p><h3>● <a href=\"https://www.koyokankyo.shigotozaidan.or.jp/jigyo/skillup/skill-R7jigyogai.html\" target=\"_blank\">事業外スキルアップ助成金</a></h3><p style=\"text-align: justify;\">職務のスキルアップのために公開研修を利用して実施する研修</p><h3>● <a href=\"https://www.koyokankyo.shigotozaidan.or.jp/jigyo/skillup/skill-R7dx-risk.html\" target=\"_blank\">DXリスキリング助成金</a></h3><p style=\"text-align: justify;\">自社のDXのために実施する研修</p><h3>● <a href=\"https://www.koyokankyo.shigotozaidan.or.jp/jigyo/skillup/skill-R7ikugyo.html\" target=\"_blank\">育業中スキルアップ助成金</a></h3><p style=\"text-align: justify;\">従業員本人が希望し育業中受講するスキルアップのための研修</p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -44,7 +46,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資", "人材育成", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "デジタル化"
+  ],
   "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "スキルアップ支援事業・育業中スキルアップ支援事業",

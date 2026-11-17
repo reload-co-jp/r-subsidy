@@ -1,0 +1,32 @@
+{
+  "overview": "地域の中で持続的に活動できるよう、経営力の強化等に取り組む地域の建設企業は、人材の確保・育成、融資等の支援を受けることができます。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>地域の中で持続的に活動できるよう、経営力の強化等に取り組む地域の建設企業は、人材の確保・育成、融資等の支援を受けることができます。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：建設業</li><li>地域：全国</li><li>実施機関：厚生労働省・他</li><li>J-Net21掲載日：2026-07-23</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188042\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "建設業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "厚生労働省・他",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.chusho.meti.go.jp/pamflet/g_book/2026/download/2026gbookall.pdf#page=294",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "id": "jnet21-188042",
+  "slug": "jnet21-188042",
+  "title": "中小建設企業への支援（厚生労働省・他）",
+  "source": "jnet21"
+}

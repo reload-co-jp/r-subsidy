@@ -1,0 +1,31 @@
+{
+  "overview": "令和8年10月14日から、秋田県の最低賃金が1090円に改定されます（59円の引き上げ）。秋田労働局より、「賃上げ支援助成金パッケージ」のお知らせです。生産性向上（設備・人への投資等）や、非正規雇用労働者の処遇改善、より高い処遇への労働移動等を通じ、労働市場全体の「賃上げ」を支援するために「賃上げ支援助成金パッケージ」を取りまとめました。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>令和8年10月14日から、秋田県の最低賃金が1090円に改定されます（59円の引き上げ）。秋田労働局より、「賃上げ支援助成金パッケージ」のお知らせです。生産性向上（設備・人への投資等）や、非正規雇用労働者の処遇改善、より高い処遇への労働移動等を通じ、労働市場全体の「賃上げ」を支援するために「賃上げ支援助成金パッケージ」を取りまとめました。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：秋田県</li><li>実施機関：秋田労働局</li><li>J-Net21掲載日：2026-10-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193091\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "秋田県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "秋田労働局",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://akita-yorozu.go.jp/topics/post-5691/",
+  "updatedAt": "2026-10-01T00:00:00.000Z",
+  "id": "jnet21-193091",
+  "slug": "jnet21-193091",
+  "title": "秋田県最低賃金の改定と支援策のお知らせ（秋田労働局）",
+  "source": "jnet21"
+}

@@ -1,0 +1,28 @@
+{
+  "overview": "新たに出願する予定の特許権、意匠権などの知的財産権の取得に係る経費の一部を補助します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>新たに出願する予定の特許権、意匠権などの知的財産権の取得に係る経費の一部を補助します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：特許・知的財産、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：岐阜県</li><li>実施機関：大垣市</li><li>J-Net21掲載日：2026-05-28</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183734\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岐阜県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "特許・知的財産、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "大垣市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.ogaki.lg.jp/0000060941.html",
+  "updatedAt": "2026-05-28T00:00:00.000Z",
+  "id": "jnet21-183734",
+  "slug": "jnet21-183734",
+  "title": "知的財産権取得支援（大垣市）",
+  "source": "jnet21"
+}

@@ -1,0 +1,32 @@
+{
+  "overview": "小規模企業者、中小企業者、又はこれらを主体とする組合若しくは任意団体が実施するDX環境整備事業に対し必要な経費の一部を補助することで、デジタル技術を活用した業務変革を促進し、もって本市経済の活性化に資することを目的とします。募集期間：令和8年7月1日（水）～令和9年1月29日（金）募集期間2026年7月1日～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>小規模企業者、中小企業者、又はこれらを主体とする組合若しくは任意団体が実施するDX環境整備事業に対し必要な経費の一部を補助することで、デジタル技術を活用した業務変革を促進し、もって本市経済の活性化に資することを目的とします。募集期間：令和8年7月1日（水）～令和9年1月29日（金）募集期間2026年7月1日～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：熊本県</li><li>実施機関：熊本市</li><li>J-Net21掲載日：2026-07-22</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187906\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "熊本県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "研究開発",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化",
+  "status": "open",
+  "workflow": "熊本市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-07-01",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.kumamoto.jp/kiji00371665/index.html",
+  "updatedAt": "2026-07-22T00:00:00.000Z",
+  "id": "jnet21-187906",
+  "slug": "jnet21-187906",
+  "title": "【7/15更新】令和8年度（2026年度）熊本市DX環境整備事業補助金 公募開始のご案内",
+  "source": "jnet21"
+}

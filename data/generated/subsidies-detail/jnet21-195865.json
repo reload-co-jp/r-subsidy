@@ -1,0 +1,28 @@
+{
+  "overview": "町内の中小企業が経営改善に必要な資金として、埼玉県信用保証協会の保証により融資を受けた場合の信用保証料について、一部補助を行います。申請期限：補助対象融資が決定された日の属する月の翌月の末日まで",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>町内の中小企業が経営改善に必要な資金として、埼玉県信用保証協会の保証により融資を受けた場合の信用保証料について、一部補助を行います。申請期限：補助対象融資が決定された日の属する月の翌月の末日まで</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：埼玉県</li><li>実施機関：美里町</li><li>J-Net21掲載日：2026-11-10</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195865\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "埼玉県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "美里町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.saitama-misato.lg.jp/0000000110.html",
+  "updatedAt": "2026-11-10T00:00:00.000Z",
+  "id": "jnet21-195865",
+  "slug": "jnet21-195865",
+  "title": "美里町中小企業信用保証料補助金制度",
+  "source": "jnet21"
+}

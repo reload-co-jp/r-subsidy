@@ -1,0 +1,31 @@
+{
+  "overview": "中小企業者等の事業継続及び新たに事業を営もうとする方を支援することにより、円滑な創業及び経営資源の引き継ぎを促進し、地域経済の新陳代謝と活力維持に寄与することを目的とし、新ひだか町創業・事業承継支援金を支給します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>中小企業者等の事業継続及び新たに事業を営もうとする方を支援することにより、円滑な創業及び経営資源の引き継ぎを促進し、地域経済の新陳代謝と活力維持に寄与することを目的とし、新ひだか町創業・事業承継支援金を支給します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、事業承継、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：北海道</li><li>実施機関：新ひだか町</li><li>J-Net21掲載日：2026-09-14</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191867\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "北海道"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "事業承継",
+    "創業"
+  ],
+  "usePurpose": "起業・創業、事業承継、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "新ひだか町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.shinhidaka-hokkaido.jp/hotnews/detail/00009655.html",
+  "updatedAt": "2026-09-14T00:00:00.000Z",
+  "id": "jnet21-191867",
+  "slug": "jnet21-191867",
+  "title": "新ひだか町創業・事業承継支援金",
+  "source": "jnet21"
+}

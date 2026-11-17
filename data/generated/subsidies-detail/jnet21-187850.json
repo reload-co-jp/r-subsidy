@@ -1,0 +1,33 @@
+{
+  "overview": "次世代を担う農業者となることを志向する者に対し、就農直後の経営確立を支援する資金（3年以内）を交付します。【募集について】申請予定のある方は、随時各区農政担当課へその旨ご相談ください。要件等の確認が済んだ方へ、要望調査（年2回程度）の日程が決まり次第ご連絡します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>次世代を担う農業者となることを志向する者に対し、就農直後の経営確立を支援する資金（3年以内）を交付します。【募集について】申請予定のある方は、随時各区農政担当課へその旨ご相談ください。要件等の確認が済んだ方へ、要望調査（年2回程度）の日程が決まり次第ご連絡します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：新潟県</li><li>実施機関：新潟市</li><li>J-Net21掲載日：2026-07-22</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187850\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "新潟県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "創業"
+  ],
+  "usePurpose": "起業・創業、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "新潟市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.niigata.lg.jp/business/norinsuisan/nouringyo/nogyo-zisedai/keieikaisisikin.html",
+  "updatedAt": "2026-07-22T00:00:00.000Z",
+  "id": "jnet21-187850",
+  "slug": "jnet21-187850",
+  "title": "経営開始資金の募集等について〜新潟市新規就農者経営開始資金",
+  "source": "jnet21"
+}

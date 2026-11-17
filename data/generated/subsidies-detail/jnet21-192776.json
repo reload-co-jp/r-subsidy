@@ -1,0 +1,31 @@
+{
+  "overview": "農業用生産資材の価格高騰の影響を受ける農業者に、生産資材費の一部を助成します。申請期限：令和9年2月12日（金）まで募集期間～2027年2月12日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>農業用生産資材の価格高騰の影響を受ける農業者に、生産資材費の一部を助成します。申請期限：令和9年2月12日（金）まで募集期間～2027年2月12日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：長野県</li><li>実施機関：塩尻市</li><li>J-Net21掲載日：2026-09-30</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/192776\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長野県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "塩尻市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-02-12",
+  "endDate": "2027-02-12",
+  "referenceUrl": "https://www.city.shiojiri.lg.jp/soshiki/62/66855.html",
+  "updatedAt": "2026-09-30T00:00:00.000Z",
+  "id": "jnet21-192776",
+  "slug": "jnet21-192776",
+  "title": "塩尻市農業用生産資材価格高騰対策補助金",
+  "source": "jnet21"
+}

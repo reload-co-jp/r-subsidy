@@ -1,0 +1,31 @@
+{
+  "overview": "本補助金は、事業所におけるエネルギー使用量の削減、再生可能エネルギーの導入等に係る診断に要する経費を支援することにより、県内の中小規模事業者の脱炭素化に向けた取組を促進することを目的としています。申請受付期間：随時※申請をご希望される方は、補助対象診断の実施の前日までに申請書に必要書類を添付し、提出してください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>本補助金は、事業所におけるエネルギー使用量の削減、再生可能エネルギーの導入等に係る診断に要する経費を支援することにより、県内の中小規模事業者の脱炭素化に向けた取組を促進することを目的としています。申請受付期間：随時※申請をご希望される方は、補助対象診断の実施の前日までに申請書に必要書類を添付し、提出してください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：長野県</li><li>実施機関：長野県</li><li>J-Net21掲載日：2026-05-29</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183836\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長野県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "長野県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.nagano.lg.jp/zerocarbon/sho-ene_shindanhojokin.html",
+  "updatedAt": "2026-05-29T00:00:00.000Z",
+  "id": "jnet21-183836",
+  "slug": "jnet21-183836",
+  "title": "省エネ診断促進事業補助金（長野県）",
+  "source": "jnet21"
+}

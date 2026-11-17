@@ -44,7 +44,13 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "人材育成", "販路拡大", "デジタル化", "海外展開"],
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "販路拡大",
+    "デジタル化",
+    "海外展開"
+  ],
   "usePurpose": "販路拡大・海外展開をしたい / 雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和7年度SDS電子化補助金事業",

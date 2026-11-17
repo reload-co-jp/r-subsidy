@@ -1,0 +1,30 @@
+{
+  "overview": "県内に事業所を有する中小企業や小規模企業、中小企業や小規模企業のグループなどに対して、新製品・新技術開発等の研究開発に要する経費の一部を助成します。応募期間（2次公募）：令和8年11月2日（月）～令和8年12月24日（木）必着申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年11月2日～2026年12月24日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県内に事業所を有する中小企業や小規模企業、中小企業や小規模企業のグループなどに対して、新製品・新技術開発等の研究開発に要する経費の一部を助成します。応募期間（2次公募）：令和8年11月2日（月）～令和8年12月24日（木）必着申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年11月2日～2026年12月24日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：研究・商品開発、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：山梨県</li><li>実施機関：公益財団法人やまなし産業支援機構</li><li>J-Net21掲載日：2026-11-05</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195459\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "山梨県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "研究開発"
+  ],
+  "usePurpose": "研究・商品開発、経営改善・経営強化",
+  "status": "open",
+  "workflow": "公益財団法人やまなし産業支援機構",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-11-02",
+  "endDate": "2026-12-24",
+  "referenceUrl": "https://www.yiso.or.jp/service/promote1/",
+  "updatedAt": "2026-11-05T00:00:00.000Z",
+  "id": "jnet21-195459",
+  "slug": "jnet21-195459",
+  "title": "新製品・新技術研究開発助成事業（公益財団法人やまなし産業支援機構）",
+  "source": "jnet21"
+}

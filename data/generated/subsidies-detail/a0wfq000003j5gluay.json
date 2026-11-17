@@ -1,0 +1,33 @@
+{
+  "id": "a0WfQ000003j5GLUAY",
+  "slug": "a0wfq000003j5gluay",
+  "title": "「GX分野のディープテック・スタートアップへの事業開発支援事業（GX_UPP事業）」の第3回公募",
+  "overview": "",
+  "detail": "<p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、第3回「GX分野のディープテック・スタートアップへの事業開発支援事業（GX_UPP事業）」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/CA2_100511.html  \" rel=\"noopener noreferrer\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/CA2_100511.html  </a></p>",
+  "region": "national",
+  "prefectures": [],
+  "industries": [
+    "学術研究",
+    "専門・技術サービス業"
+  ],
+  "targetNumberOfEmployees": "従業員数の制約なし",
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": false,
+  "purposes": [
+    "研究開発",
+    "創業",
+    "省エネ"
+  ],
+  "usePurpose": "研究開発・実証事業を行いたい",
+  "status": "closed",
+  "workflow": "P25001_GX 分野のディープテック・スタートアップへの事業開発支援事業",
+  "subsidizedRate": null,
+  "upperLimit": "0円",
+  "lowerLimit": null,
+  "startDate": "2026-11-10",
+  "endDate": "2026-11-17",
+  "source": "jgrants",
+  "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WfQ000003j5GLUAY",
+  "updatedAt": "2026-11-17T00:19:06.522Z"
+}

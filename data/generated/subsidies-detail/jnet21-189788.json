@@ -1,0 +1,28 @@
+{
+  "overview": "特別高圧を受電する中小企業等に対して電気代の上昇分を支援します申請受付期間：令和8年8月17日（月曜日）10時〜令和8年12月11日（金曜日）募集期間2026年8月17日～2026年12月11日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>特別高圧を受電する中小企業等に対して電気代の上昇分を支援します申請受付期間：令和8年8月17日（月曜日）10時〜令和8年12月11日（金曜日）募集期間2026年8月17日～2026年12月11日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：福岡県</li><li>実施機関：福岡県</li><li>J-Net21掲載日：2026-08-17</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/189788\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福岡県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "open",
+  "workflow": "福岡県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-08-17",
+  "endDate": "2026-12-11",
+  "referenceUrl": "https://www.pref.fukuoka.lg.jp/contents/r8extra-high-voltage.html",
+  "updatedAt": "2026-08-17T00:00:00.000Z",
+  "id": "jnet21-189788",
+  "slug": "jnet21-189788",
+  "title": "【第六期申請受付開始】福岡県中小企業等特別高圧受電契約者支援金",
+  "source": "jnet21"
+}

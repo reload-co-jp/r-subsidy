@@ -1,0 +1,36 @@
+{
+  "overview": "令和2年7月豪雨、令和6年能登半島地震等で被災した中小企業等の施設、設備の復旧・整備、修繕に対し、補助による支援を実施します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>令和2年7月豪雨、令和6年能登半島地震等で被災した中小企業等の施設、設備の復旧・整備、修繕に対し、補助による支援を実施します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：被災事業者支援</li><li>業種：業種指定なし</li><li>地域：新潟県、富山県、石川県、福井県、熊本県</li><li>実施機関：石川県・富山県・福井県・新潟県・熊本県</li><li>J-Net21掲載日：2026-06-25</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/185927\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "新潟県",
+    "富山県",
+    "石川県",
+    "福井県",
+    "熊本県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "被災事業者支援",
+  "status": "unknown",
+  "workflow": "石川県・富山県・福井県・新潟県・熊本県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.chusho.meti.go.jp/pamflet/g_book/2026/download/2026gbookall.pdf#page=218",
+  "updatedAt": "2026-06-25T00:00:00.000Z",
+  "id": "jnet21-185927",
+  "slug": "jnet21-185927",
+  "title": "中小企業特定施設等災害復旧費補助金（なりわい再建支援事業）（石川県・富山県・福井県・新潟県・熊本県）",
+  "source": "jnet21"
+}

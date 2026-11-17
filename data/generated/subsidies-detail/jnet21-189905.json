@@ -1,0 +1,36 @@
+{
+  "overview": "果樹を選択する新規就農者を増やすため、既存の樹園地等を整備して技術研修を行い、研修終了後に研修生に樹園地を継承する取組を支援します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>果樹を選択する新規就農者を増やすため、既存の樹園地等を整備して技術研修を行い、研修終了後に研修生に樹園地を継承する取組を支援します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、事業承継</li><li>業種：農業，林業</li><li>地域：埼玉県</li><li>実施機関：埼玉県</li><li>J-Net21掲載日：2026-08-19</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/189905\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "埼玉県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成",
+    "研究開発",
+    "事業承継",
+    "創業"
+  ],
+  "usePurpose": "人材育成・雇用、事業承継",
+  "status": "unknown",
+  "workflow": "埼玉県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.saitama.lg.jp/a0903/shinkshuno/kaju-yobo.html",
+  "updatedAt": "2026-08-19T00:00:00.000Z",
+  "id": "jnet21-189905",
+  "slug": "jnet21-189905",
+  "title": "果樹新規就農円滑化事業（埼玉県）",
+  "source": "jnet21"
+}

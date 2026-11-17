@@ -1,0 +1,33 @@
+{
+  "overview": "神奈川県内において従事する介護支援専門員の確保・定着のために、介護支援専門員法定研修を修了後、一定の要件を満たす者に対して受講料を軽減する事業です。詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>神奈川県内において従事する介護支援専門員の確保・定着のために、介護支援専門員法定研修を修了後、一定の要件を満たす者に対して受講料を軽減する事業です。詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：神奈川県</li><li>実施機関：神奈川県</li><li>J-Net21掲載日：2026-09-04</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191348\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "神奈川県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.kanagawa.jp/docs/n7j/cm-futankeigen.html",
+  "updatedAt": "2026-09-04T00:00:00.000Z",
+  "id": "jnet21-191348",
+  "slug": "jnet21-191348",
+  "title": "介護支援専門員法定研修負担軽減事業について（神奈川県）",
+  "source": "jnet21"
+}

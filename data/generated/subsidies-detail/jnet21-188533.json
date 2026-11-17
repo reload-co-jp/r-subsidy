@@ -1,0 +1,33 @@
+{
+  "overview": "親等から農業を継承した農家へ予算の範囲内で支援金を交付します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>親等から農業を継承した農家へ予算の範囲内で支援金を交付します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：事業承継、経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：岩手県</li><li>実施機関：八幡平市</li><li>J-Net21掲載日：2026-07-31</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188533\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岩手県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "事業承継"
+  ],
+  "usePurpose": "事業承継、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "八幡平市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.hachimantai.lg.jp/soshiki/nourin/22544.html",
+  "updatedAt": "2026-07-31T00:00:00.000Z",
+  "id": "jnet21-188533",
+  "slug": "jnet21-188533",
+  "title": "親元で就農する農家に対して支援します（八幡平市）",
+  "source": "jnet21"
+}

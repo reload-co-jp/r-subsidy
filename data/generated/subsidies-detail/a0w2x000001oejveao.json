@@ -11,7 +11,12 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["人材育成", "販路拡大", "研究開発", "海外展開"],
+  "purposes": [
+    "人材育成",
+    "販路拡大",
+    "研究開発",
+    "海外展開"
+  ],
   "usePurpose": null,
   "status": "closed",
   "workflow": "技術協力活用型・新興国市場開拓事業（研修・専門家派遣事業）費補助金",

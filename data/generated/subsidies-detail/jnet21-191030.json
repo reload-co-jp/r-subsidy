@@ -1,0 +1,30 @@
+{
+  "overview": "市内企業による若手人材の確保を後押しするため、企業が新たに採用する34歳以下の従業員に対して奨学金の返済支援を行う場合に、その経費の一部を市が助成します。申請期限：令和9年1月31日募集期間2026年4月1日～2027年1月31日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内企業による若手人材の確保を後押しするため、企業が新たに採用する34歳以下の従業員に対して奨学金の返済支援を行う場合に、その経費の一部を市が助成します。申請期限：令和9年1月31日募集期間2026年4月1日～2027年1月31日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：滋賀県</li><li>実施機関：長浜市</li><li>J-Net21掲載日：2026-09-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191030\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "滋賀県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "長浜市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-31",
+  "endDate": "2027-01-31",
+  "referenceUrl": "https://www.city.nagahama.lg.jp/0000015413.html",
+  "updatedAt": "2026-09-01T00:00:00.000Z",
+  "id": "jnet21-191030",
+  "slug": "jnet21-191030",
+  "title": "長浜市中小企業者奨学金返済支援制度応援補助金",
+  "source": "jnet21"
+}

@@ -1,0 +1,33 @@
+{
+  "overview": "エネルギーの価格の高騰による地域公共交通等事業者の負担を緩和し、地域公共交通等の維持を図る臨時の措置として、公共交通事業者等に対して助成金を交付します。申請受付期間：令和8年7月15日（水曜日）から令和8年12月25日（金曜日）まで募集期間2026年7月15日～2026年12月25日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>エネルギーの価格の高騰による地域公共交通等事業者の負担を緩和し、地域公共交通等の維持を図る臨時の措置として、公共交通事業者等に対して助成金を交付します。申請受付期間：令和8年7月15日（水曜日）から令和8年12月25日（金曜日）まで募集期間2026年7月15日～2026年12月25日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：運輸業，郵便業</li><li>地域：兵庫県</li><li>実施機関：南あわじ市</li><li>J-Net21掲載日：2026-07-22</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187884\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "兵庫県"
+  ],
+  "industries": [
+    "運輸業",
+    "郵便業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "省エネ"
+  ],
+  "usePurpose": "経営改善・経営強化",
+  "status": "open",
+  "workflow": "南あわじ市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-07-15",
+  "endDate": "2026-12-25",
+  "referenceUrl": "https://www.city.minamiawaji.hyogo.jp/soshiki/koutsuu/keizokusien.html",
+  "updatedAt": "2026-07-22T00:00:00.000Z",
+  "id": "jnet21-187884",
+  "slug": "jnet21-187884",
+  "title": "令和8年度南あわじ市地域公共交通等運行継続支援事業助成金について",
+  "source": "jnet21"
+}

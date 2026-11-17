@@ -1,0 +1,33 @@
+{
+  "overview": "この補助金は、札幌市内で活動する個人や団体を対象として、IT技術に関連する高度な知識や技術力を競う大会の参加経費の一部を補助することで、将来の地域産業を牽引する人材の成長を促進し、本市産業全体の振興を図ることを目的としております。申請期限：令和9年3月31日（水曜日）募集期間～2027年3月31日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>この補助金は、札幌市内で活動する個人や団体を対象として、IT技術に関連する高度な知識や技術力を競う大会の参加経費の一部を補助することで、将来の地域産業を牽引する人材の成長を促進し、本市産業全体の振興を図ることを目的としております。申請期限：令和9年3月31日（水曜日）募集期間～2027年3月31日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、生産性向上・IT化、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：北海道</li><li>実施機関：札幌市</li><li>J-Net21掲載日：2026-09-17</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/192272\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "北海道"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "研究開発",
+    "デジタル化"
+  ],
+  "usePurpose": "人材育成・雇用、生産性向上・IT化、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "札幌市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-03-31",
+  "endDate": "2027-03-31",
+  "referenceUrl": "https://www.city.sapporo.jp/keizai/top/topics/it/miraiitcharenge.html",
+  "updatedAt": "2026-09-17T00:00:00.000Z",
+  "id": "jnet21-192272",
+  "slug": "jnet21-192272",
+  "title": "札幌市みらいIT人材チャレンジ補助金",
+  "source": "jnet21"
+}

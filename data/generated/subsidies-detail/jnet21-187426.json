@@ -1,0 +1,30 @@
+{
+  "overview": "若手人材確保のため、従業員の奨学金代理返還や手当等支給を行う中小企業への補助を実施します。申請期間：令和8年12月28日まで募集期間～2026年12月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>若手人材確保のため、従業員の奨学金代理返還や手当等支給を行う中小企業への補助を実施します。申請期間：令和8年12月28日まで募集期間～2026年12月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：福岡県</li><li>実施機関：福岡県</li><li>J-Net21掲載日：2026-07-14</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187426\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福岡県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "福岡県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-28",
+  "endDate": "2026-12-28",
+  "referenceUrl": "https://www.pref.fukuoka.lg.jp/contents/shogakukin-henkan-shien.html",
+  "updatedAt": "2026-07-14T00:00:00.000Z",
+  "id": "jnet21-187426",
+  "slug": "jnet21-187426",
+  "title": "福岡県奨学金返還助成による中小企業人材確保支援事業補助金",
+  "source": "jnet21"
+}

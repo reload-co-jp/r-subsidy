@@ -1,0 +1,32 @@
+{
+  "overview": "モノづくり企業の工場から発生する騒音・振動対策を行う場合に活用できる補助制度です",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>モノづくり企業の工場から発生する騒音・振動対策を行う場合に活用できる補助制度です</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：製造業</li><li>地域：大阪府</li><li>実施機関：東大阪市</li><li>J-Net21掲載日：2026-11-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195349\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "大阪府"
+  ],
+  "industries": [
+    "製造業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "東大阪市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.higashiosaka.lg.jp/0000040970.html",
+  "updatedAt": "2026-11-02T00:00:00.000Z",
+  "id": "jnet21-195349",
+  "slug": "jnet21-195349",
+  "title": "相隣環境対策支援補助金（東大阪市）",
+  "source": "jnet21"
+}

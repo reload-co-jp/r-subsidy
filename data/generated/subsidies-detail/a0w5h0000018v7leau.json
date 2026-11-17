@@ -18,7 +18,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["研究開発", "省エネ"],
+  "purposes": [
+    "研究開発",
+    "省エネ"
+  ],
   "usePurpose": "新たな事業を行いたい / イベント・事業運営支援がほしい / まちづくり・地域振興支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "地熱発電理解促進事業費補助金",

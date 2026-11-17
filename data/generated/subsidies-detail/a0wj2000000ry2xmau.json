@@ -44,7 +44,13 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["販路拡大", "研究開発", "創業", "デジタル化", "海外展開"],
+  "purposes": [
+    "販路拡大",
+    "研究開発",
+    "創業",
+    "デジタル化",
+    "海外展開"
+  ],
   "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "[一般社団法人発明推進協会]令和６年度_中小企業等海外展開支援事業費補助金_出願２",

@@ -1,0 +1,30 @@
+{
+  "overview": "静岡県内に本店等を有し、菊川市に事務所を有する中小企業様向けの奨学金返還支援制度です。中小企業等が従業員に支援した奨学金返還のための手当等又は代理返還した額の一部を補助します。申請期限：支援対象者に支援をしようとする日の2週間前又は令和8年12月10日まで",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>静岡県内に本店等を有し、菊川市に事務所を有する中小企業様向けの奨学金返還支援制度です。中小企業等が従業員に支援した奨学金返還のための手当等又は代理返還した額の一部を補助します。申請期限：支援対象者に支援をしようとする日の2週間前又は令和8年12月10日まで</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：静岡県</li><li>実施機関：菊川市</li><li>J-Net21掲載日：2026-06-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184125\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "静岡県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "open",
+  "workflow": "菊川市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": "2026-12-10",
+  "referenceUrl": "https://www.city.kikugawa.shizuoka.jp/sangyou/keieikiban/shougakukin.html",
+  "updatedAt": "2026-06-02T00:00:00.000Z",
+  "id": "jnet21-184125",
+  "slug": "jnet21-184125",
+  "title": "菊川市中小企業等奨学金返還支援事業費補助金",
+  "source": "jnet21"
+}

@@ -1,0 +1,31 @@
+{
+  "overview": "富士見市では、地球温暖化の防止及び大気環境の改善を目指し、環境にやさしい次世代自動車等を導入した方に対して補助金を交付しています。受付期間：令和8年6月1日（月曜日）から令和9年2月15日（月曜日）まで募集期間2026年6月1日～2027年2月15日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>富士見市では、地球温暖化の防止及び大気環境の改善を目指し、環境にやさしい次世代自動車等を導入した方に対して補助金を交付しています。受付期間：令和8年6月1日（月曜日）から令和9年2月15日（月曜日）まで募集期間2026年6月1日～2027年2月15日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：埼玉県</li><li>実施機関：富士見市</li><li>J-Net21掲載日：2026-05-22</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183227\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "埼玉県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "富士見市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-06-01",
+  "endDate": "2027-02-15",
+  "referenceUrl": "https://www.city.fujimi.saitama.jp/shisei/09kankyou/2015-1202-1454-52/renewable_energy/kankyou0120201216228.html",
+  "updatedAt": "2026-05-22T00:00:00.000Z",
+  "id": "jnet21-183227",
+  "slug": "jnet21-183227",
+  "title": "地球温暖化防止活動支援補助金（次世代自動車等導入促進補助金）（富士見市）",
+  "source": "jnet21"
+}

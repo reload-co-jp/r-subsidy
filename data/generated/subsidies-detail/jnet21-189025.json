@@ -1,0 +1,31 @@
+{
+  "overview": "診療効率の悪い山間地において畜産業に欠かせない獣医療体制を維持するため、山間地（旧合併町村部）の肉用牛農家に診療、繁殖管理等のため往診する家畜診療所を支援します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>診療効率の悪い山間地において畜産業に欠かせない獣医療体制を維持するため、山間地（旧合併町村部）の肉用牛農家に診療、繁殖管理等のため往診する家畜診療所を支援します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：学術研究，専門・技術サービス業</li><li>地域：愛知県</li><li>実施機関：豊田市</li><li>J-Net21掲載日：2026-08-05</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/189025\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "愛知県"
+  ],
+  "industries": [
+    "学術研究",
+    "専門・技術サービス業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "豊田市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.toyota.aichi.jp/sangyo/nogyo/1073315/nougyou/1073370/1053328.html",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "id": "jnet21-189025",
+  "slug": "jnet21-189025",
+  "title": "山間地獣医療支援補助金について～家畜診療される獣医のみなさまへ～（豊田市）",
+  "source": "jnet21"
+}

@@ -1,0 +1,32 @@
+{
+  "overview": "この事業は、全国的にIT人材不足が見込まれる中、IT人材の確保を促進し、市内企業の人材不足の緩和・解消を図ることを目的として、有料職業紹介を利用する手法により、外国人IT人材を雇用する市内事業者に対して、人材紹介手数料の一部を補助するものです。申請受付期間：令和9年3月31日（水曜日）募集期間2026年4月1日～2027年3月31日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>この事業は、全国的にIT人材不足が見込まれる中、IT人材の確保を促進し、市内企業の人材不足の緩和・解消を図ることを目的として、有料職業紹介を利用する手法により、外国人IT人材を雇用する市内事業者に対して、人材紹介手数料の一部を補助するものです。申請受付期間：令和9年3月31日（水曜日）募集期間2026年4月1日～2027年3月31日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、生産性向上・IT化、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：長崎県</li><li>実施機関：佐世保市</li><li>J-Net21掲載日：2026-10-22</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194525\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長崎県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "デジタル化"
+  ],
+  "usePurpose": "人材育成・雇用、生産性向上・IT化、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "佐世保市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-03-31",
+  "endDate": "2027-03-31",
+  "referenceUrl": "https://www.city.sasebo.lg.jp/keizai/syouko/gaikokujinitjinzai.html",
+  "updatedAt": "2026-10-22T00:00:00.000Z",
+  "id": "jnet21-194525",
+  "slug": "jnet21-194525",
+  "title": "令和8年度佐世保市外国人IT人材雇用促進補助金の申請募集",
+  "source": "jnet21"
+}

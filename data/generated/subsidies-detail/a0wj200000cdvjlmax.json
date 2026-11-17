@@ -5,13 +5,21 @@
   "overview": "",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p class=\"ql-indent-1\"><span style=\"font-size: 12px;\">多摩産材の品質と製材事業者の生産性向上のため、施設整備を行う製材事業者に対し、経費を支援します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■根拠法令</strong></p><p class=\"ql-indent-1\"><span style=\"font-size: 12px;\">森林法(昭和26年法第249号)</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 12px;\">森林・林業基本法(昭和39年法第161号)</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 12px;\">労働安全衛生法（昭和47年法 律第57号）</span></p><p class=\"ql-indent-1\"><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p class=\"ql-indent-1\"><span style=\"font-size: 12px;\">多摩産材認証協議会に登録の首都圏内事業者</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問い合わせ先</strong></p><p class=\"ql-indent-1\"><span style=\"font-size: 12px;\">（多摩地域）東京都産業労働局森林事務所 森林産業課　振興担当　0428-22-1162</span></p><p class=\"ql-indent-1\"><span style=\"font-size: 12px;\">（多摩地域以外）東京都産業労働局農林水産部森林課　木材流通担当　03-5320-4855</span></p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
-  "industries": ["農業", "林業"],
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
   "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "木材加工流通施設等の整備支援事業費補助金",

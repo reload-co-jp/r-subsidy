@@ -44,7 +44,13 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "人材育成", "研究開発", "省エネ", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "研究開発",
+    "省エネ",
+    "デジタル化"
+  ],
   "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "⾼等教育機関における共同講座創造⽀援事業費補助⾦",

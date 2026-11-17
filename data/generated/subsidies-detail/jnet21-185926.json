@@ -1,0 +1,32 @@
+{
+  "overview": "東日本大震災で被災した中小企業等のグループなどの施設の復旧・整備、修繕に対し、補助による支援を実施します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>東日本大震災で被災した中小企業等のグループなどの施設の復旧・整備、修繕に対し、補助による支援を実施します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：被災事業者支援</li><li>業種：業種指定なし</li><li>地域：福島県</li><li>実施機関：福島県</li><li>J-Net21掲載日：2026-06-25</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/185926\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福島県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "被災事業者支援",
+  "status": "unknown",
+  "workflow": "福島県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.chusho.meti.go.jp/pamflet/g_book/2026/download/2026gbookall.pdf#page=217",
+  "updatedAt": "2026-06-25T00:00:00.000Z",
+  "id": "jnet21-185926",
+  "slug": "jnet21-185926",
+  "title": "施設・設備の復旧・整備に対する補助制度（グループ補助金）（福島県）",
+  "source": "jnet21"
+}

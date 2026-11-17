@@ -1,0 +1,33 @@
+{
+  "overview": "自社製品の安定供給や品質管理向上、業務の効率化、新製品開発、コスト削減等に取り組む際、必要となる資機材の購入経費に対し、補助が受けられます。申請期限：令和9年1月29日まで募集期間～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>自社製品の安定供給や品質管理向上、業務の効率化、新製品開発、コスト削減等に取り組む際、必要となる資機材の購入経費に対し、補助が受けられます。申請期限：令和9年1月29日まで募集期間～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：地域活性化、研究・商品開発、経営改善・経営強化</li><li>業種：製造業</li><li>地域：鳥取県</li><li>実施機関：鳥取県</li><li>J-Net21掲載日：2026-07-22</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187881\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "鳥取県"
+  ],
+  "industries": [
+    "製造業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "研究開発"
+  ],
+  "usePurpose": "地域活性化、研究・商品開発、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "鳥取県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-29",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.pref.tottori.lg.jp/312038.htm",
+  "updatedAt": "2026-07-22T00:00:00.000Z",
+  "id": "jnet21-187881",
+  "slug": "jnet21-187881",
+  "title": "令和8年度鳥取県『森の国・木の街』づくり技術開発・実証トライアル支援事業費補助金",
+  "source": "jnet21"
+}

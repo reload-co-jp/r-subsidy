@@ -5,7 +5,9 @@
   "overview": "",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>本補助事業は、世界的な市場拡大が見込まれる高度管理医療機器等の先端医療機器分野において、中小企業者が都の派遣する各種の専門家の支援を受けて取り組む開発及び事業化に要する経費の一部を補助することにより、<span style=\"color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);\">先端医療機器の開発を支援することを目的としています</span>。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>令和３年度に先端医療機器アクセラレーションプロジェクトに採択され、カタライザー及び専門家による集中支援（ビジネスプランのブラッシュアップ）を受けている（1社）</p><p><span style=\"color: rgb(68, 68, 68);\">※申請書は、応募資格を満たす1社にのみ交付いたします。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p>「東京都内を中心に開発を行うこと」等</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>東京都産業労働局商工部創業支援課　成長産業担当（03-5320-4693）</p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "製造業",
     "情報通信業",
@@ -18,7 +20,10 @@
   "employeeMin": null,
   "employeeMax": 300,
   "isForSME": true,
-  "purposes": ["研究開発", "創業"],
+  "purposes": [
+    "研究開発",
+    "創業"
+  ],
   "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "先端医療機器アクセラレーションプロジェクト補助金",

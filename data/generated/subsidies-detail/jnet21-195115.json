@@ -1,0 +1,37 @@
+{
+  "overview": "空店舗の解消によるにぎわいの創出および商業の活性化を支援するため、新たに市内の空店舗に出店する新規創業者等に対し、店舗改修等に必要な経費の一部を助成します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>空店舗の解消によるにぎわいの創出および商業の活性化を支援するため、新たに市内の空店舗に出店する新規創業者等に対し、店舗改修等に必要な経費の一部を助成します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、地域活性化、経営改善・経営強化</li><li>業種：卸売業，小売業 宿泊業，飲食サービス業 医療，福祉 教育，学習支援業 生活関連サービス業，娯楽業</li><li>地域：広島県</li><li>実施機関：三次市</li><li>J-Net21掲載日：2026-10-30</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195115\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "広島県"
+  ],
+  "industries": [
+    "卸売業",
+    "小売業 宿泊業",
+    "飲食サービス業 医療",
+    "福祉 教育",
+    "学習支援業 生活関連サービス業",
+    "娯楽業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "創業"
+  ],
+  "usePurpose": "起業・創業、地域活性化、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "三次市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.miyoshi.hiroshima.jp/soshiki/31/1566.html",
+  "updatedAt": "2026-10-30T00:00:00.000Z",
+  "id": "jnet21-195115",
+  "slug": "jnet21-195115",
+  "title": "三次市空店舗出店支援事業補助金",
+  "source": "jnet21"
+}

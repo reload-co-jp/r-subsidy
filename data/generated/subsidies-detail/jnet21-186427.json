@@ -1,0 +1,31 @@
+{
+  "overview": "今般の燃油価格の高騰に伴い、特に影響が大きい建設業、製造業、運輸業を対象とし、今後の事業継続に向けた支援金を交付します。申請期限：令和8年12月25日（金曜日）まで募集期間～2026年12月25日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>今般の燃油価格の高騰に伴い、特に影響が大きい建設業、製造業、運輸業を対象とし、今後の事業継続に向けた支援金を交付します。申請期限：令和8年12月25日（金曜日）まで募集期間～2026年12月25日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：製造業 建設業 運輸業，郵便業</li><li>地域：新潟県</li><li>実施機関：新発田市</li><li>J-Net21掲載日：2026-07-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186427\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "新潟県"
+  ],
+  "industries": [
+    "製造業 建設業 運輸業",
+    "郵便業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "新発田市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-25",
+  "endDate": "2026-12-25",
+  "referenceUrl": "https://www.city.shibata.lg.jp/jigyosha/shien/shien/1031686.html",
+  "updatedAt": "2026-07-01T00:00:00.000Z",
+  "id": "jnet21-186427",
+  "slug": "jnet21-186427",
+  "title": "新発田市燃油価格高騰対策事業者支援金",
+  "source": "jnet21"
+}

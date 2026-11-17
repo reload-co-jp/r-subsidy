@@ -44,7 +44,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "人材育成", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "デジタル化"
+  ],
   "usePurpose": "新たな事業を行いたい / 事業を引き継ぎたい / まちづくり・地域振興支援がほしい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和4年度国立公園等資源整備事業費補助金",

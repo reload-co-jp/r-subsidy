@@ -1,0 +1,33 @@
+{
+  "overview": "国内外のさまざまな経営環境の変化に対応し得る農業経営への転換を図ろうとする地域の中核となる担い手に対し、必要な農業用機械・施設などの導入等を支援する国の事業です。＜申請を希望される方へ＞事業実施前に農林課にご相談ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>国内外のさまざまな経営環境の変化に対応し得る農業経営への転換を図ろうとする地域の中核となる担い手に対し、必要な農業用機械・施設などの導入等を支援する国の事業です。＜申請を希望される方へ＞事業実施前に農林課にご相談ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：農業，林業</li><li>地域：茨城県</li><li>実施機関：神栖市</li><li>J-Net21掲載日：2026-10-06</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193428\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "茨城県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "神栖市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.kamisu.ibaraki.jp/business/maff/1012045/1013965.html",
+  "updatedAt": "2026-10-06T00:00:00.000Z",
+  "id": "jnet21-193428",
+  "slug": "jnet21-193428",
+  "title": "担い手確保・経営強化支援事業（神栖市）",
+  "source": "jnet21"
+}

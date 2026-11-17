@@ -1,0 +1,31 @@
+{
+  "overview": "業務用施設のZEB化・省CO2化の普及加速に資する高効率設備導入等の取組を支援します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>業務用施設のZEB化・省CO2化の普及加速に資する高効率設備導入等の取組を支援します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：全国</li><li>実施機関：環境省</li><li>J-Net21掲載日：2026-07-31</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188502\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "環境省",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.chusho.meti.go.jp/pamflet/g_book/2026/download/2026gbookall.pdf#page=307",
+  "updatedAt": "2026-07-31T00:00:00.000Z",
+  "id": "jnet21-188502",
+  "slug": "jnet21-188502",
+  "title": "建築物等のZEB化・省CO2化普及加速事業（環境省）",
+  "source": "jnet21"
+}

@@ -1,0 +1,31 @@
+{
+  "overview": "ロボット、IoT等の汎用製品やオーダーメイド設備の導入に対し、国の補助金に上乗せした支援を行うことにより、中小企業等の省力化や生産性の向上を図る。申請期限（事前登録）：令和9年1月22日（金）申請期限（実績報告）：令和9年1月29日（金）申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>ロボット、IoT等の汎用製品やオーダーメイド設備の導入に対し、国の補助金に上乗せした支援を行うことにより、中小企業等の省力化や生産性の向上を図る。申請期限（事前登録）：令和9年1月22日（金）申請期限（実績報告）：令和9年1月29日（金）申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：大分県</li><li>実施機関：大分県</li><li>J-Net21掲載日：2026-06-05</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184371\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "大分県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化、設備投資",
+  "status": "upcoming",
+  "workflow": "大分県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-22",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.pref.oita.jp/site/tyusyodx/uwanosehojokin2026.html",
+  "updatedAt": "2026-06-05T00:00:00.000Z",
+  "id": "jnet21-184371",
+  "slug": "jnet21-184371",
+  "title": "大分県省力化・生産性向上支援補助金",
+  "source": "jnet21"
+}

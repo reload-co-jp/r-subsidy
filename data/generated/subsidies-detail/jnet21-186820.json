@@ -1,0 +1,36 @@
+{
+  "overview": "中小機構が提供する支援制度のポイントを掲載しています。中小企業・支援機関の方が、中小機構の施策をお探しになる際の手引書です。詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>中小機構が提供する支援制度のポイントを掲載しています。中小企業・支援機関の方が、中小機構の施策をお探しになる際の手引書です。詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、人材育成・雇用、事業承継、生産性向上・IT化、販路開拓、海外展開、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：全国</li><li>実施機関：独立行政法人中小企業基盤整備機構</li><li>J-Net21掲載日：2026-07-07</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186820\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "販路拡大",
+    "事業承継",
+    "創業",
+    "デジタル化",
+    "海外展開"
+  ],
+  "usePurpose": "起業・創業、人材育成・雇用、事業承継、生産性向上・IT化、販路開拓、海外展開、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "独立行政法人中小企業基盤整備機構",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.smrj.go.jp/tool/jver9n000000jk96-att/smrj_totalhandbook_20260702.pdf",
+  "updatedAt": "2026-07-07T00:00:00.000Z",
+  "id": "jnet21-186820",
+  "slug": "jnet21-186820",
+  "title": "支援情報：（令和8年度）中小機構 総合ハンドブック（独立行政法人中小企業基盤整備機構）",
+  "source": "jnet21"
+}

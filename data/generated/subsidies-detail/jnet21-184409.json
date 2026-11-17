@@ -1,0 +1,30 @@
+{
+  "overview": "民間事業者等が地域企業群や地域の関係機関（地方公共団体、経営支援機関、教育機関等）と連携し、地域が一体となって、人材確保・育成・定着を行う「地域の人事部」の取組を支援します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>民間事業者等が地域企業群や地域の関係機関（地方公共団体、経営支援機関、教育機関等）と連携し、地域が一体となって、人材確保・育成・定着を行う「地域の人事部」の取組を支援します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：全国</li><li>実施機関：経済産業省</li><li>J-Net21掲載日：2026-06-05</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184409\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "経済産業省",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.chusho.meti.go.jp/pamflet/g_book/2026/download/2026gbookall.pdf#page=173",
+  "updatedAt": "2026-06-05T00:00:00.000Z",
+  "id": "jnet21-184409",
+  "slug": "jnet21-184409",
+  "title": "地域の人事部支援事業（経済産業省）",
+  "source": "jnet21"
+}

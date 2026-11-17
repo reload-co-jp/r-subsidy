@@ -5,8 +5,13 @@
   "overview": "",
   "detail": "<p>大規模自然災害の発生時や新興感染症の発生・まん延時に、災害支援ナースを医療機関等の現場に速やかに派遣し、適切な看護業務を行えるよう、災害医療体制を整備することを目的とする。</p><p><br></p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
-  "industries": ["医療", "福祉"],
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,

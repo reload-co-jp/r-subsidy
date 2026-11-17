@@ -1,0 +1,30 @@
+{
+  "overview": "能美市の産業の振興を図り、産業構造の改善に資するため、市内に工場、事業場の設置を奨励することを目的とし、前年中に新たに投資した固定資産の課税標準額が3,000万円以上となる企業に対して助成します。申請期間：10月下旬～11月",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>能美市の産業の振興を図り、産業構造の改善に資するため、市内に工場、事業場の設置を奨励することを目的とし、前年中に新たに投資した固定資産の課税標準額が3,000万円以上となる企業に対して助成します。申請期間：10月下旬～11月</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：石川県</li><li>実施機関：能美市</li><li>J-Net21掲載日：2026-09-14</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191870\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "石川県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "能美市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.nomi.lg.jp/docs/936.html",
+  "updatedAt": "2026-09-14T00:00:00.000Z",
+  "id": "jnet21-191870",
+  "slug": "jnet21-191870",
+  "title": "産業振興奨励助成金（2028年3月31日まで経過措置があります）（能美市）",
+  "source": "jnet21"
+}

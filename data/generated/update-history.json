@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-15T12:04:40.462Z",
-  "totalCount": 3533,
+  "lastUpdated": "2026-11-17T04:27:01.480Z",
+  "totalCount": 4662,
   "sources": {
-    "jgrants": 3482,
+    "jgrants": 3540,
     "national": 0,
-    "tokyo": 17,
+    "tokyo": 13,
     "manual": 6,
-    "jnet21": 47,
-    "mhlw": 35
+    "jnet21": 1121,
+    "mhlw": 36
   }
 }

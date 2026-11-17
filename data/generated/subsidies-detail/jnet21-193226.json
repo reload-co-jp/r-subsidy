@@ -1,0 +1,28 @@
+{
+  "overview": "文京区中小企業向け融資あっせん制度における「現下の経済変動に対応するための緊急資金」または「現下の経済変動に対応するための事業多角化・業態転換資金」として融資を受けた方に対して、東京信用保証協会へ支払われた信用保証料を一部補助いたします。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>文京区中小企業向け融資あっせん制度における「現下の経済変動に対応するための緊急資金」または「現下の経済変動に対応するための事業多角化・業態転換資金」として融資を受けた方に対して、東京信用保証協会へ支払われた信用保証料を一部補助いたします。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：東京都</li><li>実施機関：文京区</li><li>J-Net21掲載日：2026-10-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193226\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "文京区",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.bunkyo.lg.jp/b012/p007801.html",
+  "updatedAt": "2026-10-02T00:00:00.000Z",
+  "id": "jnet21-193226",
+  "slug": "jnet21-193226",
+  "title": "文京区信用保証料補助金（令和9年3月31日終了予定）",
+  "source": "jnet21"
+}

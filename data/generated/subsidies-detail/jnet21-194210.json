@@ -1,0 +1,33 @@
+{
+  "overview": "障害福祉事業所における職員不足の解消を図るため、守山市内の障害福祉事業所へ新たに就職する人を対象に補助金を交付します。受付期限：勤務開始日（就職した日）または対象になる要件を満たした日から60日以内または当該年度の3月31日のいずれか早い日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>障害福祉事業所における職員不足の解消を図るため、守山市内の障害福祉事業所へ新たに就職する人を対象に補助金を交付します。受付期限：勤務開始日（就職した日）または対象になる要件を満たした日から60日以内または当該年度の3月31日のいずれか早い日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：滋賀県</li><li>実施機関：守山市</li><li>J-Net21掲載日：2026-10-19</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194210\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "滋賀県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "守山市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.moriyama.lg.jp/kenkoufukushi/shougaihukushi/1002607/1010115.html",
+  "updatedAt": "2026-10-19T00:00:00.000Z",
+  "id": "jnet21-194210",
+  "slug": "jnet21-194210",
+  "title": "相談支援専門員就職支援事業補助金（守山市）",
+  "source": "jnet21"
+}

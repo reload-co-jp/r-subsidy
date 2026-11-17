@@ -1,0 +1,33 @@
+{
+  "overview": "県内の介護サービス事業所及び介護施設における利用者へのサービス提供の継続及び質の向上並びに職員負担の軽減を図るため、スポットワークサービスの利用料の一部を補助します。申請期限：令和8年12月28日（月）募集期間～2026年12月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県内の介護サービス事業所及び介護施設における利用者へのサービス提供の継続及び質の向上並びに職員負担の軽減を図るため、スポットワークサービスの利用料の一部を補助します。申請期限：令和8年12月28日（月）募集期間～2026年12月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：青森県</li><li>実施機関：青森県</li><li>J-Net21掲載日：2026-08-25</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/190327\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "青森県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "青森県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-28",
+  "endDate": "2026-12-28",
+  "referenceUrl": "https://www.pref.aomori.lg.jp//soshiki/kenko/koreihoken/spotwork_hojokin.html",
+  "updatedAt": "2026-08-25T00:00:00.000Z",
+  "id": "jnet21-190327",
+  "slug": "jnet21-190327",
+  "title": "青森県介護事業所スポットワーク活用支援事業費補助金について",
+  "source": "jnet21"
+}

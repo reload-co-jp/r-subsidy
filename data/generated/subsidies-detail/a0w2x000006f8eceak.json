@@ -44,7 +44,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "省エネ", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "省エネ",
+    "デジタル化"
+  ],
   "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "省エネルギー投資促進支援事業費補助金【産業ヒートポンプ】",

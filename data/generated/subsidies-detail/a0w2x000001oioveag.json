@@ -11,7 +11,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
   "usePurpose": null,
   "status": "closed",
   "workflow": "令和３年度　石油製品販売業構造改善対策事業費補助金（離島・SS過疎地等における石油製品の流通合理化支援事業のうち過疎地等における石油製品の流通体制整備事業に係るもの）（単年度分）",

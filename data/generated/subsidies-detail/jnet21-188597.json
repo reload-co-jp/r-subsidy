@@ -1,0 +1,33 @@
+{
+  "overview": "業務改善助成金は、生産性向上に資する設備投資等（機械設備導入やコンサルティングなど）を行うとともに、事業場内最低賃金を一定額（各コースに定める金額）以上引き上げた場合、その設備投資などにかかった費用の一部を助成するものです。申請期間：令和8年9月1日～申請事業所の都道府県において適用される地域別最低賃金の発効日の前日又は同年11月30日のいずれか早い日募集期間2026年9月1日～",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>業務改善助成金は、生産性向上に資する設備投資等（機械設備導入やコンサルティングなど）を行うとともに、事業場内最低賃金を一定額（各コースに定める金額）以上引き上げた場合、その設備投資などにかかった費用の一部を助成するものです。申請期間：令和8年9月1日～申請事業所の都道府県において適用される地域別最低賃金の発効日の前日又は同年11月30日のいずれか早い日募集期間2026年9月1日～</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化、設備投資</li><li>業種：業種指定なし</li><li>地域：全国</li><li>実施機関：厚生労働省</li><li>J-Net21掲載日：2026-07-30</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188597\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "厚生労働省",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-09-01",
+  "endDate": "2026-11-30",
+  "referenceUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/zigyonushi/shienjigyou/03.html",
+  "updatedAt": "2026-07-30T00:00:00.000Z",
+  "id": "jnet21-188597",
+  "slug": "jnet21-188597",
+  "title": "業務改善助成金（厚生労働省）",
+  "source": "jnet21"
+}

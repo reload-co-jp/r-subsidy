@@ -1,0 +1,30 @@
+{
+  "overview": "柳津町では、町内で新たに事業を開始しようとする方を支援するため、「起業者支援事業補助金」を設けています。申請期間：事業所の開設前または開設から3年以内",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>柳津町では、町内で新たに事業を開始しようとする方を支援するため、「起業者支援事業補助金」を設けています。申請期間：事業所の開設前または開設から3年以内</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：福島県</li><li>実施機関：柳津町</li><li>J-Net21掲載日：2026-07-07</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186845\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福島県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "創業"
+  ],
+  "usePurpose": "起業・創業、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "柳津町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026070200018/",
+  "updatedAt": "2026-07-07T00:00:00.000Z",
+  "id": "jnet21-186845",
+  "slug": "jnet21-186845",
+  "title": "起業者支援事業補助金について（柳津町）",
+  "source": "jnet21"
+}

@@ -1,0 +1,31 @@
+{
+  "overview": "原油価格等の高騰により値上がりしている電気料金について、水利組合等の団体が管理する農業用水利施設の電気料金の一部を補助します。申請期限：令和9年1月29日（金）まで募集期間～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>原油価格等の高騰により値上がりしている電気料金について、水利組合等の団体が管理する農業用水利施設の電気料金の一部を補助します。申請期限：令和9年1月29日（金）まで募集期間～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：熊本県</li><li>実施機関：熊本市</li><li>J-Net21掲載日：2026-10-19</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194203\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "熊本県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "熊本市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-29",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.kumamoto.jp/kiji00363210/index.html",
+  "updatedAt": "2026-10-19T00:00:00.000Z",
+  "id": "jnet21-194203",
+  "slug": "jnet21-194203",
+  "title": "令和8年度（2026年度）農業水利施設電気料金高騰対策緊急支援補助金について（熊本市）",
+  "source": "jnet21"
+}

@@ -53,7 +53,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資", "人材育成", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "デジタル化"
+  ],
   "usePurpose": "雇用・職場環境を改善したい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "設備投資緊急支援事業",

@@ -1,0 +1,28 @@
+{
+  "overview": "板橋区では、日本政策金融公庫の小規模事業者経営改善資金（マル経融資）をご利用の区内事業者の方に、支払利子の一部を補助しています。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>板橋区では、日本政策金融公庫の小規模事業者経営改善資金（マル経融資）をご利用の区内事業者の方に、支払利子の一部を補助しています。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：東京都</li><li>実施機関：板橋区</li><li>J-Net21掲載日：2026-07-07</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186884\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "板橋区",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.itabashi.tokyo.jp/bunka/1061832/1062046/1064981/1065003.html",
+  "updatedAt": "2026-07-07T00:00:00.000Z",
+  "id": "jnet21-186884",
+  "slug": "jnet21-186884",
+  "title": "小規模事業者経営改善資金（マル経融資）利子補給制度（板橋区）",
+  "source": "jnet21"
+}

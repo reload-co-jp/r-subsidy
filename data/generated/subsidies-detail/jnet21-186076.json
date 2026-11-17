@@ -1,0 +1,31 @@
+{
+  "overview": "エネルギー価格等の物価高騰の影響を受ける市内商工業者に対し、省エネ設備等の導入費用の一部を補助します！申請受付期間：令和8年7月27日〜令和8年12月28日（消印有効）まで※先着順（書類が不備なく受理されたものより受付）募集期間2026年7月27日～2026年12月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>エネルギー価格等の物価高騰の影響を受ける市内商工業者に対し、省エネ設備等の導入費用の一部を補助します！申請受付期間：令和8年7月27日〜令和8年12月28日（消印有効）まで※先着順（書類が不備なく受理されたものより受付）募集期間2026年7月27日～2026年12月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：岡山県</li><li>実施機関：玉野市</li><li>J-Net21掲載日：2026-06-26</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186076\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岡山県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "玉野市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-07-27",
+  "endDate": "2026-12-28",
+  "referenceUrl": "https://www.city.tamano.lg.jp/soshiki/43/56928.html",
+  "updatedAt": "2026-06-26T00:00:00.000Z",
+  "id": "jnet21-186076",
+  "slug": "jnet21-186076",
+  "title": "玉野市省エネ投資促進事業補助金",
+  "source": "jnet21"
+}

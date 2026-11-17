@@ -1,0 +1,33 @@
+{
+  "overview": "次世代の本県産業を牽引する可能性を秘めた成長性の高いスタートアップビジネスの事業拡大を支援する補助金です。募集期間：年間を通して募集※申請を検討されている場合は、お早めに御相談ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>次世代の本県産業を牽引する可能性を秘めた成長性の高いスタートアップビジネスの事業拡大を支援する補助金です。募集期間：年間を通して募集※申請を検討されている場合は、お早めに御相談ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：販路開拓、研究・商品開発、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：鳥取県</li><li>実施機関：鳥取県</li><li>J-Net21掲載日：2026-06-19</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/185553\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "鳥取県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "販路拡大",
+    "研究開発",
+    "創業"
+  ],
+  "usePurpose": "販路開拓、研究・商品開発、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "鳥取県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.tottori.lg.jp/312270.htm",
+  "updatedAt": "2026-06-19T00:00:00.000Z",
+  "id": "jnet21-185553",
+  "slug": "jnet21-185553",
+  "title": "鳥取県スタートアップ創出加速化補助金（事業拡大型）",
+  "source": "jnet21"
+}

@@ -1,0 +1,33 @@
+{
+  "overview": "物価の高騰の影響を受けている鹿児島市内中小企業者等の人材の確保及び定着等に向けた取組を支援し、従業員の経済的負担軽減を図るため、奨学金代理返還支援制度を導入し、企業が従業員の代わりに負担する奨学金返還金の一部を補助します。申請期間：令和8年8月3日（月曜日）～令和8年11月30日（月曜日）募集期間2026年8月3日～2026年11月30日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>物価の高騰の影響を受けている鹿児島市内中小企業者等の人材の確保及び定着等に向けた取組を支援し、従業員の経済的負担軽減を図るため、奨学金代理返還支援制度を導入し、企業が従業員の代わりに負担する奨学金返還金の一部を補助します。申請期間：令和8年8月3日（月曜日）～令和8年11月30日（月曜日）募集期間2026年8月3日～2026年11月30日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：鹿児島県</li><li>実施機関：鹿児島市</li><li>J-Net21掲載日：2026-07-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186544\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "鹿児島県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "open",
+  "workflow": "鹿児島市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-08-03",
+  "endDate": "2026-11-30",
+  "referenceUrl": "https://www.city.kagoshima.lg.jp/koyosuishin/2026syougakukindairihenkan.html",
+  "updatedAt": "2026-07-03T00:00:00.000Z",
+  "id": "jnet21-186544",
+  "slug": "jnet21-186544",
+  "title": "鹿児島市奨学金代理返還支援補助金",
+  "source": "jnet21"
+}

@@ -1,0 +1,30 @@
+{
+  "overview": "中東情勢の混乱長期化等に伴うナフサおよび原油価格の高騰の影響を強く受けている市内の中小建設業者および中小製造業者に対し、予算の範囲内において補助金を交付します。申請期間：令和8年9月1日9時00分から令和9年1月29日23時59分まで募集期間2026年9月1日～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>中東情勢の混乱長期化等に伴うナフサおよび原油価格の高騰の影響を強く受けている市内の中小建設業者および中小製造業者に対し、予算の範囲内において補助金を交付します。申請期間：令和8年9月1日9時00分から令和9年1月29日23時59分まで募集期間2026年9月1日～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：製造業 建設業</li><li>地域：岐阜県</li><li>実施機関：各務原市</li><li>J-Net21掲載日：2026-08-04</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188803\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岐阜県"
+  ],
+  "industries": [
+    "製造業 建設業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "open",
+  "workflow": "各務原市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-09-01",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisaku/sangyo/1008446/1022027/1028123.html",
+  "updatedAt": "2026-08-04T00:00:00.000Z",
+  "id": "jnet21-188803",
+  "slug": "jnet21-188803",
+  "title": "各務原市石油由来副資材調達補助金",
+  "source": "jnet21"
+}

@@ -1,0 +1,31 @@
+{
+  "overview": "県内企業等の担い手不足の解消及び地域課題の解決並びに移住促進を図るため、東京圏（埼玉県、千葉県、東京都及び神奈川県）、愛知県又は大阪府から移住し、就業又は創業した方に対し、移住支援金（補助金）を交付するものです。申請期限：令和8年12月28日（月）募集期間2026年4月1日～2026年12月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県内企業等の担い手不足の解消及び地域課題の解決並びに移住促進を図るため、東京圏（埼玉県、千葉県、東京都及び神奈川県）、愛知県又は大阪府から移住し、就業又は創業した方に対し、移住支援金（補助金）を交付するものです。申請期限：令和8年12月28日（月）募集期間2026年4月1日～2026年12月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：長野県</li><li>実施機関：栄村</li><li>J-Net21掲載日：2026-09-15</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/192084\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長野県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成",
+    "創業"
+  ],
+  "usePurpose": "起業・創業、人材育成・雇用、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "栄村",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-28",
+  "endDate": "2026-12-28",
+  "referenceUrl": "http://www.vill.sakae.nagano.jp/docs/3529.html",
+  "updatedAt": "2026-09-15T00:00:00.000Z",
+  "id": "jnet21-192084",
+  "slug": "jnet21-192084",
+  "title": "栄村UIJターン就業・創業移住支援事業補助金",
+  "source": "jnet21"
+}

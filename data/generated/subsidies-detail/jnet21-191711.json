@@ -1,0 +1,30 @@
+{
+  "overview": "茨城県では、県内企業の人材確保と定着を支援するため、令和8年度から、中小企業等が奨学金を返済している従業員への手当支給や代理返還を行う場合、当該費用の一部を補助する制度を開始いたします。申請期限：令和8年12月28日（月曜日）まで募集期間2026年6月8日～2026年12月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>茨城県では、県内企業の人材確保と定着を支援するため、令和8年度から、中小企業等が奨学金を返済している従業員への手当支給や代理返還を行う場合、当該費用の一部を補助する制度を開始いたします。申請期限：令和8年12月28日（月曜日）まで募集期間2026年6月8日～2026年12月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：茨城県</li><li>実施機関：茨城県</li><li>J-Net21掲載日：2026-09-10</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191711\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "茨城県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "茨城県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-28",
+  "endDate": "2026-12-28",
+  "referenceUrl": "https://www.pref.ibaraki.jp/shokorodo/rosei/rodo/shogakukinhenkan/shien.html",
+  "updatedAt": "2026-09-10T00:00:00.000Z",
+  "id": "jnet21-191711",
+  "slug": "jnet21-191711",
+  "title": "茨城県企業支援型奨学金返還支援事業",
+  "source": "jnet21"
+}

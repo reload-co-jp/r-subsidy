@@ -1,0 +1,33 @@
+{
+  "overview": "介護サービス事業を行う法人が、介護職員等のキャリアアップを図るため、外部から講師を招いて行う事業所内研修又は介護職員等を研修へ派遣する事業に要する経費等を負担した場合、市が補助金を交付します。申請期限：研修開始の前日まで",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>介護サービス事業を行う法人が、介護職員等のキャリアアップを図るため、外部から講師を招いて行う事業所内研修又は介護職員等を研修へ派遣する事業に要する経費等を負担した場合、市が補助金を交付します。申請期限：研修開始の前日まで</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：神奈川県</li><li>実施機関：相模原市</li><li>J-Net21掲載日：2026-07-27</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188093\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "相模原市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026646/1026649/1026655/1007060.html",
+  "updatedAt": "2026-07-27T00:00:00.000Z",
+  "id": "jnet21-188093",
+  "slug": "jnet21-188093",
+  "title": "相模原市介護職員等キャリアアップ支援事業費補助金について",
+  "source": "jnet21"
+}

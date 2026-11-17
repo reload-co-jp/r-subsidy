@@ -1,0 +1,33 @@
+{
+  "overview": "5年以内に事業承継を予定している場合の設備投資等に係る費用や、M＆A時の専門家活用に係る費用（フィナンシャル・アドバイザー（FA）や仲介に係る費用、表明補償保険料等）、M＆A後の経営統合（PMI）に係る費用（専門家費用、設備投資等）、事業承継・M＆Aに伴う廃業等に係る費用（原状回復費・在庫処分費等）を補助します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>5年以内に事業承継を予定している場合の設備投資等に係る費用や、M＆A時の専門家活用に係る費用（フィナンシャル・アドバイザー（FA）や仲介に係る費用、表明補償保険料等）、M＆A後の経営統合（PMI）に係る費用（専門家費用、設備投資等）、事業承継・M＆Aに伴う廃業等に係る費用（原状回復費・在庫処分費等）を補助します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：事業承継、経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：全国</li><li>実施機関：中小企業庁・独立行政法人中小企業基盤整備機構</li><li>J-Net21掲載日：2026-07-23</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187994\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "事業承継"
+  ],
+  "usePurpose": "事業承継、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "中小企業庁・独立行政法人中小企業基盤整備機構",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.chusho.meti.go.jp/pamflet/g_book/2026/download/2026gbookall.pdf#page=275",
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "id": "jnet21-187994",
+  "slug": "jnet21-187994",
+  "title": "事業承継・M＆A補助金（中小企業庁・独立行政法人中小企業基盤整備機構）",
+  "source": "jnet21"
+}

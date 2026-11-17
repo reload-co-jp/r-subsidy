@@ -35,7 +35,9 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["研究開発"],
+  "purposes": [
+    "研究開発"
+  ],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "令和４年度ヘルスケアサービス社会実装事業費補助金",

@@ -1,0 +1,33 @@
+{
+  "overview": "全国的に人材不足等の理由により介護事業所の閉鎖が増加してきています。村では、介護事業所を支援し、介護サービスの提供体制を確保するため、「介護サービス提供体制確保事業」を実施します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>全国的に人材不足等の理由により介護事業所の閉鎖が増加してきています。村では、介護事業所を支援し、介護サービスの提供体制を確保するため、「介護サービス提供体制確保事業」を実施します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：熊本県</li><li>実施機関：球磨村</li><li>J-Net21掲載日：2026-08-05</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188940\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "熊本県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "球磨村",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.kumamura.com/kiji0032089/index.html",
+  "updatedAt": "2026-08-05T00:00:00.000Z",
+  "id": "jnet21-188940",
+  "slug": "jnet21-188940",
+  "title": "球磨村介護サービス提供体制確保事業について",
+  "source": "jnet21"
+}

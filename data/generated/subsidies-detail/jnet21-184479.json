@@ -1,0 +1,35 @@
+{
+  "overview": "生産性の向上と労働負担の軽減を通じて経営基盤の強化と高収益化を図るため、ICTやロボット技術などの先端技術を搭載したスマート農業機械の導入を支援することで、農業者や農業団体による営農活動を支援します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>生産性の向上と労働負担の軽減を通じて経営基盤の強化と高収益化を図るため、ICTやロボット技術などの先端技術を搭載したスマート農業機械の導入を支援することで、農業者や農業団体による営農活動を支援します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化、設備投資</li><li>業種：農業，林業</li><li>地域：京都府</li><li>実施機関：福知山市</li><li>J-Net21掲載日：2026-06-05</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184479\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "京都府"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "研究開発",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "福知山市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.fukuchiyama.lg.jp/soshiki/27/85687.html",
+  "updatedAt": "2026-06-05T00:00:00.000Z",
+  "id": "jnet21-184479",
+  "slug": "jnet21-184479",
+  "title": "福知山市スマート農業DX導入支援事業補助金のご案内",
+  "source": "jnet21"
+}

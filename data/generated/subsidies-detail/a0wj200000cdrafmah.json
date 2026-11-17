@@ -53,7 +53,9 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資"],
+  "purposes": [
+    "設備投資"
+  ],
   "usePurpose": "安全・防災対策支援がほしい / エコ・SDGs活動支援がほしい",
   "status": "open",
   "workflow": "危機管理対策促進事業_事業完了後の各種申請",

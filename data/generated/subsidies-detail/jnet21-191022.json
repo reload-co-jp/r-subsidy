@@ -1,0 +1,33 @@
+{
+  "overview": "町に人の流れを生み商工業の発展と地元客や観光客で賑わうまちづくりを推進することを目的として、事業所の改修、空き家活用、起業等に係る経費の一部を支援します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>町に人の流れを生み商工業の発展と地元客や観光客で賑わうまちづくりを推進することを目的として、事業所の改修、空き家活用、起業等に係る経費の一部を支援します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、経営改善・経営強化、設備投資</li><li>業種：業種指定なし</li><li>地域：熊本県</li><li>実施機関：山都町</li><li>J-Net21掲載日：2026-09-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191022\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "熊本県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "創業"
+  ],
+  "usePurpose": "起業・創業、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "山都町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.kumamoto-yamato.lg.jp/kiji00310474/index.html",
+  "updatedAt": "2026-09-01T00:00:00.000Z",
+  "id": "jnet21-191022",
+  "slug": "jnet21-191022",
+  "title": "受付中 山都町事業所改修等支援事業補助金について（商工観光課）",
+  "source": "jnet21"
+}

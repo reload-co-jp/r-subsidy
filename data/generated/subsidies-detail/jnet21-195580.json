@@ -1,0 +1,33 @@
+{
+  "overview": "県、国や公益財団法人神奈川産業振興センターで実施している支援施策を、「売上高が減少した」「販路を拡大したい」など県内中小企業の皆様が抱える経営課題毎にまとめて掲載しています。また、米国関税や日産自動車生産縮小に関する相談を受けている特別相談窓口一覧を掲載しています。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県、国や公益財団法人神奈川産業振興センターで実施している支援施策を、「売上高が減少した」「販路を拡大したい」など県内中小企業の皆様が抱える経営課題毎にまとめて掲載しています。また、米国関税や日産自動車生産縮小に関する相談を受けている特別相談窓口一覧を掲載しています。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：事業承継、生産性向上・IT化、販路開拓、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：神奈川県</li><li>実施機関：神奈川県</li><li>J-Net21掲載日：2026-11-06</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195580\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "販路拡大",
+    "事業承継",
+    "デジタル化"
+  ],
+  "usePurpose": "事業承継、生産性向上・IT化、販路開拓、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "神奈川県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.kanagawa.jp/docs/jf2/wg/shiensesaku_leaflet.html",
+  "updatedAt": "2026-11-06T00:00:00.000Z",
+  "id": "jnet21-195580",
+  "slug": "jnet21-195580",
+  "title": "米国関税及び日産自動車生産縮小の影響を受ける県内中小企業向け支援施策リーフレット（神奈川県）",
+  "source": "jnet21"
+}

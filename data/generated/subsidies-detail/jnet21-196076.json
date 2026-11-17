@@ -1,0 +1,31 @@
+{
+  "overview": "本市では、国の「重点⽀援地⽅交付⾦」を活⽤し、燃油⾼騰による影響を受けた市内の林業事業体等の経営の安定を図るための⽀援を⾏います。申請期限：令和9年2月1日（月曜日）※消印有効募集期間～2027年2月1日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>本市では、国の「重点⽀援地⽅交付⾦」を活⽤し、燃油⾼騰による影響を受けた市内の林業事業体等の経営の安定を図るための⽀援を⾏います。申請期限：令和9年2月1日（月曜日）※消印有効募集期間～2027年2月1日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：製造業 農業，林業</li><li>地域：鹿児島県</li><li>実施機関：霧島市</li><li>J-Net21掲載日：2026-11-13</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/196076\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "鹿児島県"
+  ],
+  "industries": [
+    "製造業 農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "霧島市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-02-01",
+  "endDate": "2027-02-01",
+  "referenceUrl": "https://www.city-kirishima.jp/rinmusuisan/fuel_cost.html",
+  "updatedAt": "2026-11-13T00:00:00.000Z",
+  "id": "jnet21-196076",
+  "slug": "jnet21-196076",
+  "title": "【申請受付中】林業用燃油高騰対策支援事業補助金のお知らせ（霧島市）",
+  "source": "jnet21"
+}

@@ -1,0 +1,34 @@
+{
+  "overview": "市内において工場・事業所等の設備を新増設した場合、対象資産に係る固定資産税相当額を3年間助成します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内において工場・事業所等の設備を新増設した場合、対象資産に係る固定資産税相当額を3年間助成します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：製造業 卸売業，小売業 運輸業，郵便業 情報通信業</li><li>地域：岩手県</li><li>実施機関：一関市</li><li>J-Net21掲載日：2026-10-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193065\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岩手県"
+  ],
+  "industries": [
+    "製造業 卸売業",
+    "小売業 運輸業",
+    "郵便業 情報通信業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "一関市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.ichinoseki.iwate.jp/archive/p20260616131357",
+  "updatedAt": "2026-10-01T00:00:00.000Z",
+  "id": "jnet21-193065",
+  "slug": "jnet21-193065",
+  "title": "生産設備等投資促進補助金（一関市）",
+  "source": "jnet21"
+}

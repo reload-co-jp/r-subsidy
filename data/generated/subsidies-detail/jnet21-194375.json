@@ -1,0 +1,28 @@
+{
+  "overview": "【一般型 災害支援枠（令和8年熊本地震）とは】熊本県に所在する、令和8年熊本地震より被害を受けた、商工会の管轄地域で事業を営んでいる小規模事業者等が対象です。支援機関確認書（様式3）発行の受付締切：令和8年12月8日（火）申請受付期間：令和8年11月2日（月）〜令和8年12月15日（火）［郵送 締切日当日消印有効、電子申請 締切日17：00］募集期間2026年11月2日～2026年12月15日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>【一般型 災害支援枠（令和8年熊本地震）とは】熊本県に所在する、令和8年熊本地震より被害を受けた、商工会の管轄地域で事業を営んでいる小規模事業者等が対象です。支援機関確認書（様式3）発行の受付締切：令和8年12月8日（火）申請受付期間：令和8年11月2日（月）〜令和8年12月15日（火）［郵送 締切日当日消印有効、電子申請 締切日17：00］募集期間2026年11月2日～2026年12月15日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：被災事業者支援</li><li>業種：指定無し</li><li>地域：熊本県</li><li>実施機関：独立行政法人中小企業基盤整備機構</li><li>J-Net21掲載日：2026-10-20</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194375\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "熊本県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "被災事業者支援",
+  "status": "upcoming",
+  "workflow": "独立行政法人中小企業基盤整備機構",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-08",
+  "endDate": "2026-12-15",
+  "referenceUrl": "https://www.jizokukanb.com/jizokuka_r6h/saigai/kumamoto/",
+  "updatedAt": "2026-10-20T00:00:00.000Z",
+  "id": "jnet21-194375",
+  "slug": "jnet21-194375",
+  "title": "商工会地区 小規模事業者持続化補助金 一般型 災害支援枠（令和8年熊本地震）（独立行政法人中小企業基盤整備機構）",
+  "source": "jnet21"
+}

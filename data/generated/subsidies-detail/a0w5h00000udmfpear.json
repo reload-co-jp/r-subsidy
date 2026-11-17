@@ -5,7 +5,9 @@
   "overview": "脱炭素化に資するビジネスの創出につながる製品・サービスの開発等を進める事業者を支援します",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■補助対象者</strong></p><p>県内に事業所を有する事業者、又は補助対象事業を県内で行う事業者</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助対象事業</strong></p><p>脱炭素化に資するビジネスの創出につながる製品やサービスの開発事業又はビジネスモデル事業（実証実験等を含む）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>群馬県 知事戦略部 グリーンイノベーション推進課 企業連携係</p><p>〒371-8570　群馬県前橋市大手町1-1-1　県庁舎16階北フロア</p><p>TEL：027-898-2751</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>群馬県ホームページ（カーボンニュートラルビジネス支援補助金）のページを参照ください。</p><p>https://www.pref.gunma.jp/site/hojokin/638243.html</p>",
   "region": "prefecture",
-  "prefectures": ["群馬県"],
+  "prefectures": [
+    "群馬県"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -43,7 +45,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["研究開発", "省エネ"],
+  "purposes": [
+    "研究開発",
+    "省エネ"
+  ],
   "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "カーボンニュートラルビジネス支援補助金",

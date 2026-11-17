@@ -1,0 +1,31 @@
+{
+  "overview": "市では、集合住宅若しくは事業所等に太陽光発電設備を設置した者に対し、「流山市集合住宅・事業所用太陽光発電設備設置補助金」を交付します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市では、集合住宅若しくは事業所等に太陽光発電設備を設置した者に対し、「流山市集合住宅・事業所用太陽光発電設備設置補助金」を交付します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：千葉県</li><li>実施機関：流山市</li><li>J-Net21掲載日：2026-09-14</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191949\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "千葉県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "流山市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.nagareyama.chiba.jp/life/1002584/1002591/1042165/index.html",
+  "updatedAt": "2026-09-14T00:00:00.000Z",
+  "id": "jnet21-191949",
+  "slug": "jnet21-191949",
+  "title": "流山市集合住宅・事業所用太陽光発電設備設置補助金",
+  "source": "jnet21"
+}

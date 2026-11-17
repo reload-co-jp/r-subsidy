@@ -1,0 +1,36 @@
+{
+  "overview": "「ながさき造船サプライチェーン強靭化補助金」の様式集です。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>「ながさき造船サプライチェーン強靭化補助金」の様式集です。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、販路開拓、研究・商品開発、経営改善・経営強化、設備投資</li><li>業種：製造業 学術研究，専門・技術サービス業</li><li>地域：長崎県</li><li>実施機関：長崎県</li><li>J-Net21掲載日：2026-07-31</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188613\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長崎県"
+  ],
+  "industries": [
+    "製造業 学術研究",
+    "専門・技術サービス業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "販路拡大",
+    "研究開発"
+  ],
+  "usePurpose": "人材育成・雇用、販路開拓、研究・商品開発、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "長崎県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.nagasaki.jp/doc/50857.html",
+  "updatedAt": "2026-07-31T00:00:00.000Z",
+  "id": "jnet21-188613",
+  "slug": "jnet21-188613",
+  "title": "様式集（ながさき造船サプライチェーン強靭化補助金）（長崎県）",
+  "source": "jnet21"
+}

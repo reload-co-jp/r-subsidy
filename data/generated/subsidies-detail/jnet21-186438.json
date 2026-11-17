@@ -1,0 +1,34 @@
+{
+  "overview": "八王子市では、令和8年7月1日から「ケアプランデータ連携システム活用促進事業」として、ケアプランデータ連携システム未導入の事業所を対象に、導入に必要なパソコン、タブレット等の購入費用補助（上限10万円）を開始します。申請期間：令和8年7月1日（水）から令和8年12月15日（火）まで募集期間2026年7月1日～2026年12月15日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>八王子市では、令和8年7月1日から「ケアプランデータ連携システム活用促進事業」として、ケアプランデータ連携システム未導入の事業所を対象に、導入に必要なパソコン、タブレット等の購入費用補助（上限10万円）を開始します。申請期間：令和8年7月1日（水）から令和8年12月15日（火）まで募集期間2026年7月1日～2026年12月15日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化、設備投資</li><li>業種：医療，福祉</li><li>地域：東京都</li><li>実施機関：八王子市</li><li>J-Net21掲載日：2026-07-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186438\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "tokyo",
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "八王子市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-07-01",
+  "endDate": "2026-12-15",
+  "referenceUrl": "https://www.city.hachioji.tokyo.jp/jigyosha/011/003/001/p037621.html",
+  "updatedAt": "2026-07-02T00:00:00.000Z",
+  "id": "jnet21-186438",
+  "slug": "jnet21-186438",
+  "title": "令和8年度にケアプランデータ連携システム活用促進事業を実施します（八王子市）",
+  "source": "jnet21"
+}

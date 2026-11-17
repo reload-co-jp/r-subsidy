@@ -1,0 +1,33 @@
+{
+  "overview": "市では、農業生産資材の価格高騰により、経済的な影響を受けた農業者に対して、新規事業として「農業者物価高騰対策支援事業補助金」を交付します。受付期間：令和8年10月1日～令和8年12月31日募集期間2026年10月1日～2026年12月31日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市では、農業生産資材の価格高騰により、経済的な影響を受けた農業者に対して、新規事業として「農業者物価高騰対策支援事業補助金」を交付します。受付期間：令和8年10月1日～令和8年12月31日募集期間2026年10月1日～2026年12月31日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：群馬県</li><li>実施機関：渋川市</li><li>J-Net21掲載日：2026-10-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193103\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "群馬県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "創業"
+  ],
+  "usePurpose": "経営改善・経営強化",
+  "status": "open",
+  "workflow": "渋川市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-10-01",
+  "endDate": "2026-12-31",
+  "referenceUrl": "https://www.city.shibukawa.lg.jp/sangyou/000156/000159/p015760.html",
+  "updatedAt": "2026-10-02T00:00:00.000Z",
+  "id": "jnet21-193103",
+  "slug": "jnet21-193103",
+  "title": "渋川市農業者物価高騰対策支援事業補助金について",
+  "source": "jnet21"
+}

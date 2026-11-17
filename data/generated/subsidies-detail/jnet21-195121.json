@@ -1,0 +1,28 @@
+{
+  "overview": "小企業の経営の安定と発展を支援するため、日本政策金融公庫の小規模事業者経営改善資金（マル経融資）を利用した事業者に対し、利子補給金を交付します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>小企業の経営の安定と発展を支援するため、日本政策金融公庫の小規模事業者経営改善資金（マル経融資）を利用した事業者に対し、利子補給金を交付します。申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：広島県</li><li>実施機関：三次市</li><li>J-Net21掲載日：2026-10-30</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195121\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "広島県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "三次市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.miyoshi.hiroshima.jp/soshiki/31/1544.html",
+  "updatedAt": "2026-10-30T00:00:00.000Z",
+  "id": "jnet21-195121",
+  "slug": "jnet21-195121",
+  "title": "小規模事業者経営改善資金（マル経融資）利子補給金（三次市）",
+  "source": "jnet21"
+}

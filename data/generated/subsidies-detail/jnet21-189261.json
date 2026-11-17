@@ -1,0 +1,33 @@
+{
+  "overview": "本県は薬剤師少数県であり、人口10万人当たり病院薬剤師数は特に少ない状況となっています。この厳しい状況の中、県では、病院薬剤師の確保に取り組む病院を支援し、県内病院薬剤師の確保・定着を図ることを目的として、「新たに県内の病院に就職した薬剤師に対する奨学金返還支援制度を有する病院」に対して、一定期間従事させること等を条件に、その支援額の一定額を補助することとしました。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>本県は薬剤師少数県であり、人口10万人当たり病院薬剤師数は特に少ない状況となっています。この厳しい状況の中、県では、病院薬剤師の確保に取り組む病院を支援し、県内病院薬剤師の確保・定着を図ることを目的として、「新たに県内の病院に就職した薬剤師に対する奨学金返還支援制度を有する病院」に対して、一定期間従事させること等を条件に、その支援額の一定額を補助することとしました。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：青森県</li><li>実施機関：青森県</li><li>J-Net21掲載日：2026-08-07</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/189261\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "青森県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "青森県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.aomori.lg.jp//soshiki/kenko/iryo/byouinyakuzaishi_henkanshien.html",
+  "updatedAt": "2026-08-07T00:00:00.000Z",
+  "id": "jnet21-189261",
+  "slug": "jnet21-189261",
+  "title": "病院薬剤師の奨学金の返還支援事業費の補助について（青森県）",
+  "source": "jnet21"
+}

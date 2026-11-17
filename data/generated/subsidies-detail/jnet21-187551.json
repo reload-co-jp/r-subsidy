@@ -1,0 +1,33 @@
+{
+  "overview": "中小貨物自動車運送事業者の従業員が、大型一種、中型一種、準中型免許、けん引免許を取得した際に、奨励金を交付します。申請期間：令和8年4月27日（月曜日）から令和9年2月12日（金曜日）まで募集期間2026年4月27日～2027年2月12日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>中小貨物自動車運送事業者の従業員が、大型一種、中型一種、準中型免許、けん引免許を取得した際に、奨励金を交付します。申請期間：令和8年4月27日（月曜日）から令和9年2月12日（金曜日）まで募集期間2026年4月27日～2027年2月12日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：運輸業，郵便業</li><li>地域：神奈川県</li><li>実施機関：神奈川県</li><li>J-Net21掲載日：2026-07-16</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187551\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [
+    "運輸業",
+    "郵便業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "open",
+  "workflow": "神奈川県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-04-27",
+  "endDate": "2027-02-12",
+  "referenceUrl": "https://www.pref.kanagawa.jp/docs/m2w/r8_oogata.html",
+  "updatedAt": "2026-07-16T00:00:00.000Z",
+  "id": "jnet21-187551",
+  "slug": "jnet21-187551",
+  "title": "令和8年度神奈川県大型等運転免許取得促進奨励金",
+  "source": "jnet21"
+}

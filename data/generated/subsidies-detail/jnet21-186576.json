@@ -1,0 +1,33 @@
+{
+  "overview": "1年以内に精神障がい者を雇用し、職場指導員を設置して、障がい者が働きやすい職場環境を整えている県内の法人へ、補助を行っています。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>1年以内に精神障がい者を雇用し、職場指導員を設置して、障がい者が働きやすい職場環境を整えている県内の法人へ、補助を行っています。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、環境・省エネ・SDGs、経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：神奈川県</li><li>実施機関：神奈川県</li><li>J-Net21掲載日：2026-07-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186576\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成",
+    "省エネ"
+  ],
+  "usePurpose": "人材育成・雇用、環境・省エネ・SDGs、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "神奈川県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.kanagawa.jp/docs/z4r/syogaisyakoyo/hojokin.html",
+  "updatedAt": "2026-07-03T00:00:00.000Z",
+  "id": "jnet21-186576",
+  "slug": "jnet21-186576",
+  "title": "神奈川県精神障害者職場指導員設置補助金",
+  "source": "jnet21"
+}

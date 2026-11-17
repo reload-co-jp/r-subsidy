@@ -1,0 +1,33 @@
+{
+  "overview": "農業経営を支援するため、農地賃借料や農業用機械購入費等の助成を行っております。募集期間2026年8月19日～",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>農業経営を支援するため、農地賃借料や農業用機械購入費等の助成を行っております。募集期間2026年8月19日～</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：農業，林業</li><li>地域：山形県</li><li>実施機関：上山市</li><li>J-Net21掲載日：2026-09-11</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191577\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "山形県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "上山市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-08-19",
+  "endDate": null,
+  "referenceUrl": "https://www.city.kaminoyama.yamagata.jp/soshiki/11/kaminoyamasininaitehojyo2026keizoku.html",
+  "updatedAt": "2026-09-11T00:00:00.000Z",
+  "id": "jnet21-191577",
+  "slug": "jnet21-191577",
+  "title": "農業用機械購入費等を支援します【令和8年度上山市担い手等経営確立支援事業】",
+  "source": "jnet21"
+}

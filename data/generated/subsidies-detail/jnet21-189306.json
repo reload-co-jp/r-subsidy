@@ -1,0 +1,33 @@
+{
+  "overview": "中種子町では、介護・福祉人材の確保のため、介護事業所等が外国人介護人材を雇用するための経費を支援する制度を創設しました。外国人材を雇用する介護事業所等の申請をお待ちしています。申請期限：令和9年3月12日（金）募集期間～2027年3月12日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>中種子町では、介護・福祉人材の確保のため、介護事業所等が外国人介護人材を雇用するための経費を支援する制度を創設しました。外国人材を雇用する介護事業所等の申請をお待ちしています。申請期限：令和9年3月12日（金）募集期間～2027年3月12日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：鹿児島県</li><li>実施機関：中種子町</li><li>J-Net21掲載日：2026-08-10</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/189306\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "鹿児島県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "中種子町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-03-12",
+  "endDate": "2027-03-12",
+  "referenceUrl": "https://town.nakatane.kagoshima.jp/kaigo/gaikokujinzai.html",
+  "updatedAt": "2026-08-10T00:00:00.000Z",
+  "id": "jnet21-189306",
+  "slug": "jnet21-189306",
+  "title": "外国人介護・福祉人材確保補助金（中種子町）",
+  "source": "jnet21"
+}

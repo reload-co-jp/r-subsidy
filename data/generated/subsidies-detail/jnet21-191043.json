@@ -1,0 +1,37 @@
+{
+  "overview": "中小企業の経営力強化や研究・技術開発、新事業展開などを支援するため、国や県、市や関係団体などで様々な支援策が実施されています。そこで、企業の皆様に有効活用いただけるように、主な支援策の情報を目的別にまとめ、随時更新していきますので、ご関心のある支援策がありましたら、詳細内容をご確認いただき、貴社の事業活動にお役立てください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>中小企業の経営力強化や研究・技術開発、新事業展開などを支援するため、国や県、市や関係団体などで様々な支援策が実施されています。そこで、企業の皆様に有効活用いただけるように、主な支援策の情報を目的別にまとめ、随時更新していきますので、ご関心のある支援策がありましたら、詳細内容をご確認いただき、貴社の事業活動にお役立てください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、事業承継、生産性向上・IT化、環境・省エネ・SDGs、販路開拓、海外展開、研究・商品開発、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：長野県</li><li>実施機関：千曲市</li><li>J-Net21掲載日：2026-09-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191043\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長野県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "販路拡大",
+    "研究開発",
+    "事業承継",
+    "省エネ",
+    "デジタル化",
+    "海外展開"
+  ],
+  "usePurpose": "人材育成・雇用、事業承継、生産性向上・IT化、環境・省エネ・SDGs、販路開拓、海外展開、研究・商品開発、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "千曲市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.chikuma.lg.jp/shigoto_sangyo/sangyoshinko/5497.html",
+  "updatedAt": "2026-09-01T00:00:00.000Z",
+  "id": "jnet21-191043",
+  "slug": "jnet21-191043",
+  "title": "千曲市商工業制度のご案内（令和8年4月版）",
+  "source": "jnet21"
+}

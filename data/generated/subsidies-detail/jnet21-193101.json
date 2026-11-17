@@ -1,0 +1,28 @@
+{
+  "overview": "小規模事業者経営改善資金（マル経資金）を借り入れた方を対象に、支払利子額80%以内の範囲で利子補給をします。申請期限：令和9年3月31日まで募集期間～2027年3月31日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>小規模事業者経営改善資金（マル経資金）を借り入れた方を対象に、支払利子額80%以内の範囲で利子補給をします。申請期限：令和9年3月31日まで募集期間～2027年3月31日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：岡山県</li><li>実施機関：真庭市</li><li>J-Net21掲載日：2026-10-02</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193101\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岡山県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "真庭市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-03-31",
+  "endDate": "2027-03-31",
+  "referenceUrl": "https://www.city.maniwa.lg.jp/soshiki/40/2150.html",
+  "updatedAt": "2026-10-02T00:00:00.000Z",
+  "id": "jnet21-193101",
+  "slug": "jnet21-193101",
+  "title": "マル経資金利子補給金（真庭市）",
+  "source": "jnet21"
+}

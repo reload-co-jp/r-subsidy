@@ -1,0 +1,31 @@
+{
+  "overview": "佐々町では、空き店舗等を活用して開業する事業者を支援し、空き店舗の解消を図ることを目的に、改装等に係る費用の一部について支援を行います。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>佐々町では、空き店舗等を活用して開業する事業者を支援し、空き店舗の解消を図ることを目的に、改装等に係る費用の一部について支援を行います。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：地域活性化、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：長崎県</li><li>実施機関：佐々町</li><li>J-Net21掲載日：2026-07-31</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188623\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長崎県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "創業"
+  ],
+  "usePurpose": "地域活性化、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "佐々町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.sazacho-nagasaki.jp/kiji0035326/index.html",
+  "updatedAt": "2026-07-31T00:00:00.000Z",
+  "id": "jnet21-188623",
+  "slug": "jnet21-188623",
+  "title": "佐々町空き店舗等活用促進事業補助金のご案内",
+  "source": "jnet21"
+}

@@ -1,0 +1,34 @@
+{
+  "overview": "製造業等の企業による市内への立地や設備投資を支援します。※製造業の場合、工業地域又は準工業地域の投資が対象です。※中小企業の場合、5千万以上の投資が要件となります。（支援内容）投資に係る固定資産税と都市計画税の1/2補助・新たな市民雇用に対する奨励金等申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>製造業等の企業による市内への立地や設備投資を支援します。※製造業の場合、工業地域又は準工業地域の投資が対象です。※中小企業の場合、5千万以上の投資が要件となります。（支援内容）投資に係る固定資産税と都市計画税の1/2補助・新たな市民雇用に対する奨励金等申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：製造業 情報通信業 学術研究，専門・技術サービス業</li><li>地域：兵庫県</li><li>実施機関：伊丹市</li><li>J-Net21掲載日：2026-06-24</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/185783\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "兵庫県"
+  ],
+  "industries": [
+    "製造業 情報通信業 学術研究",
+    "専門・技術サービス業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "伊丹市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.itami.lg.jp/SOSIKI/TOSHIKATSURYOKU/SYOKORODO/kigyourixtuchishienn/1390887277919.html",
+  "updatedAt": "2026-06-24T00:00:00.000Z",
+  "id": "jnet21-185783",
+  "slug": "jnet21-185783",
+  "title": "企業立地支援制度（伊丹市）",
+  "source": "jnet21"
+}

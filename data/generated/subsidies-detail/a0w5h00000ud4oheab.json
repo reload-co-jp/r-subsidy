@@ -44,7 +44,11 @@
   "employeeMin": null,
   "employeeMax": 300,
   "isForSME": true,
-  "purposes": ["設備投資", "省エネ", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "省エネ",
+    "デジタル化"
+  ],
   "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "二酸化炭素排出抑制対策事業費等補助金 （工場・事業場における先導的な脱炭素化取組推進事業（SHIFT事業）） 省CO2型設備更新支援C（中小企業事業）",

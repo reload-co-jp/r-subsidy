@@ -1,0 +1,30 @@
+{
+  "overview": "概要・漁業環境の変化に対応し、本県水産業の発展を図るため、県内の水産加工業の生産性向上を目的とする。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>概要・漁業環境の変化に対応し、本県水産業の発展を図るため、県内の水産加工業の生産性向上を目的とする。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：研究・商品開発、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：福井県</li><li>実施機関：福井県</li><li>J-Net21掲載日：2026-05-27</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183658\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福井県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "研究開発"
+  ],
+  "usePurpose": "研究・商品開発、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "福井県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.fukui.lg.jp/doc/suisan/ryutsu/suisankako.html",
+  "updatedAt": "2026-05-27T00:00:00.000Z",
+  "id": "jnet21-183658",
+  "slug": "jnet21-183658",
+  "title": "水産加工品開発支援事業補助金（福井県）",
+  "source": "jnet21"
+}

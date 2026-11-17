@@ -1,0 +1,31 @@
+{
+  "overview": "ゼロカーボンシティの実現に向けて、市内事業者における省エネのさらなる取組を促進するため、省エネルギー設備・再生可能エネルギー設備の導入に要する費用の一部を補助します。受付期間：令和8年9月3日（木曜）から令和9年3月31日（水曜）まで申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年9月3日～2027年3月31日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>ゼロカーボンシティの実現に向けて、市内事業者における省エネのさらなる取組を促進するため、省エネルギー設備・再生可能エネルギー設備の導入に要する費用の一部を補助します。受付期間：令和8年9月3日（木曜）から令和9年3月31日（水曜）まで申請方法ほか詳細情報は、「詳細情報を見る」からご確認ください。募集期間2026年9月3日～2027年3月31日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：滋賀県</li><li>実施機関：草津市</li><li>J-Net21掲載日：2026-09-08</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191571\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "滋賀県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "草津市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-09-03",
+  "endDate": "2027-03-31",
+  "referenceUrl": "https://www.city.kusatsu.shiga.jp/kurashi/kankyo/ondanka/hojokin-syoenesaiene.html",
+  "updatedAt": "2026-09-08T00:00:00.000Z",
+  "id": "jnet21-191571",
+  "slug": "jnet21-191571",
+  "title": "草津市省エネ・再エネ等設備導入加速化補助金について",
+  "source": "jnet21"
+}

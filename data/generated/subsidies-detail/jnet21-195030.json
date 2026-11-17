@@ -1,0 +1,32 @@
+{
+  "overview": "長期的なコストの低減、経営の効率化に繋がる設備導入費用の一部を助成します。これから導入・更新を検討中の事業者様はぜひご活用ください。受付期間：令和9年2月1日（月曜日）17時まで申請方法ほか詳細情報は、「詳細情報を見る」からご確認下さい。募集期間2026年6月8日～2027年2月1日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>長期的なコストの低減、経営の効率化に繋がる設備導入費用の一部を助成します。これから導入・更新を検討中の事業者様はぜひご活用ください。受付期間：令和9年2月1日（月曜日）17時まで申請方法ほか詳細情報は、「詳細情報を見る」からご確認下さい。募集期間2026年6月8日～2027年2月1日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：神奈川県</li><li>実施機関：横須賀市</li><li>J-Net21掲載日：2026-10-28</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195030\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "神奈川県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化、設備投資",
+  "status": "upcoming",
+  "workflow": "横須賀市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-02-01",
+  "endDate": null,
+  "referenceUrl": "https://www.city.yokosuka.kanagawa.jp/4402/hojokin/seisan.html",
+  "updatedAt": "2026-10-28T00:00:00.000Z",
+  "id": "jnet21-195030",
+  "slug": "jnet21-195030",
+  "title": "中小企業等省エネ化・生産性向上補助金【B.生産性向上枠】（横須賀市）",
+  "source": "jnet21"
+}

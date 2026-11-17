@@ -1,0 +1,31 @@
+{
+  "overview": "中小企業の事業承継を促し、経営資源・雇用の喪失を防ぐため、親族内承継、第三者承継、役員・従業員承継の際に要する経費について補助を行う市町村を支援します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>中小企業の事業承継を促し、経営資源・雇用の喪失を防ぐため、親族内承継、第三者承継、役員・従業員承継の際に要する経費について補助を行う市町村を支援します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：事業承継、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：宮崎県</li><li>実施機関：宮崎県</li><li>J-Net21掲載日：2026-06-24</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/185857\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "宮崎県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成",
+    "事業承継"
+  ],
+  "usePurpose": "事業承継、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "宮崎県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.miyazaki.lg.jp/keieikinyushien/shigoto/chushokigyo/20230703153447.html",
+  "updatedAt": "2026-06-24T00:00:00.000Z",
+  "id": "jnet21-185857",
+  "slug": "jnet21-185857",
+  "title": "令和8年度事業承継・引継ぎ応援事業補助金（宮崎県）",
+  "source": "jnet21"
+}

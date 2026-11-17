@@ -1,0 +1,32 @@
+{
+  "overview": "燃油価格の高騰による市内漁業者への影響を緩和し、経営の維持継続を支援するため、漁業操業に必要な燃料購入費の一部を補助します。申請期限：令和9年3月5日まで募集期間～2027年3月5日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>燃油価格の高騰による市内漁業者への影響を緩和し、経営の維持継続を支援するため、漁業操業に必要な燃料購入費の一部を補助します。申請期限：令和9年3月5日まで募集期間～2027年3月5日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：漁業</li><li>地域：鹿児島県</li><li>実施機関：阿久根市</li><li>J-Net21掲載日：2026-11-05</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195454\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "鹿児島県"
+  ],
+  "industries": [
+    "漁業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "阿久根市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-03-05",
+  "endDate": "2027-03-05",
+  "referenceUrl": "https://www.city.akune.lg.jp/soshikikarasagasu/kankyosuisanka/suisangakari/1/1/7327.html",
+  "updatedAt": "2026-11-05T00:00:00.000Z",
+  "id": "jnet21-195454",
+  "slug": "jnet21-195454",
+  "title": "漁業用燃油価格高騰対策支援事業補助金（阿久根市）",
+  "source": "jnet21"
+}

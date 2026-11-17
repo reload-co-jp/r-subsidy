@@ -1,0 +1,33 @@
+{
+  "overview": "市内中小企業等のデジタル技術を用いた経営基盤強化及び業務プロセスの見直しや付加価値の創出を推し進めることにより、市内産業の振興、産業基盤の強化及び雇用機会の創出を図るため、中小企業等DX促進モデル事業を行う市内中小企業等に対して、補助金を交付します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内中小企業等のデジタル技術を用いた経営基盤強化及び業務プロセスの見直しや付加価値の創出を推し進めることにより、市内産業の振興、産業基盤の強化及び雇用機会の創出を図るため、中小企業等DX促進モデル事業を行う市内中小企業等に対して、補助金を交付します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：生産性向上・IT化、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：静岡県</li><li>実施機関：焼津市</li><li>J-Net21掲載日：2026-08-25</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/190287\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "静岡県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "研究開発",
+    "デジタル化"
+  ],
+  "usePurpose": "生産性向上・IT化、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "焼津市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.yaizu.lg.jp/business/kigyo-shien/shien-hojo/dx-model.html",
+  "updatedAt": "2026-08-25T00:00:00.000Z",
+  "id": "jnet21-190287",
+  "slug": "jnet21-190287",
+  "title": "焼津市中小企業等DX促進モデル事業補助金",
+  "source": "jnet21"
+}

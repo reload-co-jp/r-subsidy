@@ -1,0 +1,33 @@
+{
+  "overview": "医療従事者の人材確保を図るため、市外から国東市に移住し、市内の医療機関で医療従事者として5年以上継続して就業する方へ就業移住支援金を支給します。さらに、市内でも特に医療従事者不足が深刻な国見地域に勤務する方には、支援金を加算します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>医療従事者の人材確保を図るため、市外から国東市に移住し、市内の医療機関で医療従事者として5年以上継続して就業する方へ就業移住支援金を支給します。さらに、市内でも特に医療従事者不足が深刻な国見地域に勤務する方には、支援金を加算します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、地域活性化、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：大分県</li><li>実施機関：国東市</li><li>J-Net21掲載日：2026-07-31</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188609\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "大分県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、地域活性化、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "国東市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.kunisaki.oita.jp/soshiki/shimin-kenko/iryojujisya.html",
+  "updatedAt": "2026-07-31T00:00:00.000Z",
+  "id": "jnet21-188609",
+  "slug": "jnet21-188609",
+  "title": "国東市医療従事者就業移住支援金事業について",
+  "source": "jnet21"
+}

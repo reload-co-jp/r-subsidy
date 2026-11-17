@@ -1,0 +1,29 @@
+{
+  "overview": "町内に事業所の新設をご検討されている事業者さまに対して、町内の立地調査にかかる視察費用を補助します。申請期間：視察終了後、30日以内または当該年度末まで",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>町内に事業所の新設をご検討されている事業者さまに対して、町内の立地調査にかかる視察費用を補助します。申請期間：視察終了後、30日以内または当該年度末まで</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：全国、佐賀県</li><li>実施機関：玄海町</li><li>J-Net21掲載日：2026-10-07</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193527\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "national",
+  "prefectures": [
+    "全国",
+    "佐賀県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "玄海町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.genkai.lg.jp/site/business/95990.html",
+  "updatedAt": "2026-10-07T00:00:00.000Z",
+  "id": "jnet21-193527",
+  "slug": "jnet21-193527",
+  "title": "玄海町内の立地調査にかかる視察費用を補助します",
+  "source": "jnet21"
+}

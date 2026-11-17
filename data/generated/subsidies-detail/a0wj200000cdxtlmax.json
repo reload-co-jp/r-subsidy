@@ -18,7 +18,12 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "人材育成", "研究開発", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "研究開発",
+    "デジタル化"
+  ],
   "usePurpose": "研究開発・実証事業を行いたい / 人材育成を行いたい",
   "status": "closed",
   "workflow": "令和８年度スマート保安実証支援事業費補助金",

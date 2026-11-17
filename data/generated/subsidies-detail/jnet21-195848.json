@@ -1,0 +1,35 @@
+{
+  "overview": "飯田市では、地域住民にとって身近なかかりつけ医となる診療所の承継や新規開業を支援し、将来にわたる地域医療提供体制の維持・確保を図るため、開設に係る費用の一部を補助します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>飯田市では、地域住民にとって身近なかかりつけ医となる診療所の承継や新規開業を支援し、将来にわたる地域医療提供体制の維持・確保を図るため、開設に係る費用の一部を補助します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、事業承継、経営改善・経営強化、設備投資</li><li>業種：医療，福祉</li><li>地域：長野県</li><li>実施機関：飯田市</li><li>J-Net21掲載日：2026-11-10</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/195848\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "長野県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "事業承継",
+    "創業"
+  ],
+  "usePurpose": "起業・創業、事業承継、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "飯田市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.iida.lg.jp/soshiki/15/sinryouzyosyoukei-kaigyousienzigyou.html",
+  "updatedAt": "2026-11-10T00:00:00.000Z",
+  "id": "jnet21-195848",
+  "slug": "jnet21-195848",
+  "title": "飯田市診療所承継・開業支援事業補助金を交付します",
+  "source": "jnet21"
+}

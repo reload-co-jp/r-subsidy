@@ -27,7 +27,9 @@
   "employeeMin": null,
   "employeeMax": 900,
   "isForSME": false,
-  "purposes": ["研究開発"],
+  "purposes": [
+    "研究開発"
+  ],
   "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "障害者自立支援機器等開発促進事業",

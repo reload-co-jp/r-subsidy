@@ -1,0 +1,31 @@
+{
+  "overview": "印西市では、農業者自らが管理する農地等の整備に係る費用に対して、補助金を交付する事業を行っています。事前申し込みが必要ですので、工事を予定している方は工事予定の農地の地番と工事内容を整理の上、お早めにご連絡ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>印西市では、農業者自らが管理する農地等の整備に係る費用に対して、補助金を交付する事業を行っています。事前申し込みが必要ですので、工事を予定している方は工事予定の農地の地番と工事内容を整理の上、お早めにご連絡ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：農業，林業</li><li>地域：千葉県</li><li>実施機関：印西市</li><li>J-Net21掲載日：2026-09-01</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191050\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "千葉県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "印西市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.inzai.lg.jp/0000022394.html",
+  "updatedAt": "2026-09-01T00:00:00.000Z",
+  "id": "jnet21-191050",
+  "slug": "jnet21-191050",
+  "title": "令和8年度小規模土地改良事業補助金について（印西市）",
+  "source": "jnet21"
+}

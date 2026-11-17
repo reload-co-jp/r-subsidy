@@ -1,0 +1,32 @@
+{
+  "overview": "福岡県では、男性の育休取得を促進するため、県内の中小企業に対し、次世代育成支援対策推進法に基づく一般事業主行動計画の策定を支援する「福岡県よかパパ育休助成金」を給付します。申請受付期間：令和8年5月1日（金）～令和9年2月28日（日）（当日消印有効）募集期間2026年5月1日～2027年2月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>福岡県では、男性の育休取得を促進するため、県内の中小企業に対し、次世代育成支援対策推進法に基づく一般事業主行動計画の策定を支援する「福岡県よかパパ育休助成金」を給付します。申請受付期間：令和8年5月1日（金）～令和9年2月28日（日）（当日消印有効）募集期間2026年5月1日～2027年2月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：福岡県</li><li>実施機関：福岡県</li><li>J-Net21掲載日：2026-07-09</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187077\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福岡県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "open",
+  "workflow": "福岡県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-05-01",
+  "endDate": "2027-02-28",
+  "referenceUrl": "https://f-ryoritsu.pref.fukuoka.lg.jp/useful/yokapapa",
+  "updatedAt": "2026-07-09T00:00:00.000Z",
+  "id": "jnet21-187077",
+  "slug": "jnet21-187077",
+  "title": "「福岡県よかパパ育休助成金」申請受付中！",
+  "source": "jnet21"
+}

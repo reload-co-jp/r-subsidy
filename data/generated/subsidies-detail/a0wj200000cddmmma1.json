@@ -51,7 +51,12 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["設備投資", "販路拡大", "デジタル化", "海外展開"],
+  "purposes": [
+    "設備投資",
+    "販路拡大",
+    "デジタル化",
+    "海外展開"
+  ],
   "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "経営力強化に向けた創意工夫チャレンジ促進事業(業務改善コース)",

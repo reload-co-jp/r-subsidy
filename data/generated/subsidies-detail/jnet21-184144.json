@@ -1,0 +1,30 @@
+{
+  "overview": "東京都内に本部がある大学を卒業した学生の、藤崎町への移住を伴う県内就職を支援するため、青森県と共同で地方就職支援金を支給します。申請期限：令和8年12月28日（月）募集期間～2026年12月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>東京都内に本部がある大学を卒業した学生の、藤崎町への移住を伴う県内就職を支援するため、青森県と共同で地方就職支援金を支給します。申請期限：令和8年12月28日（月）募集期間～2026年12月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：青森県</li><li>実施機関：藤崎町</li><li>J-Net21掲載日：2026-06-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184144\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "青森県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "藤崎町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-12-28",
+  "endDate": "2026-12-28",
+  "referenceUrl": "https://www.town.fujisaki.lg.jp/index.cfm/7,22729,72,345,html",
+  "updatedAt": "2026-06-03T00:00:00.000Z",
+  "id": "jnet21-184144",
+  "slug": "jnet21-184144",
+  "title": "地方就職支援金のお知らせ（藤崎町）",
+  "source": "jnet21"
+}

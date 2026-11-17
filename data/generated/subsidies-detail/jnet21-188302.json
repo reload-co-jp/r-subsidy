@@ -1,0 +1,30 @@
+{
+  "overview": "この補助金は、鳥取県地域経済変動対策資金に係る融資（※経済変動事象のうち指定するものに係る融資に限る）の実行を受ける者に対し、利子負担の軽減を図ることにより、経営の維持及び安定を図ることを目的とする制度です。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>この補助金は、鳥取県地域経済変動対策資金に係る融資（※経済変動事象のうち指定するものに係る融資に限る）の実行を受ける者に対し、利子負担の軽減を図ることにより、経営の維持及び安定を図ることを目的とする制度です。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：鳥取県</li><li>実施機関：日吉津村</li><li>J-Net21掲載日：2026-07-28</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/188302\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "鳥取県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "日吉津村",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.hiezu.jp/%E6%97%A5%E5%90%89%E6%B4%A5%E6%9D%91%E5%9C%B0%E5%9F%9F%E7%B5%8C%E6%B8%88%E5%A4%89%E5%8B%95%E5%AF%BE%E7%AD%96%E8%B3%87%E9%87%91%E5%88%A9%E5%AD%90%E8%A3%9C%E5%8A%A9%E5%88%B6%E5%BA%A6/",
+  "updatedAt": "2026-07-28T00:00:00.000Z",
+  "id": "jnet21-188302",
+  "slug": "jnet21-188302",
+  "title": "日吉津村地域経済変動対策資金利子補助制度",
+  "source": "jnet21"
+}

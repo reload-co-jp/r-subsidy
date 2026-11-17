@@ -1,0 +1,28 @@
+{
+  "overview": "令和8年7月29日～8月2日に発生した豪雨災害により被災した農地または農業用施設は、本補助金の対象となります。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>令和8年7月29日～8月2日に発生した豪雨災害により被災した農地または農業用施設は、本補助金の対象となります。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：被災事業者支援</li><li>業種：指定無し</li><li>地域：秋田県</li><li>実施機関：横手市</li><li>J-Net21掲載日：2026-08-25</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/190371\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "秋田県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "被災事業者支援",
+  "status": "unknown",
+  "workflow": "横手市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.yokote.lg.jp/shigoto/1001165/1001371/1001372/1013682.html",
+  "updatedAt": "2026-08-25T00:00:00.000Z",
+  "id": "jnet21-190371",
+  "slug": "jnet21-190371",
+  "title": "【市単独補助】農地・農業用施設災害復旧事業費補助金（横手市）",
+  "source": "jnet21"
+}

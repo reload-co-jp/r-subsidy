@@ -1,0 +1,31 @@
+{
+  "overview": "入善町では、町にある農産物等の豊富な地域資源を活用し、地域の強みを生かした新たな商品やサービスの開発、販路開拓など、産業間の連携による新たな事業への取り組みに対し、その事業費を助成します",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>入善町では、町にある農産物等の豊富な地域資源を活用し、地域の強みを生かした新たな商品やサービスの開発、販路開拓など、産業間の連携による新たな事業への取り組みに対し、その事業費を助成します</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：販路開拓、研究・商品開発、経営改善・経営強化</li><li>業種：指定無し</li><li>地域：富山県</li><li>実施機関：入善町</li><li>J-Net21掲載日：2026-09-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191220\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "富山県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "販路拡大",
+    "研究開発"
+  ],
+  "usePurpose": "販路開拓、研究・商品開発、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "入善町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.nyuzen.toyama.jp/gyosei/soshiki/kirakira/1/6911.html",
+  "updatedAt": "2026-09-03T00:00:00.000Z",
+  "id": "jnet21-191220",
+  "slug": "jnet21-191220",
+  "title": "農商工等連携事業補助金（入善町）",
+  "source": "jnet21"
+}

@@ -1,0 +1,32 @@
+{
+  "overview": "名寄市では、新しく事業を始める方を対象に、店舗や事務所の新築・改修、設備やIT機器の導入などにかかる費用の一部を補助しています。「お店を開きたい」「自分の事業を始めたい」という想いを形にするための制度です。名寄市での創業をお考えの方は、ぜひご活用ください。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>名寄市では、新しく事業を始める方を対象に、店舗や事務所の新築・改修、設備やIT機器の導入などにかかる費用の一部を補助しています。「お店を開きたい」「自分の事業を始めたい」という想いを形にするための制度です。名寄市での創業をお考えの方は、ぜひご活用ください。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：起業・創業、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：北海道</li><li>実施機関：名寄市</li><li>J-Net21掲載日：2026-08-21</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/190177\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "北海道"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "創業",
+    "デジタル化"
+  ],
+  "usePurpose": "起業・創業、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "名寄市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "http://www.city.nayoro.lg.jp/section/eigyou/prkeql000004cph2.html",
+  "updatedAt": "2026-08-21T00:00:00.000Z",
+  "id": "jnet21-190177",
+  "slug": "jnet21-190177",
+  "title": "名寄市での創業を支援",
+  "source": "jnet21"
+}

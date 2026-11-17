@@ -1,0 +1,31 @@
+{
+  "overview": "エネルギー価格高騰の影響を受ける市内事業者が、エネルギーコスト削減を目的として省エネ機器等を購入または買い替えする際、その費用を補助します申請受付期間：令和8年10月1日（木曜日）～令和9年2月26日（金曜日）募集期間2026年10月1日～2027年2月26日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>エネルギー価格高騰の影響を受ける市内事業者が、エネルギーコスト削減を目的として省エネ機器等を購入または買い替えする際、その費用を補助します申請受付期間：令和8年10月1日（木曜日）～令和9年2月26日（金曜日）募集期間2026年10月1日～2027年2月26日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：岡山県</li><li>実施機関：真庭市</li><li>J-Net21掲載日：2026-09-29</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/192837\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岡山県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "真庭市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-10-01",
+  "endDate": "2027-02-26",
+  "referenceUrl": "https://www.city.maniwa.lg.jp/soshiki/40/121148.html",
+  "updatedAt": "2026-09-29T00:00:00.000Z",
+  "id": "jnet21-192837",
+  "slug": "jnet21-192837",
+  "title": "事業者省エネ対応機器導入補助金（真庭市）",
+  "source": "jnet21"
+}

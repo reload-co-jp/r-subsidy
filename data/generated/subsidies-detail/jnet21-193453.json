@@ -1,0 +1,30 @@
+{
+  "overview": "過去の大地震では電気に起因する火災が多く発生しており、リスク低減に向け感震ブレーカーの普及を推進しています。そこで、火災延焼の危険性が特に高い地域を対象に、ご家庭等の分電盤やコンセントへの設置費用を一部助成します。受付期間：令和8年10月15日（木）〜令和9年3月1日（月）募集期間2026年10月15日～2027年3月1日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>過去の大地震では電気に起因する火災が多く発生しており、リスク低減に向け感震ブレーカーの普及を推進しています。そこで、火災延焼の危険性が特に高い地域を対象に、ご家庭等の分電盤やコンセントへの設置費用を一部助成します。受付期間：令和8年10月15日（木）〜令和9年3月1日（月）募集期間2026年10月15日～2027年3月1日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：兵庫県</li><li>実施機関：姫路市</li><li>J-Net21掲載日：2026-10-06</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/193453\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "兵庫県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "姫路市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-10-15",
+  "endDate": "2027-03-01",
+  "referenceUrl": "https://www.city.himeji.lg.jp/anzen/0000033801.html",
+  "updatedAt": "2026-10-06T00:00:00.000Z",
+  "id": "jnet21-193453",
+  "slug": "jnet21-193453",
+  "title": "姫路市感震ブレーカー設置促進事業",
+  "source": "jnet21"
+}

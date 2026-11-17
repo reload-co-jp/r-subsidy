@@ -1,0 +1,31 @@
+{
+  "overview": "原油価格の高騰などの影響を受け、厳しい経営環境に置かれている一般貨物自動車運送事業者に対し支援金を交付します。申請期限：令和9年1月29日（金）まで募集期間～2027年1月29日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>原油価格の高騰などの影響を受け、厳しい経営環境に置かれている一般貨物自動車運送事業者に対し支援金を交付します。申請期限：令和9年1月29日（金）まで募集期間～2027年1月29日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：運輸業，郵便業</li><li>地域：大分県</li><li>実施機関：臼杵市</li><li>J-Net21掲載日：2026-11-16</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/196275\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "大分県"
+  ],
+  "industries": [
+    "運輸業",
+    "郵便業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "upcoming",
+  "workflow": "臼杵市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-01-29",
+  "endDate": "2027-01-29",
+  "referenceUrl": "https://www.city.usuki.oita.jp/article/2026101900016/",
+  "updatedAt": "2026-11-16T00:00:00.000Z",
+  "id": "jnet21-196275",
+  "slug": "jnet21-196275",
+  "title": "一般貨物自動車運送事業者物価高騰対策支援事業について（臼杵市）",
+  "source": "jnet21"
+}

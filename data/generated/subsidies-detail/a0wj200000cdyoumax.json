@@ -43,7 +43,9 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["人材育成"],
+  "purposes": [
+    "人材育成"
+  ],
   "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "令和８年度「地域の中堅・中核企業支援事業（地域の人事部支援事業）」補助事業者公募",

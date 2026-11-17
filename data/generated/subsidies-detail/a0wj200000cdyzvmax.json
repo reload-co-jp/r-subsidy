@@ -19,7 +19,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "省エネ", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "省エネ",
+    "デジタル化"
+  ],
   "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "open",
   "workflow": "令和８年度　産業車両等の脱炭素化促進事業のうち、空港における脱炭素化促進事業①空港における再エネ活用型GPU等導入支援（二酸化炭素排出抑制対策事業費等補助金）",
@@ -27,7 +31,7 @@
   "upperLimit": "150,000,000円",
   "lowerLimit": null,
   "startDate": "2026-05-21",
-  "endDate": "2026-10-30",
+  "endDate": "2026-11-30",
   "source": "jgrants",
   "referenceUrl": "https://www.jgrants-portal.go.jp/subsidy/a0WJ200000CDYzVMAX",
   "updatedAt": "2026-05-26T06:10:57.004Z"

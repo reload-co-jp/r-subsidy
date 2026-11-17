@@ -1,0 +1,31 @@
+{
+  "overview": "市内で製造業、運輸業の一部又はソフトウェア業等を営む中小企業若しくは中堅企業が、再エネ発電設備（太陽光発電等）又は水素活用設備を導入する費用の一部を補助します。（自己所有、自家消費に限る）（備考）条件付きでグリーン水素以外の利用も認めます。申請受付期限：令和9年2月28日（日曜日）募集期間2026年4月1日～2027年2月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内で製造業、運輸業の一部又はソフトウェア業等を営む中小企業若しくは中堅企業が、再エネ発電設備（太陽光発電等）又は水素活用設備を導入する費用の一部を補助します。（自己所有、自家消費に限る）（備考）条件付きでグリーン水素以外の利用も認めます。申請受付期限：令和9年2月28日（日曜日）募集期間2026年4月1日～2027年2月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：環境・省エネ・SDGs、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：愛知県</li><li>実施機関：豊田市</li><li>J-Net21掲載日：2026-08-28</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/190685\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "愛知県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "省エネ"
+  ],
+  "usePurpose": "環境・省エネ・SDGs、経営改善・経営強化、設備投資",
+  "status": "upcoming",
+  "workflow": "豊田市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-02-28",
+  "endDate": "2027-02-28",
+  "referenceUrl": "https://www.city.toyota.aichi.jp/sangyo/kigyoyuchi/1073384/1064642.html",
+  "updatedAt": "2026-08-28T00:00:00.000Z",
+  "id": "jnet21-190685",
+  "slug": "jnet21-190685",
+  "title": "豊田市新エネルギー活用促進補助金",
+  "source": "jnet21"
+}

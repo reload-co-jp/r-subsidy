@@ -5,13 +5,21 @@
   "overview": "",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>かかりつけ医等によるオンライン医療相談、オンライン受診勧奨及びオンライン診療を推進するため、医療機関が実施する環境整備を支援することを目的としています</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助対象事業者</strong></p><p>都内に所在する病院又は診療所（歯科診療所は除く。）であって、東京都知事が適当と認める者となります。</p><p>ただし、国、地方独立行政法人、特定地方独立行政法人、独立行政法人、特定独立行政法人及び国立大学法人が開設する医療機関、保険医療機関ではない医療機関及び本補助金の交付を受けたことがある医療機関は対象となりません。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>東京都保健医療局医療政策部医療政策課医療改革推進担当</p><p>TEL：03-5320-4448（直通）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p>https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/onlineshinryo/r7kankyoseibi</p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
-  "industries": ["医療", "福祉"],
+  "prefectures": [
+    "東京都"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "デジタル化"],
+  "purposes": [
+    "設備投資",
+    "デジタル化"
+  ],
   "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "東京都オンライン医療相談・診療等環境整備補助事業",

@@ -1,0 +1,33 @@
+{
+  "overview": "地域が必要とする訪問介護等サービスの安定的な提供につなげるために、訪問介護等サービス事業者が行う人材確保に向けた体制構築のほか、経営改善に向けた取り組みや、カスタマーハラスメント対策にかかる経費に対して、予算の範囲内で補助を交付するもの。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>地域が必要とする訪問介護等サービスの安定的な提供につなげるために、訪問介護等サービス事業者が行う人材確保に向けた体制構築のほか、経営改善に向けた取り組みや、カスタマーハラスメント対策にかかる経費に対して、予算の範囲内で補助を交付するもの。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：医療，福祉</li><li>地域：宮崎県</li><li>実施機関：宮崎県</li><li>J-Net21掲載日：2026-05-29</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183820\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "宮崎県"
+  ],
+  "industries": [
+    "医療",
+    "福祉"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "宮崎県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.pref.miyazaki.lg.jp/choju/kurashi/koresha/20260514084412.html",
+  "updatedAt": "2026-05-29T00:00:00.000Z",
+  "id": "jnet21-183820",
+  "slug": "jnet21-183820",
+  "title": "令和8年度訪問介護等サービス提供体制確保支援事業費補助金の公募について（宮崎県）",
+  "source": "jnet21"
+}

@@ -1,0 +1,32 @@
+{
+  "overview": "従業員の賃金を引き上げるとともに、省力化・デジタル化や生産能力増強等の生産性向上に資する設備等を導入する市内事業者を支援するため、取組に必要な経費の一部を補助します。受付期間：令和8年9月1日（火曜日）～令和8年11月30日（月曜日）※必着募集期間2026年9月1日～2026年11月30日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>従業員の賃金を引き上げるとともに、省力化・デジタル化や生産能力増強等の生産性向上に資する設備等を導入する市内事業者を支援するため、取組に必要な経費の一部を補助します。受付期間：令和8年9月1日（火曜日）～令和8年11月30日（月曜日）※必着募集期間2026年9月1日～2026年11月30日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、生産性向上・IT化、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：山口県</li><li>実施機関：防府市</li><li>J-Net21掲載日：2026-09-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/191206\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "山口県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "デジタル化"
+  ],
+  "usePurpose": "人材育成・雇用、生産性向上・IT化、経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "防府市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-09-01",
+  "endDate": "2026-11-30",
+  "referenceUrl": "https://www.city.hofu.yamaguchi.jp/soshiki/24/chinginhikiage.html",
+  "updatedAt": "2026-09-03T00:00:00.000Z",
+  "id": "jnet21-191206",
+  "slug": "jnet21-191206",
+  "title": "賃金引上げ応援事業補助金の募集を開始します（防府市）",
+  "source": "jnet21"
+}

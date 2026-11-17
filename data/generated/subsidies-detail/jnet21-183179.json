@@ -1,0 +1,32 @@
+{
+  "overview": "市内の事業者における農商工連携及び6次産業化を推進することにより、市内の産業の振興及び地域経済の活性化を図るため、補助金を交付します。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内の事業者における農商工連携及び6次産業化を推進することにより、市内の産業の振興及び地域経済の活性化を図るため、補助金を交付します。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：地域活性化、販路開拓、研究・商品開発、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：静岡県</li><li>実施機関：伊豆の国市</li><li>J-Net21掲載日：2026-05-21</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/183179\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "静岡県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "販路拡大",
+    "研究開発"
+  ],
+  "usePurpose": "地域活性化、販路開拓、研究・商品開発、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "伊豆の国市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.izunokuni.shizuoka.jp/nousin/rokujika.html",
+  "updatedAt": "2026-05-21T00:00:00.000Z",
+  "id": "jnet21-183179",
+  "slug": "jnet21-183179",
+  "title": "農商工連携及び6次産業化推進事業費補助金（伊豆の国市）",
+  "source": "jnet21"
+}

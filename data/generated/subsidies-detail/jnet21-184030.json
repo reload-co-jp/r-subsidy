@@ -1,0 +1,33 @@
+{
+  "overview": "アライグマやタヌキなどによる農作物被害を防止することを目的とし、電気柵設置費用の一部を補助します。申請期間：令和9年2月26日（金曜日）まで募集期間～2027年2月26日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>アライグマやタヌキなどによる農作物被害を防止することを目的とし、電気柵設置費用の一部を補助します。申請期間：令和9年2月26日（金曜日）まで募集期間～2027年2月26日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：農業，林業</li><li>地域：千葉県</li><li>実施機関：九十九里町</li><li>J-Net21掲載日：2026-06-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184030\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "千葉県"
+  ],
+  "industries": [
+    "農業",
+    "林業"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "upcoming",
+  "workflow": "九十九里町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2027-02-26",
+  "endDate": "2027-02-26",
+  "referenceUrl": "https://www.town.kujukuri.chiba.jp/0000008962.html",
+  "updatedAt": "2026-06-03T00:00:00.000Z",
+  "id": "jnet21-184030",
+  "slug": "jnet21-184030",
+  "title": "農作物被害防止用の電気柵設置費用を補助します（九十九里町）",
+  "source": "jnet21"
+}

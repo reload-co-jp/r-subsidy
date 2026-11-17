@@ -5,7 +5,9 @@
   "overview": "ＢtoＢの展示会への出展費用等を助成します",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><strong style=\"font-size: 14px;\">都内中小企業者</strong><span style=\"font-size: 14px;\">が、販路拡大及び経営基盤の更なる強化を図るために行う</span><strong style=\"font-size: 14px;\">展示会への出展</strong><span style=\"font-size: 14px;\">等に係る経費の一部を助成します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■</strong><strong style=\"color: rgb(0, 111, 173); font-size: 14px;\">助成限度額</strong></p><p><span style=\"font-size: 14px;\">150万円</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■</strong><strong style=\"color: rgb(0, 111, 173); font-size: 14px;\">助成率</strong></p><p><span style=\"font-size: 14px;\">助成対象と認められる経費の２／３以内（千円未満切捨て）</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173); font-size: 14px;\">■申請受付期間</strong></p><p><span style=\"font-size: 14px;\">令和７年４月1日（火）9:00　～　令和７年４月2１日（月）12:00</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照　</strong><strong style=\"color: rgb(41, 99, 121);\">https://www.tokyo-kosha.or.jp/support/josei/jigyo/r7tenjikai.html</strong></p>",
   "region": "tokyo",
-  "prefectures": ["東京都"],
+  "prefectures": [
+    "東京都"
+  ],
   "industries": [
     "漁業",
     "建設業",
@@ -43,7 +45,10 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": ["販路拡大", "海外展開"],
+  "purposes": [
+    "販路拡大",
+    "海外展開"
+  ],
   "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "令和７年度展示会出展助成プラス",

@@ -44,7 +44,11 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": ["設備投資", "研究開発", "省エネ"],
+  "purposes": [
+    "設備投資",
+    "研究開発",
+    "省エネ"
+  ],
   "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "駐車場型太陽光発電設備導入事業 【カーポート】",

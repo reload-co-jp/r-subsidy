@@ -1,0 +1,32 @@
+{
+  "overview": "市内の事業所が外国人材を雇用することを支援するため、外国人材受入奨励金を交付します。申請期限：対象労働者を雇用した日の6月を経過した日から60日以内",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>市内の事業所が外国人材を雇用することを支援するため、外国人材受入奨励金を交付します。申請期限：対象労働者を雇用した日の6月を経過した日から60日以内</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、経営改善・経営強化</li><li>業種：業種指定なし</li><li>地域：秋田県</li><li>実施機関：秋田市</li><li>J-Net21掲載日：2026-07-21</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/187827\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "秋田県"
+  ],
+  "industries": [
+    "業種指定なし"
+  ],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "人材育成"
+  ],
+  "usePurpose": "人材育成・雇用、経営改善・経営強化",
+  "status": "unknown",
+  "workflow": "秋田市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.akita.lg.jp/jigyosha/koyo-rodo-support/1050953.html",
+  "updatedAt": "2026-07-21T00:00:00.000Z",
+  "id": "jnet21-187827",
+  "slug": "jnet21-187827",
+  "title": "秋田市外国人材受入奨励金",
+  "source": "jnet21"
+}

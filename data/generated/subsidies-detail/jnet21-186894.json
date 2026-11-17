@@ -1,0 +1,32 @@
+{
+  "overview": "柳津町では、町内の商工業を支える若い後継者の成長と事業継続を応援するため、「小規模事業者後継者支援事業補助金」を設けています。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>柳津町では、町内の商工業を支える若い後継者の成長と事業継続を応援するため、「小規模事業者後継者支援事業補助金」を設けています。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：人材育成・雇用、事業承継、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：福島県</li><li>実施機関：柳津町</li><li>J-Net21掲載日：2026-07-08</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/186894\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "福島県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "人材育成",
+    "事業承継"
+  ],
+  "usePurpose": "人材育成・雇用、事業承継、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "柳津町",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026070200025/",
+  "updatedAt": "2026-07-08T00:00:00.000Z",
+  "id": "jnet21-186894",
+  "slug": "jnet21-186894",
+  "title": "柳津町小規模事業者後継者支援事業補助金について",
+  "source": "jnet21"
+}

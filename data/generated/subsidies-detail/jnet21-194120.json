@@ -1,0 +1,28 @@
+{
+  "overview": "県では、電力価格が高止まりする中、県内産業の活力維持、競争力強化を図るため、特別高圧で受電する県内中小企業者を対象として、電気使用量に応じた支援金の交付制度を設け、募集を開始します。申請受付期間：令和8年10月15日（木曜日）13時～12月28日（月曜日）17時募集期間2026年10月15日～2026年12月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>県では、電力価格が高止まりする中、県内産業の活力維持、競争力強化を図るため、特別高圧で受電する県内中小企業者を対象として、電気使用量に応じた支援金の交付制度を設け、募集を開始します。申請受付期間：令和8年10月15日（木曜日）13時～12月28日（月曜日）17時募集期間2026年10月15日～2026年12月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化</li><li>業種：指定無し</li><li>地域：岡山県</li><li>実施機関：岡山県</li><li>J-Net21掲載日：2026-10-16</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/194120\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "岡山県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [],
+  "usePurpose": "経営改善・経営強化",
+  "status": "open",
+  "workflow": "岡山県",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-10-15",
+  "endDate": "2026-12-28",
+  "referenceUrl": "https://www.pref.okayama.jp/page/1060377.html",
+  "updatedAt": "2026-10-16T00:00:00.000Z",
+  "id": "jnet21-194120",
+  "slug": "jnet21-194120",
+  "title": "岡山県中小企業特別高圧電力価格高騰対策支援金（第10期）",
+  "source": "jnet21"
+}

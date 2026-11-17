@@ -1,0 +1,32 @@
+{
+  "overview": "本市の産業振興及び地域活性化を図るため、ECサイト等で提供可能な特産品の開発や既存の特産品の改良、増産に係る経費の一部を助成することにより、市内事業者の好循環を生じさせることで、地場産業の育成を図ります。",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>本市の産業振興及び地域活性化を図るため、ECサイト等で提供可能な特産品の開発や既存の特産品の改良、増産に係る経費の一部を助成することにより、市内事業者の好循環を生じさせることで、地場産業の育成を図ります。</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：地域活性化、研究・商品開発、経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：大分県</li><li>実施機関：杵築市</li><li>J-Net21掲載日：2026-06-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184155\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "大分県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資",
+    "販路拡大",
+    "研究開発"
+  ],
+  "usePurpose": "地域活性化、研究・商品開発、経営改善・経営強化、設備投資",
+  "status": "unknown",
+  "workflow": "杵築市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": null,
+  "endDate": null,
+  "referenceUrl": "https://www.city.kitsuki.lg.jp/soshiki/1/syoukou_kankou/brand/7658.html",
+  "updatedAt": "2026-06-03T00:00:00.000Z",
+  "id": "jnet21-184155",
+  "slug": "jnet21-184155",
+  "title": "きつき特産品開発支援事業を実施します（杵築市）",
+  "source": "jnet21"
+}

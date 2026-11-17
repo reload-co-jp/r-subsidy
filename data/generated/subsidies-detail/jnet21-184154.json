@@ -1,0 +1,30 @@
+{
+  "overview": "この補助金は、藤枝市内の中小企業者等の熱中症対策を支援するため、熱中症対策に寄与するファン付き作業服等の物品購入に係る経費を補助するものです。申請期間：令和8年6月1日から令和9年2月28日まで募集期間2026年6月1日～2027年2月28日",
+  "detail": "<h2>実施機関からのお知らせ</h2><p>この補助金は、藤枝市内の中小企業者等の熱中症対策を支援するため、熱中症対策に寄与するファン付き作業服等の物品購入に係る経費を補助するものです。申請期間：令和8年6月1日から令和9年2月28日まで募集期間2026年6月1日～2027年2月28日</p>\n<h2>掲載情報</h2><ul><li>種類：補助金・助成金</li><li>分野：経営改善・経営強化、設備投資</li><li>業種：指定無し</li><li>地域：静岡県</li><li>実施機関：藤枝市</li><li>J-Net21掲載日：2026-06-03</li></ul>\n<p>出典：<a href=\"https://j-net21.smrj.go.jp/snavi2/articles/184154\" target=\"_blank\" rel=\"noopener noreferrer\">J-Net21 支援情報ヘッドライン（中小機構）</a>。受付期間・補助額・申請方法は実施機関の公式ページで確認してください。</p>",
+  "region": "prefecture",
+  "prefectures": [
+    "静岡県"
+  ],
+  "industries": [],
+  "targetNumberOfEmployees": null,
+  "employeeMin": null,
+  "employeeMax": null,
+  "isForSME": true,
+  "purposes": [
+    "設備投資"
+  ],
+  "usePurpose": "経営改善・経営強化、設備投資",
+  "status": "open",
+  "workflow": "藤枝市",
+  "subsidizedRate": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "startDate": "2026-06-01",
+  "endDate": "2027-02-28",
+  "referenceUrl": "https://www.city.fujieda.shizuoka.jp/soshiki/sangyoshinko/sangyoseisaku/gyomu/3/sangyohojyokinshoureikin201029/27376.html",
+  "updatedAt": "2026-06-03T00:00:00.000Z",
+  "id": "jnet21-184154",
+  "slug": "jnet21-184154",
+  "title": "中小企業者等熱中症対策事業費補助金（藤枝市）",
+  "source": "jnet21"
+}
