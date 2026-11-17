@@ -11,9 +11,7 @@
   "employeeMin": null,
   "employeeMax": 900,
   "isForSME": true,
-  "purposes": [
-    "研究開発"
-  ],
+  "purposes": ["研究開発"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "商業・サービス競争力強化連携支援事業（新連携支援事業）",

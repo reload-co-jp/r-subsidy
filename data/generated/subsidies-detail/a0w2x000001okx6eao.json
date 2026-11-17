@@ -11,11 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "販路拡大",
-    "研究開発",
-    "デジタル化"
-  ],
+  "purposes": ["販路拡大", "研究開発", "デジタル化"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "アイヌ中小企業振興対策事業費補助金",

@@ -11,10 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "デジタル化"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "中小企業省力化投資補助事業事務局（中小企業基盤整備機構）",

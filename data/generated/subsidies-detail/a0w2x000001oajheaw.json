@@ -11,10 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "研究開発"
-  ],
+  "purposes": ["設備投資", "研究開発"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "ものづくり・商業・サービス高度連携促進補助金",

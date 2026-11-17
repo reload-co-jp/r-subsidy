@@ -54,10 +54,7 @@
     "鹿児島県",
     "沖縄県"
   ],
-  "industries": [
-    "運輸業",
-    "郵便業"
-  ],
+  "industries": ["運輸業", "郵便業"],
   "targetNumberOfEmployees": "900名以下",
   "employeeMin": null,
   "employeeMax": 900,

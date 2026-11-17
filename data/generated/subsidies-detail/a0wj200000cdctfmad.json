@@ -44,12 +44,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "省エネ",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "研究開発", "省エネ", "デジタル化"],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "蓄電池等の製品の持続可能性向上に向けた基盤整備・実証事業",

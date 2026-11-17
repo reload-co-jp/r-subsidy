@@ -44,9 +44,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資"
-  ],
+  "purposes": ["設備投資"],
   "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "令和８年度地域の中堅・中核企業支援事業補助金（中堅・中核企業の経営力強化支援事業）",

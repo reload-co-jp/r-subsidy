@@ -44,13 +44,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "人材育成",
-    "販路拡大",
-    "研究開発",
-    "創業",
-    "デジタル化"
-  ],
+  "purposes": ["人材育成", "販路拡大", "研究開発", "創業", "デジタル化"],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "環境保全研究費補助金（イノベーション創出のための環境スタートアップ研究開発支援事業）",

@@ -11,10 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "人材育成",
-    "研究開発"
-  ],
+  "purposes": ["人材育成", "研究開発"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "令和３年度地域新成長産業創出促進事業費補助金（戦略的ツール活用型若者人材移転支援事業）",

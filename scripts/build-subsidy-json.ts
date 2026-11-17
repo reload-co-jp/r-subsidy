@@ -1,18 +1,27 @@
-import fs from 'fs'
-import path from 'path'
-import type { NormalizedSubsidy, SubsidyIndexItem, UpdateHistory } from '../lib/types'
-import { sanitizeSubsidies } from '../lib/quality'
+import fs from "fs"
+import path from "path"
+import type {
+  NormalizedSubsidy,
+  SubsidyIndexItem,
+  UpdateHistory,
+} from "../lib/types"
+import { sanitizeSubsidies } from "../lib/quality"
 
-const MERGED_FILE = path.join(process.cwd(), 'data', 'normalized', 'merged.json')
-const OUT_DIR = path.join(process.cwd(), 'data', 'generated')
-const PUBLIC_DIR = path.join(process.cwd(), 'public', 'data')
+const MERGED_FILE = path.join(
+  process.cwd(),
+  "data",
+  "normalized",
+  "merged.json"
+)
+const OUT_DIR = path.join(process.cwd(), "data", "generated")
+const PUBLIC_DIR = path.join(process.cwd(), "public", "data")
 
 function ensureDirs() {
   for (const dir of [
     OUT_DIR,
-    path.join(OUT_DIR, 'subsidies-detail'),
+    path.join(OUT_DIR, "subsidies-detail"),
     PUBLIC_DIR,
-    path.join(PUBLIC_DIR, 'subsidies-detail'),
+    path.join(PUBLIC_DIR, "subsidies-detail"),
   ]) {
     fs.mkdirSync(dir, { recursive: true })
   }
@@ -28,7 +37,9 @@ function stringifyJson(data: unknown) {
 
 function writeJsonIfChanged(filePath: string, data: unknown) {
   const next = stringifyJson(data)
-  const current = fs.existsSync(filePath) ? fs.readFileSync(filePath, 'utf-8') : null
+  const current = fs.existsSync(filePath)
+    ? fs.readFileSync(filePath, "utf-8")
+    : null
 
   if (current === next) return false
 
@@ -38,12 +49,12 @@ function writeJsonIfChanged(filePath: string, data: unknown) {
 
 function readPreviousHistory(): UpdateHistory | null {
   for (const file of [
-    path.join(OUT_DIR, 'update-history.json'),
-    path.join(PUBLIC_DIR, 'update-history.json'),
+    path.join(OUT_DIR, "update-history.json"),
+    path.join(PUBLIC_DIR, "update-history.json"),
   ]) {
     try {
       if (fs.existsSync(file)) {
-        return JSON.parse(fs.readFileSync(file, 'utf-8'))
+        return JSON.parse(fs.readFileSync(file, "utf-8"))
       }
     } catch {
       // Ignore broken history and regenerate below.
@@ -55,25 +66,25 @@ function readPreviousHistory(): UpdateHistory | null {
 
 async function main() {
   if (!fs.existsSync(MERGED_FILE)) {
-    console.error('Run merge-local-subsidies.ts first')
+    console.error("Run merge-local-subsidies.ts first")
     process.exit(1)
   }
 
   ensureDirs()
 
-  const merged = JSON.parse(fs.readFileSync(MERGED_FILE, 'utf-8')) as {
+  const merged = JSON.parse(fs.readFileSync(MERGED_FILE, "utf-8")) as {
     subsidies: NormalizedSubsidy[]
     counts: { jgrants: number; national: number; tokyo: number; total: number }
   }
   const { counts } = merged
   const { subsidies, issues } = sanitizeSubsidies(merged.subsidies)
   const issueCounts = issues.reduce<Record<string, number>>((acc, i) => {
-    const key = i.reason.replace(/（.*）$/, '')
+    const key = i.reason.replace(/（.*）$/, "")
     acc[key] = (acc[key] ?? 0) + 1
     return acc
   }, {})
-  console.log('Data quality:', issueCounts)
-  writeJsonIfChanged(path.join(OUT_DIR, 'quality-issues.json'), issues)
+  console.log("Data quality:", issueCounts)
+  writeJsonIfChanged(path.join(OUT_DIR, "quality-issues.json"), issues)
 
   console.log(`Building JSON for ${subsidies.length} subsidies...`)
 
@@ -98,20 +109,31 @@ async function main() {
 
   let dataChanged = false
 
-  dataChanged = writeJsonIfChanged(path.join(OUT_DIR, 'subsidies-index.json'), index) || dataChanged
-  writeJson(path.join(PUBLIC_DIR, 'subsidies-index.json'), index)
+  dataChanged =
+    writeJsonIfChanged(path.join(OUT_DIR, "subsidies-index.json"), index) ||
+    dataChanged
+  writeJson(path.join(PUBLIC_DIR, "subsidies-index.json"), index)
 
   // subsidies-master.json (full data for client-side scoring)
-  dataChanged = writeJsonIfChanged(path.join(OUT_DIR, 'subsidies-master.json'), subsidies) || dataChanged
-  writeJson(path.join(PUBLIC_DIR, 'subsidies-master.json'), subsidies)
+  dataChanged =
+    writeJsonIfChanged(
+      path.join(OUT_DIR, "subsidies-master.json"),
+      subsidies
+    ) || dataChanged
+  writeJson(path.join(PUBLIC_DIR, "subsidies-master.json"), subsidies)
 
   // subsidies-detail/{slug}.json
   for (const subsidy of subsidies) {
     const detailData = subsidy
     dataChanged =
-      writeJsonIfChanged(path.join(OUT_DIR, 'subsidies-detail', `${subsidy.slug}.json`), detailData) ||
-      dataChanged
-    writeJson(path.join(PUBLIC_DIR, 'subsidies-detail', `${subsidy.slug}.json`), detailData)
+      writeJsonIfChanged(
+        path.join(OUT_DIR, "subsidies-detail", `${subsidy.slug}.json`),
+        detailData
+      ) || dataChanged
+    writeJson(
+      path.join(PUBLIC_DIR, "subsidies-detail", `${subsidy.slug}.json`),
+      detailData
+    )
   }
 
   // update-history.json（公開データ＝品質チェック後の件数）
@@ -122,7 +144,9 @@ async function main() {
   const previousHistory = readPreviousHistory()
   const history: UpdateHistory = {
     lastUpdated:
-      dataChanged || !previousHistory ? new Date().toISOString() : previousHistory.lastUpdated,
+      dataChanged || !previousHistory
+        ? new Date().toISOString()
+        : previousHistory.lastUpdated,
     totalCount: subsidies.length,
     sources: {
       jgrants: counts.jgrants,
@@ -133,8 +157,8 @@ async function main() {
       mhlw: bySource.mhlw ?? 0,
     },
   }
-  writeJsonIfChanged(path.join(OUT_DIR, 'update-history.json'), history)
-  writeJsonIfChanged(path.join(PUBLIC_DIR, 'update-history.json'), history)
+  writeJsonIfChanged(path.join(OUT_DIR, "update-history.json"), history)
+  writeJsonIfChanged(path.join(PUBLIC_DIR, "update-history.json"), history)
 
   console.log(`Built:`)
   console.log(`  subsidies-index.json (${index.length} items)`)
@@ -144,6 +168,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error('Fatal:', err)
+  console.error("Fatal:", err)
   process.exit(1)
 })

@@ -44,11 +44,7 @@
   "employeeMin": null,
   "employeeMax": 300,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "人材育成",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "人材育成", "デジタル化"],
   "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "受動喫煙防止対策助成金",

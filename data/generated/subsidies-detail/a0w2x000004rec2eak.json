@@ -5,21 +5,13 @@
   "overview": "",
   "detail": "<p><b style=\"color: rgb(0, 111, 173);\">■目的・概要</b></p><p>水素エネルギーが活用された水素社会の早期実現に向けて、事業用の燃料電池バスの普及を促進するために行う「燃料電池バス導入促進事業」を補完することを目的に燃料電池バスの燃料費の一部を助成します。</p><p><br></p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■問合せ先</b></p><p>公益財団法人東京都環境公社</p><p>東京都地球温暖化防止活動推進センター温暖化対策推進課</p><p>都市エネ促進チーム</p><p>電話：03-5990-5159</p><p><br></p><p><b style=\"color: rgb(0, 111, 173);\">■参照URL</b></p><p>https://www.tokyo-co2down.jp/subsidy/fc-bus-fuel</p>",
   "region": "tokyo",
-  "prefectures": [
-    "東京都"
-  ],
-  "industries": [
-    "運輸業",
-    "郵便業"
-  ],
+  "prefectures": ["東京都"],
+  "industries": ["運輸業", "郵便業"],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "省エネ"
-  ],
+  "purposes": ["設備投資", "省エネ"],
   "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "燃料電池バス燃料費支援事業",

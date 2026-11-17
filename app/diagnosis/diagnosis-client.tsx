@@ -1,7 +1,11 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import type { NormalizedSubsidy, UserProfile, ScoringResult } from "../../lib/types"
+import type {
+  NormalizedSubsidy,
+  UserProfile,
+  ScoringResult,
+} from "../../lib/types"
 import { scoreAndSort } from "../../lib/scoring"
 import { matchesPrefecture } from "../../lib/prefectures"
 import DiagnosisForm from "./diagnosis-form"
@@ -35,7 +39,10 @@ export default function DiagnosisClient() {
         businessType: p.businessType ?? prev.businessType,
         prefecture: p.prefecture ?? prev.prefecture,
         industry: p.industry ?? prev.industry,
-        employeeCount: typeof p.employeeCount === "number" ? p.employeeCount : prev.employeeCount,
+        employeeCount:
+          typeof p.employeeCount === "number"
+            ? p.employeeCount
+            : prev.employeeCount,
         purposes: Array.isArray(p.purposes) ? p.purposes : prev.purposes,
       }))
     } catch {
@@ -76,7 +83,8 @@ export default function DiagnosisClient() {
       const subsidies: NormalizedSubsidy[] = await res.json()
 
       const activeSubsidies = subsidies.filter((subsidy) => {
-        if (subsidy.status !== "open" && subsidy.status !== "upcoming") return false
+        if (subsidy.status !== "open" && subsidy.status !== "upcoming")
+          return false
         return matchesPrefecture(subsidy, profile.prefecture)
       })
       const scored = scoreAndSort(activeSubsidies, profile)
@@ -90,7 +98,13 @@ export default function DiagnosisClient() {
   }
 
   if (step === "result") {
-    return <DiagnosisResult results={results} profile={profile} onReset={() => setStep("form")} />
+    return (
+      <DiagnosisResult
+        results={results}
+        profile={profile}
+        onReset={() => setStep("form")}
+      />
+    )
   }
 
   return (

@@ -97,8 +97,13 @@ export default function DiagnosisForm({
                   borderRadius: "6px",
                   border: `1px solid ${businessType === t ? "var(--green-dark)" : "var(--border-soft)"}`,
                   backgroundColor:
-                    businessType === t ? "var(--green-50)" : "var(--bg-surface)",
-                  color: businessType === t ? "var(--green-dark)" : "var(--text-muted)",
+                    businessType === t
+                      ? "var(--green-50)"
+                      : "var(--bg-surface)",
+                  color:
+                    businessType === t
+                      ? "var(--green-dark)"
+                      : "var(--text-muted)",
                   cursor: "pointer",
                   fontSize: ".875rem",
                 }}

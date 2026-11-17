@@ -38,13 +38,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "人材育成",
-    "販路拡大",
-    "デジタル化",
-    "海外展開"
-  ],
+  "purposes": ["設備投資", "人材育成", "販路拡大", "デジタル化", "海外展開"],
   "usePurpose": "販路拡大・海外展開をしたい / イベント・事業運営支援がほしい",
   "status": "closed",
   "workflow": "小規模事業者持続化補助金＜共同・協業型＞",

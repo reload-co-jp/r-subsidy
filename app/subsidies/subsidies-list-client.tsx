@@ -308,12 +308,9 @@ function SubsidiesList({
       if (statusFilter !== "all" && subsidy.status !== statusFilter)
         return false
       if (prefectureFilter === "national") {
-        if (
-          !(
-            subsidy.region === "national" ||
-            subsidy.prefectures.includes("全国")
-          )
-        )
+        if (!(
+          subsidy.region === "national" || subsidy.prefectures.includes("全国")
+        ))
           return false
       } else if (
         prefectureFilter !== "all" &&

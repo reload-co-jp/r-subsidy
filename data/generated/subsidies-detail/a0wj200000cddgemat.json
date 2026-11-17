@@ -5,9 +5,7 @@
   "overview": "",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 16px; color: rgb(26, 26, 28);\">デジタル技術の活用に取り組む都内商店街に対し、必要な機器の購入やアプリ・各種システムの開発・構築などデジタル導入に要する経費のほか、専門家からの支援を受ける経費や効果的な活用・運用等に係る経費を補助します。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.sangyo-rodo.metro.tokyo.lg.jp/chushou/shoko/chiiki/miryoku/digital/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.sangyo-rodo.metro.tokyo.lg.jp/chushou/shoko/chiiki/miryoku/digital/</a></p>",
   "region": "tokyo",
-  "prefectures": [
-    "東京都"
-  ],
+  "prefectures": ["東京都"],
   "industries": [
     "漁業",
     "建設業",
@@ -44,11 +42,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "研究開発", "デジタル化"],
   "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "商店街デジタル化推進事業",

@@ -44,11 +44,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "販路拡大",
-    "創業",
-    "海外展開"
-  ],
+  "purposes": ["販路拡大", "創業", "海外展開"],
   "usePurpose": "まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "ALPS処理水関連の輸入規制強化を踏まえた水産業の特定国・地域依存を分散するための緊急支援事業（新規需要開拓等事業）",

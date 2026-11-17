@@ -1,32 +1,32 @@
-import type { JGrantsDetail, NormalizedSubsidy, Region, Status } from './types'
-import { PREFECTURES } from './prefectures'
+import type { JGrantsDetail, NormalizedSubsidy, Region, Status } from "./types"
+import { PREFECTURES } from "./prefectures"
 
-const TOKYO_PREFECTURES = ['東京都', '東京']
+const TOKYO_PREFECTURES = ["東京都", "東京"]
 
 const CITY_PREFECTURE_HINTS: Record<string, string> = {
-  北九州市: '福岡県',
-  福岡市: '福岡県',
-  京都市: '京都府',
-  いわき市: '福島県',
-  佐賀市: '佐賀県',
-  岡崎市: '愛知県',
-  四日市市: '三重県',
-  山口市: '山口県',
-  東京都内: '東京都',
-  都内: '東京都',
-  東京港: '東京都',
+  北九州市: "福岡県",
+  福岡市: "福岡県",
+  京都市: "京都府",
+  いわき市: "福島県",
+  佐賀市: "佐賀県",
+  岡崎市: "愛知県",
+  四日市市: "三重県",
+  山口市: "山口県",
+  東京都内: "東京都",
+  都内: "東京都",
+  東京港: "東京都",
 }
 
 const PURPOSE_KEYWORDS: Record<string, string[]> = {
-  設備投資: ['設備', '機械', '装置', '導入', '購入', 'IT', 'デジタル', 'DX'],
-  人材育成: ['人材', '雇用', '採用', '教育', '訓練', 'スキル'],
-  販路拡大: ['販路', '海外', '輸出', 'EC', '広告', 'マーケティング'],
-  研究開発: ['研究', '開発', 'R&D', '技術', '実証', '試作'],
-  事業承継: ['事業承継', '後継', '引継', '承継'],
-  創業: ['創業', '開業', 'スタートアップ', '起業', '新規'],
-  省エネ: ['省エネ', 'エネルギー', '再生可能', '脱炭素', 'CO2', 'カーボン'],
-  デジタル化: ['デジタル', 'DX', 'IT', 'システム', 'クラウド', 'AI'],
-  海外展開: ['海外展開', '海外進出', '輸出', '越境', 'インバウンド'],
+  設備投資: ["設備", "機械", "装置", "導入", "購入", "IT", "デジタル", "DX"],
+  人材育成: ["人材", "雇用", "採用", "教育", "訓練", "スキル"],
+  販路拡大: ["販路", "海外", "輸出", "EC", "広告", "マーケティング"],
+  研究開発: ["研究", "開発", "R&D", "技術", "実証", "試作"],
+  事業承継: ["事業承継", "後継", "引継", "承継"],
+  創業: ["創業", "開業", "スタートアップ", "起業", "新規"],
+  省エネ: ["省エネ", "エネルギー", "再生可能", "脱炭素", "CO2", "カーボン"],
+  デジタル化: ["デジタル", "DX", "IT", "システム", "クラウド", "AI"],
+  海外展開: ["海外展開", "海外進出", "輸出", "越境", "インバウンド"],
 }
 
 export function extractPurposes(text: string): string[] {
@@ -40,13 +40,13 @@ export function extractPurposes(text: string): string[] {
 }
 
 export function normalizeRegion(prefectures: string[]): Region {
-  if (!prefectures || prefectures.length === 0) return 'national'
-  if (prefectures.includes('全国')) return 'national'
-  if (prefectures.length >= 47) return 'national'
+  if (!prefectures || prefectures.length === 0) return "national"
+  if (prefectures.includes("全国")) return "national"
+  if (prefectures.length >= 47) return "national"
   if (prefectures.some((p) => TOKYO_PREFECTURES.includes(p))) {
-    return prefectures.length === 1 ? 'tokyo' : 'prefecture'
+    return prefectures.length === 1 ? "tokyo" : "prefecture"
   }
-  return 'prefecture'
+  return "prefecture"
 }
 
 export function normalizeStatus(
@@ -56,9 +56,9 @@ export function normalizeStatus(
 ): Status {
   if (acceptanceStatus) {
     const s = acceptanceStatus.toLowerCase()
-    if (s === 'open' || s === '受付中') return 'open'
-    if (s === 'upcoming' || s === '準備中' || s === '公募前') return 'upcoming'
-    if (s === 'closed' || s === '終了' || s === '受付終了') return 'closed'
+    if (s === "open" || s === "受付中") return "open"
+    if (s === "upcoming" || s === "準備中" || s === "公募前") return "upcoming"
+    if (s === "closed" || s === "終了" || s === "受付終了") return "closed"
   }
 
   const now = new Date()
@@ -66,18 +66,20 @@ export function normalizeStatus(
     const start = parseJGrantsDate(startDate)
     const end = parseJGrantsDate(endDate)
     if (start && end) {
-      if (now < start) return 'upcoming'
-      if (now > end) return 'closed'
-      return 'open'
+      if (now < start) return "upcoming"
+      if (now > end) return "closed"
+      return "open"
     }
   }
 
-  return 'unknown'
+  return "unknown"
 }
 
-export function parseJGrantsDate(dateStr: string | undefined | null): Date | null {
+export function parseJGrantsDate(
+  dateStr: string | undefined | null
+): Date | null {
   if (!dateStr) return null
-  const clean = dateStr.replace(/[^0-9]/g, '')
+  const clean = dateStr.replace(/[^0-9]/g, "")
   if (clean.length === 8) {
     const y = clean.slice(0, 4)
     const m = clean.slice(4, 6)
@@ -90,7 +92,7 @@ export function parseJGrantsDate(dateStr: string | undefined | null): Date | nul
 
 export function formatDate(date: Date | null): string | null {
   if (!date) return null
-  return date.toISOString().split('T')[0]
+  return date.toISOString().split("T")[0]
 }
 
 export function normalizeEmployeeCount(str: string | undefined): {
@@ -99,16 +101,18 @@ export function normalizeEmployeeCount(str: string | undefined): {
 } {
   if (!str) return { min: null, max: null }
 
-  const patterns: [RegExp, (m: RegExpMatchArray) => { min: number | null; max: number | null }][] =
-    [
-      [/(\d+)人以下/, (m) => ({ min: null, max: parseInt(m[1]) })],
-      [/(\d+)名以下/, (m) => ({ min: null, max: parseInt(m[1]) })],
-      [/(\d+)人未満/, (m) => ({ min: null, max: parseInt(m[1]) - 1 })],
-      [/(\d+)人以上/, (m) => ({ min: parseInt(m[1]), max: null })],
-      [/(\d+)～(\d+)人/, (m) => ({ min: parseInt(m[1]), max: parseInt(m[2]) })],
-      [/(\d+)-(\d+)人/, (m) => ({ min: parseInt(m[1]), max: parseInt(m[2]) })],
-      [/(\d+)人/, (m) => ({ min: null, max: parseInt(m[1]) })],
-    ]
+  const patterns: [
+    RegExp,
+    (m: RegExpMatchArray) => { min: number | null; max: number | null },
+  ][] = [
+    [/(\d+)人以下/, (m) => ({ min: null, max: parseInt(m[1]) })],
+    [/(\d+)名以下/, (m) => ({ min: null, max: parseInt(m[1]) })],
+    [/(\d+)人未満/, (m) => ({ min: null, max: parseInt(m[1]) - 1 })],
+    [/(\d+)人以上/, (m) => ({ min: parseInt(m[1]), max: null })],
+    [/(\d+)～(\d+)人/, (m) => ({ min: parseInt(m[1]), max: parseInt(m[2]) })],
+    [/(\d+)-(\d+)人/, (m) => ({ min: parseInt(m[1]), max: parseInt(m[2]) })],
+    [/(\d+)人/, (m) => ({ min: null, max: parseInt(m[1]) })],
+  ]
 
   for (const [regex, handler] of patterns) {
     const match = str.match(regex)
@@ -126,10 +130,12 @@ export function isSubsidyForSME(
 ): boolean {
   if (employeeMax !== null && employeeMax <= 300) return true
   const text = `${title} ${overview} ${detail}`
-  return text.includes('中小企業')
+  return text.includes("中小企業")
 }
 
-export function normalizeIndustries(industryTypes: string[] | undefined): string[] {
+export function normalizeIndustries(
+  industryTypes: string[] | undefined
+): string[] {
   if (!industryTypes || industryTypes.length === 0) return []
   return industryTypes.map((t) => t.trim()).filter(Boolean)
 }
@@ -157,7 +163,7 @@ function extractPrefectureHints(text: string): string[] {
 function normalizeAreaTokens(areas: string[]): string[] {
   const normalized = areas.flatMap((area) => {
     const trimmed = area.trim()
-    if (!trimmed || trimmed === '全国') return []
+    if (!trimmed || trimmed === "全国") return []
     if (PREFECTURES.includes(trimmed)) return [trimmed]
 
     return extractPrefectureHints(trimmed)
@@ -168,9 +174,13 @@ function normalizeAreaTokens(areas: string[]): string[] {
 
 function normalizeJGrantsPrefectures(detail: JGrantsDetail): string[] {
   const legacyPrefectures = detail.target?.prefecture ?? []
-  if (legacyPrefectures.length > 0) return normalizeAreaTokens(legacyPrefectures)
+  if (legacyPrefectures.length > 0)
+    return normalizeAreaTokens(legacyPrefectures)
 
-  const workflowAreas = detail.workflow?.flatMap((item) => splitDelimitedText(item.target_area_search)) ?? []
+  const workflowAreas =
+    detail.workflow?.flatMap((item) =>
+      splitDelimitedText(item.target_area_search)
+    ) ?? []
   const directAreas = splitDelimitedText(detail.target_area_search)
   const explicitAreas = normalizeAreaTokens([...workflowAreas, ...directAreas])
   if (explicitAreas.length > 0) return explicitAreas
@@ -179,10 +189,10 @@ function normalizeJGrantsPrefectures(detail: JGrantsDetail): string[] {
     detail.title,
     detail.institution_name,
     detail.target_area_detail,
-    detail.workflow?.map((item) => item.target_area_detail).join(' '),
+    detail.workflow?.map((item) => item.target_area_detail).join(" "),
   ]
     .filter(Boolean)
-    .join(' ')
+    .join(" ")
   const hintedAreas = extractPrefectureHints(detailText)
   if (hintedAreas.length > 0) return hintedAreas
 
@@ -190,18 +200,28 @@ function normalizeJGrantsPrefectures(detail: JGrantsDetail): string[] {
 }
 
 function normalizeJGrantsWorkflow(detail: JGrantsDetail): string | null {
-  return detail.acceptance_period_list?.[0]?.workflow ?? detail.institution_name ?? null
+  return (
+    detail.acceptance_period_list?.[0]?.workflow ??
+    detail.institution_name ??
+    null
+  )
 }
 
 function normalizeJGrantsReferenceUrl(detail: JGrantsDetail): string | null {
-  return detail.subsidy_detail?.reference_url ?? detail.front_subsidy_detail_page_url ?? null
+  return (
+    detail.subsidy_detail?.reference_url ??
+    detail.front_subsidy_detail_page_url ??
+    null
+  )
 }
 
 export function toSlug(id: string): string {
-  return id.replace(/[^a-zA-Z0-9-_]/g, '-').toLowerCase()
+  return id.replace(/[^a-zA-Z0-9-_]/g, "-").toLowerCase()
 }
 
-export function normalizeJGrantsDetail(detail: JGrantsDetail): NormalizedSubsidy {
+export function normalizeJGrantsDetail(
+  detail: JGrantsDetail
+): NormalizedSubsidy {
   const prefectures = normalizeJGrantsPrefectures(detail)
   const region = normalizeRegion(prefectures)
 
@@ -209,23 +229,35 @@ export function normalizeJGrantsDetail(detail: JGrantsDetail): NormalizedSubsidy
   const workflow = detail.workflow?.[0]
   const startDate = formatDate(
     parseJGrantsDate(
-      period?.start_date ?? workflow?.acceptance_start_datetime ?? detail.acceptance_start_datetime
+      period?.start_date ??
+        workflow?.acceptance_start_datetime ??
+        detail.acceptance_start_datetime
     )
   )
   const endDate = formatDate(
-    parseJGrantsDate(period?.end_date ?? workflow?.acceptance_end_datetime ?? detail.acceptance_end_datetime)
+    parseJGrantsDate(
+      period?.end_date ??
+        workflow?.acceptance_end_datetime ??
+        detail.acceptance_end_datetime
+    )
   )
 
   const status = normalizeStatus(detail.acceptance_status, startDate, endDate)
 
-  const overview = detail.subsidy_detail?.overview ?? detail.subsidy_catch_phrase ?? detail.subtitle ?? ''
+  const overview =
+    detail.subsidy_detail?.overview ??
+    detail.subsidy_catch_phrase ??
+    detail.subtitle ??
+    ""
   const usePurpose = detail.use_purpose ?? null
-  const fullText = `${detail.title} ${overview} ${detail.subsidy_detail?.detail ?? detail.detail ?? ''} ${usePurpose ?? ''}`
+  const fullText = `${detail.title} ${overview} ${detail.subsidy_detail?.detail ?? detail.detail ?? ""} ${usePurpose ?? ""}`
   const purposes = extractPurposes(fullText)
 
-  const empStr = detail.target?.target_number_of_employees ?? detail.target_number_of_employees
+  const empStr =
+    detail.target?.target_number_of_employees ??
+    detail.target_number_of_employees
   const { min: employeeMin, max: employeeMax } = normalizeEmployeeCount(empStr)
-  const detailText = detail.subsidy_detail?.detail ?? detail.detail ?? ''
+  const detailText = detail.subsidy_detail?.detail ?? detail.detail ?? ""
 
   return {
     id: detail.id,
@@ -235,7 +267,9 @@ export function normalizeJGrantsDetail(detail: JGrantsDetail): NormalizedSubsidy
     detail: detailText,
     region,
     prefectures,
-    industries: normalizeIndustries(detail.target?.industry_type ?? splitDelimitedText(detail.industry)),
+    industries: normalizeIndustries(
+      detail.target?.industry_type ?? splitDelimitedText(detail.industry)
+    ),
     targetNumberOfEmployees: empStr ?? null,
     employeeMin,
     employeeMax,
@@ -244,20 +278,21 @@ export function normalizeJGrantsDetail(detail: JGrantsDetail): NormalizedSubsidy
     usePurpose,
     status,
     workflow: normalizeJGrantsWorkflow(detail),
-    subsidizedRate: detail.subsidy_detail?.subsidized_rate ?? detail.subsidy_rate ?? null,
+    subsidizedRate:
+      detail.subsidy_detail?.subsidized_rate ?? detail.subsidy_rate ?? null,
     upperLimit:
       detail.subsidy_detail?.upper_limit ??
-      (typeof detail.subsidy_max_limit === 'number'
-        ? `${detail.subsidy_max_limit.toLocaleString('ja-JP')}円`
+      (typeof detail.subsidy_max_limit === "number"
+        ? `${detail.subsidy_max_limit.toLocaleString("ja-JP")}円`
         : null),
     lowerLimit:
       detail.subsidy_detail?.lower_limit ??
-      (typeof detail.subsidy_min_limit === 'number'
-        ? `${detail.subsidy_min_limit.toLocaleString('ja-JP')}円`
+      (typeof detail.subsidy_min_limit === "number"
+        ? `${detail.subsidy_min_limit.toLocaleString("ja-JP")}円`
         : null),
     startDate,
     endDate,
-    source: 'jgrants',
+    source: "jgrants",
     referenceUrl: normalizeJGrantsReferenceUrl(detail),
     updatedAt: detail.updated_date ?? new Date().toISOString(),
   }

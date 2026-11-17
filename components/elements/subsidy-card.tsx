@@ -36,7 +36,8 @@ export default function SubsidyCard({
   accentColor?: string
   trailing?: ReactNode
 }) {
-  const amount = upperLimit && upperLimit !== "0円" ? formatAmount(upperLimit) : null
+  const amount =
+    upperLimit && upperLimit !== "0円" ? formatAmount(upperLimit) : null
   const visiblePurposes = purposes.slice(0, maxPurposes)
 
   return (
@@ -54,7 +55,11 @@ export default function SubsidyCard({
         {(status || region) && (
           <div className="card-meta">
             {status && <StatusBadge status={status} />}
-            {region && <span className="badge badge-navy">{areaLabel({ region, prefectures: prefectures ?? [] })}</span>}
+            {region && (
+              <span className="badge badge-navy">
+                {areaLabel({ region, prefectures: prefectures ?? [] })}
+              </span>
+            )}
           </div>
         )}
         <h3 className="card-title">{title}</h3>
@@ -63,7 +68,11 @@ export default function SubsidyCard({
           {status !== "upcoming" && endDate !== undefined && (
             <div>
               <dt>締切</dt>
-              <dd>{formatDate(endDate) ?? <span className="unconfirmed">未確認</span>}</dd>
+              <dd>
+                {formatDate(endDate) ?? (
+                  <span className="unconfirmed">未確認</span>
+                )}
+              </dd>
             </div>
           )}
           {upperLimit !== undefined && (
@@ -86,14 +95,19 @@ export default function SubsidyCard({
           )}
         </dl>
         {visiblePurposes.length > 0 && (
-          <div className="chip-group" style={{ gap: ".35rem", marginTop: ".6rem" }}>
+          <div
+            className="chip-group"
+            style={{ gap: ".35rem", marginTop: ".6rem" }}
+          >
             {visiblePurposes.map((p) => (
               <PurposeTagLink key={p} purpose={p} />
             ))}
           </div>
         )}
       </div>
-      {trailing && <div style={{ textAlign: "right", flexShrink: 0 }}>{trailing}</div>}
+      {trailing && (
+        <div style={{ textAlign: "right", flexShrink: 0 }}>{trailing}</div>
+      )}
     </Link>
   )
 }

@@ -5,20 +5,13 @@
   "overview": "",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>認定職業訓練の実施を促進し、その内容の充実を図るため、中小企業事業主及び中小企業事業主の団体に対し、訓練の運営と設備等の整備に要する経費の一部を補助します。</p>",
   "region": "tokyo",
-  "prefectures": [
-    "東京都"
-  ],
-  "industries": [
-    "分類不能の産業"
-  ],
+  "prefectures": ["東京都"],
+  "industries": ["分類不能の産業"],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "人材育成"
-  ],
+  "purposes": ["設備投資", "人材育成"],
   "usePurpose": "人材育成を行いたい",
   "status": "closed",
   "workflow": "東京都事業内職業訓練事業補助金",

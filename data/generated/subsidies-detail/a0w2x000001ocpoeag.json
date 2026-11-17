@@ -11,12 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "人材育成",
-    "研究開発",
-    "省エネ"
-  ],
+  "purposes": ["設備投資", "人材育成", "研究開発", "省エネ"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "産油国石油精製技術等対策事業費補助金",

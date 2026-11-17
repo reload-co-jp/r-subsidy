@@ -11,10 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "研究開発",
-    "デジタル化"
-  ],
+  "purposes": ["研究開発", "デジタル化"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "令和３年度　石油製品販売業構造改善対策事業費補助金（次世代燃料供給体制構築支援事業のうち次世代燃料供給体制確立に向けた技術開発・実証に係るもの）",

@@ -1,4 +1,4 @@
-import type { NormalizedSubsidy } from './types'
+import type { NormalizedSubsidy } from "./types"
 
 // 公開前のデータ品質チェック。不正データは公開JSON（=HTML）に出さない
 const PLACEHOLDER_TITLE = /^※?\s*使用しない|^テスト|練習用|ダミー|令和[XＸ]年度/
@@ -13,12 +13,17 @@ export function todayJst(now = new Date()) {
 }
 
 function cleanDate(value: string | null, today: string): string | null {
-  if (!value || !DATE_RE.test(value) || isNaN(Date.parse(value.slice(0, 10)))) return null
-  if (Number(value.slice(0, 4)) > Number(today.slice(0, 4)) + MAX_YEARS_AHEAD) return null
+  if (!value || !DATE_RE.test(value) || isNaN(Date.parse(value.slice(0, 10))))
+    return null
+  if (Number(value.slice(0, 4)) > Number(today.slice(0, 4)) + MAX_YEARS_AHEAD)
+    return null
   return value
 }
 
-export function sanitizeSubsidies(subsidies: NormalizedSubsidy[], today = todayJst()) {
+export function sanitizeSubsidies(
+  subsidies: NormalizedSubsidy[],
+  today = todayJst()
+) {
   const issues: QualityIssue[] = []
   const drop = (s: NormalizedSubsidy, reason: string) => {
     issues.push({ slug: s.slug, title: s.title, reason })
@@ -27,25 +32,35 @@ export function sanitizeSubsidies(subsidies: NormalizedSubsidy[], today = todayJ
 
   const cleaned = subsidies
     .map((s) => {
-      const title = s.title?.trim() ?? ''
-      if (!title) return drop(s, '空の制度名')
-      if (PLACEHOLDER_TITLE.test(title)) return drop(s, 'placeholder/使用しないデータ')
+      const title = s.title?.trim() ?? ""
+      if (!title) return drop(s, "空の制度名")
+      if (PLACEHOLDER_TITLE.test(title))
+        return drop(s, "placeholder/使用しないデータ")
 
       const startDate = cleanDate(s.startDate, today)
       const endDate = cleanDate(s.endDate, today)
       if (startDate !== s.startDate || endDate !== s.endDate) {
-        issues.push({ slug: s.slug, title, reason: '不正または非現実的な日付を除去' })
+        issues.push({
+          slug: s.slug,
+          title,
+          reason: "不正または非現実的な日付を除去",
+        })
       }
       const start = startDate?.slice(0, 10)
       const end = endDate?.slice(0, 10)
-      if (start && end && start > end) return drop(s, '開始日 > 終了日')
+      if (start && end && start > end) return drop(s, "開始日 > 終了日")
 
       let status = s.status
-      if (end && end < today && status !== 'closed') status = 'closed'
-      else if (status === 'upcoming' && start && start <= today) status = 'open'
-      else if (status === 'unknown' && start && end) status = start > today ? 'upcoming' : 'open'
+      if (end && end < today && status !== "closed") status = "closed"
+      else if (status === "upcoming" && start && start <= today) status = "open"
+      else if (status === "unknown" && start && end)
+        status = start > today ? "upcoming" : "open"
       if (status !== s.status) {
-        issues.push({ slug: s.slug, title, reason: `状態を補正 ${s.status}→${status}` })
+        issues.push({
+          slug: s.slug,
+          title,
+          reason: `状態を補正 ${s.status}→${status}`,
+        })
       }
 
       return { ...s, title, startDate, endDate, status }
@@ -65,5 +80,10 @@ export function sanitizeSubsidies(subsidies: NormalizedSubsidy[], today = todayJ
     }
   }
 
-  return { subsidies: cleaned.filter((s) => byKey.get(`${s.title}|${s.startDate}|${s.endDate}`) === s), issues }
+  return {
+    subsidies: cleaned.filter(
+      (s) => byKey.get(`${s.title}|${s.startDate}|${s.endDate}`) === s
+    ),
+    issues,
+  }
 }

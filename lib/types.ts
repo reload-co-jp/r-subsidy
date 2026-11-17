@@ -108,10 +108,10 @@ export type JGrantsDetail = {
 }
 
 // Normalized types
-export type Region = 'national' | 'tokyo' | 'prefecture'
-export type Status = 'open' | 'upcoming' | 'closed' | 'unknown'
+export type Region = "national" | "tokyo" | "prefecture"
+export type Status = "open" | "upcoming" | "closed" | "unknown"
 // tokyo: 東京都中小企業振興公社 / jnet21: J-Net21 支援情報ヘッドライン / mhlw: 厚生労働省 雇用関係助成金
-export type Source = 'jgrants' | 'tokyo' | 'manual' | 'jnet21' | 'mhlw'
+export type Source = "jgrants" | "tokyo" | "manual" | "jnet21" | "mhlw"
 
 export type NormalizedSubsidy = {
   id: string
@@ -145,7 +145,7 @@ export type NormalizedSubsidyWithRaw = NormalizedSubsidy & {
 }
 
 // User profile for diagnosis
-export type BusinessType = 'corporation' | 'sole_proprietor'
+export type BusinessType = "corporation" | "sole_proprietor"
 
 export type UserProfile = {
   businessType: BusinessType
@@ -165,7 +165,7 @@ export type ScoreBreakdown = {
   tokyoBonus: number
 }
 
-export type Tier = 'strong' | 'match' | 'check'
+export type Tier = "strong" | "match" | "check"
 
 export type ScoringResult = {
   subsidy: NormalizedSubsidy

@@ -124,7 +124,14 @@ const Page: FC = () => {
       />
 
       <section className="hero">
-        <Image src="/images/hero-1600.jpg" alt="" fill priority sizes="100vw" className="hero-bg" />
+        <Image
+          src="/images/hero-1600.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="hero-bg"
+        />
         <div className="container hero-inner">
           <h1 className="hero-title">
             自社で使える補助金を、

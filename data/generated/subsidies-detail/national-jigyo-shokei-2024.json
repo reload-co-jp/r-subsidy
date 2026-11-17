@@ -9,10 +9,7 @@
   "industries": [],
   "employeeMin": null,
   "employeeMax": null,
-  "purposes": [
-    "事業承継",
-    "設備投資"
-  ],
+  "purposes": ["事業承継", "設備投資"],
   "status": "open",
   "workflow": "中小企業庁（事業承継・引継ぎ補助金事務局）",
   "subsidizedRate": "2/3以内",

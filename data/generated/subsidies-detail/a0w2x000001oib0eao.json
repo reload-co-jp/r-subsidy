@@ -11,11 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "人材育成",
-    "省エネ"
-  ],
+  "purposes": ["設備投資", "人材育成", "省エネ"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "原子力発電の制度整備のための国際協力事業費補助金",

@@ -44,12 +44,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "人材育成",
-    "研究開発",
-    "創業",
-    "デジタル化"
-  ],
+  "purposes": ["人材育成", "研究開発", "創業", "デジタル化"],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "中小企業新事業創出促進対策事業費補助金（スタートアップ向け経営人材支援事業）",

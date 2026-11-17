@@ -1,28 +1,28 @@
-import { execSync } from 'child_process'
-import path from 'path'
+import { execSync } from "child_process"
+import path from "path"
 
 const scripts = [
-  'fetch-jgrants-index.ts',
-  'fetch-jgrants-details.ts',
-  'normalize-jgrants.ts',
-  'fetch-jnet21-subsidies.ts',
-  'fetch-mhlw-grants.ts',
-  'fetch-tokyo-kosha.ts',
-  'fetch-mirasapo-cases.ts',
-  'merge-local-subsidies.ts',
-  'build-subsidy-json.ts',
-  'validate-json.ts',
+  "fetch-jgrants-index.ts",
+  "fetch-jgrants-details.ts",
+  "normalize-jgrants.ts",
+  "fetch-jnet21-subsidies.ts",
+  "fetch-mhlw-grants.ts",
+  "fetch-tokyo-kosha.ts",
+  "fetch-mirasapo-cases.ts",
+  "merge-local-subsidies.ts",
+  "build-subsidy-json.ts",
+  "validate-json.ts",
 ]
 
 function run(script: string) {
   console.log(`\n── ${script} ──`)
-  execSync(`tsx ${path.join('scripts', script)}`, {
-    stdio: 'inherit',
+  execSync(`tsx ${path.join("scripts", script)}`, {
+    stdio: "inherit",
     env: process.env,
   })
 }
 
-console.log('=== Subsidy data update ===')
+console.log("=== Subsidy data update ===")
 const start = Date.now()
 
 for (const script of scripts) {

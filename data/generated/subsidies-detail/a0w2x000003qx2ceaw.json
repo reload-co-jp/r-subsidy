@@ -43,10 +43,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "研究開発"
-  ],
+  "purposes": ["設備投資", "研究開発"],
   "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "ものづくり補助金",

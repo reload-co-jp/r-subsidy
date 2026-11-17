@@ -9,9 +9,7 @@
   "industries": [],
   "employeeMin": null,
   "employeeMax": 20,
-  "purposes": [
-    "販路拡大"
-  ],
+  "purposes": ["販路拡大"],
   "status": "open",
   "workflow": "商工会・商工会議所",
   "subsidizedRate": "2/3以内",

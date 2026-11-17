@@ -42,10 +42,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "デジタル化"],
   "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "INPIT事業再編計画支援事業補助金",

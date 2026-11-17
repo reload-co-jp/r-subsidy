@@ -29,13 +29,7 @@
   "employeeMin": null,
   "employeeMax": 20,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "人材育成",
-    "販路拡大",
-    "研究開発",
-    "海外展開"
-  ],
+  "purposes": ["設備投資", "人材育成", "販路拡大", "研究開発", "海外展開"],
   "usePurpose": "販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "全国商工会連合会_小規模事業者持続化補助金＜一般型＞",

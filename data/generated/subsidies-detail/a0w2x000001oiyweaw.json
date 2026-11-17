@@ -11,9 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "省エネ"
-  ],
+  "purposes": ["省エネ"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "令和２年度石油製品販売業環境保全対策事業費補助金（災害時に備えた地域におけるエネルギー供給拠点の整備事業のうち住民拠点サービスステーション整備事業等に係るもの）（国庫債務負担行為分）",

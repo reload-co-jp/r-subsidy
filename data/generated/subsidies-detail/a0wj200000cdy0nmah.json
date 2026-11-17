@@ -44,11 +44,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "省エネ",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "省エネ", "デジタル化"],
   "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "建築物等のZEB化・省CO2化普及加速事業",

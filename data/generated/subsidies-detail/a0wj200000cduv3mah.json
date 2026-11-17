@@ -20,10 +20,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "デジタル化"],
   "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "重要経済安保情報保護活用民間企業等情報保全施設導入支援事業（第２回公募）",

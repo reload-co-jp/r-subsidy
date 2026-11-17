@@ -5,13 +5,8 @@
   "overview": "サステナビリティ経営　SLL　サステナビリティリンクローン　ポジティブ・インパクト・ファイナンス　PIF 連携金融機関　中堅・中小企業　中堅中小企業　東京都　補助金",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p>都内中堅・中小企業等の経営をサステナビリティに配慮したものへと転換を促すため、東京都と「サステナブルファイナンス活性化に向けた連携協定」を締結した金融機関が取り扱うサステナビリティ・リンク・ローン、ポジティブ・インパクト・ファイナンスの実行にあたり、必要となる費用の一部を支援するものである。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■根拠法令</strong></p><p>東京都補助金等交付規則（昭和37年東京都規則第141号）</p><p>東京都補助金等交付規則の施行について（昭和37年12月11日付37財主調発第20号）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■応募資格</strong></p><p>詳細は「連携金融機関募集要項」及び「補助金交付要綱」を参照。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■地理条件</strong></p><p>詳細は<span style=\"color: rgb(68, 68, 68);\">「連携金融機関募集要項」及び「補助金交付要綱」を参照。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■備考</strong></p><p><span style=\"font-size: 12px;\">補助金の交付を受けた者は、名称、代表者名、補助内容等が公表される場合がある。</span></p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■問合せ先</strong></p><p>東京都　産業労働局　総務部　国際金融都市推進課</p><p>〒163-8001 </p><p>東京都新宿区西新宿二丁目８番１号</p><p>東京都庁第一本庁舎20階中央</p><p>電話03-5320-6274</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 12.8px;\">https://www.sangyo-rodo.metro.tokyo.lg.jp/gfct/initiatives/green-finance/sustainability-management</span></p>",
   "region": "tokyo",
-  "prefectures": [
-    "東京都"
-  ],
-  "industries": [
-    "学術研究",
-    "専門・技術サービス業"
-  ],
+  "prefectures": ["東京都"],
+  "industries": ["学術研究", "専門・技術サービス業"],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,

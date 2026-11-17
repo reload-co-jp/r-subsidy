@@ -19,7 +19,11 @@ import {
   absoluteUrl,
   buildBreadcrumbList,
 } from "../../../lib/site"
-import { formatDate, formatAmount, isIndexableSubsidy } from "../../../lib/format"
+import {
+  formatDate,
+  formatAmount,
+  isIndexableSubsidy,
+} from "../../../lib/format"
 import { isPrefecture } from "../../../lib/prefectures"
 import {
   areaLabel,

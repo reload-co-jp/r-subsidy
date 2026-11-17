@@ -19,10 +19,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "販路拡大",
-    "海外展開"
-  ],
+  "purposes": ["販路拡大", "海外展開"],
   "usePurpose": "新たな事業を行いたい / 販路拡大・海外展開をしたい",
   "status": "closed",
   "workflow": "【観光庁】観光需要分散のための地域観光資源のコンテンツ化促進事業",

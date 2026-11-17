@@ -11,11 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "研究開発",
-    "デジタル化",
-    "設備投資"
-  ],
+  "purposes": ["研究開発", "デジタル化", "設備投資"],
   "usePurpose": null,
   "status": "open",
   "workflow": "NEDO（国立研究開発法人 新エネルギー・産業技術総合開発機構）",

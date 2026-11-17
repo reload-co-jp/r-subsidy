@@ -9,9 +9,7 @@
   "industries": [],
   "employeeMin": null,
   "employeeMax": null,
-  "purposes": [
-    "人材育成"
-  ],
+  "purposes": ["人材育成"],
   "status": "open",
   "workflow": "各都道府県労働局・ハローワーク",
   "subsidizedRate": null,

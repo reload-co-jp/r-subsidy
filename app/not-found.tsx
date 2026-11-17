@@ -48,7 +48,14 @@ const NotFound: FC = () => {
       >
         URLが変更されたか、ページが削除された可能性があります。
       </p>
-      <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+      <div
+        style={{
+          display: "flex",
+          gap: "1rem",
+          justifyContent: "center",
+          flexWrap: "wrap",
+        }}
+      >
         <Link
           href="/"
           style={{

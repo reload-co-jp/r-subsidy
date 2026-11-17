@@ -5,9 +5,7 @@
   "overview": "従業員の資格や免許の取得に必要な研修の経費の一部を助成します！",
   "detail": "<p><br></p><p><strong style=\"font-size: 22px; color: rgb(0, 34, 255);\">従業員のスキルアップのための研修を実施する都内企業等に対し、助成金を支給します。</strong></p><p><strong style=\"font-size: 22px; color: rgb(0, 34, 255);\">建設・建築・運輸分野の国家資格取得等に向けて、<u>教育機関の公開研修</u>を利用して実施する研修が助成対象です。</strong></p><p><br></p><p><span style=\"font-size: 22px;\">【提出期限】  </span></p><p><strong style=\"color: red; font-size: 22px;\">研修開始予定日の１か月前（23時59分）まで </strong></p><p><span style=\"font-size: 22px;\">【交付申請書受付期間】 </span></p><p><strong style=\"color: red; font-size: 22px;\">令和８年４月30日から令和９年２月28日（23時59分）まで</strong></p><p><span style=\"font-size: 12px;\">※ 予算の範囲を超える申請があった場合等、申請受付期間内でも受付を終了することがあります。 </span></p><h3><span style=\"font-size: 12px;\"> ※ Jグランツで交付申請した場合、助成金請求までの全ての手続きを、Jグランツにて行っていただきます。</span></h3><h3 style=\"text-align: center;\"><br></h3><p><span style=\"font-size: 22px;\">助成金の詳細は 公益財団法人東京しごと財団ホームページ よりご確認ください。</span></p><p><br></p><h3>● <a href=\"https://www.koyokankyo.shigotozaidan.or.jp/jigyo/skillup/skill-R8shikaku.html\" target=\"_blank\">資格取得サポート助成金</a></h3>",
   "region": "tokyo",
-  "prefectures": [
-    "東京都"
-  ],
+  "prefectures": ["東京都"],
   "industries": [
     "漁業",
     "建設業",
@@ -46,9 +44,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "人材育成"
-  ],
+  "purposes": ["人材育成"],
   "usePurpose": "人材育成を行いたい",
   "status": "open",
   "workflow": "中小企業人材スキルアップ支援事業",

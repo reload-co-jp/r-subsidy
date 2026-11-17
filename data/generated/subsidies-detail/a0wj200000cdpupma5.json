@@ -25,10 +25,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "デジタル化"],
   "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "共同輸配送や帰り荷確保等のためのデータ連携促進支援事業費補助金",

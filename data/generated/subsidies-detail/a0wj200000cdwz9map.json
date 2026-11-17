@@ -44,13 +44,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "創業",
-    "省エネ",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "研究開発", "創業", "省エネ", "デジタル化"],
   "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "open",
   "workflow": "脱炭素成長型経済構造移行推進対策費補助金",

@@ -6,17 +6,10 @@
   "detail": "多言語化、バリアフリー化、キャッシュレス対応、Wi-Fi環境整備などの訪日外国人受入環境整備が対象経費。宿泊施設・観光施設・旅行業者等が対象。",
   "region": "national",
   "prefectures": [],
-  "industries": [
-    "宿泊業",
-    "飲食業",
-    "サービス業"
-  ],
+  "industries": ["宿泊業", "飲食業", "サービス業"],
   "employeeMin": null,
   "employeeMax": null,
-  "purposes": [
-    "設備投資",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "デジタル化"],
   "status": "upcoming",
   "workflow": "観光庁",
   "subsidizedRate": "1/2以内",

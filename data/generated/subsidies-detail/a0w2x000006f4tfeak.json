@@ -43,9 +43,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "デジタル化"
-  ],
+  "purposes": ["デジタル化"],
   "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "ものづくり補助金〔ビジネスモデル構築型〕",

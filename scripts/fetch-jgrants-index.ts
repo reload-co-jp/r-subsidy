@@ -1,21 +1,30 @@
-import fs from 'fs'
-import path from 'path'
-import type { JGrantsListItem, JGrantsListResponse } from '../lib/types'
+import fs from "fs"
+import path from "path"
+import type { JGrantsListItem, JGrantsListResponse } from "../lib/types"
 
-const BASE_URL = 'https://api.jgrants-portal.go.jp/exp/v1/public/subsidies'
-const OUTPUT_DIR = path.join(process.cwd(), 'data', 'raw')
-const DEFAULT_KEYWORDS = ['補助', '助成', '支援']
-const SORT = 'created_date'
-const ORDER = 'DESC'
-const ACCEPTANCE = '0'
+const BASE_URL = "https://api.jgrants-portal.go.jp/exp/v1/public/subsidies"
+const OUTPUT_DIR = path.join(process.cwd(), "data", "raw")
+const DEFAULT_KEYWORDS = ["補助", "助成", "支援"]
+const SORT = "created_date"
+const ORDER = "DESC"
+const ACCEPTANCE = "0"
 
 function extractItems(response: JGrantsListResponse): JGrantsListItem[] {
-  return Array.isArray(response.result) ? response.result : response.result.subsidies
+  return Array.isArray(response.result)
+    ? response.result
+    : response.result.subsidies
 }
 
-function extractCount(response: JGrantsListResponse, fallbackCount: number): number {
+function extractCount(
+  response: JGrantsListResponse,
+  fallbackCount: number
+): number {
   if (Array.isArray(response.result)) {
-    return response.metadata?.resultset?.count ?? response.metadata?.resultset?.total_count ?? fallbackCount
+    return (
+      response.metadata?.resultset?.count ??
+      response.metadata?.resultset?.total_count ??
+      fallbackCount
+    )
   }
 
   return response.result.metadata.count ?? response.result.metadata.total_count
@@ -30,7 +39,7 @@ async function fetchByKeyword(keyword: string): Promise<JGrantsListResponse> {
   })
   const url = `${BASE_URL}?${params.toString()}`
   const res = await fetch(url, {
-    headers: { 'Content-Type': 'application/json' },
+    headers: { "Content-Type": "application/json" },
   })
   if (!res.ok) throw new Error(`HTTP ${res.status}: ${url}`)
   return res.json() as Promise<JGrantsListResponse>
@@ -39,10 +48,13 @@ async function fetchByKeyword(keyword: string): Promise<JGrantsListResponse> {
 async function fetchAllIds(): Promise<string[]> {
   const ids = new Set<string>()
   const itemMap = new Map<string, JGrantsListItem>()
-  const keywords = process.env.JGRANTS_KEYWORDS?.split(',').map((v) => v.trim()).filter(Boolean) ?? DEFAULT_KEYWORDS
+  const keywords =
+    process.env.JGRANTS_KEYWORDS?.split(",")
+      .map((v) => v.trim())
+      .filter(Boolean) ?? DEFAULT_KEYWORDS
 
-  console.log('Fetching JGrants subsidy index...')
-  console.log(`Keywords: ${keywords.join(', ')}`)
+  console.log("Fetching JGrants subsidy index...")
+  console.log(`Keywords: ${keywords.join(", ")}`)
 
   for (const keyword of keywords) {
     const response = await fetchByKeyword(keyword)
@@ -63,11 +75,13 @@ async function fetchAllIds(): Promise<string[]> {
 
   fs.mkdirSync(OUTPUT_DIR, { recursive: true })
 
-  const indexFile = path.join(OUTPUT_DIR, 'jgrants-index.json')
+  const indexFile = path.join(OUTPUT_DIR, "jgrants-index.json")
   let previousFetchedAt: string | null = null
   if (fs.existsSync(indexFile)) {
     try {
-      const prev = JSON.parse(fs.readFileSync(indexFile, 'utf-8')) as { fetchedAt?: string }
+      const prev = JSON.parse(fs.readFileSync(indexFile, "utf-8")) as {
+        fetchedAt?: string
+      }
       previousFetchedAt = prev.fetchedAt ?? null
     } catch {
       // ignore
@@ -76,7 +90,11 @@ async function fetchAllIds(): Promise<string[]> {
 
   fs.writeFileSync(
     indexFile,
-    JSON.stringify({ fetchedAt: new Date().toISOString(), previousFetchedAt, items }, null, 2)
+    JSON.stringify(
+      { fetchedAt: new Date().toISOString(), previousFetchedAt, items },
+      null,
+      2
+    )
   )
 
   return [...ids]
@@ -87,6 +105,6 @@ fetchAllIds()
     console.log(`Saved ${ids.length} IDs to data/raw/jgrants-index.json`)
   })
   .catch((err) => {
-    console.error('Fatal error:', err)
+    console.error("Fatal error:", err)
     process.exit(1)
   })

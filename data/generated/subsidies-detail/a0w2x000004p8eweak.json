@@ -43,11 +43,7 @@
   "employeeMin": null,
   "employeeMax": 900,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "研究開発", "デジタル化"],
   "usePurpose": "設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "令和3年度ものづくり・商業・サービス高度連携促進補助金",

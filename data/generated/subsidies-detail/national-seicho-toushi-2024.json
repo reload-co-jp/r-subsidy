@@ -9,9 +9,7 @@
   "industries": [],
   "employeeMin": null,
   "employeeMax": 300,
-  "purposes": [
-    "設備投資"
-  ],
+  "purposes": ["設備投資"],
   "status": "open",
   "workflow": "中小企業庁",
   "subsidizedRate": "1/3以内",

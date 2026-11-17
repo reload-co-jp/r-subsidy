@@ -21,11 +21,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "省エネ"
-  ],
+  "purposes": ["設備投資", "研究開発", "省エネ"],
   "usePurpose": "新たな事業を行いたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "令和５年度二酸化炭素排出抑制対策事業費等補助金（環境配慮型先進トラック・バス導入加速事業）",

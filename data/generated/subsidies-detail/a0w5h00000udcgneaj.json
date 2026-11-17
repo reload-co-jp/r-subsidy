@@ -56,9 +56,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "研究開発"
-  ],
+  "purposes": ["研究開発"],
   "usePurpose": "新たな事業を行いたい",
   "status": "closed",
   "workflow": "中小企業知的財産支援事業費補助金",

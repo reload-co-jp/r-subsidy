@@ -43,12 +43,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "省エネ",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "研究開発", "省エネ", "デジタル化"],
   "usePurpose": "研究開発・実証事業を行いたい / 設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "超高層ZEH-M",

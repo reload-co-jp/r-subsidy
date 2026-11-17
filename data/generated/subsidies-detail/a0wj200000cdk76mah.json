@@ -5,9 +5,7 @@
   "overview": "圧縮天然ガス自動車（ＣＮＧ自動車）導入補助金",
   "detail": "<p><strong style=\"color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><br></p><p>圧縮天然ガス自動車の導入に対して補助します。</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助対象者</strong></p><p><br></p><p>・中小企業者（個人事業者を含む）</p><p><br></p><p>・上記の事業者へリースをするリース事業者</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助対象</strong></p><p><br></p><p>圧縮天然ガス自動車（ＣＮＧ自動車）</p><p><br></p><p>（都内に使用の本拠を置く車両。車両総重量３．５トン以下の車両を除く。）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助要件</strong></p><p><br></p><p>・補助金交付決定を受けた日以降に購入（車検登録）する車両であること。</p><p><br></p><p>・令和9年2月28日までに車両を購入し、都に実績報告書を提出すること。（最終報告期限　令和9年3月31日）</p><p><br></p><p><strong style=\"color: rgb(0, 111, 173);\">■補助額</strong></p><p><br></p><p>車両総重量3.5t超8t以下 100，000円/台</p><p><br></p><p>車両総重量8t超 200，000円/台</p>",
   "region": "tokyo",
-  "prefectures": [
-    "東京都"
-  ],
+  "prefectures": ["東京都"],
   "industries": [
     "漁業",
     "建設業",
@@ -44,10 +42,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "デジタル化"],
   "usePurpose": "設備整備・IT導入をしたい / エコ・SDGs活動支援がほしい",
   "status": "open",
   "workflow": "東京都民間所業者に係る低公害・低燃費車導入促進補助金",

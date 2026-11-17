@@ -41,11 +41,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "研究開発", "デジタル化"],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "「物流効率化に向けた先進的な実証事業」に係る補助事業",

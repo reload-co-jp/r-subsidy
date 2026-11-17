@@ -6,18 +6,12 @@
   "detail": "<p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、2026年度「SBIR推進プログラム（一気通貫型）」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/CA2_100530.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/CA2_100530.html</a></p>",
   "region": "national",
   "prefectures": [],
-  "industries": [
-    "学術研究",
-    "専門・技術サービス業"
-  ],
+  "industries": ["学術研究", "専門・技術サービス業"],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "研究開発",
-    "省エネ"
-  ],
+  "purposes": ["研究開発", "省エネ"],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "P23020_ディープテック・スタートアップ支援基金／SBIR推進プログラム",

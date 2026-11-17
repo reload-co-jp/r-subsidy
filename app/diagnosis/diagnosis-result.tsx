@@ -23,9 +23,12 @@ export default function DiagnosisResult({
   // 診断結果に含まれる実在の業種タグから部分一致するものを探して使う
   const matchedIndustry = results
     .flatMap((r) => r.subsidy.industries)
-    .find((ind) => ind.includes(profile.industry) || profile.industry.includes(ind))
+    .find(
+      (ind) => ind.includes(profile.industry) || profile.industry.includes(ind)
+    )
   const industryLinkable = !!matchedIndustry
-  const comboLinkable = !!matchedIndustry && POPULAR_INDUSTRIES.includes(matchedIndustry)
+  const comboLinkable =
+    !!matchedIndustry && POPULAR_INDUSTRIES.includes(matchedIndustry)
   const grouped: Record<Tier, ScoringResult[]> = {
     strong: [],
     match: [],
@@ -99,7 +102,9 @@ export default function DiagnosisResult({
                 >
                   {tc.label}
                 </span>
-                <span style={{ color: "var(--text-muted)", fontWeight: "normal" }}>
+                <span
+                  style={{ color: "var(--text-muted)", fontWeight: "normal" }}
+                >
                   {grouped[tier].length}件
                 </span>
               </h2>
@@ -152,10 +157,22 @@ export default function DiagnosisResult({
             marginBottom: "1.5rem",
           }}
         >
-          <h2 style={{ color: "var(--text-strong)", fontSize: ".9rem", marginBottom: ".6rem" }}>
+          <h2
+            style={{
+              color: "var(--text-strong)",
+              fontSize: ".9rem",
+              marginBottom: ".6rem",
+            }}
+          >
             条件を保存・共有したい場合
           </h2>
-          <p style={{ color: "var(--text-muted)", fontSize: ".82rem", marginBottom: ".7rem" }}>
+          <p
+            style={{
+              color: "var(--text-muted)",
+              fontSize: ".82rem",
+              marginBottom: ".7rem",
+            }}
+          >
             診断結果はブックマークできません。近い条件の一覧ページはこちらです。
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: ".5rem" }}>

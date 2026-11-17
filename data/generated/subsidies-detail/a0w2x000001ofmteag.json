@@ -11,11 +11,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "省エネ"
-  ],
+  "purposes": ["設備投資", "研究開発", "省エネ"],
   "usePurpose": null,
   "status": "closed",
   "workflow": "水力発電の導入加速化補助金",

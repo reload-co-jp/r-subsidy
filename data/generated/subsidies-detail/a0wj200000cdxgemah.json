@@ -6,19 +6,12 @@
   "detail": "<p><span style=\"font-size: 16px;\">国立研究開発法人新エネルギー・産業技術総合開発機構（NEDO）は、2026年度「木質バイオマス燃料等の安定的・効率的な供給・利用システム構築支援事業」の実施者を広く一般に公募いたします。本件について受託を希望する方は、NEDO HPをご確認いただき御応募ください。</span></p><p><a href=\"https://www.nedo.go.jp/koubo/FF2_100450.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.nedo.go.jp/koubo/FF2_100450.html</a></p>",
   "region": "national",
   "prefectures": [],
-  "industries": [
-    "学術研究",
-    "専門・技術サービス業"
-  ],
+  "industries": ["学術研究", "専門・技術サービス業"],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "研究開発",
-    "省エネ",
-    "デジタル化"
-  ],
+  "purposes": ["研究開発", "省エネ", "デジタル化"],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "P21002_木質バイオマス燃料等の安定的・効率的な供給・利用システム構築支援事業",

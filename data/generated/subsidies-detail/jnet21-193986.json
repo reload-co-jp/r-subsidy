@@ -22,10 +22,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "人材育成",
-    "創業"
-  ],
+  "purposes": ["人材育成", "創業"],
   "usePurpose": "人材育成・雇用、経営改善・経営強化",
   "status": "unknown",
   "workflow": "一般財団法人電源地域振興センター",

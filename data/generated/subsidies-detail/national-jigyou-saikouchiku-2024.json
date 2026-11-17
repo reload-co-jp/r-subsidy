@@ -9,11 +9,7 @@
   "industries": [],
   "employeeMin": null,
   "employeeMax": null,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "販路拡大"
-  ],
+  "purposes": ["設備投資", "研究開発", "販路拡大"],
   "status": "open",
   "workflow": "中小企業庁（中小企業等事業再構築促進事業事務局）",
   "subsidizedRate": "1/2以内（中小企業）、1/3以内（中堅企業）",

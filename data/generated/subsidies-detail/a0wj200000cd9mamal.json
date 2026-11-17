@@ -18,12 +18,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "設備投資",
-    "人材育成",
-    "研究開発",
-    "省エネ"
-  ],
+  "purposes": ["設備投資", "人材育成", "研究開発", "省エネ"],
   "usePurpose": "人材育成を行いたい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "洋上風力発電人材育成事業費補助金（事務局公募）",

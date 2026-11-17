@@ -43,11 +43,7 @@
   "employeeMin": null,
   "employeeMax": 300,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "創業"
-  ],
+  "purposes": ["設備投資", "研究開発", "創業"],
   "usePurpose": "新たな事業を行いたい / 研究開発・実証事業を行いたい / まちづくり・地域振興支援がほしい",
   "status": "closed",
   "workflow": "地域・企業共生型ビジネス導入・創業促進事業補助金",

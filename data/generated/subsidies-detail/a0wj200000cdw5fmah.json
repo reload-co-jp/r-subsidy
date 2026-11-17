@@ -15,19 +15,12 @@
     "神奈川県",
     "山梨県"
   ],
-  "industries": [
-    "製造業"
-  ],
+  "industries": ["製造業"],
   "targetNumberOfEmployees": "従業員数の制約なし",
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "人材育成",
-    "創業",
-    "省エネ"
-  ],
+  "purposes": ["設備投資", "人材育成", "創業", "省エネ"],
   "usePurpose": "エコ・SDGs活動支援がほしい",
   "status": "closed",
   "workflow": "LED照明等節電促進助成金",

@@ -5,9 +5,7 @@
   "overview": "茅野市での起業を応援！地域産業の未来を担う方へ10万円を交付します",
   "detail": "<p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■目的・概要</strong></p><p><span style=\"font-size: 16px;\">茅野市において地域産業の持続的な成長促進を図るため、市内で創業を行い、対象要件を満たす方に対して予算の範囲内で奨励金を交付する制度です。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■応募資格</strong></p><p><span style=\"font-size: 16px;\">特定創業支援等事業による支援を受けた証明書の交付を受け、本年度において茅野市コワーキングスペース「ワークラボ八ヶ岳」、茅野駅前賑わい交流拠点施設を本社所在地として事業を開始した方。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■地理条件</strong></p><p><span style=\"font-size: 16px;\">長野県茅野市内（市内に本社がある、または茅野市コワーキングスペース「ワークラボ八ヶ岳」、茅野駅前賑わい交流拠点施設を本社所在地としていること）</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■備考</strong></p><p><span style=\"font-size: 16px;\">・申請は予算枠に達した場合、受付が終了となります。</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"font-size: 16px;\">茅野市 産業経済部 商工課 工業・産業振興係</span></p><p><span style=\"font-size: 16px;\">電話番号：0266-72-2101（内線：433）</span></p><p><span style=\"font-size: 16px;\">Fax：0266-72-4255</span></p><p><span style=\"font-size: 16px;\">メールアドレス：shoko@city.chino.lg.jp</span></p><p><br></p><p><strong style=\"font-size: 16px; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><a href=\"https://www.city.chino.lg.jp/soshiki/syoukou/sougyou-shien.html\" target=\"_blank\" style=\"font-size: 16px;\">https://www.city.chino.lg.jp/soshiki/syoukou/sougyou-shien.html</a></p>",
   "region": "prefecture",
-  "prefectures": [
-    "長野県"
-  ],
+  "prefectures": ["長野県"],
   "industries": [
     "漁業",
     "建設業",
@@ -45,9 +43,7 @@
   "employeeMin": null,
   "employeeMax": 300,
   "isForSME": true,
-  "purposes": [
-    "創業"
-  ],
+  "purposes": ["創業"],
   "usePurpose": "新たな事業を行いたい",
   "status": "open",
   "workflow": "【長野県茅野市】特定創業者等支援奨励金",

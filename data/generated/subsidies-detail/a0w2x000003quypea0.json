@@ -29,9 +29,7 @@
   "employeeMin": null,
   "employeeMax": 20,
   "isForSME": true,
-  "purposes": [
-    "設備投資"
-  ],
+  "purposes": ["設備投資"],
   "usePurpose": "新たな事業を行いたい / 災害（自然災害、感染症等）支援がほしい",
   "status": "closed",
   "workflow": "小規模事業者持続化補助金",

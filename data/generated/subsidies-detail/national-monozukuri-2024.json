@@ -9,11 +9,7 @@
   "industries": [],
   "employeeMin": null,
   "employeeMax": null,
-  "purposes": [
-    "設備投資",
-    "研究開発",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "研究開発", "デジタル化"],
   "status": "open",
   "workflow": "全国中小企業団体中央会",
   "subsidizedRate": "1/2以内（小規模事業者は2/3以内）",

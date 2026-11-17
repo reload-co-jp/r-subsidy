@@ -5,9 +5,7 @@
   "overview": "GX設備導入補助金",
   "detail": "<p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■概要</strong></p><p><span style=\"font-size: 14px; color: black;\">　</span><span style=\"font-size: 14px;\">石川県産業創出支援機構では、省エネ設備の更新や再エネ設備の導入により、エネルギーコストの削減を図るとともに自社の脱炭素化に向けた取り組みを推進する県内中堅・中小企業者等を支援し、もって県内企業の競争力強化を図ることを目的に、GX（省エネ・再エネ）設備導入支援事業を公募します。</span></p><p><span style=\"font-size: 14px; color: black;\">　制度の詳細については</span><span style=\"font-size: 14px; background-color: rgb(255, 255, 255);\">、下記参照URLをご覧下さい。</span></p><p><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■問合せ先</strong></p><p><span style=\"color: black; font-size: 14px;\">　（公財）石川県産業創出支援機構 企業振興部 設備導入支援課</span></p><p class=\"ql-indent-1\"><span style=\"color: black; font-size: 14px;\"> 〒920-8203　石川県金沢市鞍月2丁目20番地　石川県地場産業振興センター新館1Ｆ</span></p><p class=\"ql-indent-1\"><span style=\"color: black; font-size: 14px;\"> TEL：076-267-1174    E-mail：green@isico.or.jp</span></p><p class=\"ql-indent-1\"><br></p><p><strong style=\"font-size: 14px; color: rgb(0, 111, 173);\">■参照URL</strong></p><p><span style=\"font-size: 14px;\">　</span><span style=\"font-size: 14px; color: rgb(0, 0, 0);\">﻿</span>https://www.isico.or.jp/support/dgnet/d41170660.html</p><p><br></p>",
   "region": "prefecture",
-  "prefectures": [
-    "石川県"
-  ],
+  "prefectures": ["石川県"],
   "industries": [
     "漁業",
     "建設業",
@@ -44,11 +42,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": true,
-  "purposes": [
-    "設備投資",
-    "省エネ",
-    "デジタル化"
-  ],
+  "purposes": ["設備投資", "省エネ", "デジタル化"],
   "usePurpose": "新たな事業を行いたい / 設備整備・IT導入をしたい",
   "status": "closed",
   "workflow": "DX設備導入支援事業",

@@ -44,9 +44,7 @@
   "employeeMin": null,
   "employeeMax": null,
   "isForSME": false,
-  "purposes": [
-    "研究開発"
-  ],
+  "purposes": ["研究開発"],
   "usePurpose": "研究開発・実証事業を行いたい",
   "status": "closed",
   "workflow": "重要鉱物に係るサプライチェーン強靱化事業",
